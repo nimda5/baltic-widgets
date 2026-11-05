@@ -43,8 +43,8 @@ export function widgetData(db, market = 'LV') {
   const meta = JSON.parse(db.prepare("SELECT value FROM metadata WHERE key='stations'").get()?.value || '{}');
   const rows = db.prepare('SELECT json FROM stations WHERE country=? ORDER BY id').all(market).map(s => JSON.parse(s.json));
   const countryName = { LV: 'Latvija', LT: 'Lietuva', EE: 'Igaunija' }[market];
-  const references = Object.fromEntries(['95', '98', 'diesel'].map(f => [f, nationalHistory(db, market, f)]));
-  const keyMap = { '95': 'petrol95', '98': 'petrol98', diesel: 'diesel' };
+  const references = Object.fromEntries(['95', 'diesel'].map(f => [f, nationalHistory(db, market, f)]));
+  const keyMap = { '95': 'petrol95', diesel: 'diesel' };
   const providers = new Map();
   const names = { circle: 'Circle K', virsi: 'Virši', viada: 'Viada', straujupite: 'Straujupīte' };
   const quote = (s, f, p) => {
@@ -61,8 +61,8 @@ export function widgetData(db, market = 'LV') {
     if (!providers.has(name)) providers.set(name, { name, prices: {}, stations: [] });
     const provider = providers.get(name), prices = {};
     for (const [f, key] of Object.entries(keyMap)) prices[key] = quote(s, f, s.prices[f]);
-    if (!Object.values(prices).some(Boolean)) continue;
-    provider.stations.push({ id: s.id, name: s.name, address: s.address, coordinates: s.coordinates, prices });
+    if (!Object.values(prices).some(Boolean)&&!s.directory_id) continue;
+    provider.stations.push({ id: s.id, name: s.name, address: s.address, coordinates: s.coordinates, prices, ...(s.directory_id?{directory_id:s.directory_id,directory_url:s.directory_url,directory_updated_at:s.directory_updated_at,available_fuels:(s.available_fuels||[]).filter(f=>f!=='98')}:{} ) });
     for (const key of Object.values(keyMap)) {
       const p = prices[key];
       // Keep the operator's last published price visible with its date. Old community
@@ -79,6 +79,10 @@ export function widgetData(db, market = 'LV') {
   const fresh = p => p?.freshness === 'recent' && p.source_status === 'ok';
   for (const provider of list) {
     provider.station_count=provider.stations.length;
+    provider.priced_station_count=provider.stations.filter(s=>Object.values(s.prices).some(Boolean)).length;
+    provider.directory_location_count=provider.stations.filter(s=>s.directory_id).length;
+    provider.station_count_scope=provider.directory_location_count?'known_directory_locations':'locations_with_published_prices';
+
     provider.fresh_station_count=provider.stations.filter(s=>Object.values(s.prices).some(fresh)).length;
   }
   let moreProviders=[];

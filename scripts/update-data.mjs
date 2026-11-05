@@ -1,3 +1,4 @@
+import {ensureCollectorState} from '../services/collector-state.mjs';
 import path from 'node:path';
 import {mkdir,writeFile,cp,open,unlink} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
@@ -17,7 +18,7 @@ async function step(name,fn){try{const value=await fn();report[name]=value;for(c
 try{
   initializeElectricity(db);initializeGas(db);initializeMarkets(db);initializeHoroscope(db);
   if(!report.offline){
-    await step('fuel',async()=>{const doc=await collectFuel(path.join(dir,'collector'),undefined,{setExitCode:false});saveStations(db,doc);return{stations:doc.data.length,errors:doc.sources.filter(x=>x.status==='error').map(x=>x.id+': '+x.error)};});
+    await step('fuel',async()=>{await ensureCollectorState(db,path.join(dir,'collector'));const doc=await collectFuel(path.join(dir,'collector'),undefined,{setExitCode:false});saveStations(db,doc);return{stations:doc.data.length,errors:doc.sources.filter(x=>x.status==='error').map(x=>x.id+': '+x.error)};});
     await step('fuel_archive',()=>refreshArchive(db,dir));
     await step('electricity',()=>refreshElectricity(db,Date.now(),{archiveDir:path.join(dir,'archives','electricity')}));
     await step('gas',()=>refreshGas(db,dir));

@@ -9,7 +9,7 @@ export function localized(doc,lang='lv',widget='fuel'){
     result.data.summary_label=labels.minimum;
     result.data.country_name=labels.countries[result.data.country];
     for(const [fuel,series] of Object.entries(result.data.country_history||{})){
-      series.label=`${result.data.country_name} · ${fuel==='diesel'?labels.diesel:fuel==='petrol95'?'95':'98'} · ${labels.national_average}`;
+      series.label=`${result.data.country_name} · ${fuel==='diesel'?labels.diesel:'95'} · ${labels.national_average}`;
       series.source=labels.archive_source;
     }
   }

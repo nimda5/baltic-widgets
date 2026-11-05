@@ -49,7 +49,6 @@
     "gas_basis": "Vairumcena · bez PVN un piegādes maksām",
     "provisional": "Provizoriski",
     "last_published": "Pēdējā publicētā cena",
-    "missing_98": "98 cenas avotā nav norādītas",
     "published_daily": "Katru dienu",
     "previous_published": "Salīdzinājums ar iepriekšējo publicēto vērtību",
     "shared_prices": "Publicētās cenas norādītas augstāk. Pie adresēm — pieejamās degvielas.",
@@ -142,7 +141,12 @@
     "news_preview": "Ziņu priekšskatījums",
     "news_preview_unavailable": "Ziņu priekšskatījums nav pieejams.",
     "horoscope_do": "Dari",
-    "horoscope_dont": "Izvairies"
+    "horoscope_dont": "Izvairies",
+    "directory_count": "{count} vietas katalogā",
+    "priced_count": "{count} vietas ar publicētām cenām, nevis viss tīkls",
+    "directory_coverage": "Katalogā ir {total} vietas; individuālas 95/dīzeļa cenas publicētas {priced} vietām. Pārējo vietu cenas nav zināmas.",
+    "station_search": "Meklēt pēc nosaukuma vai adreses",
+    "station_price_unknown": "Individuālās cenas nav publicētas"
   },
   "ru": {
     "fuel": "Энергия",
@@ -194,7 +198,6 @@
     "gas_basis": "Оптовая цена · без НДС и платы за доставку",
     "provisional": "Предварительно",
     "last_published": "Последняя опубликованная цена",
-    "missing_98": "Источник не публикует цены 98",
     "published_daily": "По дням",
     "previous_published": "Сравнение с предыдущим опубликованным значением",
     "shared_prices": "Опубликованные цены указаны выше. У адресов — доступное топливо.",
@@ -287,7 +290,12 @@
     "news_preview": "Предпросмотр новостей",
     "news_preview_unavailable": "Предпросмотр новостей недоступен.",
     "horoscope_do": "Делай",
-    "horoscope_dont": "Избегай"
+    "horoscope_dont": "Избегай",
+    "directory_count": "{count} точек в каталоге",
+    "priced_count": "{count} точек с опубликованными ценами, а не вся сеть",
+    "directory_coverage": "В каталоге {total} точек; цены 95/дизеля опубликованы для {priced}. Цены остальных точек неизвестны.",
+    "station_search": "Поиск по названию или адресу",
+    "station_price_unknown": "Индивидуальные цены не опубликованы"
   },
   "en": {
     "fuel": "Energy",
@@ -339,7 +347,6 @@
     "gas_basis": "Wholesale · excluding VAT and delivery fees",
     "provisional": "Provisional",
     "last_published": "Last published price",
-    "missing_98": "98 prices are not provided by this source",
     "published_daily": "Daily",
     "previous_published": "Compared with the previous published value",
     "shared_prices": "Published prices are shown above. Available fuels are listed next to each address.",
@@ -432,7 +439,12 @@
     "news_preview": "News preview",
     "news_preview_unavailable": "News preview is unavailable.",
     "horoscope_do": "Do",
-    "horoscope_dont": "Avoid"
+    "horoscope_dont": "Avoid",
+    "directory_count": "{count} known directory locations",
+    "priced_count": "{count} locations with published prices, not the total network size",
+    "directory_coverage": "{total} directory locations; individual 95/diesel prices published for {priced}. Other location prices are unknown.",
+    "station_search": "Find a location by name or address",
+    "station_price_unknown": "Individual prices not published"
   },
   "lt": {
     "fuel": "Energija",
@@ -484,7 +496,6 @@
     "gas_basis": "Didmeninė kaina · be PVM ir pristatymo mokesčių",
     "provisional": "Preliminari",
     "last_published": "Paskutinė paskelbta kaina",
-    "missing_98": "Šaltinis neskelbia 98 kainų",
     "published_daily": "Kasdien",
     "previous_published": "Palyginta su ankstesne paskelbta reikšme",
     "shared_prices": "Paskelbtos kainos pateiktos aukščiau. Prie adresų nurodyti degalai.",
@@ -577,7 +588,12 @@
     "news_preview": "Naujienų peržiūra",
     "news_preview_unavailable": "Naujienų peržiūra nepasiekiama.",
     "horoscope_do": "Daryk",
-    "horoscope_dont": "Venk"
+    "horoscope_dont": "Venk",
+    "directory_count": "{count} vietų kataloge",
+    "priced_count": "{count} vietų su paskelbtomis kainomis, ne visas tinklas",
+    "directory_coverage": "Kataloge yra {total} vietų; 95/dyzelino kainos paskelbtos {priced} vietoms. Kitų vietų kainos nežinomos.",
+    "station_search": "Ieškoti pagal pavadinimą arba adresą",
+    "station_price_unknown": "Individualios kainos nepaskelbtos"
   },
   "et": {
     "fuel": "Energia",
@@ -629,7 +645,6 @@
     "gas_basis": "Hulgihind · ilma käibemaksu ja tarnetasudeta",
     "provisional": "Esialgne",
     "last_published": "Viimane avaldatud hind",
-    "missing_98": "Allikas ei avalda 98 hindu",
     "published_daily": "Iga päev",
     "previous_published": "Võrdlus eelmise avaldatud väärtusega",
     "shared_prices": "Avaldatud hinnad on ülal. Aadresside juures on saadaolevad kütused.",
@@ -722,6 +737,11 @@
     "news_preview": "Uudiste eelvaade",
     "news_preview_unavailable": "Uudiste eelvaade pole saadaval.",
     "horoscope_do": "Tee",
-    "horoscope_dont": "Väldi"
+    "horoscope_dont": "Väldi",
+    "directory_count": "{count} asukohta kataloogis",
+    "priced_count": "{count} avaldatud hindadega asukohta, mitte kogu võrk",
+    "directory_coverage": "Kataloogis on {total} asukohta; 95/diisli hinnad on avaldatud {priced} asukoha kohta. Ülejäänute hinnad pole teada.",
+    "station_search": "Otsi nime või aadressi järgi",
+    "station_price_unknown": "Asukohapõhiseid hindu pole avaldatud"
   }
 }

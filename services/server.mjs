@@ -1,3 +1,4 @@
+import {ensureCollectorState} from './collector-state.mjs';
 import {initializeHoroscope,horoscopeData,calendarDate} from '../parsers/horoscope.mjs';
 import http from 'node:http';
 import {initializeMarkets,refreshMarkets,refreshCommodityArchive,exchangeData} from '../parsers/markets.mjs';
@@ -65,6 +66,7 @@ async function update() {
   try {
     try { await refreshArchive(db, dataDir); } catch (e) { status.errors.push(`archive: ${e.message}`); }
     try {
+      await ensureCollectorState(db,path.join(dataDir,'collector'));
       const doc = await collectFuel(path.join(dataDir, 'collector'), undefined, { setExitCode: false });
       saveStations(db, doc);
       for (const s of doc.sources.filter(s => s.status === 'error')) status.errors.push(`${s.id}: ${s.error}`);

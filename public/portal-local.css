@@ -203,3 +203,8 @@ html[data-input-modality=pointer] #widgets select:focus,html[data-input-modality
 #widgets .horoscope-advice:not(.is-expanded) li{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 #widgets .horoscope-advice:not(.is-expanded) li:nth-child(n+2){display:none}
 #widgets .horoscope-advice.is-expanded li+li{padding-top:6px;border-top:1px solid var(--portal-border-secondary)}
+
+#widgets .station-directory{max-height:280px;overflow-y:auto;overscroll-behavior:contain}
+#widgets .station-coverage{font-size:11px;line-height:1.5;margin:0 0 8px;color:var(--portal-text-secondary)}
+#widgets .station-search{width:100%;padding:7px 9px;margin-bottom:8px;border:1px solid var(--portal-border-secondary);border-radius:5px;background:var(--portal-surface-primary);color:var(--portal-text-primary);font:inherit;font-size:12px}
+#widgets .station-price-unknown{display:block;color:var(--portal-text-secondary);font-size:10px;margin-top:3px}

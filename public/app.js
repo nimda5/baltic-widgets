@@ -106,7 +106,7 @@ function applyPriceTrend(button, current, previous) {
   if (Number.isFinite(current) && Number.isFinite(previous)) button.dataset.trend = current > previous ? 'up' : current < previous ? 'down' : 'flat';
 }
 
-const fuelKeys = ['petrol95', 'petrol98', 'diesel'];
+const fuelKeys = ['petrol95', 'diesel'];
 function fuelCell(quote, label) {
   const cell = element('td', 'price-cell');
   if (!quote || !Number.isFinite(quote.price)) cell.append(element('span', 'unavailable', '—'));
@@ -131,7 +131,7 @@ function fuel(container, data) {
   const table = element('table', 'fuel-table');
   table.setAttribute('aria-label', t('fuel_table','Fuel prices by network, EUR per litre'));
   const head = element('thead'); const header = element('tr');
-  [t('station','Station'), '95', '98', t('diesel','Diesel')].forEach(label => { const th = element('th', '', label); th.scope = 'col';if(label==='98' && data.country==='LT')th.title=t('missing_98','98 prices are not provided by this source'); header.append(th); });
+  [t('station','Station'), '95', t('diesel','Diesel')].forEach(label => { const th = element('th', '', label); th.scope = 'col';header.append(th); });
   head.append(header);
   const body = element('tbody');
   const providerRows=[];
@@ -142,24 +142,30 @@ function fuel(container, data) {
     const button = element('button', 'provider-button', provider.name);
     button.type = 'button'; button.setAttribute('aria-expanded', 'false'); button.setAttribute('aria-controls', `provider-${index}`);
     button.append(icon('right'));
-    if(data.country!=='LV')button.append(element('small','station-count',` ${provider.station_count}`));
+    if(data.country!=='LV'||provider.directory_location_count){const count=element('small','station-count',` ${provider.station_count}`);count.title=t(provider.directory_location_count?'directory_count':'priced_count','Known locations',{count:provider.station_count});button.append(count);}
     const published=Object.values(provider.prices).filter(Boolean);
     if(published.length && published.every(q=>q.freshness==='stale')){const age=element('span','publication-age');age.append(icon('clock'));age.title=t('last_published','Last published price')+' · '+(published[0].observed_date || published[0].observed_at?.slice(0,10) || '');age.setAttribute('aria-label',age.title);button.append(age);}
-    name.append(button); row.append(name, ...fuelKeys.map((key,i) => fuelCell(withReference(provider.prices[key]),`${provider.name} · ${['95','98',t('diesel','Diesel')][i]}`)));
+    name.append(button); row.append(name, ...fuelKeys.map((key,i) => fuelCell(withReference(provider.prices[key]),`${provider.name} · ${['95',t('diesel','Diesel')][i]}`)));
     const detailsRow = element('tr', 'provider-details'); detailsRow.id = `provider-${index}`; detailsRow.hidden = true;
-    const detailsCell = element('td'); detailsCell.colSpan = 4;
+    const detailsCell = element('td'); detailsCell.colSpan = 3;
     if (provider.stations?.length) {
       const sharedPrices=data.country==='LV' && fuelKeys.every(key=>new Set(provider.stations.map(s=>s.prices?.[key]?.price).filter(Number.isFinite)).size<=1);
       const details = element('div', sharedPrices?'station-list addresses-only':'station-list');
+      if(provider.directory_location_count){
+        detailsCell.append(element('p','station-coverage',t('directory_coverage','{total} directory locations; individual prices published for {priced}. Other location prices are unknown.',{total:provider.station_count,priced:provider.priced_station_count})));
+        const search=element('input','station-search');search.type='search';search.placeholder=t('station_search','Find a location by name or address');search.setAttribute('aria-label',search.placeholder);
+        search.addEventListener('input',()=>{const query=search.value.toLocaleLowerCase(locale).trim();for(const row of details.children)if(row.classList.contains('station-detail'))row.hidden=!row.textContent.toLocaleLowerCase(locale).includes(query);});detailsCell.append(search);details.classList.add('station-directory');
+      }
+
       if(sharedPrices)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Available fuels are listed next to each address.')));
-      provider.stations.forEach(station => {
+      [...provider.stations].sort((a,b)=>Number(Object.values(b.prices).some(Boolean))-Number(Object.values(a.prices).some(Boolean))||(a.address||a.name||'').localeCompare(b.address||b.name||'',locale)).forEach(station => {
         const line = element('div', 'station-detail');
         if (station.name && station.name !== provider.name) line.append(element('strong', 'station-name', station.name));
         line.append(element('span', 'station-address', station.address || station.name || provider.name));
         const prices = element('div',sharedPrices?'station-fuel-tags':'station-price-list');
         fuelKeys.forEach((key,i)=>{
-          const quote=withReference(station.prices?.[key]), label=['95','98',t('diesel','Diesel')][i];
-          if(sharedPrices){if(Number.isFinite(quote?.price))prices.append(element('span','station-fuel-tag',label));return;}
+          const quote=withReference(station.prices?.[key]), label=['95',t('diesel','Diesel')][i];
+          if(sharedPrices){if(Number.isFinite(quote?.price)||station.available_fuels?.includes(key==='petrol95'?'95':key))prices.append(element('span','station-fuel-tag',label));return;}
           const item=element('span','station-quote'); item.append(element('span','station-fuel-label',label));
           if(Number.isFinite(quote?.price)) {
             const trigger = priceButton(quote,{label:`${station.name} · ${label}`,unit:'EUR/l'});
@@ -173,6 +179,7 @@ function fuel(container, data) {
         });
         const dates = Object.values(station.prices || {}).filter(Boolean).map(q => q.observed_date || q.observed_at?.slice(0,10)).filter(Boolean);
         const old = Object.values(station.prices || {}).some(q => q?.freshness === 'stale');
+        if(station.directory_id&&!Object.values(station.prices).some(Boolean))line.append(element('small','station-price-unknown',t('station_price_unknown','Individual prices not published')));
         line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · '+t('stale_station_prices','Some prices are outdated') : ''}`)); details.append(line);
       });
       detailsCell.append(details);

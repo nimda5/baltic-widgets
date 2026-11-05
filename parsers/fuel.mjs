@@ -1,3 +1,4 @@
+import {mergeCircleDirectory,circleDirectoryURL} from './circle-directory.mjs';
 import { load } from 'cheerio';
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename, open, unlink } from 'node:fs/promises';
@@ -44,12 +45,14 @@ export function normalize(source, records, now) {
   if (!records.length) throw new Error(`${source}: no records parsed`);
   const stations = new Map();
   for (const r of records) {
+    if(r.fuel==='98')continue;
     if (!r.address && !r.id) throw new Error('Station identity missing');
     const id = `${source}:${r.id ?? hash(`${r.country}|${r.brand}|${r.address}`)}`;
     if (!stations.has(id)) stations.set(id, {
       id, country: r.country, brand: r.brand, name: r.name || r.brand,
       address: r.address || null, coordinates: coords(r.lat, r.lon),
       source, source_url: urls[source], prices: {},
+      ...(r.directory_id?{directory_id:r.directory_id,directory_url:r.directory_url,directory_updated_at:now,available_fuels:r.available_fuels||[]}:{}),
     });
     if (!r.fuel || r.value == null) continue;
     const p = {
@@ -233,6 +236,11 @@ async function collect(source) {
     if (!version || country !== '1') throw new Error('FuelEst public client changed');
     return parseFuelest(JSON.parse(await request(new URL(`/Home/GetPageData?countryId=${country}`, urls.fuelest), { 'X-version': version })), home);
   }
+  if(source==='circle'){
+    const records=parseCircle(await request(urls.circle));
+    try{return mergeCircleDirectory(records,await request(circleDirectoryURL));}
+    catch{console.error('circle: directory unavailable; keeping published prices and cached locations');return records;}
+  }
   if (source === 'viada') {
     const records = parseViada(await request(urls.viada));
     // Exact address match only; locator failure must not discard valid prices.
@@ -268,6 +276,9 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
       try {
         const fresh = normalize(source, await collect(source), now);
         const previous = new Map(stations.filter(s => s.source === source).map(s => [s.id, s]));
+        const directoryLive=source==='circle'&&fresh.some(s=>s.directory_id);
+        if(source==='circle'&&!directoryLive){const ids=new Set(fresh.map(s=>s.id));for(const station of fresh){const old=previous.get(station.id);if(old?.directory_id)Object.assign(station,{directory_id:old.directory_id,directory_url:old.directory_url,directory_updated_at:old.directory_updated_at,available_fuels:old.available_fuels,coordinates:station.coordinates||old.coordinates,name:old.name});}for(const old of previous.values())if(old.directory_id&&!ids.has(old.id))fresh.push({...old,prices:{}});}
+
         for (const s of fresh) for (const [fuel, p] of Object.entries(s.prices)) {
           const before = previous.get(s.id)?.prices[fuel];
           const history = (before?.history || []).filter(h => Date.parse(h.at) >= Date.parse(now) - 90 * 86400000);
@@ -277,6 +288,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
         }
         stations = [...stations.filter(s => s.source !== source), ...fresh];
         statuses.set(source, { id: source, status: 'ok', last_success_at: now, station_count: fresh.length,
+          ...(source==='circle'?{directory_status:directoryLive?'ok':fresh.some(s=>s.directory_id)?'cached':'unavailable',directory_location_count:fresh.filter(s=>s.directory_id).length}:{}),
           attribution: source === 'fuelest' ? 'FuelEst.ee — community reports' : source === 'lea' ? 'LEA, degalais prekiaujančios įmonės' : source });
       } catch (e) {
         const prior = statuses.get(source);
@@ -285,6 +297,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
         console.error(`${source}: ${e.message}`);
       }
     }
+    for(const station of stations){delete station.prices['98'];if(station.available_fuels)station.available_fuels=station.available_fuels.filter(f=>f!=='98');}
     // Recompute old values too: a failed source must not retain a 'recent' flag forever.
     for (const s of stations) for (const p of Object.values(s.prices)) p.freshness = freshness(p.observed_at, p.observed_date, now);
     const doc = { schema_version: 1, updated_at: now, demo: false, source: 'Baltic station collectors',

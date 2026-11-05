@@ -84,7 +84,7 @@ Replace `en` with the desired language. GitHub Pages does not process API query 
 
 ## Data sources and history
 
-Fuel uses published LV operator prices, LEA in LT, and FuelEst in EE. Missing 98-octane prices are not inferred. The European Commission provides weekly national averages from 2005, kept separate from individual station prices. Electricity uses Elering/Nord Pool history: LT from 2012 and LV/EE from 2013. Natural gas uses regional EEX NGP prices and a separate monthly European benchmark from the World Bank. Long EUR charts use historical ECB exchange rates from 1999; different indices are not merged.
+Fuel uses published LV operator prices, LEA in LT, and FuelEst in EE. Widget feeds publish 95-octane petrol and diesel only. The European Commission provides weekly national averages from 2005, kept separate from individual station prices. Electricity uses Elering/Nord Pool history: LT from 2012 and LV/EE from 2013. Natural gas uses regional EEX NGP prices and a separate monthly European benchmark from the World Bank. Long EUR charts use historical ECB exchange rates from 1999; different indices are not merged.
 
 Currencies use ECB history from 1999; gold uses NBP from 2013 and a separate monthly World Bank series; Bitcoin uses Coin Metrics from 2010. Actual coverage depends on the source and the retained database.
 
@@ -113,3 +113,9 @@ The Node API accepts `mood=serious|humor|random` and `variant=0|1|2|random`; the
 ## Horoscope editorial policy
 
 Before authoring or changing horoscope copy, read [HOROSCOPE_EDITORIAL_RULES.md](HOROSCOPE_EDITORIAL_RULES.md). The rules cover grammar in every authored language, separate subjects for Do and Avoid, semantic non-mirroring, humour, and variation. The shared `validateAdvice` gate in `parsers/horoscope-policy.mjs` runs before caching and must also validate any future model/API output. Schema validation does not replace review of meaning.
+
+## Station directory coverage
+
+Circle K LV locations come from the official public station directory. Individual prices are attached only by exact normalized address matches to the operator’s price page. Other locations retain addresses and coordinates without invented prices. The directory can include retail locations with no fuel availability listed; its count is a location count, not a claim about pump count.
+
+`station_count_scope` distinguishes known directory locations from locations with published prices. `priced_station_count` counts locations with a displayed 95/diesel quote. The expanded directory includes coverage information and address search. A cached directory is retained if a later directory fetch fails. Existing private archives are preserved; 98-octane quotes are excluded from published widget/collector output.
