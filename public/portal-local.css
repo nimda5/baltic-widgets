@@ -185,3 +185,10 @@ body{background:var(--portal-bg-primary);color:var(--portal-text-primary)}
 
 #fuel-content{container-type:inline-size;container-name:energy-data}
 @container energy-data (max-width:380px){#widgets .energy-quotes .electricity{flex-direction:column;align-items:flex-start;gap:2px}#widgets .energy-quotes .electricity-price{margin-left:0}}
+
+/* Native popup controls must use the selected portal theme, including Windows Chrome. */
+html[data-bs-theme=dark] select{color-scheme:dark}
+html[data-bs-theme=light] select{color-scheme:light}
+#widgets select option,#widgets select optgroup,.price-dialog select option,.price-dialog select optgroup{background:var(--portal-surface-primary);color:var(--portal-text-primary)}
+#widgets select:focus-visible,.price-dialog select:focus-visible{outline:2px solid var(--portal-text-secondary);outline-offset:3px;box-shadow:none}
+html[data-input-modality=pointer] #widgets select:focus,html[data-input-modality=pointer] .price-dialog select:focus{outline:none!important;box-shadow:none!important}

@@ -1,6 +1,10 @@
 import {zodiacPaths} from './zodiac-icons.js';
 import { priceButton } from './charts.js';
 import { currentZodiac } from './zodiac.js';
+// Track input method because native selects can match :focus-visible after a mouse click.
+document.documentElement.dataset.inputModality='keyboard';
+document.addEventListener('pointerdown',()=>{document.documentElement.dataset.inputModality='pointer';},true);
+document.addEventListener('keydown',event=>{if(!['Shift','Control','Alt','Meta'].includes(event.key))document.documentElement.dataset.inputModality='keyboard';},true);
 const requestedLang=new URLSearchParams(location.search).get('lang') || 'lv';
 const lang=['lv','lt','et','ru','en'].includes(requestedLang)?requestedLang:'en';
 let labels={};
