@@ -30,6 +30,10 @@ export function saveStations(db, doc) {
         quote.run(s.id, fuel, p.fetched_at, p.value, p.unit, p.observed_at || p.observed_date);
       }
     }
+    for(const s of Object.values(doc.network_quotes||{}))for(const [fuel,p] of Object.entries(s.prices)){
+      for(const h of p.history||[])quote.run(s.id,fuel,h.at,h.value,p.unit,null);
+      quote.run(s.id,fuel,p.fetched_at,p.value,p.unit,p.observed_at||p.observed_date);
+    }
     db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run('stations', JSON.stringify({ ...doc, data: undefined }));
     db.exec('COMMIT');
   } catch (e) { db.exec('ROLLBACK'); throw e; }
@@ -46,12 +50,12 @@ export function widgetData(db, market = 'LV') {
   const references = Object.fromEntries(['95', 'diesel'].map(f => [f, nationalHistory(db, market, f)]));
   const keyMap = { '95': 'petrol95', diesel: 'diesel' };
   const providers = new Map();
-  const names = { circle: 'Circle K', virsi: 'Virši', viada: 'Viada', straujupite: 'Straujupīte' };
+  const names = { circle: 'Circle K', virsi: 'Virši', viada: 'Viada', straujupite: 'Straujupīte', kool:'KOOL', neste:'Neste', rietumu:'Rietumu Nafta' };
   const quote = (s, f, p) => {
     if (!p || p.unit !== 'L') return null;
     const history = db.prepare('SELECT at,value FROM station_prices WHERE station_id=? AND fuel=? ORDER BY at').all(s.id, f);
     const previous = history.length > 1 ? history.at(-2).value : null;
-    return { price: p.value, previous, history, scope: 'station', source: s.source, source_url: s.source_url,
+    return { price: p.value, previous, history, scope: p.scope || 'station', source: s.source, source_url: s.source_url,
       observed_at: p.observed_at, observed_date: p.observed_date, freshness: p.freshness,
       source_status: meta.sources?.find(x => x.id === s.source)?.status || 'unknown', evidence: p.evidence,
       reference_key: keyMap[f] };
@@ -75,6 +79,15 @@ export function widgetData(db, market = 'LV') {
       }
     }
   }
+  for(const network of Object.values(meta.network_quotes||{})){
+    if(network.country!==market)continue;
+    const provider=providers.get(names[network.source]||network.brand);if(!provider)continue;
+    for(const [f,key] of Object.entries(keyMap)){
+      const p=quote(network,f,network.prices[f]);
+      if(p&&p.source_status==='ok')provider.prices[key]={...p,scope:'network_published_minimum'};
+    }
+    provider.has_network_prices=true;
+  }
   let list = [...providers.values()].filter(p => p.stations.length);
   const fresh = p => p?.freshness === 'recent' && p.source_status === 'ok';
   for (const provider of list) {
@@ -86,14 +99,14 @@ export function widgetData(db, market = 'LV') {
     provider.fresh_station_count=provider.stations.filter(s=>Object.values(s.prices).some(fresh)).length;
   }
   let moreProviders=[];
-  if (market !== 'LV') {
+  if (market !== 'LV'||list.length>5) {
     list.sort((a,b)=>b.station_count-a.station_count || a.name.localeCompare(b.name));
-    const primary=list.filter(p=>p.fresh_station_count>0).slice(0,5);
+    const primary=list.filter(p=>market==='LV'?Object.values(p.prices).some(Boolean):p.fresh_station_count>0).slice(0,5);
     moreProviders=list.filter(p=>!primary.includes(p));
     list=primary;
-    for(const p of list)p.prices=Object.fromEntries(Object.entries(p.prices).filter(([,q])=>fresh(q)));
+    if(market!=='LV')for(const p of list)p.prices=Object.fromEntries(Object.entries(p.prices).filter(([,q])=>fresh(q)));
   } else list.sort((a,b)=>a.name.localeCompare(b.name));
   const countryHistory = Object.fromEntries(Object.entries(keyMap).map(([f, k]) => [k, { history: references[f], label: `${countryName} · ${f === 'diesel' ? 'Dīzelis' : f} · vidējā cena valstī`, source: 'Eiropas Komisija · nedēļas dati, ar nodokļiem' }]));
   return { schema_version: 1, updated_at: meta.updated_at || new Date().toISOString(), source: 'Operatoru publicētās cenas, LEA, FuelEst; vēsture: Eiropas Komisija', demo: false,
-    data: { country: market, country_name: countryName, unit: 'EUR/l', summary_label: 'Zemākās pieejamās cenas atlasītajās DUS', providers: list, more_providers:moreProviders, ranking:market==='LV'?'name':'station_count_desc_fresh_only_top5', country_history: countryHistory, sources: meta.sources || [] } };
+    data: { country: market, country_name: countryName, unit: 'EUR/l', summary_label: 'Zemākās pieejamās cenas atlasītajās DUS', providers: list, more_providers:moreProviders, ranking:market==='LV'?(moreProviders.length?'station_count_desc_priced_top5':'name'):'station_count_desc_fresh_only_top5', country_history: countryHistory, sources: meta.sources || [] } };
 }

@@ -36133,6 +36133,1156 @@
     },
     {
       "type": "Feature",
+      "id": "kool:02a07e215f30705785ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9330255,
+          56.8836937
+        ]
+      },
+      "properties": {
+        "id": "kool:02a07e215f30705785ad",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Jaunmārupe, Mazcenu aleja 20B",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "4a59dcff3e419267650c",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:04c1dc63604621914427",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7373615,
+          56.529339
+        ]
+      },
+      "properties": {
+        "id": "kool:04c1dc63604621914427",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Latgales iela 255, Ludza",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "a12ba1c92b28f25f35d5",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:06d166fb5d1b90bd01d3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9174889,
+          56.9551389
+        ]
+      },
+      "properties": {
+        "id": "kool:06d166fb5d1b90bd01d3",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Piņķi 2, Babītes pag.",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "79e698bfb39179598e8b",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:0a987157191160d077f4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0539261,
+          56.4819114
+        ]
+      },
+      "properties": {
+        "id": "kool:0a987157191160d077f4",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Bēne, Jelgavas iela 1B",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "c618b54ecdf020b3603a",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:0d26cf18acb8dfdab840",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6308762,
+          56.7946619
+        ]
+      },
+      "properties": {
+        "id": "kool:0d26cf18acb8dfdab840",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Ogre, Daugavpils iela 45",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "bbdfefc9e73cd9d64f87",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:0d93575b4a346d6a69eb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.367235,
+          56.9126763
+        ]
+      },
+      "properties": {
+        "id": "kool:0d93575b4a346d6a69eb",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Saurieši, \"Lielceļi\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "1cdba28f8836fb8daa42",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:1232950d4e5592ce58c4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3125282,
+          57.094256
+        ]
+      },
+      "properties": {
+        "id": "kool:1232950d4e5592ce58c4",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Ādaži, Rīgas gatve 69",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "0602acb847fa47a6feae",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:12a7f43209d56761fc01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.578588,
+          57.2637625
+        ]
+      },
+      "properties": {
+        "id": "kool:12a7f43209d56761fc01",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Talsi, Valdgales pag.",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "02860caaafc2350fcfad",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:12ac64d023dab6446580",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9185034,
+          56.9555925
+        ]
+      },
+      "properties": {
+        "id": "kool:12ac64d023dab6446580",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "\"Brekši\", Jūrmalas šoseja",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "b380e343efb1ffabb440",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:1bf8e7a7250c119b0eab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0260834,
+          56.7629348
+        ]
+      },
+      "properties": {
+        "id": "kool:1bf8e7a7250c119b0eab",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Lēdmane, \"Mana puse\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "6af999f5298c50d18a6a",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:1fe73cb028d6ab1347da",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2287466,
+          56.8608844
+        ]
+      },
+      "properties": {
+        "id": "kool:1fe73cb028d6ab1347da",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Saules iela 46, Madona",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "2ab0fe7598bea4c278cb",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:2e05673acaed6afa47e7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6713629,
+          57.6255731
+        ]
+      },
+      "properties": {
+        "id": "kool:2e05673acaed6afa47e7",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Rīgas iela 35, Strenči",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "7e658428b2c0628affb4",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:3012afcc94c4de59b6f4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0298237,
+          57.1817076
+        ]
+      },
+      "properties": {
+        "id": "kool:3012afcc94c4de59b6f4",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Līgatne, \"Vigo\" Augšlīgatne",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "07e32cd42c8627dbae06",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:31d19ae5300918f902a3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7531077,
+          56.6020655
+        ]
+      },
+      "properties": {
+        "id": "kool:31d19ae5300918f902a3",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Varakļāni, Zemgales iela 35",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "8c67d199b40181c062c3",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:324b6b226a22d1df5017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3233434,
+          57.8981062
+        ]
+      },
+      "properties": {
+        "id": "kool:324b6b226a22d1df5017",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Rūjiena, Ganību iela 11",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "3bdee5730180289527e8",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:37c2003a2f00d6081473",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0123575,
+          56.4638178
+        ]
+      },
+      "properties": {
+        "id": "kool:37c2003a2f00d6081473",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Liepāja 3, Brīvības iela 174",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "52435324270b3bd00343",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:44f86bf03d9a979651e4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9168464,
+          56.9346235
+        ]
+      },
+      "properties": {
+        "id": "kool:44f86bf03d9a979651e4",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "\"Vēja ziedi\", Piņķi",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "20ad223543f91633b458",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:4ce6da4e9f80d638decc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2466685,
+          57.1414762
+        ]
+      },
+      "properties": {
+        "id": "kool:4ce6da4e9f80d638decc",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Balvi, Stacijas iela 32",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "a6131e66df39a29ea0b0",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:51605fda47462ec1a2f8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6490215,
+          56.8990544
+        ]
+      },
+      "properties": {
+        "id": "kool:51605fda47462ec1a2f8",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Piebalgas 2, Ērgļi",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "a143fccf03ebbe938f66",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:52174c3d7c883b668b4f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7912591,
+          56.9241097
+        ]
+      },
+      "properties": {
+        "id": "kool:52174c3d7c883b668b4f",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Zemīte, \"Gotika Auto\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "927f42d147e049ef52e2",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:55294266924af487b9d0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1824699,
+          56.9332523
+        ]
+      },
+      "properties": {
+        "id": "kool:55294266924af487b9d0",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Dārzciema iela 127",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "88ff02d189b198bf550a",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:5ec71c3ead860b468af6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5179584,
+          55.8817497
+        ]
+      },
+      "properties": {
+        "id": "kool:5ec71c3ead860b468af6",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Stacijas iela 66, Daugavpils",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "1be4c22ed25d2ef2412b",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:5ee704083620b519ee4a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2153065,
+          56.9527541
+        ]
+      },
+      "properties": {
+        "id": "kool:5ee704083620b519ee4a",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Dzelzavas iela 116",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "6781b3fd194d14f9cdb0",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:5fdae3fe781b41d6125b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8690165,
+          57.7579512
+        ]
+      },
+      "properties": {
+        "id": "kool:5fdae3fe781b41d6125b",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Aloja, \"Ceļinieki\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "8f3148f6f00ed457eb0f",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:6156190c96ac4ff904c6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.635225,
+          56.9565439
+        ]
+      },
+      "properties": {
+        "id": "kool:6156190c96ac4ff904c6",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Jūrmala, Talsu šoseja 1",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "038571dba82029ef2923",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:6e520e3911db3af2f2d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.826873,
+          56.7164792
+        ]
+      },
+      "properties": {
+        "id": "kool:6e520e3911db3af2f2d5",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Laimdotas iela 23, Lielvārde",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "0981a8aa68f78c1ed891",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:7abe2b14ece7ee2dafd3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.522456,
+          56.091062
+        ]
+      },
+      "properties": {
+        "id": "kool:7abe2b14ece7ee2dafd3",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Dagda, Daugavpils iela 18",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "27e5851b86e5621b43dd",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:86fd2e6996084a365ec9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.626024,
+          57.397764
+        ]
+      },
+      "properties": {
+        "id": "kool:86fd2e6996084a365ec9",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Ventspils 1, Durbes iela 29",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "c035ebd37652fd91ac3a",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:8d736f3296c27e8b1d49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.069224,
+          56.5360568
+        ]
+      },
+      "properties": {
+        "id": "kool:8d736f3296c27e8b1d49",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Liepāja 2 , Klaipēdas Šoseja, Nīca",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "b0980780749e166aed97",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:9080931d732ffa6eead7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8244167,
+          56.5299722
+        ]
+      },
+      "properties": {
+        "id": "kool:9080931d732ffa6eead7",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "\"Zvidzāni\", Krustpils pag., Jēkabpils nov.",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "d10f4c6aaa422a124650",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:9ea5478c2d9c509de709",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6649922,
+          57.1606555
+        ]
+      },
+      "properties": {
+        "id": "kool:9ea5478c2d9c509de709",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Taurene, \"DUS Nēķins\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "da5170db741a743aa947",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:9f2957f78c7e094ae010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9812715,
+          56.6680957
+        ]
+      },
+      "properties": {
+        "id": "kool:9f2957f78c7e094ae010",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "\"Grantskalni\", Skrunda",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "1a1464b7774cf37b92b6",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:a83a6159c2dcc43e6830",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7076822,
+          56.9056419
+        ]
+      },
+      "properties": {
+        "id": "kool:a83a6159c2dcc43e6830",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Lubāna, Stacijas iela 16",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "aa99073ded649ac69acb",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:b1d021d1773ee33d1195",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6375424,
+          56.9697621
+        ]
+      },
+      "properties": {
+        "id": "kool:b1d021d1773ee33d1195",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Ropaži, Ropažu pag.",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "a812975279be148eec80",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:be1420ac8cdb9ad6b284",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6208421,
+          57.329946
+        ]
+      },
+      "properties": {
+        "id": "kool:be1420ac8cdb9ad6b284",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Rauna, Smiltenes iela 17",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "d8742081dc80e2198343",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:c4690b6c78bbf5b33ac2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0756729,
+          56.8062652
+        ]
+      },
+      "properties": {
+        "id": "kool:c4690b6c78bbf5b33ac2",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Sauleskalna iela 2, Sauleskalns",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "e828ab5b2aaeee63b8b0",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:c8dd58cb009d34cbeafa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0395509,
+          56.840819
+        ]
+      },
+      "properties": {
+        "id": "kool:c8dd58cb009d34cbeafa",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Vaski, \"DUS Abava\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "4843af1a493ce94d1220",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:c9ac66ba22fc363c4495",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2857514,
+          57.0023379
+        ]
+      },
+      "properties": {
+        "id": "kool:c9ac66ba22fc363c4495",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Berģi, Garkalnes pag.",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "90ef03643bdfdd650095",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:d0a5e8d0b1b2254c34d0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1725469,
+          57.246966
+        ]
+      },
+      "properties": {
+        "id": "kool:d0a5e8d0b1b2254c34d0",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Usma, \"Ausmas\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "470a9b14e1a9ff596e3c",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:d6297c13afc1ee4dc30e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3401944,
+          57.5133195
+        ]
+      },
+      "properties": {
+        "id": "kool:d6297c13afc1ee4dc30e",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Kocēni, \"Mežābeles\"",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "7485c03dc4da575c21f8",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:d6833dc79b602b5c75da",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3531205,
+          56.5155129
+        ]
+      },
+      "properties": {
+        "id": "kool:d6833dc79b602b5c75da",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Rēzekne 2, Jupatovkas iela 4",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "b5efcef8240ef5167ddb",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:e3b4f4a5e8d0015f8296",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.869652,
+          57.1486002
+        ]
+      },
+      "properties": {
+        "id": "kool:e3b4f4a5e8d0015f8296",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Sigulda, Siguldas nov.",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "3b0b6c3eacde19fbab08",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:eaef33301d55baf7f921",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1796069,
+          56.3390972
+        ]
+      },
+      "properties": {
+        "id": "kool:eaef33301d55baf7f921",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Līvāni, Rīgas iela 1",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "caaf33e19804e4174f6a",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:f0e6a1d432169be2cfd8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7508481,
+          57.1817171
+        ]
+      },
+      "properties": {
+        "id": "kool:f0e6a1d432169be2cfd8",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Miera iela 15a, Gulbene",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "7a4eecf038f68a9941a2",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:f393cd483cc51f340cc7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0306527,
+          57.7904747
+        ]
+      },
+      "properties": {
+        "id": "kool:f393cd483cc51f340cc7",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Rūjienas iela 31, Valka",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "6830f86575dd41834ee0",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kool:fd945b2f73a3b2d659b4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3205639,
+          56.5191984
+        ]
+      },
+      "properties": {
+        "id": "kool:fd945b2f73a3b2d659b4",
+        "country": "LV",
+        "brand": "KOOL",
+        "name": "KOOL",
+        "address": "Rīgas iela 47, Rēzekne",
+        "source": "kool",
+        "source_url": "https://kool.lv/",
+        "prices": {},
+        "directory_id": "d9b21b09859bec472377",
+        "directory_url": "https://kool.lv/7/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
       "id": "lea:003b7d2d7f0fcae4c167",
       "geometry": {
         "type": "Point",
@@ -98180,6 +99330,1931 @@
     },
     {
       "type": "Feature",
+      "id": "neste:029faf6450e56d8341c1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.56281,
+          56.86014
+        ]
+      },
+      "properties": {
+        "id": "neste:029faf6450e56d8341c1",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Tīnūži",
+        "address": "Baroni, Tīnūžu pagasts, Ogres Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9276",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:0818b20021d762d3b10d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.33393,
+          56.85145
+        ]
+      },
+      "properties": {
+        "id": "neste:0818b20021d762d3b10d",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Salaspils",
+        "address": "Zviedru iela 1c, Salaspils Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9260",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:093c076d9aa78895c4f0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.11541,
+          56.97994
+        ]
+      },
+      "properties": {
+        "id": "neste:093c076d9aa78895c4f0",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ganību",
+        "address": "Rankas iela 2, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9220",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:09ae0ef53ca2229eebdf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.03412,
+          56.93104
+        ]
+      },
+      "properties": {
+        "id": "neste:09ae0ef53ca2229eebdf",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Lielirbes",
+        "address": "Lielirbes iela 30, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9218",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:0cee1b741edd12741b7e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.17458,
+          56.95096
+        ]
+      },
+      "properties": {
+        "id": "neste:0cee1b741edd12741b7e",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Deglava",
+        "address": "Augusta Deglava iela 51a, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9227",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:12914136246dbeee7131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.47704,
+          56.68304
+        ]
+      },
+      "properties": {
+        "id": "neste:12914136246dbeee7131",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Saldus I",
+        "address": "Apvedcelš 5, Saldus Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9259",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:14e0bf56db12ce281e32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.58279,
+          57.38748
+        ]
+      },
+      "properties": {
+        "id": "neste:14e0bf56db12ce281e32",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ventspils",
+        "address": "Lāčplēša iela 1, Ventspils Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9289",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:17798682810146a1ee06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27875,
+          57.31571
+        ]
+      },
+      "properties": {
+        "id": "neste:17798682810146a1ee06",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Cēsis I",
+        "address": "Valmieras iela 4, Cesu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9231",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:1986d0ee2bb188e2904f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.13813,
+          56.94077
+        ]
+      },
+      "properties": {
+        "id": "neste:1986d0ee2bb188e2904f",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Katoļu",
+        "address": "Katoļu iela 4, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9273",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:1c90d5643f87a20b944c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.15442,
+          56.92993
+        ]
+      },
+      "properties": {
+        "id": "neste:1c90d5643f87a20b944c",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Krasta",
+        "address": "Krasta iela 68, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9214",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:1d46bf6df32320982dc8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.18827,
+          56.40671
+        ]
+      },
+      "properties": {
+        "id": "neste:1d46bf6df32320982dc8",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Bauska I",
+        "address": "Pionieru iela 2, Bauska, Bauskas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9244",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:1ef5ce1ee853b654d6d7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.09076,
+          56.67283
+        ]
+      },
+      "properties": {
+        "id": "neste:1ef5ce1ee853b654d6d7",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Annenieki",
+        "address": "Gaismiņas, Annenieku pagasts, Dobeles Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9280",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:23dbc686e1d439e94ff8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.947,
+          56.79147
+        ]
+      },
+      "properties": {
+        "id": "neste:23dbc686e1d439e94ff8",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Olaine",
+        "address": "Zemgales iela 1a, Olaines Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9270",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:2a2a153309ce3242c3cd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.70417,
+          56.66459
+        ]
+      },
+      "properties": {
+        "id": "neste:2a2a153309ce3242c3cd",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jelgava DP",
+        "address": "Meiju celš 62, Jelgavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9237",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:2dfa79650b858e78c891",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.18403,
+          56.95752
+        ]
+      },
+      "properties": {
+        "id": "neste:2dfa79650b858e78c891",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Dzelzavas",
+        "address": "Dzelzavas iela 60, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9283",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:2e39c418b25756dab1f8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.23099,
+          56.9591
+        ]
+      },
+      "properties": {
+        "id": "neste:2e39c418b25756dab1f8",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Biķernieku",
+        "address": "Biķernieku iela 115a, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9226",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:2f04fba9bad5dd8f0598",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.54248,
+          55.87983
+        ]
+      },
+      "properties": {
+        "id": "neste:2f04fba9bad5dd8f0598",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Daugavpils I",
+        "address": "Smilšu iela 32, Augšdaugavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9247",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:2f0e473721b4d55293ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.24655,
+          56.91262
+        ]
+      },
+      "properties": {
+        "id": "neste:2f0e473721b4d55293ad",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Granīta DP",
+        "address": "Granīta iela 26, Stopiņu pagasts, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9278",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:35f35308613b19f26783",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9578,
+          56.96648
+        ]
+      },
+      "properties": {
+        "id": "neste:35f35308613b19f26783",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Kuldīga",
+        "address": "Sūru iela 3, Kuldigas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9252",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:376215e1595c59b3edd3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.34765,
+          56.53497
+        ]
+      },
+      "properties": {
+        "id": "neste:376215e1595c59b3edd3",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Rēzekne DP",
+        "address": "Atbrīvošanas aleja 167c, Rezeknes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9274",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:3d246517a6c964125a3f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.99142,
+          56.95326
+        ]
+      },
+      "properties": {
+        "id": "neste:3d246517a6c964125a3f",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Kuldīga DP",
+        "address": "Graudu iela 19, Kuldigas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9267",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:46d6912758f2ebc2229a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.18391,
+          56.93089
+        ]
+      },
+      "properties": {
+        "id": "neste:46d6912758f2ebc2229a",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Lubānas",
+        "address": "Lubānas iela 64, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9212",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:48c04e19d3135e128711",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.33721,
+          56.51644
+        ]
+      },
+      "properties": {
+        "id": "neste:48c04e19d3135e128711",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Rēzekne",
+        "address": "Atbrīvošanas aleja 146, Rezeknes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9239",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:49186655e5047c12ad18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.12586,
+          56.94775
+        ]
+      },
+      "properties": {
+        "id": "neste:49186655e5047c12ad18",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Dzirnavu",
+        "address": "Dzirnavu iela 127, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9228",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:529c885121bb4e4e364b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.69077,
+          56.65198
+        ]
+      },
+      "properties": {
+        "id": "neste:529c885121bb4e4e364b",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jelgava II",
+        "address": "Atmodas iela 21b, Jelgavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9257",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:5514d9bbc70b6748fd5e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3202,
+          57.07049
+        ]
+      },
+      "properties": {
+        "id": "neste:5514d9bbc70b6748fd5e",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ādaži",
+        "address": "Rīgas gatve 5a, Ādaži, Adažu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9261",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:5c7ba3dd4f580db0ff96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.58246,
+          57.2433
+        ]
+      },
+      "properties": {
+        "id": "neste:5c7ba3dd4f580db0ff96",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Talsi",
+        "address": "Dundagas iela 1, Talsu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9251",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:66f0b1d930ddbc47ad00",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75404,
+          56.62824
+        ]
+      },
+      "properties": {
+        "id": "neste:66f0b1d930ddbc47ad00",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jelgava III",
+        "address": "Miera iela 18, Jelgavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9287",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:6706e6cd23f44eb2c4fa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.87573,
+          56.49331
+        ]
+      },
+      "properties": {
+        "id": "neste:6706e6cd23f44eb2c4fa",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jēkabpils I",
+        "address": "Vienības iela 1e, Jekabpils Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9240",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:6deb786b82ddb8753caa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.44288,
+          57.55538
+        ]
+      },
+      "properties": {
+        "id": "neste:6deb786b82ddb8753caa",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Valmiera III",
+        "address": "Valdeko, Valmiermuiža, Valmieras Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9277",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:7415bbd5b63bfbf94bca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5147,
+          56.61102
+        ]
+      },
+      "properties": {
+        "id": "neste:7415bbd5b63bfbf94bca",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Vecumnieki",
+        "address": "Rīgas iela 1, Bauskas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9271",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:776b80ccd31515616968",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.15751,
+          56.97061
+        ]
+      },
+      "properties": {
+        "id": "neste:776b80ccd31515616968",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Tukums I",
+        "address": "Kurzemes iela 7a, Tukuma Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9232",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:776c1160a77706296294",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.01873,
+          56.51194
+        ]
+      },
+      "properties": {
+        "id": "neste:776c1160a77706296294",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Liepāja II",
+        "address": "Kārļa Zāles laukums 7, Dienvidkurzemes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9253",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:829cf4196d1843547367",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.05196,
+          56.92819
+        ]
+      },
+      "properties": {
+        "id": "neste:829cf4196d1843547367",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ulmaņa gatve",
+        "address": "Kārļa Ulmaņa gatve 84, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9208",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:82bb83f0fe56384dde02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.03558,
+          56.96189
+        ]
+      },
+      "properties": {
+        "id": "neste:82bb83f0fe56384dde02",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Imanta II",
+        "address": "Kurzemes prospekts 15a, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9272",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:8b4a5f821f70ee5ea93e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.23128,
+          56.88782
+        ]
+      },
+      "properties": {
+        "id": "neste:8b4a5f821f70ee5ea93e",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Latgales DP",
+        "address": "Latgales iela 448b, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9264",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:8d2352ca6249ca2f965a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2337,
+          56.83133
+        ]
+      },
+      "properties": {
+        "id": "neste:8d2352ca6249ca2f965a",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ķekava",
+        "address": "Rīgas iela 24, Kekavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9262",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:a21cbbbe2088bc51d120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2014,
+          56.93366
+        ]
+      },
+      "properties": {
+        "id": "neste:a21cbbbe2088bc51d120",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Tukums II",
+        "address": "Lāsites, Smārdes pagasts, Tukuma Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9281",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:a625069b1d101fa42731",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.03262,
+          56.53914
+        ]
+      },
+      "properties": {
+        "id": "neste:a625069b1d101fa42731",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Liepāja III",
+        "address": "Pulvera iela 10b, Dienvidkurzemes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9263",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:a652c2cc4b7b34cef92f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.60093,
+          56.81262
+        ]
+      },
+      "properties": {
+        "id": "neste:a652c2cc4b7b34cef92f",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ogre",
+        "address": "Rīgas iela 11a, Ogres Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9233",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:a8f76e618c34d85780df",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.30437,
+          57.31236
+        ]
+      },
+      "properties": {
+        "id": "neste:a8f76e618c34d85780df",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Cēsis II",
+        "address": "Jāņa Poruka iela 49, Cesu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9265",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:afe0c0b46c9394d57aa0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.14463,
+          56.96827
+        ]
+      },
+      "properties": {
+        "id": "neste:afe0c0b46c9394d57aa0",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Senču",
+        "address": "Senču iela 2b, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9216",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:afe1fc5432326bf3cba0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.49529,
+          56.66677
+        ]
+      },
+      "properties": {
+        "id": "neste:afe1fc5432326bf3cba0",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Saldus II",
+        "address": "Jelgavas iela 3, Saldus Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9256",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:b4f77497f1cdb334a53b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.39327,
+          57.53178
+        ]
+      },
+      "properties": {
+        "id": "neste:b4f77497f1cdb334a53b",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Valmiera I",
+        "address": "Rīgas iela 76, Valmieras Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9229",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:ba5701d52f80fb87ac7e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.06918,
+          56.95392
+        ]
+      },
+      "properties": {
+        "id": "neste:ba5701d52f80fb87ac7e",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Daugavgrīvas",
+        "address": "Kuldīgas iela 1, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9209",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:ba5adb47a4527b1d72b8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.36298,
+          56.27763
+        ]
+      },
+      "properties": {
+        "id": "neste:ba5adb47a4527b1d72b8",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Grenctāle DP",
+        "address": "Grenctāles robežkontroles punkts, Brunavas pagasts, Bauskas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9279",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:bca65e68850e99c3d3c7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.49291,
+          57.27918
+        ]
+      },
+      "properties": {
+        "id": "neste:bca65e68850e99c3d3c7",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Bērzkrogs",
+        "address": "Meijas, Bērzkrogs, Veselavas pagasts, Cesu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9275",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:be3ee483b79b11e5d453",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.08691,
+          56.9102
+        ]
+      },
+      "properties": {
+        "id": "neste:be3ee483b79b11e5d453",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Vienības gatve",
+        "address": "Vienības gatve 144, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9211",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:c38f8ea32b98fa210374",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.22742,
+          56.86044
+        ]
+      },
+      "properties": {
+        "id": "neste:c38f8ea32b98fa210374",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Madona",
+        "address": "Rūpniecības iela 47a, Madonas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9246",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:c8b0c53f8852b9c1ce6d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.11685,
+          56.96553
+        ]
+      },
+      "properties": {
+        "id": "neste:c8b0c53f8852b9c1ce6d",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Skanstes",
+        "address": "Skanstes iela 7, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9268",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:cbc9cc5645484a5b2f39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.18011,
+          56.34218
+        ]
+      },
+      "properties": {
+        "id": "neste:cbc9cc5645484a5b2f39",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Līvāni",
+        "address": "Rīgas iela 2a, Livanu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9282",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:ccc8c72934a8840f4d93",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.18194,
+          56.97825
+        ]
+      },
+      "properties": {
+        "id": "neste:ccc8c72934a8840f4d93",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Brīvības",
+        "address": "Brīvības gatve 253, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9222",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:cea7e97483a9bc372a9c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1305,
+          56.98806
+        ]
+      },
+      "properties": {
+        "id": "neste:cea7e97483a9bc372a9c",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Duntes",
+        "address": "Dambja iela 10, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9210",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:d4c66b1d9f9c5aa724da",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.78209,
+          57.1338
+        ]
+      },
+      "properties": {
+        "id": "neste:d4c66b1d9f9c5aa724da",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Lorupe",
+        "address": "Vidzemes šoseja 47. km A, Inčukalna pag., Siguldas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9284",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:d86b275e8366f04f89b7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.20843,
+          56.60477
+        ]
+      },
+      "properties": {
+        "id": "neste:d86b275e8366f04f89b7",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Iecava",
+        "address": "Krustiņi, Iecava, Bauskas novads, Bauskas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9243",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:d954366092d396850253",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0346,
+          56.95186
+        ]
+      },
+      "properties": {
+        "id": "neste:d954366092d396850253",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Imanta I",
+        "address": "Jūrmalas gatve 46b, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9224",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:da1b75298ba0c93cfc69",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.72385,
+          57.51408
+        ]
+      },
+      "properties": {
+        "id": "neste:da1b75298ba0c93cfc69",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Limbaži",
+        "address": "Stacijas iela 1, Limbažu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9285",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:ddaa30eb7c472133b052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.74621,
+          57.17518
+        ]
+      },
+      "properties": {
+        "id": "neste:ddaa30eb7c472133b052",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Gulbene",
+        "address": "Brīvības iela 68, Gulbenes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9255",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:dfd44cb911deaf67e628",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.03923,
+          56.92627
+        ]
+      },
+      "properties": {
+        "id": "neste:dfd44cb911deaf67e628",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Mārupe",
+        "address": "Upesgrīvas iela 1, Marupes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9206",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:e0db1bf2b4977ae9aa27",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.84368,
+          57.14209
+        ]
+      },
+      "properties": {
+        "id": "neste:e0db1bf2b4977ae9aa27",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Sigulda",
+        "address": "Vidzemes šoseja 4, Siguldas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9245",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:e5ed21273ab2946c6d5c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.08728,
+          56.91687
+        ]
+      },
+      "properties": {
+        "id": "neste:e5ed21273ab2946c6d5c",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ģimnastikas",
+        "address": "Vienības gatve 77, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9269",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:e6cb3daacf00f2809233",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.50177,
+          55.86519
+        ]
+      },
+      "properties": {
+        "id": "neste:e6cb3daacf00f2809233",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Daugavpils II",
+        "address": "Dostojevska iela 6, Augšdaugavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9248",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:e9ffd260764d8a5fb59b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.59182,
+          57.39633
+        ]
+      },
+      "properties": {
+        "id": "neste:e9ffd260764d8a5fb59b",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ventspils II",
+        "address": "Kurzemes iela 2, Ventspils Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9254",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:ea4255d4af8b87e6be5b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8574,
+          56.97519
+        ]
+      },
+      "properties": {
+        "id": "neste:ea4255d4af8b87e6be5b",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jūrmala",
+        "address": "Viestura iela 21, Jurmala",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9215",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:ed6d7c1e1e902a215c4d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3535,
+          57.84973
+        ]
+      },
+      "properties": {
+        "id": "neste:ed6d7c1e1e902a215c4d",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Ainaži",
+        "address": "Valdemāra iela 82, Ainaži, Limbažu Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9250",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:edd48f1f6ccd88b9314c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.17736,
+          56.39933
+        ]
+      },
+      "properties": {
+        "id": "neste:edd48f1f6ccd88b9314c",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Bauska II",
+        "address": "Elejas iela 1, Bauska, Bauskas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9249",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:efc34f6dc6308ca81b89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.42883,
+          57.53172
+        ]
+      },
+      "properties": {
+        "id": "neste:efc34f6dc6308ca81b89",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Valmiera II",
+        "address": "Mazā stacijas iela 14, Valmieras Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9230",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f00a5af0500263d8585e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.16788,
+          56.96454
+        ]
+      },
+      "properties": {
+        "id": "neste:f00a5af0500263d8585e",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Stārķu",
+        "address": "Dzelzavas iela 5, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9225",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f00cfd7aa87df06a7cec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.85209,
+          56.51805
+        ]
+      },
+      "properties": {
+        "id": "neste:f00cfd7aa87df06a7cec",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jēkabpils II",
+        "address": "Rīgas iela 247, Jekabpils Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9241",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f04f04486574da25705b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.76153,
+          56.67068
+        ]
+      },
+      "properties": {
+        "id": "neste:f04f04486574da25705b",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jelgava I",
+        "address": "Loka maģistrāle 2a, Jelgavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9207",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f1fc691b717b7dfd7563",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.11069,
+          56.92489
+        ]
+      },
+      "properties": {
+        "id": "neste:f1fc691b717b7dfd7563",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Lucavsala",
+        "address": "Lucavsalas iela 1, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9205",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f6128f52f4f10393c48d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.60407,
+          56.96401
+        ]
+      },
+      "properties": {
+        "id": "neste:f6128f52f4f10393c48d",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Kauguri",
+        "address": "Talsu šoseja 66, Jurmala",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9242",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f6dc2ca481740b7640c6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.21986,
+          56.98652
+        ]
+      },
+      "properties": {
+        "id": "neste:f6dc2ca481740b7640c6",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Jugla",
+        "address": "Brīvības gatve 386, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9202",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f79b640b251bf4547d9c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.01412,
+          56.51577
+        ]
+      },
+      "properties": {
+        "id": "neste:f79b640b251bf4547d9c",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Liepāja I",
+        "address": "Raiņa iela 2, Dienvidkurzemes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9234",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f86f24c3d21edb9b8719",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.505,
+          55.88241
+        ]
+      },
+      "properties": {
+        "id": "neste:f86f24c3d21edb9b8719",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Daugavpils III",
+        "address": "Kraujas iela 5, Augšdaugavas Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9288",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:f9b5910276a7d64ec2b0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.21054,
+          56.89749
+        ]
+      },
+      "properties": {
+        "id": "neste:f9b5910276a7d64ec2b0",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Latgales",
+        "address": "Latgales iela 427b, Riga",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9213",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neste:fb44dd348dd18f13b38b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.03893,
+          57.42967
+        ]
+      },
+      "properties": {
+        "id": "neste:fb44dd348dd18f13b38b",
+        "country": "LV",
+        "brand": "Neste",
+        "name": "Neste Alūksne",
+        "address": "Pils iela 9c, Alūksne, Aluksnes Novads",
+        "source": "neste",
+        "source_url": "https://stacijas.neste.lv/api/station-search",
+        "prices": {},
+        "directory_id": "9258",
+        "directory_url": "https://stacijas.neste.lv/",
+        "directory_updated_at": "2026-11-05T22:51:08.360Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
       "id": "straujupite:1c1c74d08d095a260018",
       "geometry": {
         "type": "Point",
@@ -102536,5 +105611,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-05T22:39:03.065Z"
+  "generated_at": "2026-11-05T22:51:08.360Z"
 }

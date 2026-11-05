@@ -113,7 +113,7 @@ function fuelCell(quote, label) {
   else {
     const button = priceButton(quote,{label,unit:'EUR/l'}); button.append(trend(quote.price,quote.previous));
     applyPriceTrend(button,quote.price,quote.previous);
-    button.title = [quote.station_address, quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : '', t('view_price_history','View price history')].filter(Boolean).join(' · ');
+    button.title = [quote.scope==='network_published_minimum'?t('network_minimum','Published network minimum; individual station prices may differ'):'', !quote.observed_date&&!quote.observed_at?t('publication_date_unknown','Publication date not provided by the operator'):'',quote.station_address, quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : '', t('view_price_history','View price history')].filter(Boolean).join(' · ');
     if (quote.freshness === 'stale' || quote.source_status === 'error') {
       button.classList.add('stale-price');
 
@@ -157,7 +157,8 @@ function fuel(container, data) {
         search.addEventListener('input',()=>{const query=search.value.toLocaleLowerCase(locale).trim();for(const row of details.children)if(row.classList.contains('station-detail'))row.hidden=!row.textContent.toLocaleLowerCase(locale).includes(query);});detailsCell.append(search);details.classList.add('station-directory');
       }
 
-      if(sharedPrices)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Locations are listed below.')));
+      if(provider.has_network_prices)detailsCell.append(element('p','station-address-note',t('network_prices_note','The operator publishes network minima without individual station prices.')));
+      if(sharedPrices&&!provider.has_network_prices)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Locations are listed below.')));
       [...provider.stations].sort((a,b)=>Number(Object.values(b.prices).some(Boolean))-Number(Object.values(a.prices).some(Boolean))||(a.address||a.name||'').localeCompare(b.address||b.name||'',locale)).forEach(station => {
         const line = element('div', 'station-detail');
         if (station.name && station.name !== provider.name) line.append(element('strong', 'station-name', station.name));

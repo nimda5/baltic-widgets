@@ -9,5 +9,5 @@ export async function ensureCollectorState(db,dir){
   if(!data.length)return;
   const metadata=JSON.parse(db.prepare("SELECT value FROM metadata WHERE key='stations'").get()?.value||'{}');
   await mkdir(dir,{recursive:true});
-  try{await writeFile(file,JSON.stringify({schema_version:1,updated_at:metadata.updated_at||new Date().toISOString(),source:'Recovered collector state from SQLite',sources:metadata.sources||[],data}),{flag:'wx'});}catch(e){if(e.code!=='EEXIST')throw e;}
+  try{await writeFile(file,JSON.stringify({schema_version:1,updated_at:metadata.updated_at||new Date().toISOString(),source:'Recovered collector state from SQLite',sources:metadata.sources||[],network_quotes:metadata.network_quotes||{},data}),{flag:'wx'});}catch(e){if(e.code!=='EEXIST')throw e;}
 }

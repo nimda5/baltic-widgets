@@ -1,3 +1,4 @@
+import {extraURLs,koolMapURL,addKoolCoordinates,koolSnippetURLs,parseKoolPrices,parseKoolDirectory,parseNesteDirectory,parseRietumu} from './lv-extra.mjs';
 import {directoryURLs,parseVirsiDirectory,parseViadaDirectory,parseStraujupiteDirectory,mergeDirectory} from './lv-directories.mjs';
 import {mergeCircleDirectory,circleDirectoryURL} from './circle-directory.mjs';
 import { load } from 'cheerio';
@@ -7,6 +8,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const urls = {
+  ...extraURLs,
   circle: 'https://www.circlek.lv/degviela-miles/degvielas-cenas',
   virsi: 'https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas',
   viada: 'https://www.viada.lv/zemakas-degvielas-cenas/',
@@ -62,7 +64,7 @@ export function normalize(source, records, now) {
       source_timestamp: r.rawTime || r.at || r.day || null,
       time_precision: r.at ? 'instant' : r.day ? 'date' : 'unknown',
       fetched_at: now, freshness: freshness(r.at, r.day, now),
-      evidence: r.evidence || 'operator_published', scope: 'station',
+      evidence: r.evidence || 'operator_published', scope: r.scope || 'station',
       source_verified: r.verified ?? null,
     };
     const station = stations.get(id);
@@ -214,6 +216,15 @@ async function request(url, headers = {}, attempt = 0) {
 }
 
 async function collect(source) {
+  if(source==='neste')return parseNesteDirectory(JSON.parse(await request(urls.neste)));
+  if(source==='rietumu')return parseRietumu(await request(urls.rietumu));
+  if(source==='kool'){
+    const snippets=koolSnippetURLs(await request(urls.kool));
+    const [prices,directory]=await Promise.all([request(snippets.prices),request(snippets.directory)]);
+    let records=parseKoolDirectory(directory);
+    try{records=addKoolCoordinates(records,await request(koolMapURL(directory)));}catch{console.error('kool: optional map unavailable; directory addresses retained');}
+    return {records,network_records:parseKoolPrices(prices)};
+  }
   if (source === 'lea') {
     const home = await request(urls.lea);
     const script = home.match(/src="(\.\/assets\/index-[\w-]+\.js)"/)?.[1];
@@ -281,13 +292,14 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
   try {
     const now = new Date().toISOString();
     const old = await readJson(path.join(output, 'fuel-stations.json'), { data: [], sources: [] });
-    let stations = old.data; const statuses = new Map(old.sources.map(s => [s.id, s]));
+    let stations = old.data; const networkQuotes={...(old.network_quotes||{})}; const statuses = new Map(old.sources.map(s => [s.id, s]));
     for (const source of sourceList) {
       if (!urls[source] || source === 'liitrihind') throw new Error('Unsupported source');
       try {
-        let records=await collect(source);
+        const collected=await collect(source);
+        let records=Array.isArray(collected)?collected:collected.records;
         const previous = new Map(stations.filter(s => s.source === source).map(s => [s.id, s]));
-        const hasDirectory=source==='circle'||!!directoryURLs[source];
+        const hasDirectory=source==='circle'||!!directoryURLs[source]||!!extraURLs[source];
         const directoryLive=hasDirectory&&records.some(s=>s.directory_id);
         const cached=new Map([...previous.values()].filter(s=>s.directory_id).map(s=>[s.directory_id,s]));
         if(hasDirectory&&!directoryLive&&cached.size){
@@ -298,7 +310,12 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
         const fresh=normalize(source,records,now);
         if(!directoryLive)for(const station of fresh)if(cached.has(station.directory_id))station.directory_updated_at=cached.get(station.directory_id).directory_updated_at;
 
-        for (const s of fresh) for (const [fuel, p] of Object.entries(s.prices)) {
+        let network;
+        if(collected.network_records){
+          network=normalize(source,collected.network_records.map(r=>({...r,id:'network-minimum'})),now)[0];
+          previous.set(network.id,networkQuotes[source]);networkQuotes[source]=network;
+        }
+        for (const s of [...fresh,...(network?[network]:[])]) for (const [fuel, p] of Object.entries(s.prices)) {
           const before = previous.get(s.id)?.prices[fuel];
           const history = (before?.history || []).filter(h => Date.parse(h.at) >= Date.parse(now) - 90 * 86400000);
           if (!history.length || history.at(-1).value !== p.value) history.push({ at: now, value: p.value });
@@ -321,7 +338,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
     for (const s of stations) for (const p of Object.values(s.prices)) p.freshness = freshness(p.observed_at, p.observed_date, now);
     const doc = { schema_version: 1, updated_at: now, demo: false, source: 'Baltic station collectors',
       coverage: { LV: 'selected operator-published stations', LT: 'LEA reporting stations', EE: 'FuelEst community reports' },
-      sources: [...statuses.values()], data: stations.sort((a, b) => a.id.localeCompare(b.id)) };
+      sources: [...statuses.values()], network_quotes:networkQuotes, data: stations.sort((a, b) => a.id.localeCompare(b.id)) };
     await atomicJson(path.join(output, 'fuel-stations.json'), doc);
     await atomicJson(path.join(output, 'fuel-stations.geojson'), { ...geojson(doc.data), generated_at: now });
     const summary = { stations: stations.length, with_coordinates: stations.filter(s => s.coordinates).length,

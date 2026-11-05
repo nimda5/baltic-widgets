@@ -146,7 +146,10 @@
     "priced_count": "{count} vietas ar publicētām cenām, nevis viss tīkls",
     "directory_coverage": "Zināmas {total} atrašanās vietas; 95./dīzeļdegvielas cenas publicētas {priced}. Pārējo vietu cenas nav zināmas.",
     "station_search": "Meklēt pēc nosaukuma vai adreses",
-    "station_price_unknown": "Individuālās cenas nav publicētas"
+    "station_price_unknown": "Individuālās cenas nav publicētas",
+    "network_minimum": "Publicētā minimālā cena tīklā; atsevišķās DUS cenas var atšķirties",
+    "publication_date_unknown": "Operators nav norādījis cenas publicēšanas datumu",
+    "network_prices_note": "Operators publicē tīkla minimālās cenas bez piesaistes atsevišķām DUS."
   },
   "ru": {
     "fuel": "Энергия",
@@ -295,7 +298,10 @@
     "priced_count": "{count} точек с опубликованными ценами, а не вся сеть",
     "directory_coverage": "Известно {total} точек; цены 95/дизеля опубликованы для {priced}. Цены остальных точек неизвестны.",
     "station_search": "Поиск по названию или адресу",
-    "station_price_unknown": "Индивидуальные цены не опубликованы"
+    "station_price_unknown": "Индивидуальные цены не опубликованы",
+    "network_minimum": "Опубликованный минимум по сети; цены отдельных АЗС могут отличаться",
+    "publication_date_unknown": "Оператор не указал дату публикации цены",
+    "network_prices_note": "Оператор публикует минимальные цены по сети без привязки к отдельным АЗС."
   },
   "en": {
     "fuel": "Energy",
@@ -444,7 +450,10 @@
     "priced_count": "{count} locations with published prices, not the total network size",
     "directory_coverage": "{total} known locations; individual 95/diesel prices published for {priced}. Other location prices are unknown.",
     "station_search": "Find a location by name or address",
-    "station_price_unknown": "Individual prices not published"
+    "station_price_unknown": "Individual prices not published",
+    "network_minimum": "Published network minimum; individual station prices may differ",
+    "publication_date_unknown": "Publication date not provided by the operator",
+    "network_prices_note": "The operator publishes network minima without individual station prices."
   },
   "lt": {
     "fuel": "Energija",
@@ -593,7 +602,10 @@
     "priced_count": "{count} vietų su paskelbtomis kainomis, ne visas tinklas",
     "directory_coverage": "Žinoma {total} vietų; individualios 95/dyzelino kainos paskelbtos {priced}. Kitų vietų kainos nežinomos.",
     "station_search": "Ieškoti pagal pavadinimą arba adresą",
-    "station_price_unknown": "Individualios kainos nepaskelbtos"
+    "station_price_unknown": "Individualios kainos nepaskelbtos",
+    "network_minimum": "Paskelbta mažiausia tinklo kaina; atskirų degalinių kainos gali skirtis",
+    "publication_date_unknown": "Operatorius nenurodė kainos paskelbimo datos",
+    "network_prices_note": "Operatorius skelbia mažiausias tinklo kainas, nesusietas su atskiromis degalinėmis."
   },
   "et": {
     "fuel": "Energia",
@@ -742,6 +754,9 @@
     "priced_count": "{count} avaldatud hindadega asukohta, mitte kogu võrk",
     "directory_coverage": "Teada on {total} asukohta; 95/diisli hinnad on avaldatud {priced} kohta. Ülejäänud asukohtade hinnad on teadmata.",
     "station_search": "Otsi nime või aadressi järgi",
-    "station_price_unknown": "Asukohapõhiseid hindu pole avaldatud"
+    "station_price_unknown": "Asukohapõhiseid hindu pole avaldatud",
+    "network_minimum": "Avaldatud võrgu miinimumhind; üksikute tanklate hinnad võivad erineda",
+    "publication_date_unknown": "Operaator ei ole hinna avaldamise kuupäeva märkinud",
+    "network_prices_note": "Operaator avaldab võrgu miinimumhinnad üksikute tanklate hindadeta."
   }
 }
