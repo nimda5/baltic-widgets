@@ -1,11 +1,12 @@
+import {t,locale} from './i18n.js';
 import {seriesForPeriod} from './chart-periods.js';
 const dialog = document.querySelector('.price-dialog');
 const canvas = document.querySelector('#chart-canvas');
 const cursor = document.querySelector('.chart-cursor');
 const readout = document.querySelector('.chart-readout');
 let active, opener, selectedPoints = [], plot;
-const format = (value, digits) => new Intl.NumberFormat('lv-LV', {minimumFractionDigits:digits,maximumFractionDigits:digits}).format(value);
-const dateFormat = (value, intraday = false) => new Intl.DateTimeFormat('lv-LV', {timeZone:'Europe/Riga',day:'2-digit',month:'2-digit',...(intraday ? {hour:'2-digit',minute:'2-digit'} : {year:'numeric'})}).format(new Date(value));
+const format = (value, digits) => new Intl.NumberFormat(locale, {minimumFractionDigits:digits,maximumFractionDigits:digits}).format(value);
+const dateFormat = (value, intraday = false) => new Intl.DateTimeFormat(locale, {timeZone:'Europe/Riga',day:'2-digit',month:'2-digit',...(intraday ? {hour:'2-digit',minute:'2-digit'} : {year:'numeric'})}).format(new Date(value));
 function node(tag, className, text) {
   const n = document.createElement(tag);
   if (className) n.className = className;
@@ -22,8 +23,8 @@ function svgNode(tag, attrs = {}, text) {
 export function priceButton(quote, {label, unit, digits = 3, className = 'price-value', intraday = false, text}) {
   const button = node('button', 'price-trigger');
   button.type = 'button';
-  button.setAttribute('aria-label', `${label}: ${format(quote.price,digits)} ${unit}. Skatīt cenu vēsturi`);
-  button.title = 'Skatīt cenu vēsturi';
+  button.setAttribute('aria-label', `${label}: ${format(quote.price,digits)} ${unit}. ${t('view_price_history','View price history')}`);
+  button.title=t('view_price_history','View price history');
   button.append(node('span', className, text ?? format(quote.price,digits)));
   button.addEventListener('click', () => {
     opener = button;
@@ -43,8 +44,10 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
     active = {label:chartLabel,unit,digits,intraday,dailyPoints,price:reference ? points.at(-1).value : (quote.price ?? points.at(-1)?.value),points};
     document.querySelector('#chart-title').textContent = chartLabel;
     document.querySelector('#chart-current').textContent = `${format(active.price,digits)} ${unit}${source ? ` · ${source}` : ''}`;
-    const periods = intraday ? [[1,'24 h'],[7,'7 d.'],...(dailyPoints.length?[[30,'30 d.'],[90,'90 d.'],[365,'1 g.'],[1825,'5 g.'],[0,'Viss']]:[])] : [[7,'7 d.'],[30,'30 d.'],[90,'90 d.'],[365,'1 g.'],[1825,'5 g.'],[0,'Viss']];
-    const buttons = periods.map(([days,label]) => {
+    const periods=intraday?[1,7,...(dailyPoints.length?[30,90,365,1825,0]:[])]:[7,30,90,365,1825,0];
+    const periodKeys={1:['period_24h','24 h'],7:['period_7d','7 d'],30:['period_30d','30 d'],90:['period_90d','90 d'],365:['period_1y','1 y'],1825:['period_5y','5 y'],0:['period_all','All']};
+    const buttons=periods.map(days=>{
+      const label=t(...periodKeys[days]);
       const b = node('button','',label); b.type = 'button'; b.dataset.days = days;
       b.addEventListener('click',()=>requestPeriod(days)); return b;
     });
@@ -52,7 +55,7 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
     draw(requestedDays ?? (intraday ? 1 : quote.frequency==='monthly' ? 0 : 30));
     };
     if(series.length>1){
-      select=node('select','chart-series');select.setAttribute('aria-label','Price series / Cenu rinda');
+      select=node('select','chart-series');select.setAttribute('aria-label',t('price_series','Price series'));
       series.forEach((item,i)=>{const option=node('option','',item.label);option.value=String(i);select.append(option);});
       select.addEventListener('change',()=>showSeries(series[Number(select.value)]));document.querySelector('.chart-periods').before(select);
     }
@@ -67,13 +70,13 @@ function draw(days) {
   const daily=active.intraday && (days===0 || days>7) && active.dailyPoints.length>0;
   const points=daily?active.dailyPoints:active.points;
   active.displayIntraday=active.intraday&&!daily;
-  document.querySelector('#chart-current').title=daily?'Diennakts vidējās cenas (UTC), svērtas pēc intervāla ilguma. Bez PVN un tirgotāja maksām.':'';
+  document.querySelector('#chart-current').title=daily?t('daily_weighted','Duration-weighted daily averages (UTC), excluding VAT and supplier fees.'):'';
   const end = points.at(-1)?.at;
   selectedPoints = days === 0 ? points : points.filter(p=>p.at > end-days*86400000);
   const stats = document.querySelector('.chart-stats');
   const change = document.querySelector('#chart-change');
   if (selectedPoints.length < 2) {
-    canvas.replaceChildren(node('p','chart-empty','Šim periodam cenu vēsture vēl nav pieejama.'));
+    canvas.replaceChildren(node('p','chart-empty',t('history_empty','No price history is available for this period.')));
     cursor.hidden = true; readout.textContent = ''; stats.replaceChildren(); change.textContent = ''; plot = null; return;
   }
   cursor.hidden = false;
@@ -90,7 +93,9 @@ function draw(days) {
   const x = p=>left+(p.at-first.at)/(last.at-first.at)*(right-left);
   const y = p=>bottom-(p.value-low)/(high-low)*(bottom-top);
   const svg = svgNode('svg',{viewBox:`0 0 ${svgWidth} 276`,role:'img','aria-labelledby':'price-chart-title price-chart-description'});
-  svg.append(svgNode('title',{id:'price-chart-title'},`${active.label} — ${days || 'visas'} dienas`),svgNode('desc',{id:'price-chart-description'},`${dateFormat(first.at)}–${dateFormat(last.at)}. Minimums ${format(min,active.digits)}, maksimums ${format(max,active.digits)} ${active.unit}. Ar slīdni zem grafika var apskatīt katru cenu.`));
+  const periodTitle=days===0?t('all_days','All history'):t('days_count','{count} days',{count:days});
+  svg.append(svgNode('title',{id:'price-chart-title'},`${active.label} — ${periodTitle}`),svgNode('desc',{id:'price-chart-description'},t('chart_description','{from}–{to}. Minimum {min}, maximum {max} {unit}. Use the slider below the chart to explore each price.',{from:dateFormat(first.at),to:dateFormat(last.at),min:format(min,active.digits),max:format(max,active.digits),unit:active.unit})));
+
   for(let i=0;i<5;i++) {
     const value = low+(high-low)*i/4, yy = y({value});
     svg.append(svgNode('line',{x1:left,x2:right,y1:yy,y2:yy,class:'chart-grid'}));
@@ -100,7 +105,7 @@ function draw(days) {
   svg.append(svgNode('path',{d:`${line} L${right},${bottom} L${left},${bottom} Z`,class:'chart-area'}),svgNode('path',{d:line,class:'chart-line'}));
   if (selectedPoints.length <= 20) for (const p of selectedPoints) svg.append(svgNode('circle',{cx:x(p),cy:y(p),r:3,class:'chart-focus-dot'}));
   const longRange = last.at-first.at > 365*86400000;
-  const axisDate = at => new Intl.DateTimeFormat('lv-LV', {timeZone:'Europe/Riga',
+  const axisDate = at => new Intl.DateTimeFormat(locale, {timeZone:'Europe/Riga',
     ...(active.intraday && days===1 ? {hour:'2-digit',minute:'2-digit'} : longRange ? {year:'numeric'} : {day:'2-digit',month:'2-digit'})}).format(new Date(at));
   for(let i=0;i<4;i++) {
     const p=selectedPoints[Math.round((selectedPoints.length-1)*i/3)];
@@ -111,8 +116,8 @@ function draw(days) {
   svg.append(focusLine,dot); canvas.replaceChildren(svg);
   plot = {svg,x,y,focusLine,dot,left,right,svgWidth};
   cursor.max = String(selectedPoints.length-1); cursor.value = cursor.max;
-  stats.replaceChildren(node('span','',`Min. ${format(min,active.digits)} ${active.unit}`),node('span','',`Maks. ${format(max,active.digits)} ${active.unit}`),node('span','',`${dateFormat(first.at)}–${dateFormat(last.at)}`));
-  if(daily)stats.append(node('span','','Daily average (UTC) · '+new Intl.NumberFormat(document.documentElement.lang).format(selectedPoints.length)+' days'));
+  stats.replaceChildren(node('span','',`${t('chart_min','Min.')} ${format(min,active.digits)} ${active.unit}`),node('span','',`${t('chart_max','Max.')} ${format(max,active.digits)} ${active.unit}`),node('span','',`${dateFormat(first.at)}–${dateFormat(last.at)}`));
+  if(daily)stats.append(node('span','',t('daily_count','Daily average (UTC) · {count} days',{count:new Intl.NumberFormat(locale).format(selectedPoints.length)})));
   highlight(selectedPoints.length-1);
 }
 

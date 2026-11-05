@@ -1,3 +1,4 @@
+import {t,lang,locale,labels as uiLabels} from './i18n.js';
 import {zodiacPaths} from './zodiac-icons.js';
 import { priceButton } from './charts.js';
 import { currentZodiac } from './zodiac.js';
@@ -5,12 +6,9 @@ import { currentZodiac } from './zodiac.js';
 document.documentElement.dataset.inputModality='keyboard';
 document.addEventListener('pointerdown',()=>{document.documentElement.dataset.inputModality='pointer';},true);
 document.addEventListener('keydown',event=>{if(!['Shift','Control','Alt','Meta'].includes(event.key))document.documentElement.dataset.inputModality='keyboard';},true);
-const requestedLang=new URLSearchParams(location.search).get('lang') || 'lv';
-const lang=['lv','lt','et','ru','en'].includes(requestedLang)?requestedLang:'en';
-let labels={};
-const t=(key,fallback)=>labels[key] || fallback;
+let labels=uiLabels;
 const $ = (selector) => document.querySelector(selector);
-const number = (value, digits = 3) => new Intl.NumberFormat('lv-LV', { minimumFractionDigits: digits, maximumFractionDigits: digits }).format(value);
+const number = (value, digits = 3) => new Intl.NumberFormat(locale, { minimumFractionDigits: digits, maximumFractionDigits: digits }).format(value);
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -48,7 +46,7 @@ async function loadWidget(name, render) {
     container.replaceChildren();
     render(container, json.data);
     container.dataset.updatedAt = json.updated_at;
-    if (name !== 'horoscope' && !json.demo && Date.now() - Date.parse(json.updated_at) > 86400000) container.append(element('span', 'stale', 'Dati ir vecāki par 24 stundām'));
+    if (name !== 'horoscope' && !json.demo && Date.now() - Date.parse(json.updated_at) > 86400000) container.append(element('span', 'stale', t('stale_data','Data is older than 24 hours')));
   } catch {
     const message = element('div', 'error-message', t('unavailable','Data is currently unavailable.'));
     const retry = element('button', '', t('retry','Retry'));
@@ -97,7 +95,7 @@ function trend(current, previous, percent = false) {
   const value = hasPercentage ? delta / Math.abs(previous) * 100 : 0;
   const direction = !known ? 'unknown' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'flat';
   const arrow = direction === 'up' ? '↑' : direction === 'down' ? '↓' : '–';
-  const label = !known ? 'Nav salīdzinājuma datu' : `Iepriekš: ${number(previous, 4)}${hasPercentage ? `; izmaiņa: ${number(value, 2)}%` : ''}`;
+  const label = !known?t('no_comparison','No comparison available'):t('previous_value','Previous: {value}',{value:number(previous,4)})+(hasPercentage?' · '+t('change_value','Change: {value}%',{value:number(value,2)}):'');
   const node = element('span', `trend ${direction}`, percent && hasPercentage ? `${arrow} ${number(Math.abs(value), 2)}%` : arrow);
   if(!known || delta===0)node.hidden=true;
   node.title = label;
@@ -116,7 +114,7 @@ function fuelCell(quote, label) {
   else {
     const button = priceButton(quote,{label,unit:'EUR/l'}); button.append(trend(quote.price,quote.previous));
     applyPriceTrend(button,quote.price,quote.previous);
-    button.title = [quote.station_address, quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? 'Novecojusi cena' : '', quote.source_status === 'error' ? 'Avots pašlaik nav pieejams' : '', 'Skatīt cenu vēsturi'].filter(Boolean).join(' · ');
+    button.title = [quote.station_address, quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : '', t('view_price_history','View price history')].filter(Boolean).join(' · ');
     if (quote.freshness === 'stale' || quote.source_status === 'error') {
       button.classList.add('stale-price');
 
@@ -130,11 +128,11 @@ function fuel(container, data) {
   if (!Array.isArray(data.providers) || data.providers.some(p => typeof p.name !== 'string' || !p.prices)) throw new Error('Invalid fuel data');
   const withReference = quote => quote ? {...quote, reference_history: data.country_history?.[quote.reference_key]?.history,
     reference_label: data.country_history?.[quote.reference_key]?.label, reference_source: data.country_history?.[quote.reference_key]?.source} : null;
-  if (!data.providers.length) container.append(element('p','muted','Degvielas dati tiek ielādēti.'));
+  if (!data.providers.length) container.append(element('p','muted',t('fuel_loading','Loading fuel prices…')));
   const table = element('table', 'fuel-table');
-  table.setAttribute('aria-label', 'Degvielas cenas pa tīkliem, EUR litrā');
+  table.setAttribute('aria-label', t('fuel_table','Fuel prices by network, EUR per litre'));
   const head = element('thead'); const header = element('tr');
-  [t('station','DUS'), '95', '98', t('diesel','Dīzelis')].forEach(label => { const th = element('th', '', label); th.scope = 'col';if(label==='98' && data.country==='LT')th.title=t('missing_98','98 prices are not provided by this source'); header.append(th); });
+  [t('station','Station'), '95', '98', t('diesel','Diesel')].forEach(label => { const th = element('th', '', label); th.scope = 'col';if(label==='98' && data.country==='LT')th.title=t('missing_98','98 prices are not provided by this source'); header.append(th); });
   head.append(header);
   const body = element('tbody');
   const providerRows=[];
@@ -148,7 +146,7 @@ function fuel(container, data) {
     if(data.country!=='LV')button.append(element('small','station-count',` ${provider.station_count}`));
     const published=Object.values(provider.prices).filter(Boolean);
     if(published.length && published.every(q=>q.freshness==='stale')){const age=element('span','publication-age');age.append(icon('clock'));age.title=t('last_published','Last published price')+' · '+(published[0].observed_date || published[0].observed_at?.slice(0,10) || '');age.setAttribute('aria-label',age.title);button.append(age);}
-    name.append(button); row.append(name, ...fuelKeys.map((key,i) => fuelCell(withReference(provider.prices[key]),`${provider.name} · ${['95','98','Dīzelis'][i]}`)));
+    name.append(button); row.append(name, ...fuelKeys.map((key,i) => fuelCell(withReference(provider.prices[key]),`${provider.name} · ${['95','98',t('diesel','Diesel')][i]}`)));
     const detailsRow = element('tr', 'provider-details'); detailsRow.id = `provider-${index}`; detailsRow.hidden = true;
     const detailsCell = element('td'); detailsCell.colSpan = 4;
     if (provider.stations?.length) {
@@ -161,14 +159,14 @@ function fuel(container, data) {
         line.append(element('span', 'station-address', station.address || station.name || provider.name));
         const prices = element('div',sharedPrices?'station-fuel-tags':'station-price-list');
         fuelKeys.forEach((key,i)=>{
-          const quote=withReference(station.prices?.[key]), label=['95','98','Dīzelis'][i];
+          const quote=withReference(station.prices?.[key]), label=['95','98',t('diesel','Diesel')][i];
           if(sharedPrices){if(Number.isFinite(quote?.price))prices.append(element('span','station-fuel-tag',label));return;}
           const item=element('span','station-quote'); item.append(element('span','station-fuel-label',label));
           if(Number.isFinite(quote?.price)) {
             const trigger = priceButton(quote,{label:`${station.name} · ${label}`,unit:'EUR/l'});
             applyPriceTrend(trigger,quote.price,quote.previous);
             if (quote.freshness === 'stale') trigger.classList.add('stale-price');
-            trigger.title = [quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? 'Novecojusi cena' : '', quote.evidence === 'community_reported' ? 'Lietotāja ziņojums' : '', quote.source_status === 'error' ? 'Avots pašlaik nav pieejams' : ''].filter(Boolean).join(' · ');
+            trigger.title = [quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.evidence === 'community_reported' ? t('community_reported','Community report') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : ''].filter(Boolean).join(' · ');
             item.append(trigger);
           }
           else item.append(document.createTextNode('—'));
@@ -176,10 +174,10 @@ function fuel(container, data) {
         });
         const dates = Object.values(station.prices || {}).filter(Boolean).map(q => q.observed_date || q.observed_at?.slice(0,10)).filter(Boolean);
         const old = Object.values(station.prices || {}).some(q => q?.freshness === 'stale');
-        line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · Ir novecojušas cenas' : ''}`)); details.append(line);
+        line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · '+t('stale_station_prices','Some prices are outdated') : ''}`)); details.append(line);
       });
       detailsCell.append(details);
-    } else detailsCell.append(element('p', 'provider-empty', 'Atsevišķu DUS cenas vēl nav pieejamas.'));
+    } else detailsCell.append(element('p', 'provider-empty', t('stations_unavailable','Individual station prices are not available yet.')));
     detailsRow.append(detailsCell);
     button.addEventListener('click', () => { detailsRow.hidden = !detailsRow.hidden; button.setAttribute('aria-expanded', String(!detailsRow.hidden)); });
     if(index>=data.providers.length)row.hidden=true;
@@ -194,7 +192,7 @@ function fuel(container, data) {
   }
 
   const history = element('div', 'country-history');
-  history.append(element('span','', t('national_average','Vidējās cenas valstī')+': '));
+  history.append(element('span','', t('national_average','National average prices')+': '));
   for (const [key, label] of [['petrol95','95'],['diesel',t('diesel','Diesel')]]) {
     const series = data.country_history?.[key];
     if (series?.history?.length) {
@@ -204,7 +202,7 @@ function fuel(container, data) {
   }
   if (history.children.length > 1) container.append(history);
   const energyQuotes=element('div','energy-quotes');container.append(energyQuotes);
-  const power = element('div', 'electricity'); power.textContent = 'Ielādē elektrības cenu…'; energyQuotes.append(power);
+  const power = element('div', 'electricity'); power.textContent = t('electricity_loading','Loading electricity price…'); energyQuotes.append(power);
   loadElectricity(power);
   const gas=element('div','electricity gas');energyQuotes.append(gas);loadGas(gas);
 }
@@ -217,7 +215,7 @@ async function loadElectricity(container) {
     if (!quote || !Number.isFinite(quote.price_eur_mwh) || !Number.isFinite(Date.parse(quote.valid_from)) || !Number.isFinite(Date.parse(quote.valid_to))) throw new Error('Invalid electricity');
     const info = element('div', 'electricity-info');
     const timeZone = {LV:'Europe/Riga', EE:'Europe/Tallinn', LT:'Europe/Vilnius'}[market];
-    const time = date => new Intl.DateTimeFormat('lv-LV', {timeZone, hour:'2-digit', minute:'2-digit', hourCycle:'h23'}).format(new Date(date));
+    const time = date => new Intl.DateTimeFormat(locale, {timeZone, hour:'2-digit', minute:'2-digit', hourCycle:'h23'}).format(new Date(date));
     const previous = Number.isFinite(quote.previous_eur_mwh) ? quote.previous_eur_mwh / 1000 : null;
     const history = quote.history?.map(p=>({at:p.at,value:p.value/1000}));
     const daily_history=quote.history_daily?.map(p=>({at:p.at,value:p.value/1000}));
@@ -229,9 +227,9 @@ async function loadElectricity(container) {
     applyPriceTrend(trigger,quote.price_eur_mwh/1000,previous);
     trigger.append(element('span','unit',' EUR/kWh'),trend(quote.price_eur_mwh/1000,previous));
     const price = element('div', 'electricity-price'); price.append(trigger);
-    container.title = 'Biržas cena bez PVN, tirgotāja uzcenojuma un tīkla maksām. Salīdzinājums ar iepriekšējo intervālu.';
+    container.title = t('electricity_basis','Wholesale price excluding VAT and fees. Compared with the previous interval.');
     container.replaceChildren(info, price);
-  } catch { container.replaceChildren(element('span', 'muted', 'Elektrības cena nav pieejama')); }
+  } catch { container.replaceChildren(element('span', 'muted', t('electricity_unavailable','Electricity price unavailable'))); }
 }
 
 async function loadGas(container){
@@ -298,7 +296,7 @@ function exchange(container, data) {
   const usd = data.eur_usd;
   const quotes = [
     {name:'EUR / USD', symbol:'€', sub:t('euro','1 eiro'), quote:usd, digits:4},
-    {name:'USD / EUR', symbol:'$', sub:t('dollar','1 dolārs'), quote:{observed_at:usd.observed_at,history_source:usd.history_source,price:1/usd.price, previous:Number.isFinite(usd.previous) && usd.previous > 0 ? 1/usd.previous : null,history:usd.history?.filter(p=>p.value>0).map(p=>({at:p.at,value:1/p.value}))}, digits:4},
+    {name:'USD / EUR', symbol:'$', sub:t('dollar','1 dollar'), quote:{observed_at:usd.observed_at,history_source:usd.history_source,price:1/usd.price, previous:Number.isFinite(usd.previous) && usd.previous > 0 ? 1/usd.previous : null,history:usd.history?.filter(p=>p.value>0).map(p=>({at:p.at,value:1/p.value}))}, digits:4},
     {name:t('gold','Zelts'), symbol:'gold', sub:'EUR / oz', quote:data.gold_eur_oz, digits:2},
     {name:'Bitcoin', symbol:'bitcoin', sub:'EUR / BTC', quote:data.btc_eur, digits:2}
   ];
@@ -321,8 +319,8 @@ function exchange(container, data) {
 
 const requestedMarket = new URLSearchParams(location.search).get('market');
 if (['LV','LT','EE'].includes(requestedMarket)) document.documentElement.dataset.market = requestedMarket;
-const marketSelect = element('select', 'fuel-market'); marketSelect.setAttribute('aria-label','Valsts');
-for (const [value, label] of [['LV','Latvija'],['LT','Lietuva'],['EE','Igaunija']]) { const option = element('option','',label); option.value=value; marketSelect.append(option); }
+const marketSelect = element('select', 'fuel-market'); marketSelect.setAttribute('aria-label',t('country','Country'));
+for (const [value, label] of [['LV','Latvia'],['LT','Lithuania'],['EE','Estonia']]) { const option = element('option','',uiLabels.countries?.[value]||label); option.value=value; marketSelect.append(option); }
 marketSelect.value = document.documentElement.dataset.market || 'LV';
 marketSelect.addEventListener('change',()=>{
   document.documentElement.dataset.market = marketSelect.value;
@@ -352,10 +350,10 @@ async function news() {
     $('#news-cards').replaceChildren(...items.slice(0, 4).map(item => {
       const link = element('a', 'news-card'); link.href = item.url;
       const image = element('img'); image.src = item.largeImage; image.alt = ''; image.loading = 'lazy';
-      link.append(image, element('h3', '', item.title), element('small', '', 'Ziņu priekšskatījums · inbox.lv'));
+      link.append(image, element('h3', '', item.title), element('small', '', t('news_preview','News preview')+' · inbox.lv'));
       return link;
     }));
-  } catch { $('#top-news-list').textContent = 'Ziņu priekšskatījums nav pieejams.'; }
+  } catch { $('#top-news-list').textContent = t('news_preview_unavailable','News preview is unavailable.'); }
 }
 
 if ($('#top-news-list')) news();

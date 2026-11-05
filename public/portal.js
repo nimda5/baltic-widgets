@@ -1,3 +1,4 @@
+import {t,lang} from './i18n.js';
 // Behaviour for the saved public portal markup. No original third-party JS runs.
 // URLs stored in CSS custom properties resolve against the consuming stylesheet.
 // Make card images absolute against the document base (also valid under HA Ingress).
@@ -13,12 +14,12 @@ const mobilePlacement = matchMedia('(max-width: 767px)');
 const switcher = document.createElement('div');
 switcher.className = 'widget-switcher';
 switcher.setAttribute('role','tablist');
-switcher.setAttribute('aria-label','Ikdienas informācija');
+switcher.setAttribute('aria-label',t('daily_information','Daily information'));
 let selectedWidget = 'fuel-widget';
 const panels = [...widgets.querySelectorAll('.widget')];
 for(const [id,title] of [['fuel-widget','Degviela'],['horoscope-widget','Horoskops'],['exchange-widget','Valūtas']]){
   const button = document.createElement('button');
-  button.type='button';button.id=`tab-${id}`;button.textContent=title;
+  button.type='button';button.id=`tab-${id}`;button.textContent=t(id.replace('-widget',''),title);
   button.setAttribute('role','tab');button.setAttribute('aria-controls',id);
   button.addEventListener('click',()=>{selectedWidget=id;updateWidgets();});
   switcher.append(button);
@@ -56,7 +57,7 @@ let activeSlide=0;
 function showSlide(index){
   activeSlide=(index+slides.length)%slides.length;
   slides.forEach((slide,i)=>{slide.classList.toggle('local-slide-active',i===activeSlide);slide.setAttribute('aria-hidden',String(i!==activeSlide));});
-  [...pagination.children].forEach((button,i)=>{button.setAttribute('aria-label',`Ziņu lapa ${i+1}`);button.setAttribute('aria-current',String(i===activeSlide));});
+  [...pagination.children].forEach((button,i)=>{button.setAttribute('aria-label',t('news_page','News page {count}',{count:i+1}));button.setAttribute('aria-current',String(i===activeSlide));});
 }
 slides.forEach((_,i)=>{const b=document.createElement('button');b.type='button';b.addEventListener('click',()=>showSlide(i));pagination.append(b);});
 showSlide(0);
@@ -71,7 +72,7 @@ document.querySelectorAll('.panel-weather2').forEach(panel=>{
   const items=[...track.children];let index=Math.max(0,items.findIndex(item=>item.textContent.includes('vējš')));
   const show=()=>items.forEach((item,i)=>item.classList.toggle('local-weather-active',i===index));
   const next=panel.querySelector('.blaze-next');
-  if(next){next.setAttribute('role','button');next.tabIndex=0;next.setAttribute('aria-label','Nākamais laikapstākļu rādītājs');const advance=()=>{index=(index+1)%items.length;show();};next.addEventListener('click',advance);next.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();advance();}});}
+  if(next){next.setAttribute('role','button');next.tabIndex=0;next.setAttribute('aria-label',t('next_weather','Next weather metric'));const advance=()=>{index=(index+1)%items.length;show();};next.addEventListener('click',advance);next.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();advance();}});}
   show();
 });
 
@@ -82,7 +83,7 @@ const more=document.querySelector('.header-products-more-toggle');
 if(more){more.addEventListener('click',event=>{event.preventDefault();const list=more.parentElement.querySelector('.dropdown-menu');if(list)list.classList.toggle('show');});}
 const language=document.querySelector('#inx-lang-switch-button'),languageMenu=document.querySelector('#top-lang-switch-ddown');
 const languageNames={lv:'Latviešu',ru:'Русский',en:'English',lt:'Lietuvių',et:'Eesti'};
-const requestedLanguage=new URL(location.href).searchParams.get('lang')||'lv';
+const requestedLanguage=lang;
 const activeLanguage=Object.hasOwn(languageNames,requestedLanguage)?requestedLanguage:'en';
 if(language&&languageMenu){
   languageMenu.replaceChildren();
@@ -109,3 +110,19 @@ function updateFeed(){
   if(feed)feed.className=`news__col_${cols}`;
 }
 window.addEventListener('resize',updateFeed);updateFeed();
+
+// Translate interface text in the saved markup; leave article bodies and ad images as source content.
+const interfaceText={
+  'Sākums':'home','E-mail':'email','Business':'business','Files':'files','Foto':'photos','Advertising':'advertising','More':'more','Dating':'dating','Calendar':'calendar','Games':'games','Contacts':'contacts','Shortlink':'shortlink','News':'news','Get Premium':'premium',
+  'Visas ziņas':'all_news','Skatīt visus':'view_all','Ziņas':'news','Ikdienai':'daily_information','Palīdzība':'help','Vārda diena':'name_day','Ieiet':'sign_in','Izveidot jauno e-pastu':'create_email',
+  'Latvija':'latvia','Pasaulē':'world','Sports':'sports','Izklaide':'entertainment','Viņa':'lifestyle','Techno':'technology','Kultūra':'culture','Nauda':'money','Ceļot':'travel','Сeļot':'travel',
+  'laika apstākļi tagad':'weather_now','jūtas kā':'feels_like','vējš':'wind','mitrums':'humidity','Piektd.':'friday','Sestd.':'saturday','Svētd.':'sunday'
+};
+const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let textNode;
+while((textNode=walker.nextNode())){
+  if(textNode.parentElement.closest('script,style,#widgets,dialog'))continue;
+  const original=textNode.textContent.trim(),key=interfaceText[original];
+  if(key)textNode.textContent=textNode.textContent.replace(original,t(key,original));
+}
+trigger.setAttribute('aria-label',t('menu','Menu'));
+for(const panel of panels)panel.querySelector('h3').textContent=t(panel.id.replace('-widget',''),panel.querySelector('h3').textContent);

@@ -1,5 +1,6 @@
 (() => {
-  let saved;
+  let saved,updateControl,labels={};
+  document.addEventListener('locale-ready',event=>{labels=event.detail;updateControl?.();});
   try { saved = localStorage.getItem('inbox-theme'); } catch {}
   const media = matchMedia('(prefers-color-scheme: dark)');
   const apply = () => {
@@ -13,10 +14,11 @@
     const button = document.querySelector('.theme-toggle');
     const update = () => {
       const dark = document.documentElement.dataset.theme === 'dark';
-      button.setAttribute('aria-label', dark ? 'Ieslēgt gaišo tēmu' : 'Ieslēgt tumšo tēmu');
+      button.setAttribute('aria-label', dark?(labels.theme_light||'Switch to light theme'):(labels.theme_dark||'Switch to dark theme'));
       button.setAttribute('aria-pressed', String(dark));
       button.querySelector('[data-theme-icon]').textContent = dark ? '☼' : '☾';
     };
+    updateControl=update;
     button.addEventListener('click', () => {
       saved = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
       try { localStorage.setItem('inbox-theme', saved); } catch {}
