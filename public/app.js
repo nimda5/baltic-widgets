@@ -158,7 +158,7 @@ function fuel(container, data) {
       }
 
       if(provider.has_network_prices)detailsCell.append(element('p','station-address-note',t('network_prices_note','The operator publishes network minima without individual station prices.')));
-      if(sharedPrices&&!provider.has_network_prices)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Locations are listed below.')));
+      if(sharedPrices&&!provider.has_network_prices&&published.length)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Locations are listed below.')));
       [...provider.stations].sort((a,b)=>Number(Object.values(b.prices).some(Boolean))-Number(Object.values(a.prices).some(Boolean))||(a.address||a.name||'').localeCompare(b.address||b.name||'',locale)).forEach(station => {
         const line = element('div', 'station-detail');
         if (station.name && station.name !== provider.name) line.append(element('strong', 'station-name', station.name));
