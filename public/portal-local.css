@@ -192,3 +192,14 @@ html[data-bs-theme=light] select{color-scheme:light}
 #widgets select option,#widgets select optgroup,.price-dialog select option,.price-dialog select optgroup{background:var(--portal-surface-primary);color:var(--portal-text-primary)}
 #widgets select:focus-visible,.price-dialog select:focus-visible{outline:2px solid var(--portal-text-secondary);outline-offset:3px;box-shadow:none}
 html[data-input-modality=pointer] #widgets select:focus,html[data-input-modality=pointer] .price-dialog select:focus{outline:none!important;box-shadow:none!important}
+
+/* Short do/don't advice stays within the compact card; full lists expand on request. */
+#widgets .horoscope-advice{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;margin:6px 0 3px}
+#widgets .horoscope-advice-section{min-width:0}
+#widgets .horoscope-advice h4{display:flex;align-items:center;gap:5px;font-size:10px;line-height:17px;font-weight:600;margin:0 0 4px;color:var(--portal-text-primary)}
+#widgets .advice-mark{font-size:12px;color:var(--portal-text-secondary);font-weight:400}
+#widgets .horoscope-advice ul{list-style:none;margin:0;padding:0}
+#widgets .horoscope-advice li{font-size:12px;line-height:1.65;margin:0 0 6px;overflow-wrap:anywhere;text-wrap:pretty}
+#widgets .horoscope-advice:not(.is-expanded) li{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#widgets .horoscope-advice:not(.is-expanded) li:nth-child(n+2){display:none}
+#widgets .horoscope-advice.is-expanded li+li{padding-top:6px;border-top:1px solid var(--portal-border-secondary)}

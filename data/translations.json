@@ -54,9 +54,8 @@
     "previous_published": "Salīdzinājums ar iepriekšējo publicēto vērtību",
     "shared_prices": "Publicētās cenas norādītas augstāk. Pie adresēm — pieejamās degvielas.",
     "horoscope_mood": "Noskaņa",
-    "mood_serious": "Nopietni",
-    "mood_playful": "Ar smaidu",
-    "mood_humor": "Pilns humors",
+    "mood_serious": "Parasts",
+    "mood_humor": "Ar humoru",
     "another_variant": "Cits variants",
     "local_generation": "Vietējā ģenerēšana",
     "read_more": "Lasīt vairāk",
@@ -141,7 +140,9 @@
     "gold_monthly": "Zelts · Pasaules Banka · mēneša dati",
     "monthly_fx": "Pasaules Banka / ECB mēneša valūtas kurss",
     "news_preview": "Ziņu priekšskatījums",
-    "news_preview_unavailable": "Ziņu priekšskatījums nav pieejams."
+    "news_preview_unavailable": "Ziņu priekšskatījums nav pieejams.",
+    "horoscope_do": "Dari",
+    "horoscope_dont": "Izvairies"
   },
   "ru": {
     "fuel": "Энергия",
@@ -198,9 +199,8 @@
     "previous_published": "Сравнение с предыдущим опубликованным значением",
     "shared_prices": "Опубликованные цены указаны выше. У адресов — доступное топливо.",
     "horoscope_mood": "Настроение",
-    "mood_serious": "Честно",
-    "mood_playful": "С улыбкой",
-    "mood_humor": "Полный юмор",
+    "mood_serious": "Обычный",
+    "mood_humor": "С юмором",
     "another_variant": "Другой вариант",
     "local_generation": "Локальная генерация",
     "read_more": "Читать дальше",
@@ -285,7 +285,9 @@
     "gold_monthly": "Золото · Всемирный банк · за месяц",
     "monthly_fx": "Всемирный банк / месячный курс ЕЦБ",
     "news_preview": "Предпросмотр новостей",
-    "news_preview_unavailable": "Предпросмотр новостей недоступен."
+    "news_preview_unavailable": "Предпросмотр новостей недоступен.",
+    "horoscope_do": "Делай",
+    "horoscope_dont": "Избегай"
   },
   "en": {
     "fuel": "Energy",
@@ -342,9 +344,8 @@
     "previous_published": "Compared with the previous published value",
     "shared_prices": "Published prices are shown above. Available fuels are listed next to each address.",
     "horoscope_mood": "Tone",
-    "mood_serious": "Honest",
-    "mood_playful": "Playful",
-    "mood_humor": "Full humour",
+    "mood_serious": "Normal",
+    "mood_humor": "Funny",
     "another_variant": "Another version",
     "local_generation": "Local generation",
     "read_more": "Read more",
@@ -429,7 +430,9 @@
     "gold_monthly": "Gold · World Bank · monthly",
     "monthly_fx": "World Bank / ECB monthly FX",
     "news_preview": "News preview",
-    "news_preview_unavailable": "News preview is unavailable."
+    "news_preview_unavailable": "News preview is unavailable.",
+    "horoscope_do": "Do",
+    "horoscope_dont": "Don't"
   },
   "lt": {
     "fuel": "Energija",
@@ -486,9 +489,8 @@
     "previous_published": "Palyginta su ankstesne paskelbta reikšme",
     "shared_prices": "Paskelbtos kainos pateiktos aukščiau. Prie adresų nurodyti degalai.",
     "horoscope_mood": "Nuotaika",
-    "mood_serious": "Rimtai",
-    "mood_playful": "Su šypsena",
-    "mood_humor": "Daug humoro",
+    "mood_serious": "Įprastas",
+    "mood_humor": "Su humoru",
     "another_variant": "Kitas variantas",
     "local_generation": "Vietinis generavimas",
     "read_more": "Skaityti daugiau",
@@ -573,7 +575,9 @@
     "gold_monthly": "Auksas · Pasaulio bankas · mėnesio duomenys",
     "monthly_fx": "Pasaulio bankas / ECB mėnesio valiutos kursas",
     "news_preview": "Naujienų peržiūra",
-    "news_preview_unavailable": "Naujienų peržiūra nepasiekiama."
+    "news_preview_unavailable": "Naujienų peržiūra nepasiekiama.",
+    "horoscope_do": "Daryk",
+    "horoscope_dont": "Venk"
   },
   "et": {
     "fuel": "Energia",
@@ -630,9 +634,8 @@
     "previous_published": "Võrdlus eelmise avaldatud väärtusega",
     "shared_prices": "Avaldatud hinnad on ülal. Aadresside juures on saadaolevad kütused.",
     "horoscope_mood": "Meeleolu",
-    "mood_serious": "Tõsine",
-    "mood_playful": "Muhe",
-    "mood_humor": "Täis huumorit",
+    "mood_serious": "Tavaline",
+    "mood_humor": "Humoorikas",
     "another_variant": "Teine variant",
     "local_generation": "Kohalik genereerimine",
     "read_more": "Loe edasi",
@@ -717,6 +720,8 @@
     "gold_monthly": "Kuld · Maailmapank · kuuandmed",
     "monthly_fx": "Maailmapank / EKP kuu vahetuskurss",
     "news_preview": "Uudiste eelvaade",
-    "news_preview_unavailable": "Uudiste eelvaade pole saadaval."
+    "news_preview_unavailable": "Uudiste eelvaade pole saadaval.",
+    "horoscope_do": "Tee",
+    "horoscope_dont": "Väldi"
   }
 }

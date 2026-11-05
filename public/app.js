@@ -67,7 +67,6 @@ const paths = {
   bolt: 'M13 2L5 13h6l-1 9 9-13h-6Z',
   gold: 'M9 4h6l3 7H6l3-7ZM4 14h6l3 6H1l3-6ZM15 14h6l2 6H12l3-6Z',
   tone_serious:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0M8 9h.01M16 9h.01M8 15h8',
-  tone_playful:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0M8 9h.01M16 9h.01M8 14q4 5 8 0',
   tone_humor:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0M7 9l2-1 2 1M13 9l2-1 2 1M7 13h10q-1 6-5 6t-5-6Z',
   bitcoin: 'M9 5h6a3.5 3.5 0 0 1 0 7H9h7a3.5 3.5 0 0 1 0 7H9V5M12 2v3M16 2v3M12 19v3M16 19v3M6 5h3M6 19h3',
   left: 'M14 6l-6 6 6 6', right: 'M10 6l6 6-6 6',
@@ -253,7 +252,7 @@ function horoscope(container, data) {
   let selected=Math.max(0,data.signs.findIndex(sign=>sign.id===currentZodiac(new Date(),timeZone))),day='today';
   let mood=data.selected_mood||'serious';
   const variant=crypto.getRandomValues(new Uint32Array(1))[0]%(data.variants_per_mood||3);
-  try{const saved=localStorage.getItem('horoscope-mood');if(data.moods?.includes(saved))mood=saved;}catch{}
+  try{const saved=localStorage.getItem('horoscope-mood');if(saved==='playful')mood='humor';else if(data.moods?.includes(saved))mood=saved;}catch{}
   const tabs=element('div','horoscope-days segmented');
   for(const [key,label] of [['today',t('today','Today')],['tomorrow',t('tomorrow','Tomorrow')]]){
     const button=element('button','',label);button.type='button';button.dataset.day=key;
@@ -266,14 +265,14 @@ function horoscope(container, data) {
   const dates=element('p','zodiac-date');info.append(select,dates);
   const tone=element('details','horoscope-tone'),toneToggle=element('summary');
   const toneMenu=element('div','horoscope-tone-menu');toneMenu.setAttribute('role','group');toneMenu.setAttribute('aria-label',t('horoscope_mood','Tone'));
-  for(const key of ['serious','playful','humor']){
+  for(const key of ['serious','humor']){
     const button=element('button','',t('mood_'+key,key));button.type='button';button.dataset.mood=key;button.prepend(icon('tone_'+key));
     button.addEventListener('click',()=>{mood=key;try{localStorage.setItem('horoscope-mood',mood);}catch{}tone.open=false;show();toneToggle.focus();});toneMenu.append(button);
   }
   tone.addEventListener('focusout',event=>{if(!tone.contains(event.relatedTarget))tone.open=false;});
   tone.addEventListener('keydown',event=>{if(event.key==='Escape'){tone.open=false;toneToggle.focus();}});
   tone.append(toneToggle,toneMenu);top.append(symbol,info,tone);
-  const text=element('p','horoscope-text');text.id='horoscope-reading';
+  const text=element('div','horoscope-advice');text.id='horoscope-reading';
   let expanded=false,readingKey='';
   const readMore=element('button','horoscope-read-more');readMore.type='button';readMore.setAttribute('aria-controls',text.id);
   function toggleReading(){text.classList.toggle('is-expanded',expanded);readMore.setAttribute('aria-expanded',String(expanded));readMore.textContent=expanded?t('read_less','Show less'):t('read_more','Read more');}
@@ -281,7 +280,13 @@ function horoscope(container, data) {
   function show(){
     const key=[selected,day,mood].join(':');if(key!==readingKey){expanded=false;readingKey=key;}toggleReading();
     const sign=data.signs[selected];select.value=String(selected);symbol.replaceChildren(icon(sign.id));dates.textContent=sign.dates;
-    text.textContent=sign.readings?.[day]?.[mood]?.[variant]||sign[day];
+    const reading=sign.advice?.[day]?.[mood]?.[variant];text.replaceChildren();
+    if(reading){
+      for(const [field,label] of [['do',t('horoscope_do','Do')],['dont',t('horoscope_dont',"Don't")]]){
+        const section=element('section','horoscope-advice-section '+field),heading=element('h4','',label),mark=element('span','advice-mark',field==='do'?'✓':'×');mark.setAttribute('aria-hidden','true');heading.prepend(mark);const list=element('ul');
+        reading[field].forEach(item=>list.append(element('li','',item)));section.append(heading,list);text.append(section);
+      }
+    }else{text.append(element('p','horoscope-text',sign.readings?.[day]?.[mood]?.[variant]||sign[day]));}
     toneToggle.replaceChildren(icon('tone_'+mood));toneToggle.title=t('horoscope_mood','Tone')+': '+t('mood_'+mood,mood);toneToggle.setAttribute('aria-label',toneToggle.title);
     toneMenu.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mood===mood)));
     tabs.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.day===day)));

@@ -22,17 +22,24 @@ test('two cached days cover all signs, moods, variants; selection and fallback p
     const a=horoscopeData(db,options),b=horoscopeData(db,{...options,now:new Date('2026-11-05T13:00:00Z')});
     assert.equal(a.updated_at,b.updated_at);assert.equal(db.prepare('SELECT count(*) n FROM horoscope_days').get().n,2);
     assert.equal(a.data.signs.length,12);
+    assert.equal(a.data.format,'do_dont');assert.deepEqual(a.data.moods,['serious','humor']);
+    for(const sign of a.data.signs)for(const day of ['today','tomorrow'])for(const mood of moods)for(const reading of sign.advice[day][mood]){
+      assert.equal(reading.do.length,3);assert.equal(reading.dont.length,3);
+      assert.equal(new Set([...reading.do,...reading.dont]).size,6);
+      assert.ok([...reading.do,...reading.dont].every(item=>typeof item==='string'&&item.length>15));
+    }
+    assert.throws(()=>horoscopeData(db,{...options,mood:'playful'}));
     for(const sign of a.data.signs)for(const day of ['today','tomorrow']){
-      const all=[];for(const mood of moods){assert.equal(sign.readings[day][mood].length,3);for(const text of sign.readings[day][mood]){assert.ok(text.length>450);all.push(text);}}
-      assert.equal(new Set(all).size,9);
+      const all=[];for(const mood of moods){assert.equal(sign.readings[day][mood].length,3);for(const text of sign.readings[day][mood]){assert.ok(text.length>120);all.push(text);}}
+      assert.equal(new Set(all).size,6);
     }
     for(const lang of ['ru','lv','en']){
       const doc=horoscopeData(db,{...options,lang});
       for(const sign of doc.data.signs)for(let i=0;i<3;i++){
         const serious=sign.readings.today.serious[i].split(/(?<=[.!?])\s+/);
-        const playful=sign.readings.today.playful[i].split(/(?<=[.!?])\s+/);
+        const playful=sign.readings.today.humor[i].split(/(?<=[.!?])\s+/);
         assert.notEqual(serious[0],playful[0]);
-        assert.ok(playful.filter(sentence=>serious.includes(sentence)).length<=1,'playful has its own prose, not a single added joke');
+        assert.ok(playful.filter(sentence=>serious.includes(sentence)).length<=1,'humor has its own advice');
       }
     }
     const chosen=horoscopeData(db,{...options,mood:'humor',variant:'2'});assert.equal(chosen.data.signs[0].today,a.data.signs[0].readings.today.humor[2]);

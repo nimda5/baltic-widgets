@@ -88,7 +88,7 @@ Fuel uses published LV operator prices, LEA in LT, and FuelEst in EE. Missing 98
 
 Currencies use ECB history from 1999; gold uses NBP from 2013 and a separate monthly World Bank series; Bitcoin uses Coin Metrics from 2010. Actual coverage depends on the source and the retained database.
 
-Horoscopes use editorial templates informed by Astronomy Engine calculations, with three moods and three variants per sign and day. Dates follow Europe/Riga. Six areas cover work/business, money, relationships, personal plans, home/family, and balance/rest, using 24 practical situations. Adjacent days change the topic and every sentence; a fixed description of the sign is not repeated. These are everyday prompts, not promises of specific events.
+Horoscopes use a **Do / Don't** format: three suggestions in each group, with one per group shown in the compact widget and full lists available through Read more. Horoscopes use editorial templates informed by Astronomy Engine calculations, with two moods (normal and funny) and three variants per sign and day. Dates follow Europe/Riga. Six areas cover work/business, money, relationships, personal plans, home/family, and balance/rest, using practical, topic-specific advice. Adjacent days change the topic and every sentence; a fixed description of the sign is not repeated. These are everyday prompts, not promises of specific events.
 
 The news, advertisements, and weather in the layout are saved demonstration material. Their collection and refresh have not been implemented. See [THIRD_PARTY.md](THIRD_PARTY.md).
 
@@ -103,3 +103,9 @@ Tests cover parsers, last-successful-result retention, fresh network selection, 
 ## Documentation language
 
 All project documentation is maintained in **English only**. Multilingual interface labels, generated horoscope content, and localized data remain supported. Contributor instructions are recorded in [AGENTS.md](AGENTS.md).
+
+## Horoscope response format
+
+`data.moods` contains `serious` (normal) and `humor` (funny). Each sign exposes structured variants in `advice.today[mood][variant]` and `advice.tomorrow[mood][variant]`. A variant contains `topic`, `do` (three strings), and `dont` (three strings). `recommendations` contains the selected variant for each day. Plain-text `today`, `tomorrow`, and `readings` remain available for existing consumers.
+
+The Node API accepts `mood=serious|humor|random` and `variant=0|1|2|random`; the former `playful` mode is no longer supported. The widget migrates an old saved playful preference to funny mode. On GitHub Pages, choose structured variants client-side from the JSON file.
