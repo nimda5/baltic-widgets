@@ -98180,6 +98180,576 @@
     },
     {
       "type": "Feature",
+      "id": "straujupite:1c1c74d08d095a260018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.183934,
+          56.926682
+        ]
+      },
+      "properties": {
+        "id": "straujupite:1c1c74d08d095a260018",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Krustpils",
+        "address": "Krustpils iela 6A, Rīga",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "922b6e5c203cdfc25c64",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:29ecd2e17a0e150947ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.230217,
+          56.426525
+        ]
+      },
+      "properties": {
+        "id": "straujupite:29ecd2e17a0e150947ce",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Bauska",
+        "address": "“Rutki”, Codes pag., Bauskas nov.",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "eec19edd88d49eb140d4",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:3ae6f20c5c65b4b71f5a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.073106,
+          56.950489
+        ]
+      },
+      "properties": {
+        "id": "straujupite:3ae6f20c5c65b4b71f5a",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Daugavgrīvas",
+        "address": "Daugavgrīvas 29, Rīga",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "e61d6ff074063b0a8f6c",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:44176018be2d21a9b9a6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.170687,
+          57.208621
+        ]
+      },
+      "properties": {
+        "id": "straujupite:44176018be2d21a9b9a6",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Ieriķi*",
+        "address": "Cecīļu iela, Ieriķi, Drabešu pag., Cēsu nov.",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "c20c5b740ed7434e5676",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:81c0f54d9503d8918990",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.623086,
+          57.113178
+        ]
+      },
+      "properties": {
+        "id": "straujupite:81c0f54d9503d8918990",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Sorbas",
+        "address": "Inčukalns KRUSTIŅI, Siguldas novads",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "5da40eb7fc2a90f47542",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:846c0a6a297ccd281411",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.309892,
+          56.211029
+        ]
+      },
+      "properties": {
+        "id": "straujupite:846c0a6a297ccd281411",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Nereta*",
+        "address": "Rūpniecības 3, Nereta, Neretas pag., Aizklaukles nov.",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "26a36e4d35feb3f459f1",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:862a7375545d25afb88b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.323042,
+          56.91616
+        ]
+      },
+      "properties": {
+        "id": "straujupite:862a7375545d25afb88b",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Tukums",
+        "address": "Rīgas-Ventspils šosejas 56.km, Slampes pag., Tukuma nov.",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {
+          "95": {
+            "value": 1.774,
+            "currency": "EUR",
+            "unit": "L",
+            "source_label": "Benzīns 95",
+            "observed_at": null,
+            "observed_date": "2026-11-02",
+            "source_timestamp": "2026-11-02",
+            "time_precision": "date",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
+            "freshness": "stale",
+            "evidence": "operator_published",
+            "scope": "station",
+            "source_verified": null,
+            "history": [
+              {
+                "at": "2026-11-05T22:39:03.065Z",
+                "value": 1.774
+              }
+            ],
+            "change": null
+          },
+          "diesel": {
+            "value": 2.024,
+            "currency": "EUR",
+            "unit": "L",
+            "source_label": "Dīzeļdegviela",
+            "observed_at": null,
+            "observed_date": "2026-11-02",
+            "source_timestamp": "2026-11-02",
+            "time_precision": "date",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
+            "freshness": "stale",
+            "evidence": "operator_published",
+            "scope": "station",
+            "source_verified": null,
+            "history": [
+              {
+                "at": "2026-11-05T22:39:03.065Z",
+                "value": 2.024
+              }
+            ],
+            "change": null
+          }
+        },
+        "directory_id": "6f3c58e506c5461a8a02",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:880aeffc766c9ed785c6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.185736,
+          56.948691
+        ]
+      },
+      "properties": {
+        "id": "straujupite:880aeffc766c9ed785c6",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Deglava",
+        "address": "Jenotu 19, Rīga",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "b6a30d8d4bc797909c1c",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:93a8f32a5975386e7756",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.981847,
+          56.953206
+        ]
+      },
+      "properties": {
+        "id": "straujupite:93a8f32a5975386e7756",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Jūrmalas",
+        "address": "Jūrmalas gatve 144, Rīga",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "365e54ed0862b50ac1e4",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:9fa04e6c41c12c9769bb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.629955,
+          57.113658
+        ]
+      },
+      "properties": {
+        "id": "straujupite:9fa04e6c41c12c9769bb",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Totāls",
+        "address": "Rīgas Veclaicenes šoseja 37.km, Inčukalna pag., Siguldas nov.",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "a1efbfe1c008b7919807",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:cd526e2dc3b6ea82a5c1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.071661,
+          56.957597
+        ]
+      },
+      "properties": {
+        "id": "straujupite:cd526e2dc3b6ea82a5c1",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Ūdens",
+        "address": "Ūdens 29, Rīga",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "8f28833ffcbb6657b96a",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "straujupite:d0a0bafa5daa56013eec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.554881,
+          56.95383
+        ]
+      },
+      "properties": {
+        "id": "straujupite:d0a0bafa5daa56013eec",
+        "country": "LV",
+        "brand": "Straujupīte",
+        "name": "Straujupīte Ropaži",
+        "address": "“Bajāru degvielas uzpildes stacija”, Bajārkrogā, Ropažu nov.",
+        "source": "straujupite",
+        "source_url": "https://straujupite.lv/degvielas-cenas/",
+        "prices": {},
+        "directory_id": "c066bf34063a387a1018",
+        "directory_url": "https://straujupite.lv/degvielas-uzpildes-stacijas/",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:00384e4548800d0825a2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.562772,
+          56.819284
+        ]
+      },
+      "properties": {
+        "id": "viada:00384e4548800d0825a2",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Ogre",
+        "address": "Rīgas iela 116, Ogre, LV-5001",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "e3b1cf9f50567b72472f",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:089c2e02ca70696ed2e0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.062473,
+          56.928619
+        ]
+      },
+      "properties": {
+        "id": "viada:089c2e02ca70696ed2e0",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Krūzes",
+        "address": "Krūzes iela 53, Rīga, LV-1002",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "f576582fced8afc8eb84",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:11b1bf5a7981f547945d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.175522,
+          56.916663
+        ]
+      },
+      "properties": {
+        "id": "viada:11b1bf5a7981f547945d",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Latgales 2",
+        "address": "Latgales iela 293A, Rīga. LV-1063",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "2d850a52878749c34a59",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:127bb30c7243f7e9bcc2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.24721,
+          56.810084
+        ]
+      },
+      "properties": {
+        "id": "viada:127bb30c7243f7e9bcc2",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Ķekava",
+        "address": "“Mazsvilpji”, Ķekavas pagasts, Ķekavas novads, LV-2132",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "9ba475b1616a4ec6f92a",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:138596af3d71283d52e4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.005648,
+          56.519865
+        ]
+      },
+      "properties": {
+        "id": "viada:138596af3d71283d52e4",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Liepāja 4",
+        "address": "Kapsētas iela 24, Liepāja, LV-3401",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "49e6b6f9516fa5b1fcfb",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:1785dcc2b9494a06e70b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.86651,
+          56.51495
+        ]
+      },
+      "properties": {
+        "id": "viada:1785dcc2b9494a06e70b",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Jēkabpils 4",
+        "address": "Varoņu iela 6, Jēkabpils, LV-5202",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "9e8451b39b5efafd1c16",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:1937d36dd95ee7dfa024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.015575,
+          56.485573
+        ]
+      },
+      "properties": {
+        "id": "viada:1937d36dd95ee7dfa024",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Liepāja 3",
+        "address": "Ganību iela 180, Liepāja, LV-3407",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "fa69bb6e65d24ad99c23",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:2b04d53b3a8be490e5ca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.189249,
+          56.957865
+        ]
+      },
+      "properties": {
+        "id": "viada:2b04d53b3a8be490e5ca",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Astras",
+        "address": "G.Astras iela 7, Rīga, LV-1084",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "eb5b75d1259e58cfb1c4",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:2d1e9deaa4e4a80fab03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.173456,
+          56.993741
+        ]
+      },
+      "properties": {
+        "id": "viada:2d1e9deaa4e4a80fab03",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Ķīšezers",
+        "address": "Ķīšezera iela 31, Rīga, LV-1014",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "eb3a393348c3e9d5d7f2",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
       "id": "viada:2f54323340060b2d2a14",
       "geometry": {
         "type": "Point",
@@ -98193,7 +98763,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "DUS Dārzciema 2",
-        "address": "Dārzciema iela 62, Rīga",
+        "address": "Dārzciema iela 62, Rīga, LV-1073",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98206,20 +98776,124 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 2.094
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "59bd45a393dccdb1935a",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:303725b801ef98599e89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.614231,
+          57.397075
+        ]
+      },
+      "properties": {
+        "id": "viada:303725b801ef98599e89",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Ventspils 2",
+        "address": "Kurzemes iela 59, Ventspils, LV-3602",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "765c4a8de4864f541cf9",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:3138d109bddf87734288",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.20575,
+          56.85894
+        ]
+      },
+      "properties": {
+        "id": "viada:3138d109bddf87734288",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Madona",
+        "address": "Rūpniecības iela 19, Madona, LV-4801",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "d8c194720227ca7e5fd1",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:357cfb595439510e9ab4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.244686,
+          57.141868
+        ]
+      },
+      "properties": {
+        "id": "viada:357cfb595439510e9ab4",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Balvi",
+        "address": "Stacijas iela 13, Balvi, LV-4501",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "564e5bf136b7b44fc982",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:3bdd81f289f6e01518bb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5458,
+          55.894688
+        ]
+      },
+      "properties": {
+        "id": "viada:3bdd81f289f6e01518bb",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Daugavpils 3",
+        "address": "Višķu iela 17L, Daugavpils, LV-5410",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "f9d52408027fde09c94d",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98237,7 +98911,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "ADUS Valdeķu",
-        "address": "Valdeķu iela 34, Rīga",
+        "address": "Valdeķu iela 34, Rīga, LV-1058",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98250,14 +98924,14 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.787
               }
             ],
@@ -98272,20 +98946,174 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.987
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "f00e013727cda6145f27",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:47d96307d00640265650",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.88494,
+          56.487631
+        ]
+      },
+      "properties": {
+        "id": "viada:47d96307d00640265650",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Jēkabpils 2",
+        "address": "Brīvības iela 23, Jēkabpils, LV-5201",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "3baaf75b4be8f6d4ee53",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:51c06b83bb2d78ec8b9a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.621216,
+          56.960686
+        ]
+      },
+      "properties": {
+        "id": "viada:51c06b83bb2d78ec8b9a",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Kauguri",
+        "address": "Brikšķu iela 2, Kaugurciems, Jūrmala, LV-2016",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "e4702806ed98eac5df8b",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:5a7fd6e5eace36b9b07b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.723837,
+          56.624449
+        ]
+      },
+      "properties": {
+        "id": "viada:5a7fd6e5eace36b9b07b",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Jelgava 2",
+        "address": "Lietuvas šoseja 72, Jelgava, LV-3008",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "d3205036fec3604b6e20",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:5f9ef88778f041a4dfff",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.712033,
+          56.637233
+        ]
+      },
+      "properties": {
+        "id": "viada:5f9ef88778f041a4dfff",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Jelgava 1",
+        "address": "Rūpniecības iela 20d, Jelgava, LV-3008",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "8da6219a18d484438faf",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:6faa451f32e06c287ed2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.036283,
+          56.974028
+        ]
+      },
+      "properties": {
+        "id": "viada:6faa451f32e06c287ed2",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Buļļu",
+        "address": "Buļļu iela 72A, Rīga, LV-1067",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "f05f04e3c992b9efcd77",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:745ccb05293cc8b70584",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.013998,
+          56.930691
+        ]
+      },
+      "properties": {
+        "id": "viada:745ccb05293cc8b70584",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Šampētera",
+        "address": "Šampētera iela 180, Rīga, LV-1046",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "07edbda46f7184d40af4",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98302,8 +99130,8 @@
         "id": "viada:7afae81eb261cf391fe7",
         "country": "LV",
         "brand": "Viada",
-        "name": "ADUS Saharova",
-        "address": "Andreja Saharova iela 10, Rīga",
+        "name": "ADUS Saharova* – Rekonstrukcija",
+        "address": "Andreja Saharova iela 10, Rīga, LV1021",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98316,14 +99144,14 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.787
               }
             ],
@@ -98338,20 +99166,24 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.987
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "711a0fd9e7bec61806d4",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98369,7 +99201,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "ADUS Ulmaņa",
-        "address": "Kārļa Ulmaņa gatve 67, Rīga",
+        "address": "Kārļa Ulmaņa gatve 67, Rīga, LV-1002",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98382,14 +99214,14 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.787
               }
             ],
@@ -98404,20 +99236,24 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.987
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "740d684fa0c75cf31c1b",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98435,7 +99271,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "ADUS Valgales",
-        "address": "Valgales iela 1, Rīga",
+        "address": "Valgales iela 1, Rīga, LV-1029",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98448,14 +99284,14 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.787
               }
             ],
@@ -98470,20 +99306,124 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.987
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "aaa7028a0ee50181ff8f",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:85071205e694bde8438a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.217546,
+          56.893367
+        ]
+      },
+      "properties": {
+        "id": "viada:85071205e694bde8438a",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Latgales 1",
+        "address": "Latgales iela 440, Rīga, LV-1063",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "9cb98a6712f382a4cdde",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:8bf3a64e6f5a74c8b28c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.021639,
+          56.941259
+        ]
+      },
+      "properties": {
+        "id": "viada:8bf3a64e6f5a74c8b28c",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Apuzes",
+        "address": "Apuzes iela 47, Rīga, LV-1029",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "5ea64627ca8bea3ab19f",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:9d6f89763df778213249",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.314332,
+          57.089945
+        ]
+      },
+      "properties": {
+        "id": "viada:9d6f89763df778213249",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Ādaži",
+        "address": "Rīgas gatve 65, Ādaži, Ādažu novads, LV-2164",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "a12c2de8ee24f47b96bf",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:9e7b04f0a07cec5d98ab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.344393,
+          56.526443
+        ]
+      },
+      "properties": {
+        "id": "viada:9e7b04f0a07cec5d98ab",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Rēzekne 1",
+        "address": "Atbrīvošanas aleja 174A, Rēzekne, LV-1067",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "5f5c80f4af72f98ba1f5",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98501,7 +99441,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "ADUS Liepāja 2",
-        "address": "Zemnieku iela 58, Liepāja",
+        "address": "Zemnieku iela 58, Liepāja, LV-3401",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98514,14 +99454,14 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.787
               }
             ],
@@ -98536,20 +99476,324 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.987
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "9be6fc7d2c91933f7e8f",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:a5abb2cdba04a7d49aec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8744,
+          56.5101
+        ]
+      },
+      "properties": {
+        "id": "viada:a5abb2cdba04a7d49aec",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Jēkabpils 3",
+        "address": "Latgales iela 42, Jēkabpils, LV-5202",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "0bc080a23c00b7272502",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:aff91b83c10cb34d8251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.08361,
+          56.90592
+        ]
+      },
+      "properties": {
+        "id": "viada:aff91b83c10cb34d8251",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Vienības",
+        "address": "Vienības gatve 162a, Rīga, LV-1058",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "49ef1d56d48e07c01afd",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:b21efd766c359f96970c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.118986,
+          56.916562
+        ]
+      },
+      "properties": {
+        "id": "viada:b21efd766c359f96970c",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Mūkusalas 2",
+        "address": "Mūkusalas iela 78, Rīga, LV-1004",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "e26515937fe143694d22",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:b3e14272bf0b995ea878",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.01278,
+          56.534483
+        ]
+      },
+      "properties": {
+        "id": "viada:b3e14272bf0b995ea878",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Liepāja 1",
+        "address": "Krūmu iela 56, Liepāja, LV-3405",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "aed5c7e429846acf973e",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:b866062e496e7e9e52f9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.106698,
+          56.929488
+        ]
+      },
+      "properties": {
+        "id": "viada:b866062e496e7e9e52f9",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Mūkusalas 1",
+        "address": "Mūkusalas iela 59, Rīga, LV-1004",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "119d4c6b83bc7b5c8699",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:b9c8dd59ba43c82587e1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.144258,
+          56.536393
+        ]
+      },
+      "properties": {
+        "id": "viada:b9c8dd59ba43c82587e1",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Grobiņa",
+        "address": "Lielā iela 8, Grobiņa, LV-3430",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "406ad97ac3a34091d5a5",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:bea5dc114efac636fc8a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.14856,
+          56.93362
+        ]
+      },
+      "properties": {
+        "id": "viada:bea5dc114efac636fc8a",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Krasta",
+        "address": "Krasta iela 50, Rīga, LV-1003",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "3d54bbfb344c54fcba6e",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:c26867731f9529f7d2c8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.581308,
+          55.864712
+        ]
+      },
+      "properties": {
+        "id": "viada:c26867731f9529f7d2c8",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Daugavpils 1",
+        "address": "Nometņu iela 99D, Daugavpils, LV-5414",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "074b6774666792d25d51",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:cabbd0f64fe36d467b4c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.567152,
+          57.38227
+        ]
+      },
+      "properties": {
+        "id": "viada:cabbd0f64fe36d467b4c",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Ventspils 1",
+        "address": "Inženieru iela 2, Ventspils, LV-3601",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "49e2d21f839e2c2fa95d",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:cf3ea8b7dbba7f68ae6f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.042323,
+          57.413969
+        ]
+      },
+      "properties": {
+        "id": "viada:cf3ea8b7dbba7f68ae6f",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Alūksne",
+        "address": "Gulbenes iela 1C, Alūksne, LV-4301",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "9ff1b17be4825356ee32",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:dc93769e2cf4f440c226",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.547218,
+          55.875971
+        ]
+      },
+      "properties": {
+        "id": "viada:dc93769e2cf4f440c226",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Daugavpils 4",
+        "address": "18. novembra iela 119, Daugavpils, LV-5404",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "e43a68933e3566718dbf",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:df338979ff2a616f87dd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.183746,
+          56.981967
+        ]
+      },
+      "properties": {
+        "id": "viada:df338979ff2a616f87dd",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Džutas",
+        "address": "Džutas iela 16, Rīga, LV-1006",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "d2f7eb81593bc0273719",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98567,7 +99811,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "DUS Dārzciema",
-        "address": "Dārzciema iela 69, Rīga",
+        "address": "Dārzciema iela 69, Rīga, LV-1073",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98580,20 +99824,74 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 2.094
               }
             ],
             "change": null
           }
-        }
+        },
+        "directory_id": "33bd5bb635fbfa5446a2",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:e971944c355089c97813",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.824471,
+          57.137981
+        ]
+      },
+      "properties": {
+        "id": "viada:e971944c355089c97813",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Sigulda",
+        "address": "“Lorēni”, Siguldas pagasts, Siguldas novads, LV-2150",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "8fe380c75268724dc576",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:f157295e88e1088665ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.216913,
+          56.913511
+        ]
+      },
+      "properties": {
+        "id": "viada:f157295e88e1088665ad",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Granīta",
+        "address": "Granīta iela 7a, Rīga, LV-1057",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "f680adf823a8fce218f1",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     },
     {
@@ -98611,7 +99909,7 @@
         "country": "LV",
         "brand": "Viada",
         "name": "ADUS Salaspils",
-        "address": "Salaspils iela 4a, Rīga",
+        "address": "Salaspils iela 4a, Rīga, LV-1057",
         "source": "viada",
         "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
         "prices": {
@@ -98624,14 +99922,14 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
             "source_verified": null,
             "history": [
               {
-                "at": "2026-11-05T10:28:03.608Z",
+                "at": "2026-11-05T22:39:03.065Z",
                 "value": 1.787
               }
             ],
@@ -98646,7 +99944,105 @@
             "observed_date": "2026-11-05",
             "source_timestamp": "2026-11-05",
             "time_precision": "date",
-            "fetched_at": "2026-11-05T10:28:03.608Z",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
+            "freshness": "recent",
+            "evidence": "operator_published",
+            "scope": "station",
+            "source_verified": null,
+            "history": [
+              {
+                "at": "2026-11-05T22:39:03.065Z",
+                "value": 1.987
+              }
+            ],
+            "change": null
+          }
+        },
+        "directory_id": "c4557ce213532e8b53e4",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viada:fd65b5fed2685fdbb6ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.129819,
+          56.989086
+        ]
+      },
+      "properties": {
+        "id": "viada:fd65b5fed2685fdbb6ad",
+        "country": "LV",
+        "brand": "Viada",
+        "name": "DUS Dambja",
+        "address": "Dambja iela 11, Rīga, LV -1005",
+        "source": "viada",
+        "source_url": "https://www.viada.lv/zemakas-degvielas-cenas/",
+        "prices": {},
+        "directory_id": "5052bdacc0b8e34b1d19",
+        "directory_url": "https://www.viada.lv/dus",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0058cd44ea8c468965d8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.002913884130848,
+          56.13541290000003
+        ]
+      },
+      "properties": {
+        "id": "virsi:0058cd44ea8c468965d8",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Aglona",
+        "address": "Somersētas iela 11a, Aglona, LV-5304",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "5b44b0c3-0342-412c-86c8-ecdc4fd2f894",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:02676ebd39b455940760",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.22283039760361,
+          56.93573749303522
+        ]
+      },
+      "properties": {
+        "id": "virsi:02676ebd39b455940760",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Lubāna",
+        "address": "Lubānas iela 102a, Rīga, LV-1021",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {
+          "diesel": {
+            "value": 2.054,
+            "currency": "EUR",
+            "unit": "L",
+            "source_label": "DD",
+            "observed_at": null,
+            "observed_date": "2026-11-04",
+            "source_timestamp": "2026-11-04",
+            "time_precision": "date",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
             "freshness": "recent",
             "evidence": "operator_published",
             "scope": "station",
@@ -98654,14 +100050,2491 @@
             "history": [
               {
                 "at": "2026-11-05T10:28:03.608Z",
-                "value": 1.987
+                "value": 2.054
               }
             ],
-            "change": null
+            "change": 0
           }
-        }
+        },
+        "directory_id": "69cf3f58-a045-4ea7-b3a7-5ee533e7cdfa",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0354547aec7025b2cb19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1029559,
+          56.97414629999999
+        ]
+      },
+      "properties": {
+        "id": "virsi:0354547aec7025b2cb19",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Katrīnas dambis",
+        "address": "Katrīnas dambis 35, Rīga, LV-1045",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "c45b2279-c59c-42a2-bd89-44e2fdbda7fe",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0411a3a097c023cb02cd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.24555858200073,
+          56.598747644953995
+        ]
+      },
+      "properties": {
+        "id": "virsi:0411a3a097c023cb02cd",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Gaisma",
+        "address": "Gaismas iela 1, Aizkraukle, LV-5101",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "92374e0f-f0e7-435c-99c6-ff88d5af8eb7",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:057c2461eb165754e087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.31763578888545,
+          57.07904110930949
+        ]
+      },
+      "properties": {
+        "id": "virsi:057c2461eb165754e087",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ādaži",
+        "address": "Rīgas gatve 45, Ādaži, LV-2164",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "2ac5cd22-ac30-4f4c-b6c9-ffc64951b5b3",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:06b90579f47cb9a2fe03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.73718814177242,
+          57.18278862247463
+        ]
+      },
+      "properties": {
+        "id": "virsi:06b90579f47cb9a2fe03",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Gulbene",
+        "address": "Brīvības iela 97b, Gulbene, LV-4401",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "e7a5f2f0-f148-41e9-b56c-9ad87d39750e",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:097a439f4de18329af70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.08976687287746,
+          56.938475470435435
+        ]
+      },
+      "properties": {
+        "id": "virsi:097a439f4de18329af70",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Arkādijs",
+        "address": "Uzvaras bulvāris 16, Rīga, LV-1048",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "fa0757fa-5363-46a8-a8a9-0f9dd8be44c6",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0a26ae7cd43a3cab74c0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.958669988632053,
+          56.95824830987077
+        ]
+      },
+      "properties": {
+        "id": "virsi:0a26ae7cd43a3cab74c0",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Babīte",
+        "address": "“Viršvidi”, Spilve, Babītes pagasts, Mārupes novads, LV-2101",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "b39830f0-d92a-4ce5-a101-41d6858e7022",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0b366d9ca7d957d7db4a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1187238,
+          56.9500944
+        ]
+      },
+      "properties": {
+        "id": "virsi:0b366d9ca7d957d7db4a",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Tukums 2",
+        "address": "Kuldīgas iela 69, Tukums, Tukuma novads, LV-3104",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "cd6c1317-143d-441c-9948-06ff3b64fa64",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0b46ceed383aab886c61",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.23592985944673,
+          56.61519767200447
+        ]
+      },
+      "properties": {
+        "id": "virsi:0b46ceed383aab886c61",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Kalna",
+        "address": "Kalna iela 19, Aizkraukle, LV-5101",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "2b76c6d5-bdaa-49c6-845d-f93a1ff8def2",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:0ded306a058b0fb1ccd9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.18431434550781,
+          55.887911287389464
+        ]
+      },
+      "properties": {
+        "id": "virsi:0ded306a058b0fb1ccd9",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Krāslava",
+        "address": "Rīgas iela 165a, Krāslava, Krāslavas pilsēta, LV-5601",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "c2582a9e-bfd2-43e1-a33a-a6a5df8df60c",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:13288f69f1f2f462e0a0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.486581333773735,
+          56.720430755351664
+        ]
+      },
+      "properties": {
+        "id": "virsi:13288f69f1f2f462e0a0",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Bebri",
+        "address": "„Degvielas uzpildes stacija“, Vecbebri, Bebru pagasts, Aizkraukles novads, LV-5135",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "25123eb3-a67d-4538-a65a-c5e52b72806c",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:15fd2f7ac08c0db9d985",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3257895256561,
+          56.85407805448343
+        ]
+      },
+      "properties": {
+        "id": "virsi:15fd2f7ac08c0db9d985",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Salaspils",
+        "address": "Zviedru iela 1a, Salaspils, LV-2121",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "0805967f-87d2-4057-a690-aaff75fd87a5",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:16b49266c0eaed82c359",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.930287727508585,
+          56.51318822516524
+        ]
+      },
+      "properties": {
+        "id": "virsi:16b49266c0eaed82c359",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Zīlāni",
+        "address": "Zīlānu iela 145, Kūku pagasts, Jēkabpils novads, LV-5222",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "862ce4cf-2b90-49f7-b511-8de4593a7809",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:180e3737d18970f5b0d4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.019734382629395,
+          57.27440291116811
+        ]
+      },
+      "properties": {
+        "id": "virsi:180e3737d18970f5b0d4",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ugāle",
+        "address": "\"Avenes\", Ugāle, Ugāles pagasts, Ventspils novads, LV-3615",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "3b610218-324e-4d80-a549-bcfb21561795",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:1afe5b6d8816c2e26d74",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.279825168786598,
+          57.311953842706345
+        ]
+      },
+      "properties": {
+        "id": "virsi:1afe5b6d8816c2e26d74",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Cēsis",
+        "address": "Raiņa iela 32, Cēsis, LV-4101",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f5d5f4a6-c2ff-41ec-8f78-82d96d07d451",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:1c7973f36321effc3bf9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.90606430478512,
+          57.03909208176955
+        ]
+      },
+      "properties": {
+        "id": "virsi:1c7973f36321effc3bf9",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Pūre",
+        "address": "Daigones iela 13a, Pūre, LV-3124",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "19113bcc-65fb-4cbb-b6ee-25dd8da50308",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:20a29859479ffb3d206a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.15372720000005,
+          56.9504609
+        ]
+      },
+      "properties": {
+        "id": "virsi:20a29859479ffb3d206a",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Pērnava",
+        "address": "Pērnavas iela 78, Rīga, LV-1009",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "fa86f3c9-8bcd-40da-853c-6e91f5f1b73d",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:2642fade32fe500a141f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7607199,
+          56.1555201
+        ]
+      },
+      "properties": {
+        "id": "virsi:2642fade32fe500a141f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Aknīste",
+        "address": "Augšzemes iela 60, Aknīste, Jēkabpils novads, LV-5208",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "9a47dd59-6e06-4dbb-8edc-6e49eabd6d74",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:266b6a382d27c2108baf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.24167863914797,
+          56.77276148274734
+        ]
+      },
+      "properties": {
+        "id": "virsi:266b6a382d27c2108baf",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ķekava",
+        "address": "\"Kursīši\", Ķekavas pag., Ķekavas nov., LV - 2123",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "87994d5c-871a-43bb-aa0c-1de98958c2c6",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:30523412e18d0aa84ce0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.09540585277864,
+          56.91133802202106
+        ]
+      },
+      "properties": {
+        "id": "virsi:30523412e18d0aa84ce0",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Valdeķi",
+        "address": "Valdeķu iela 35, Rīga, LV-1058",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "85ea92bb-1d57-49c0-b16a-1325161d5460",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:33267bbcb1e8c7b5dda9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3557002,
+          56.743227
+        ]
+      },
+      "properties": {
+        "id": "virsi:33267bbcb1e8c7b5dda9",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Baldone",
+        "address": "Rīgas iela 2, Baldone, Ķekavas novads, LV-2125",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "7237fac4-6be4-45f8-bbbb-501ed19bbdb9",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:388e39d1c9758e14a819",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.22483468055725,
+          56.574089080832984
+        ]
+      },
+      "properties": {
+        "id": "virsi:388e39d1c9758e14a819",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Sērene",
+        "address": "\"Kalngali\", Sērenes pagasts, Aizkraukles novads, LV-5123",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "2c003862-22df-480d-869d-f6291c56c5ad",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:3abd9a2ac9ce3731d331",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.98713689867246,
+          57.759163487337915
+        ]
+      },
+      "properties": {
+        "id": "virsi:3abd9a2ac9ce3731d331",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Valka Lugaži",
+        "address": "Rīgas iela 80, Valka, LV-4701",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "29d58e16-28fa-4e7a-98d7-f653d58fbdf4",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:3adef2fc4091c3c5d5a1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1556217,
+          56.9417633
+        ]
+      },
+      "properties": {
+        "id": "virsi:3adef2fc4091c3c5d5a1",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Lauva",
+        "address": "Lauvas iela 10, Rīga, LV-1003",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "50e1a3e7-c999-4f76-b424-86e70b1dbcec",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:3c1291a618033b3ac634",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9856608,
+          56.9572526
+        ]
+      },
+      "properties": {
+        "id": "virsi:3c1291a618033b3ac634",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Kuldīga",
+        "address": "Zirņu iela 20, Kuldīga",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "4fbb7775-b9cc-441a-9ac5-13bcb0fbf757",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:40a1ef26cd55ddee37e1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.868327625656086,
+          56.513538011878296
+        ]
+      },
+      "properties": {
+        "id": "virsi:40a1ef26cd55ddee37e1",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Krustpils",
+        "address": "Varoņu iela 10, Jēkabpils, LV-5202",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "90f1857b-2f89-401c-9c7c-ac4fb5715a2e",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:4bd188f1642fe36f7204",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.28677394498293,
+          57.0043794992502
+        ]
+      },
+      "properties": {
+        "id": "virsi:4bd188f1642fe36f7204",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Berģi",
+        "address": "Brīvības gatve 481, Berģi, Garkalnes pag., Ropažu nov., LV-1024",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "2d44f6d2-65f5-4e5b-a83d-dcfb36b1e9b2",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:4e591eabad5c8dad8f33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.724356529797987,
+          56.625599713143785
+        ]
+      },
+      "properties": {
+        "id": "virsi:4e591eabad5c8dad8f33",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Jelgava",
+        "address": "Lietuvas šoseja 70, Jelgava, LV - 3008",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "cc468f22-28fe-48d8-a52e-b95e206ff255",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:4f460b2bc427fe9acf96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.331562519073486,
+          56.31450167949861
+        ]
+      },
+      "properties": {
+        "id": "virsi:4f460b2bc427fe9acf96",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Grenctāle",
+        "address": "DUS Grenctāle, Brunavas pag., Bauskas novads, LV-3907",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "1c9fa12e-4745-4319-ad18-fd5b8f46337b",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:4fb693faf91499343183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.054164055325323,
+          56.54490638485254
+        ]
+      },
+      "properties": {
+        "id": "virsi:4fb693faf91499343183",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Cukurs",
+        "address": "Cukura iela 29, Liepāja, LV-3414",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "cffe15e6-74a1-4e39-a92c-4099426a481a",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5215b050cf9319884ce3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.356984633457053,
+          57.51847224841053
+        ]
+      },
+      "properties": {
+        "id": "virsi:5215b050cf9319884ce3",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Valmiera 2",
+        "address": "\"Degļi\", Brandeļi, Kocēnu pag., Valmieras nov., LV-4220",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "55fd3008-c5cf-42b1-8bd2-2ebcd74a3cbc",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:546eea3730fb0a2d4d45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.021483480425996,
+          56.517343765569514
+        ]
+      },
+      "properties": {
+        "id": "virsi:546eea3730fb0a2d4d45",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Liepāja",
+        "address": "Zemnieku iela 24, Liepāja, LV-3401",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f74123ac-96c8-4946-b1c9-77d01554ddb3",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:55f772257b0eeae661a1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.898114331213375,
+          57.427972948061935
+        ]
+      },
+      "properties": {
+        "id": "virsi:55f772257b0eeae661a1",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Smiltene",
+        "address": "Stacijas iela 2, Smiltene, LV-4729",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "e8790e84-583d-4ed5-8047-aa67ec5009ea",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:567882527e76fb2c906b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.65064384504393,
+          56.59945389342709
+        ]
+      },
+      "properties": {
+        "id": "virsi:567882527e76fb2c906b",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Pļaviņas 2",
+        "address": "\"Oliņkalns\", Stukmaņi, Klintaines pagasts, Aizkraukle novads, LV-5129",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "4cd44906-6eb4-4fb4-989e-0a11e8127127",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:576b2e9c9f052184e6c7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.07360110793458,
+          56.973530605003546
+        ]
+      },
+      "properties": {
+        "id": "virsi:576b2e9c9f052184e6c7",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Daugavgrīva",
+        "address": "Daugavgrīvas iela 136a, Rīga, LV-1055",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "bc8a766d-b191-40c3-ad4f-e8693d004683",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5773aefea7f93e061acb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.89368106361368,
+          56.460273584047044
+        ]
+      },
+      "properties": {
+        "id": "virsi:5773aefea7f93e061acb",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Auce",
+        "address": "Raiņa iela 30, Auce, Dobeles novads, LV-3708",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "2f7f3705-bfec-46e4-8d4b-eae790978ef5",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:59eae4387812eb89ab8d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.202538661901844,
+          56.93302643861315
+        ]
+      },
+      "properties": {
+        "id": "virsi:59eae4387812eb89ab8d",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Tukums Valdaiši",
+        "address": "\"Valdaiši\", Smārdes pagasts, Tukuma novads, LV-3129",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "81c6add6-19e2-43ad-a597-609e5e145773",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5a9aaf9b795fffab3646",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.17338095211494,
+          56.97502136724738
+        ]
+      },
+      "properties": {
+        "id": "virsi:5a9aaf9b795fffab3646",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Brīvība",
+        "address": "Brīvības gatve 250, Rīga, LV-1039",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f8409865-8cc5-4f32-938c-0c07b595281a",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5c67bd3b13dc6e06c267",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.202988147735596,
+          56.810158997371204
+        ]
+      },
+      "properties": {
+        "id": "virsi:5c67bd3b13dc6e06c267",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Apvedceļš",
+        "address": "\"Jaungaņģi\", Ķekava, Ķekavas nov., LV-2123",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "1d43e2b7-2da1-4343-8ba0-800665cd9a4b",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5f371a7087671c2e2128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.340338706970215,
+          56.969567796814786
+        ]
+      },
+      "properties": {
+        "id": "virsi:5f371a7087671c2e2128",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Jugla",
+        "address": "\"Prauliņi\", Amatnieki, Garkalnes pag., Ropažu novads, LV-2137",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "b74b9687-3c35-46ec-ac64-105f58de7637",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5f4bb517bfa79f816ca4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.70336729567012,
+          57.127034041773854
+        ]
+      },
+      "properties": {
+        "id": "virsi:5f4bb517bfa79f816ca4",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Asni",
+        "address": "“Asni”, Inčukalna pag., Siguldas nov., LV-2140",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "cc96eece-3f2b-4a89-86b6-e1abb17f29ee",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:5f6a997b10ec0a2a51a4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.263941287994385,
+          57.29530083642407
+        ]
+      },
+      "properties": {
+        "id": "virsi:5f6a997b10ec0a2a51a4",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Žagarkalns",
+        "address": "\"Katrīnkalns-1\", Drabešu pagasts, Cēsu novads, LV-4140",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "c2972a65-65bc-4587-be14-86f68f27e711",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:601f96637215d63b8fcb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.24231512513121,
+          56.88308408726451
+        ]
+      },
+      "properties": {
+        "id": "virsi:601f96637215d63b8fcb",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Rumbula",
+        "address": "Latgales iela 450K, Rīga, LV-1063",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "43cd7e0a-927e-4f55-a1a7-877da27f967b",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:607129d42730e249131a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7081292,
+          56.6509103
+        ]
+      },
+      "properties": {
+        "id": "virsi:607129d42730e249131a",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Jelgava 2",
+        "address": "Lielā iela 40, Jelgava, LV-3001",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "5faee7ff-5fb2-4390-9489-17bd0800a570",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:6193311c5ee87b1a63a5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.877891226250462,
+          57.150233730952166
+        ]
+      },
+      "properties": {
+        "id": "virsi:6193311c5ee87b1a63a5",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Sigulda",
+        "address": "Nītaures iela 22, Sigulda, Siguldas novads, LV-2150",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "e0f3435b-712a-4325-b825-923b770957a5",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:67c31f9ed43ac855d7ec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71421854180301,
+          57.179682439975615
+        ]
+      },
+      "properties": {
+        "id": "virsi:67c31f9ed43ac855d7ec",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ragana",
+        "address": "Tirgus iela 4, Ragana, LV-2144",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "3f585773-a2d0-4aaf-9c7d-43c1c9a256d0",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:6b382c7277d9adc9fea0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.969712295120235,
+          56.79494857157018
+        ]
+      },
+      "properties": {
+        "id": "virsi:6b382c7277d9adc9fea0",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Olaine 2 (UZ JELGAVU!)",
+        "address": "“Ievalti”, Jaunolaine, Olaines pag., Olaines nov., LV-2127",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "00e63f23-7716-40d3-8dd0-6e62d504f386",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:6e4044e45013241f2f34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.696715593338013,
+          56.77958867283518
+        ]
+      },
+      "properties": {
+        "id": "virsi:6e4044e45013241f2f34",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Kārsava",
+        "address": "\"Passim\", Malnavas pagasts, Ludzas novads, LV-5750",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "685b8fea-5423-42a2-86ee-90e3b0c497dc",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:6ea9740c23cee83e7eb7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.018172066270377,
+          57.78733019999999
+        ]
+      },
+      "properties": {
+        "id": "virsi:6ea9740c23cee83e7eb7",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Valka",
+        "address": "Rūjienas iela 7, Valka, LV-4701",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "998d75fe-f788-40c2-aff1-6ab476ec0736",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:6ec6b88a6099e0167038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.078526796329864,
+          56.92681885404749
+        ]
+      },
+      "properties": {
+        "id": "virsi:6ec6b88a6099e0167038",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Torņkalns",
+        "address": "Mārupes iela 57, Rīga, LV-1002",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f865b2b4-6723-4af8-906f-3a6ca0986526",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:731fcb995765cbb4167a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9149751663208,
+          56.64267223455255
+        ]
+      },
+      "properties": {
+        "id": "virsi:731fcb995765cbb4167a",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Dzelmes",
+        "address": "Dzelmeskrasti, Jumpravas pagasts, Ogres novads, LV-5022",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "d3f16120-fd2e-4085-8992-95d89531292c",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:7560ca0f26ab0806d577",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.237576142327953,
+          56.91343001754645
+        ]
+      },
+      "properties": {
+        "id": "virsi:7560ca0f26ab0806d577",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Granīta",
+        "address": "Granīta iela 13a, Rumbula, Ropažu novads, LV-1057",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "604a3475-07d2-4ee4-b23d-efc28be09d09",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:7e22be0bd4168c33044e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.182581246557632,
+          56.98350487983054
+        ]
+      },
+      "properties": {
+        "id": "virsi:7e22be0bd4168c33044e",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Viskaļi",
+        "address": "Viskaļu iela 2a, Rīga, LV-1026",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "34400a2e-23d9-4eba-9bb8-2198af7aa031",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:856b75247925ce00b89f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.361528,
+          57.7601033
+        ]
+      },
+      "properties": {
+        "id": "virsi:856b75247925ce00b89f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Salacgrīva",
+        "address": "Viļņu iela 18, Salacgrīva, Limbažu novads",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "8f067dcf-64f8-42a6-816d-876bcdf13c10",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:85d5baec773775f4a890",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.447371879543645,
+          56.62238313488196
+        ]
+      },
+      "properties": {
+        "id": "virsi:85d5baec773775f4a890",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Nākotne",
+        "address": "\"DUS pie a/c Jelgava-Dobele 24,5. km\", Glūdas pag., Jelgavas nov., LV-3040",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "edb79207-8248-4ae3-a851-40b906dbf13a",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:86c856e6df195bcb3574",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6260314,
+          56.7051278
+        ]
+      },
+      "properties": {
+        "id": "virsi:86c856e6df195bcb3574",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Aizpute",
+        "address": "Kalvenes iela 75, Aizpute, Dienvidkurzemes novads, LV-3456",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "a9efe1f6-09c9-4f63-898f-955607c41995",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:878823fac7b3eb06fdf0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.19254332275392,
+          56.98147810324514
+        ]
+      },
+      "properties": {
+        "id": "virsi:878823fac7b3eb06fdf0",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Teika",
+        "address": "Brīvības gatve 297, Rīga, LV-1006",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {
+          "95": {
+            "value": 1.817,
+            "currency": "EUR",
+            "unit": "L",
+            "source_label": "95E",
+            "observed_at": null,
+            "observed_date": "2026-11-04",
+            "source_timestamp": "2026-11-04",
+            "time_precision": "date",
+            "fetched_at": "2026-11-05T22:39:03.065Z",
+            "freshness": "recent",
+            "evidence": "operator_published",
+            "scope": "station",
+            "source_verified": null,
+            "history": [
+              {
+                "at": "2026-11-05T10:28:03.608Z",
+                "value": 1.817
+              }
+            ],
+            "change": 0
+          }
+        },
+        "directory_id": "17f0574c-f6a5-4884-96f2-c558846e1203",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:890bbe8fa4dad4f7d7dc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.81155,
+          56.65811
+        ]
+      },
+      "properties": {
+        "id": "virsi:890bbe8fa4dad4f7d7dc",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Brankstūri",
+        "address": "\"Brankstūri\", Cenu pagasts, Jelgavas novads, LV-3043",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "a2bf6be6-f449-4cf7-9fa0-ed5bd0ddea31",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:89249db5bc6bac78d94f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.394792088360635,
+          57.54707114295629
+        ]
+      },
+      "properties": {
+        "id": "virsi:89249db5bc6bac78d94f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Valmiera",
+        "address": "Patversmes iela 12, Valmiera, LV-4201",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "b1ec1cb6-828e-42d4-ac92-2a5e59dcbc62",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:8dc9db0a923d14f731d0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.69303589999999,
+          56.61064829999999
+        ]
+      },
+      "properties": {
+        "id": "virsi:8dc9db0a923d14f731d0",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Pļaviņas",
+        "address": "Rīgas iela 31, Pļaviņas, Aizkraukles nov., LV-5120",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "b14cafa1-6f7d-4d3a-9dcf-841872f3fdc1",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:8e1c3e5825db15dfd578",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.88000420000003,
+          56.4856765
+        ]
+      },
+      "properties": {
+        "id": "virsi:8e1c3e5825db15dfd578",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Jēkabpils",
+        "address": "Jāņa Akurātera iela 13, Jēkabpils, LV-5201",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "dc2c10a6-8443-49f4-87c7-5efb789d6e08",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:946f763a81dd3065394e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.51994,
+          55.88802
+        ]
+      },
+      "properties": {
+        "id": "virsi:946f763a81dd3065394e",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Daugavpils",
+        "address": "Kārklu iela 22, Daugavpils",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "a43f7270-baf5-43b8-a121-3d3aef7d50e0",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:991fdf32746b76e92d79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.986997359832785,
+          56.94938879138296
+        ]
+      },
+      "properties": {
+        "id": "virsi:991fdf32746b76e92d79",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ulmanis",
+        "address": "Kārļa Ulmaņa gatve 162, Rīga",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "85172bd3-e5b4-49bd-b342-5fd1fab3ac68",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:9adc091a4bdb92ea9d78",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7003414,
+          56.6394106
+        ]
+      },
+      "properties": {
+        "id": "virsi:9adc091a4bdb92ea9d78",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Jelgava 3",
+        "address": "Rūpniecības iela 75A, Jelgava, LV-3008",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "c10ba097-47a3-4a54-a2a6-79fbc3f3b78b",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:9b1d30773b757c4ebf7b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.97386182806365,
+          56.79598156185057
+        ]
+      },
+      "properties": {
+        "id": "virsi:9b1d30773b757c4ebf7b",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Olaine (UZ RĪGU!)",
+        "address": "“Daces”, Jaunolaine, Olaines nov., LV-2127",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "ccc14767-d546-40ac-a78a-42743261cd02",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:9fef1fa57cea0fe9b15a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.044989824295044,
+          56.97338276957704
+        ]
+      },
+      "properties": {
+        "id": "virsi:9fef1fa57cea0fe9b15a",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Liezēre",
+        "address": "\"Ceļmalas\", Liezēres pagasts, Madonas novads, LV-4884",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "9286f125-59d6-4034-bb0a-d2940251677e",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:a0880e3d79841379b98f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.231184133065774,
+          56.85909452909319
+        ]
+      },
+      "properties": {
+        "id": "virsi:a0880e3d79841379b98f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Madona",
+        "address": "Rūpniecības iela 49a, Madona, LV-4801",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "fcb46164-80c6-4a4c-88cd-cf933671830d",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:a248b7a213ddd661ee66",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6825817,
+          56.41649
+        ]
+      },
+      "properties": {
+        "id": "virsi:a248b7a213ddd661ee66",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Eleja",
+        "address": "Lietuvas iela 28, Eleja, Elejas pagasts, Jelgavas novads, LV-3023",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "7f2409d1-f99d-441b-9913-da70826b5fcb",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:a68450012d3c93b81e6b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.682006444180285,
+          56.53591489999998
+        ]
+      },
+      "properties": {
+        "id": "virsi:a68450012d3c93b81e6b",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ludza",
+        "address": "\"Bērziņi-s\", Cirmas pagasts, Ludzas novads, LV-5735",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "eadb18ae-83ee-4ee3-ab5c-88cc0f1f8564",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:aaa300170a8724044797",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.392054557800293,
+          57.0122696734801
+        ]
+      },
+      "properties": {
+        "id": "virsi:aaa300170a8724044797",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Jūrkalne",
+        "address": "\"Krastnieki\", Jūrkalne, Jūrkalnes pagasts, Ventspils novads, LV-3626",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "09e8d653-622b-4fe6-854b-0cca889f9e9a",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:aaf9cbf3006b2f32ed53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.391489,
+          56.4771136
+        ]
+      },
+      "properties": {
+        "id": "virsi:aaf9cbf3006b2f32ed53",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Tērvete",
+        "address": "\"Runči\", Tērvete, Tērvetes pagasts, Dobeles novads, LV-3730",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "d74cdcfb-4fe6-41d1-8f1d-6b55bf8584aa",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:b14651df54ad15d9b882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.96168053150177,
+          56.88098352095696
+        ]
+      },
+      "properties": {
+        "id": "virsi:b14651df54ad15d9b882",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Mārupe",
+        "address": "\"Ikri\", Mārupes novads, LV-2167",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "023e9a45-0716-4e80-8313-2578c0237c20",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:b47a76b51c79c08b8233",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1911787,
+          56.59262460000001
+        ]
+      },
+      "properties": {
+        "id": "virsi:b47a76b51c79c08b8233",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Iecava",
+        "address": "Rīgas iela 2B, Iecava, Bauskas novads, LV-3913",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "54ef7f0b-c6fb-4e54-8240-112067951159",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:b78387c09ccd302723ec",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.61542243914802,
+          57.394016103274694
+        ]
+      },
+      "properties": {
+        "id": "virsi:b78387c09ccd302723ec",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ventspils",
+        "address": "Robežu iela 1, Ventspils, LV-3601",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "8241526d-74f7-47bb-a1e0-7c777d3cc681",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:bbbbb0e8ac514262b81e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.139423999999963,
+          56.971228
+        ]
+      },
+      "properties": {
+        "id": "virsi:bbbbb0e8ac514262b81e",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Tukums",
+        "address": "Kurzemes iela 55, Tukums, LV-3101",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f441529e-2dac-4a22-bc7f-a5afbf458086",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:be83f59e78ef9124ba7d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.78095112432857,
+          57.03522442472222
+        ]
+      },
+      "properties": {
+        "id": "virsi:be83f59e78ef9124ba7d",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Kandava",
+        "address": "Abavas iela 4, Kandava, LV-3120",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "804988f7-9d02-4c02-889b-6ab6155c89c0",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:c126acd8b277ca76c963",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1636057,
+          56.3762145
+        ]
+      },
+      "properties": {
+        "id": "virsi:c126acd8b277ca76c963",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Līvāni",
+        "address": "Rīgas iela 312, Līvāni, Līvanu novads, LV-5316",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "c2216395-e3a0-4e04-a5c5-25559dce020f",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:c1f65f6823205b5a2380",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7195552,
+          56.74495779999999
+        ]
+      },
+      "properties": {
+        "id": "virsi:c1f65f6823205b5a2380",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ķegums",
+        "address": "Ķeguma prospekts 1A, Ķegums, Ogres novads, LV-5020",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "56336f52-b5fe-485c-b8f2-8fec3e9db4e7",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:c222ece36f42484da5c3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.14670467376709,
+          56.88926856942997
+        ]
+      },
+      "properties": {
+        "id": "virsi:c222ece36f42484da5c3",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Baloži",
+        "address": "\"Cerības\", Krustkalni, Ķekavas pagasts, LV-2111",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "5d379a10-dcbd-4fcd-b1a3-ddd0e4dbe96b",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:c6a076f9d2442133f79b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.36039063964798,
+          56.84759645898861
+        ]
+      },
+      "properties": {
+        "id": "virsi:c6a076f9d2442133f79b",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Salaspils 2",
+        "address": "Līvzemes iela 40, Salaspils, LV-2169",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f0f6e6d6-1033-4810-9be3-9291831edeba",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:c974f0e5b652d91056b5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.561828,
+          56.3412922
+        ]
+      },
+      "properties": {
+        "id": "virsi:c974f0e5b652d91056b5",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Viesīte",
+        "address": "Raiņa iela 60A, Viesīte, Jēkabpils novads, LV-5237",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "e16e681d-c9bf-4d7b-b93d-4f765bb7b131",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:cc55f30e9cd01a5e4d13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.635966300964355,
+          55.92947860550764
+        ]
+      },
+      "properties": {
+        "id": "virsi:cc55f30e9cd01a5e4d13",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ilgas",
+        "address": "\"Ilgas\", Stropica, Naujenes pagasts, Augšdaugavas novads, LV-5458",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "06494f63-f35e-4ce9-8633-65038d7bf336",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:cc814b6169a9182059ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.565149801193236,
+          56.68552227925963
+        ]
+      },
+      "properties": {
+        "id": "virsi:cc814b6169a9182059ce",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Brocēni",
+        "address": "Liepnieku iela 1, Brocēni, Saldus nov., LV - 3851",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "6ef314be-f2fe-48b7-a115-262f6cad521b",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:ce82ae9bd7f98d99c98e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.719043772174825,
+          56.27620041790544
+        ]
+      },
+      "properties": {
+        "id": "virsi:ce82ae9bd7f98d99c98e",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Preiļi",
+        "address": "Jaunsaimnieki, Preiļu pagasts, LV-5301",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "ea89103b-3ee6-4501-a1f3-7a90c8dbba2f",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:cf65b99ad75c8c9df755",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.021097134393308,
+          56.67277100745057
+        ]
+      },
+      "properties": {
+        "id": "virsi:cf65b99ad75c8c9df755",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Skrunda",
+        "address": "Ventas iela 3, Skrunda, LV-3326",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "b7db8a55-ea14-4196-a59a-8da3f5abd809",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:d27e805c3daf4f87fc32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.116527214819357,
+          56.9978276161095
+        ]
+      },
+      "properties": {
+        "id": "virsi:d27e805c3daf4f87fc32",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Sarkandaugava",
+        "address": "Tvaika iela 3, Rīga, LV-1005",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "523fa75a-e6e7-41b1-ab4d-fb4eaf7d0756",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:d8bfed423cbc9fbaa4b9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.340388899999994,
+          56.919
+        ]
+      },
+      "properties": {
+        "id": "virsi:d8bfed423cbc9fbaa4b9",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Saurieši",
+        "address": "“Degvielas uzpildes stacija Saurieši”, Saurieši, Stopiņu pag., Ropažu nov., LV-2118",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "37555d51-99fa-4cd3-9a1c-651c618919b4",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:d97813b86cb390a8adf2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.34723448753357,
+          56.518712621024974
+        ]
+      },
+      "properties": {
+        "id": "virsi:d97813b86cb390a8adf2",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Rēzekne",
+        "address": "Stacijas iela 13B, Rēzekne, LV-4601",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "dfff30d0-53cd-4a80-bc28-4745e03cb782",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:dc294f0e053d81996d2f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.257716992590286,
+          57.13870661383625
+        ]
+      },
+      "properties": {
+        "id": "virsi:dc294f0e053d81996d2f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Balvi",
+        "address": "Krasta iela 3, Balvi, LV-4501",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "9acd327c-58b8-4499-b800-cdb003251ade",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:dd4981384758e904828b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.690887799999928,
+          57.02130210000001
+        ]
+      },
+      "properties": {
+        "id": "virsi:dd4981384758e904828b",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Ēdole",
+        "address": "Dārza iela 7, Ēdole, Ēdoles pagasts, Kuldīgas novads, LV-3310",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "6a2de245-bbb1-47d5-bb79-3c19d85293ba",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:de3cc7a9cd5380d88cca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2981713,
+          56.6277895
+        ]
+      },
+      "properties": {
+        "id": "virsi:de3cc7a9cd5380d88cca",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Dobele",
+        "address": "Brīvības iela 60, Dobele, Dobeles novads, LV-3701",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "de20050e-f4eb-4a7e-ba9a-eb8159f0fb77",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:e64ccc4c51df7987532f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.305736820407116,
+          57.29655210656329
+        ]
+      },
+      "properties": {
+        "id": "virsi:e64ccc4c51df7987532f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Cēsis Saulrīti",
+        "address": "\"Piebalgas 99A\", Vaives pagasts, Cēsu novads, LV-4136",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "4c24ac43-840a-4a08-88ba-3e6f2bae0402",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:e77b1a11b99233fa22d2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.128691840861514,
+          56.947304593543585
+        ]
+      },
+      "properties": {
+        "id": "virsi:e77b1a11b99233fa22d2",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Satekle",
+        "address": "Satekles iela 2, Rīga, LV-1050",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "f9577af5-fbb7-45fe-b199-14292042605e",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:ea306b8b256f735999b7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.11890497879027,
+          56.62783169882139
+        ]
+      },
+      "properties": {
+        "id": "virsi:ea306b8b256f735999b7",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Skrīveri",
+        "address": "Zemkopības institūts 2a, Skrīveri, LV-5125",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "09ccbd1c-e98f-4eca-a4ba-fe4b00c8a104",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:ed3a63876b4ac1fe0fe8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.965529441833496,
+          57.0123397704049
+        ]
+      },
+      "properties": {
+        "id": "virsi:ed3a63876b4ac1fe0fe8",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Mālpils",
+        "address": "Skulmes iela 5, Mālpils, LV-2152",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "b7c1a978-4cb5-48ea-be98-4fb39b5abad5",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:ef2ea95a56509952f0c7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5869069,
+          56.8423459
+        ]
+      },
+      "properties": {
+        "id": "virsi:ef2ea95a56509952f0c7",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Tīreļi",
+        "address": "Rīgas iela 3, Tīreļi, Valgundes pagasts, Jelgavas novads, LV-3017",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "24078829-4fcb-4521-8fd9-40c5a2b52da3",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:f04888dc0bfa330fc84e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8211776,
+          57.49742439999999
+        ]
+      },
+      "properties": {
+        "id": "virsi:f04888dc0bfa330fc84e",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Roja",
+        "address": "Selgas iela 70, Roja, Rojas pagasts, Talsu novads",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "9d50cd62-75b7-43d0-a26f-b44db151a2e2",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:f6a3ef81456b47f14a55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.022949442327885,
+          57.43102817942726
+        ]
+      },
+      "properties": {
+        "id": "virsi:f6a3ef81456b47f14a55",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Alūksne",
+        "address": "Rīgas iela 11, Alūksne, LV-4301",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "1363fc21-8b0c-4ce2-a27e-ea739d45b747",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virsi:f981824bb2942164cd1f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.722135066986084,
+          56.51079254728819
+        ]
+      },
+      "properties": {
+        "id": "virsi:f981824bb2942164cd1f",
+        "country": "LV",
+        "brand": "Virši",
+        "name": "Virši Valle",
+        "address": "Rīgas iela 2, Valle, Valles pag., Bauskas nov., LV-5106",
+        "source": "virsi",
+        "source_url": "https://www.virsi.lv/lv/privatpersonam/degviela/degvielas-un-elektrouzlades-cenas",
+        "prices": {},
+        "directory_id": "87cd5101-ec04-4d99-97ff-236cae28ceb7",
+        "directory_url": "https://www.virsi.lv/lv/privatpersonam/uzpildes-stacijas",
+        "directory_updated_at": "2026-11-05T22:39:03.065Z",
+        "available_fuels": []
       }
     }
   ],
-  "generated_at": "2026-11-05T21:48:18.659Z"
+  "generated_at": "2026-11-05T22:39:03.065Z"
 }

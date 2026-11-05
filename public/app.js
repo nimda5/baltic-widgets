@@ -197,16 +197,6 @@ function fuel(container, data) {
     more.addEventListener('click',()=>{const show=more.getAttribute('aria-expanded')!=='true';more.setAttribute('aria-expanded',String(show));paint(show);providerRows.slice(data.providers.length).forEach(({row,detailsRow,button})=>{row.hidden=!show;if(!show){detailsRow.hidden=true;button.setAttribute('aria-expanded','false');}});});container.append(more);
   }
 
-  const history = element('div', 'country-history');
-  history.append(element('span','', t('national_average','National average prices')+': '));
-  for (const [key, label] of [['petrol95','95'],['diesel',t('diesel','Diesel')]]) {
-    const series = data.country_history?.[key];
-    if (series?.history?.length) {
-      const trigger = priceButton({price:series.history.at(-1).value,history:series.history,history_source:series.source},{label:series.label,unit:'EUR/l'});
-      trigger.replaceChildren(document.createTextNode(label)); history.append(trigger);
-    }
-  }
-  if (history.children.length > 1) container.append(history);
   const energyQuotes=element('div','energy-quotes');container.append(energyQuotes);
   const power = element('div', 'electricity'); power.textContent = t('electricity_loading','Loading electricity price…'); energyQuotes.append(power);
   loadElectricity(power);

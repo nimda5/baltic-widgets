@@ -1,3 +1,4 @@
+import {directoryURLs,parseVirsiDirectory,parseViadaDirectory,parseStraujupiteDirectory,mergeDirectory} from './lv-directories.mjs';
 import {mergeCircleDirectory,circleDirectoryURL} from './circle-directory.mjs';
 import { load } from 'cheerio';
 import { createHash } from 'node:crypto';
@@ -128,7 +129,7 @@ export function parseViada(html) {
 }
 
 export function addViadaCoordinates(records, html) {
-  const key = s => clean(s).toLocaleLowerCase('lv').replace(/[.,\s]/g, '');
+  const key = s => clean(s).replace(/\bLV\s*-?\s*\d{4}\b/gi,'').normalize('NFKD').replace(/\p{M}/gu,'').toLocaleLowerCase('lv').replace(/[^\p{L}\p{N}]/gu, '');
   const catalogue = new Map();
   for (const chunk of html.split('var latLng = new google.maps.LatLng').slice(1)) {
     const position = chunk.match(/^\('([\d.]+)',\s*'([\d.]+)'\)/);
@@ -241,11 +242,21 @@ async function collect(source) {
     try{return mergeCircleDirectory(records,await request(circleDirectoryURL));}
     catch{console.error('circle: directory unavailable; keeping published prices and cached locations');return records;}
   }
-  if (source === 'viada') {
-    const records = parseViada(await request(urls.viada));
-    // Exact address match only; locator failure must not discard valid prices.
-    try { return addViadaCoordinates(records, await request('https://www.viada.lv/degvielasuzpildesstacijas/degvielas-uzpildes-staciju-karte/')); }
-    catch { console.error('viada: locator unavailable; coordinates omitted'); return records; }
+  if(directoryURLs[source]){
+    const records={virsi:parseVirsi,viada:parseViada,straujupite:parseStraujupite}[source](await request(urls[source]));
+    try{
+      const html=await request(directoryURLs[source]);let directory;
+      if(source==='virsi'){
+        const endpoint=load(html)('stations-app').attr('stations-data-url');
+        if(!endpoint||new URL(endpoint).origin!=='https://www.virsi.lv')throw Error('Virši directory endpoint changed');
+        directory=parseVirsiDirectory(JSON.parse(await request(endpoint)));
+      }else if(source==='viada'){
+        directory=parseViadaDirectory(html);
+        try{directory=addViadaCoordinates(directory,await request('https://www.viada.lv/degvielasuzpildesstacijas/degvielas-uzpildes-staciju-karte/'));}
+        catch{console.error('viada: optional map unavailable; directory addresses retained');}
+      }else directory=parseStraujupiteDirectory(html);
+      return mergeDirectory(records,directory);
+    }catch{console.error(`${source}: directory unavailable; keeping published prices and cached locations`);return records;}
   }
   return { circle: parseCircle, virsi: parseVirsi, viada: parseViada, straujupite: parseStraujupite }[source](await request(urls[source]));
 }
@@ -274,10 +285,18 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
     for (const source of sourceList) {
       if (!urls[source] || source === 'liitrihind') throw new Error('Unsupported source');
       try {
-        const fresh = normalize(source, await collect(source), now);
+        let records=await collect(source);
         const previous = new Map(stations.filter(s => s.source === source).map(s => [s.id, s]));
-        const directoryLive=source==='circle'&&fresh.some(s=>s.directory_id);
-        if(source==='circle'&&!directoryLive){const ids=new Set(fresh.map(s=>s.id));for(const station of fresh){const old=previous.get(station.id);if(old?.directory_id)Object.assign(station,{directory_id:old.directory_id,directory_url:old.directory_url,directory_updated_at:old.directory_updated_at,available_fuels:old.available_fuels,coordinates:station.coordinates||old.coordinates,name:old.name});}for(const old of previous.values())if(old.directory_id&&!ids.has(old.id))fresh.push({...old,prices:{}});}
+        const hasDirectory=source==='circle'||!!directoryURLs[source];
+        const directoryLive=hasDirectory&&records.some(s=>s.directory_id);
+        const cached=new Map([...previous.values()].filter(s=>s.directory_id).map(s=>[s.directory_id,s]));
+        if(hasDirectory&&!directoryLive&&cached.size){
+          const directory=[...cached.values()].map(s=>({country:s.country,brand:s.brand,name:s.name,address:s.address,
+            lat:s.coordinates?.latitude,lon:s.coordinates?.longitude,directory_id:s.directory_id,directory_url:s.directory_url,available_fuels:s.available_fuels||[]}));
+          records=mergeDirectory(records,directory);
+        }
+        const fresh=normalize(source,records,now);
+        if(!directoryLive)for(const station of fresh)if(cached.has(station.directory_id))station.directory_updated_at=cached.get(station.directory_id).directory_updated_at;
 
         for (const s of fresh) for (const [fuel, p] of Object.entries(s.prices)) {
           const before = previous.get(s.id)?.prices[fuel];
@@ -288,7 +307,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
         }
         stations = [...stations.filter(s => s.source !== source), ...fresh];
         statuses.set(source, { id: source, status: 'ok', last_success_at: now, station_count: fresh.length,
-          ...(source==='circle'?{directory_status:directoryLive?'ok':fresh.some(s=>s.directory_id)?'cached':'unavailable',directory_location_count:fresh.filter(s=>s.directory_id).length}:{}),
+          ...(hasDirectory?{directory_status:directoryLive?'ok':fresh.some(s=>s.directory_id)?'cached':'unavailable',directory_location_count:fresh.filter(s=>s.directory_id).length}:{}),
           attribution: source === 'fuelest' ? 'FuelEst.ee — community reports' : source === 'lea' ? 'LEA, degalais prekiaujančios įmonės' : source });
       } catch (e) {
         const prior = statuses.get(source);
