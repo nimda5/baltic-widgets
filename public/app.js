@@ -157,7 +157,7 @@ function fuel(container, data) {
         search.addEventListener('input',()=>{const query=search.value.toLocaleLowerCase(locale).trim();for(const row of details.children)if(row.classList.contains('station-detail'))row.hidden=!row.textContent.toLocaleLowerCase(locale).includes(query);});detailsCell.append(search);details.classList.add('station-directory');
       }
 
-      if(sharedPrices)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Available fuels are listed next to each address.')));
+      if(sharedPrices)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Locations are listed below.')));
       [...provider.stations].sort((a,b)=>Number(Object.values(b.prices).some(Boolean))-Number(Object.values(a.prices).some(Boolean))||(a.address||a.name||'').localeCompare(b.address||b.name||'',locale)).forEach(station => {
         const line = element('div', 'station-detail');
         if (station.name && station.name !== provider.name) line.append(element('strong', 'station-name', station.name));
@@ -165,7 +165,7 @@ function fuel(container, data) {
         const prices = element('div',sharedPrices?'station-fuel-tags':'station-price-list');
         fuelKeys.forEach((key,i)=>{
           const quote=withReference(station.prices?.[key]), label=['95',t('diesel','Diesel')][i];
-          if(sharedPrices){if(Number.isFinite(quote?.price)||station.available_fuels?.includes(key==='petrol95'?'95':key))prices.append(element('span','station-fuel-tag',label));return;}
+          if(sharedPrices)return;
           const item=element('span','station-quote'); item.append(element('span','station-fuel-label',label));
           if(Number.isFinite(quote?.price)) {
             const trigger = priceButton(quote,{label:`${station.name} · ${label}`,unit:'EUR/l'});
@@ -180,7 +180,7 @@ function fuel(container, data) {
         const dates = Object.values(station.prices || {}).filter(Boolean).map(q => q.observed_date || q.observed_at?.slice(0,10)).filter(Boolean);
         const old = Object.values(station.prices || {}).some(q => q?.freshness === 'stale');
         if(station.directory_id&&!Object.values(station.prices).some(Boolean))line.append(element('small','station-price-unknown',t('station_price_unknown','Individual prices not published')));
-        line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · '+t('stale_station_prices','Some prices are outdated') : ''}`)); details.append(line);
+        if(!sharedPrices&&fuelKeys.some(key=>Number.isFinite(station.prices?.[key]?.price)))line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · '+t('stale_station_prices','Some prices are outdated') : ''}`)); details.append(line);
       });
       detailsCell.append(details);
     } else detailsCell.append(element('p', 'provider-empty', t('stations_unavailable','Individual station prices are not available yet.')));
