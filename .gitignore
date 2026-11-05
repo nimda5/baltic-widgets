@@ -1,0 +1,11 @@
+node_modules/
+var/
+artifacts/
+dist/
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.log
+*.pem
+*.key

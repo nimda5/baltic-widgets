@@ -1,0 +1,187 @@
+/* The portal itself uses the unmodified styles in reference/. Only local
+   snapshot behaviour and the inserted widgets are adapted here. */
+:root{--bg:var(--portal-bg-primary);--surface:var(--portal-surface-primary);--text:var(--portal-text-primary);--secondary:var(--portal-text-secondary);--line:var(--portal-border-secondary);--subtle:var(--portal-bg-secondary,#f2f2f7)}
+body{background:var(--portal-bg-primary);color:var(--portal-text-primary)}
+.reference-ad{display:block;width:400px;height:610px;object-fit:cover;border-radius:8px}
+#header .theme-toggle{margin-left:8px;flex:none}
+#btn_login{display:flex;align-items:center;justify-content:center;min-height:34px}
+.col-carousel .blaze-track{display:block!important;transform:none!important}
+.col-carousel .carousel-slide{width:100%!important;height:100%;min-width:0}
+.col-carousel .carousel-slide:not(.local-slide-active){display:none!important}
+.col-carousel .blaze-pagination button{border:0;border-radius:50%;width:8px;height:8px;padding:0;margin:0 4px;background:#dedee0}
+.col-carousel .blaze-pagination button[aria-current=true]{background:#777}
+.col-carousel .blaze-pagination button::before,.col-carousel .blaze-pagination button::after{display:none!important}
+.panel-weather2 .blaze-track{display:block!important;transform:none!important}
+.panel-weather2 .blaze-track>div:not(.local-weather-active){display:none!important}
+.header-product-menu ul.not-ready{opacity:1!important;visibility:visible!important}
+.local-menu{position:fixed;right:20px;top:65px;z-index:1000;padding:12px;background:var(--portal-surface-primary);border:1px solid var(--portal-border-secondary);box-shadow:var(--portal-shadow);border-radius:8px;min-width:190px}
+.local-menu a{display:block;padding:10px;color:var(--portal-text-primary)}
+[hidden]{display:none!important}
+#news-container{padding-bottom:24px}
+#widgets{margin:6px 16px 18px;scroll-margin-top:20px}
+#widgets .widget-heading{display:none}
+#widgets .widgets-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:16px}
+#widgets .widget{min-height:0;padding:11px 13px 10px;border-radius:8px;box-shadow:var(--portal-shadow);border:0;background:var(--portal-surface-primary);color:var(--portal-text-primary)}
+#widgets .widget-header{margin-bottom:7px;gap:7px;min-height:21px}
+#widgets .widget h3{font-size:13px;line-height:1.3;font-weight:600;gap:6px;color:var(--portal-text-primary)}
+#widgets .widget-icon,#widgets .widget-icon svg{width:16px;height:16px;color:var(--portal-text-secondary)}
+#widgets .location{font-size:9px;white-space:nowrap;color:var(--portal-text-secondary)}
+#widgets .fuel-table{font-size:11px;line-height:16px;margin:0}
+#widgets .fuel-table th:first-child{width:35%}
+#widgets .fuel-table thead th{padding:0 0 4px;font-size:10px;line-height:15px}
+#widgets .fuel-table tbody th,#widgets .fuel-table td{padding:2px 0;line-height:16px;border-color:var(--portal-border-secondary)}
+#widgets .fuel-table tbody th,#widgets .fuel-table td{padding-top:0;padding-bottom:0}
+#widgets .fuel-table thead th{padding-bottom:2px}
+#widgets .provider-button{font-size:11px;line-height:17px;color:var(--portal-text-primary);white-space:nowrap}
+#widgets .provider-button svg{width:9px;height:9px}
+#widgets .price-value{font-size:12px;line-height:17px;color:var(--portal-text-primary)}
+#widgets .price-trigger{padding:0;line-height:17px}
+#widgets .trend{font-size:11px}
+#widgets .trend.up,.price-dialog .trend.up{color:#24734d}
+#widgets .trend.down,.price-dialog .trend.down{color:#b23b46}
+[data-bs-theme=dark] #widgets .trend.up,[data-bs-theme=dark] .price-dialog .trend.up{color:#7fcba5}
+[data-bs-theme=dark] #widgets .trend.down,[data-bs-theme=dark] .price-dialog .trend.down{color:#ed929b}
+#widgets .market-name{display:inline-flex;align-items:center;gap:6px}
+#widgets .market-symbol{display:inline-flex;align-items:center;justify-content:center;width:16px;flex:0 0 16px;font-size:15px;font-weight:500;line-height:17px;color:var(--portal-text-secondary)}
+#widgets .market-symbol svg{width:16px;height:16px;display:block}
+#widgets .electricity{min-height:27px;padding-top:6px;margin-top:5px;gap:8px;flex-wrap:nowrap;border-color:var(--portal-border-secondary)}
+#widgets .electricity-info{gap:1px;flex-direction:row;align-items:center;flex-wrap:wrap;column-gap:6px}
+#widgets .electricity-title{font-size:11px;color:var(--portal-text-primary)}
+#widgets .electricity-title svg{width:12px;height:12px}
+#widgets .electricity-period{font-size:8px}
+#widgets .electricity-price .price-value{font-size:12px}
+#widgets .unit{font-size:8px}
+#widgets .horoscope-days{margin:0 0 0 auto;gap:0;flex:none}
+#widgets .horoscope-days button{font-size:10px;padding:3px 7px;line-height:17px}
+#widgets .zodiac-top{margin:3px 0 6px;gap:8px}
+#widgets .zodiac-symbol{width:24px;height:27px}
+#widgets .zodiac-symbol svg{width:24px;height:24px}
+#widgets .zodiac-top select{font-size:13px;max-width:150px}
+#widgets .zodiac-date{font-size:9px;margin-top:2px}
+#widgets .icon-button{width:23px;height:24px}
+#widgets .horoscope-text{min-height:0;font-size:12px;line-height:1.6;color:var(--portal-text-primary);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+#widgets .zodiac-picker{grid-template-columns:repeat(12,minmax(0,1fr));margin-top:8px;padding-top:7px;gap:1px;border-color:var(--portal-border-secondary)}
+#widgets .zodiac-option{padding:3px 1px}
+#widgets .zodiac-option svg{width:16px;height:16px}
+#widgets #horoscope-content{display:flex;flex-direction:column}
+#widgets #horoscope-content .horoscope-text{margin-bottom:8px}
+#widgets #horoscope-content .zodiac-picker{margin-top:auto;flex-shrink:0}
+#widgets .zodiac-top select:focus:not(:focus-visible){outline:none;box-shadow:none}
+.price-dialog .chart-close{display:grid;place-items:center;align-self:flex-start;flex:0 0 30px;width:30px;height:30px;min-width:30px;min-height:30px;padding:0;line-height:1;margin:0}
+.price-dialog .chart-close svg{display:block;width:18px;height:18px}
+#widgets .market-row{grid-template-columns:1fr auto 62px;padding:5px 0;gap:7px;border-color:var(--portal-border-secondary)}
+#widgets .market-row:first-child{padding-top:0}
+#widgets .market-label{gap:1px}
+#widgets .market-label{flex-direction:row;align-items:baseline;gap:5px;white-space:nowrap}
+#widgets .market-label strong{font-size:12px;font-weight:500;color:var(--portal-text-primary)}
+#widgets .market-label small{font-size:8px}
+#widgets .market-price{font-size:13px;color:var(--portal-text-primary)}
+#widgets .market-row>.price-trigger{gap:8px}
+#widgets .market-row>.price-trigger>.trend{min-width:62px;font-size:10px}
+.widget-switcher{display:none}
+@media(min-width:768px) and (max-width:1199px){#widgets .widgets-grid{grid-template-columns:1.15fr 1fr}#widgets #exchange-widget{grid-column:1/-1}#widgets .market-list{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}#widgets .market-row{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:0;border:0}#widgets .market-row>.price-trigger{display:flex;gap:6px}#widgets .market-row>.price-trigger>.trend{min-width:0}#widgets .market-label small{display:none}#widgets .market-label{display:block}}
+@media(max-width:1199px){#widgets{order:4;width:100%;margin:0;min-width:0}#widgets .widgets-grid{display:block}#widgets .widget{padding:10px 12px 11px;box-shadow:none!important;border:1px solid var(--portal-border-secondary);border-top:0;border-radius:0 0 8px 8px}#widgets .widget-header{margin-bottom:5px}#widgets .widget-header h3{font-size:12px}#widgets .widget h3>.widget-icon{display:none}#widgets .widget-header .location{font-size:9px}#widgets .widget-switcher{display:flex;background:var(--portal-surface-primary);border:1px solid var(--portal-border-secondary);border-radius:8px 8px 0 0;padding:0 10px;gap:18px}#widgets .widget-switcher button{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;padding:9px 0 8px;font-size:12px;color:var(--portal-text-secondary);line-height:18px}#widgets .widget-switcher button[aria-selected=true]{color:var(--portal-text-primary);border-bottom-color:var(--portal-text-secondary)}#widgets .fuel-table tbody th,#widgets .fuel-table td{padding:3px 0}#widgets .electricity{padding-top:7px;margin-top:5px}#widgets .zodiac-top{margin-top:2px}#widgets .zodiac-picker{margin-top:9px;padding-top:8px}#widgets .horoscope-text{-webkit-line-clamp:4;font-size:12px}#widgets .market-list{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}#widgets .market-row{display:flex;flex-direction:column;align-items:flex-start;padding:3px 0 5px;border:0;gap:5px}#widgets .market-label{flex-direction:row;align-items:baseline;gap:5px}#widgets .market-label small{font-size:8px}#widgets .market-row>.price-trigger{width:100%;display:flex;gap:4px;justify-content:space-between}#widgets .market-row>.price-trigger>.trend{min-width:0}.mobile-widgets{order:5!important}.col-carousel .carousel-slide{height:auto}.reference-ad{max-width:100%;height:auto}}
+@media(prefers-reduced-motion:reduce){.card__media::before{transition:none!important}}
+@media(max-width:360px){#header .col-branding,#header .col-branding .branding{width:142px!important;min-width:0!important;flex-basis:142px!important}#header .branding__logo{max-width:142px}#header .theme-toggle{margin-left:4px}}
+
+@media(min-width:768px) and (max-width:1199px){#widgets{width:auto;margin:6px 16px 18px}#widgets .widgets-grid{display:block}#widgets .market-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}#widgets .market-row{padding:4px 0}#widgets .market-label{flex-direction:column;gap:2px}#widgets .market-label small{display:block}.col-carousel .carousel-slide{height:100%}}
+
+#widgets .price-trigger[data-trend=up] :is(.price-value,.market-price),.price-dialog .trend.up{color:#24734d}
+#widgets .price-trigger[data-trend=down] :is(.price-value,.market-price),.price-dialog .trend.down{color:#b23b46}
+[data-bs-theme=dark] #widgets .price-trigger[data-trend=up] :is(.price-value,.market-price){color:#7fcba5}
+[data-bs-theme=dark] #widgets .price-trigger[data-trend=down] :is(.price-value,.market-price){color:#ed929b}
+#widgets .provider-details>td{padding:10px 8px!important;background:var(--portal-surface-primary);white-space:normal;text-align:left}
+#widgets .station-list{display:flex;flex-direction:column;gap:8px;max-height:340px;overflow:auto;overscroll-behavior:contain}
+#widgets .station-detail{display:block;padding:10px;border:1px solid var(--portal-border-secondary);border-radius:6px;color:var(--portal-text-primary);background:var(--portal-surface-primary);font-size:12px;line-height:1.5;white-space:normal}
+#widgets .station-address{display:block;font-size:12px;font-weight:500;color:var(--portal-text-primary);overflow-wrap:anywhere}
+#widgets .station-name{display:block;color:var(--portal-text-secondary);font-size:11px;margin-bottom:2px}
+#widgets .station-price-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:9px 0 6px}
+#widgets .station-quote{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+#widgets .station-fuel-label{font-size:10px;color:var(--portal-text-secondary)}
+#widgets .station-price-list .price-trigger{font-size:13px;line-height:20px;font-weight:500;color:var(--portal-text-primary)}
+#widgets .stale-price{opacity:1;text-decoration:underline dotted;text-underline-offset:3px}
+#widgets .station-date{display:block;font-size:10px;color:var(--portal-text-secondary);line-height:1.5}
+#widgets .price-age-marker{font-size:10px;margin-left:2px;color:var(--portal-text-secondary)}
+#widgets .fuel-age-note{font-size:10px;line-height:1.5;margin:7px 0;color:var(--portal-text-secondary)}
+
+.providers-more{background:none;border:0;color:var(--portal-text-secondary);font:inherit;cursor:pointer;padding:8px 0}.station-count{font-size:10px;color:var(--portal-text-secondary);margin-left:4px}.fuel-table th:first-child{max-width:180px}.provider-button{max-width:100%;overflow-wrap:anywhere;text-align:left}
+
+.fuel-table{table-layout:fixed;width:100%}.fuel-table th:first-child{width:40%}.fuel-table .provider-button{font-size:inherit}.fuel-table td{white-space:nowrap}
+
+#widgets .stale-price{opacity:1;text-decoration:none}
+#widgets .publication-age{display:inline-flex;margin-left:5px;color:var(--portal-text-secondary);vertical-align:middle}
+#widgets .publication-age svg{width:11px;height:11px}
+#widgets .trend[hidden]{display:none!important}
+#widgets .providers-more{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;margin:7px 0 0;padding:5px 8px;border:1px solid var(--portal-border-secondary);border-radius:5px;background:transparent;color:var(--portal-text-secondary);font-size:11px;line-height:16px;cursor:pointer}
+#widgets .providers-more:hover,#widgets .providers-more:focus-visible{background:var(--portal-border-secondary);color:var(--portal-text-primary)}
+#widgets .providers-more svg{width:12px;height:12px;transform:rotate(90deg)}
+#widgets .providers-more[aria-expanded=true] svg{transform:rotate(-90deg)}
+#widgets .providers-count{font-size:10px;line-height:14px;padding:0 5px;border-radius:8px;background:var(--portal-border-secondary)}
+#widgets .country-history{margin-top:10px;margin-bottom:6px}
+#widgets .gas{margin-top:7px;padding-top:7px}
+
+#widgets #exchange-widget .market-list{display:block}
+#widgets #exchange-widget .market-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(145px,auto);align-items:center;gap:12px;padding:7px 0}
+#widgets #exchange-widget .market-label{display:flex;flex-direction:row;align-items:baseline;gap:5px;min-width:0;white-space:normal}
+#widgets #exchange-widget .market-row>.price-trigger{display:grid;grid-template-columns:minmax(76px,1fr) 62px;align-items:baseline;justify-content:unset;width:auto;gap:10px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+#widgets #exchange-widget .market-price{justify-self:end}
+#widgets #exchange-widget .trend{min-width:0;justify-self:end;text-align:right}
+#widgets #exchange-widget .market-label small{display:block}
+#widgets .station-address-note{font-size:10px;color:var(--portal-text-secondary);margin:0 0 4px;line-height:1.5}
+#widgets .station-fuel-tags{display:flex;gap:5px;margin-top:5px}
+#widgets .station-fuel-tag{font-size:10px;color:var(--portal-text-secondary);border:1px solid var(--portal-border-secondary);padding:1px 6px;border-radius:4px}
+#widgets .addresses-only .station-detail{padding:8px 10px}
+.chart-series{width:100%;padding:7px 9px;margin:6px 0 10px;border:1px solid var(--portal-border-secondary);border-radius:5px;background:var(--portal-surface-primary);color:var(--portal-text-primary);font:inherit;font-size:12px}
+@media(max-width:390px){#widgets #exchange-widget .market-row{gap:5px;grid-template-columns:minmax(0,1fr) 145px}#widgets #exchange-widget .market-label{flex-direction:column;gap:0}#widgets #exchange-widget .market-row>.price-trigger{gap:5px}}
+
+#widgets .energy-title-trigger{display:inline-flex;align-items:center;justify-content:flex-start;gap:5px;font-family:inherit;font-weight:inherit;line-height:inherit;padding:2px 0}
+
+#exchange-content{container-type:inline-size;container-name:market-quotes}
+#widgets #exchange-widget .market-row{grid-template-columns:minmax(0,1fr) auto}
+#widgets #exchange-widget .market-row>.market-label-trigger{grid-column:1;display:grid;grid-template-columns:18px 80px minmax(0,1fr);column-gap:8px;row-gap:0;align-items:center;justify-content:start;width:100%;min-width:0;white-space:nowrap;text-align:left;font-family:inherit;font-weight:inherit;padding:2px 0}
+#widgets #exchange-widget .market-row>.market-value-trigger{grid-column:2}
+#widgets #exchange-widget .market-label-trigger .market-symbol{display:flex;align-items:center;justify-content:center;width:18px;min-width:18px;margin:0;color:var(--portal-text-secondary);font-size:17px;line-height:20px}
+#widgets #exchange-widget .market-label-trigger .market-symbol svg{width:18px;height:18px;stroke-width:1.4}
+#widgets #exchange-widget .market-name-text{font-size:12px;font-weight:500;color:var(--portal-text-primary);line-height:20px}
+#widgets #exchange-widget .market-unit{font-size:8px;color:var(--portal-text-secondary);margin:0;line-height:16px}
+@container market-quotes (max-width:340px){
+ #widgets #exchange-widget .market-row>.market-label-trigger{grid-template-columns:18px minmax(0,1fr)}
+ #widgets #exchange-widget .market-label-trigger .market-symbol{grid-row:1/3}
+ #widgets #exchange-widget .market-name-text{grid-column:2;grid-row:1}
+ #widgets #exchange-widget .market-unit{grid-column:2;grid-row:2}
+}
+
+/* Compact horoscope; tone options live behind the face button. */
+#widgets .widgets-grid{align-items:stretch}
+#widgets #horoscope-content .horoscope-text{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;line-height:1.65;margin:6px 0 3px;text-wrap:pretty}
+#widgets #horoscope-content .horoscope-text.is-expanded{display:block;-webkit-line-clamp:unset;overflow:visible}
+#widgets .horoscope-read-more{align-self:flex-start;background:none;border:0;border-radius:4px;padding:3px 0;font:inherit;font-size:11px;color:var(--portal-text-secondary);cursor:pointer;margin:0}
+#widgets .horoscope-read-more:hover{color:var(--portal-text-primary);text-decoration:underline}
+#widgets .horoscope-read-more:focus-visible,#widgets .horoscope-tone summary:focus-visible,#widgets .horoscope-tone button:focus-visible{outline:2px solid var(--portal-text-secondary);outline-offset:3px}
+#widgets .zodiac-info{min-width:0;flex:1}
+#widgets .horoscope-tone{position:relative;flex:none;margin-left:auto;align-self:center}
+#widgets .horoscope-tone summary{display:grid;place-items:center;list-style:none;cursor:pointer;padding:5px;border-radius:50%;color:var(--portal-text-secondary)}
+#widgets .horoscope-tone summary::-webkit-details-marker{display:none}
+#widgets .horoscope-tone summary svg{width:19px;height:19px}
+#widgets .horoscope-tone summary:hover,#widgets .horoscope-tone[open] summary{color:var(--portal-text-primary);background:rgba(128,128,128,.12)}
+#widgets .horoscope-tone-menu{position:absolute;right:0;top:calc(100% + 4px);z-index:20;min-width:155px;padding:5px;background:var(--portal-surface-primary);border:1px solid var(--portal-border-secondary);border-radius:8px;box-shadow:var(--portal-shadow)}
+#widgets .horoscope-tone-menu button{display:flex;align-items:center;gap:8px;width:100%;padding:7px 9px;border:0;border-radius:5px;background:none;color:var(--portal-text-secondary);font:inherit;font-size:11px;text-align:left;white-space:nowrap;cursor:pointer}
+#widgets .horoscope-tone-menu button svg{width:16px;height:16px}
+#widgets .horoscope-tone-menu button:hover,#widgets .horoscope-tone-menu button[aria-pressed=true]{background:rgba(128,128,128,.12);color:var(--portal-text-primary)}
+#top-lang-switch-ddown a{display:block;color:inherit;text-decoration:none}
+#top-lang-switch-ddown a[aria-current=true]{font-weight:600;color:var(--portal-text-primary)}
+
+/* No Popper runs on the saved portal: explicitly anchor the language dropdown. */
+#lang-switch{position:relative}
+#header #top-lang-switch-ddown{top:calc(100% + 10px);right:0;bottom:auto;left:auto;transform:none;min-width:150px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 100px);overflow-y:auto;overscroll-behavior:contain;border-radius:8px;z-index:1100}
+
+/* Compact energy footer; provenance and observation time remain in tooltips/API. */
+#widgets .energy-quotes{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;border-top:1px solid var(--portal-border-secondary);margin-top:6px;padding-top:6px}
+#widgets .energy-quotes .electricity{margin:0;padding:0;border:0;min-height:23px;gap:4px;align-items:center}
+#widgets .energy-quotes .electricity+.electricity{border-left:1px solid var(--portal-border-secondary);padding-left:12px}
+#widgets .energy-quotes .electricity-info{flex:none}
+#widgets .energy-quotes .electricity-price{margin-left:auto;white-space:nowrap}
+@media(max-width:600px){#widgets .energy-quotes .electricity{flex-direction:column;align-items:flex-start;gap:2px}#widgets .energy-quotes .electricity-price{margin-left:0}}
+
+#fuel-content{container-type:inline-size;container-name:energy-data}
+@container energy-data (max-width:380px){#widgets .energy-quotes .electricity{flex-direction:column;align-items:flex-start;gap:2px}#widgets .energy-quotes .electricity-price{margin-left:0}}

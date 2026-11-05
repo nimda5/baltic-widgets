@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-05T00:00:00+02:00",
+  "source": "demo",
+  "demo": true,
+  "data": {
+    "signs": [
+      {
+        "id": "aries",
+        "name": "Auns",
+        "dates": "21. marts – 19. aprīlis",
+        "today": "Atrodi laiku iecerei, kas gaida pirmo soli. Mierīga saruna palīdzēs sakārtot domas un ieraudzīt jaunas iespējas.",
+        "tomorrow": "Rīt pievērsies iesāktajam ar svaigu skatienu. Neliela iniciatīva palīdzēs virzīties uz priekšu; vakarā atlicini laiku sev."
+      },
+      {
+        "id": "taurus",
+        "name": "Vērsis",
+        "dates": "20. aprīlis – 20. maijs",
+        "today": "Nesteidzies un pievērs uzmanību mazajām lietām. Patīkams pārsteigums var slēpties ikdienas ierastajā ritmā.",
+        "tomorrow": "Rītdienas mierīgais ritms būs piemērots praktiskiem darbiem. Atstāj vietu arī kādam mazam, patīkamam pārsteigumam."
+      },
+      {
+        "id": "gemini",
+        "name": "Dvīņi",
+        "dates": "21. maijs – 20. jūnijs",
+        "today": "Dalies ar idejām un ieklausies citos. Jauns skatījums palīdzēs atrast atbildi uz sen atliktu jautājumu.",
+        "tomorrow": "Rīt jaunu impulsu var dot negaidīta saruna. Izvēlies vienu no savām idejām un sper pirmo soli tās īstenošanā."
+      },
+      {
+        "id": "cancer",
+        "name": "Vēzis",
+        "dates": "21. jūnijs – 22. jūlijs",
+        "today": "Velti uzmanību mājām un cilvēkiem, kas tev tuvi. Neliels atelpas brīdis palīdzēs atgūt spēkus.",
+        "tomorrow": "Rīt parūpējies par savu labsajūtu un atrod laiku tuviniekiem. Kluss vakars palīdzēs sakārtot domas."
+      },
+      {
+        "id": "leo",
+        "name": "Lauva",
+        "dates": "23. jūlijs – 22. augusts",
+        "today": "Radoša pieeja piešķirs dienai krāsas. Iedrošini kādu sev blakus un atstāj vietu arī spontānai idejai.",
+        "tomorrow": "Rīt dalies ar to, kas tevi iedvesmo. Tavs entuziasms būs lipīgs, bet ieklausīšanās palīdzēs atrast kopīgu valodu."
+      },
+      {
+        "id": "virgo",
+        "name": "Jaunava",
+        "dates": "23. augusts – 22. septembris",
+        "today": "Sakārto prioritātes un sāc ar vienu paveicamu darbu. Skaidrāks plāns atbrīvos laiku patīkamām nodarbēm.",
+        "tomorrow": "Rīt būs vieglāk pamanīt risinājumu mazās detaļās. Pabeidz vienu atliktu darbu un ļauj sev atpūsties."
+      },
+      {
+        "id": "libra",
+        "name": "Svari",
+        "dates": "23. septembris – 22. oktobris",
+        "today": "Meklē līdzsvaru starp pienākumiem un atpūtu. Draudzīga saruna var kļūt par dienas patīkamāko mirkli.",
+        "tomorrow": "Rīt sadarbība būs patīkamāka, ja skaidri pateiksi savas vēlmes. Dienas vidū atvēli brīdi nesteidzīgai pastaigai."
+      },
+      {
+        "id": "scorpio",
+        "name": "Skorpions",
+        "dates": "23. oktobris – 21. novembris",
+        "today": "Uzticies savai pieredzei, bet atstāj vietu jaunam skatījumam. Pārdomāti soļi palīdzēs īstenot iecerēto.",
+        "tomorrow": "Rīt nesteidzies ar secinājumiem. Uzdod vēl vienu jautājumu un dod jaunai iecerei laiku nobriest."
+      },
+      {
+        "id": "sagittarius",
+        "name": "Strēlnieks",
+        "dates": "22. novembris – 21. decembris",
+        "today": "Atklāj ko jaunu ierastajā apkārtnē. Neliela pastaiga vai interesanta lasāmviela dos iedvesmu turpmākajam.",
+        "tomorrow": "Rīt noderēs ziņkārība un atvērtība. Pamēģini citu maršrutu vai atgriezies pie kāda sen aizmirsta hobija."
+      },
+      {
+        "id": "capricorn",
+        "name": "Mežāzis",
+        "dates": "22. decembris – 19. janvāris",
+        "today": "Pacietība palīdzēs pabeigt iesākto. Novērtē paveikto un atceries atlicināt laiku arī sev.",
+        "tomorrow": "Rīt solis pa solim izdosies paveikt iecerēto. Plānā atstāj arī brīvu laiku patīkamai satikšanās reizei."
+      },
+      {
+        "id": "aquarius",
+        "name": "Ūdensvīrs",
+        "dates": "20. janvāris – 18. februāris",
+        "today": "Pieraksti neparastu ideju un pārrunā to ar domubiedriem. Sadarbība var atvērt negaidītas iespējas.",
+        "tomorrow": "Rīt meklē domubiedrus un dalies ar neparasto. Neliels kopīgs projekts var sagādāt daudz prieka."
+      },
+      {
+        "id": "pisces",
+        "name": "Zivis",
+        "dates": "19. februāris – 20. marts",
+        "today": "Atvēli brīdi klusumam un radošumam. Labvēlīga attieksme palīdzēs vieglāk saprast gan sevi, gan citus.",
+        "tomorrow": "Rīt ļauj domām plūst un pieraksti radošās ieceres. Sirsnīga saruna palīdzēs noslēgt dienu uz labas nots."
+      }
+    ]
+  }
+}

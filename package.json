@@ -1,0 +1,23 @@
+{
+  "name": "baltic-widgets",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node services/server.mjs",
+    "update": "node scripts/update-data.mjs",
+    "update:offline": "node scripts/update-data.mjs --offline",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview-static.mjs",
+    "publish:data": "node scripts/publish-data.mjs",
+    "generate:horoscope": "node scripts/generate-horoscope.mjs",
+    "test": "node --test parsers/*.test.mjs services/*.test.mjs public/zodiac-icons.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "cheerio": "^1.2.0",
+    "read-excel-file": "^9.3.14"
+  }
+}
