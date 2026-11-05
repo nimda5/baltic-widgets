@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {calendarDate,localNoon,nextDate,sky,initializeHoroscope,horoscopeData,moods} from './horoscope.mjs';
 import {localized} from '../services/localization.mjs';
+import {validateAdvice} from './horoscope-policy.mjs';
 test('local day and noon respect Riga DST and year rollover',()=>{
   assert.equal(calendarDate(new Date('2026-11-05T22:30:00Z')),'2026-11-06');
   assert.equal(localNoon('2026-03-28','Europe/Riga').toISOString(),'2026-03-28T10:00:00.000Z');
@@ -25,6 +26,7 @@ test('two cached days cover all signs, moods, variants; selection and fallback p
     assert.equal(a.data.format,'do_dont');assert.deepEqual(a.data.moods,['serious','humor']);
     for(const sign of a.data.signs)for(const day of ['today','tomorrow'])for(const mood of moods)for(const reading of sign.advice[day][mood]){
       assert.equal(reading.do.length,3);assert.equal(reading.dont.length,3);
+      assert.notEqual(reading.do_topic,reading.avoid_topic);
       assert.equal(new Set([...reading.do,...reading.dont]).size,6);
       assert.ok([...reading.do,...reading.dont].every(item=>typeof item==='string'&&item.length>15));
     }
@@ -47,6 +49,21 @@ test('two cached days cover all signs, moods, variants; selection and fallback p
     const lt=localized(horoscopeData(db,{...options,lang:'lt'}),'lt','horoscope');assert.equal(lt.content_language,'en');assert.ok(lt.fallback_fields.length);assert.equal(lt.data.signs[0].name,'Avinas');
     assert.throws(()=>horoscopeData(db,{...options,mood:'unknown'}));assert.throws(()=>horoscopeData(db,{...options,variant:'-1'}));assert.throws(()=>horoscopeData(db,{...options,timeZone:'invalid'}));
     const rolled=horoscopeData(db,{...options,now:new Date('2026-11-05T22:05:00Z')});assert.equal(rolled.data.date,'2026-11-06');assert.equal(rolled.data.signs[0].today,a.data.signs[0].tomorrow);
+  }finally{db.close();}
+});
+
+test('editorial gate rejects repeated subjects, double negation and duplicates in every authored language',()=>{
+  const db=new DatabaseSync(':memory:');initializeHoroscope(db);
+  try{
+    for(const lang of ['ru','lv','en']){
+      const doc=horoscopeData(db,{lang,now:new Date('2026-11-05T12:00:00Z')});
+      const reading=doc.data.signs[0].recommendations.today;
+      assert.doesNotThrow(()=>validateAdvice(reading,{lang,mood:'serious'}));
+      assert.throws(()=>validateAdvice({...reading,avoid_topic:reading.do_topic},{lang}));
+      const bad={ru:'Не бери лишнюю задачу из вежливости.',en:'Do not accept an extra task out of politeness.',lv:'Neuzņemies vēl vienu darbu aiz pieklājības.'}[lang];
+      assert.throws(()=>validateAdvice({...reading,dont:[bad,...reading.dont.slice(1)]},{lang}));
+      assert.throws(()=>validateAdvice({...reading,dont:[reading.do[0],...reading.dont.slice(1)]},{lang}));
+    }
   }finally{db.close();}
 });
 

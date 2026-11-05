@@ -282,7 +282,7 @@ function horoscope(container, data) {
     const sign=data.signs[selected];select.value=String(selected);symbol.replaceChildren(icon(sign.id));dates.textContent=sign.dates;
     const reading=sign.advice?.[day]?.[mood]?.[variant];text.replaceChildren();
     if(reading){
-      for(const [field,label] of [['do',t('horoscope_do','Do')],['dont',t('horoscope_dont',"Don't")]]){
+      for(const [field,label] of [['do',t('horoscope_do','Do')],['dont',t('horoscope_dont','Avoid')]]){
         const section=element('section','horoscope-advice-section '+field),heading=element('h4','',label),mark=element('span','advice-mark',field==='do'?'✓':'×');mark.setAttribute('aria-hidden','true');heading.prepend(mark);const list=element('ul');
         reading[field].forEach(item=>list.append(element('li','',item)));section.append(heading,list);text.append(section);
       }
