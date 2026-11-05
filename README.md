@@ -1,24 +1,24 @@
 # Baltic Widgets
 
-Переносимый портал с виджетами топлива LV/LT/EE, электричества, природного газа, валют, золота, Bitcoin и ежедневных гороскопов. Статическая версия работает на GitHub Pages без Home Assistant и серверного API.
+A portable portal with widgets for Baltic fuel prices (LV/LT/EE), electricity, natural gas, currencies, gold, Bitcoin, and daily horoscopes. The static site runs on GitHub Pages without Home Assistant or a backend API.
 
-## Что где хранится
+## Project layout and storage
 
-| Каталог | Содержимое | Публикуется |
+| Directory | Contents | Published |
 |---|---|---|
-| `public/` | HTML, CSS, JS, изображения, шрифты и переводы | Да |
-| `data/` | Готовые JSON, включая историю графиков | Да |
-| `parsers/`, `services/`, `scripts/` | Переносимые сборщики и инструменты | Код — да |
-| `var/widgets.sqlite` | Локальная SQLite с полной историей наблюдений | Нет |
-| `var/archives/` | Исходные архивы и ответы источников | Нет |
-| `var/collector/` | Рабочие файлы сбора топлива | Нет |
-| `dist/`, `artifacts/` | Локальные сборки и отчёты | Нет |
+| `public/` | HTML, CSS, JavaScript, images, fonts, and translations | Yes |
+| `data/` | Generated JSON, including chart history | Yes |
+| `parsers/`, `services/`, `scripts/` | Portable collectors and tools | Source code only |
+| `var/widgets.sqlite` | Local SQLite database with the full observation history | No |
+| `var/archives/` | Raw source archives and responses | No |
+| `var/collector/` | Fuel collector working files | No |
+| `dist/`, `artifacts/` | Local builds and reports | No |
 
-В проекте нет настроек подключения к вашему HA, SSH-ключей и локальных адресов. Сайт читает только опубликованные файлы. GitHub Actions собирает сайт из `public/` и `data/`; SQLite и доступ к локальному компьютеру ему не нужны.
+The repository contains no private Home Assistant connection settings, SSH keys, or local network addresses. The website reads published files only. GitHub Actions builds it from `public/` and `data/`; it needs neither SQLite nor access to the local computer.
 
-## Запуск на компьютере
+## Local preview
 
-Нужны Node.js **24+**, Git и GitHub CLI. Команды выполняются в каталоге проекта.
+Install Node.js **24+**, Git, and GitHub CLI. Run these commands from the project directory:
 
 ```powershell
 npm ci
@@ -26,9 +26,9 @@ npm run build
 npm run preview
 ```
 
-Открыть `http://127.0.0.1:8080/`; для русского языка — `http://127.0.0.1:8080/?lang=ru`. Языки: `lv`, `ru`, `en`, `lt`, `et`, fallback — английский. Тексты гороскопа LV/RU/EN; LT/ET используют английский текст с локализованными подписями.
+Open `http://127.0.0.1:8080/`. Use `http://127.0.0.1:8080/?lang=ru` to preview Russian. Supported languages are `lv`, `ru`, `en`, `lt`, and `et`, with English as the fallback. Horoscope content is available in LV/RU/EN; LT/ET use English content with localized interface labels.
 
-## Ежедневное обновление и публикация
+## Daily updates and publication
 
 ```powershell
 git pull --ff-only
@@ -38,62 +38,68 @@ npm run build
 npm run publish:data
 ```
 
-`update` один раз собирает данные, обновляет локальную SQLite, готовит гороскоп на сегодня/завтра и экспортирует JSON в `data/`. Команда завершается сама. Первый запуск на пустой базе загружает доступные исторические архивы и может занять заметно больше времени; следующие запуски используют сохранённую базу и догружают новые значения.
+`update` collects data once, updates the local SQLite database, prepares today's and tomorrow's horoscopes, and exports JSON to `data/`. The command exits when finished. On an empty database, the first run downloads the available historical archives and can take considerably longer. Later runs reuse the database and incrementally collect new observations.
 
-`publish:data` создаёт коммит **только для `data/`** и отправляет его в `main`. При отсутствии изменений коммит не создаётся. Если в индексе уже есть другие подготовленные файлы, скрипт останавливается. После push GitHub Pages публикует новую версию автоматически.
+`publish:data` creates a commit **only for `data/`** and pushes it to `main`. It creates no commit if the data has not changed. If other files are already staged, the script stops. GitHub Pages deploys the new version automatically after the push.
 
-Не запускайте одновременно API-сервер и отдельный сборщик на одной папке данных. При частичной ошибке источника последний успешный результат сохраняется, а отчёт получает статус `degraded`. Отчёт: `artifacts/update-report.json`. После аварии удаляйте блокировку только убедившись, что предыдущий процесс завершён.
+Do not run the API server and the standalone collector against the same data directory at the same time. If a source partially fails, the last successful data is retained and the report receives `degraded` status. Read `artifacts/update-report.json` for details. After a crash, remove a lock file only after confirming that its owning process has stopped.
 
-При одном запуске в сутки электричество, газ и рынки являются суточным снимком, а не непрерывной котировкой. Время публикации источника сохраняется отдельно от времени загрузки. При необходимости сбор можно запускать чаще; топливо — не чаще раза в шесть часов.
+With one update per day, electricity, gas, and market prices are daily snapshots rather than continuously refreshed quotes. Source publication times are stored separately from collection times. Collection can run more often when needed; do not collect fuel more frequently than once every six hours.
 
-Расписание автоматически не устанавливается. Позднее в Windows можно создать задачу в **Планировщике заданий**: программа `powershell.exe`, аргументы `-NoProfile -File "ПОЛНЫЙ_ПУТЬ\scripts\daily-update.ps1"`, рабочая папка — корень проекта. Скрипт выполняет update/build/publish и останавливается при ошибке команды. Запускайте от пользователя Windows, под которым выполнен `gh auth login`.
+No schedule is installed automatically. To schedule it later on Windows, create a task in **Task Scheduler** with program `powershell.exe`, arguments `-NoProfile -File "FULL_PATH\scripts\daily-update.ps1"`, and the project root as its working directory. The script runs update/build/publish sequentially and stops if a command fails. Run it as the Windows user who completed `gh auth login`.
 
-## Локальная база и перенос
+## Local database and migration
 
-По умолчанию база — `var/widgets.sqlite`. Другую папку можно задать переменной окружения; `.env.example` — образец, автоматически `.env` не читается.
+The default database is `var/widgets.sqlite`. Set an environment variable to use another data directory. `.env.example` is a reference template; `.env` files are not loaded automatically.
 
 ```powershell
 $env:DATA_DIR = 'D:\baltic-widgets-data'
 npm run update
 ```
 
-Для переноса остановите сборщик и скопируйте **весь каталог данных**. SQLite использует WAL: не копируйте только основной файл во время записи. Для онлайн-копии используйте штатный SQLite backup API. Git не хранит базу и сырые архивы. В чистом клоне публичные данные уже есть в `data/`; база создаётся при первом локальном сборе.
+To migrate, stop the collector and copy the **entire data directory**. SQLite uses WAL mode: do not copy only the main database file while writes are in progress. Use the SQLite backup API for an online backup. Git stores neither the database nor the raw archives. A fresh clone already includes published snapshots in `data/`; the first local collection creates its database.
 
-Экспорт из существующей базы без обращения к внешним источникам, с генерацией свежих гороскопов:
+To export an existing database without contacting external sources, while generating current horoscopes:
 
 ```powershell
 npm run update:offline
 ```
 
-Не применяйте offline-export к пустой базе, если хотите сохранить опубликованную историю финансовых данных.
+Do not run an offline export against an empty database if you want to retain the published financial history.
 
 ## GitHub Pages
 
-В Settings → Pages установите Source: **GitHub Actions**. Workflow `.github/workflows/pages.yml` запускает тесты, собирает `dist/` и публикует его после push в `main`. База и секреты для сборки не требуются. Адрес проекта — `https://nimda5.github.io/baltic-widgets/`. Ресурсы работают под префиксом пути проекта.
+In Settings → Pages, set Source to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` runs tests, builds `dist/`, and deploys it after a push to `main`. The build requires no database or custom secrets. The project is published at `https://nimda5.github.io/baltic-widgets/`. Local resources support the repository path prefix.
 
-## JSON для отдельного встраивания
+## JSON for individual widgets
 
-- `data/ru/fuel-LV.json`, `fuel-LT.json`, `fuel-EE.json` — топливные сети;
-- `data/ru/electricity.json` — электричество и история;
-- `data/ru/gas.json` — природный газ и история;
-- `data/ru/exchange.json` — валюты, золото и Bitcoin;
-- `data/ru/horoscope.json` — гороскопы и все варианты;
-- `data/fuel-stations.geojson` — координаты станций, когда доступны.
+- `data/en/fuel-LV.json`, `fuel-LT.json`, `fuel-EE.json`: fuel networks.
+- `data/en/electricity.json`: electricity prices and history.
+- `data/en/gas.json`: natural gas prices and history.
+- `data/en/exchange.json`: currencies, gold, and Bitcoin.
+- `data/en/horoscope.json`: horoscopes and all text variants.
+- `data/fuel-stations.geojson`: station coordinates, when available.
 
-Замените `ru` на нужный язык. GitHub Pages не обрабатывает параметры API: язык выбирается путём файла, настроение и случайный вариант — клиентским кодом. Node-сервер (`npm start`) дополнительно поддерживает динамические GET-параметры и периодический сбор; для статического показа он не нужен.
+Replace `en` with the desired language. GitHub Pages does not process API query parameters: select the language through the file path and select the mood or random variant in client-side code. The Node server (`npm start`) additionally supports dynamic GET parameters and periodic collection; it is not needed for static hosting.
 
-## Источники и история
+## Data sources and history
 
-Топливо: опубликованные операторские цены LV, LEA LT, FuelEst EE. Недостающие цены 98 не выдумываются. Европейская комиссия — недельные национальные средние с 2005 года, отдельно от конкретных АЗС. Электричество — Elering/Nord Pool: LT с 2012, LV/EE с 2013. Природный газ — региональный EEX NGP и отдельный месячный европейский ориентир World Bank. Длинные EUR-графики используют исторические курсы ECB с 1999; разные индексы не склеиваются.
+Fuel uses published LV operator prices, LEA in LT, and FuelEst in EE. Missing 98-octane prices are not inferred. The European Commission provides weekly national averages from 2005, kept separate from individual station prices. Electricity uses Elering/Nord Pool history: LT from 2012 and LV/EE from 2013. Natural gas uses regional EEX NGP prices and a separate monthly European benchmark from the World Bank. Long EUR charts use historical ECB exchange rates from 1999; different indices are not merged.
 
-Валюты — ECB с 1999, золото — NBP с 2013 и отдельный месячный World Bank, Bitcoin — Coin Metrics с 2010. Фактическое покрытие зависит от источника и сохранённой базы. Гороскопы — редакционные шаблоны с расчётами Astronomy Engine; три настроения, по три варианта, дата Europe/Riga. Шесть направлений: работа/бизнес, деньги, отношения, личные планы, дом/семья, баланс/отдых; 24 конкретные ситуации. Соседние дни меняют тему и все предложения, постоянная фраза о характере знака не повторяется. Это житейские подсказки, а не обещания определённых событий.
+Currencies use ECB history from 1999; gold uses NBP from 2013 and a separate monthly World Bank series; Bitcoin uses Coin Metrics from 2010. Actual coverage depends on the source and the retained database.
 
-Новости, реклама и погода в макете — сохранённые демонстрационные материалы. Их сбор и обновление пока не реализованы. См. [THIRD_PARTY.md](THIRD_PARTY.md).
+Horoscopes use editorial templates informed by Astronomy Engine calculations, with three moods and three variants per sign and day. Dates follow Europe/Riga. Six areas cover work/business, money, relationships, personal plans, home/family, and balance/rest, using 24 practical situations. Adjacent days change the topic and every sentence; a fixed description of the sign is not repeated. These are everyday prompts, not promises of specific events.
 
-## Проверки
+The news, advertisements, and weather in the layout are saved demonstration material. Their collection and refresh have not been implemented. See [THIRD_PARTY.md](THIRD_PARTY.md).
+
+## Validation
 
 ```powershell
 npm test
 ```
 
-Проверяются парсеры, сохранение последнего успешного результата, свежие сети, исторические EUR-конверсии, периоды графиков, гороскопы, fallback и иконки.
+Tests cover parsers, last-successful-result retention, fresh network selection, historical EUR conversions, chart periods, horoscopes, language fallback, and icon geometry.
+
+## Documentation language
+
+All project documentation is maintained in **English only**. Multilingual interface labels, generated horoscope content, and localized data remain supported. Contributor instructions are recorded in [AGENTS.md](AGENTS.md).
