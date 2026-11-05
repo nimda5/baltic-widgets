@@ -1,11 +1,12 @@
 import * as Astronomy from 'astronomy-engine';
 import {createHash, randomInt} from 'node:crypto';
 import {tones} from './horoscope-tones.mjs';
-import {copy, signNotes} from './horoscope-copy.mjs';
+import {copy} from './horoscope-copy.mjs';
+import {lifeAreas,situations} from './horoscope-life.mjs';
 
 export const signs=['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'];
 export const moods=['serious','playful','humor'];
-export const version='local-rules-1.1.0';
+export const version='local-rules-1.2.0';
 export function calendarDate(now=new Date(),timeZone='Europe/Riga'){
   const parts=new Intl.DateTimeFormat('en-CA',{timeZone,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
   return ['year','month','day'].map(k=>parts.find(p=>p.type===k).value).join('-');
@@ -39,18 +40,29 @@ export function sky(date,timeZone){
 }
 function seed(value){return createHash('sha256').update(value).digest().readUInt32BE(0);}
 export function initializeHoroscope(db){db.exec('CREATE TABLE IF NOT EXISTS horoscope_days (date TEXT NOT NULL, timezone TEXT NOT NULL, version TEXT NOT NULL, generated_at TEXT NOT NULL, payload TEXT NOT NULL, PRIMARY KEY(date,timezone,version))');}
-// Provider boundary: a future model writer receives the same facts and editorial brief.
-export function localWriter({date,sign,index,facts,lang,mood,variant}){
-  const bank=copy[lang]||copy.en,s=seed(`${date}:${sign}:${variant}:${version}`);
+// Editorial cadence balances themes while lunar position chooses a related perspective.
+// It is a writing rule, not a claim that astronomy predicts an event.
+export function editorialContext({date,index,facts,variant}){
+  const day=Math.floor(Date.parse(date+'T12:00:00Z')/86400000);
+  const area=(day+index*5+variant*2)%lifeAreas.length;
   const lunarHouse=(signs.indexOf(facts.positions.Moon.sign)-index+12)%12;
-  const topic=(lunarHouse+variant*4)%12;
-  const pick=(items,shift=0)=>items[(s+shift)%items.length];
+  const topics=[[9,0],[1,7],[6,10],[8,4],[3,2],[5,11]];
+  const angle=(lunarHouse+Math.floor(day/6)+index+variant)%2;
+  return {day,area,area_id:lifeAreas[area],topic:topics[area][angle],scene:(Math.floor(day/6)+lunarHouse+index*2+variant)%4};
+}
+// A future model writer receives the same facts and topic brief.
+export function localWriter({date,sign,index,facts,lang,mood,variant}){
+  const bank=copy[lang]||copy.en,context=editorialContext({date,index,facts,variant});
+  // A field's selection advances each day; adjacent dates cannot reuse the same sentence.
+  const pick=(items,field)=>items[(context.day+seed(`${sign}:${variant}:${field}:${version}`))%items.length];
+  const scene=(situations[lang]||situations.en)[context.area][context.scene];
   if(mood!=='serious'){
     const tone=tones[lang]?.[mood]||tones.en[mood];
-    return [pick(tone.open),signNotes[lang]?.[index]||signNotes.en[index],tone.topics[topic],pick(tone.actions,variant),pick(bank[mood],variant),pick(tone.close,variant*3)].join(' ');
+    return [pick(tone.open,'open'),scene,tone.topics[context.topic],pick(tone.actions,'action'),pick(bank[mood],'tone'),pick(tone.close,'close')].join(' ');
   }
-  return [pick(bank.open),signNotes[lang]?.[index]||signNotes.en[index],bank.topics[topic],bank.actions[(topic+variant)%12],pick(bank.relationship,variant),pick(bank.serious,variant),pick(bank.close,variant*3)].join(' ');
+  return [pick(bank.open,'open'),scene,bank.topics[context.topic],bank.actions[context.topic],pick(bank.relationship,'relationship'),pick(bank.close,'close')].join(' ');
 }
+
 export function generateDay(date,timeZone='Europe/Riga',now=new Date()){
   const facts=sky(date,timeZone),texts={};
   for(const lang of Object.keys(copy))texts[lang]=signs.map((sign,index)=>Object.fromEntries(moods.map(mood=>[mood,Array.from({length:3},(_,variant)=>localWriter({date,sign,index,facts,lang,mood,variant}))])));
@@ -71,5 +83,5 @@ export function horoscopeData(db,{lang='lv',timeZone='Europe/Riga',mood='serious
   const contentLanguage=copy[lang]?lang:'en',date=calendarDate(now,timeZone),today=cachedDay(db,date,timeZone,now),tomorrow=cachedDay(db,nextDate(date),timeZone,now);
   return {schema_version:1,updated_at:today.generated_at,source:'Local editorial generator / Astronomy Engine',editorial:{method:version,interpretation:'Entertainment; astronomical positions inform editorial themes, not validated predictions'},content_language:contentLanguage,
     fallback_fields:lang===contentLanguage?[]:['data.signs[].readings'],data:{timezone:timeZone,date,tomorrow_date:tomorrow.date,moods,variants_per_mood:3,selected_mood:selectedMood,selected_variant:selectedVariant,generation:{provider:'local_rules',version,generated_at:today.generated_at,next_date:tomorrow.date},facts:{today:today.facts,tomorrow:tomorrow.facts},
-    signs:signs.map((id,i)=>({id,name:id,dates:'',today:today.texts[contentLanguage][i][selectedMood][selectedVariant],tomorrow:tomorrow.texts[contentLanguage][i][selectedMood][selectedVariant],readings:{today:today.texts[contentLanguage][i],tomorrow:tomorrow.texts[contentLanguage][i]}}))}};
+    signs:signs.map((id,i)=>({id,name:id,dates:'',topics:{today:editorialContext({date,index:i,facts:today.facts,variant:selectedVariant}).area_id,tomorrow:editorialContext({date:tomorrow.date,index:i,facts:tomorrow.facts,variant:selectedVariant}).area_id},today:today.texts[contentLanguage][i][selectedMood][selectedVariant],tomorrow:tomorrow.texts[contentLanguage][i][selectedMood][selectedVariant],readings:{today:today.texts[contentLanguage][i],tomorrow:tomorrow.texts[contentLanguage][i]}}))}};
 }

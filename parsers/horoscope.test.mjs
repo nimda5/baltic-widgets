@@ -23,7 +23,7 @@ test('two cached days cover all signs, moods, variants; selection and fallback p
     assert.equal(a.updated_at,b.updated_at);assert.equal(db.prepare('SELECT count(*) n FROM horoscope_days').get().n,2);
     assert.equal(a.data.signs.length,12);
     for(const sign of a.data.signs)for(const day of ['today','tomorrow']){
-      const all=[];for(const mood of moods){assert.equal(sign.readings[day][mood].length,3);for(const text of sign.readings[day][mood]){assert.ok(text.length>600);all.push(text);}}
+      const all=[];for(const mood of moods){assert.equal(sign.readings[day][mood].length,3);for(const text of sign.readings[day][mood]){assert.ok(text.length>450);all.push(text);}}
       assert.equal(new Set(all).size,9);
     }
     for(const lang of ['ru','lv','en']){
@@ -40,5 +40,27 @@ test('two cached days cover all signs, moods, variants; selection and fallback p
     const lt=localized(horoscopeData(db,{...options,lang:'lt'}),'lt','horoscope');assert.equal(lt.content_language,'en');assert.ok(lt.fallback_fields.length);assert.equal(lt.data.signs[0].name,'Avinas');
     assert.throws(()=>horoscopeData(db,{...options,mood:'unknown'}));assert.throws(()=>horoscopeData(db,{...options,variant:'-1'}));assert.throws(()=>horoscopeData(db,{...options,timeZone:'invalid'}));
     const rolled=horoscopeData(db,{...options,now:new Date('2026-11-05T22:05:00Z')});assert.equal(rolled.data.date,'2026-11-06');assert.equal(rolled.data.signs[0].today,a.data.signs[0].tomorrow);
+  }finally{db.close();}
+});
+
+test('neighbouring dates change life topics and every sentence for all signs, moods and languages',()=>{
+  const db=new DatabaseSync(':memory:');initializeHoroscope(db);
+  try{
+    for(const start of ['2026-11-05','2026-12-29'])for(const lang of ['ru','lv','en']){
+      const coverage=new Map();
+      for(let d=0;d<7;d++){
+        const now=new Date(Date.parse(start+'T12:00:00Z')+d*86400000),doc=horoscopeData(db,{lang,now});
+        for(const mood of moods)for(let v=0;v<3;v++)assert.equal(new Set(doc.data.signs.map(sign=>sign.readings.today[mood][v])).size,12);
+        for(const [i,sign] of doc.data.signs.entries()){
+          assert.notEqual(sign.topics.today,sign.topics.tomorrow);
+          const areas=coverage.get(i)||new Set();areas.add(sign.topics.today);coverage.set(i,areas);
+          for(const mood of moods)for(let v=0;v<3;v++){
+            const a=sign.readings.today[mood][v].split(/(?<=[.!?])\s+/),b=sign.readings.tomorrow[mood][v].split(/(?<=[.!?])\s+/);
+            assert.equal(b.filter(sentence=>a.includes(sentence)).length,0,lang+' '+sign.id+' '+mood+' '+v+' '+doc.data.date);
+          }
+        }
+      }
+      for(const areas of coverage.values())assert.equal(areas.size,6);
+    }
   }finally{db.close();}
 });
