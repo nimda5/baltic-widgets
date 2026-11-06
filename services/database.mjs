@@ -35,6 +35,7 @@ export function saveStations(db, doc) {
       for(const h of p.history||[])quote.run(s.id,fuel,h.at,h.value,p.unit,null);
       quote.run(s.id,fuel,p.fetched_at,p.value,p.unit,p.observed_at||p.observed_date);
     }
+    for(const p of doc.fallback_quotes||[])quote.run(p.id,p.fuel,p.observed_at,p.value,p.unit,p.observed_at);
     db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run('stations', JSON.stringify({ ...doc, data: undefined }));
     db.exec('COMMIT');
   } catch (e) { db.exec('ROLLBACK'); throw e; }
@@ -88,6 +89,17 @@ export function widgetData(db, market = 'LV') {
       if(p&&p.source_status==='ok')provider.prices[key]={...p,scope:'network_published_minimum'};
     }
     provider.has_network_prices=true;
+  }
+  for(const fallback of meta.fallback_quotes||[]){
+    if(fallback.country!==market||fuelQuoteFreshness(fallback)!=='recent'||fallback.scope!=='network_community_report'||!Number.isFinite(fallback.value))continue;
+    const key=keyMap[fallback.fuel],provider=providers.get(names[fallback.provider_source]);
+    if(!provider||!key||provider.prices[key]?.freshness==='recent')continue;
+    const history=db.prepare('SELECT at,value FROM station_prices WHERE station_id=? AND fuel=? ORDER BY at').all(fallback.id,fallback.fuel);
+    provider.prices[key]={price:fallback.value,previous:history.length>1?history.at(-2).value:null,history,
+      scope:fallback.scope,source:fallback.source,source_url:fallback.source_url,upstream_source_url:fallback.upstream_source_url,
+      observed_at:fallback.observed_at,observed_date:null,freshness:'recent',evidence:'community_reported',
+      source_status:meta.sources?.find(s=>s.id==='energijascenas')?.status||'unknown',reference_key:key};
+    provider.has_fallback_prices=true;
   }
   let list = [...providers.values()].filter(p => p.stations.length);
   const fresh = p => p?.freshness === 'recent' && p.source_status === 'ok';

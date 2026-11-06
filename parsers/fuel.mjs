@@ -1,5 +1,6 @@
 import {extraURLs,koolMapURL,addKoolCoordinates,koolSnippetURLs,parseKoolPrices,parseKoolDirectory,parseNesteDirectory,parseRietumu} from './lv-extra.mjs';
 import {fuelPublicationTime,fuelQuoteFreshness} from '../public/fuel-freshness.js';
+import {collectCommunityFallback} from './energijascenas.mjs';
 import {directoryURLs,parseVirsiDirectory,parseViadaDirectory,parseStraujupiteDirectory,mergeDirectory} from './lv-directories.mjs';
 import {mergeCircleDirectory,circleDirectoryURL} from './circle-directory.mjs';
 import { load } from 'cheerio';
@@ -292,6 +293,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
     const now = new Date().toISOString();
     const old = await readJson(path.join(output, 'fuel-stations.json'), { data: [], sources: [] });
     let stations = old.data; const networkQuotes={...(old.network_quotes||{})}; const statuses = new Map(old.sources.map(s => [s.id, s]));
+    let fallbackQuotes=old.fallback_quotes||[];
     for (const source of sourceList) {
       if (!urls[source] || source === 'liitrihind') throw new Error('Unsupported source');
       try {
@@ -332,12 +334,16 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
         console.error(`${source}: ${e.message}`);
       }
     }
+    if(sourceList.includes('neste')||sourceList.includes('straujupite')){
+      try{const fallback=await collectCommunityFallback(now);fallbackQuotes=fallback.quotes;statuses.set('energijascenas',{id:'energijascenas',status:'ok',last_success_at:now,...fallback.report});}
+      catch{statuses.set('energijascenas',{...statuses.get('energijascenas'),id:'energijascenas',status:'error',last_attempt_at:now,error:'Public community fallback temporarily unavailable'});}
+    }
     for(const station of stations){delete station.prices['98'];if(station.available_fuels)station.available_fuels=station.available_fuels.filter(f=>f!=='98');}
     // Recompute old values too: a failed source must not retain a 'recent' flag forever.
     for (const s of [...stations,...Object.values(networkQuotes)]) for (const p of Object.values(s.prices)) p.freshness = freshness(p.observed_at, p.observed_date, now);
     const doc = { schema_version: 1, updated_at: now, demo: false, source: 'Baltic station collectors',
       coverage: { LV: 'selected operator-published stations', LT: 'LEA reporting stations', EE: 'FuelEst community reports' },
-      sources: [...statuses.values()], network_quotes:networkQuotes, data: stations.sort((a, b) => a.id.localeCompare(b.id)) };
+      sources: [...statuses.values()], network_quotes:networkQuotes,fallback_quotes:fallbackQuotes, data: stations.sort((a, b) => a.id.localeCompare(b.id)) };
     await atomicJson(path.join(output, 'fuel-stations.json'), doc);
     await atomicJson(path.join(output, 'fuel-stations.geojson'), { ...geojson(doc.data), generated_at: now });
     const summary = { stations: stations.length, with_coordinates: stations.filter(s => s.coordinates).length,
