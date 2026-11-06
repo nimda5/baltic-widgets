@@ -1,0 +1,15 @@
+{
+  "writer_version": "namedays-1.1.0",
+  "enabled_countries": [
+    "lv"
+  ],
+  "source_rows": 5559,
+  "countries": {
+    "lv": {
+      "profiles": 5556,
+      "documented": 517,
+      "with_namesakes": 796,
+      "research_pending": 0
+    }
+  }
+}

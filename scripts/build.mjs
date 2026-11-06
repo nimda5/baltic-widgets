@@ -1,7 +1,10 @@
-import {cp,mkdir,readFile,writeFile,readdir,stat} from 'node:fs/promises';
+import {cp,mkdir,readFile,writeFile,readdir,stat,rm} from 'node:fs/promises';
 import path from 'node:path';
 const root=path.resolve('.'),target=path.join(root,'dist');
 await stat(path.join(root,'data','lv','horoscope.json'));
+// Always rebuild this exact output directory so retired country files cannot be published.
+if(path.dirname(target)!==root||path.basename(target)!=='dist')throw Error('Unsafe build destination');
+await rm(target,{recursive:true,force:true});
 await mkdir(target,{recursive:true});
 await cp(path.join(root,'public'),target,{recursive:true});
 await cp(path.join(root,'data'),path.join(target,'data'),{recursive:true});

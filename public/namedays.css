@@ -1,0 +1,44 @@
+.panel-nameday.nameday-widget,.nameday-widget{box-sizing:border-box;position:relative;height:78px;min-width:0;padding:10px 16px!important;border-radius:8px;background:var(--portal-surface-primary,var(--surface,light-dark(#fff,#242529)));color:var(--portal-text-primary,var(--text,light-dark(#151518,#e9e9ec)));box-shadow:var(--portal-shadow,0 0 5px #00103d26);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.nameday-widget *,.nameday-dialog *{box-sizing:border-box}
+.nameday-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 7px;font-size:12px;line-height:16px;font-weight:400;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
+.nameday-heading time{font-size:11px;white-space:nowrap}
+.nameday-clouds{display:flex;align-items:center;gap:4px;min-width:0;flex-wrap:nowrap;overflow:hidden}
+.nameday-widget button,.nameday-dialog button{font-family:inherit;cursor:pointer}
+.nameday-widget button:focus-visible,.nameday-dialog button:focus-visible{outline:2px solid var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)));outline-offset:2px}
+.nameday-pill{flex:0 0 auto;max-width:calc(100% - 40px);border:1px solid var(--portal-border-secondary,var(--line,light-dark(#e8e8ed,#3d3e44)));border-radius:20px;background:var(--portal-bg-secondary,var(--subtle,light-dark(#f8f8fa,#2c2d32)));color:inherit;font-size:13px;line-height:19px;font-weight:600;padding:3px 7px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.nameday-pill:hover{border-color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
+.nameday-more{max-width:none;font-size:11px;font-weight:400;padding:3px 6px}
+.nameday-state{font-size:12px;line-height:18px;margin:0;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
+.nameday-retry{border:0;background:transparent;color:inherit;padding:0;font-size:12px;text-decoration:underline}
+.nameday-dialog{width:min(390px,calc(100% - 24px));max-height:calc(100dvh - 32px);margin:auto;padding:18px;border:1px solid var(--portal-border-secondary,var(--line,light-dark(#e8e8ed,#3d3e44)));border-radius:10px;background:var(--portal-surface-primary,var(--surface,light-dark(#fff,#242529)));color:var(--portal-text-primary,var(--text,light-dark(#151518,#e9e9ec)));box-shadow:0 18px 70px #0003;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;overflow-y:auto;overscroll-behavior:contain}
+.nameday-dialog::backdrop{background:#10121860;backdrop-filter:blur(2px)}
+.nameday-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.nameday-dialog-header h2{margin:0;font-size:13px;line-height:20px;font-weight:500;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
+.nameday-close{flex:none;background:transparent;color:inherit;border:0;border-radius:4px;font-size:23px;line-height:24px;width:27px;height:27px;padding:0}
+.nameday-days{display:flex;gap:3px;background:var(--portal-bg-secondary,var(--subtle,light-dark(#f4f4f6,#303137)));padding:3px;border-radius:7px;margin-bottom:14px}
+.nameday-days button{flex:1;min-width:0;border:0;background:transparent;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)));border-radius:5px;font-size:12px;line-height:20px;padding:4px 5px}
+.nameday-days button[aria-pressed=true]{background:var(--portal-surface-primary,var(--surface,light-dark(#fff,#242529)));color:inherit;box-shadow:0 1px 4px #0001}
+.nameday-names{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px}
+.nameday-name{font-size:12px;line-height:18px;max-width:100%;overflow-wrap:anywhere;padding:4px 9px;border:1px solid var(--portal-border-secondary,var(--line,light-dark(#e8e8ed,#3d3e44)));border-radius:20px;background:transparent;color:inherit}
+.nameday-name[aria-pressed=true]{background:light-dark(#fbefef,#402a2d);border-color:transparent;color:light-dark(#b62528,#ed929b)}
+.nameday-tabs{display:flex;gap:17px;border-bottom:1px solid var(--portal-border-secondary,var(--line,light-dark(#e8e8ed,#3d3e44)));margin-bottom:14px}
+.nameday-tabs button{font-size:12px;line-height:20px;background:transparent;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)));border:0;border-bottom:2px solid transparent;padding:0 0 8px}
+.nameday-tabs button[aria-selected=true]{color:inherit;border-bottom-color:light-dark(#b62528,#ed929b)}
+.nameday-content{font-size:13px;line-height:1.65;min-height:130px;overflow-wrap:anywhere}
+.nameday-content p{margin:0 0 13px;font-size:13px;line-height:1.65}
+.nameday-content h3{font-size:11px;font-weight:500;line-height:18px;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)));margin:16px 0 6px}
+.nameday-content h3:first-child{margin-top:0}
+.nameday-person{padding:10px 0;border-bottom:1px solid var(--portal-border-secondary,var(--line,light-dark(#e8e8ed,#3d3e44)))}
+.nameday-person:last-child{border-bottom:0}
+.nameday-person strong{display:block;font-size:14px;font-weight:600;margin-bottom:3px}
+.nameday-person small{display:block;font-size:11px;line-height:1.6;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
+.nameday-actions,.nameday-moods{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:13px}
+.nameday-actions{margin-top:15px;margin-bottom:0}
+.nameday-actions button,.nameday-moods button{border:0;background:var(--portal-bg-secondary,var(--subtle,light-dark(#f4f4f6,#303137)));color:inherit;border-radius:5px;font-size:11px;line-height:18px;padding:5px 9px}
+.nameday-moods button[aria-pressed=true]{background:light-dark(#fbefef,#402a2d);color:light-dark(#b62528,#ed929b)}
+.namedays-standalone{margin:0;padding:16px;background:light-dark(#fff,#18191c);color:light-dark(#151518,#e9e9ec);font-family:system-ui,sans-serif}
+.namedays-standalone .nameday-widget{width:min(238px,100%)}
+html[data-bs-theme=dark] .nameday-dialog,html[data-theme=dark] .nameday-dialog,html[data-bs-theme=dark] .nameday-widget,html[data-theme=dark] .nameday-widget{color-scheme:dark}
+html[data-bs-theme=light] .nameday-dialog,html[data-theme=light] .nameday-dialog,html[data-bs-theme=light] .nameday-widget,html[data-theme=light] .nameday-widget{color-scheme:light}
+@media(pointer:coarse){.nameday-days button,.nameday-tabs button,.nameday-name,.nameday-actions button,.nameday-moods button{min-height:36px}.nameday-close{width:36px;height:36px}.nameday-clouds{padding-bottom:2px}}
+@media(max-width:360px){.nameday-dialog{padding:15px}.nameday-tabs{gap:13px}}

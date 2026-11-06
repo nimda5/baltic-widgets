@@ -1,5 +1,5 @@
 export const locales={lv:'lv-LV',ru:'ru-RU',en:'en-GB',lt:'lt-LT',et:'et-EE'};
-export function resolveLanguage(requested='lv'){return Object.hasOwn(locales,requested)?requested:'en';}
+export function resolveLanguage(requested='lv'){const normalized=String(requested).toLowerCase();const code=normalized==='ee'?'et':normalized;return Object.hasOwn(locales,code)?code:'en';}
 export function createTranslator(catalog,requested){
   const lang=resolveLanguage(requested);
   return (key,fallback=key,values={})=>{

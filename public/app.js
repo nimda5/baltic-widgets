@@ -43,7 +43,7 @@ async function loadWidget(name, render) {
     labels=json.labels || json.translations?.[lang] || json.translations?.en || {};
     for(const option of document.querySelectorAll('.fuel-market option'))option.textContent=labels.countries?.[option.value] || option.textContent;
     document.documentElement.lang=lang;
-    const tab=document.querySelector(`#tab-${name}-widget`);if(tab)tab.textContent=t(name,name);
+    const tab=document.querySelector(`#tab-${name}-widget`);if(tab)tab.textContent=t(name==='exchange'?'exchange_tab':name,name);
     document.querySelector('.fuel-market').setAttribute('aria-label',t('country','Country'));
     document.querySelector(`#${name}-widget h3`).textContent=t(name,name);
     container.replaceChildren();

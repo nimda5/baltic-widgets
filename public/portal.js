@@ -11,15 +11,22 @@ const home = document.createComment('widgets desktop location');
 widgets.before(home);
 const compact = matchMedia('(max-width: 1199px)');
 const mobilePlacement = matchMedia('(max-width: 767px)');
+const namedayPanel=document.querySelector('#page_nmr2');
+const namedayHome=document.createComment('name-day desktop location');
+namedayPanel.before(namedayHome);
+namedayPanel.id='namedays-widget';
+// Move the existing card into the compact tab group; never duplicate its content.
+document.querySelector('#mpage_nmr2')?.remove();
+const standardPanels=[...widgets.querySelectorAll('.widget')];
 const switcher = document.createElement('div');
 switcher.className = 'widget-switcher';
 switcher.setAttribute('role','tablist');
 switcher.setAttribute('aria-label',t('daily_information','Daily information'));
 let selectedWidget = 'fuel-widget';
-const panels = [...widgets.querySelectorAll('.widget')];
-for(const [id,title] of [['fuel-widget','Degviela'],['horoscope-widget','Horoskops'],['exchange-widget','Valūtas']]){
+const panels = [...standardPanels,namedayPanel];
+for(const [id,title] of [['fuel-widget','Degviela'],['horoscope-widget','Horoskops'],['exchange-widget','Valūtas'],['namedays-widget','Vārda diena']]){
   const button = document.createElement('button');
-  button.type='button';button.id=`tab-${id}`;button.textContent=t(id.replace('-widget',''),title);
+  button.type='button';button.id=`tab-${id}`;button.textContent=t(id==='exchange-widget'?'exchange_tab':id.replace('-widget',''),title);
   button.setAttribute('role','tab');button.setAttribute('aria-controls',id);
   button.addEventListener('click',()=>{selectedWidget=id;updateWidgets();});
   switcher.append(button);
@@ -28,12 +35,18 @@ switcher.addEventListener('keydown',event=>{
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
   event.preventDefault();
   const list=[...switcher.children],current=list.indexOf(document.activeElement);
-  const next=event.key==='Home'?0:event.key==='End'?2:(current+(event.key==='ArrowRight'?1:2))%3;
+  const next=event.key==='Home'?0:event.key==='End'?list.length-1:(current+(event.key==='ArrowRight'?1:list.length-1))%list.length;
   list[next].focus();list[next].click();
 });
 widgets.prepend(switcher);
 function updateWidgets(){
   const mobile=compact.matches;
+  namedayPanel.classList.toggle('widget',mobile);
+  namedayPanel.classList.toggle('nameday-tab-panel',mobile);
+  namedayPanel.classList.toggle('mt-3',!mobile);
+  namedayPanel.setAttribute('aria-live',mobile?'off':'polite');
+  if(mobile)widgets.querySelector('.widgets-grid').append(namedayPanel);
+  else namedayHome.after(namedayPanel);
   if(mobilePlacement.matches){
     document.querySelector('.col-carousel').after(widgets);
   }else{home.after(widgets);}
@@ -45,6 +58,7 @@ function updateWidgets(){
   });
   [...switcher.children].forEach(button=>{
     const active=button.getAttribute('aria-controls')===selectedWidget;
+    button.hidden=!mobile&&button.getAttribute('aria-controls')==='namedays-widget';
     button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;
   });
 }
@@ -125,4 +139,4 @@ while((textNode=walker.nextNode())){
   if(key)textNode.textContent=textNode.textContent.replace(original,t(key,original));
 }
 trigger.setAttribute('aria-label',t('menu','Menu'));
-for(const panel of panels)panel.querySelector('h3').textContent=t(panel.id.replace('-widget',''),panel.querySelector('h3').textContent);
+for(const panel of standardPanels)panel.querySelector('h3').textContent=t(panel.id.replace('-widget',''),panel.querySelector('h3').textContent);

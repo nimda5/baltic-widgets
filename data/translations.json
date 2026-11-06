@@ -152,7 +152,9 @@
     "network_prices_note": "Operators publicē tīkla minimālās cenas bez piesaistes atsevišķām DUS.",
     "chart_future": "Publicētās nākotnes cenas",
     "chart_drag_hint": "Velciet pār grafiku, lai salīdzinātu cenas. Nospiediet Escape, lai notīrītu atlasi.",
-    "period_with_future": "{period} + nākotne"
+    "period_with_future": "{period} + nākotne",
+    "namedays": "Vārda diena",
+    "exchange_tab": "Valūtas"
   },
   "ru": {
     "fuel": "Энергия",
@@ -307,7 +309,9 @@
     "network_prices_note": "Оператор публикует минимальные цены по сети без привязки к отдельным АЗС.",
     "chart_future": "Опубликованные будущие цены",
     "chart_drag_hint": "Протяните по графику для сравнения цен. Escape сбрасывает выделение.",
-    "period_with_future": "{period} + будущее"
+    "period_with_future": "{period} + будущее",
+    "namedays": "Именины",
+    "exchange_tab": "Валюты"
   },
   "en": {
     "fuel": "Energy",
@@ -462,7 +466,9 @@
     "network_prices_note": "The operator publishes network minima without individual station prices.",
     "chart_future": "Published ahead",
     "chart_drag_hint": "Drag across the chart to compare prices. Press Escape to clear.",
-    "period_with_future": "{period} + ahead"
+    "period_with_future": "{period} + ahead",
+    "namedays": "Name day",
+    "exchange_tab": "Markets"
   },
   "lt": {
     "fuel": "Energija",
@@ -617,7 +623,9 @@
     "network_prices_note": "Operatorius skelbia mažiausias tinklo kainas, nesusietas su atskiromis degalinėmis.",
     "chart_future": "Paskelbtos būsimos kainos",
     "chart_drag_hint": "Vilkite per grafiką, kad palygintumėte kainas. Spauskite Escape, kad išvalytumėte pasirinkimą.",
-    "period_with_future": "{period} + ateitis"
+    "period_with_future": "{period} + ateitis",
+    "namedays": "Vardadienis",
+    "exchange_tab": "Valiutos"
   },
   "et": {
     "fuel": "Energia",
@@ -772,6 +780,8 @@
     "network_prices_note": "Operaator avaldab võrgu miinimumhinnad üksikute tanklate hindadeta.",
     "chart_future": "Avaldatud tulevased hinnad",
     "chart_drag_hint": "Hindade võrdlemiseks lohistage üle graafiku. Valiku tühistamiseks vajutage Escape.",
-    "period_with_future": "{period} + tulevik"
+    "period_with_future": "{period} + tulevik",
+    "namedays": "Nimepäev",
+    "exchange_tab": "Valuutad"
   }
 }

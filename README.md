@@ -1,6 +1,6 @@
 # Baltic Widgets
 
-A portable portal with widgets for Baltic fuel prices (LV/LT/EE), electricity, natural gas, currencies, gold, Bitcoin, and daily horoscopes. The static site runs on GitHub Pages without Home Assistant or a backend API.
+A portable portal with widgets for Baltic fuel prices (LV/LT/EE), electricity, natural gas, currencies, gold, Bitcoin, daily horoscopes, and name days. The static site runs on GitHub Pages without Home Assistant or a backend API.
 
 ## Project layout and storage
 
@@ -128,3 +128,9 @@ KOOL addresses are read from its official published directory; duplicate regiona
 Neste uses its public station-search feed, restricted to Latvian locations with `hasFuels=true`. Standalone charging sites and foreign stations are excluded. No Neste fuel price is inferred. Rietumu Nafta includes the operator-published Kuldīga location and regular diesel quote; reduced-excise agricultural diesel is excluded. KOOL and Rietumu Nafta do not provide a quote publication timestamp: `observed_at`/`observed_date` remain null and freshness remains unknown; collection time is kept separately.
 
 When Latvia has more than five networks, the main widget shows the five largest known networks with published prices. Other networks, including address-only Neste, remain under Other networks. Network minima, unknown publication dates, and individual station coverage are explicit in the JSON and UI tooltips. Latvijas Nafta remains excluded.
+
+## Name days
+
+The compact name-day card stays in the desktop sidebar and joins the other three widgets as a fourth tab in the compact layout. Only the Latvian calendar is currently enabled; changing interface language or the finance market never changes that calendar. Its standalone version is `namedays.html?lang=ru&country=lv`. Yesterday/today/tomorrow, visible name buttons, historical facts, clearly labeled original vignettes, country-specific namesakes, and heartfelt/funny greetings are available in all five supported languages. Source URLs remain in JSON metadata and are not displayed in the dialog.
+
+Run `npm run generate:namedays` to rebuild the calendar and profiles, and `npm run test:namedays` to validate them. Published files are `data/namedays/calendar-lv.json`, `profiles-lv.json`, and `coverage.json`. LT/EE are deferred and must each get a separate country-specific calendar and profile pair. See [NAMEDAYS.md](NAMEDAYS.md) for embedding, editorial rules, provenance, coverage limitations and research commands.
