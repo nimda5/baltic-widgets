@@ -40,6 +40,8 @@ npm run publish:data
 
 `update` collects data once, updates the local SQLite database, prepares today's and tomorrow's horoscopes, and exports JSON to `data/`. The command exits when finished. On an empty database, the first run downloads the available historical archives and can take considerably longer. Later runs reuse the database and incrementally collect new observations.
 
+Before a production release, run `npm run update`, inspect `artifacts/update-report.json`, then run `npm test` and `npm run build`. Include the refreshed `data/` snapshots in the release commit. A successful fetch does not imply that an operator publishes prices: Neste LV currently supplies locations only; keep absent prices null rather than estimating them.
+
 `publish:data` creates a commit **only for `data/`** and pushes it to `main`. It creates no commit if the data has not changed. If other files are already staged, the script stops. GitHub Pages deploys the new version automatically after the push.
 
 Do not run the API server and the standalone collector against the same data directory at the same time. If a source partially fails, the last successful data is retained and the report receives `degraded` status. Read `artifacts/update-report.json` for details. After a crash, remove a lock file only after confirming that its owning process has stopped.
@@ -131,6 +133,6 @@ When Latvia has more than five networks, the main widget shows the five largest 
 
 ## Name days
 
-The compact name-day card stays in the desktop sidebar and joins the other three widgets as a fourth tab in the compact layout. Only the Latvian calendar is currently enabled; changing interface language or the finance market never changes that calendar. Its standalone version is `namedays.html?lang=ru&country=lv`. Yesterday/today/tomorrow, visible name buttons, historical facts, clearly labeled original vignettes, country-specific namesakes, and heartfelt/funny greetings are available in all five supported languages. Source URLs remain in JSON metadata and are not displayed in the dialog.
+The compact name-day card stays in the desktop sidebar and appears as the first, initially selected tab before the other three widgets in the compact layout. Only the Latvian calendar is currently enabled; changing interface language or the finance market never changes that calendar. Its standalone version is `namedays.html?lang=ru&country=lv`. Yesterday/today/tomorrow, visible name buttons, historical facts, clearly labeled original vignettes, country-specific namesakes, and heartfelt/funny greetings are available in all five supported languages. Source URLs remain in JSON metadata and are not displayed in the dialog.
 
 Run `npm run generate:namedays` to rebuild the calendar and profiles, and `npm run test:namedays` to validate them. Published files are `data/namedays/calendar-lv.json`, `profiles-lv.json`, and `coverage.json`. LT/EE are deferred and must each get a separate country-specific calendar and profile pair. See [NAMEDAYS.md](NAMEDAYS.md) for embedding, editorial rules, provenance, coverage limitations and research commands.

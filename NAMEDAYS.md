@@ -1,6 +1,6 @@
 # Name-day widget
 
-The name-day widget occupies the existing desktop sidebar slot. Its desktop card remains **238 × 78 px**. In the compact layout it becomes the fourth tab beside Energy, Horoscope and Markets; there is no duplicate mobile card. Three names appear as lightly outlined pills; the remaining count opens the complete list. Long names and narrow containers reduce the number of visible pills rather than increasing the card height.
+The name-day widget occupies the existing desktop sidebar slot. Its desktop card remains **238 × 78 px**. In the compact layout it becomes the first tab, selected by default, before Energy, Horoscope and Markets; there is no duplicate mobile card. Three names appear as lightly outlined pills; the remaining count opens the complete list. Long names and narrow containers reduce the number of visible pills rather than increasing the card height.
 
 Clicking a name opens one native modal dialog. Names are visible buttons, with no name dropdown or duplicate name heading. Yesterday, Today and Tomorrow follow civil dates in **Europe/Riga**, including year boundaries, leap days and daylight-saving changes. The History, Namesakes and Celebrate tabs share the selected name. Celebrate offers three heartfelt and three humorous greetings, a next-version button and copying.
 

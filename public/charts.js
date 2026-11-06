@@ -69,6 +69,7 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
 
 function draw(days) {
   drag = null; comparison = null;
+  canvas.removeAttribute('title');
   document.querySelectorAll('.chart-periods button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.days)===days)));
   const daily=active.intraday && (days===0 || days>7) && active.dailyPoints.length>0;
   const points=daily?active.dailyPoints:active.points;
@@ -94,9 +95,9 @@ function draw(days) {
   const left = svgWidth < 500 ? 72 : 82, right = svgWidth-20, top = 16, bottom = 234;
   const x = p=>left+(p.at-first.at)/(last.at-first.at)*(right-left);
   const y = p=>bottom-(p.value-low)/(high-low)*(bottom-top);
-  const svg = svgNode('svg',{viewBox:`0 0 ${svgWidth} 276`,role:'img','aria-labelledby':'price-chart-title price-chart-description'});
   const periodTitle=days===0?t('all_days','All history'):t('days_count','{count} days',{count:days});
-  svg.append(svgNode('title',{id:'price-chart-title'},`${active.label} — ${periodTitle}`),svgNode('desc',{id:'price-chart-description'},t('chart_description','{from}–{to}. Minimum {min}, maximum {max} {unit}. Use the slider below the chart to explore each price.',{from:dateFormat(first.at),to:dateFormat(last.at),min:format(min,active.digits),max:format(max,active.digits),unit:active.unit})));
+  const svg = svgNode('svg',{viewBox:`0 0 ${svgWidth} 276`,role:'img','aria-label':`${active.label} — ${periodTitle}`,'aria-describedby':'price-chart-description'});
+  svg.append(svgNode('desc',{id:'price-chart-description'},t('chart_description','{from}–{to}. Minimum {min}, maximum {max} {unit}. Use the slider below the chart to explore each price.',{from:dateFormat(first.at),to:dateFormat(last.at),min:format(min,active.digits),max:format(max,active.digits),unit:active.unit})));
 
   for(let i=0;i<5;i++) {
     const value = low+(high-low)*i/4, yy = y({value});
@@ -126,8 +127,9 @@ function draw(days) {
   }
   const focusLine = svgNode('line',{y1:top,y2:bottom,class:'chart-focus-line'});
   const dot = svgNode('circle',{r:4,class:'chart-focus-dot'});
-  svg.append(clip,selection,selectedLine,anchorLine,anchorDot,focusLine,dot); canvas.replaceChildren(svg);
-  plot = {svg,x,y,focusLine,dot,selection,selectionClip,selectedLine,anchorLine,anchorDot,left,right,svgWidth};
+  const tooltip=node('div','chart-hover-price');tooltip.hidden=true;tooltip.setAttribute('aria-hidden','true');
+  svg.append(clip,selection,selectedLine,anchorLine,anchorDot,focusLine,dot); canvas.replaceChildren(svg,tooltip);
+  plot = {svg,tooltip,x,y,focusLine,dot,selection,selectionClip,selectedLine,anchorLine,anchorDot,left,right,svgWidth};
   cursor.max = String(selectedPoints.length-1); cursor.value = cursor.max;
   stats.replaceChildren(node('span','',`${t('chart_min','Min.')} ${format(min,active.digits)} ${active.unit}`),node('span','',`${t('chart_max','Max.')} ${format(max,active.digits)} ${active.unit}`),node('span','',`${dateFormat(first.at)}–${dateFormat(last.at)}`));
   if(daily)stats.append(node('span','',t('daily_count','Daily average (UTC) · {count} days',{count:new Intl.NumberFormat(locale).format(selectedPoints.length)})));
@@ -135,7 +137,6 @@ function draw(days) {
   let initial=active.displayIntraday?nearestPoint(selectedPoints,currentTime):selectedPoints.length-1;
   if(active.displayIntraday && initial>0 && selectedPoints[initial].at>currentTime)initial--;
   cursor.value=String(initial);highlight(initial);
-  canvas.title=t('chart_drag_hint','Drag across the chart to compare prices. Press Escape to clear.');
 }
 
 function highlight(index) {
@@ -167,7 +168,14 @@ function highlight(index) {
     readout.textContent=pointText;
   }
 }
-cursor.addEventListener('input',()=>{comparison=null;highlight(Number(cursor.value));});
+cursor.addEventListener('input',()=>{comparison=null;if(plot)plot.tooltip.hidden=true;highlight(Number(cursor.value));});
+function hoverPrice(index,event){
+  if(event.pointerType!=='mouse'){plot.tooltip.hidden=true;return;}
+  const tooltip=plot.tooltip,rect=canvas.getBoundingClientRect();
+  tooltip.textContent=`${format(selectedPoints[index].value,active.digits)} ${active.unit}`;tooltip.hidden=false;
+  tooltip.style.left=Math.max(4,Math.min(event.clientX-rect.left+12,canvas.clientWidth-tooltip.offsetWidth-4))+'px';
+  tooltip.style.top=Math.max(4,event.clientY-rect.top-tooltip.offsetHeight-12)+'px';
+}
 function pointAt(event){
   const rect=plot.svg.getBoundingClientRect(),xx=(event.clientX-rect.left)/rect.width*plot.svgWidth;
   const target=selectedPoints[0].at+(Math.max(plot.left,Math.min(plot.right,xx))-plot.left)/(plot.right-plot.left)*(selectedPoints.at(-1).at-selectedPoints[0].at);
@@ -180,9 +188,12 @@ canvas.addEventListener('pointerdown',event=>{
   cursor.value=String(comparison);highlight(comparison);
 });
 canvas.addEventListener('pointermove',event=>{
-  if(!plot || (drag!==null && drag!==event.pointerId) || (drag===null && comparison!==null))return;
-  const index=pointAt(event);cursor.value=String(index);highlight(index);
+  if(!plot || (drag!==null && drag!==event.pointerId))return;
+  const index=pointAt(event);hoverPrice(index,event);
+  if(drag===null && comparison!==null)return;
+  cursor.value=String(index);highlight(index);
 });
+canvas.addEventListener('pointerleave',()=>{if(plot)plot.tooltip.hidden=true;});
 canvas.addEventListener('pointerup',event=>{
   if(drag!==event.pointerId)return;
   const index=pointAt(event);cursor.value=String(index);highlight(index);drag=null;

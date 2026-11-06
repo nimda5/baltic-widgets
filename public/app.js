@@ -155,13 +155,10 @@ function fuel(container, data) {
       const sharedPrices=data.country==='LV' && fuelKeys.every(key=>new Set(provider.stations.map(s=>s.prices?.[key]?.price).filter(Number.isFinite)).size<=1);
       const details = element('div', sharedPrices?'station-list addresses-only':'station-list');
       if(provider.directory_location_count){
-        detailsCell.append(element('p','station-coverage',t('directory_coverage','{total} directory locations; individual prices published for {priced}. Other location prices are unknown.',{total:provider.station_count,priced:provider.priced_station_count})));
         const search=element('input','station-search');search.type='search';search.placeholder=t('station_search','Find a location by name or address');search.setAttribute('aria-label',search.placeholder);
         search.addEventListener('input',()=>{const query=search.value.toLocaleLowerCase(locale).trim();for(const row of details.children)if(row.classList.contains('station-detail'))row.hidden=!row.textContent.toLocaleLowerCase(locale).includes(query);});detailsCell.append(search);details.classList.add('station-directory');
       }
 
-      if(provider.has_network_prices)detailsCell.append(element('p','station-address-note',t('network_prices_note','The operator publishes network minima without individual station prices.')));
-      if(sharedPrices&&!provider.has_network_prices&&published.length)details.append(element('p','station-address-note',t('shared_prices','Published prices are shown above. Locations are listed below.')));
       [...provider.stations].sort((a,b)=>Number(Object.values(b.prices).some(Boolean))-Number(Object.values(a.prices).some(Boolean))||(a.address||a.name||'').localeCompare(b.address||b.name||'',locale)).forEach(station => {
         const line = element('div', 'station-detail');
         if (station.name && station.name !== provider.name) line.append(element('strong', 'station-name', station.name));
@@ -183,7 +180,6 @@ function fuel(container, data) {
         });
         const dates = Object.values(station.prices || {}).filter(Boolean).map(q => q.observed_date || q.observed_at?.slice(0,10)).filter(Boolean);
         const old = Object.values(station.prices || {}).some(q => q?.freshness === 'stale');
-        if(station.directory_id&&!Object.values(station.prices).some(Boolean))line.append(element('small','station-price-unknown',t('station_price_unknown','Individual prices not published')));
         if(!sharedPrices&&fuelKeys.some(key=>Number.isFinite(station.prices?.[key]?.price)))line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · '+t('stale_station_prices','Some prices are outdated') : ''}`)); details.append(line);
       });
       detailsCell.append(details);

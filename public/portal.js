@@ -22,9 +22,9 @@ const switcher = document.createElement('div');
 switcher.className = 'widget-switcher';
 switcher.setAttribute('role','tablist');
 switcher.setAttribute('aria-label',t('daily_information','Daily information'));
-let selectedWidget = 'fuel-widget';
+let selectedWidget = 'namedays-widget';
 const panels = [...standardPanels,namedayPanel];
-for(const [id,title] of [['fuel-widget','Degviela'],['horoscope-widget','Horoskops'],['exchange-widget','Valūtas'],['namedays-widget','Vārda diena']]){
+for(const [id,title] of [['namedays-widget','Vārda diena'],['fuel-widget','Degviela'],['horoscope-widget','Horoskops'],['exchange-widget','Valūtas']]){
   const button = document.createElement('button');
   button.type='button';button.id=`tab-${id}`;button.textContent=t(id==='exchange-widget'?'exchange_tab':id.replace('-widget',''),title);
   button.setAttribute('role','tab');button.setAttribute('aria-controls',id);
