@@ -2,10 +2,19 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {parseCalendar,buildProfile,namesakeIndex,validateProfile} from './namedays.mjs';
-import {calendarDate,calendarNames,validateCalendar,validateCountryCalendar} from '../public/namedays-core.js';
+import {calendarDate,calendarNames,validateCalendar,validateCountryCalendar,fittingNameCount} from '../public/namedays-core.js';
 import {describeName,LANGUAGES,WRITER_VERSION,text} from '../public/namedays-content.js';
 import {resolveLanguage} from '../public/i18n-core.js';
 const sample='domain\td\tm\tv\tid\nlv\t5\t11\tŠarlote\t1\nlv\t5\t11\tŠarlote\t2\nlt\t6\t11\tLeonardas\t3\nee\t29\t2\tMari\t4';
+test('name fitting uses every available slot and reserves the actual hidden-name counter',()=>{
+ const widths=[60,50,40,70,50,60],counters={1:24,2:24,3:24,4:24,5:24};
+ assert.equal(fittingNameCount(widths,320,4,counters),5);
+ assert.equal(fittingNameCount(widths,204,4,counters),3);
+ assert.equal(fittingNameCount([250,40],204,4,{1:24}),0);
+ assert.equal(fittingNameCount([80],100,4,{}),1);
+ assert.equal(fittingNameCount([40,40],84,4,{1:80}),2);
+ assert.equal(fittingNameCount(Array(12).fill(30),96,4,Object.fromEntries(Array.from({length:11},(_,i)=>[i+1,i+1>=10?30:24]))),1);
+});
 test('TSV preserves country, spelling and source order, removing same-day duplicates',()=>{
  const c=parseCalendar(sample);assert.equal(c.data.source_rows,4);assert.deepEqual(calendarNames(c,'lv','2026-11-05'),[{key:'lv:Šarlote',name:'Šarlote'}]);assert.deepEqual(calendarNames(c,'lt','2026-11-05'),[]);assert.equal(calendarNames(c,'ee','2028-02-29')[0].name,'Mari');
 });

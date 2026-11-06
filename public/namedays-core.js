@@ -1,5 +1,15 @@
 export const COUNTRIES=['lv','lt','ee'];
 export const TIME_ZONE='Europe/Riga';
+export function fittingNameCount(widths,available,gap,counterWidths){
+ let total=0,best=0;
+ for(let count=1;count<=widths.length;count++){
+  total+=widths[count-1];
+  const remaining=widths.length-count;
+  const needed=total+gap*(count-1)+(remaining?gap+counterWidths[remaining]:0);
+  if(needed<=available+.1)best=count;
+ }
+ return best;
+}
 export function calendarDate(now=new Date(),offset=0){
  const parts=new Intl.DateTimeFormat('en-CA',{timeZone:TIME_ZONE,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
  const get=type=>Number(parts.find(p=>p.type===type).value);

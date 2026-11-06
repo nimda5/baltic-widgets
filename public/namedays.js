@@ -1,5 +1,5 @@
 import {resolveLanguage,locales} from './i18n-core.js';
-import {calendarDate,calendarNames,validateCountryCalendar} from './namedays-core.js';
+import {calendarDate,calendarNames,validateCountryCalendar,fittingNameCount} from './namedays-core.js';
 import {text,describeName,roleLabel,WRITER_VERSION} from './namedays-content.js';
 
 const params=new URLSearchParams(location.search),lang=resolveLanguage(params.get('lang')||document.documentElement.lang||'lv');
@@ -72,19 +72,36 @@ function renderContent(){
  }
 }
 const observed=new WeakMap();
-function fit(root){const item=observed.get(root);if(!item||!root.clientWidth)return;const {names,cloud}=item;cloud.replaceChildren();
- let shown=Math.min(3,names.length);const more=button('nameday-pill nameday-more','',()=>open(root,null,more));more.setAttribute('aria-label',tr('all'));
- const update=()=>{cloud.querySelectorAll('.nameday-pill:not(.nameday-more)').forEach(b=>b.remove());more.remove();for(const n of names.slice(0,shown)){const b=button('nameday-pill',n.name,()=>open(root,n.key,b));b.title=n.name;cloud.append(b);}if(names.length>shown){more.textContent='+'+(names.length-shown);cloud.append(more);}};
- update();while(cloud.scrollWidth>cloud.clientWidth+1&&shown>1){shown--;update();}
+const cloudOwners=new WeakMap(),pendingFits=new Set();let resizeObserver,fitFrame;
+function scheduleFit(root){pendingFits.add(root);if(fitFrame)return;fitFrame=requestAnimationFrame(()=>{fitFrame=null;for(const item of pendingFits)fit(item);pendingFits.clear();});}
+function fit(root){
+ const item=observed.get(root);if(!item||!root.isConnected||!item.cloud.clientWidth)return;
+ const {names,cloud}=item,focused=cloud.contains(document.activeElement)?document.activeElement:null;
+ if(!item.buttons){item.buttons=names.map(n=>{const b=button('nameday-pill',n.name,()=>open(root,n.key,b));b.title=n.name;return b;});item.more=button('nameday-pill nameday-more','',()=>open(root,null,item.more));item.more.setAttribute('aria-label',tr('all'));}
+ const {buttons,more}=item,available=cloud.getBoundingClientRect().width,gap=parseFloat(getComputedStyle(cloud).columnGap)||0;
+ cloud.classList.add('nameday-measuring');buttons.forEach(b=>b.style.removeProperty('max-width'));cloud.replaceChildren(...buttons,more);
+ const widths=buttons.map(b=>b.getBoundingClientRect().width),counterWidths={};
+ for(let remaining=1;remaining<names.length;remaining++){more.textContent='+'+remaining;counterWidths[remaining]=more.getBoundingClientRect().width;}
+ let shown=fittingNameCount(widths,available,gap,counterWidths);
+ // Keep one unusually long name readable with ellipsis, reserving the exact counter width.
+ if(!shown&&names.length){shown=1;const reserved=names.length>1?counterWidths[names.length-1]+gap:0;buttons[0].style.maxWidth=Math.max(0,available-reserved)+'px';}
+ cloud.replaceChildren(...buttons.slice(0,shown));
+ if(shown<names.length){more.textContent='+'+(names.length-shown);cloud.append(more);}
+ cloud.classList.remove('nameday-measuring');
+ if(focused)(focused.isConnected?focused:more.isConnected?more:buttons[0])?.focus({preventScroll:true});
+ if(state?.root===root&&state.trigger&&!state.trigger.isConnected)state.trigger=more.isConnected?more:buttons[0];
 }
 async function loadRoot(root){
  const country=countryOf(root),date=calendarDate();root.setAttribute('aria-label',tr('title'));root.replaceChildren(element('p','nameday-state',tr('loading')));
- try{const doc=await calendar(),names=calendarNames(doc,country,date);const heading=element('h3','nameday-heading');const time=element('time','',formatDate(date));time.dateTime=date;heading.append(element('span','',tr('title')),time);const cloud=element('div','nameday-clouds');root.replaceChildren(heading,cloud);if(!names.length)cloud.append(element('p','nameday-state',tr('empty')));else{observed.set(root,{names,cloud});fit(root);}}
+ try{const doc=await calendar(),names=calendarNames(doc,country,date);const heading=element('h3','nameday-heading');const time=element('time','',formatDate(date));time.dateTime=date;heading.append(element('span','',tr('title')),time);const cloud=element('div','nameday-clouds');const old=observed.get(root);if(old)resizeObserver?.unobserve(old.cloud);root.replaceChildren(heading,cloud);if(!names.length)cloud.append(element('p','nameday-state',tr('empty')));else{observed.set(root,{names,cloud});cloudOwners.set(cloud,root);resizeObserver?.observe(cloud);fit(root);}}
  catch{root.replaceChildren(element('p','nameday-state',tr('error')),button('nameday-retry',tr('retry'),()=>loadRoot(root)));}
 }
 if(roots.length){
+ resizeObserver=new ResizeObserver(entries=>entries.forEach(e=>{const root=cloudOwners.get(e.target);if(root)scheduleFit(root);}));
  roots.forEach(root=>{root.classList.add('nameday-widget');loadRoot(root);});
- const observer=new ResizeObserver(entries=>entries.forEach(e=>fit(e.target)));roots.forEach(root=>observer.observe(root));
+ document.fonts?.ready.then(()=>roots.forEach(scheduleFit));
+ document.fonts?.addEventListener('loadingdone',()=>roots.forEach(scheduleFit));
+ window.addEventListener('resize',()=>roots.forEach(scheduleFit));
  let current=calendarDate();setInterval(()=>{const next=calendarDate();if(next===current)return;current=next;roots.forEach(loadRoot);if(dialog?.open)renderDialog();},30000);
  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&current!==calendarDate()){current=calendarDate();roots.forEach(loadRoot);if(dialog?.open)renderDialog();}});
 }
