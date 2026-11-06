@@ -114,6 +114,9 @@ function draw(days) {
     svg.append(svgNode('text',{x:x(p),y:262,'text-anchor':i===0?'start':i===3?'end':'middle',class:'chart-axis'},axisDate(p.at)));
   }
   const selection = svgNode('rect',{y:top,height:bottom-top,class:'chart-selection',visibility:'hidden'});
+  const selectionClip = svgNode('rect',{y:top,height:bottom-top});
+  const clip = svgNode('clipPath',{id:'chart-selection-clip'});clip.append(selectionClip);
+  const selectedLine = svgNode('path',{d:line,class:'chart-selected-line','clip-path':'url(#chart-selection-clip)',visibility:'hidden'});
   const anchorLine = svgNode('line',{y1:top,y2:bottom,class:'chart-focus-line',visibility:'hidden'});
   const anchorDot = svgNode('circle',{r:4,class:'chart-focus-dot',visibility:'hidden'});
   const now=Date.now();
@@ -123,8 +126,8 @@ function draw(days) {
   }
   const focusLine = svgNode('line',{y1:top,y2:bottom,class:'chart-focus-line'});
   const dot = svgNode('circle',{r:4,class:'chart-focus-dot'});
-  svg.append(selection,anchorLine,anchorDot,focusLine,dot); canvas.replaceChildren(svg);
-  plot = {svg,x,y,focusLine,dot,selection,anchorLine,anchorDot,left,right,svgWidth};
+  svg.append(clip,selection,selectedLine,anchorLine,anchorDot,focusLine,dot); canvas.replaceChildren(svg);
+  plot = {svg,x,y,focusLine,dot,selection,selectionClip,selectedLine,anchorLine,anchorDot,left,right,svgWidth};
   cursor.max = String(selectedPoints.length-1); cursor.value = cursor.max;
   stats.replaceChildren(node('span','',`${t('chart_min','Min.')} ${format(min,active.digits)} ${active.unit}`),node('span','',`${t('chart_max','Max.')} ${format(max,active.digits)} ${active.unit}`),node('span','',`${dateFormat(first.at)}–${dateFormat(last.at)}`));
   if(daily)stats.append(node('span','',t('daily_count','Daily average (UTC) · {count} days',{count:new Intl.NumberFormat(locale).format(selectedPoints.length)})));
@@ -145,14 +148,22 @@ function highlight(index) {
   if(comparison !== null){
     const a=selectedPoints[Math.min(comparison,index)],b=selectedPoints[Math.max(comparison,index)];
     const {delta,percent}=priceChange(a.value,b.value),sign=delta>0?'+':delta<0?'−':'';
+    const trend=delta>0?'up':delta<0?'down':'flat';
+    plot.svg.dataset.rangeTrend=trend;
     plot.selection.setAttribute('x',plot.x(a));plot.selection.setAttribute('width',plot.x(b)-plot.x(a));
-    for(const n of [plot.selection,plot.anchorLine,plot.anchorDot])n.setAttribute('visibility','visible');
+    plot.selectionClip.setAttribute('x',plot.x(a));plot.selectionClip.setAttribute('width',plot.x(b)-plot.x(a));
+    for(const n of [plot.selection,plot.selectedLine,plot.anchorLine,plot.anchorDot])n.setAttribute('visibility','visible');
     const anchor=selectedPoints[comparison];
     plot.anchorLine.setAttribute('x1',plot.x(anchor));plot.anchorLine.setAttribute('x2',plot.x(anchor));
     plot.anchorDot.setAttribute('cx',plot.x(anchor));plot.anchorDot.setAttribute('cy',plot.y(anchor));
-    readout.textContent=`${dateFormat(a.at,active.displayIntraday)} – ${dateFormat(b.at,active.displayIntraday)} · ${format(a.value,active.digits)} → ${format(b.value,active.digits)} ${active.unit} · ${sign}${format(Math.abs(delta),active.digits)} ${active.unit} (${percent===null?'—':sign+format(Math.abs(percent),2)+'%'})`;
+    readout.replaceChildren(
+      node('span','chart-comparison-context',`${dateFormat(a.at,active.displayIntraday)} – ${dateFormat(b.at,active.displayIntraday)}`),
+      node('strong',`chart-comparison-change ${trend}`,`${delta>0?'↑':delta<0?'↓':'–'} ${sign}${format(Math.abs(delta),active.digits)} ${active.unit} (${percent===null?'—':sign+format(Math.abs(percent),2)+'%'})`),
+      node('span','chart-comparison-values',`${format(a.value,active.digits)} → ${format(b.value,active.digits)} ${active.unit}`)
+    );
   }else{
-    for(const n of [plot.selection,plot.anchorLine,plot.anchorDot])n.setAttribute('visibility','hidden');
+    delete plot.svg.dataset.rangeTrend;
+    for(const n of [plot.selection,plot.selectedLine,plot.anchorLine,plot.anchorDot])n.setAttribute('visibility','hidden');
     readout.textContent=pointText;
   }
 }

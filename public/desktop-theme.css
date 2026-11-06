@@ -23,3 +23,15 @@ body{background:var(--bg);color:var(--text)}
 .chart-selection{fill:var(--chart);opacity:.17;pointer-events:none}
 .chart-future{fill:var(--chart);opacity:.06;pointer-events:none}
 .chart-readout{font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.chart-readout:has(.chart-comparison-change){display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 12px;margin-top:12px}
+.chart-comparison-context{flex-basis:100%}
+.chart-comparison-change{display:inline-block;font-size:16px;font-weight:700;line-height:1.5;padding:4px 10px;border:1px solid currentColor;border-radius:6px;background:var(--subtle);white-space:normal}
+.chart-comparison-change.up{color:var(--up)}
+.chart-comparison-change.down{color:var(--down)}
+.chart-comparison-change.flat{color:var(--secondary)}
+#chart-canvas svg[data-range-trend=up]{--range-color:var(--up)}
+#chart-canvas svg[data-range-trend=down]{--range-color:var(--down)}
+#chart-canvas svg[data-range-trend=flat]{--range-color:var(--secondary)}
+#chart-canvas svg[data-range-trend] .chart-selection{fill:var(--range-color);opacity:.18}
+#chart-canvas svg[data-range-trend] :is(.chart-focus-line,.chart-focus-dot){stroke:var(--range-color);opacity:1}
+.chart-selected-line{fill:none;stroke:var(--range-color);stroke-width:3;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
