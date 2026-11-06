@@ -55,12 +55,12 @@ test('network minima persist separately from real station counts and never popul
 });
 
 test('Latvia keeps five largest priced networks visible and retains address-only and smaller networks under More',()=>{
-  const folder=mkdtempSync(path.join(os.tmpdir(),'lv-ranking-')),db=database(folder),now='2026-11-06T00:00:00Z';
+  const folder=mkdtempSync(path.join(os.tmpdir(),'lv-ranking-')),db=database(folder),now=new Date().toISOString();
   try{
     const sources=['circle','virsi','viada','kool','straujupite','neste','rietumu'];
     const data=sources.flatMap((source,index)=>normalize(source,Array.from({length:source==='rietumu'?1:index+2},(_,i)=>({
       country:'LV',brand:source,address:`Street ${i}, City`,directory_id:`${source}-${i}`,
-      ...(source==='neste'?{}:{fuel:'diesel',value:1.8}),
+      ...(source==='neste'?{}:{fuel:'diesel',value:1.8,at:now}),
     })),now));
     saveStations(db,{updated_at:now,sources:sources.map(id=>({id,status:'ok'})),data});
     const result=widgetData(db,'LV').data;

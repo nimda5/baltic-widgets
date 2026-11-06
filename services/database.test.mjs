@@ -9,7 +9,7 @@ test('durable observations are idempotent; stale stations cannot set a network m
   const folder = mkdtempSync(path.join(os.tmpdir(), 'widgets-db-'));
   const db = database(folder), now = new Date().toISOString();
   const make = (id, value, freshness) => ({ id, country:'EE', source:'fuelest', brand:'Test', name:'Station '+id, address:id,
-    prices:{'95':{value,unit:'L',fetched_at:now,observed_at:now,freshness,evidence:'community_reported',history:[{at:now,value}]}} });
+    prices:{'95':{value,unit:'L',fetched_at:now,observed_at:freshness==='stale'?new Date(Date.now()-49*3600000).toISOString():now,freshness,evidence:'community_reported',history:[{at:now,value}]}} });
   const doc = {updated_at:now,sources:[{id:'fuelest',status:'ok'}],data:[make('old',1,'stale'),make('fresh',2,'recent')]};
   try {
     saveStations(db,doc);saveStations(db,doc);
@@ -20,8 +20,10 @@ test('durable observations are idempotent; stale stations cannot set a network m
     assert.deepEqual(provider.prices.petrol95.history,[]);
     const official = make('operator',1.7,'stale'); official.source='straujupite'; official.country='LV'; official.prices['95'].evidence='operator_published';
     saveStations(db,{...doc,sources:[...doc.sources,{id:'straujupite',status:'ok'}],data:[...doc.data,official]});
-    assert.equal(widgetData(db,'LV').data.providers[0].prices.petrol95.price,1.7);
-    assert.equal(widgetData(db,'LV').data.providers[0].prices.petrol95.freshness,'stale');
+    const oldOperator=widgetData(db,'LV').data.more_providers.find(p=>p.name==='Straujupīte')||widgetData(db,'LV').data.providers.find(p=>p.name==='Straujupīte');
+    assert.equal(oldOperator.prices.petrol95.scope,'last_available_station');
+    assert.equal(oldOperator.prices.petrol95.freshness,'stale');
+    assert.equal(oldOperator.stations[0].prices.petrol95.freshness,'stale');
     doc.sources[0].status='error';saveStations(db,doc);
     assert.equal(widgetData(db,'EE').data.more_providers[0].prices.petrol95,undefined);
     assert.equal(db.prepare('SELECT count(*) AS n FROM station_prices').get().n,3);
@@ -34,7 +36,7 @@ test('LT and EE show five fresh networks ordered by known station count; others 
   const folder=mkdtempSync(path.join(os.tmpdir(),'widgets-rank-')),db=database(folder),now=new Date().toISOString();
   try{
     const data=[];
-    for(const country of ['LT','EE'])for(let network=0;network<8;network++)for(let station=0;station<network+1;station++)data.push({id:`${country}-${network}-${station}`,country,source:'test',brand:`Brand${network}`,name:'Station',address:'Address',prices:{'95':{value:2,unit:'L',fetched_at:now,observed_at:now,freshness:network===7?'stale':'recent',evidence:'community_reported'}}});
+    for(const country of ['LT','EE'])for(let network=0;network<8;network++)for(let station=0;station<network+1;station++)data.push({id:`${country}-${network}-${station}`,country,source:'test',brand:`Brand${network}`,name:'Station',address:'Address',prices:{'95':{value:2,unit:'L',fetched_at:now,observed_at:network===7?new Date(Date.now()-49*3600000).toISOString():now,freshness:network===7?'stale':'recent',evidence:'community_reported'}}});
     saveStations(db,{updated_at:now,sources:[{id:'test',status:'ok'}],data});
     for(const market of ['LT','EE']){
       const result=widgetData(db,market).data;

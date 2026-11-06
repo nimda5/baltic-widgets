@@ -2,6 +2,7 @@ import {t,lang,locale,labels as uiLabels} from './i18n.js';
 import {zodiacPaths} from './zodiac-icons.js';
 import { priceButton } from './charts.js';
 import { currentZodiac } from './zodiac.js';
+import {fuelPriceState} from './fuel-freshness.js';
 // Track input method because native selects can match :focus-visible after a mouse click.
 document.documentElement.dataset.inputModality='keyboard';
 document.addEventListener('pointerdown',()=>{document.documentElement.dataset.inputModality='pointer';},true);
@@ -110,9 +111,15 @@ function applyPriceTrend(button, current, previous) {
 }
 
 const fuelKeys = ['petrol95', 'diesel'];
-function fuelCell(quote, label) {
-  const cell = element('td', 'price-cell');
-  if (!quote || !Number.isFinite(quote.price)) cell.append(element('span', 'unavailable', '—'));
+const fuelPriceViews=[];
+function unavailableFuel(quote,label){
+  const state=fuelPriceState(quote),reason=t(state==='stale'?'fuel_price_expired':'fuel_price_unconfirmed',state==='stale'?'Published price is older than 48 hours':'No confirmed price from the last 48 hours');
+  const marker=Number.isFinite(quote?.price)?priceButton(quote,{label,unit:'EUR/l',text:'?',className:'unavailable'}):element('span','unavailable','?');
+  marker.title=[reason,quote?.observed_at||quote?.observed_date].filter(Boolean).join(' · ');marker.setAttribute('aria-label',label+': '+reason);return marker;
+}
+function paintFuelPrice(cell,quote,label){
+  cell.replaceChildren();
+  if (fuelPriceState(quote)!=='recent') cell.append(unavailableFuel(quote,label));
   else {
     const button = priceButton(quote,{label,unit:'EUR/l'}); button.append(trend(quote.price,quote.previous));
     applyPriceTrend(button,quote.price,quote.previous);
@@ -123,10 +130,14 @@ function fuelCell(quote, label) {
     }
     cell.append(button);
   }
-  return cell;
 }
+function fuelCell(quote,label){const cell=element('td','price-cell');paintFuelPrice(cell,quote,label);fuelPriceViews.push({node:cell,quote,label,state:fuelPriceState(quote)});return cell;}
+function refreshFuelPriceViews(){for(const item of fuelPriceViews){const state=fuelPriceState(item.quote);if(item.node.isConnected&&state!==item.state){paintFuelPrice(item.node,item.quote,item.label);item.state=state;}}}
+setInterval(refreshFuelPriceViews,60000);
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshFuelPriceViews();});
 
 function fuel(container, data) {
+  fuelPriceViews.length=0;
   if (!Array.isArray(data.providers) || data.providers.some(p => typeof p.name !== 'string' || !p.prices)) throw new Error('Invalid fuel data');
   const withReference = quote => quote ? {...quote, reference_history: data.country_history?.[quote.reference_key]?.history,
     reference_label: data.country_history?.[quote.reference_key]?.label, reference_source: data.country_history?.[quote.reference_key]?.source} : null;
@@ -146,8 +157,6 @@ function fuel(container, data) {
     button.type = 'button'; button.setAttribute('aria-expanded', 'false'); button.setAttribute('aria-controls', `provider-${index}`);
     button.append(icon('right'));
     if(data.country!=='LV'||provider.directory_location_count){const count=element('small','station-count',` ${provider.station_count}`);count.title=t(provider.directory_location_count?'directory_count':'priced_count','Known locations',{count:provider.station_count});button.append(count);}
-    const published=Object.values(provider.prices).filter(Boolean);
-    if(published.length && published.every(q=>q.freshness==='stale')){const age=element('span','publication-age');age.append(icon('clock'));age.title=t('last_published','Last published price')+' · '+(published[0].observed_date || published[0].observed_at?.slice(0,10) || '');age.setAttribute('aria-label',age.title);button.append(age);}
     name.append(button); row.append(name, ...fuelKeys.map((key,i) => fuelCell(withReference(provider.prices[key]),`${provider.name} · ${['95',t('diesel','Diesel')][i]}`)));
     const detailsRow = element('tr', 'provider-details'); detailsRow.id = `provider-${index}`; detailsRow.hidden = true;
     const detailsCell = element('td'); detailsCell.colSpan = 3;
@@ -168,14 +177,16 @@ function fuel(container, data) {
           const quote=withReference(station.prices?.[key]), label=['95',t('diesel','Diesel')][i];
           if(sharedPrices)return;
           const item=element('span','station-quote'); item.append(element('span','station-fuel-label',label));
-          if(Number.isFinite(quote?.price)) {
+          const value=element('span','station-quote-value');
+          if(fuelPriceState(quote)==='recent') {
             const trigger = priceButton(quote,{label:`${station.name} · ${label}`,unit:'EUR/l'});
             applyPriceTrend(trigger,quote.price,quote.previous);
             if (quote.freshness === 'stale') trigger.classList.add('stale-price');
             trigger.title = [quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.evidence === 'community_reported' ? t('community_reported','Community report') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : ''].filter(Boolean).join(' · ');
-            item.append(trigger);
+            value.append(trigger);
           }
-          else item.append(document.createTextNode('—'));
+          else value.append(unavailableFuel(quote,`${station.name} · ${label}`));
+          item.append(value);fuelPriceViews.push({node:value,quote,label:`${station.name} · ${label}`,state:fuelPriceState(quote)});
           prices.append(item);
         });
         const dates = Object.values(station.prices || {}).filter(Boolean).map(q => q.observed_date || q.observed_at?.slice(0,10)).filter(Boolean);

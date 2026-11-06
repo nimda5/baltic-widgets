@@ -1,4 +1,5 @@
 import { DatabaseSync } from 'node:sqlite';
+import {fuelQuoteFreshness,fuelPublicationTime} from '../public/fuel-freshness.js';
 import { mkdirSync } from 'node:fs';
 import path from 'node:path';
 
@@ -56,7 +57,7 @@ export function widgetData(db, market = 'LV') {
     const history = db.prepare('SELECT at,value FROM station_prices WHERE station_id=? AND fuel=? ORDER BY at').all(s.id, f);
     const previous = history.length > 1 ? history.at(-2).value : null;
     return { price: p.value, previous, history, scope: p.scope || 'station', source: s.source, source_url: s.source_url,
-      observed_at: p.observed_at, observed_date: p.observed_date, freshness: p.freshness,
+      observed_at: p.observed_at, observed_date: p.observed_date, freshness: fuelQuoteFreshness(p),
       source_status: meta.sources?.find(x => x.id === s.source)?.status || 'unknown', evidence: p.evidence,
       reference_key: keyMap[f] };
   };
@@ -69,13 +70,13 @@ export function widgetData(db, market = 'LV') {
     provider.stations.push({ id: s.id, name: s.name, address: s.address, coordinates: s.coordinates, prices, ...(s.directory_id?{directory_id:s.directory_id,directory_url:s.directory_url,directory_updated_at:s.directory_updated_at,available_fuels:(s.available_fuels||[]).filter(f=>f!=='98')}:{} ) });
     for (const key of Object.values(keyMap)) {
       const p = prices[key];
-      // Keep the operator's last published price visible with its date. Old community
-      // reports still cannot set the minimum; recent operator quotes take priority.
-      const eligible = p && (p.freshness === 'recent' || ['operator_published','operator_reported_to_LEA'].includes(p.evidence)) && p.source_status === 'ok';
+      // Every source uses the same 48-hour limit; old quotes remain in station history.
+      const eligible = p && p.source_status === 'ok';
       const prior = provider.prices[key];
-      const rank = q => q.freshness === 'recent' ? 0 : q.freshness === 'stale' ? 1 : 2;
-      if (eligible && (!prior || rank(p) < rank(prior) || (rank(p) === rank(prior) && p.price < prior.price))) {
-        provider.prices[key] = { ...p, previous: null, history: [], scope: 'minimum_of_available_stations', station_name: s.name, station_address: s.address };
+      const recent=p?.freshness==='recent',priorRecent=prior?.freshness==='recent';
+      const published=fuelPublicationTime(p),priorPublished=fuelPublicationTime(prior);
+      if (eligible && (!prior || (recent&&!priorRecent) || (recent&&priorRecent&&p.price<prior.price) || (!recent&&!priorRecent&&Number.isFinite(published)&&(!Number.isFinite(priorPublished)||published>priorPublished)))) {
+        provider.prices[key] = { ...p, previous: null, history: [], scope: recent?'minimum_of_available_stations':'last_available_station', station_name: s.name, station_address: s.address };
       }
     }
   }

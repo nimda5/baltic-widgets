@@ -154,7 +154,9 @@
     "chart_drag_hint": "Velciet pār grafiku, lai salīdzinātu cenas. Nospiediet Escape, lai notīrītu atlasi.",
     "period_with_future": "{period} + nākotne",
     "namedays": "Vārda diena",
-    "exchange_tab": "Valūtas"
+    "exchange_tab": "Valūtas",
+    "fuel_price_expired": "Publicētā cena ir vecāka par 48 stundām",
+    "fuel_price_unconfirmed": "Nav apstiprinātas cenas par pēdējām 48 stundām"
   },
   "ru": {
     "fuel": "Энергия",
@@ -311,7 +313,9 @@
     "chart_drag_hint": "Протяните по графику для сравнения цен. Escape сбрасывает выделение.",
     "period_with_future": "{period} + будущее",
     "namedays": "Именины",
-    "exchange_tab": "Валюты"
+    "exchange_tab": "Валюты",
+    "fuel_price_expired": "Опубликованной цене больше 48 часов",
+    "fuel_price_unconfirmed": "Нет подтверждённой цены за последние 48 часов"
   },
   "en": {
     "fuel": "Energy",
@@ -468,7 +472,9 @@
     "chart_drag_hint": "Drag across the chart to compare prices. Press Escape to clear.",
     "period_with_future": "{period} + ahead",
     "namedays": "Name day",
-    "exchange_tab": "Markets"
+    "exchange_tab": "Markets",
+    "fuel_price_expired": "Published price is older than 48 hours",
+    "fuel_price_unconfirmed": "No confirmed price from the last 48 hours"
   },
   "lt": {
     "fuel": "Energija",
@@ -625,7 +631,9 @@
     "chart_drag_hint": "Vilkite per grafiką, kad palygintumėte kainas. Spauskite Escape, kad išvalytumėte pasirinkimą.",
     "period_with_future": "{period} + ateitis",
     "namedays": "Vardadienis",
-    "exchange_tab": "Valiutos"
+    "exchange_tab": "Valiutos",
+    "fuel_price_expired": "Paskelbta kaina senesnė nei 48 valandos",
+    "fuel_price_unconfirmed": "Nėra patvirtintos kainos per pastarąsias 48 valandas"
   },
   "et": {
     "fuel": "Energia",
@@ -782,6 +790,8 @@
     "chart_drag_hint": "Hindade võrdlemiseks lohistage üle graafiku. Valiku tühistamiseks vajutage Escape.",
     "period_with_future": "{period} + tulevik",
     "namedays": "Nimepäev",
-    "exchange_tab": "Valuutad"
+    "exchange_tab": "Valuutad",
+    "fuel_price_expired": "Avaldatud hind on vanem kui 48 tundi",
+    "fuel_price_unconfirmed": "Viimase 48 tunni kinnitatud hind puudub"
   }
 }
