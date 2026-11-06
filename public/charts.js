@@ -1,10 +1,11 @@
 import {t,locale} from './i18n.js';
 import {seriesForPeriod} from './chart-periods.js';
+import {chartWindow,priceChange,nearestPoint} from './chart-math.js';
 const dialog = document.querySelector('.price-dialog');
 const canvas = document.querySelector('#chart-canvas');
 const cursor = document.querySelector('.chart-cursor');
 const readout = document.querySelector('.chart-readout');
-let active, opener, selectedPoints = [], plot;
+let active, opener, selectedPoints = [], plot, drag = null, comparison = null;
 const format = (value, digits) => new Intl.NumberFormat(locale, {minimumFractionDigits:digits,maximumFractionDigits:digits}).format(value);
 const dateFormat = (value, intraday = false) => new Intl.DateTimeFormat(locale, {timeZone:'Europe/Riga',day:'2-digit',month:'2-digit',...(intraday ? {hour:'2-digit',minute:'2-digit'} : {year:'numeric'})}).format(new Date(value));
 function node(tag, className, text) {
@@ -47,7 +48,8 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
     const periods=intraday?[1,7,...(dailyPoints.length?[30,90,365,1825,0]:[])]:[7,30,90,365,1825,0];
     const periodKeys={1:['period_24h','24 h'],7:['period_7d','7 d'],30:['period_30d','30 d'],90:['period_90d','90 d'],365:['period_1y','1 y'],1825:['period_5y','5 y'],0:['period_all','All']};
     const buttons=periods.map(days=>{
-      const label=t(...periodKeys[days]);
+      const period=t(...periodKeys[days]);
+      const label=intraday && days<=7 && days>0?t('period_with_future','{period} + ahead',{period}):period;
       const b = node('button','',label); b.type = 'button'; b.dataset.days = days;
       b.addEventListener('click',()=>requestPeriod(days)); return b;
     });
@@ -66,13 +68,13 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
 }
 
 function draw(days) {
+  drag = null; comparison = null;
   document.querySelectorAll('.chart-periods button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.days)===days)));
   const daily=active.intraday && (days===0 || days>7) && active.dailyPoints.length>0;
   const points=daily?active.dailyPoints:active.points;
   active.displayIntraday=active.intraday&&!daily;
   document.querySelector('#chart-current').title=daily?t('daily_weighted','Duration-weighted daily averages (UTC), excluding VAT and supplier fees.'):'';
-  const end = points.at(-1)?.at;
-  selectedPoints = days === 0 ? points : points.filter(p=>p.at > end-days*86400000);
+  selectedPoints = chartWindow(points,days,Date.now(),active.displayIntraday);
   const stats = document.querySelector('.chart-stats');
   const change = document.querySelector('#chart-change');
   if (selectedPoints.length < 2) {
@@ -81,9 +83,9 @@ function draw(days) {
   }
   cursor.hidden = false;
   const first = selectedPoints[0], last = selectedPoints.at(-1);
-  const delta = last.value-first.value;
+  const {delta,percent:changePercent} = priceChange(first.value,last.value);
   change.className = `trend ${delta>0?'up':delta<0?'down':'flat'}`;
-  const percent = first.value !== 0 ? ` (${format(Math.abs(delta / first.value * 100),2)}%)` : '';
+  const percent = changePercent !== null ? ` (${format(Math.abs(changePercent),2)}%)` : '';
   change.textContent = `${delta>0?'↑':delta<0?'↓':'–'} ${format(Math.abs(delta),active.digits)}${percent}`;
   let min = Math.min(...selectedPoints.map(p=>p.value)), max = Math.max(...selectedPoints.map(p=>p.value));
   const pad = (max-min)*.18 || Math.max(Math.abs(min)*.02,.01);
@@ -106,19 +108,31 @@ function draw(days) {
   if (selectedPoints.length <= 20) for (const p of selectedPoints) svg.append(svgNode('circle',{cx:x(p),cy:y(p),r:3,class:'chart-focus-dot'}));
   const longRange = last.at-first.at > 365*86400000;
   const axisDate = at => new Intl.DateTimeFormat(locale, {timeZone:'Europe/Riga',
-    ...(active.intraday && days===1 ? {hour:'2-digit',minute:'2-digit'} : longRange ? {year:'numeric'} : {day:'2-digit',month:'2-digit'})}).format(new Date(at));
+    ...(active.displayIntraday && days===1 ? {day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'} : longRange ? {year:'numeric'} : {day:'2-digit',month:'2-digit'})}).format(new Date(at));
   for(let i=0;i<4;i++) {
     const p=selectedPoints[Math.round((selectedPoints.length-1)*i/3)];
     svg.append(svgNode('text',{x:x(p),y:262,'text-anchor':i===0?'start':i===3?'end':'middle',class:'chart-axis'},axisDate(p.at)));
   }
+  const selection = svgNode('rect',{y:top,height:bottom-top,class:'chart-selection',visibility:'hidden'});
+  const anchorLine = svgNode('line',{y1:top,y2:bottom,class:'chart-focus-line',visibility:'hidden'});
+  const anchorDot = svgNode('circle',{r:4,class:'chart-focus-dot',visibility:'hidden'});
+  const now=Date.now();
+  if(active.displayIntraday && first.at<now && last.at>now){
+    const xx=x({at:now});
+    svg.append(svgNode('rect',{x:xx,y:top,width:right-xx,height:bottom-top,class:'chart-future'}),svgNode('line',{x1:xx,x2:xx,y1:top,y2:bottom,class:'chart-focus-line'}),svgNode('text',{x:xx+5,y:top+12,class:'chart-axis'},t('chart_future','Published ahead')));
+  }
   const focusLine = svgNode('line',{y1:top,y2:bottom,class:'chart-focus-line'});
   const dot = svgNode('circle',{r:4,class:'chart-focus-dot'});
-  svg.append(focusLine,dot); canvas.replaceChildren(svg);
-  plot = {svg,x,y,focusLine,dot,left,right,svgWidth};
+  svg.append(selection,anchorLine,anchorDot,focusLine,dot); canvas.replaceChildren(svg);
+  plot = {svg,x,y,focusLine,dot,selection,anchorLine,anchorDot,left,right,svgWidth};
   cursor.max = String(selectedPoints.length-1); cursor.value = cursor.max;
   stats.replaceChildren(node('span','',`${t('chart_min','Min.')} ${format(min,active.digits)} ${active.unit}`),node('span','',`${t('chart_max','Max.')} ${format(max,active.digits)} ${active.unit}`),node('span','',`${dateFormat(first.at)}–${dateFormat(last.at)}`));
   if(daily)stats.append(node('span','',t('daily_count','Daily average (UTC) · {count} days',{count:new Intl.NumberFormat(locale).format(selectedPoints.length)})));
-  highlight(selectedPoints.length-1);
+  const currentTime=Date.now();
+  let initial=active.displayIntraday?nearestPoint(selectedPoints,currentTime):selectedPoints.length-1;
+  if(active.displayIntraday && initial>0 && selectedPoints[initial].at>currentTime)initial--;
+  cursor.value=String(initial);highlight(initial);
+  canvas.title=t('chart_drag_hint','Drag across the chart to compare prices. Press Escape to clear.');
 }
 
 function highlight(index) {
@@ -126,17 +140,48 @@ function highlight(index) {
   const p=selectedPoints[index];
   plot.focusLine.setAttribute('x1',plot.x(p)); plot.focusLine.setAttribute('x2',plot.x(p));
   plot.dot.setAttribute('cx',plot.x(p)); plot.dot.setAttribute('cy',plot.y(p));
-  readout.textContent=`${dateFormat(p.at,active.displayIntraday)} · ${format(p.value,active.digits)} ${active.unit}`;
-  cursor.setAttribute('aria-valuetext',readout.textContent);
+  const pointText=`${dateFormat(p.at,active.displayIntraday)} · ${format(p.value,active.digits)} ${active.unit}`;
+  cursor.setAttribute('aria-valuetext',pointText);
+  if(comparison !== null){
+    const a=selectedPoints[Math.min(comparison,index)],b=selectedPoints[Math.max(comparison,index)];
+    const {delta,percent}=priceChange(a.value,b.value),sign=delta>0?'+':delta<0?'−':'';
+    plot.selection.setAttribute('x',plot.x(a));plot.selection.setAttribute('width',plot.x(b)-plot.x(a));
+    for(const n of [plot.selection,plot.anchorLine,plot.anchorDot])n.setAttribute('visibility','visible');
+    const anchor=selectedPoints[comparison];
+    plot.anchorLine.setAttribute('x1',plot.x(anchor));plot.anchorLine.setAttribute('x2',plot.x(anchor));
+    plot.anchorDot.setAttribute('cx',plot.x(anchor));plot.anchorDot.setAttribute('cy',plot.y(anchor));
+    readout.textContent=`${dateFormat(a.at,active.displayIntraday)} – ${dateFormat(b.at,active.displayIntraday)} · ${format(a.value,active.digits)} → ${format(b.value,active.digits)} ${active.unit} · ${sign}${format(Math.abs(delta),active.digits)} ${active.unit} (${percent===null?'—':sign+format(Math.abs(percent),2)+'%'})`;
+  }else{
+    for(const n of [plot.selection,plot.anchorLine,plot.anchorDot])n.setAttribute('visibility','hidden');
+    readout.textContent=pointText;
+  }
 }
-cursor.addEventListener('input',()=>highlight(Number(cursor.value)));
-canvas.addEventListener('pointermove',event=>{
-  if(!plot) return;
+cursor.addEventListener('input',()=>{comparison=null;highlight(Number(cursor.value));});
+function pointAt(event){
   const rect=plot.svg.getBoundingClientRect(),xx=(event.clientX-rect.left)/rect.width*plot.svgWidth;
   const target=selectedPoints[0].at+(Math.max(plot.left,Math.min(plot.right,xx))-plot.left)/(plot.right-plot.left)*(selectedPoints.at(-1).at-selectedPoints[0].at);
-  let closest=0;
-  selectedPoints.forEach((p,i)=>{if(Math.abs(p.at-target)<Math.abs(selectedPoints[closest].at-target))closest=i;});
-  cursor.value=String(closest); highlight(closest);
+  return nearestPoint(selectedPoints,target);
+}
+canvas.addEventListener('pointerdown',event=>{
+  if(!plot || !event.isPrimary || event.button!==0)return;
+  event.preventDefault();
+  canvas.setPointerCapture(event.pointerId);drag=event.pointerId;comparison=pointAt(event);
+  cursor.value=String(comparison);highlight(comparison);
+});
+canvas.addEventListener('pointermove',event=>{
+  if(!plot || (drag!==null && drag!==event.pointerId) || (drag===null && comparison!==null))return;
+  const index=pointAt(event);cursor.value=String(index);highlight(index);
+});
+canvas.addEventListener('pointerup',event=>{
+  if(drag!==event.pointerId)return;
+  const index=pointAt(event);cursor.value=String(index);highlight(index);drag=null;
+  if(canvas.hasPointerCapture(event.pointerId))canvas.releasePointerCapture(event.pointerId);
+});
+function clearComparison(){drag=null;comparison=null;if(plot)highlight(Number(cursor.value));}
+canvas.addEventListener('pointercancel',clearComparison);
+canvas.addEventListener('lostpointercapture',()=>{if(drag!==null)clearComparison();});
+dialog.addEventListener('keydown',event=>{
+  if(event.key==='Escape' && comparison!==null){event.preventDefault();clearComparison();}
 });
 document.querySelector('.chart-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',event=>{

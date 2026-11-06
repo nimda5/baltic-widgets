@@ -8,6 +8,10 @@ test('electricity retains negative prices and actual delivery intervals, with no
   const rows=parseElectricity(payload);assert.equal(rows.length,6);assert.equal(rows[0].value,-10);assert.equal(rows[0].resolution,900);
   const db=new DatabaseSync(':memory:');db.exec('CREATE TABLE metadata(key TEXT PRIMARY KEY,value TEXT)');saveElectricity(db,rows);
   const d=electricityData(db,(t+100)*1000);assert.equal(d.data.areas.LV.price_eur_mwh,-10);assert.equal(d.data.areas.LV.valid_to,'2026-11-05T10:15:00.000Z');
+  assert.equal(d.data.areas.LV.history.length,2);
+  assert.equal(d.data.areas.LV.history[1].at,'2026-11-05T10:15:00.000Z');
+  assert.equal(d.data.areas.LV.history[1].value,25);
+  assert.equal(d.data.areas.LV.history_daily[0].value,-10);
   assert.equal(electricityData(db,(t+4000)*1000).data.areas.LV,undefined);
   assert.throws(()=>parseElectricity({...payload,data:{...payload.data,lv:[payload.data.lv[0],payload.data.lv[0]]}}));db.close();
 });

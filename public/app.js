@@ -5,6 +5,9 @@ import { currentZodiac } from './zodiac.js';
 // Track input method because native selects can match :focus-visible after a mouse click.
 document.documentElement.dataset.inputModality='keyboard';
 document.addEventListener('pointerdown',()=>{document.documentElement.dataset.inputModality='pointer';},true);
+document.addEventListener('pointerdown',event=>{
+  for(const menu of document.querySelectorAll('.horoscope-tone[open]'))if(!menu.contains(event.target))menu.open=false;
+});
 document.addEventListener('keydown',event=>{if(!['Shift','Control','Alt','Meta'].includes(event.key))document.documentElement.dataset.inputModality='keyboard';},true);
 let labels=uiLabels;
 const $ = (selector) => document.querySelector(selector);
@@ -267,7 +270,9 @@ function horoscope(container, data) {
     const button=element('button','',t('mood_'+key,key));button.type='button';button.dataset.mood=key;button.prepend(icon('tone_'+key));
     button.addEventListener('click',()=>{mood=key;try{localStorage.setItem('horoscope-mood',mood);}catch{}tone.open=false;show();toneToggle.focus();});toneMenu.append(button);
   }
-  tone.addEventListener('focusout',event=>{if(!tone.contains(event.relatedTarget))tone.open=false;});
+  // Safari does not focus buttons on pointer activation. A null relatedTarget
+  // must not hide the menu before its click can select a mood.
+  tone.addEventListener('focusout',event=>{if(event.relatedTarget && !tone.contains(event.relatedTarget))tone.open=false;});
   tone.addEventListener('keydown',event=>{if(event.key==='Escape'){tone.open=false;toneToggle.focus();}});
   tone.append(toneToggle,toneMenu);top.append(symbol,info,tone);
   const text=element('div','horoscope-advice');text.id='horoscope-reading';

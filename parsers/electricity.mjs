@@ -71,7 +71,8 @@ export function electricityData(db, now=Date.now()) {
     const current=db.prepare("SELECT * FROM electricity_prices WHERE market=? AND source='elering' AND at<=? AND valid_to>? ORDER BY at DESC LIMIT 1").get(market,nowISO,nowISO);
     if(!current)continue;
     const previous=db.prepare("SELECT value FROM electricity_prices WHERE market=? AND source='elering' AND at<? ORDER BY at DESC LIMIT 1").get(market,current.at);
-    const history=db.prepare("SELECT at,value FROM electricity_prices WHERE market=? AND source='elering' AND at>=? AND at<=? ORDER BY at").all(market,new Date(now-7*day).toISOString(),nowISO);
+    // Include every published day-ahead interval, while the headline stays current.
+    const history=db.prepare("SELECT at,value FROM electricity_prices WHERE market=? AND source='elering' AND at>=? ORDER BY at").all(market,new Date(now-7*day).toISOString());
     const daily=db.prepare("SELECT substr(at,1,10)||'T12:00:00.000Z' AS at,sum(value*resolution_seconds)/sum(resolution_seconds) AS value,sum(resolution_seconds) AS coverage_seconds FROM electricity_prices WHERE market=? AND source='elering' AND at<=? GROUP BY substr(at,1,10) ORDER BY at").all(market,nowISO);
     areas[market]={price_eur_mwh:current.value,previous_eur_mwh:previous?.value ?? null,valid_from:current.at,valid_to:current.valid_to,history,history_daily:daily,
       source:'Nord Pool / Elering',tax_basis:'without_vat_or_retail_fees',resolution_seconds:current.resolution_seconds};
