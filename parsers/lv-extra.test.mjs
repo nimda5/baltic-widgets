@@ -39,7 +39,7 @@ test('Rietumu regular diesel is distinct from reduced-excise agricultural diesel
 });
 
 test('network minima persist separately from real station counts and never populate station quotes',()=>{
-  const folder=mkdtempSync(path.join(os.tmpdir(),'network-quotes-')),db=database(folder),now='2026-11-06T00:00:00Z';
+  const folder=mkdtempSync(path.join(os.tmpdir(),'network-quotes-')),db=database(folder),now=new Date().toISOString();
   try{
     const data=normalize('kool',parseKoolDirectory('<div data-id="a">*Test 1, Rīga*Test 2, Rīga</div>'),now);
     const network=normalize('kool',parseKoolPrices(prices).map(r=>({...r,id:'network-minimum'})),now)[0];
@@ -47,7 +47,7 @@ test('network minima persist separately from real station counts and never popul
     saveStations(db,doc);saveStations(db,doc);
     const p=widgetData(db,'LV').data.providers[0];assert.equal(p.station_count,2);assert.equal(p.priced_station_count,0);
     assert.equal(p.prices.petrol95.price,1.817);assert.equal(p.prices.petrol95.scope,'network_published_minimum');
-    assert.equal(p.prices.petrol95.observed_date,null);assert.equal(p.prices.petrol95.freshness,'unknown');
+    assert.equal(p.prices.petrol95.observed_date,null);assert.equal(p.prices.petrol95.freshness,'recent');assert.equal(p.prices.petrol95.fetched_at,now);
     assert.ok(p.stations.every(s=>Object.values(s.prices).every(q=>q===null)));
     assert.equal(db.prepare('SELECT count(*) n FROM stations').get().n,2);
     assert.equal(db.prepare('SELECT count(*) n FROM station_prices').get().n,2);

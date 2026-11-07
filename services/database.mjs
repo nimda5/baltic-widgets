@@ -58,7 +58,7 @@ export function widgetData(db, market = 'LV') {
     const history = db.prepare('SELECT at,value FROM station_prices WHERE station_id=? AND fuel=? ORDER BY at').all(s.id, f);
     const previous = history.length > 1 ? history.at(-2).value : null;
     return { price: p.value, previous, history, scope: p.scope || 'station', source: s.source, source_url: s.source_url,
-      observed_at: p.observed_at, observed_date: p.observed_date, freshness: fuelQuoteFreshness(p),
+      observed_at: p.observed_at, observed_date: p.observed_date, fetched_at:p.fetched_at, freshness: fuelQuoteFreshness(p),
       source_status: meta.sources?.find(x => x.id === s.source)?.status || 'unknown', evidence: p.evidence,
       reference_key: keyMap[f] };
   };

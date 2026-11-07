@@ -37,9 +37,9 @@ function coords(lat, lon) {
   if (!Number.isFinite(lat) || !Number.isFinite(lon) || lat < 53 || lat > 60 || lon < 20 || lon > 29) return null;
   return { latitude: lat, longitude: lon };
 }
-function freshness(at, day, now) {
+function freshness(at, day, now, fetchedAt) {
   // Date-only quotes use the start of their date in UTC, conservatively.
-  const quote={observed_at:at,observed_date:day},age=Date.parse(now)-fuelPublicationTime(quote);
+  const quote={observed_at:at,observed_date:day,fetched_at:fetchedAt},age=Date.parse(now)-fuelPublicationTime(quote);
   if (age < -3600000) throw new Error('Future price timestamp');
   return fuelQuoteFreshness(quote,now);
 }
@@ -63,7 +63,7 @@ export function normalize(source, records, now) {
       source_label: r.label, observed_at: r.at || null, observed_date: r.day || null,
       source_timestamp: r.rawTime || r.at || r.day || null,
       time_precision: r.at ? 'instant' : r.day ? 'date' : 'unknown',
-      fetched_at: now, freshness: freshness(r.at, r.day, now),
+      fetched_at: now, freshness: freshness(r.at, r.day, now,now),
       evidence: r.evidence || 'operator_published', scope: r.scope || 'station',
       source_verified: r.verified ?? null,
     };
@@ -340,7 +340,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
     }
     for(const station of stations){delete station.prices['98'];if(station.available_fuels)station.available_fuels=station.available_fuels.filter(f=>f!=='98');}
     // Recompute old values too: a failed source must not retain a 'recent' flag forever.
-    for (const s of [...stations,...Object.values(networkQuotes)]) for (const p of Object.values(s.prices)) p.freshness = freshness(p.observed_at, p.observed_date, now);
+    for (const s of [...stations,...Object.values(networkQuotes)]) for (const p of Object.values(s.prices)) p.freshness = freshness(p.observed_at, p.observed_date, now,p.fetched_at);
     const doc = { schema_version: 1, updated_at: now, demo: false, source: 'Baltic station collectors',
       coverage: { LV: 'selected operator-published stations', LT: 'LEA reporting stations', EE: 'FuelEst community reports' },
       sources: [...statuses.values()], network_quotes:networkQuotes,fallback_quotes:fallbackQuotes, data: stations.sort((a, b) => a.id.localeCompare(b.id)) };

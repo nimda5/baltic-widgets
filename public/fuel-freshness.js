@@ -4,7 +4,10 @@ export function fuelPublicationTime(quote){
  return value?Date.parse(value):NaN;
 }
 export function fuelQuoteFreshness(quote,now=Date.now()){
- const age=new Date(now).getTime()-fuelPublicationTime(quote);
+ // An undated published quote is current as of its last successful collection.
+ // An explicit (even invalid) publication date always takes precedence.
+ const at=quote?.observed_at||quote?.observed_date?fuelPublicationTime(quote):Date.parse(quote?.fetched_at);
+ const age=new Date(now).getTime()-at;
  if(!Number.isFinite(age)||age < -3600000)return 'unknown';
  return age>FUEL_MAX_AGE_MS?'stale':'recent';
 }
