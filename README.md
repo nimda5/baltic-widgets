@@ -131,6 +131,10 @@ Neste uses its public station-search feed, restricted to Latvian locations with 
 
 When Latvia has more than five networks, the main widget shows the five largest known networks with published prices. Other networks, including address-only Neste, remain under Other networks. Network minima, unknown publication dates, and individual station coverage are explicit in the JSON and UI tooltips. Latvijas Nafta remains excluded.
 
+## Portal layout
+
+The desktop top section has four columns: login/sidebar, news cards, the original banner, and more news cards. Categories span all three news-area columns. All 24 top stories remain available through pagination and touch swiping. Tablets use two news columns beside the sidebar; phones use one column. See [BREAKPOINTS.md](BREAKPOINTS.md) for dimensions and widget placement.
+
 ## Name days
 
 The compact name-day card stays in the desktop sidebar and appears as the first, initially selected tab before the other three widgets in the compact layout. Only the Latvian calendar is currently enabled; changing interface language or the finance market never changes that calendar. Its standalone version is `namedays.html?lang=ru&country=lv`. Yesterday/today/tomorrow, visible name buttons, historical facts, clearly labeled original vignettes, country-specific namesakes, and heartfelt/funny greetings are available in all five supported languages. Source URLs remain in JSON metadata and are not displayed in the dialog.

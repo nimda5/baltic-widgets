@@ -64,7 +64,7 @@ function updateWidgets(){
 }
 compact.addEventListener('change',updateWidgets);mobilePlacement.addEventListener('change',updateWidgets);updateWidgets();
 
-// The original three news pages, with accessible pagination and touch swiping.
+// Top news pages, with accessible pagination and touch swiping.
 const slides=[...document.querySelectorAll('.col-carousel .carousel-slide')];
 const pagination=document.querySelector('.col-carousel .blaze-pagination');
 let activeSlide=0;
