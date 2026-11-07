@@ -1,5 +1,5 @@
 import {readFile,mkdir,writeFile,rename,unlink,stat,cp} from 'node:fs/promises';
-import {parseCalendar,buildProfile,namesakeIndex} from '../parsers/namedays.mjs';
+import {parseCalendar,buildProfile,namesakeIndex,evidenceIndex} from '../parsers/namedays.mjs';
 import {validateCountryCalendar} from '../public/namedays-core.js';
 import {WRITER_VERSION} from '../public/namedays-content.js';
 const project=new URL('../',import.meta.url),target=new URL('public/data/namedays/',project);
@@ -16,8 +16,9 @@ const people=namesakeIndex(entities,localRows);
 const documents=[],report={writer_version:WRITER_VERSION,enabled_countries:['lv'],source_rows:calendar.data.source_rows_by_country.lv,countries:{}};
 for(const country of ['lv']){
  const previous=(await json(new URL('profiles-'+country+'.json',target),{})).data||{};
+ const evidence=evidenceIndex(research,Object.values(previous));
  const entries=[...new Map(Object.values(calendar.data.calendars[country]).flat().map(n=>[n.key,n])).values()];
- const profiles=Object.fromEntries(entries.map(({key,name})=>[key,buildProfile(name,country,research,people,previous[key])]));
+ const profiles=Object.fromEntries(entries.map(({key,name})=>[key,buildProfile(name,country,research,people,previous[key],evidence)]));
  const countryCalendar={schema_version:1,country,writer_version:WRITER_VERSION,updated_at:new Date().toISOString(),source:calendar.source,data:{timezone:'Europe/Riga',source_rows:calendar.data.source_rows_by_country[country],days:calendar.data.calendars[country]}};
  validateCountryCalendar(countryCalendar);documents.push([new URL('calendar-'+country+'.json',target),countryCalendar]);
  documents.push([new URL('profiles-'+country+'.json',target),{schema_version:1,country,writer_version:WRITER_VERSION,updated_at:new Date().toISOString(),source:'Reviewed references; exact national-language Wiktionary entries; Wikidata and Wikipedia biographies',data:profiles}]);

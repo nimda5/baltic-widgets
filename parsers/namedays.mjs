@@ -1,5 +1,5 @@
 import {COUNTRIES,validateCalendar} from '../public/namedays-core.js';
-import {LANGUAGES,WRITER_VERSION,describeName} from '../public/namedays-content.js';
+import {LANGUAGES,WRITER_VERSION,describeName,nameIdentity} from '../public/namedays-content.js';
 export function parseCalendar(input){
  const lines=input.replace(/^\uFEFF/,'').trim().split(/\r?\n/);
  if(lines.shift()!=='domain\td\tm\tv\tid')throw Error('Unexpected name-day columns');
@@ -15,8 +15,8 @@ export function parseCalendar(input){
 }
 const subgroupOrigins={hebrajiškas:'Hebrew',lotyniškas:'Latin',graikiškas:'Ancient Greek',germaniškas:'Germanic languages',vokiškas:'German',slaviškas:'Slavic',angliškas:'English',asiriškas:'Assyrian',aramėjiškas:'Aramaic',iranietiškas:'Iranian',persiškas:'Persian',čekiškas:'Czech',prancūziškas:'French',arabiškas:'Arabic',keltiškas:'Celtic',itališkas:'Italian',skandinaviškas:'Scandinavian',ispaniškas:'Spanish',vengriškas:'Hungarian',anglosaksiškas:'Anglo-Saxon',rusiškas:'Russian',provansietiškas:'Occitan'};
 const registryKinds={dvikamienis:'compound',apeliatyvinis:'word',trumpinys:'short',vietovardinis:'place',sukurtas:'created'};
-const familyNames={charlotte:['Šarlote','Šarlota','Charlotte','Charlotta','Šarlotė'],leonard:['Leonards','Leonardas','Leonardo','Leonard','Leonhard','Lennart'],leo:['Leo','Leon','Leons']};
-const familySources={charlotte:'https://www.behindthename.com/name/charlotte',leonard:'https://www.behindthename.com/name/leonard',leo:'https://www.behindthename.com/name/leo'};
+const familyNames={charlotte:['Šarlote','Šarlota','Charlotte','Charlotta','Šarlotė'],leonard:['Leonards','Leonardas','Leonardo','Leonard','Leonhard','Lennart'],leo:['Leo','Leon','Leons'],alexandra:['Aleksandra','Alexandra']};
+const familySources={charlotte:'https://www.behindthename.com/name/charlotte',leonard:'https://www.behindthename.com/name/leonard',leo:'https://www.behindthename.com/name/leo',alexandra:'https://en.wiktionary.org/wiki/Alexandra'};
 export function roleFromDescription(description){
  for(const [regex,role] of [[/composer/i,'composer'],[/astronaut|cosmonaut/i,'astronaut'],[/film director|filmmaker/i,'director'],[/actor|actress/i,'actor'],[/writer|novelist|author/i,'writer'],[/poet/i,'poet'],[/physicist|chemist|scientist|mathematician|astronomer|inventor|engineer/i,'scientist'],[/painter|sculptor|artist|architect|polymath/i,'artist'],[/singer|musician|pianist|violinist|guitarist/i,'musician'],[/player|athlete|swimmer|skater|racing driver|gymnast|sprinter|tennis|cyclist|footballer/i,'athlete']])if(regex.test(description))return role;
  if(/politician|president|minister|diplomat|journalist|businessperson|entrepreneur|military|historian|sociologist|philosopher/i.test(description))return 'public_figure';
@@ -43,7 +43,19 @@ export function namesakeIndex(entities={},localRows=[]){
  for(const list of index.values())list.sort((a,b)=>(b.prominence||0)-(a.prominence||0));
  return index;
 }
-export function buildProfile(name,country,research={},people=new Map(),previous){
+// Share reference evidence across Baltic spellings without changing calendar identities.
+export function evidenceIndex(research={},previous=[]){
+ const index=new Map();
+ const add=(name,country,facts,provenance)=>{const key=nameIdentity(name),list=index.get(key)||[];list.push({name,country,facts,provenance:provenance.filter(Boolean)});index.set(key,list);};
+ for(const [name,entry] of Object.entries(research.entries||{}))for(const [country,dictionary] of Object.entries(entry.countries||{}))add(name,country,dictionary,[dictionary.source]);
+ for(const profile of previous)add(profile.name,profile.country,profile.facts,profile.provenance);
+ return index;
+}
+function recordedOrder(value){
+ const century=/\b(\d{1,2})(?:st|nd|rd|th) century/i.exec(value||'');
+ return century?(Number(century[1])-1)*100+1:Number(/\b(\d{3,4})\b/.exec(value||'')?.[1]||Infinity);
+}
+export function buildProfile(name,country,research={},people=new Map(),previous,index=evidenceIndex(research,previous?[previous]:[])){
  const key=country+':'+name,entry=research.entries?.[name],dictionary=entry?.countries?.[country],registry=country==='lt'?research.vlkk?.[name]:null;
  const origins=new Set(dictionary?.origins||[]),facts={origins:[],first_recorded:dictionary?.first_recorded||null,related:(dictionary?.related||[]).filter(n=>n!==name)};const sources=[];
  if(dictionary)sources.push(dictionary.source);
@@ -51,11 +63,22 @@ export function buildProfile(name,country,research={},people=new Map(),previous)
  facts.origins=[...origins];
  let family=Object.entries(familyNames).find(([,aliases])=>aliases.includes(name)||facts.related.some(related=>aliases.includes(related)))?.[0]||null;
  if(family)sources.push({url:familySources[family],type:'reviewed_name_family'});
+ if(family==='alexandra')sources.push({url:'https://www.rct.uk/collection/stories/queen-alexandra',type:'reviewed_name_history'});
  const exact=(people.get(name)||[]).map(p=>({...p,match:'exact'}));
  const candidates=exact.sort((a,b)=>Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0));
  let chosen=candidates.slice(0,3);
- if(!chosen.length&&family){const reference=family==='charlotte'?'Charlotte':family==='leo'?'Leo':'Leonardo';chosen=(people.get(reference)||[]).slice(0,2).map(p=>({...p,match:'related_form'}));}
+ if(!chosen.length&&family){const reference={charlotte:'Charlotte',leo:'Leo',leonard:'Leonardo',alexandra:'Alexandra'}[family];chosen=(people.get(reference)||[]).slice(0,2).map(p=>({...p,match:'related_form'}));}
  if(!entry&&!registry&&previous){facts.origins=previous.facts.origins;facts.first_recorded=previous.facts.first_recorded;facts.related=previous.facts.related;if(previous.facts.registry_kind)facts.registry_kind=previous.facts.registry_kind;sources.push(...previous.provenance);family||=previous.family;}
+ const evidence=index.get(nameIdentity(name))||[];
+ facts.origins=[...new Set([...facts.origins,...evidence.flatMap(e=>e.facts.origins||[])])];
+ facts.related=[...new Set([...facts.related,...evidence.flatMap(e=>e.facts.related||[])])].filter(n=>nameIdentity(n)!==nameIdentity(name));
+ const recorded=evidence.filter(e=>Number.isFinite(recordedOrder(e.facts.first_recorded))).sort((a,b)=>recordedOrder(a.facts.first_recorded)-recordedOrder(b.facts.first_recorded)||Number(b.name===name&&b.country===country)-Number(a.name===name&&a.country===country))[0];
+ if(recorded){facts.first_recorded=recorded.facts.first_recorded;facts.first_recorded_form=recorded.facts.first_recorded_form||recorded.name;facts.first_recorded_country=recorded.facts.first_recorded_country||recorded.country;}
+ for(const e of evidence)sources.push(...e.provenance);
+ family||=Object.entries(familyNames).find(([,aliases])=>aliases.some(alias=>nameIdentity(alias)===nameIdentity(name))||facts.related.some(related=>aliases.includes(related)))?.[0]||null;
+ if(family)sources.push({url:familySources[family],type:'reviewed_name_family'});
+ if(family==='alexandra')sources.push({url:'https://www.rct.uk/collection/stories/queen-alexandra',type:'reviewed_name_history'});
+ if(!chosen.length){const variants=[...people].filter(([form])=>form!==name&&nameIdentity(form)===nameIdentity(name)).flatMap(([,list])=>list).sort((a,b)=>Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0));chosen=[...new Map(variants.map(p=>[p.id,{...p,match:'related_form'}])).values()].slice(0,3);}
  if(!chosen.length&&previous?.people)chosen=previous.people;
  const provenance=[...new Map(sources.map(s=>[s.url,s])).values()];
  const profile={key,name,country,writer_version:WRITER_VERSION,family,facts,people:chosen,provenance,research_status:entry?.status||previous?.research_status||'pending',content_type:'historical_facts_and_labeled_original_fiction'};

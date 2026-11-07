@@ -59,7 +59,11 @@ function renderContent(){
  const copy=describeName(profile,lang);
  if(state.tab==='history'){
   if(copy.history.length){content.append(element('h3','',tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
-  else content.append(element('p','',tr('unknown')));
+  if(copy.attestation){
+   const record=element('div','nameday-attestation');
+   record.append(element('h3','',tr('recordedLabel')),element('strong','',copy.attestation.date),element('small','',tr('recordedNote',{form:copy.attestation.form})));
+   content.append(record);
+  }
   content.append(element('h3','',tr('author')),element('p','',copy.story));
  }else if(state.tab==='people'){
   if(!profile.people?.length){content.append(element('p','',tr('noPeople')));return;}

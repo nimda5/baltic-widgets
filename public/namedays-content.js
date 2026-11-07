@@ -1,196 +1,661 @@
-export const WRITER_VERSION='namedays-1.1.0';
+export const WRITER_VERSION='namedays-1.3.0';
+export function nameIdentity(name){return name.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={
- ru:{title:'Именины',yesterday:'Вчера',today:'Сегодня',tomorrow:'Завтра',history:'История',people:'Тёзки',wish:'Поздравить',serious:'От души',humor:'С юмором',close:'Закрыть',all:'Все имена',more:'Ещё {n}',loading:'Загружаем имена…',error:'Не удалось загрузить именины.',retry:'Попробовать снова',empty:'В календаре нет имён на эту дату.',country:'Календарь',lv:'Латвия',lt:'Литва',ee:'Эстония',author:'Авторская миниатюра',documented:'История имени',unknown:'Подтверждённого объяснения происхождения пока нет. Ниже — современная авторская история, а не версия этимологии.',origin:'Словарные данные связывают имя {name} с традицией: {origins}.',related:'В словаре также указаны формы: {names}.',recorded:'Для местной формы имени словарь отмечает раннюю запись: {date}. Это дата упоминания, а не рождения имени.',registry:'Литовский языковой реестр относит имя {name} к группе: {kind}.',local:'Тёзка из вашего календаря',international:'Международный тёзка',variant:'Родственная форма имени',noPeople:'Проверенного известного тёзки пока нет. Сегодня поздравляем тебя — без чужой биографии.',copy:'Скопировать',copied:'Скопировано',copyError:'Выдели и скопируй текст поздравления.',another:'Ещё вариант',calendarDate:'Дата',inYear:'{year} год',century:'{n} век',countryNote:'Имена соответствуют выбранной стране; язык текста меняется отдельно.'},
- en:{title:'Name day',yesterday:'Yesterday',today:'Today',tomorrow:'Tomorrow',history:'History',people:'Namesakes',wish:'Celebrate',serious:'Heartfelt',humor:'Funny',close:'Close',all:'All names',more:'{n} more',loading:'Loading names…',error:'Could not load name days.',retry:'Try again',empty:'No names are listed for this date.',country:'Calendar',lv:'Latvia',lt:'Lithuania',ee:'Estonia',author:'An original vignette',documented:'The name’s history',unknown:'A reliable explanation of this name’s origin is not available yet. The story below is contemporary fiction, not an etymology.',origin:'Dictionary evidence connects {name} with these language traditions: {origins}.',related:'The dictionary also lists these related forms: {names}.',recorded:'For the local form, the dictionary notes an early record: {date}. This is an attestation, not the name’s invention.',registry:'The Lithuanian language registry classifies {name} as: {kind}.',local:'A namesake from this country',international:'International namesake',variant:'A related form of the name',noPeople:'No famous namesake has been verified yet. Today we celebrate you, without borrowing someone else’s biography.',copy:'Copy',copied:'Copied',copyError:'Select and copy the greeting text.',another:'Another version',calendarDate:'Date',inYear:'{year}',century:'{n}th century',countryNote:'Names follow the selected country; text language is independent.'},
- lv:{title:'Vārda diena',yesterday:'Vakar',today:'Šodien',tomorrow:'Rīt',history:'Vēsture',people:'Vārdabrāļi',wish:'Apsveikt',serious:'No sirds',humor:'Ar humoru',close:'Aizvērt',all:'Visi vārdi',more:'Vēl {n}',loading:'Ielādē vārdus…',error:'Neizdevās ielādēt vārdadienas.',retry:'Mēģināt vēlreiz',empty:'Šim datumam kalendārā nav vārdu.',country:'Kalendārs',lv:'Latvija',lt:'Lietuva',ee:'Igaunija',author:'Autora miniatūra',documented:'Vārda vēsture',unknown:'Drošs šī vārda cilmes skaidrojums vēl nav atrasts. Tālāk ir mūsdienīgs autora stāsts, nevis etimoloģija.',origin:'Vārdnīcas dati saista vārdu {name} ar šādām valodu tradīcijām: {origins}.',related:'Vārdnīcā minētas arī radniecīgas formas: {names}.',recorded:'Vietējai vārda formai vārdnīca norāda agrīnu pierakstu: {date}. Tas ir pieminējums, nevis vārda rašanās datums.',registry:'Lietuviešu valodas reģistrā vārds {name} ietilpst grupā: {kind}.',local:'Vārdabrālis no šīs valsts',international:'Starptautisks vārdabrālis',variant:'Radniecīga vārda forma',noPeople:'Pārbaudīts slavens vārdabrālis vēl nav atrasts. Šodien sveicam tevi, neaizņemoties svešu biogrāfiju.',copy:'Kopēt',copied:'Nokopēts',copyError:'Iezīmē un nokopē apsveikuma tekstu.',another:'Cits variants',calendarDate:'Datums',inYear:'{year}. gads',century:'{n}. gadsimts',countryNote:'Vārdi atbilst izvēlētajai valstij; teksta valoda ir neatkarīga.'},
- lt:{title:'Vardadienis',yesterday:'Vakar',today:'Šiandien',tomorrow:'Rytoj',history:'Istorija',people:'Bendravardžiai',wish:'Pasveikinti',serious:'Nuoširdžiai',humor:'Su humoru',close:'Uždaryti',all:'Visi vardai',more:'Dar {n}',loading:'Įkeliami vardai…',error:'Nepavyko įkelti vardadienių.',retry:'Bandyti dar kartą',empty:'Šiai datai kalendoriuje vardų nėra.',country:'Kalendorius',lv:'Latvija',lt:'Lietuva',ee:'Estija',author:'Autorinė miniatiūra',documented:'Vardo istorija',unknown:'Patikimo šio vardo kilmės paaiškinimo dar nėra. Toliau pateikiamas šiuolaikinis autorinis pasakojimas, o ne etimologija.',origin:'Žodyno duomenys sieja vardą {name} su šiomis kalbų tradicijomis: {origins}.',related:'Žodyne taip pat nurodytos giminingos formos: {names}.',recorded:'Vietinei vardo formai žodynas nurodo ankstyvą užrašymą: {date}. Tai paminėjimas, o ne vardo sukūrimo data.',registry:'Lietuvių kalbos registre vardas {name} priskiriamas grupei: {kind}.',local:'Šios šalies bendravardis',international:'Tarptautinis bendravardis',variant:'Gimininga vardo forma',noPeople:'Patvirtinto garsaus bendravardžio dar nėra. Šiandien sveikiname tave, nesiskolindami svetimos biografijos.',copy:'Kopijuoti',copied:'Nukopijuota',copyError:'Pažymėk ir nukopijuok sveikinimo tekstą.',another:'Kitas variantas',calendarDate:'Data',inYear:'{year} m.',century:'{n} a.',countryNote:'Vardai priklauso pasirinktai šaliai, o teksto kalba pasirenkama atskirai.'},
- et:{title:'Nimepäev',yesterday:'Eile',today:'Täna',tomorrow:'Homme',history:'Lugu',people:'Nimekaimud',wish:'Õnnitle',serious:'Südamest',humor:'Huumoriga',close:'Sulge',all:'Kõik nimed',more:'Veel {n}',loading:'Nimede laadimine…',error:'Nimepäevade laadimine ebaõnnestus.',retry:'Proovi uuesti',empty:'Selle kuupäeva kohta kalendris nimesid pole.',country:'Kalender',lv:'Läti',lt:'Leedu',ee:'Eesti',author:'Autori miniatuur',documented:'Nime ajalugu',unknown:'Selle nime päritolu usaldusväärne seletus pole veel leitud. Allpool on tänapäevane väljamõeldud lugu, mitte etümoloogia.',origin:'Sõnaraamatu andmed seovad nime {name} järgmiste keeletraditsioonidega: {origins}.',related:'Sõnaraamatus on ka järgmised sugulasvormid: {names}.',recorded:'Nime kohaliku kuju varane kirjapanek sõnaraamatu järgi: {date}. See on mainimine, mitte nime loomise aeg.',registry:'Leedu keele registris kuulub nimi {name} rühma: {kind}.',local:'Selle riigi nimekaim',international:'Rahvusvaheline nimekaim',variant:'Nime sugulasvorm',noPeople:'Kontrollitud kuulsat nimekaimu pole veel leitud. Täna õnnitleme sind, ilma kellegi teise elulugu laenamata.',copy:'Kopeeri',copied:'Kopeeritud',copyError:'Vali õnnitluse tekst ja kopeeri see.',another:'Teine variant',calendarDate:'Kuupäev',inYear:'{year}. aasta',century:'{n}. sajand',countryNote:'Nimed vastavad valitud riigile, teksti keel on eraldi valik.'}
+ "ru": {
+  "recordedLabel": "Имя в старых записях",
+  "recordedNote": "В найденной записи — {form}.",
+  "title": "Именины",
+  "yesterday": "Вчера",
+  "today": "Сегодня",
+  "tomorrow": "Завтра",
+  "history": "История",
+  "people": "Тёзки",
+  "wish": "Поздравить",
+  "serious": "От души",
+  "humor": "С юмором",
+  "close": "Закрыть",
+  "all": "Все имена",
+  "more": "Ещё {n}",
+  "loading": "Загружаем имена…",
+  "error": "Не удалось загрузить именины.",
+  "retry": "Попробовать снова",
+  "empty": "В календаре нет имён на эту дату.",
+  "country": "Календарь",
+  "lv": "Латвия",
+  "lt": "Литва",
+  "ee": "Эстония",
+  "author": "Немного фантазии",
+  "documented": "История имени",
+  "origin": "У имени {name} {origins} корни.",
+  "related": "У этого имени есть и другие формы: {names}.",
+  "local": "Тёзка из вашего календаря",
+  "international": "Международный тёзка",
+  "variant": "Родственная форма имени",
+  "noPeople": "Известных тёзок мы пока не нашли.",
+  "copy": "Скопировать",
+  "copied": "Скопировано",
+  "copyError": "Выдели и скопируй текст поздравления.",
+  "another": "Ещё вариант",
+  "calendarDate": "Дата",
+  "inYear": "{year} год",
+  "century": "{n} век",
+  "countryNote": "Имена соответствуют выбранной стране; язык текста меняется отдельно.",
+  "namesake": "Среди известных тёзок — {role} {person}.",
+  "relatedNamesake": "Родственную форму имени носили, например, {person}."
+ },
+ "en": {
+  "recordedLabel": "The name in earlier records",
+  "recordedNote": "In the record, the name is written {form}.",
+  "title": "Name day",
+  "yesterday": "Yesterday",
+  "today": "Today",
+  "tomorrow": "Tomorrow",
+  "history": "History",
+  "people": "Namesakes",
+  "wish": "Celebrate",
+  "serious": "Heartfelt",
+  "humor": "Funny",
+  "close": "Close",
+  "all": "All names",
+  "more": "{n} more",
+  "loading": "Loading names…",
+  "error": "Could not load name days.",
+  "retry": "Try again",
+  "empty": "No names are listed for this date.",
+  "country": "Calendar",
+  "lv": "Latvia",
+  "lt": "Lithuania",
+  "ee": "Estonia",
+  "author": "A little imagination",
+  "documented": "The name’s history",
+  "origin": "{name} has {origins} roots.",
+  "related": "Other forms of the name include {names}.",
+  "local": "A namesake from this country",
+  "international": "International namesake",
+  "variant": "A related form of the name",
+  "noPeople": "We haven’t found any famous namesakes yet.",
+  "copy": "Copy",
+  "copied": "Copied",
+  "copyError": "Select and copy the greeting text.",
+  "another": "Another version",
+  "calendarDate": "Date",
+  "inYear": "{year}",
+  "century": "{n}th century",
+  "countryNote": "Names follow the selected country; text language is independent.",
+  "namesake": "Famous namesakes include the {role} {person}.",
+  "relatedNamesake": "A related form of the name was borne by {person}."
+ },
+ "lv": {
+  "recordedLabel": "Vārds senākos pierakstos",
+  "recordedNote": "Atrastajā pierakstā vārds rakstīts kā {form}.",
+  "title": "Vārda diena",
+  "yesterday": "Vakar",
+  "today": "Šodien",
+  "tomorrow": "Rīt",
+  "history": "Vēsture",
+  "people": "Vārdabrāļi",
+  "wish": "Apsveikt",
+  "serious": "No sirds",
+  "humor": "Ar humoru",
+  "close": "Aizvērt",
+  "all": "Visi vārdi",
+  "more": "Vēl {n}",
+  "loading": "Ielādē vārdus…",
+  "error": "Neizdevās ielādēt vārdadienas.",
+  "retry": "Mēģināt vēlreiz",
+  "empty": "Šim datumam kalendārā nav vārdu.",
+  "country": "Kalendārs",
+  "lv": "Latvija",
+  "lt": "Lietuva",
+  "ee": "Igaunija",
+  "author": "Mazliet iztēles",
+  "documented": "Vārda vēsture",
+  "origin": "Vārdam {name} ir {origins} saknes.",
+  "related": "Šim vārdam ir arī citas formas: {names}.",
+  "local": "Vārdabrālis no šīs valsts",
+  "international": "Starptautisks vārdabrālis",
+  "variant": "Radniecīga vārda forma",
+  "noPeople": "Slavenus vārdabrāļus vēl neesam atraduši.",
+  "copy": "Kopēt",
+  "copied": "Nokopēts",
+  "copyError": "Iezīmē un nokopē apsveikuma tekstu.",
+  "another": "Cits variants",
+  "calendarDate": "Datums",
+  "inYear": "{year}. gads",
+  "century": "{n}. gadsimts",
+  "countryNote": "Vārdi atbilst izvēlētajai valstij; teksta valoda ir neatkarīga.",
+  "namesake": "Starp pazīstamiem vārdabrāļiem ir {role} {person}.",
+  "relatedNamesake": "Radniecīgu vārda formu nesa, piemēram, {person}."
+ },
+ "lt": {
+  "recordedLabel": "Vardas senuose užrašuose",
+  "recordedNote": "Rastame užraše vardas parašytas {form}.",
+  "title": "Vardadienis",
+  "yesterday": "Vakar",
+  "today": "Šiandien",
+  "tomorrow": "Rytoj",
+  "history": "Istorija",
+  "people": "Bendravardžiai",
+  "wish": "Pasveikinti",
+  "serious": "Nuoširdžiai",
+  "humor": "Su humoru",
+  "close": "Uždaryti",
+  "all": "Visi vardai",
+  "more": "Dar {n}",
+  "loading": "Įkeliami vardai…",
+  "error": "Nepavyko įkelti vardadienių.",
+  "retry": "Bandyti dar kartą",
+  "empty": "Šiai datai kalendoriuje vardų nėra.",
+  "country": "Kalendorius",
+  "lv": "Latvija",
+  "lt": "Lietuva",
+  "ee": "Estija",
+  "author": "Šiek tiek vaizduotės",
+  "documented": "Vardo istorija",
+  "origin": "Vardas {name} turi {origins} šaknis.",
+  "related": "Šis vardas turi ir kitų formų: {names}.",
+  "local": "Šios šalies bendravardis",
+  "international": "Tarptautinis bendravardis",
+  "variant": "Gimininga vardo forma",
+  "noPeople": "Garsių bendravardžių dar neradome.",
+  "copy": "Kopijuoti",
+  "copied": "Nukopijuota",
+  "copyError": "Pažymėk ir nukopijuok sveikinimo tekstą.",
+  "another": "Kitas variantas",
+  "calendarDate": "Data",
+  "inYear": "{year} m.",
+  "century": "{n} a.",
+  "countryNote": "Vardai priklauso pasirinktai šaliai, o teksto kalba pasirenkama atskirai.",
+  "namesake": "Tarp žinomų bendravardžių yra {role} {person}.",
+  "relatedNamesake": "Giminingą vardo formą turėjo, pavyzdžiui, {person}."
+ },
+ "et": {
+  "recordedLabel": "Nimi vanades kirjapanekutes",
+  "recordedNote": "Leitud kirjapanekus on nimekujuks {form}.",
+  "title": "Nimepäev",
+  "yesterday": "Eile",
+  "today": "Täna",
+  "tomorrow": "Homme",
+  "history": "Lugu",
+  "people": "Nimekaimud",
+  "wish": "Õnnitle",
+  "serious": "Südamest",
+  "humor": "Huumoriga",
+  "close": "Sulge",
+  "all": "Kõik nimed",
+  "more": "Veel {n}",
+  "loading": "Nimede laadimine…",
+  "error": "Nimepäevade laadimine ebaõnnestus.",
+  "retry": "Proovi uuesti",
+  "empty": "Selle kuupäeva kohta kalendris nimesid pole.",
+  "country": "Kalender",
+  "lv": "Läti",
+  "lt": "Leedu",
+  "ee": "Eesti",
+  "author": "Veidi kujutlusvõimet",
+  "documented": "Nime ajalugu",
+  "origin": "Nimel {name} on {origins} juured.",
+  "related": "Sellel nimel on ka teisi kujusid: {names}.",
+  "local": "Selle riigi nimekaim",
+  "international": "Rahvusvaheline nimekaim",
+  "variant": "Nime sugulasvorm",
+  "noPeople": "Me pole veel kuulsaid nimekaime leidnud.",
+  "copy": "Kopeeri",
+  "copied": "Kopeeritud",
+  "copyError": "Vali õnnitluse tekst ja kopeeri see.",
+  "another": "Teine variant",
+  "calendarDate": "Kuupäev",
+  "inYear": "{year}. aasta",
+  "century": "{n}. sajand",
+  "countryNote": "Nimed vastavad valitud riigile, teksti keel on eraldi valik.",
+  "namesake": "Tuntud nimekaimude seas on {role} {person}.",
+  "relatedNamesake": "Sugulasvormi kandis näiteks {person}."
+ }
 };
 export function text(lang,key,values={}){return(bundles[lang]?.[key]??bundles.en[key]??key).replace(/\{(\w+)\}/g,(m,k)=>values[k]??m);}
 export function hash(value){let h=2166136261;for(const c of value)h=Math.imul(h^c.codePointAt(0),16777619);return h>>>0;}
 const traditions={
- 'French':['franču','французская','French','prancūzų','prantsuse'],'German':['vācu','немецкая','German','vokiečių','saksa'],'Old High German':['senaugšvācu','древневерхненемецкая','Old High German','senosios vokiečių aukštaičių','vanaülemsaksa'],'Middle High German':['vidusaugšvācu','средневерхненемецкая','Middle High German','vidurinės vokiečių aukštaičių','keskülemsaksa'],'English':['angļu','английская','English','anglų','inglise'],'Latin':['latīņu','латинская','Latin','lotynų','ladina'],'Ancient Greek':['sengrieķu','древнегреческая','Ancient Greek','senovės graikų','vanakreeka'],'Greek':['grieķu','греческая','Greek','graikų','kreeka'],'Hebrew':['ivrita','древнееврейская','Hebrew','hebrajų','heebrea'],'Russian':['krievu','русская','Russian','rusų','vene'],'Germanic languages':['ģermāņu','германская','Germanic','germanų','germaani'],'Proto-Germanic':['pirmģermāņu','прагерманская','Proto-Germanic','germanų prokalbės','alggermaani'],'Swedish':['zviedru','шведская','Swedish','švedų','rootsi'],'Danish':['dāņu','датская','Danish','danų','taani'],'Finnish':['somu','финская','Finnish','suomių','soome'],'Estonian':['igauņu','эстонская','Estonian','estų','eesti'],'Latvian':['latviešu','латышская','Latvian','latvių','läti'],'Lithuanian':['lietuviešu','литовская','Lithuanian','lietuvių','leedu'],'Polish':['poļu','польская','Polish','lenkų','poola'],'Arabic':['arābu','арабская','Arabic','arabų','araabia'],'Italian':['itāļu','итальянская','Italian','italų','itaalia'],'Spanish':['spāņu','испанская','Spanish','ispanų','hispaania'],'Persian':['persiešu','персидская','Persian','persų','pärsia'],'Sanskrit':['sanskrita','санскритская','Sanskrit','sanskrito','sanskriti'],'Old Norse':['senskandināvu','древнескандинавская','Old Norse','senovės skandinavų','vanapõhja'],'Slavic':['slāvu','славянская','Slavic','slavų','slaavi'],'Celtic':['ķeltu','кельтская','Celtic','keltų','keldi'],'Hungarian':['ungāru','венгерская','Hungarian','vengrų','ungari'],'Aramaic':['aramiešu','арамейская','Aramaic','aramėjų','aramea'],'Assyrian':['asīriešu','ассирийская','Assyrian','asirų','assüüria'],'Iranian':['irāņu','иранская','Iranian','iranėnų','iraani'],'Czech':['čehu','чешская','Czech','čekų','tšehhi'],'Scandinavian':['skandināvu','скандинавская','Scandinavian','skandinavų','skandinaavia'],'Anglo-Saxon':['anglosakšu','англосаксонская','Anglo-Saxon','anglosaksų','anglosaksi'],'Occitan':['oksitāņu','окситанская','Occitan','oksitanų','oksitaani']
-};
-const registryKinds={
- compound:['divcelmu personvārds','двухосновное личное имя','a two-stem personal name','dvikamienis asmenvardis','kahetüveline isikunimi'],
- word:['no sugasvārda veidots personvārds','имя, образованное от нарицательного слова','a personal name formed from a common word','apeliatyvinis asmenvardis','üldnimest moodustatud isikunimi'],
- short:['saīsināta vārda forma','сокращённая форма имени','a shortened name form','trumpinys','lühendatud nimekuju'],
- place:['no vietvārda veidots personvārds','имя, образованное от названия места','a name formed from a place name','vietovardinis asmenvardis','kohanimest moodustatud isikunimi'],
- created:['jaunveidots personvārds','созданное личное имя','a coined personal name','sukurtas asmenvardis','loodud isikunimi']
-};
-const scenes={
- ru:[
- '{name} — представим это имя на обложке книги, которую ещё никто не читал. На первой странице нет готового характера и списка обязательных подвигов. Есть место для собственных решений, неожиданных поворотов и людей, которым захочется посвятить следующую главу.',
- 'Если бы у имени {name} была современная эмблема, это был бы компас без команды «вернитесь на маршрут». Можно свернуть к морю, передумать посреди дороги и всё равно прийти к чему-то своему. Хорошая история начинается там, где выбор перестаёт быть чужим.',
- 'В нашей маленькой истории {name} — подпись под фотографией, которую не стали улучшать фильтрами. В кадре что-то чуть не по плану: ветер, смех, случайный прохожий. Именно поэтому снимок хочется сохранить. У живого имени тоже нет обязанности выглядеть безупречно.',
- 'Представим имя {name} как ключ от мастерской. Внутри можно собрать странную идею, оставить её на ночь и утром найти совершенно другое решение. Здесь важнее любопытство, чем табличка «так принято». А удачной работе не обязательно сразу становиться шедевром.',
- '{name} могло бы стать названием маленького кафе без Wi-Fi. За столиком разговаривают, кофе остывает незаметно, а слово «срочно» забывает свой пароль. Это выдуманное место напоминает: внимание к одному человеку иногда ценнее связи со всем миром.',
- 'Пусть {name} в этой миниатюре будет названием плейлиста, который нельзя подобрать алгоритмом. Рядом оказываются тихая песня, смешной припев и мелодия из важной поездки. Они не обязаны нравиться всем: достаточно, что вместе они рассказывают чью-то собственную жизнь.',
- 'Вымышленная карта города {name} устроена необычно: на ней отмечены не достопримечательности, а места хороших встреч. Скамейка, где помирились. Кухня, где засиделись до ночи. Поворот, после которого решились на перемены. Такая география не помещается в путеводитель.',
- 'Представим {name} как подпись на конверте, который дошёл через много лет. Внутри не предсказание, а короткое письмо: «Не откладывай всё интересное до идеальных обстоятельств». Обстоятельства, конечно, ещё собираются. История уже может начинаться.'
+ "French": [
+  "franču",
+  "французские",
+  "French",
+  "prancūzų",
+  "prantsuse"
  ],
- en:[
- 'Imagine {name} on the cover of a book nobody has read yet. The first page contains no assigned personality or compulsory heroic deeds. There is room for personal choices, surprising turns and people worth dedicating the next chapter to.',
- 'A contemporary emblem for {name} could be a compass that never orders you back onto the route. You can turn towards the sea, change your mind halfway and still arrive somewhere that feels your own. A good story starts with a choice you actually make.',
- 'In this little story, {name} is the caption under a photograph nobody improved with a filter. Wind, laughter and an accidental passer-by interrupt the plan. That is exactly why the picture stays. A living name has no obligation to look flawless.',
- 'Imagine {name} as the key to a workshop. Inside, you can assemble an odd idea, leave it overnight and discover a different answer in the morning. Curiosity matters more than a sign saying how things are usually done. Not every good experiment needs to become a masterpiece.',
- '{name} could be a tiny café without Wi-Fi. People talk, coffee cools unnoticed and the word urgent forgets its password. This imaginary place reminds us that paying attention to one person can be worth more than connecting with the whole world.',
- 'Let {name} be the title of a playlist no algorithm could assemble. A quiet song sits beside a ridiculous chorus and a melody from an important journey. They need not please everyone: together they tell one person’s life.',
- 'The imaginary city map called {name} marks encounters rather than attractions. A bench where people made up. A kitchen where conversation lasted all night. A turning where someone chose a new direction. No guidebook has room for that geography.',
- 'Picture {name} written on an envelope delivered years later. Inside is no prophecy, just a note: do not postpone everything interesting until circumstances are perfect. The circumstances are still getting ready. The story can already begin.'
+ "German": [
+  "vācu",
+  "немецкие",
+  "German",
+  "vokiečių",
+  "saksa"
  ],
- lv:[
- 'Iztēlosimies vārdu {name} uz vēl neizlasītas grāmatas vāka. Pirmajā lappusē nav gatava rakstura un obligātu varoņdarbu saraksta. Tur ir vieta paša izvēlēm, negaidītiem pavērsieniem un cilvēkiem, kuriem gribētos veltīt nākamo nodaļu.',
- 'Vārda {name} mūsdienu emblēma varētu būt kompass, kas neliek atgriezties maršrutā. Var nogriezties uz jūru, ceļā pārdomāt un tomēr nonākt kaut kur savā vietā. Labs stāsts sākas ar izvēli, kuru izdari pats.',
- 'Šajā mazajā stāstā {name} ir paraksts zem fotogrāfijas bez filtriem. Plānā iejaucas vējš, smiekli un nejaušs garāmgājējs. Tieši tāpēc attēlu gribas saglabāt. Dzīvam vārdam nav pienākuma izskatīties nevainojami.',
- 'Iedomāsimies, ka {name} ir darbnīcas atslēga. Tur var salikt neparastu ideju, atstāt to pa nakti un no rīta atrast citu risinājumu. Ziņkāre ir svarīgāka par uzrakstu «tā pieņemts». Ne katram labam izmēģinājumam uzreiz jākļūst par šedevru.',
- '{name} varētu būt mazas kafejnīcas nosaukums. Tur nav Wi-Fi, kafija nemanāmi atdziest un vārds «steidzami» aizmirst savu paroli. Šī izdomātā vieta atgādina: uzmanība vienam cilvēkam reizēm ir vērtīgāka par saikni ar visu pasauli.',
- 'Lai {name} šajā miniatūrā ir dziesmu izlases nosaukums, ko algoritms nespētu izveidot. Klusa dziesma, komisks piedziedājums un melodija no svarīga ceļojuma. Tām nav jāpatīk visiem: kopā tās stāsta viena cilvēka dzīvi.',
- 'Izdomātā pilsētas kartē ar nosaukumu {name} atzīmēti nevis apskates objekti, bet labas tikšanās. Soliņš, kur izlīga. Virtuve, kur sarunas turpinājās līdz naktij. Pagrieziens, kur izvēlējās pārmaiņas. Šādai ģeogrāfijai ceļvedī vietas nepietiek.',
- 'Iztēlosimies vārdu {name} uz aploksnes, kas pienāk pēc daudziem gadiem. Iekšā nav pareģojuma, tikai zīmīte: neatliec visu interesanto līdz ideāliem apstākļiem. Apstākļi vēl tikai gatavojas. Stāsts jau var sākties.'
+ "Old High German": [
+  "senaugšvācu",
+  "древневерхненемецкие",
+  "Old High German",
+  "senosios vokiečių aukštaičių",
+  "vanaülemsaksa"
  ],
- lt:[
- 'Įsivaizduokime vardą {name} ant dar neskaitytos knygos viršelio. Pirmame puslapyje nėra iš anksto paskirto charakterio ar privalomų žygdarbių. Yra vietos saviems sprendimams, netikėtiems posūkiams ir žmonėms, kuriems norėtųsi skirti kitą skyrių.',
- 'Šiuolaikinė vardo {name} emblema galėtų būti kompasas, nereikalaujantis grįžti į maršrutą. Galima pasukti prie jūros, pakeliui persigalvoti ir vis tiek pasiekti savą vietą. Gera istorija prasideda nuo pasirinkimo, kurį padarai pats.',
- 'Šiame mažame pasakojime {name} yra užrašas po nuotrauka be filtrų. Planą sujaukia vėjas, juokas ir atsitiktinis praeivis. Būtent todėl nuotrauką norisi išsaugoti. Gyvam vardui neprivalu atrodyti nepriekaištingai.',
- 'Įsivaizduokime, kad {name} yra dirbtuvės raktas. Viduje galima surinkti keistą idėją, palikti nakčiai ir ryte rasti kitą sprendimą. Smalsumas svarbesnis už lentelę «taip įprasta». Ne kiekvienas geras bandymas privalo iškart tapti šedevru.',
- '{name} galėtų būti mažos kavinės be belaidžio interneto pavadinimas. Žmonės kalbasi, kava nepastebimai atvėsta, o žodis «skubiai» pamiršta slaptažodį. Ši išgalvota vieta primena: dėmesys vienam žmogui kartais vertingesnis už ryšį su visu pasauliu.',
- 'Tegul {name} būna grojaraščio, kurio nesudarytų algoritmas, pavadinimas. Tyli daina, juokingas priedainis ir melodija iš svarbios kelionės. Jos neprivalo patikti visiems: kartu jos pasakoja vieno žmogaus gyvenimą.',
- 'Išgalvotame miesto žemėlapyje {name} pažymėtos ne įžymybės, o susitikimai. Suolelis, kur susitaikyta. Virtuvė, kur kalbėtasi iki nakties. Posūkis, kur pasirinkti pokyčiai. Tokiai geografijai vadove vietos nepakanka.',
- 'Įsivaizduokime vardą {name} ant po daugelio metų atėjusio voko. Viduje ne pranašystė, o raštelis: neatidėk visko įdomaus, kol aplinkybės taps idealios. Aplinkybės dar ruošiasi. Istorija jau gali prasidėti.'
+ "Middle High German": [
+  "vidusaugšvācu",
+  "средневерхненемецкие",
+  "Middle High German",
+  "vidurinės vokiečių aukštaičių",
+  "keskülemsaksa"
  ],
- et:[
- 'Kujutleme nime {name} veel lugemata raamatu kaanel. Esimesel lehel pole valmis iseloomu ega kohustuslike kangelastegude nimekirja. Seal on ruumi oma valikutele, ootamatutele pööretele ja inimestele, kellele tahaks järgmise peatüki pühendada.',
- 'Nime {name} tänapäevane sümbol võiks olla kompass, mis ei käsi marsruudile tagasi pöörduda. Võib keerata mere poole, teel ümber mõelda ja ikkagi jõuda enda jaoks õigesse paika. Hea lugu algab valikust, mille teed ise.',
- 'Selles väikeses loos on {name} allkiri filtrita foto all. Plaani sekkuvad tuul, naer ja juhuslik mööduja. Just sellepärast tahadki pilti alles hoida. Elaval nimel pole kohustust laitmatu välja näha.',
- 'Kujutleme nime {name} töökoja võtmena. Seal võib kummalise idee kokku panna, selle ööseks jätta ja hommikul teise lahenduse leida. Uudishimu on tähtsam kui silt «nii on kombeks». Iga hea katse ei pea kohe meistriteoseks saama.',
- '{name} võiks olla väikese Wi-Fita kohviku nimi. Inimesed räägivad, kohv jahtub märkamatult ja sõna «kiire» unustab oma parooli. See väljamõeldud paik meenutab: tähelepanu ühele inimesele võib olla väärtuslikum kui ühendus kogu maailmaga.',
- 'Olgu {name} sellise esitusloendi pealkiri, mida algoritm ei koostaks. Vaikne laul, naljakas refrään ja meloodia tähtsalt reisilt. Need ei pea kõigile meeldima: koos räägivad need ühe inimese elust.',
- 'Väljamõeldud linnakaardil {name} on vaatamisväärsuste asemel kohtumised. Pink, kus ära lepiti. Köök, kus juttu jätkus ööni. Pööre, kus otsustati midagi muuta. Reisijuhti selline geograafia ei mahu.',
- 'Kujutleme nime {name} ümbrikul, mis saabub aastate pärast. Sees pole ennustus, vaid sedel: ära lükka kõike huvitavat ideaalsete olude saabumiseni edasi. Olud alles valmistuvad. Lugu võib juba alata.'
+ "English": [
+  "angļu",
+  "английские",
+  "English",
+  "anglų",
+  "inglise"
+ ],
+ "Latin": [
+  "latīņu",
+  "латинские",
+  "Latin",
+  "lotynų",
+  "ladina"
+ ],
+ "Ancient Greek": [
+  "sengrieķu",
+  "древнегреческие",
+  "Ancient Greek",
+  "senovės graikų",
+  "vanakreeka"
+ ],
+ "Greek": [
+  "grieķu",
+  "греческие",
+  "Greek",
+  "graikų",
+  "kreeka"
+ ],
+ "Hebrew": [
+  "ivrita",
+  "древнееврейские",
+  "Hebrew",
+  "hebrajų",
+  "heebrea"
+ ],
+ "Russian": [
+  "krievu",
+  "русские",
+  "Russian",
+  "rusų",
+  "vene"
+ ],
+ "Germanic languages": [
+  "ģermāņu",
+  "германские",
+  "Germanic",
+  "germanų",
+  "germaani"
+ ],
+ "Proto-Germanic": [
+  "pirmģermāņu",
+  "прагерманские",
+  "Proto-Germanic",
+  "germanų prokalbės",
+  "alggermaani"
+ ],
+ "Swedish": [
+  "zviedru",
+  "шведские",
+  "Swedish",
+  "švedų",
+  "rootsi"
+ ],
+ "Danish": [
+  "dāņu",
+  "датские",
+  "Danish",
+  "danų",
+  "taani"
+ ],
+ "Finnish": [
+  "somu",
+  "финские",
+  "Finnish",
+  "suomių",
+  "soome"
+ ],
+ "Estonian": [
+  "igauņu",
+  "эстонские",
+  "Estonian",
+  "estų",
+  "eesti"
+ ],
+ "Latvian": [
+  "latviešu",
+  "латышские",
+  "Latvian",
+  "latvių",
+  "läti"
+ ],
+ "Lithuanian": [
+  "lietuviešu",
+  "литовские",
+  "Lithuanian",
+  "lietuvių",
+  "leedu"
+ ],
+ "Polish": [
+  "poļu",
+  "польские",
+  "Polish",
+  "lenkų",
+  "poola"
+ ],
+ "Arabic": [
+  "arābu",
+  "арабские",
+  "Arabic",
+  "arabų",
+  "araabia"
+ ],
+ "Italian": [
+  "itāļu",
+  "итальянские",
+  "Italian",
+  "italų",
+  "itaalia"
+ ],
+ "Spanish": [
+  "spāņu",
+  "испанские",
+  "Spanish",
+  "ispanų",
+  "hispaania"
+ ],
+ "Persian": [
+  "persiešu",
+  "персидские",
+  "Persian",
+  "persų",
+  "pärsia"
+ ],
+ "Sanskrit": [
+  "sanskrita",
+  "санскритские",
+  "Sanskrit",
+  "sanskrito",
+  "sanskriti"
+ ],
+ "Old Norse": [
+  "senskandināvu",
+  "древнескандинавские",
+  "Old Norse",
+  "senovės skandinavų",
+  "vanapõhja"
+ ],
+ "Slavic": [
+  "slāvu",
+  "славянские",
+  "Slavic",
+  "slavų",
+  "slaavi"
+ ],
+ "Celtic": [
+  "ķeltu",
+  "кельтские",
+  "Celtic",
+  "keltų",
+  "keldi"
+ ],
+ "Hungarian": [
+  "ungāru",
+  "венгерские",
+  "Hungarian",
+  "vengrų",
+  "ungari"
+ ],
+ "Aramaic": [
+  "aramiešu",
+  "арамейские",
+  "Aramaic",
+  "aramėjų",
+  "aramea"
+ ],
+ "Assyrian": [
+  "asīriešu",
+  "ассирийские",
+  "Assyrian",
+  "asirų",
+  "assüüria"
+ ],
+ "Iranian": [
+  "irāņu",
+  "иранские",
+  "Iranian",
+  "iranėnų",
+  "iraani"
+ ],
+ "Czech": [
+  "čehu",
+  "чешские",
+  "Czech",
+  "čekų",
+  "tšehhi"
+ ],
+ "Scandinavian": [
+  "skandināvu",
+  "скандинавские",
+  "Scandinavian",
+  "skandinavų",
+  "skandinaavia"
+ ],
+ "Anglo-Saxon": [
+  "anglosakšu",
+  "англосаксонские",
+  "Anglo-Saxon",
+  "anglosaksų",
+  "anglosaksi"
+ ],
+ "Occitan": [
+  "oksitāņu",
+  "окситанские",
+  "Occitan",
+  "oksitanų",
+  "oksitaani"
  ]
 };
-const endings={
- ru:['Имя здесь — начало рассказа, а не инструкция к человеку.','Самая интересная часть этой истории пока не написана.','Эту главу можно продолжить совсем не так, как ожидали окружающие.','И пусть в этом рассказе будет больше жизни, чем красивых формулировок.'],
- en:['Here the name begins a story; it does not prescribe a personality.','The most interesting part of this story has not been written yet.','The next chapter may turn out quite differently from what everyone expects.','May this story contain more living than impressive wording.'],
- lv:['Vārds te sāk stāstu, nevis nosaka cilvēka raksturu.','Šī stāsta interesantākā daļa vēl nav uzrakstīta.','Nākamā nodaļa drīkst iznākt citāda, nekā apkārtējie gaida.','Lai šajā stāstā vairāk dzīves nekā skaistu formulējumu.'],
- lt:['Čia vardas pradeda pasakojimą, o ne nustato žmogaus charakterį.','Įdomiausia šios istorijos dalis dar neparašyta.','Kitas skyrius gali būti visai kitoks, nei tikisi aplinkiniai.','Tegul šiame pasakojime būna daugiau gyvenimo nei gražių formuluočių.'],
- et:['Siin alustab nimi lugu, mitte ei määra inimese iseloomu.','Selle loo kõige huvitavam osa on veel kirjutamata.','Järgmine peatükk võib tulla hoopis teistsugune, kui teised ootavad.','Olgu selles loos rohkem elu kui ilusaid sõnastusi.']
+const registryKinds={
+ "compound": [
+  "Vārds {name} veidots, savienojot divus vārda celmus.",
+  "Имя {name} сложили из двух основ.",
+  "The name {name} was made by joining two name stems.",
+  "Vardas {name} sudėtas iš dviejų kamienų.",
+  "Nimi {name} on kokku pandud kahest nimetüvest."
+ ],
+ "word": [
+  "Vārds {name} radies no ikdienā lietota vārda.",
+  "Имя {name} выросло из обычного слова.",
+  "The name {name} grew out of an everyday word.",
+  "Vardas {name} kilo iš kasdienio žodžio.",
+  "Nimi {name} kasvas välja tavalisest sõnast."
+ ],
+ "short": [
+  "Vārds {name} radies kā garāka vārda īsā forma.",
+  "Имя {name} появилось как короткая форма более длинного имени.",
+  "The name {name} began as a shorter form of a longer name.",
+  "Vardas {name} atsirado kaip trumpesnė ilgesnio vardo forma.",
+  "Nimi {name} sai alguse pikema nime lühivormina."
+ ],
+ "place": [
+  "Vārda {name} sākums meklējams kādas vietas nosaukumā.",
+  "За именем {name} стоит название места.",
+  "The name {name} began with the name of a place.",
+  "Vardo {name} pradžia slypi vietovės pavadinime.",
+  "Nime {name} taga on ühe paiga nimi."
+ ],
+ "created": [
+  "Vārds {name} ir jaunradīts personvārds.",
+  "Имя {name} когда-то придумали заново.",
+  "The name {name} was coined as a new personal name.",
+  "Vardas {name} buvo sukurtas kaip naujas asmenvardis.",
+  "Nimi {name} mõeldi välja uue isikunimena."
+ ]
+};
+const scenes={
+ "ru": [
+  "Представим книгу с именем {name} на обложке. Внутри — короткие записи о поездках, встречах и планах, которые однажды всё-таки сбылись. Между страницами лежит старый билет: напоминание о дне, когда обычная прогулка превратилась в маленькое приключение.",
+  "В этой истории {name} — подпись на обороте фотографии. Снимок получился немного смазанным: кто-то засмеялся раньше, чем сработал затвор. Его всё равно оставили в альбоме, потому что именно таким и запомнился тот день — шумным, тёплым и счастливым.",
+  "Представим мастерскую с табличкой {name} на двери. На столе лежат карандаши, деревянные детали и набросок новой вещи. К вечеру первая попытка ещё далека от замысла, зато становится понятно, как сделать следующую лучше. На завтра уже есть план.",
+  "В нашей истории маленькое кафе называется {name}. За окном идёт дождь, а у окна двое друзей допивают кофе и вспоминают общую поездку. Они собирались зайти на десять минут, но разговор затянулся. Когда дождь заканчивается, у них уже есть идея для нового путешествия.",
+  "Представим конверт с именем {name}, найденный среди старых бумаг. Внутри — список мест, куда когда-то хотелось поехать. Одно из них совсем рядом. В выходной туда наконец отправляются, а вечером дописывают в список ещё один адрес."
+ ],
+ "en": [
+  "Imagine a book with {name} on its cover. Inside are short notes about journeys, encounters and plans that finally came true. An old ticket lies between the pages, a reminder of the day an ordinary walk became a small adventure.",
+  "In this story, {name} is written on the back of a photograph. The picture is slightly blurred: someone laughed before the shutter clicked. It stays in the album because that is exactly how the day is remembered — lively, warm and happy.",
+  "Imagine a workshop with {name} on the door. Pencils, wooden pieces and a sketch of something new cover the table. By evening, the first attempt is still far from the drawing, but the next step is clear. There is already a plan for tomorrow.",
+  "In our story, a little café is called {name}. Rain falls outside while two friends finish their coffee by the window and remember a trip together. They meant to stay ten minutes, but the conversation lasts longer. By the time the rain stops, they have an idea for another journey.",
+  "Imagine an envelope addressed to {name}, found among old papers. Inside is a list of places someone once hoped to visit. One is close to home. At the weekend, the visit finally happens, and that evening another address joins the list."
+ ],
+ "lv": [
+  "Iztēlosimies grāmatu ar vārdu {name} uz vāka. Tajā ir īsas piezīmes par ceļojumiem, satikšanos un plāniem, kas beidzot piepildījušies. Starp lappusēm glabājas veca biļete, atgādinot par dienu, kad parasta pastaiga pārvērtās nelielā piedzīvojumā.",
+  "Šajā stāstā {name} ir paraksts fotogrāfijas otrā pusē. Attēls ir mazliet izplūdis: kāds iesmējās, pirms noklikšķēja fotoaparāts. Tomēr tas paliek albumā, jo tieši tāda atmiņā ir šī diena — rosīga, silta un priecīga.",
+  "Iedomāsimies darbnīcu ar uzrakstu {name} pie durvīm. Uz galda ir zīmuļi, koka detaļas un jaunas lietas skice. Vakarā pirmais mēģinājums vēl atšķiras no ieceres, taču jau ir skaidrs, kā nākamo uzlabot. Rītdienai ir plāns.",
+  "Mūsu stāstā mazu kafejnīcu sauc {name}. Aiz loga līst, bet divi draugi pie loga dzer kafiju un atceras kopīgu ceļojumu. Viņi bija iecerējuši palikt desmit minūtes, taču saruna ieilgst. Kad lietus beidzas, jau ir radusies doma par nākamo braucienu.",
+  "Iztēlosimies aploksni ar vārdu {name}, kas atrasta starp veciem papīriem. Tajā ir saraksts ar vietām, kur reiz gribējās aizbraukt. Viena atrodas pavisam netālu. Brīvdienās brauciens beidzot notiek, un vakarā sarakstam pievienojas vēl viena adrese."
+ ],
+ "lt": [
+  "Įsivaizduokime knygą su vardu {name} ant viršelio. Viduje — trumpi užrašai apie keliones, susitikimus ir pagaliau išsipildžiusius planus. Tarp puslapių guli senas bilietas, primenantis dieną, kai paprastas pasivaikščiojimas tapo mažu nuotykiu.",
+  "Šiame pasakojime {name} užrašyta kitoje nuotraukos pusėje. Vaizdas kiek neryškus: kažkas nusijuokė dar prieš spragtelint fotoaparatui. Nuotrauka vis tiek liko albume, nes būtent tokia prisimenama ta diena — šurmuliuojanti, šilta ir laiminga.",
+  "Įsivaizduokime dirbtuves su užrašu {name} ant durų. Ant stalo guli pieštukai, medinės detalės ir naujo daikto eskizas. Vakare pirmasis bandymas dar skiriasi nuo sumanymo, tačiau jau aišku, kaip kitą patobulinti. Rytojui planas parengtas.",
+  "Mūsų pasakojime maža kavinė vadinasi {name}. Už lango lyja, o du draugai prie lango geria kavą ir prisimena bendrą kelionę. Jie ketino užsukti dešimčiai minučių, bet pokalbis užsitęsė. Lietui pasibaigus, jau kyla mintis apie kitą išvyką.",
+  "Įsivaizduokime tarp senų popierių rastą voką su vardu {name}. Viduje — vietų, kurias kadaise norėjosi aplankyti, sąrašas. Viena visai netoli namų. Savaitgalį ten pagaliau nuvykstama, o vakare į sąrašą įrašomas dar vienas adresas."
+ ],
+ "et": [
+  "Kujutleme raamatut, mille kaanel on {name}. Sees on lühikesed märkmed reisidest, kohtumistest ja viimaks täitunud plaanidest. Lehtede vahel on vana pilet, mis meenutab päeva, mil tavalisest jalutuskäigust sai väike seiklus.",
+  "Selles loos on {name} kirjutatud foto tagaküljele. Pilt on pisut udune: keegi naeris enne, kui katik klõpsatas. Foto jääb ikkagi albumisse, sest just sellisena seda päeva mäletatakse — elava, sooja ja õnnelikuna.",
+  "Kujutleme töökoda, mille uksel on silt {name}. Laual on pliiatsid, puidust detailid ja uue eseme visand. Õhtuks erineb esimene katse veel kavandist, kuid juba on selge, kuidas järgmist paremaks teha. Homseks on plaan olemas.",
+  "Meie loos kannab väike kohvik nime {name}. Väljas sajab ning kaks sõpra joovad akna all kohvi ja meenutavad ühist reisi. Nad kavatsesid jääda kümneks minutiks, aga juttu jätkub kauemaks. Kui vihm lakkab, on neil juba mõte järgmiseks väljasõiduks.",
+  "Kujutleme vanade paberite vahelt leitud ümbrikku, millel on nimi {name}. Sees on nimekiri paikadest, kuhu kunagi sooviti minna. Üks neist on päris lähedal. Nädalavahetusel saab käik viimaks teoks ja õhtul lisandub nimekirja veel üks aadress."
+ ]
 };
 const wishes={
- ru:{serious:[
- '{name}, с именинами! Желаю свободы выбирать своё и смелости оставлять чужие ожидания за дверью. Пусть рядом будут люди, с которыми не нужно заслуживать право быть собой.',
- '{name}, пусть жизнь будет щедра не только на возможности, но и на время ими воспользоваться. На разговоры без спешки, любимое дело и дни, которые хочется прожить ещё раз. С именинами!',
- '{name}, желаю не безупречной жизни, а своей: с интересными планами, надёжными людьми и правом менять маршрут. Пусть важное получается, а хорошее замечается. С именинами!',
- '{name}, с именинами! Пусть успех не требует расплачиваться сном и близкими, а радость не ждёт особого повода. Желаю сил для задуманного и спокойствия там, где всё уже достаточно хорошо.',
- '{name}, желаю людей, которые радуются твоим новостям без сравнения со своими, и дел, после которых остаётся чувство смысла. Пусть у хороших перемен будет твоё имя. С праздником!',
- '{name}, пусть впереди будет больше встреч, после которых легче дышится, решений, которыми можно гордиться, и простых вечеров, ради которых всё остальное и затевается. С именинами!'
- ],humor:[
- '{name}, с именинами! Пусть жизнь будет как хорошее приложение: без рекламы чужих успехов, с кнопкой «отменить неловкость» и премиум-доступом к выходным. Подписку на счастье сегодня продлеваем за счёт заведения.',
- '{name}, сегодня у твоего имени свой праздник. У пароля от Wi-Fi, между прочим, такого нет — хотя его тоже все спрашивают. Желаю оставаться человеком, ради которого приходят в гости даже без интернета!',
- '{name}, пусть деньги ведут себя как непрочитанные сообщения: появляются сами, накапливаются быстро и никак не заканчиваются. А тревоги — как носки в стиральной машине: исчезают без объяснений. С именинами!',
- '{name}, с именинами! Желаю, чтобы внутренний критик взял отпуск, будильник потерял сеть, а холодильник освоил доставку из ресторана. Ты пока празднуй — мы объясним продуктивности, что сегодня технические работы.',
- '{name}, желаю жизни без режима «пробная версия»: отдых — полный, друзья — настоящие, торт — без водяного знака. А если судьба предложит принять файлы cookie, соглашайся только на шоколадное печенье. С именинами!',
- '{name}, сегодня можно отвечать на «есть минутка?» словами «есть праздник». Желаю, чтобы все срочные дела нашли другого адресата, а хорошие новости приходили без двухфакторной аутентификации. С именинами!',
- '{name}, пусть планы сбываются быстрее, чем телефон предлагает обновиться. Зарплата пусть растёт как число вкладок в браузере, а у проблем при попытке дозвониться всегда играет музыка ожидания. С именинами!',
- '{name}, с именинами! Пусть личные границы будут крепче упаковки от ножниц: всем понятно, что внутри что-то ценное, но без уважительной причины туда не попасть. А торт пусть, наоборот, открывается легко.',
- '{name}, желаю энергии как у человека, который пишет «доброе утро!» в рабочий чат в семь утра. Только без необходимости писать это в рабочий чат в семь утра. С именинами и законным правом поспать!'
- ]},
- en:{serious:[
- '{name}, happy name day! May you have the freedom to choose your own path and the courage to leave other people’s expectations outside. May the people beside you never make you earn the right to be yourself.',
- '{name}, may life offer both opportunities and time to enjoy them: unhurried conversations, meaningful work and days you would happily live twice. Happy name day!',
- '{name}, I wish you a life that is yours rather than perfect: interesting plans, dependable people and permission to change direction. May important things work out and good things never go unnoticed.',
- '{name}, happy name day! May success never cost your sleep or your closest relationships. May joy need no special occasion, and may you recognise when life is already good enough.',
- '{name}, may the people around you celebrate your news without comparing it to theirs. May your work leave a sense of purpose, and may the good changes ahead have your name on them.',
- '{name}, here is to encounters that help you breathe easier, decisions you can be proud of and ordinary evenings that make everything else worthwhile. Happy name day!'
- ],humor:[
- '{name}, may life work like a good app: no adverts for other people’s success, an undo button for awkward moments and premium access to weekends. Today your happiness subscription is on the house.',
- '{name}, your name gets its own holiday. Your Wi-Fi password does not, even though everyone keeps asking for that too. May people keep visiting you even when the internet is down!',
- '{name}, may money behave like unread messages: arriving on its own, piling up fast and never running out. May worries behave like socks in a washing machine: disappearing without explanation. Happy name day!',
- '{name}, may your inner critic take a holiday, your alarm lose its connection and your fridge learn to order restaurant food. You celebrate; we will tell productivity the system is down for maintenance.',
- '{name}, no trial versions today: full-length rest, genuine friends and cake without a watermark. If fate asks you to accept cookies, insist on chocolate chips. Happy name day!',
- '{name}, today the correct answer to “got a minute?” is “got a holiday”. May urgent tasks find a different inbox and good news arrive without two-factor authentication.',
- '{name}, may your plans come true faster than your phone requests updates. May your income grow like browser tabs, and may problems be put on hold every time they call. Happy name day!',
- '{name}, may your boundaries be as tough as the packaging around scissors: clearly something valuable inside, but no access without a good reason. May the cake, on the other hand, open easily.',
- '{name}, I wish you the energy of someone posting “good morning!” in the work chat at seven. Without ever having to post “good morning!” in the work chat at seven. Happy name day!'
- ]},
- lv:{serious:[
- '{name}, sveicu vārda dienā! Lai pietiek brīvības izvēlēties savu ceļu un drosmes atstāt svešas gaidas aiz durvīm. Lai blakus ir cilvēki, kuru vidū nav jānopelna tiesības būt sev.',
- '{name}, lai dzīve dāvā gan iespējas, gan laiku tās izmantot: nesteidzīgas sarunas, jēgpilnu darbu un dienas, kuras gribētos izdzīvot vēlreiz. Sveicu vārda dienā!',
- '{name}, vēlu savu, nevis nevainojamu dzīvi: interesantus plānus, uzticamus cilvēkus un tiesības mainīt virzienu. Lai svarīgais izdodas un labais nepaliek nepamanīts!',
- '{name}, sveicu vārda dienā! Lai panākumi neprasa atteikties no miega un tuvākajiem. Lai priekam nevajag īpašu iemeslu un pietiek miera pamanīt, kad viss jau ir pietiekami labi.',
- '{name}, lai blakus ir cilvēki, kuri priecājas par tavām ziņām, nesalīdzinot tās ar savām. Lai darbs atstāj jēgas sajūtu un labajām pārmaiņām ir tavs vārds!',
- '{name}, lai priekšā ir vairāk tikšanos, pēc kurām vieglāk elpot, lēmumu, ar kuriem lepoties, un vienkāršu vakaru, kuru dēļ viss pārējais ir vērts. Priecīgu vārda dienu!'
- ],humor:[
- '{name}, lai dzīve darbojas kā laba lietotne: bez svešu panākumu reklāmām, ar pogu neveiklo brīžu atcelšanai un pilnu pieeju brīvdienām. Laimes abonementu šodien pagarina uz mājas rēķina!',
- '{name}, tavam vārdam ir savi svētki. Wi-Fi parolei tādu nav, lai gan arī to visi prasa. Lai pie tevis ciemojas arī tad, kad internets nedarbojas! Sveicu vārda dienā!',
- '{name}, lai nauda uzvedas kā nelasītas ziņas: pienāk pati, krājas ātri un nebeidzas. Bet raizes lai pazūd kā zeķes veļasmašīnā — bez paskaidrojumiem. Priecīgu vārda dienu!',
- '{name}, lai iekšējais kritiķis dodas atvaļinājumā, modinātājam pazūd sakari un ledusskapis iemācās pasūtīt ēdienu no restorāna. Tu svini, mēs pateiksim produktivitātei, ka sistēmai ir apkope!',
- '{name}, šodien nekādu izmēģinājuma versiju: atpūta pilnā apjomā, draugi īsti un torte bez ūdenszīmes. Ja liktenis prasa piekrist sīkdatnēm, piekrīti tikai šokolādes cepumiem!',
- '{name}, uz jautājumu «ir minūtīte?» šodien drīkst atbildēt «ir svētki». Lai steidzamie darbi atrod citu adresātu, bet labās ziņas pienāk bez divpakāpju autentifikācijas!',
- '{name}, lai plāni piepildās ātrāk, nekā tālrunis prasa atjauninājumu. Alga lai aug kā atvērto pārlūka cilņu skaits, bet problēmām, zvanot tev, vienmēr skan gaidīšanas mūzika!',
- '{name}, lai personīgās robežas ir tikpat izturīgas kā šķēru iepakojums: iekšā acīmredzami ir kas vērtīgs, bet bez laba iemesla klāt netikt. Torte lai, gluži otrādi, atveras viegli!',
- '{name}, vēlu tik daudz enerģijas kā cilvēkam, kurš septiņos darba čatā raksta «labrīt!». Tikai bez vajadzības septiņos kaut ko rakstīt darba čatā. Priecīgu vārda dienu!'
- ]},
- lt:{serious:[
- '{name}, su vardadieniu! Linkiu laisvės rinktis savo kelią ir drąsos svetimus lūkesčius palikti už durų. Tegul šalia būna žmonės, su kuriais nereikia užsitarnauti teisės būti savimi.',
- '{name}, tegul gyvenimas dovanoja ne tik galimybių, bet ir laiko jomis pasinaudoti: neskubių pokalbių, prasmingo darbo ir dienų, kurias norėtųsi išgyventi dar kartą. Su vardadieniu!',
- '{name}, linkiu ne tobulo, o savo gyvenimo: įdomių planų, patikimų žmonių ir teisės keisti kryptį. Tegul svarbūs dalykai pavyksta, o geri nelieka nepastebėti!',
- '{name}, su vardadieniu! Tegul sėkmė nereikalauja atsisakyti miego ir artimųjų, o džiaugsmas nelaukia ypatingos progos. Linkiu jėgų sumanymams ir ramybės ten, kur jau pakankamai gerai.',
- '{name}, linkiu žmonių, kurie džiaugiasi tavo naujienomis, nelygindami jų su savosiomis, ir darbų, po kurių lieka prasmės jausmas. Tegul geros permainos turi tavo vardą!',
- '{name}, tegul laukia daugiau susitikimų, po kurių lengviau kvėpuoti, sprendimų, kuriais galima didžiuotis, ir paprastų vakarų, dėl kurių visa kita verta pastangų. Su vardadieniu!'
- ],humor:[
- '{name}, tegul gyvenimas veikia kaip gera programėlė: be svetimos sėkmės reklamų, su mygtuku nejaukumui atšaukti ir neribota prieiga prie savaitgalių. Laimės prenumeratą šiandien apmoka įstaiga!',
- '{name}, tavo vardas turi savo šventę. Wi-Fi slaptažodis tokios neturi, nors jo irgi visi klausia. Linkiu, kad svečiai pas tave ateitų net neveikiant internetui!',
- '{name}, tegul pinigai elgiasi kaip neperskaitytos žinutės: ateina patys, greitai kaupiasi ir nesibaigia. O rūpesčiai tegul dingsta kaip kojinės skalbyklėje — be paaiškinimo. Su vardadieniu!',
- '{name}, tegul vidinis kritikas išeina atostogų, žadintuvas praranda ryšį, o šaldytuvas išmoksta užsakyti maistą iš restorano. Tu švęsk, mes pasakysime produktyvumui, kad vyksta sistemos priežiūra!',
- '{name}, šiandien jokių bandomųjų versijų: poilsis visas, draugai tikri, tortas be vandens ženklo. Jei likimas siūlo priimti slapukus, sutik tik su šokoladiniais sausainiais!',
- '{name}, į klausimą «turi minutę?» šiandien galima atsakyti «turiu šventę». Tegul skubūs darbai randa kitą adresatą, o geros naujienos ateina be dviejų veiksnių autentifikavimo!',
- '{name}, tegul planai pildosi greičiau, nei telefonas siūlo atnaujinimą. Atlyginimas tegul auga kaip atvertų naršyklės kortelių skaičius, o problemoms paskambinus visada groja laukimo muzika!',
- '{name}, tegul asmeninės ribos būna tvirtos kaip žirklių pakuotė: viduje aiškiai yra kažkas vertinga, bet be geros priežasties nepasieksi. O tortas, priešingai, tegul atsidaro lengvai!',
- '{name}, linkiu tiek energijos, kiek turi žmogus, septintą ryto darbo pokalbyje rašantis «labas rytas!». Tik be būtinybės septintą ką nors rašyti darbo pokalbyje. Su vardadieniu!'
- ]},
- et:{serious:[
- '{name}, head nimepäeva! Soovin vabadust valida oma tee ja julgust jätta teiste ootused ukse taha. Olgu kõrval inimesed, kelle seltsis ei pea välja teenima õigust olla sina ise.',
- '{name}, pakkugu elu nii võimalusi kui ka aega neid nautida: kiirustamata vestlusi, tähenduslikku tööd ja päevi, mida tahaks uuesti elada. Head nimepäeva!',
- '{name}, soovin sulle täiusliku asemel oma elu: huvitavaid plaane, usaldusväärseid inimesi ja õigust suunda muuta. Õnnestugu tähtsad asjad ja ärgu hea jäägu märkamata!',
- '{name}, head nimepäeva! Ärgu edu nõudku loobumist unest ja lähedastest ning ärgu rõõm oodaku erilist põhjust. Soovin jõudu plaanideks ja rahu seal, kus kõik on juba piisavalt hästi.',
- '{name}, olgu su kõrval inimesed, kes rõõmustavad su uudiste üle neid enda omadega võrdlemata. Jätku töö tähenduse tunde ja kandku head muutused sinu nime!',
- '{name}, olgu ees rohkem kohtumisi, mille järel on kergem hingata, otsuseid, mille üle uhke olla, ja tavalisi õhtuid, mille pärast kõik muu üldse vaeva väärt on. Head nimepäeva!'
- ],humor:[
- '{name}, toimigu elu nagu hea rakendus: ilma teiste edu reklaamita, piinlike hetkede tagasivõtmise nupuga ja piiramatu ligipääsuga nädalavahetustele. Õnne tellimuse pikendab täna asutus!',
- '{name}, su nimel on oma püha. Wi-Fi paroolil ei ole, kuigi ka seda küsivad kõik. Soovin, et inimesed tuleksid sulle külla ka siis, kui internet ei tööta!',
- '{name}, käitugu raha nagu lugemata sõnumid: saabugu ise, kogunegu kiiresti ja ärgu lõppegu. Mured aga kadugu nagu sokid pesumasinas — selgitusi andmata. Head nimepäeva!',
- '{name}, mingu sisemine kriitik puhkusele, kaotagu äratuskell ühenduse ja õppigu külmik restoranist toitu tellima. Sina tähista; meie ütleme tootlikkusele, et süsteemis on hooldustööd!',
- '{name}, täna pole prooviversioone: puhkus täies pikkuses, päris sõbrad ja vesimärgita tort. Kui saatus palub küpsistega nõustuda, nõustu ainult šokolaadiküpsistega!',
- '{name}, küsimusele «on sul minut?» võib täna vastata «mul on püha». Leidku kiireloomulised tööd teine aadress ja saabugu head uudised kaheastmelise autentimiseta!',
- '{name}, täitugu plaanid kiiremini, kui telefon uuendusi pakub. Kasvagu palk nagu brauseri vahekaartide arv ja mängigu probleemidele helistades alati ootejärjekorra muusika!',
- '{name}, olgu isiklikud piirid sama tugevad kui kääride pakend: sees on selgelt midagi väärtuslikku, aga mõjuva põhjuseta ligi ei pääse. Tort seevastu avanegu kergesti!',
- '{name}, soovin sulle selle inimese energiat, kes kell seitse hommikul töövestlusesse «tere hommikust!» kirjutab. Ainult ilma vajaduseta kell seitse töövestlusesse midagi kirjutada. Head nimepäeva!'
- ]}
+ "ru": {
+  "serious": [
+   "{name}, с именинами! Пусть будет кому позвонить с хорошей новостью, с кем посмеяться и к кому прийти просто так. Желаю тёплого дома и людей, рядом с которыми легко.",
+   "{name}, желаю времени на всё, что любишь: на долгий завтрак, прогулку без маршрута и разговор, который не хочется заканчивать. Пусть таких дней будет больше. С именинами!",
+   "{name}, с именинами! Пусть задуманное получается, а рядом будут люди, которые поддержат и порадуются вместе с тобой. И пусть сегодня обязательно случится что-нибудь приятное.",
+   "{name}, желаю просыпаться с хорошими планами и возвращаться туда, где тебя ждут. Пусть хватает сил на любимое дело, а после него остаётся время на жизнь. С праздником!",
+   "{name}, пусть впереди будет поездка, которую давно хотелось устроить, встреча, которой ждёшь, и хорошая новость без особого повода. С именинами!",
+   "{name}, с именинами! Желаю здоровья, спокойных вечеров и побольше поводов собираться за одним столом. Пусть близкие чаще говорят вслух, как ты им дорог."
+  ],
+  "humor": [
+   "{name}, с именинами! Сегодня все срочные дела получают новое имя — «Завтра». А тебе достаются торт, поздравления и право первым выбрать самый большой кусок.",
+   "{name}, у твоего имени сегодня праздник. Предлагаю отметить это так, чтобы завтра холодильник мог рассказать: «Да, было весело. Нет, торта не осталось».",
+   "{name}, пусть деньги находят дорогу к тебе так же уверенно, как гости — к запаху пирога. А проблемы пусть хотя бы раз перепутают адрес. С именинами!",
+   "{name}, с именинами! Пусть будильник проспит, кофе сварится сам, а человек с вопросом «можно на минутку?» принесёт с собой подарок.",
+   "{name}, желаю столько хороших новостей, чтобы телефон уставал раньше тебя. И столько свободного времени, чтобы наконец прочитать их не на бегу. С праздником!",
+   "{name}, сегодня можно брать добавку и говорить: «Это в честь имени». Если кто-то спросит, при чём здесь третья порция, отвечай: имя красивое, повод серьёзный. С именинами!"
+  ]
+ },
+ "en": {
+  "serious": [
+   "{name}, happy name day! May there always be someone to call with good news, someone to laugh with and a door you can knock on just because. Here’s to a warm home and people who make you feel at ease.",
+   "{name}, I wish you time for what you love: a long breakfast, a walk with no route and a conversation you never want to end. May there be more days like that. Happy name day!",
+   "{name}, happy name day! May your plans work out, with people beside you who help along the way and celebrate with you. And may something lovely happen today.",
+   "{name}, may you wake up with plans to look forward to and come home to people glad to see you. May your favourite work leave you energy for the rest of life. Happy name day!",
+   "{name}, here’s to the trip you’ve been meaning to take, a reunion you’re looking forward to and good news on an ordinary day. Happy name day!",
+   "{name}, happy name day! I wish you good health, peaceful evenings and plenty of reasons to gather around one table. May the people you love tell you often how much you mean to them."
+  ],
+  "humor": [
+   "{name}, happy name day! Every urgent task has a new name today: Tomorrow. You get the cake, the greetings and first choice of the biggest slice.",
+   "{name}, your name has its own holiday. Let’s celebrate until the fridge can report tomorrow: “Yes, it was fun. No, there’s no cake left.”",
+   "{name}, may money find you as easily as guests find a freshly baked pie. May problems get the address wrong for once. Happy name day!",
+   "{name}, happy name day! May your alarm oversleep, your coffee make itself and anyone asking for a quick minute bring a present.",
+   "{name}, may you get so much good news that your phone gets tired before you do. And enough free time to read it sitting down. Happy name day!",
+   "{name}, today you can ask for seconds and say it’s in honour of your name. If anyone questions the third helping, explain that a lovely name deserves a proper celebration. Happy name day!"
+  ]
+ },
+ "lv": {
+  "serious": [
+   "{name}, sveicu vārda dienā! Lai vienmēr ir kam piezvanīt ar labām ziņām, ar ko pasmieties un pie kā iegriezties tāpat vien. Vēlu siltas mājas un cilvēkus, kuru tuvumā ir viegli būt.",
+   "{name}, vēlu laiku visam mīļajam: garām brokastīm, pastaigai bez maršruta un sarunai, kuru negribas beigt. Lai šādu dienu ir vairāk. Priecīgu vārda dienu!",
+   "{name}, sveicu vārda dienā! Lai iecerētais izdodas un blakus ir cilvēki, kuri palīdz un priecājas kopā ar tevi. Lai šodien noteikti notiek kas patīkams.",
+   "{name}, lai no rīta gaida labi plāni un vakarā — mājas, kur tevi priecājas redzēt. Lai pietiek spēka mīļajam darbam un pēc tā paliek laiks arī dzīvei. Priecīgus svētkus!",
+   "{name}, lai priekšā ir sen iecerēts ceļojums, gaidīta tikšanās un laba ziņa pavisam parastā dienā. Priecīgu vārda dienu!",
+   "{name}, sveicu vārda dienā! Vēlu veselību, mierīgus vakarus un vairāk iemeslu sanākt pie viena galda. Lai tuvie biežāk pasaka, cik daudz tu viņiem nozīmē."
+  ],
+  "humor": [
+   "{name}, sveicu vārda dienā! Visi steidzamie darbi šodien iegūst jaunu vārdu — «Rīt». Tev pienākas torte, sveicieni un tiesības pirmajam izvēlēties lielāko gabalu.",
+   "{name}, tavam vārdam šodien ir svētki. Nosvinēsim tā, lai ledusskapis rīt varētu ziņot: «Jā, bija jautri. Nē, tortes vairs nav.»",
+   "{name}, lai nauda atrod ceļu pie tevis tikpat droši kā viesi pie svaigi cepta pīrāga. Bet problēmas lai kaut reizi sajauc adresi. Priecīgu vārda dienu!",
+   "{name}, sveicu vārda dienā! Lai modinātājs aizguļas, kafija uzvārās pati un cilvēks ar jautājumu «var uz minūtīti?» atnes dāvanu.",
+   "{name}, vēlu tik daudz labu ziņu, lai tālrunis nogurst ātrāk par tevi. Un tik daudz brīva laika, lai tās beidzot var izlasīt nesteidzoties. Priecīgus svētkus!",
+   "{name}, šodien drīkst prasīt papildporciju un teikt: «Tas par godu vārdam.» Ja kāds jautā par trešo porciju, atbilde vienkārša: skaists vārds pelna kārtīgus svētkus. Priecīgu vārda dienu!"
+  ]
+ },
+ "lt": {
+  "serious": [
+   "{name}, su vardadieniu! Tegul visada yra kam paskambinti su gera naujiena, su kuo pasijuokti ir pas ką užsukti šiaip sau. Linkiu šiltų namų ir žmonių, šalia kurių lengva būti.",
+   "{name}, linkiu laiko viskam, ką mėgsti: ilgiems pusryčiams, pasivaikščiojimui be maršruto ir pokalbiui, kurio nesinori baigti. Tegul tokių dienų būna daugiau. Su vardadieniu!",
+   "{name}, su vardadieniu! Tegul sumanymai pavyksta, o šalia būna žmonės, kurie padės ir pasidžiaugs kartu. Ir tegul šiandien būtinai nutinka kas nors malonaus.",
+   "{name}, linkiu pabusti su gerais planais ir grįžti ten, kur tavęs laukia. Tegul užtenka jėgų mėgstamam darbui, o po jo lieka laiko gyvenimui. Su švente!",
+   "{name}, tegul laukia seniai planuota kelionė, išsiilgtas susitikimas ir gera naujiena visai paprastą dieną. Su vardadieniu!",
+   "{name}, su vardadieniu! Linkiu sveikatos, ramių vakarų ir daugiau progų susėsti prie vieno stalo. Tegul artimieji dažniau pasako, kiek daug jiems reiški."
+  ],
+  "humor": [
+   "{name}, su vardadieniu! Visi skubūs darbai šiandien gauna naują vardą — «Rytoj». Tau tenka tortas, sveikinimai ir teisė pirmiausia išsirinkti didžiausią gabalą.",
+   "{name}, tavo vardas šiandien švenčia. Atšvęskime taip, kad šaldytuvas rytoj galėtų pranešti: «Taip, buvo linksma. Ne, torto nebeliko.»",
+   "{name}, tegul pinigai randa kelią pas tave taip užtikrintai, kaip svečiai randa ką tik iškeptą pyragą. O problemos tegul bent kartą supainioja adresą. Su vardadieniu!",
+   "{name}, su vardadieniu! Tegul žadintuvas pramiega, kava išsiverda pati, o žmogus su klausimu «galima minutėlei?» atsineša dovaną.",
+   "{name}, linkiu tiek gerų naujienų, kad telefonas pavargtų anksčiau už tave. Ir tiek laisvo laiko, kad jas pagaliau perskaitytum neskubant. Su švente!",
+   "{name}, šiandien galima prašyti pakartoti ir sakyti: «Čia vardo garbei.» Jei kas paklaustų apie trečią porciją, paaiškink: gražus vardas vertas rimtos šventės. Su vardadieniu!"
+  ]
+ },
+ "et": {
+  "serious": [
+   "{name}, head nimepäeva! Olgu alati keegi, kellele hea uudisega helistada, kellega naerda ja kelle juurde niisama sisse astuda. Soovin sooja kodu ja inimesi, kelle kõrval on kerge olla.",
+   "{name}, soovin aega kõigele, mida armastad: pikale hommikusöögile, sihita jalutuskäigule ja vestlusele, mida ei taha lõpetada. Olgu selliseid päevi rohkem. Head nimepäeva!",
+   "{name}, head nimepäeva! Mingu plaanid korda ja olgu kõrval inimesed, kes aitavad ning rõõmustavad koos sinuga. Ja juhtugu täna kindlasti midagi toredat.",
+   "{name}, soovin hommikuid heade plaanidega ja õhtuid kodus, kus sind oodatakse. Jätkugu jõudu lemmiktööks ning pärast seda aega ka muuks eluks. Ilusat pidupäeva!",
+   "{name}, olgu ees ammu plaanitud reis, oodatud kohtumine ja hea uudis täiesti tavalisel päeval. Head nimepäeva!",
+   "{name}, head nimepäeva! Soovin tervist, rahulikke õhtuid ja rohkem põhjusi ühe laua ümber koguneda. Öelgu lähedased sagedamini, kui palju sa neile tähendad."
+  ],
+  "humor": [
+   "{name}, head nimepäeva! Kõik kiired tööd saavad täna uue nime — «Homme». Sulle jäävad tort, õnnesoovid ja õigus valida esimesena kõige suurem tükk.",
+   "{name}, su nimel on täna pidupäev. Tähistame nii, et külmik saaks homme teatada: «Jah, lõbus oli. Ei, torti enam pole.»",
+   "{name}, leidku raha tee sinuni sama kindlalt kui külalised värske piruka lõhnani. Probleemid võiksid vähemalt kord aadressiga eksida. Head nimepäeva!",
+   "{name}, head nimepäeva! Magagu äratuskell sisse, valmigu kohv ise ja toogu inimene küsimusega «kas tohib korraks?» kaasa kingituse.",
+   "{name}, soovin nii palju häid uudiseid, et telefon väsiks enne sind. Ja nii palju vaba aega, et saaksid neid lõpuks rahulikult lugeda. Ilusat pidupäeva!",
+   "{name}, täna võib lisa küsida ja öelda: «See on mu nime auks.» Kui keegi kolmanda portsjoni kohta küsib, selgita: ilus nimi väärib korralikku pidu. Head nimepäeva!"
+  ]
+ }
 };
 const special={
- leo:{
-  ru:'Греческое Leon и латинское Leo объединяет значение «лев». Эти родственные формы прошли через разные европейские языки; имя носили раннехристианские святые и римские папы, а в литературе хорошо известна форма Leo Tolstoy. Короткое имя сохранило большой образ — без обязанности рычать: в современной истории львиная сила вполне может означать спокойствие и умение защитить важное.',
-  en:'Greek Leon and Latin Leo share the meaning “lion”. These related forms travelled through European languages; early Christian saints and popes bore the name, and literature knows the form Leo Tolstoy. A short name kept a large image, with no obligation to roar: in a contemporary story, a lion’s strength can mean remaining calm and protecting what matters.',
-  lv:'Grieķu Leon un latīņu Leo vieno nozīme «lauva». Radniecīgās formas izplatījās Eiropas valodās; vārdu nesa agrīnās kristietības svētie un pāvesti, bet literatūrā pazīstama forma Leo Tolstoy. Īss vārds saglabājis lielu tēlu — bez pienākuma rūkt: mūsdienu stāstā lauvas spēks var būt miers un prasme pasargāt svarīgo.',
-  lt:'Graikišką Leon ir lotynišką Leo vienija reikšmė «liūtas». Giminingos formos pasklido Europos kalbose; vardą turėjo ankstyvosios krikščionybės šventieji ir popiežiai, o literatūroje žinoma forma Leo Tolstoy. Trumpas vardas išsaugojo didelį vaizdinį, bet ne pareigą riaumoti: šiuolaikiniame pasakojime liūto stiprybė gali reikšti ramybę ir gebėjimą saugoti svarbius dalykus.',
-  et:'Kreeka Leon ja ladina Leo jagavad tähendust «lõvi». Sugulasvormid levisid Euroopa keeltes; nime kandsid varakristlikud pühakud ja paavstid ning kirjanduses on tuntud kuju Leo Tolstoy. Lühike nimi säilitas suure kujundi, ilma kohustuseta möirata: tänapäevases loos võib lõvi jõud tähendada rahulikuks jäämist ja olulise kaitsmist.'
+ "leo": {
+  "ru": "Греческое Leon и латинское Leo означают «лев». Эти родственные формы распространились в европейских языках. Имя носили раннехристианские святые и римские папы.",
+  "en": "Greek Leon and Latin Leo mean “lion”. These related forms spread through European languages. Early Christian saints and popes bore the name.",
+  "lv": "Grieķu Leon un latīņu Leo nozīmē «lauva». Šīs radniecīgās formas izplatījās Eiropas valodās. Vārdu nesa agrīnās kristietības svētie un pāvesti.",
+  "lt": "Graikiškas Leon ir lotyniškas Leo reiškia «liūtas». Šios giminingos formos paplito Europos kalbose. Vardą turėjo ankstyvosios krikščionybės šventieji ir popiežiai.",
+  "et": "Kreeka Leon ja ladina Leo tähendavad «lõvi». Need sugulasvormid levisid Euroopa keeltes. Nime kandsid varakristlikud pühakud ja paavstid."
  },
- charlotte:{
-  ru:'История этой формы ведёт к французскому Charlotte — уменьшительной женской форме Charles. В Британии имя появилось в XVII веке; в XVIII его носила королева Шарлотта, а в XIX Шарлотта Бронте сделала его частью литературной истории. Сегодня в одном имени встречаются дворец, роман и обычная подпись в чате — редкий случай, когда классика спокойно живёт в настоящем.',
-  en:'This form belongs to the family of French Charlotte, a feminine diminutive of Charles. The name reached Britain in the seventeenth century, belonged to Queen Charlotte in the eighteenth, and entered literary history through Charlotte Brontë in the nineteenth. A palace, a novel and an everyday chat signature now share the same name: a classic quite at home in the present.',
-  lv:'Šīs formas stāsts ved pie franču Charlotte — vārda Charles sieviešu dzimtes pamazināmās formas. Britānijā vārds ienāca 17. gadsimtā, 18. gadsimtā to nesa karaliene Šarlote, bet 19. gadsimtā Šarlote Brontē to ierakstīja literatūras vēsturē. Pilij, romānam un parakstam ikdienas sarakstē nu ir kopīgs vārds: klasika, kas labi jūtas tagadnē.',
-  lt:'Šios formos istorija veda prie prancūziško Charlotte — moteriškos mažybinės vardo Charles formos. Britaniją vardas pasiekė XVII amžiuje, XVIII amžiuje jį turėjo karalienė Šarlotė, o XIX amžiuje Charlotte Brontë įrašė jį į literatūros istoriją. Rūmai, romanas ir kasdienis parašas pokalbyje dalijasi vienu vardu: klasika, kuri gerai jaučiasi dabartyje.',
-  et:'Selle nimekuju lugu viib prantsuse nimeni Charlotte, mis on Charlesi naissoost hellitusvorm. Briti saartele jõudis nimi 17. sajandil, 18. sajandil kandis seda kuninganna Charlotte ja 19. sajandil viis Charlotte Brontë selle kirjanduslukku. Loss, romaan ja igapäevane allkiri vestluses jagavad nüüd sama nime: klassika, mis tunneb end olevikus koduselt.'
+ "charlotte": {
+  "ru": "Путь имени {name} ведёт во Францию, к Charlotte — женской уменьшительной форме Charles. В XVII веке имя добралось до Британии. Позднее его носили королева Шарлотта и писательница Шарлотта Бронте: одна оставила след в истории двора, другая — на книжных полках.",
+  "en": "The story of {name} leads to France and Charlotte, a feminine diminutive of Charles. The name reached Britain in the seventeenth century. Later came Queen Charlotte and the writer Charlotte Brontë: one left her mark at court, the other on bookshelves.",
+  "lv": "Vārda {name} ceļš ved uz Franciju, pie Charlotte — vārda Charles sieviešu pamazināmās formas. Britānijā tas nonāca 17. gadsimtā. Vēlāk to nesa karaliene Šarlote un rakstniece Šarlote Brontē: viena atstāja pēdas galma vēsturē, otra — grāmatu plauktos.",
+  "lt": "Vardo {name} kelias veda į Prancūziją, prie Charlotte — moteriškos mažybinės Charles formos. Britaniją vardas pasiekė XVII amžiuje. Vėliau jį turėjo karalienė Šarlotė ir rašytoja Charlotte Brontë: viena paliko pėdsaką rūmų istorijoje, kita — knygų lentynose.",
+  "et": "Nime {name} tee viib Prantsusmaale ja Charlotte’ini, Charlesi naissoost hellitusvormini. Briti saartele jõudis nimi 17. sajandil. Hiljem kandsid seda kuninganna Charlotte ja kirjanik Charlotte Brontë: üks jättis jälje õukonnalukku, teine raamaturiiulitele."
  },
- leonard:{
-  ru:'В семье Leonard / Leonhard встречаются два образа: лев и твёрдость. Древнегерманские элементы имени обычно передают как «храбрый лев». В Европе имя было известно уже в Средние века; итальянская форма Leonardo напоминает о да Винчи. Это не обещание врождённой смелости, а хороший исторический образ: сила может проявляться и в том, чтобы построить, исследовать или придумать новое.',
-  en:'The Leonard / Leonhard family brings together the images of a lion and firmness. Its Old German elements are commonly interpreted as “brave lion”. The name was used in medieval Europe; the Italian form Leonardo recalls da Vinci. This promises no inborn bravery: it is a historical image of strength that can also mean building, investigating or imagining something new.',
-  lv:'Leonard / Leonhard vārdu saimē sastopas lauva un stingrība. Senģermāņu cilmes daļas parasti skaidro kā «drosmīgs lauva». Eiropā vārdu lietoja jau viduslaikos, bet itāļu forma Leonardo atgādina par da Vinči. Tas nesola iedzimtu drosmi: vēsturiskais tēls ļauj spēku saskatīt arī celšanā, pētīšanā un jaunā izdomāšanā.',
-  lt:'Leonard / Leonhard vardų šeimoje susitinka liūtas ir tvirtumas. Senosios germanų kilmės dalys paprastai aiškinamos kaip «drąsus liūtas». Europoje vardas vartotas viduramžiais, o itališka forma Leonardo primena da Vinci. Tai nežada įgimtos drąsos: istorinis vaizdinys leidžia stiprybę matyti ir kuriant, tyrinėjant ar sumanant ką nors naujo.',
-  et:'Leonardi / Leonhardi nimeperekonnas kohtuvad lõvi ja kindlus. Vanagermaani nimeosi tõlgendatakse tavaliselt kui «vapper lõvi». Euroopas kasutati nime juba keskajal, itaalia kuju Leonardo meenutab da Vincit. See ei luba kaasasündinud vaprust: ajalooline kujund aitab näha jõudu ka ehitamises, uurimises ja millegi uue väljamõtlemises.'
+ "leonard": {
+  "ru": "В имени {name} встретились лев и храбрость. Его старые германские корни обычно читают как «храбрый лев». Имя знали в Европе ещё в Средние века, а его итальянскую форму Leonardo прославил Леонардо да Винчи.",
+  "en": "A lion and bravery meet in the name {name}. Its old German roots are usually read as “brave lion”. The name was known in medieval Europe; Leonardo da Vinci made its Italian form, Leonardo, famous.",
+  "lv": "Vārdā {name} satiekas lauva un drosme. Tā senās ģermāņu saknes parasti skaidro kā «drosmīgs lauva». Eiropā vārdu pazina jau viduslaikos, bet itāļu formu Leonardo slavenu darīja Leonardo da Vinči.",
+  "lt": "Varde {name} susitinka liūtas ir drąsa. Jo senosios germanų šaknys paprastai aiškinamos kaip «drąsus liūtas». Europoje vardą žinojo dar viduramžiais, o itališką formą Leonardo išgarsino Leonardo da Vinci.",
+  "et": "Nimes {name} kohtuvad lõvi ja vaprus. Selle vanu germaani juuri tõlgendatakse tavaliselt kui «vapper lõvi». Nime tunti Euroopas juba keskajal ning selle itaalia kuju Leonardo tegi kuulsaks Leonardo da Vinci."
+ },
+ "alexandra": {
+  "ru": "История имени {name} начинается в Древней Греции. Его греческая форма — Alexandra, женская пара к Alexander, а смысл обычно передают как «защитница людей». Позднее имя носила британская королева Александра, жена Эдуарда VII. Она любила фотографировать близких и в 1908 году выпустила альбом своих снимков в помощь благотворительности.",
+  "en": "The story of {name} begins in Ancient Greece. Its Greek form, Alexandra, is the feminine counterpart of Alexander, usually understood as “defender of people”. A later bearer was Queen Alexandra, wife of Edward VII. She enjoyed photographing family and friends and published an album of her pictures for charity in 1908.",
+  "lv": "Vārda {name} stāsts sākas Senajā Grieķijā. Grieķu Alexandra ir vārda Alexander sieviešu forma, kuras nozīmi parasti skaidro kā «cilvēku aizstāve». Vēlāk šo vārdu nesa britu karaliene Aleksandra, Edvarda VII sieva. Viņa labprāt fotografēja tuviniekus un 1908. gadā izdeva savu fotogrāfiju albumu labdarībai.",
+  "lt": "Vardo {name} istorija prasideda Senovės Graikijoje. Graikiškas Alexandra yra moteriška Alexander forma, kurios reikšmė paprastai aiškinama kaip «žmonių gynėja». Vėliau šį vardą turėjo britų karalienė Aleksandra, Edvardo VII žmona. Ji mėgo fotografuoti artimuosius ir 1908 metais išleido savo nuotraukų albumą labdarai.",
+  "et": "Nime {name} lugu algab Vana-Kreekast. Kreeka Alexandra on Alexanderi naissoost vaste ja selle tähendust selgitatakse tavaliselt kui «inimeste kaitsja». Hiljem kandis nime Briti kuninganna Alexandra, Edward VII abikaasa. Ta armastas lähedasi pildistada ning avaldas 1908. aastal oma fotodest heategevusliku albumi."
  }
 };
 function fill(value,name){return value.replaceAll('{name}',name);}
@@ -199,21 +664,24 @@ const familyHumor={
  leonard:{ru:'{name}, твоему имени достался «храбрый лев». Желаю, чтобы львиная доля зарплаты оставалась тебе, а не коммунальным службам, и чтобы слово «прайд» означало круг друзей, а не совещание в понедельник. С именинами!',en:'{name}, your name inherited a brave lion. May the lion’s share of your income stay with you rather than the utility companies, and may your pride mean friends around a table, never a Monday meeting. Happy name day!',lv:'{name}, tavam vārdam ticis «drosmīgs lauva». Lai algas lauvas tiesa paliek tev, nevis komunālajiem pakalpojumiem, un lauvu bars lai nozīmē draugus pie galda, nevis pirmdienas sapulci. Priecīgu vārda dienu!',lt:'{name}, tavo vardui teko «drąsus liūtas». Linkiu, kad liūto dalis atlyginimo liktų tau, o ne komunalinėms įmonėms, ir liūtų būrys reikštų draugus prie stalo, o ne pirmadienio susirinkimą. Su vardadieniu!',et:'{name}, su nimi päris vapra lõvi. Jäägu lõviosa palgast sulle, mitte kommunaalfirmadele, ja tähendagu lõvikari sõpru laua ümber, mitte esmaspäevast koosolekut. Head nimepäeva!'}
 };
 export function describeName(profile,requested='en',variant=0){
- const lang=LANGUAGES.includes(requested)?requested:'en',i=LANGUAGES.indexOf(lang),seed=hash(profile.key),name=profile.name;
+ const lang=LANGUAGES.includes(requested)?requested:'en',i=LANGUAGES.indexOf(lang),seed=hash(nameIdentity(profile.name)),name=profile.name;
  const facts=profile.facts||{},paragraphs=[];
- if(special[profile.family])paragraphs.push(special[profile.family][lang]);
+ if(special[profile.family])paragraphs.push(fill(special[profile.family][lang],name));
  else{
-  if(facts.origins?.length)paragraphs.push(text(lang,'origin',{name,origins:facts.origins.map(o=>traditions[o]?.[i]||o).join(', ')}));
-  if(facts.registry_kind&&registryKinds[facts.registry_kind])paragraphs.push(text(lang,'registry',{name,kind:registryKinds[facts.registry_kind][i]}));
+  if(facts.origins?.length)paragraphs.push(text(lang,'origin',{name,origins:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.origins.map(o=>traditions[o]?.[i]||o))}));
+  if(facts.registry_kind&&registryKinds[facts.registry_kind])paragraphs.push(fill(registryKinds[facts.registry_kind][i],name));
  }
- if(facts.first_recorded){const century=/\b(\d{1,2})(?:st|nd|rd|th) century/.exec(facts.first_recorded),year=/\b(\d{3,4})\b/.exec(facts.first_recorded);if(century||year)paragraphs.push(text(lang,'recorded',{date:century?text(lang,'century',{n:century[1]}):text(lang,'inYear',{year:year[1]})}));}
+ const person=profile.people?.[0];
+ if(person&&!special[profile.family])paragraphs.push(text(lang,person.match==='related_form'?'relatedNamesake':'namesake',{person:person.labels?.[lang]||person.name,role:roleLabel(person.role,lang)}));
+ let attestation=null;
+ if(facts.first_recorded){const century=/\b(\d{1,2})(?:st|nd|rd|th) century/i.exec(facts.first_recorded),year=/\b(\d{3,4})\b/.exec(facts.first_recorded);if(century||year)attestation={date:century?text(lang,'century',{n:century[1]}):text(lang,'inYear',{year:year[1]}),form:facts.first_recorded_form||name};}
  const related=(facts.related||[]).filter(n=>n!==name).slice(0,3);
- if(related.length)paragraphs.push(text(lang,'related',{names:related.join(', ')}));
- const scene=fill(scenes[lang][seed%scenes[lang].length],name)+' '+endings[lang][Math.floor(seed/17)%endings[lang].length];
+ if(related.length)paragraphs.push(text(lang,'related',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(related)}));
+ const scene=fill(scenes[lang][seed%scenes[lang].length],name);
  const wishIndex=(seed+variant)>>>0;
  const greetings=Object.fromEntries(['serious','humor'].map(mood=>[mood,Array.from({length:3},(_,n)=>fill(wishes[lang][mood][(wishIndex+n)%wishes[lang][mood].length],name))]));
  if(familyHumor[profile.family])greetings.humor[0]=fill(familyHumor[profile.family][lang],name);
- return{kind:paragraphs.length?'documented':'creative',history:paragraphs,story:scene,wishes:greetings};
+ return{kind:paragraphs.length||attestation?'documented':'creative',history:paragraphs.length?[paragraphs.join(' ')]:[],attestation,story:scene,wishes:greetings};
 }
 export const ROLE_LABELS={
  writer:['rakstnieks','писатель','writer','rašytojas','kirjanik'],poet:['dzejnieks','поэт','poet','poetas','luuletaja'],actor:['kino un teātra mākslinieks','актёр','actor','aktorius','näitleja'],musician:['mūziķis','музыкант','musician','muzikantas','muusik'],composer:['komponists','композитор','composer','kompozitorius','helilooja'],athlete:['sportists','спортсмен','athlete','sportininkas','sportlane'],scientist:['zinātnieks','учёный','scientist','mokslininkas','teadlane'],artist:['mākslinieks','художник','artist','menininkas','kunstnik'],director:['kinorežisors','кинорежиссёр','film director','kino režisierius','filmirežissöör'],astronaut:['astronauts','астронавт','astronaut','astronautas','astronaut'],public_figure:['sabiedriska personība','общественный деятель','public figure','visuomenės veikėjas','avaliku elu tegelane']

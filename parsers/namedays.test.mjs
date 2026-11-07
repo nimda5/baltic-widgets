@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {parseCalendar,buildProfile,namesakeIndex,validateProfile} from './namedays.mjs';
+import {parseCalendar,buildProfile,namesakeIndex,validateProfile,evidenceIndex} from './namedays.mjs';
 import {calendarDate,calendarNames,validateCalendar,validateCountryCalendar,fittingNameCount} from '../public/namedays-core.js';
 import {describeName,LANGUAGES,WRITER_VERSION,text} from '../public/namedays-content.js';
 import {resolveLanguage} from '../public/i18n-core.js';
@@ -33,9 +33,26 @@ test('unverified names get labeled creative content, not invented etymologies',(
  const p=buildProfile('RareName','lv');assert.equal(p.research_status,'pending');
  for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.kind,'creative');assert.deepEqual(c.history,[]);assert.match(c.story,/RareName/);assert.equal(new Set(c.wishes.humor).size,3);}
 });
-test('dictionary evidence is country specific and missing records are not facts',()=>{
+test('dictionary evidence is reused across calendars while profile identities stay local',()=>{
  const research={entries:{Mari:{status:'checked',countries:{ee:{origins:['Hebrew'],related:['Maria'],first_recorded:null,source:{url:'https://en.wiktionary.org/wiki/Mari#Estonian'}}}}}};
- assert.deepEqual(buildProfile('Mari','ee',research).facts.origins,['Hebrew']);assert.deepEqual(buildProfile('Mari','lv',research).facts.origins,[]);
+ assert.deepEqual(buildProfile('Mari','ee',research).facts.origins,['Hebrew']);
+ const lv=buildProfile('Mari','lv',research);assert.deepEqual(lv.facts.origins,['Hebrew']);assert.equal(lv.country,'lv');assert.equal(lv.key,'lv:Mari');assert.match(lv.provenance[0].url,/#Estonian$/);
+});
+test('diacritic variants share evidence and stories, preserving the attested form and earliest found date',()=>{
+ const source={url:'https://en.wiktionary.org/wiki/Aleksandr%C4%ABna#Latvian'};
+ const research={entries:{Aleksandrīna:{countries:{lv:{origins:['Ancient Greek'],related:['Aleksandrīna','Alexandra'],first_recorded:'in 1872',source}}},Aleksandrina:{status:'not_found',countries:{}}}};
+ const a=buildProfile('Aleksandrina','lv',research),b=buildProfile('Aleksandrīna','lv',research);
+ assert.equal(a.facts.first_recorded,'in 1872');assert.equal(a.facts.first_recorded_form,'Aleksandrīna');assert.equal(a.facts.first_recorded_country,'lv');assert.deepEqual(a.facts.origins,b.facts.origins);assert.deepEqual(a.facts.related,['Alexandra']);assert.deepEqual(a.provenance,b.provenance);
+ for(const lang of LANGUAGES){const c=describeName(a,lang);assert.match(c.attestation.date,/1872/);assert.equal(c.attestation.form,'Aleksandrīna');assert.equal(c.story.replaceAll(a.name,'NAME'),describeName(b,lang).story.replaceAll(b.name,'NAME'));assert.ok(!c.history.join(' ').includes('1872'));}
+ assert.equal(buildProfile('Aleksandrija','lv',research).facts.first_recorded,null);
+ const older=buildProfile('Aleksandrīna','lv',research);older.facts.first_recorded='in 1850';
+ const index=evidenceIndex(research,[older]);assert.equal(buildProfile('Aleksandrina','lt',research,new Map(),undefined,index).facts.first_recorded,'in 1850');
+});
+test('shared evidence survives an offline rebuild without losing original date attribution',()=>{
+ const previous=buildProfile('Jānis','lv');previous.facts={origins:['Hebrew'],related:['John'],first_recorded:'in the 16th century',first_recorded_form:'Jānis',first_recorded_country:'lv'};previous.provenance=[{url:'https://en.wiktionary.org/wiki/J%C4%81nis#Latvian'}];
+ const p=buildProfile('Janis','ee',{},new Map(),undefined,evidenceIndex({},[previous]));
+ assert.equal(p.facts.first_recorded_form,'Jānis');assert.equal(p.facts.first_recorded_country,'lv');assert.deepEqual(p.facts.origins,['Hebrew']);assert.equal(describeName(p).attestation.date,'16th century');
+ assert.equal(describeName(buildProfile('RareName','lv')).attestation,null);
 });
 test('official Lithuanian classifications do not become invented creation dates',()=>{
  const research={vlkk:{Armantas:{group:'Lietuviška kilmė',subgroup:'dvikamienis asmenvardis',source:{url:'https://data.gov.lt/datasets/2664/'}}}};
@@ -54,6 +71,16 @@ test('biography indexing does not invent famous people or assign unrelated first
 test('historical claims require provenance before publication',()=>{
  const p=buildProfile('Name','lv');p.facts.origins=['Latin'];assert.throws(()=>validateProfile(p),/provenance/);
 });
+test('history uses conversational roots, readable lists and sourced real people in all five languages',()=>{
+ const profile=buildProfile('Sample','lv');profile.facts.origins=['Ancient Greek','Latin'];profile.facts.related=['Alpha','Beta'];
+ profile.people=[{name:'Example Writer',labels:{ru:'Автор Пример'},role:'writer',match:'exact'}];
+ for(const lang of LANGUAGES){const c=describeName(profile,lang);assert.match(c.history.join(' '),/Example Writer|Автор Пример/);assert.match(c.history.join(' '),/Alpha/);assert.doesNotMatch(c.history.join(' '),/undefined|\{\w+\}/);}
+ assert.match(describeName(profile,'ru').history[0],/древнегреческие и латинские корни/);
+ const alexandra=buildProfile('Aleksandra','lv');assert.equal(alexandra.family,'alexandra');assert.ok(alexandra.provenance.some(s=>s.url==='https://www.rct.uk/collection/stories/queen-alexandra'));
+ for(const lang of LANGUAGES){const h=describeName(alexandra,lang).history.join(' ');assert.match(h,/1908/);assert.match(h,/Alexandra/);}
+ const unrelated=new Map([['Leonardo',[{id:'Q1',name:'Leonardo Artist',role:'artist',countries:[],source:{url:'https://example.org/'}}]]]);
+ assert.deepEqual(buildProfile('Aleksandra','lv',{},unrelated).people,[]);
+});
 test('published calendars and every profile have complete multilingual content',async()=>{
  const calendar=validateCountryCalendar(JSON.parse(await readFile(new URL('../public/data/namedays/calendar-lv.json',import.meta.url),'utf8')));
  assert.equal(calendar.country,'lv');assert.equal(calendar.data.calendars,undefined);
@@ -61,7 +88,9 @@ test('published calendars and every profile have complete multilingual content',
  for(const country of ['lv']){
   const doc=JSON.parse(await readFile(new URL('../public/data/namedays/profiles-'+country+'.json',import.meta.url),'utf8'));assert.equal(doc.writer_version,WRITER_VERSION);
   const required=new Set(Object.values(calendar.data.days).flat().map(n=>n.key));assert.equal(Object.keys(doc.data).length,required.size);
-  for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);}
+  for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);
+   for(const lang of LANGUAGES){const c=describeName(p,lang);assert.doesNotMatch(c.history.join(' '),/Словарные данные|языковой реестр|Dictionary evidence|language registry|Vārdnīcas dati|valodas reģistrā|Žodyno duomenys|kalbos registre|Sõnaraamatu andmed|keele registris/);}
+  }
  }
 });
 test('all five interface languages and the ee alias are supported independently of calendar country',()=>{
