@@ -42,7 +42,7 @@ Namesake research should first search Wikipedia and the relevant national domain
 
 ### Number of name bearers
 
-The history tab displays an approximate number of registered name bearers for the currently enabled Latvian calendar, followed by the snapshot date. `population-lv.json` is separate from historical profiles. Its source is the official PMLP CC0 dataset [Personu vārdi](https://data.gov.lv/dati/dataset/personu-vardi). It counts people registered in PMLP, including a name within multiple given names; it does not assert current physical residence in Latvia. Exact NFC spelling is retained: diacritic variants and hyphenated names are not merged. Each matching component is counted once per person. Missing names are omitted, never shown as zero. Counts are not reduced by one for the visitor.
+The namesakes tab displays an approximate number of registered name bearers for the currently enabled Latvian calendar, followed by the snapshot date. Provider names are retained in metadata and are not displayed in the card. `population-lv.json` is separate from historical profiles. Its source is the official PMLP CC0 dataset [Personu vārdi](https://data.gov.lv/dati/dataset/personu-vardi). It counts people registered in PMLP, including a name within multiple given names; it does not assert current physical residence in Latvia. Exact NFC spelling is retained: diacritic variants and hyphenated names are not merged. Each matching component is counted once per person. Missing names are omitted, never shown as zero. Counts are not reduced by one for the visitor.
 
 ```sh
 npm run update:nameday-statistics

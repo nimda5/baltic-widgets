@@ -62,8 +62,6 @@ function renderContent(){
  if(!profile||profile.key!==state.selected||profile.writer_version!==WRITER_VERSION||profile.country!==state.country||typeof profile.name!=='string'){content.append(element('p','',tr('error')));return;}
  const copy=describeName(profile,lang);
  if(state.tab==='history'){
-  const populationText=populationCopy(state.population,profile.name,state.country,lang);
-  if(populationText){const box=element('div','nameday-population');box.append(element('strong','',populationText.title),element('small','',populationText.note));content.append(box);}
   if(copy.history.length){content.append(element('h3','',tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
   if(copy.attestation){
    const record=element('div','nameday-attestation');
@@ -72,6 +70,8 @@ function renderContent(){
   }
   content.append(element('h3','',tr('author')),element('p','',copy.story));
  }else if(state.tab==='people'){
+  const populationText=populationCopy(state.population,profile.name,state.country,lang);
+  if(populationText){const box=element('div','nameday-population');box.append(element('strong','',populationText.title),element('small','',populationText.note));content.append(box);}
   if(!profile.people?.length){content.append(element('p','',tr('noPeople')));return;}
   profile.people.forEach(person=>{const row=element('div','nameday-person');const role=roleLabel(person.role,lang)+(person.match==='related_form'?' · '+tr('variant'):'');row.append(element('strong','',person.labels?.[lang]||person.name),element('small','',role));content.append(row);});
  }else{

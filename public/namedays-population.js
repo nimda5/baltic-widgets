@@ -5,11 +5,11 @@ export function validatePopulation(doc,country){
  return doc;
 }
 const labels={
- ru:['Латвия · ≈ {n} носителей','В реестре PMLP, включая составные имена · {date}'],
- lv:['Latvija · ≈ {n} vārda nesēju','PMLP reģistrā, arī vairāku vārdu kombinācijās · {date}'],
- en:['Latvia · ≈ {n} name bearers','In the PMLP register, including multiple given names · {date}'],
- lt:['Latvija · ≈ {n} vardo turėtojų','PMLP registre, įskaitant kelių vardų derinius · {date}'],
- et:['Läti · ≈ {n} nimekandjat','PMLP registris, ka mitmest eesnimest koosnevates nimedes · {date}']
+ ru:['Латвия · ≈ {n} носителей','Данные на {date}'],
+ lv:['Latvija · ≈ {n} vārda nesēju','Dati uz {date}'],
+ en:['Latvia · ≈ {n} name bearers','As of {date}'],
+ lt:['Latvija · ≈ {n} vardo turėtojų','Duomenys {date}'],
+ et:['Läti · ≈ {n} nimekandjat','Andmed seisuga {date}']
 };
 export function populationCopy(doc,name,country,lang='en'){
  if(!doc||doc.country!==country||country!=='lv')return null;
