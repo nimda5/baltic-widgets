@@ -71,7 +71,7 @@ function renderContent(){
   content.append(element('h3','',tr('author')),element('p','',copy.story));
  }else if(state.tab==='people'){
   const populationText=populationCopy(state.population,profile.name,state.country,lang);
-  if(populationText){const box=element('div','nameday-population');box.append(element('strong','',populationText.title),element('small','',populationText.note));content.append(box);}
+  if(populationText){const box=element('div','nameday-population');box.append(element('strong','',populationText.title));content.append(box);}
   if(!profile.people?.length){content.append(element('p','',tr('noPeople')));return;}
   profile.people.forEach(person=>{const row=element('div','nameday-person');const role=roleLabel(person.role,lang)+(person.match==='related_form'?' · '+tr('variant'):'');row.append(element('strong','',person.labels?.[lang]||person.name),element('small','',role));content.append(row);});
  }else{
