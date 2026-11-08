@@ -1,5 +1,8 @@
-export const WRITER_VERSION='namedays-1.3.0';
-export function nameIdentity(name){return name.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();}
+import {formatAttestation} from './namedays-attestation.js';
+import {nameImpression} from './namedays-imagery.js';
+import {rootHistory} from './namedays-roots.js';
+export const WRITER_VERSION='namedays-1.4.0';
+export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={
  "ru": {
@@ -42,7 +45,10 @@ const bundles={
   "century": "{n} век",
   "countryNote": "Имена соответствуют выбранной стране; язык текста меняется отдельно.",
   "namesake": "Среди известных тёзок — {role} {person}.",
-  "relatedNamesake": "Родственную форму имени носили, например, {person}."
+  "relatedNamesake": "Родственную форму имени носили, например, {person}.",
+  "wordRoots": "В его основе — {words}.",
+  "possibleRelated": "Имя может быть связано с {names}.",
+  "archivalVariant": "В одном архивном описании один и тот же человек назван {name} и {names}."
  },
  "en": {
   "recordedLabel": "The name in earlier records",
@@ -84,7 +90,10 @@ const bundles={
   "century": "{n}th century",
   "countryNote": "Names follow the selected country; text language is independent.",
   "namesake": "Famous namesakes include the {role} {person}.",
-  "relatedNamesake": "A related form of the name was borne by {person}."
+  "relatedNamesake": "A related form of the name was borne by {person}.",
+  "wordRoots": "Its roots include {words}.",
+  "possibleRelated": "The name may be connected with {names}.",
+  "archivalVariant": "One archive description uses both {name} and {names} for the same person."
  },
  "lv": {
   "recordedLabel": "Vārds senākos pierakstos",
@@ -126,7 +135,10 @@ const bundles={
   "century": "{n}. gadsimts",
   "countryNote": "Vārdi atbilst izvēlētajai valstij; teksta valoda ir neatkarīga.",
   "namesake": "Starp pazīstamiem vārdabrāļiem ir {role} {person}.",
-  "relatedNamesake": "Radniecīgu vārda formu nesa, piemēram, {person}."
+  "relatedNamesake": "Radniecīgu vārda formu nesa, piemēram, {person}.",
+  "wordRoots": "Tā pamatā ir {words}.",
+  "possibleRelated": "Vārds var būt saistīts ar {names}.",
+  "archivalVariant": "Vienā arhīva aprakstā viens un tas pats cilvēks minēts kā {name} un {names}."
  },
  "lt": {
   "recordedLabel": "Vardas senuose užrašuose",
@@ -168,7 +180,10 @@ const bundles={
   "century": "{n} a.",
   "countryNote": "Vardai priklauso pasirinktai šaliai, o teksto kalba pasirenkama atskirai.",
   "namesake": "Tarp žinomų bendravardžių yra {role} {person}.",
-  "relatedNamesake": "Giminingą vardo formą turėjo, pavyzdžiui, {person}."
+  "relatedNamesake": "Giminingą vardo formą turėjo, pavyzdžiui, {person}.",
+  "wordRoots": "Vardo šaknys — {words}.",
+  "possibleRelated": "Vardas gali sietis su {names}.",
+  "archivalVariant": "Viename archyvo apraše tas pats žmogus įvardytas kaip {name} ir {names}."
  },
  "et": {
   "recordedLabel": "Nimi vanades kirjapanekutes",
@@ -210,7 +225,10 @@ const bundles={
   "century": "{n}. sajand",
   "countryNote": "Nimed vastavad valitud riigile, teksti keel on eraldi valik.",
   "namesake": "Tuntud nimekaimude seas on {role} {person}.",
-  "relatedNamesake": "Sugulasvormi kandis näiteks {person}."
+  "relatedNamesake": "Sugulasvormi kandis näiteks {person}.",
+  "wordRoots": "Selle taga on {words}.",
+  "possibleRelated": "Nimi võib olla seotud nimedega {names}.",
+  "archivalVariant": "Ühes arhiivikirjelduses kasutatakse sama inimese kohta kujusid {name} ja {names}."
  }
 };
 export function text(lang,key,values={}){return(bundles[lang]?.[key]??bundles.en[key]??key).replace(/\{(\w+)\}/g,(m,k)=>values[k]??m);}
@@ -499,43 +517,6 @@ const registryKinds={
   "Nimi {name} mõeldi välja uue isikunimena."
  ]
 };
-const scenes={
- "ru": [
-  "Представим книгу с именем {name} на обложке. Внутри — короткие записи о поездках, встречах и планах, которые однажды всё-таки сбылись. Между страницами лежит старый билет: напоминание о дне, когда обычная прогулка превратилась в маленькое приключение.",
-  "В этой истории {name} — подпись на обороте фотографии. Снимок получился немного смазанным: кто-то засмеялся раньше, чем сработал затвор. Его всё равно оставили в альбоме, потому что именно таким и запомнился тот день — шумным, тёплым и счастливым.",
-  "Представим мастерскую с табличкой {name} на двери. На столе лежат карандаши, деревянные детали и набросок новой вещи. К вечеру первая попытка ещё далека от замысла, зато становится понятно, как сделать следующую лучше. На завтра уже есть план.",
-  "В нашей истории маленькое кафе называется {name}. За окном идёт дождь, а у окна двое друзей допивают кофе и вспоминают общую поездку. Они собирались зайти на десять минут, но разговор затянулся. Когда дождь заканчивается, у них уже есть идея для нового путешествия.",
-  "Представим конверт с именем {name}, найденный среди старых бумаг. Внутри — список мест, куда когда-то хотелось поехать. Одно из них совсем рядом. В выходной туда наконец отправляются, а вечером дописывают в список ещё один адрес."
- ],
- "en": [
-  "Imagine a book with {name} on its cover. Inside are short notes about journeys, encounters and plans that finally came true. An old ticket lies between the pages, a reminder of the day an ordinary walk became a small adventure.",
-  "In this story, {name} is written on the back of a photograph. The picture is slightly blurred: someone laughed before the shutter clicked. It stays in the album because that is exactly how the day is remembered — lively, warm and happy.",
-  "Imagine a workshop with {name} on the door. Pencils, wooden pieces and a sketch of something new cover the table. By evening, the first attempt is still far from the drawing, but the next step is clear. There is already a plan for tomorrow.",
-  "In our story, a little café is called {name}. Rain falls outside while two friends finish their coffee by the window and remember a trip together. They meant to stay ten minutes, but the conversation lasts longer. By the time the rain stops, they have an idea for another journey.",
-  "Imagine an envelope addressed to {name}, found among old papers. Inside is a list of places someone once hoped to visit. One is close to home. At the weekend, the visit finally happens, and that evening another address joins the list."
- ],
- "lv": [
-  "Iztēlosimies grāmatu ar vārdu {name} uz vāka. Tajā ir īsas piezīmes par ceļojumiem, satikšanos un plāniem, kas beidzot piepildījušies. Starp lappusēm glabājas veca biļete, atgādinot par dienu, kad parasta pastaiga pārvērtās nelielā piedzīvojumā.",
-  "Šajā stāstā {name} ir paraksts fotogrāfijas otrā pusē. Attēls ir mazliet izplūdis: kāds iesmējās, pirms noklikšķēja fotoaparāts. Tomēr tas paliek albumā, jo tieši tāda atmiņā ir šī diena — rosīga, silta un priecīga.",
-  "Iedomāsimies darbnīcu ar uzrakstu {name} pie durvīm. Uz galda ir zīmuļi, koka detaļas un jaunas lietas skice. Vakarā pirmais mēģinājums vēl atšķiras no ieceres, taču jau ir skaidrs, kā nākamo uzlabot. Rītdienai ir plāns.",
-  "Mūsu stāstā mazu kafejnīcu sauc {name}. Aiz loga līst, bet divi draugi pie loga dzer kafiju un atceras kopīgu ceļojumu. Viņi bija iecerējuši palikt desmit minūtes, taču saruna ieilgst. Kad lietus beidzas, jau ir radusies doma par nākamo braucienu.",
-  "Iztēlosimies aploksni ar vārdu {name}, kas atrasta starp veciem papīriem. Tajā ir saraksts ar vietām, kur reiz gribējās aizbraukt. Viena atrodas pavisam netālu. Brīvdienās brauciens beidzot notiek, un vakarā sarakstam pievienojas vēl viena adrese."
- ],
- "lt": [
-  "Įsivaizduokime knygą su vardu {name} ant viršelio. Viduje — trumpi užrašai apie keliones, susitikimus ir pagaliau išsipildžiusius planus. Tarp puslapių guli senas bilietas, primenantis dieną, kai paprastas pasivaikščiojimas tapo mažu nuotykiu.",
-  "Šiame pasakojime {name} užrašyta kitoje nuotraukos pusėje. Vaizdas kiek neryškus: kažkas nusijuokė dar prieš spragtelint fotoaparatui. Nuotrauka vis tiek liko albume, nes būtent tokia prisimenama ta diena — šurmuliuojanti, šilta ir laiminga.",
-  "Įsivaizduokime dirbtuves su užrašu {name} ant durų. Ant stalo guli pieštukai, medinės detalės ir naujo daikto eskizas. Vakare pirmasis bandymas dar skiriasi nuo sumanymo, tačiau jau aišku, kaip kitą patobulinti. Rytojui planas parengtas.",
-  "Mūsų pasakojime maža kavinė vadinasi {name}. Už lango lyja, o du draugai prie lango geria kavą ir prisimena bendrą kelionę. Jie ketino užsukti dešimčiai minučių, bet pokalbis užsitęsė. Lietui pasibaigus, jau kyla mintis apie kitą išvyką.",
-  "Įsivaizduokime tarp senų popierių rastą voką su vardu {name}. Viduje — vietų, kurias kadaise norėjosi aplankyti, sąrašas. Viena visai netoli namų. Savaitgalį ten pagaliau nuvykstama, o vakare į sąrašą įrašomas dar vienas adresas."
- ],
- "et": [
-  "Kujutleme raamatut, mille kaanel on {name}. Sees on lühikesed märkmed reisidest, kohtumistest ja viimaks täitunud plaanidest. Lehtede vahel on vana pilet, mis meenutab päeva, mil tavalisest jalutuskäigust sai väike seiklus.",
-  "Selles loos on {name} kirjutatud foto tagaküljele. Pilt on pisut udune: keegi naeris enne, kui katik klõpsatas. Foto jääb ikkagi albumisse, sest just sellisena seda päeva mäletatakse — elava, sooja ja õnnelikuna.",
-  "Kujutleme töökoda, mille uksel on silt {name}. Laual on pliiatsid, puidust detailid ja uue eseme visand. Õhtuks erineb esimene katse veel kavandist, kuid juba on selge, kuidas järgmist paremaks teha. Homseks on plaan olemas.",
-  "Meie loos kannab väike kohvik nime {name}. Väljas sajab ning kaks sõpra joovad akna all kohvi ja meenutavad ühist reisi. Nad kavatsesid jääda kümneks minutiks, aga juttu jätkub kauemaks. Kui vihm lakkab, on neil juba mõte järgmiseks väljasõiduks.",
-  "Kujutleme vanade paberite vahelt leitud ümbrikku, millel on nimi {name}. Sees on nimekiri paikadest, kuhu kunagi sooviti minna. Üks neist on päris lähedal. Nädalavahetusel saab käik viimaks teoks ja õhtul lisandub nimekirja veel üks aadress."
- ]
-};
 const wishes={
  "ru": {
   "serious": [
@@ -666,18 +647,23 @@ const familyHumor={
 export function describeName(profile,requested='en',variant=0){
  const lang=LANGUAGES.includes(requested)?requested:'en',i=LANGUAGES.indexOf(lang),seed=hash(nameIdentity(profile.name)),name=profile.name;
  const facts=profile.facts||{},paragraphs=[];
+ const root=rootHistory(facts.root_key,name,lang);
  if(special[profile.family])paragraphs.push(fill(special[profile.family][lang],name));
+ else if(root)paragraphs.push(root);
  else{
   if(facts.origins?.length)paragraphs.push(text(lang,'origin',{name,origins:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.origins.map(o=>traditions[o]?.[i]||o))}));
+  if(facts.etymons?.length){const words=facts.etymons.slice(0,3).map(w=>'«'+w.term+'» («'+w.gloss[lang]+'»)');paragraphs.push(text(lang,'wordRoots',{words:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(words)}));}
   if(facts.registry_kind&&registryKinds[facts.registry_kind])paragraphs.push(fill(registryKinds[facts.registry_kind][i],name));
  }
  const person=profile.people?.[0];
  if(person&&!special[profile.family])paragraphs.push(text(lang,person.match==='related_form'?'relatedNamesake':'namesake',{person:person.labels?.[lang]||person.name,role:roleLabel(person.role,lang)}));
  let attestation=null;
- if(facts.first_recorded){const century=/\b(\d{1,2})(?:st|nd|rd|th) century/i.exec(facts.first_recorded),year=/\b(\d{3,4})\b/.exec(facts.first_recorded);if(century||year)attestation={date:century?text(lang,'century',{n:century[1]}):text(lang,'inYear',{year:year[1]}),form:facts.first_recorded_form||name};}
- const related=(facts.related||[]).filter(n=>n!==name).slice(0,3);
+ if(facts.first_recorded){const date=formatAttestation(facts.first_recorded,lang);if(date)attestation={date,form:facts.first_recorded_form||name};}
+ const related=[...new Set([...(facts.related||[]),...(facts.source_forms||[]).map(f=>f.form)])].filter(n=>nameIdentity(n)!==nameIdentity(name)).slice(0,3);
  if(related.length)paragraphs.push(text(lang,'related',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(related)}));
- const scene=fill(scenes[lang][seed%scenes[lang].length],name);
+ if(facts.possible_related?.length)paragraphs.push(text(lang,'possibleRelated',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.possible_related.slice(0,3))}));
+ if(facts.archival_variants?.length)paragraphs.push(text(lang,'archivalVariant',{name:facts.archival_form||name,names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.archival_variants)}));
+ const scene=nameImpression(name,lang);
  const wishIndex=(seed+variant)>>>0;
  const greetings=Object.fromEntries(['serious','humor'].map(mood=>[mood,Array.from({length:3},(_,n)=>fill(wishes[lang][mood][(wishIndex+n)%wishes[lang][mood].length],name))]));
  if(familyHumor[profile.family])greetings.humor[0]=fill(familyHumor[profile.family][lang],name);

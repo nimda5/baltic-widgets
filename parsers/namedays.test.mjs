@@ -4,6 +4,9 @@ import {readFile} from 'node:fs/promises';
 import {parseCalendar,buildProfile,namesakeIndex,validateProfile,evidenceIndex} from './namedays.mjs';
 import {calendarDate,calendarNames,validateCalendar,validateCountryCalendar,fittingNameCount} from '../public/namedays-core.js';
 import {describeName,LANGUAGES,WRITER_VERSION,text} from '../public/namedays-content.js';
+import {nameIdentity} from '../public/namedays-content.js';
+import {formatAttestation,attestationPeriod} from '../public/namedays-attestation.js';
+import {catalogFacts,referenceOrigins} from './nameday-reference.mjs';
 import {resolveLanguage} from '../public/i18n-core.js';
 const sample='domain\td\tm\tv\tid\nlv\t5\t11\tŠarlote\t1\nlv\t5\t11\tŠarlote\t2\nlt\t6\t11\tLeonardas\t3\nee\t29\t2\tMari\t4';
 test('name fitting uses every available slot and reserves the actual hidden-name counter',()=>{
@@ -71,6 +74,36 @@ test('biography indexing does not invent famous people or assign unrelated first
 test('historical claims require provenance before publication',()=>{
  const p=buildProfile('Name','lv');p.facts.origins=['Latin'];assert.throws(()=>validateProfile(p),/provenance/);
 });
+test('Fedots and Teodors have independently sourced roots and different original images',()=>{
+ const fedots=buildProfile('Fedots','lv',{},namesakeIndex()),teodors=buildProfile('Teodors','lv');
+ assert.equal(fedots.facts.root_key,'theodotus');assert.equal(teodors.facts.root_key,'theodore');
+ assert.ok(fedots.provenance.some(s=>s.provider==='Latvian Language Agency'));
+ assert.equal(fedots.people[0].labels.ru,'Федот Сычков');assert.equal(fedots.people[0].match,'related_form');
+ for(const lang of LANGUAGES){assert.notEqual(describeName(fedots,lang).story.replaceAll('Fedots','NAME'),describeName(teodors,lang).story.replaceAll('Teodors','NAME'));assert.match(describeName(fedots,lang).history[0],/Theodotos/);}
+ const previous=buildProfile('Fedots','lv',{},namesakeIndex());
+ const offline=buildProfile('Fedots','lv',{},new Map(),previous,evidenceIndex({},[previous]));assert.deepEqual(offline.people,previous.people);assert.equal(offline.facts.root_key,previous.facts.root_key);
+});
+test('full Lithuanian registry evidence enriches the same spelling without inventing a creation date',()=>{
+ const research={vlkk:{Afroditė:{subgroup:'graikiškas asmenvardis',source:{url:'https://data.gov.lt/datasets/2664/'}}}};
+ const p=buildProfile('Afrodīte','lv',research);assert.deepEqual(p.facts.origins,['Ancient Greek']);assert.equal(p.facts.first_recorded,null);assert.equal(p.country,'lv');
+});
+test('source periods keep their actual precision in every language',()=>{
+ assert.equal(formatAttestation('Fourth quarter of the 19th century','ru'),'XIX век, IV четверть');
+ assert.equal(formatAttestation('19. gs. IV c., Pēterburga','ru'),'XIX век, IV четверть');
+ assert.equal(formatAttestation('20. gs. I ceturksnis','en'),'first quarter of the 20th century');
+ assert.equal(formatAttestation('in the 1st century','en'),'1st century');
+ assert.equal(formatAttestation('1870s','ru'),'1870-е годы');
+ assert.equal(formatAttestation('Not specified','ru'),null);
+ for(const lang of LANGUAGES){assert.ok(formatAttestation('Fourth quarter of the 19th century',lang));assert.ok(!/1876|1900/.test(formatAttestation('Fourth quarter of the 19th century',lang)));}
+ assert.equal(attestationPeriod('18. gs.').century,18);
+});
+test('a place of attestation is not an origin and an individual archival alias is not a universal name family',()=>{
+ assert.deepEqual(referenceOrigins('The name comes from the Greek word petros. It was first recorded in Latvian sources.'),['Ancient Greek']);
+ const facts=catalogFacts({raw_origin:'An archive uses Teovils and Teofils for one person. This case does not prove a general variant relationship.',related:['Teofils'],first_recorded:'Not specified',first_recorded_form:'Teovils'});
+ assert.deepEqual(facts.related,[]);assert.deepEqual(facts.archival_variants,['Teofils']);assert.equal(facts.first_recorded,null);assert.equal(facts.origin_uncertain,true);
+ const words=catalogFacts({raw_origin:'The name is based on the Latvian words laime (happiness, good fortune) and nest (to carry).',related:[]});assert.equal(words.etymons.length,2);assert.equal(words.etymons[0].gloss.ru,'счастье, удача');
+ assert.equal(nameIdentity('Aleksandrīna'),nameIdentity('Aleksandrina'));assert.notEqual(nameIdentity('й'),nameIdentity('и'));
+});
 test('history uses conversational roots, readable lists and sourced real people in all five languages',()=>{
  const profile=buildProfile('Sample','lv');profile.facts.origins=['Ancient Greek','Latin'];profile.facts.related=['Alpha','Beta'];
  profile.people=[{name:'Example Writer',labels:{ru:'Автор Пример'},role:'writer',match:'exact'}];
@@ -78,6 +111,8 @@ test('history uses conversational roots, readable lists and sourced real people 
  assert.match(describeName(profile,'ru').history[0],/древнегреческие и латинские корни/);
  const alexandra=buildProfile('Aleksandra','lv');assert.equal(alexandra.family,'alexandra');assert.ok(alexandra.provenance.some(s=>s.url==='https://www.rct.uk/collection/stories/queen-alexandra'));
  for(const lang of LANGUAGES){const h=describeName(alexandra,lang).history.join(' ');assert.match(h,/1908/);assert.match(h,/Alexandra/);}
+ const enriched=buildProfile('Aleksandra','lv',{catalog:{Aleksandra:{raw_origin:'The feminine form of the Greek name Alexandros.',related:['Aleksandrs'],first_recorded_form:'Aleksandra',source:{url:'https://www.izpetnieks.lv/en/name/aleksandra'}}}});
+ for(const lang of LANGUAGES)assert.match(describeName(enriched,lang).history.join(' '),/1908/);
  const unrelated=new Map([['Leonardo',[{id:'Q1',name:'Leonardo Artist',role:'artist',countries:[],source:{url:'https://example.org/'}}]]]);
  assert.deepEqual(buildProfile('Aleksandra','lv',{},unrelated).people,[]);
 });
@@ -88,8 +123,12 @@ test('published calendars and every profile have complete multilingual content',
  for(const country of ['lv']){
   const doc=JSON.parse(await readFile(new URL('../public/data/namedays/profiles-'+country+'.json',import.meta.url),'utf8'));assert.equal(doc.writer_version,WRITER_VERSION);
   const required=new Set(Object.values(calendar.data.days).flat().map(n=>n.key));assert.equal(Object.keys(doc.data).length,required.size);
+  const originalImages=new Map(LANGUAGES.map(lang=>[lang,new Map()]));
   for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);
-   for(const lang of LANGUAGES){const c=describeName(p,lang);assert.doesNotMatch(c.history.join(' '),/Словарные данные|языковой реестр|Dictionary evidence|language registry|Vārdnīcas dati|valodas reģistrā|Žodyno duomenys|kalbos registre|Sõnaraamatu andmed|keele registris/);}
+   for(const lang of LANGUAGES){const c=describeName(p,lang);assert.doesNotMatch(c.history.join(' '),/Словарные данные|языковой реестр|Dictionary evidence|language registry|Vārdnīcas dati|valodas reģistrā|Žodyno duomenys|kalbos registre|Sõnaraamatu andmed|keele registris/);
+    const image=c.story.replaceAll(p.name,'NAME'),seen=originalImages.get(lang),identity=nameIdentity(p.name);
+    assert.ok(!seen.has(image)||seen.get(image)===identity,`Reused imagination for ${p.name} in ${lang}`);seen.set(image,identity);
+   }
   }
  }
 });
