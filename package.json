@@ -12,6 +12,7 @@
     "generate:horoscope": "node scripts/generate-horoscope.mjs",
     "test": "node --test parsers/*.test.mjs services/*.test.mjs public/zodiac-icons.test.mjs",
     "generate:namedays": "node scripts/generate-namedays.mjs",
+    "update:nameday-statistics": "node scripts/update-nameday-statistics.mjs",
     "test:namedays": "node --test parsers/namedays.test.mjs"
   },
   "engines": {

@@ -1,6 +1,7 @@
 import {resolveLanguage,locales} from './i18n-core.js';
 import {calendarDate,calendarNames,validateCountryCalendar,fittingNameCount} from './namedays-core.js';
 import {text,describeName,roleLabel,WRITER_VERSION} from './namedays-content.js';
+import {populationCopy,validatePopulation} from './namedays-population.js';
 
 const params=new URLSearchParams(location.search),lang=resolveLanguage(params.get('lang')||document.documentElement.lang||'lv');
 const tr=(key,values)=>text(lang,key,values),locale=locales[lang];
@@ -8,6 +9,8 @@ document.documentElement.lang=lang;
 const roots=[...document.querySelectorAll('[data-namedays]')];
 const dataBase=new URL('./data/namedays/',import.meta.url);
 const profileRequests=new Map();let calendarRequest;
+const populationRequests=new Map();
+async function population(country){if(!populationRequests.has(country))populationRequests.set(country,readJSON(new URL('population-'+country+'.json',dataBase)).then(doc=>validatePopulation(doc,country)).catch(()=>{populationRequests.delete(country);return null;}));return populationRequests.get(country);}
 function element(tag,className,content){const e=document.createElement(tag);if(className)e.className=className;if(content!==undefined)e.textContent=content;return e;}
 function button(className,label,handler){const b=element('button',className,label);b.type='button';b.addEventListener('click',handler);return b;}
 async function readJSON(url){const response=await fetch(url,{signal:AbortSignal.timeout(12000),cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);return response.json();}
@@ -42,7 +45,8 @@ async function renderDialog(){
  dialog.querySelectorAll('[data-offset]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.offset)===state.offset)));
  content.replaceChildren(element('p','nameday-state',tr('loading')));dialog.querySelector('.nameday-names').replaceChildren();
  try{
-  const [doc,entries]=await Promise.all([calendar(),profiles(state.country)]);if(ticket!==renderTicket||!dialog.open)return;
+  const [doc,entries,statistics]=await Promise.all([calendar(),profiles(state.country),population(state.country)]);if(ticket!==renderTicket||!dialog.open)return;
+  state.population=statistics;
   state.profiles=entries;const names=calendarNames(doc,state.country,date);state.selected=names.some(n=>n.key===state.selected)?state.selected:names[0]?.key;
   const cloud=dialog.querySelector('.nameday-names');names.forEach(n=>{const b=button('nameday-name',n.name,()=>{state.selected=n.key;state.variant=0;renderSelection();renderContent();});b.dataset.key=n.key;cloud.append(b);});
   renderSelection();renderContent();
@@ -58,6 +62,8 @@ function renderContent(){
  if(!profile||profile.key!==state.selected||profile.writer_version!==WRITER_VERSION||profile.country!==state.country||typeof profile.name!=='string'){content.append(element('p','',tr('error')));return;}
  const copy=describeName(profile,lang);
  if(state.tab==='history'){
+  const populationText=populationCopy(state.population,profile.name,state.country,lang);
+  if(populationText){const box=element('div','nameday-population');box.append(element('strong','',populationText.title),element('small','',populationText.note));content.append(box);}
   if(copy.history.length){content.append(element('h3','',tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
   if(copy.attestation){
    const record=element('div','nameday-attestation');

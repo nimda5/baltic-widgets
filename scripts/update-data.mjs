@@ -9,6 +9,7 @@ import {initializeElectricity,refreshElectricity} from '../parsers/electricity.m
 import {initializeGas,refreshGas} from '../parsers/gas.mjs';
 import {initializeMarkets,refreshMarkets,refreshCommodityArchive} from '../parsers/markets.mjs';
 import {initializeHoroscope,horoscopeData} from '../parsers/horoscope.mjs';
+import {refreshNamedayStatistics} from './update-nameday-statistics.mjs';
 const dir=path.resolve(process.env.DATA_DIR||'var');await mkdir(dir,{recursive:true});
 const lockPath=path.join(dir,'.update.lock');
 let lock;try{lock=await open(lockPath,'wx');}catch(e){if(e.code==='EEXIST')throw Error('Another update owns '+lockPath+'. After a crash, verify that it is no longer running before removing this lock.');throw e;}
@@ -18,6 +19,7 @@ async function step(name,fn){try{const value=await fn();report[name]=value;for(c
 try{
   initializeElectricity(db);initializeGas(db);initializeMarkets(db);initializeHoroscope(db);
   if(!report.offline){
+    await step('nameday_statistics',()=>refreshNamedayStatistics());
     await step('fuel',async()=>{await ensureCollectorState(db,path.join(dir,'collector'));const doc=await collectFuel(path.join(dir,'collector'),undefined,{setExitCode:false});saveStations(db,doc);return{stations:doc.data.length,errors:doc.sources.filter(x=>x.status==='error').map(x=>x.id+': '+x.error)};});
     await step('fuel_archive',()=>refreshArchive(db,dir));
     await step('electricity',()=>refreshElectricity(db,Date.now(),{archiveDir:path.join(dir,'archives','electricity')}));

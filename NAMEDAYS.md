@@ -40,6 +40,19 @@ Namesake research should first search Wikipedia and the relevant national domain
 
 ## Rebuilding and research
 
+### Number of name bearers
+
+The history tab displays an approximate number of registered name bearers for the currently enabled Latvian calendar, followed by the snapshot date. `population-lv.json` is separate from historical profiles. Its source is the official PMLP CC0 dataset [Personu vārdi](https://data.gov.lv/dati/dataset/personu-vardi). It counts people registered in PMLP, including a name within multiple given names; it does not assert current physical residence in Latvia. Exact NFC spelling is retained: diacritic variants and hyphenated names are not merged. Each matching component is counted once per person. Missing names are omitted, never shown as zero. Counts are not reduced by one for the visitor.
+
+```sh
+npm run update:nameday-statistics
+npm run update:nameday-statistics -- --force
+```
+
+The script discovers the latest official CSV through CKAN, validates the entire response, and atomically replaces both published copies. Normal `npm run update` includes this step, skipping repeat requests after a successful check in the same UTC calendar month. Offline updates perform no network requests. Failed source requests leave the previous snapshot intact and appear in the common update report. The monthly GitHub workflow `nameday-statistics.yml` runs on the first day at 07:23 UTC, saves refreshed snapshots, and invokes the existing Pages build/deployment workflow. It can also be started manually. PMLP currently publishes snapshots twice yearly, so monthly checks do not imply monthly changes in the underlying counts.
+
+LT and EE counts are not substituted for LV or inferred from the interface language. Their calendars remain deferred. Future country-specific collectors must preserve their own population definitions, suppression thresholds, dates and exact spellings.
+
 ```sh
 node scripts/generate-namedays.mjs
 node --test parsers/namedays.test.mjs

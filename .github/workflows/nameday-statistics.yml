@@ -1,0 +1,48 @@
+name: Refresh name statistics
+on:
+  schedule:
+    - cron: '23 7 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: nameday-statistics
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.publish.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+      - run: npm run update:nameday-statistics
+      - run: node --test parsers/namedays-population.test.mjs
+      - name: Save refreshed statistics
+        id: publish
+        shell: bash
+        run: |
+          git add data/namedays/population-lv.json public/data/namedays/population-lv.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh public name statistics"
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+  publish:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: main

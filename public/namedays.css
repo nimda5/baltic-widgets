@@ -31,6 +31,9 @@
 .nameday-content h3:first-child{margin-top:0}
 .nameday-attestation{padding:10px 12px;margin:0 0 16px;border-radius:7px;background:var(--portal-bg-secondary,var(--subtle,light-dark(#f8f8fa,#2c2d32)))}
 .nameday-attestation strong{display:block;font-size:17px;font-weight:600;line-height:1.4;margin:3px 0}
+.nameday-population{padding:12px;margin:0 0 18px;border-radius:7px;background:var(--portal-bg-secondary,var(--subtle,light-dark(#f8f8fa,#2c2d32)))}
+.nameday-population strong{display:block;font-size:18px;line-height:1.4;font-weight:600}
+.nameday-population small{display:block;font-size:11px;line-height:1.5;margin-top:5px;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
 .nameday-attestation small{display:block;font-size:11px;line-height:1.5;color:var(--portal-text-secondary,var(--secondary,light-dark(#808084,#a0a0a8)))}
 .nameday-person{padding:10px 0;border-bottom:1px solid var(--portal-border-secondary,var(--line,light-dark(#e8e8ed,#3d3e44)))}
 .nameday-person:last-child{border-bottom:0}

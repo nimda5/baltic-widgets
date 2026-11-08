@@ -48,7 +48,7 @@ Do not run the API server and the standalone collector against the same data dir
 
 With one update per day, electricity, gas, and market prices are daily snapshots rather than continuously refreshed quotes. Source publication times are stored separately from collection times. Collection can run more often when needed; do not collect fuel more frequently than once every six hours.
 
-No schedule is installed automatically. To schedule it later on Windows, create a task in **Task Scheduler** with program `powershell.exe`, arguments `-NoProfile -File "FULL_PATH\scripts\daily-update.ps1"`, and the project root as its working directory. The script runs update/build/publish sequentially and stops if a command fails. Run it as the Windows user who completed `gh auth login`.
+No local daily schedule is installed automatically. To schedule it later on Windows, create a task in **Task Scheduler** with program `powershell.exe`, arguments `-NoProfile -File "FULL_PATH\scripts\daily-update.ps1"`, and the project root as its working directory. The script runs update/build/publish sequentially and stops if a command fails. Run it as the Windows user who completed `gh auth login`. Name statistics are checked once per calendar month within the common update, and the monthly `nameday-statistics.yml` GitHub workflow also refreshes and publishes them independently of a local computer. See [NAMEDAYS.md](NAMEDAYS.md).
 
 ## Local database and migration
 
