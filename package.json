@@ -20,7 +20,8 @@
     "update:daily": "node scripts/update-data.mjs --profile=daily",
     "update:weekly": "node scripts/update-data.mjs --profile=weekly",
     "update:monthly": "node scripts/update-data.mjs --profile=monthly",
-    "update:full": "node scripts/update-data.mjs --profile=full"
+    "update:full": "node scripts/update-data.mjs --profile=full",
+    "diagnose:fuel": "node scripts/diagnose-fuel-sources.mjs"
   },
   "engines": {
     "node": ">=24"

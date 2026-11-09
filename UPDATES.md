@@ -78,6 +78,16 @@ Console output uses `[run]`, `[skip]` and `[error]`, with a task name. `artifact
 
 An upstream HTTP 403 means the source refused the request. The collector does not bypass access controls. A failed price request retains the previous valid quotes and their original publication/fetch times; it cannot make them fresh again. A failed station-catalogue request retains cached locations and does not invalidate a separately successful price request. Once the source recovers, its next due attempt can update it normally.
 
+The HTTP client uses a stable, truthful `BalticWidgets` User-Agent, normal HTML/JSON Accept headers and a Latvian/English language preference. Within each client process, request starts to the same origin are spaced by at least one second. HTTP 403 is not automatically retried. HTTP 429/5xx gets at most one retry, respecting a short `Retry-After`; longer requested waits are deferred to the normal task cooldown. Error diagnostics include the URL without query parameters, status, response server, request ID and Retry-After when provided. They never contain cookies, authorization headers or raw response bodies. Price and directory HTTP diagnostics are stored separately in source metadata.
+
+To investigate an intermittent refusal from the same computer/network without refreshing or publishing widget data:
+
+```powershell
+npm.cmd run diagnose:fuel
+```
+
+This makes a bounded check of the Circle K price page, Circle K station catalogue, Virši catalogue page and its observed official JSON endpoint. The result includes HTTP status and parser record counts, saved privately in `artifacts/fuel-http-diagnostics.json`. `npm run diagnose:fuel -- --legacy` repeats the check using the earlier client header values for comparison. Run comparisons intentionally rather than in a frequent loop. A browser success alone cannot distinguish an IP rule from cookies, request identity, request timing, transport differences or a transient refusal. A successful check cannot retrospectively establish why an earlier request failed.
+
 Failures do not count as success. Repeated launches still apply a cooldown: the task's normal interval for interval tasks, or 24 hours for daily/monthly tasks; delayed electricity publication retries after one hour. Other independent due tasks continue. A degraded report is shown before publication, and valid/cached data can still be deployed. Tests, build or publication command failures stop the PowerShell script.
 
 The `.update.lock` and collector lock prevent overlapping work against the same directory. If a process crashes, first confirm it has stopped before removing its leftover lock. The server never blindly deletes another process's lock.

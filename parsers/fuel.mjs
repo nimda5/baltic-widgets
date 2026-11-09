@@ -1,3 +1,4 @@
+import {requestFuel as request} from './fuel-http.mjs';
 import {extraURLs,koolMapURL,addKoolCoordinates,koolSnippetURLs,parseKoolPrices,parseKoolDirectory,parseNesteDirectory,parseRietumu} from './lv-extra.mjs';
 import {fuelPublicationTime,fuelQuoteFreshness} from '../public/fuel-freshness.js';
 import {collectCommunityFallback} from './energijascenas.mjs';
@@ -197,25 +198,6 @@ export function parseFuelest(data, home) {
   });
 }
 
-async function request(url, headers = {}, attempt = 0) {
-  try {
-    const res = await fetch(url, { headers: { 'User-Agent': 'BalticFuelWidgets/0.1', ...headers }, signal: AbortSignal.timeout(25000) });
-    if (!res.ok) {
-      if ((res.status === 429 || res.status >= 500) && attempt === 0) {
-        await new Promise(r => setTimeout(r, 1500)); return request(url, headers, 1);
-      }
-      const target=new URL(url);
-      throw new Error(`Upstream HTTP ${res.status} (${target.origin}${target.pathname})`);
-    }
-    const text = await res.text(); if (text.length > 8_000_000) throw new Error('Response too large');
-    return text;
-  } catch (e) {
-    // Never log request headers, public website access tokens, or response bodies.
-    if (e.name === 'TimeoutError' && attempt === 0) return request(url, headers, 1);
-    throw e;
-  }
-}
-
 export const directorySources=['circle','virsi','viada','straujupite','kool','neste'];
 async function collectDirectory(source){
  if(source==='circle')return parseCircleDirectory(await request(circleDirectoryURL));
@@ -304,7 +286,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
           }
           const ids=new Set(directory.map(s=>s.id));
           stations=[...stations.filter(s=>s.source!==source),...directory,...previous.filter(s=>!ids.has(s.id)&&!s.directory_id&&Object.keys(s.prices).length)];
-          statuses.set(source,{...statuses.get(source),id:source,directory_status:'ok',directory_last_success_at:now,directory_error:null,directory_location_count:directory.length});
+          statuses.set(source,{...statuses.get(source),id:source,directory_status:'ok',directory_last_success_at:now,directory_error:null,directory_http_error:null,directory_location_count:directory.length});
           continue;
         }
         const collected=await collect(source);
@@ -334,18 +316,18 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
           p.change = before ? Number((p.value - before.value).toFixed(3)) : null;
         }
         stations = [...stations.filter(s => s.source !== source), ...fresh];
-        statuses.set(source, { ...statuses.get(source),id: source, status: 'ok', last_success_at: now, station_count: fresh.length,
+        statuses.set(source, { ...statuses.get(source),id: source, status: 'ok',error:null,last_http_error:null,last_success_at: now, station_count: fresh.length,
           ...(hasDirectory?{directory_status:directoryLive?'ok':fresh.some(s=>s.directory_id)?'cached':'unavailable',directory_location_count:fresh.filter(s=>s.directory_id).length}:{}),
           attribution: source === 'fuelest' ? 'FuelEst.ee — community reports' : source === 'lea' ? 'LEA, degalais prekiaujančios įmonės' : source });
       } catch (e) {
         const prior = statuses.get(source);
         const message=e.message.replace(/Bearer\s+\S+/g, '[redacted]');errors.push(`${source} ${mode}: ${message}`);
         if(mode==='directories'){
-          statuses.set(source,{...prior,id:source,directory_status:'error',directory_last_attempt_at:now,directory_error:message});
+          statuses.set(source,{...prior,id:source,directory_status:'error',directory_last_attempt_at:now,directory_error:message,directory_http_error:e.diagnostic||null});
           console.error(`${source} directory: ${message}; cached locations retained`);continue;
         }
         statuses.set(source, { ...prior, id: source, status: 'error', last_attempt_at: now,
-          last_success_at: prior?.last_success_at || null, error: e.message.replace(/Bearer\s+\S+/g, '[redacted]') });
+          last_success_at: prior?.last_success_at || null,last_http_error:e.diagnostic||null, error: e.message.replace(/Bearer\s+\S+/g, '[redacted]') });
         console.error(`${source}: ${e.message}`);
       }
     }
