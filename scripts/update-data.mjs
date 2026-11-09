@@ -23,7 +23,7 @@ try{
   else{
    const display=value=>value?new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Riga',dateStyle:'short',timeStyle:'short'}).format(new Date(value)):'never';
    const cadence=task=>task.period==='day'?'daily':task.period==='month'?'monthly':task.interval>=86400000?(task.interval/86400000)+' days':task.interval>=3600000?(task.interval/3600000)+' hours':(task.interval/60000)+' min';
-   const next=task=>{if(task.due)return'now';if(task.next_check_at)return display(task.next_check_at);if(!task.last_success)return'after cooldown';const date=new Date(rigaDay(task.last_success)+'T00:00:00Z');if(task.period==='month'){date.setUTCDate(1);date.setUTCMonth(date.getUTCMonth()+1);}else date.setUTCDate(date.getUTCDate()+1);return date.toISOString().slice(0,10)+' 00:00';};
+   const next=task=>{if(task.due)return'now';if(task.next_check_at)return display(task.next_check_at);if(!task.last_success)return'after cooldown';if(task.notBeforeHour){const today=new Date(rigaDay(report.started_at)+'T00:00:00Z');if(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Riga',hour:'2-digit',hourCycle:'h23'}).format(new Date(report.started_at))>=String(task.notBeforeHour)){today.setUTCDate(today.getUTCDate()+1);}return today.toISOString().slice(0,10)+' '+task.notBeforeHour+':00';}const date=new Date(rigaDay(task.last_success)+'T00:00:00Z');if(task.period==='month'){date.setUTCDate(1);date.setUTCMonth(date.getUTCMonth()+1);}else date.setUTCDate(date.getUTCDate()+1);return date.toISOString().slice(0,10)+' 00:00';};
    console.log('Update plan (Europe/Riga). No source requests or publication.');
    console.table(report.tasks.map(t=>({Task:t.id,Cadence:cadence(t),Status:t.status,Reason:t.reason,'Last success':display(t.last_success),'Next check':next(t)})));
   }

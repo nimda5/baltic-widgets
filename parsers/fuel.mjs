@@ -204,7 +204,8 @@ async function request(url, headers = {}, attempt = 0) {
       if ((res.status === 429 || res.status >= 500) && attempt === 0) {
         await new Promise(r => setTimeout(r, 1500)); return request(url, headers, 1);
       }
-      throw new Error(`Upstream HTTP ${res.status}`);
+      const target=new URL(url);
+      throw new Error(`Upstream HTTP ${res.status} (${target.origin}${target.pathname})`);
     }
     const text = await res.text(); if (text.length > 8_000_000) throw new Error('Response too large');
     return text;

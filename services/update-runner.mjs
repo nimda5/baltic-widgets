@@ -1,6 +1,6 @@
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
-import {planUpdates,rigaDay} from './update-plan.mjs';
+import {planUpdates,rigaDay,rigaHour} from './update-plan.mjs';
 import {ensureCollectorState} from './collector-state.mjs';
 import {saveStations} from './database.mjs';
 import {run as collectFuel} from '../parsers/fuel.mjs';
@@ -32,7 +32,17 @@ export async function runPlannedUpdates(db,dir,{profile='auto',force=false,now=n
  const report={started_at:now.toISOString(),profile,force,tasks:[],errors:[]};
  if(dryRun)return{...report,tasks:plan.map(t=>({...t,status:t.due?'due':'skipped'}))};
  const fuel=async mode=>{await ensureCollectorState(db,path.join(dir,'collector'));const doc=await collectFuel(path.join(dir,'collector'),undefined,{mode,setExitCode:false});saveStations(db,doc);return{stations:doc.data.length,errors:doc.errors||[]};};
- const handlers={directories:()=>fuel('directories'),fuel:()=>fuel('prices'),electricity:()=>refreshElectricity(db,Date.now(),{backfill:profile==='full'}),gas:()=>refreshGas(db,dir),markets:()=>refreshMarkets(db,dir,new Date(),{backfill:profile==='full'}),horoscope:()=>{horoscopeData(db);return{date:rigaDay(new Date())};},fuel_archive:()=>refreshArchive(db,dir,true),commodity_archive:()=>refreshCommodityArchive(db,dir,new Date(),{force:true}),nameday_statistics:()=>refreshNamedayStatistics({force:true})};
+ const electricity=async()=>{
+  const result=await refreshElectricity(db,Date.now(),{backfill:profile==='full'});
+  if(rigaHour(new Date())>=15){
+   const tomorrow=new Date(rigaDay(new Date())+'T12:00:00Z');tomorrow.setUTCDate(tomorrow.getUTCDate()+1);
+   const expected=rigaDay(tomorrow);
+   const complete=db.prepare("SELECT market,max(valid_to) AS until FROM electricity_prices WHERE source='elering' GROUP BY market").all();
+   if(complete.length!==3||complete.some(r=>rigaDay(r.until)<=expected))throw Error('Next-day electricity schedule is not complete yet; cached data retained, retry in one hour');
+  }
+  return result;
+ };
+ const handlers={directories:()=>fuel('directories'),fuel:()=>fuel('prices'),electricity,gas:()=>refreshGas(db,dir),markets:()=>refreshMarkets(db,dir,new Date(),{backfill:profile==='full'}),horoscope:()=>{horoscopeData(db);return{date:rigaDay(new Date())};},fuel_archive:()=>refreshArchive(db,dir,true),commodity_archive:()=>refreshCommodityArchive(db,dir,new Date(),{force:true}),nameday_statistics:()=>refreshNamedayStatistics({force:true})};
  Object.assign(handlers,executors);
  for(const task of plan){
   if(!task.due){console.log(`[skip] ${task.id}: not due`);report.tasks.push({...task,status:'skipped'});continue;}

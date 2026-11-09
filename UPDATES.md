@@ -7,7 +7,7 @@ All manual commands, PowerShell entry points and the optional API server use one
 | Task | Normal cadence | Data fetched | What is deliberately excluded |
 | --- | --- | --- | --- |
 | `fuel` | Every 6 hours | Operator price pages, LEA latest prices, FuelEst prices, eligible community fallback | Separate station lists/maps; Neste has no price collector |
-| `electricity` | Every 30 minutes | Recent Elering LV/LT/EE slots and published next-day slots | Historical backfill |
+| `electricity` | Once daily after 15:00 Europe/Riga | Elering LV/LT/EE day-ahead schedule | Repeated downloads of the same published delivery slots; historical backfill |
 | `gas` | Once per Riga calendar day | EEX recent gas files | World Bank monthly history |
 | `markets` | Once per Riga calendar day | Recent ECB exchange rates, NBP gold, Coin Metrics Bitcoin | Full historical downloads |
 | `horoscope` | Once per Riga calendar day | Local validated cache for the current day and tomorrow | No external model request; no editorial changes |
@@ -19,6 +19,8 @@ All manual commands, PowerShell entry points and the optional API server use one
 LEA and FuelEst include station addresses/coordinates in their price responses. Those fields are reused; no additional station-catalogue request is needed. KOOL requires its homepage to discover the price-page URL, but frequent refreshes do not fetch its station list or Google map. Rietumu publishes its single station together with its diesel quote. Cached station lists can be re-exported locally without downloading them again.
 
 These are collection cadences, not guarantees about publisher activity. For example, ECB/NBP generally have no new weekend observations, and PMLP currently publishes snapshots twice a year. Monthly checks simply discover a new official snapshot when one becomes available.
+
+Electricity collection and display are separate. Nord Pool publishes the next day’s auction schedule once daily; the normal collector waits until 15:00 Riga time. If tomorrow’s complete schedule is delayed or the request fails, it retries after one hour when the updater is invoked again. First-run bootstrap and explicit forced runs can fetch today’s available data earlier. The browser selects the current interval from cached future slots and updates the display locally every minute; it does not re-download the source every half hour. See [Nord Pool’s current publication timing](https://www.nordpoolgroup.com/en/trading/transition-to-15-minute-market-time-unit-mtu/faq/faq-premium-container/will-the-publication-time-of-results-change-after-the-sdac-15-minute-mtu-go-live/).
 
 ## Recommended command
 
@@ -76,7 +78,7 @@ Console output uses `[run]`, `[skip]` and `[error]`, with a task name. `artifact
 
 An upstream HTTP 403 means the source refused the request. The collector does not bypass access controls. A failed price request retains the previous valid quotes and their original publication/fetch times; it cannot make them fresh again. A failed station-catalogue request retains cached locations and does not invalidate a separately successful price request. Once the source recovers, its next due attempt can update it normally.
 
-Failures do not count as success. Repeated launches still apply a cooldown: the task's normal interval for interval tasks, or 24 hours for daily/monthly tasks. Other independent due tasks continue. A degraded report is shown before publication, and valid/cached data can still be deployed. Tests, build or publication command failures stop the PowerShell script.
+Failures do not count as success. Repeated launches still apply a cooldown: the task's normal interval for interval tasks, or 24 hours for daily/monthly tasks; delayed electricity publication retries after one hour. Other independent due tasks continue. A degraded report is shown before publication, and valid/cached data can still be deployed. Tests, build or publication command failures stop the PowerShell script.
 
 The `.update.lock` and collector lock prevent overlapping work against the same directory. If a process crashes, first confirm it has stopped before removing its leftover lock. The server never blindly deletes another process's lock.
 

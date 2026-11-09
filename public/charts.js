@@ -1,6 +1,6 @@
 import {t,locale} from './i18n.js';
 import {seriesForPeriod} from './chart-periods.js';
-import {chartWindow,priceChange,nearestPoint} from './chart-math.js';
+import {chartWindow,priceChange,nearestPoint,colorTrend,energyUnit} from './chart-math.js';
 const dialog = document.querySelector('.price-dialog');
 const canvas = document.querySelector('#chart-canvas');
 const cursor = document.querySelector('.chart-cursor');
@@ -21,9 +21,10 @@ function svgNode(tag, attrs = {}, text) {
   return n;
 }
 
-export function priceButton(quote, {label, unit, digits = 3, className = 'price-value', intraday = false, text}) {
+export function priceButton(quote, {label, unit, digits = 3, className = 'price-value', intraday = false, text,lowerIsBetter=energyUnit(unit)}) {
   const button = node('button', 'price-trigger');
   button.type = 'button';
+  button.dataset.lowerIsBetter=String(lowerIsBetter);
   button.setAttribute('aria-label', `${label}: ${format(quote.price,digits)} ${unit}. ${t('view_price_history','View price history')}`);
   button.title=t('view_price_history','View price history');
   button.append(node('span', className, text ?? format(quote.price,digits)));
@@ -42,7 +43,7 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
     const dailyPoints=(quote.daily_history || []).filter(p=>Number.isFinite(p.value)&&Number.isFinite(Date.parse(p.at))).map(p=>({at:Date.parse(p.at),value:p.value})).sort((a,b)=>a.at-b.at);
     const chartLabel = reference ? quote.reference_label : label;
     const source = reference ? quote.reference_source : quote.history_source;
-    active = {label:chartLabel,unit,digits,intraday,dailyPoints,price:reference ? points.at(-1).value : (quote.price ?? points.at(-1)?.value),points};
+    active = {label:chartLabel,unit,digits,intraday,dailyPoints,lowerIsBetter,price:reference ? points.at(-1).value : (quote.price ?? points.at(-1)?.value),points};
     document.querySelector('#chart-title').textContent = chartLabel;
     document.querySelector('#chart-current').textContent = `${format(active.price,digits)} ${unit}${source ? ` · ${source}` : ''}`;
     const periods=intraday?[1,7,...(dailyPoints.length?[30,90,365,1825,0]:[])]:[7,30,90,365,1825,0];
@@ -85,7 +86,7 @@ function draw(days) {
   cursor.hidden = false;
   const first = selectedPoints[0], last = selectedPoints.at(-1);
   const {delta,percent:changePercent} = priceChange(first.value,last.value);
-  change.className = `trend ${delta>0?'up':delta<0?'down':'flat'}`;
+  change.className = `trend ${colorTrend(delta,active.lowerIsBetter)}`;
   const percent = changePercent !== null ? ` (${format(Math.abs(changePercent),2)}%)` : '';
   change.textContent = `${delta>0?'↑':delta<0?'↓':'–'} ${format(Math.abs(delta),active.digits)}${percent}`;
   let min = Math.min(...selectedPoints.map(p=>p.value)), max = Math.max(...selectedPoints.map(p=>p.value));
@@ -149,7 +150,7 @@ function highlight(index) {
   if(comparison !== null){
     const a=selectedPoints[Math.min(comparison,index)],b=selectedPoints[Math.max(comparison,index)];
     const {delta,percent}=priceChange(a.value,b.value),sign=delta>0?'+':delta<0?'−':'';
-    const trend=delta>0?'up':delta<0?'down':'flat';
+    const trend=colorTrend(delta,active.lowerIsBetter);
     plot.svg.dataset.rangeTrend=trend;
     plot.selection.setAttribute('x',plot.x(a));plot.selection.setAttribute('width',plot.x(b)-plot.x(a));
     plot.selectionClip.setAttribute('x',plot.x(a));plot.selectionClip.setAttribute('width',plot.x(b)-plot.x(a));

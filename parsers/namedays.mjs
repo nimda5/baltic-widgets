@@ -69,14 +69,14 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(dictionary?.sources)sources.push(...dictionary.sources);
  if(registry){sources.push(registry.source);const word=registry.subgroup?.split(' ')[0];if(subgroupOrigins[word])origins.add(subgroupOrigins[word]);if(registryKinds[word])facts.registry_kind=registryKinds[word];}
  facts.origins=[...origins];
- let family=Object.entries(familyNames).find(([,aliases])=>aliases.includes(name)||facts.related.some(related=>aliases.includes(related)))?.[0]||null;
+ let family=Object.entries(familyNames).find(([,aliases])=>aliases.some(alias=>nameIdentity(alias)===nameIdentity(name)))?.[0]||null;
  if(family)sources.push({url:familySources[family],type:'reviewed_name_family'});
  if(family==='alexandra')sources.push({url:'https://www.rct.uk/collection/stories/queen-alexandra',type:'reviewed_name_history'});
  const exact=(people.get(name)||[]).map(p=>({...p,match:'exact'}));
  const candidates=exact.sort((a,b)=>Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0));
  let chosen=candidates.slice(0,3);
  if(!chosen.length&&family){const reference={charlotte:'Charlotte',leo:'Leo',leonard:'Leonardo',alexandra:'Alexandra'}[family];chosen=(people.get(reference)||[]).slice(0,2).map(p=>({...p,match:'related_form'}));}
- if(!entry&&!registry&&previous){facts.origins=previous.facts.origins;facts.first_recorded=previous.facts.first_recorded;facts.related=previous.facts.related;if(previous.facts.registry_kind)facts.registry_kind=previous.facts.registry_kind;sources.push(...previous.provenance);family||=previous.family;}
+ if(!entry&&!registry&&previous){facts.origins=previous.facts.origins;facts.first_recorded=previous.facts.first_recorded;facts.related=previous.facts.related;if(previous.facts.registry_kind)facts.registry_kind=previous.facts.registry_kind;sources.push(...previous.provenance);}
  const evidence=index.get(nameIdentity(name))||[];
  facts.origins=[...new Set([...facts.origins,...evidence.flatMap(e=>e.facts.origins||[])])];
  facts.related=[...new Set([...facts.related,...evidence.flatMap(e=>e.facts.related||[])])].filter(n=>nameIdentity(n)!==nameIdentity(name));
@@ -90,11 +90,10 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(archive){facts.archival_variants=archive.facts.archival_variants;facts.archival_form=archive.facts.archival_form;}
  facts.origin_uncertain=evidence.some(e=>e.facts.origin_uncertain);
  for(const form of facts.source_forms)if(form.source)sources.push(form.source);
- const root=reviewedRoot(name,facts.origin_uncertain?[]:[...facts.related,...facts.source_forms.map(f=>f.form)]);
+ const root=reviewedRoot(name);
  if(root){facts.root_key=root.key;facts.origins=[...new Set([...facts.origins,root.origin])];sources.push(root.source,...(root.sources||[]));}
  if(!chosen.length&&previous?.people?.length)chosen=previous.people;
  if(!chosen.length&&root){const candidates=root.aliases.flatMap(alias=>people.get(alias)||[]);chosen=[...new Map(candidates.map(p=>[p.id,{...p,match:'related_form'}])).values()].slice(0,3);}
- family||=Object.entries(familyNames).find(([,aliases])=>aliases.some(alias=>nameIdentity(alias)===nameIdentity(name))||facts.related.some(related=>aliases.includes(related)))?.[0]||null;
  if(family)sources.push({url:familySources[family],type:'reviewed_name_family'});
  if(family==='alexandra')sources.push({url:'https://www.rct.uk/collection/stories/queen-alexandra',type:'reviewed_name_history'});
  if(!chosen.length){const variants=[...people].filter(([form])=>form!==name&&nameIdentity(form)===nameIdentity(name)).flatMap(([,list])=>list).sort((a,b)=>Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0));chosen=[...new Map(variants.map(p=>[p.id,{...p,match:'related_form'}])).values()].slice(0,3);}

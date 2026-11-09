@@ -3,6 +3,8 @@ import {zodiacPaths} from './zodiac-icons.js';
 import { priceButton } from './charts.js';
 import { currentZodiac } from './zodiac.js';
 import {fuelPriceState} from './fuel-freshness.js';
+import {colorTrend} from './chart-math.js';
+import {electricityQuoteAt} from './electricity-time.js';
 // Track input method because native selects can match :focus-visible after a mouse click.
 document.documentElement.dataset.inputModality='keyboard';
 document.addEventListener('pointerdown',()=>{document.documentElement.dataset.inputModality='pointer';},true);
@@ -91,7 +93,7 @@ function icon(name) {
   return svg;
 }
 
-function trend(current, previous, percent = false) {
+function trend(current, previous, percent = false,lowerIsBetter=false) {
   const known = Number.isFinite(previous) && Number.isFinite(current);
   const delta = known ? current - previous : 0;
   const hasPercentage = known && previous !== 0;
@@ -99,7 +101,7 @@ function trend(current, previous, percent = false) {
   const direction = !known ? 'unknown' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'flat';
   const arrow = direction === 'up' ? '↑' : direction === 'down' ? '↓' : '–';
   const label = !known?t('no_comparison','No comparison available'):t('previous_value','Previous: {value}',{value:number(previous,4)})+(hasPercentage?' · '+t('change_value','Change: {value}%',{value:number(value,2)}):'');
-  const node = element('span', `trend ${direction}`, percent && hasPercentage ? `${arrow} ${number(Math.abs(value), 2)}%` : arrow);
+  const node = element('span', `trend ${known?colorTrend(delta,lowerIsBetter):'unknown'}`, percent && hasPercentage ? `${arrow} ${number(Math.abs(value), 2)}%` : arrow);
   if(!known || delta===0)node.hidden=true;
   node.title = label;
   node.setAttribute('aria-label', label);
@@ -107,7 +109,7 @@ function trend(current, previous, percent = false) {
 }
 
 function applyPriceTrend(button, current, previous) {
-  if (Number.isFinite(current) && Number.isFinite(previous)) button.dataset.trend = current > previous ? 'up' : current < previous ? 'down' : 'flat';
+  if (Number.isFinite(current) && Number.isFinite(previous)) button.dataset.trend = colorTrend(current-previous,button.dataset.lowerIsBetter==='true');
 }
 
 const fuelKeys = ['petrol95', 'diesel'];
@@ -121,7 +123,7 @@ function paintFuelPrice(cell,quote,label){
   cell.replaceChildren();
   if (fuelPriceState(quote)!=='recent') cell.append(unavailableFuel(quote,label));
   else {
-    const button = priceButton(quote,{label,unit:'EUR/l'}); button.append(trend(quote.price,quote.previous));
+    const button = priceButton(quote,{label,unit:'EUR/l'}); button.append(trend(quote.price,quote.previous,false,true));
     applyPriceTrend(button,quote.price,quote.previous);
     button.title = [quote.scope==='network_published_minimum'?t('network_minimum','Published network minimum; individual station prices may differ'):'', !quote.observed_date&&!quote.observed_at?t('publication_date_unknown','Publication date not provided by the operator'):'',quote.station_address, quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : '', t('view_price_history','View price history')].filter(Boolean).join(' · ');
     if (quote.freshness === 'stale' || quote.source_status === 'error') {
@@ -214,11 +216,15 @@ function fuel(container, data) {
   const gas=element('div','electricity gas');energyQuotes.append(gas);loadGas(gas);
 }
 
-async function loadElectricity(container) {
+const electricityDocuments=new WeakMap(),electricityContainers=new Set();
+function refreshElectricityClock(){for(const container of electricityContainers)if(container.isConnected)loadElectricity(container,true);}
+setInterval(refreshElectricityClock,60000);
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshElectricityClock();});
+async function loadElectricity(container,cached=false) {
   try {
-    const json = await readJSON(`data/${lang}/electricity.json?lang=${lang}`); validateEnvelope(json);
+    const json = cached?electricityDocuments.get(container):await readJSON(`data/${lang}/electricity.json?lang=${lang}`); validateEnvelope(json);electricityDocuments.set(container,json);electricityContainers.add(container);
     const market = document.documentElement.dataset.market || 'LV';
-    const quote = json.data.areas?.[market];
+    const quote = electricityQuoteAt(json.data.areas?.[market]);
     if (!quote || !Number.isFinite(quote.price_eur_mwh) || !Number.isFinite(Date.parse(quote.valid_from)) || !Number.isFinite(Date.parse(quote.valid_to))) throw new Error('Invalid electricity');
     const info = element('div', 'electricity-info');
     const timeZone = {LV:'Europe/Riga', EE:'Europe/Tallinn', LT:'Europe/Vilnius'}[market];
@@ -232,7 +238,7 @@ async function loadElectricity(container) {
     const caption=`Nord Pool · ${market} · ${time(quote.valid_from)}–${time(quote.valid_to)}`;
     heading.title=trigger.title=caption;info.append(heading);
     applyPriceTrend(trigger,quote.price_eur_mwh/1000,previous);
-    trigger.append(element('span','unit',' EUR/kWh'),trend(quote.price_eur_mwh/1000,previous));
+    trigger.append(element('span','unit',' EUR/kWh'),trend(quote.price_eur_mwh/1000,previous,false,true));
     const price = element('div', 'electricity-price'); price.append(trigger);
     container.title = t('electricity_basis','Wholesale price excluding VAT and fees. Compared with the previous interval.');
     container.replaceChildren(info, price);
@@ -249,7 +255,7 @@ async function loadGas(container){
     const chartQuote={price:quote.price_eur_mwh,history:quote.history,history_source:quote.history_source,chart_series:quote.chart_series},chartOptions={label:`${t('gas','Natural gas')} · ${quote.zone}`,unit:'EUR/MWh',digits:2};
     const trigger=priceButton(chartQuote,chartOptions);
     const heading=priceButton(chartQuote,{...chartOptions,text:t('gas','Natural gas'),className:'energy-name'});heading.classList.add('electricity-title','energy-title-trigger');heading.prepend(icon('flame'));heading.title=trigger.title=caption;info.append(heading);
-    applyPriceTrend(trigger,quote.price_eur_mwh,quote.previous_eur_mwh);trigger.append(element('span','unit',' EUR/MWh'),trend(quote.price_eur_mwh,quote.previous_eur_mwh));
+    applyPriceTrend(trigger,quote.price_eur_mwh,quote.previous_eur_mwh);trigger.append(element('span','unit',' EUR/MWh'),trend(quote.price_eur_mwh,quote.previous_eur_mwh,false,true));
     const price=element('div','electricity-price');price.append(trigger);container.title=t('gas_basis','Wholesale, excluding VAT and delivery fees');container.replaceChildren(info,price);
   }catch{container.replaceChildren(element('span','muted',t('gas','Natural gas')+' · '+t('unavailable','Data unavailable')));}
 }

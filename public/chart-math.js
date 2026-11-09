@@ -1,3 +1,8 @@
+// CSS up/down are the existing favourable/adverse colour palette. Arrows keep
+// their mathematical direction; only the colour is inverted for energy costs.
+export function colorTrend(delta,lowerIsBetter=false){return delta===0||!Number.isFinite(delta)?'flat':(delta>0)!==lowerIsBetter?'up':'down';}
+export function energyUnit(unit){return ['EUR/l','EUR/kWh','EUR/MWh'].includes(unit);}
+
 export function chartWindow(points, days, now = Date.now(), intraday = false) {
   if (!days) return points;
   const last = points.at(-1)?.at;

@@ -59,10 +59,11 @@ REVIEWED_ROOTS.amir.source.url='https://www.behindthename.com/name/amir-1';
 for(const key of ['theodotus','theodosius'])REVIEWED_ROOTS[key].sources=[{url:'https://en.wikipedia.org/wiki/'+(key==='theodotus'?'Theodotus':'Theodosius'),type:'reviewed_name_root'}];
 REVIEWED_ROOTS.theodotus.sources.push({url:'https://www.personvarduatveide.lv/words/24448?locale=en',type:'official_name_equivalence',provider:'Latvian Language Agency'});
 const aliases=new Map();for(const root of Object.values(REVIEWED_ROOTS))for(const alias of [...root.aliases,root.form])aliases.set(norm(alias),root.key);
-export function reviewedRoot(name,related=[]){
+// A dictionary comparison is not proof of an equivalent name or its root.
+// Only explicitly reviewed spellings (including diacritic variants) qualify.
+export function reviewedRoot(name){
  const exact=aliases.get(norm(name));if(exact)return REVIEWED_ROOTS[exact];
- const candidates=[...new Set(related.map(n=>aliases.get(norm(n))).filter(Boolean))];
- return candidates.length===1?REVIEWED_ROOTS[candidates[0]]:null;
+ return null;
 }
 const languageIndex={lv:0,ru:1,en:2,lt:3,et:4};
 const originLabels={"Ancient Greek":["sengrieķu","древнегреческие","Ancient Greek","senovės graikų","vanakreeka"],"Latin":["latīņu","латинские","Latin","lotynų","ladina"],"Hebrew":["senebreju","древнееврейские","Hebrew","hebrajų","heebrea"],"Germanic languages":["ģermāņu","германские","Germanic","germanų","germaani"],"Old Norse":["senskandināvu","древнескандинавские","Old Norse","senovės skandinavų","vanapõhja"],"English":["senangļu","древнеанглийские","Old English","senosios anglų","vanainglise"],"Arabic":["arābu","арабские","Arabic","arabų","araabia"],"Sanskrit":["sanskrita","санскритские","Sanskrit","sanskrito","sanskriti"]};
@@ -125,4 +126,34 @@ const details={
   'Nime levikule Euroopas aitas kaasa 4. sajandi Milano piiskop Ambrosius.'
  ]
 };
-export function rootHistory(key,name,lang){const root=REVIEWED_ROOTS[key];if(!root)return null;const i=languageIndex[lang]??2;return (lines[lang]||lines.en).replace(/\{(\w+)\}/g,(_,k)=>({name,origin:originLabels[root.origin][i],form:root.form,meaning:root.meaning[i]})[k])+(details[key]?' '+details[key][i]:'');}
+const variantChains={
+ teodors:[
+ 'Teodors ir latviešu vārds, kas radniecīgs angļu Theodore. Sengrieķu Theodoros veido theos (“dievs”) un doron (“dāvana”): “Dieva dāvana”.',
+ 'Teodors — латышская форма имени Теодор. Древнегреческое Theodoros сложено из theos («Бог») и doron («дар»): «дар Бога».',
+ 'Teodors is the Latvian form of Theodore. Greek Theodoros combines theos (“god”) and doron (“gift”): “gift of God”.',
+ 'Teodors yra latviška Teodoro forma. Graikų Theodoros sudarytas iš theos („dievas“) ir doron („dovana“): „Dievo dovana“.',
+ 'Teodors on Theodore’i läti kuju. Kreeka Theodoros koosneb sõnadest theos („jumal“) ja doron („kingitus“): „Jumala kingitus“.'
+ ],
+ fedor:[
+ '{name} atveido krievu vārdu {native}. Tas pieder tai pašai vārdu saimei kā Teodors un Theodore, kas cēlušies no sengrieķu Theodoros — “Dieva dāvana”.',
+ '{name} передаёт русское имя {native}. Оно принадлежит к той же семье, что Teodors и Theodore: они восходят к древнегреческому Theodoros — «дар Бога».',
+ '{name} renders the Russian name {native}. It belongs to the same family as Teodors and Theodore, all descending from Greek Theodoros, “gift of God”.',
+ '{name} perteikia rusišką vardą {native}. Jis priklauso tai pačiai vardų šeimai kaip Teodors ir Theodore, kilusiai iš graikų Theodoros — „Dievo dovana“.',
+ '{name} annab edasi vene nime {native}. See kuulub Teodorsi ja Theodore’iga samasse nimeperekonda, mille aluseks on kreeka Theodoros — „Jumala kingitus“.'
+ ],
+ fedots:[
+ 'Fedots ir krievu vārda Fedot latviskā forma. Pamatā ir sengrieķu Theodotos: theos (“dievs”) un dotos (“dots”) — “Dieva dots”. Tas atšķiras no Theodoros, no kura cēlies Fjodors.',
+ 'Fedots — латышская форма русского имени Федот. В основе — древнегреческое Theodotos: theos («Бог») и dotos («данный»), то есть «данный Богом». Это другое имя, чем Theodoros, от которого произошёл Фёдор.',
+ 'Fedots is the Latvian form of Russian Fedot. Its Greek source is Theodotos, from theos (“god”) and dotos (“given”): “given by God”. This is a different name from Theodoros, the source of Fyodor.',
+ 'Fedots yra latviška rusiško Fedot forma. Jo pagrindas — graikų Theodotos: theos („dievas“) ir dotos („duotas“), „Dievo duotas“. Tai kitas vardas nei Theodoros, iš kurio kilo Fiodoras.',
+ 'Fedots on vene Fedoti läti kuju. Aluseks on kreeka Theodotos: theos („jumal“) ja dotos („antud“) — „Jumala antud“. See erineb nimest Theodoros, millest pärineb Fjodor.'
+ ]
+};
+REVIEWED_ROOTS.theodore.sources=[{url:'https://www.behindthename.com/name/fyodor',type:'reviewed_name_root'}];
+REVIEWED_ROOTS.theodotus.sources.push({url:'https://www.behindthename.com/name/fedot',type:'reviewed_name_root'});
+export function rootHistory(key,name,lang){
+ const root=REVIEWED_ROOTS[key];if(!root)return null;const i=languageIndex[lang]??2,n=norm(name);
+ const chain=n==='teodors'?'teodors':n==='fedots'?'fedots':['fedors','feodors','fjodors'].includes(n)?'fedor':null;
+ if(chain)return variantChains[chain][i].replaceAll('{name}',name).replaceAll('{native}',lang==='ru'?(n==='feodors'?'Феодор':'Фёдор'):(n==='feodors'?'Feodor':'Fyodor'));
+ return (lines[lang]||lines.en).replace(/\{(\w+)\}/g,(_,k)=>({name,origin:originLabels[root.origin][i],form:root.form,meaning:root.meaning[i]})[k])+(details[key]?' '+details[key][i]:'');
+}

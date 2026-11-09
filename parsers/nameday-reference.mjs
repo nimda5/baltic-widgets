@@ -8,7 +8,7 @@ export function referenceOrigins(text){
  if(uncertainReference(text))return[];
  const result=[];
  for(const [term,label] of Object.entries(originTerms)){
-  const pattern=new RegExp('(?:\\b(?:from|of|via|through) (?:the )?'+term+'\\b|\\b'+term+' (?:word|words|root|roots|compound|verb|adjective|noun|origin)\\b'+(['Greek','Latin','Hebrew','Arabic','Germanic','Old Norse','Old English','Sanskrit','Persian'].includes(term)?'|\\b'+term+' (?:name|form)\\b':'')+')','i');
+  const pattern=new RegExp('(?:\\b(?:from|of|via|through|based on) (?:the )?'+term+'\\b|\\b'+term+' (?:word|words|root|roots|compound|verb|adjective|noun|origin)\\b'+(['Greek','Latin','Hebrew','Arabic','Germanic','Old Norse','Old English','Sanskrit','Persian'].includes(term)?'|\\b'+term+' (?:name|form)\\b':'')+')','i');
   if(pattern.test(text)&&!new RegExp('\\b(?:not|neither) (?:from )?(?:the )?'+term+'\\b','i').test(text))result.push(label);
  }
  return[...new Set(result)];

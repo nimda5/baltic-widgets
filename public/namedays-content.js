@@ -1,7 +1,7 @@
 import {formatAttestation} from './namedays-attestation.js';
 import {nameImpression} from './namedays-imagery.js';
 import {rootHistory} from './namedays-roots.js';
-export const WRITER_VERSION='namedays-1.4.0';
+export const WRITER_VERSION='namedays-1.4.1';
 export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={
@@ -31,7 +31,7 @@ const bundles={
   "author": "Немного фантазии",
   "documented": "История имени",
   "origin": "У имени {name} {origins} корни.",
-  "related": "У этого имени есть и другие формы: {names}.",
+  "related": "Это имя также связывают с именами {names}.",
   "local": "Тёзка из вашего календаря",
   "international": "Международный тёзка",
   "variant": "Родственная форма имени",
@@ -76,7 +76,7 @@ const bundles={
   "author": "A little imagination",
   "documented": "The name’s history",
   "origin": "{name} has {origins} roots.",
-  "related": "Other forms of the name include {names}.",
+  "related": "The name is also linked with {names}.",
   "local": "A namesake from this country",
   "international": "International namesake",
   "variant": "A related form of the name",
@@ -121,7 +121,7 @@ const bundles={
   "author": "Mazliet iztēles",
   "documented": "Vārda vēsture",
   "origin": "Vārdam {name} ir {origins} saknes.",
-  "related": "Šim vārdam ir arī citas formas: {names}.",
+  "related": "Šo vārdu saista arī ar vārdiem {names}.",
   "local": "Vārdabrālis no šīs valsts",
   "international": "Starptautisks vārdabrālis",
   "variant": "Radniecīga vārda forma",
@@ -166,7 +166,7 @@ const bundles={
   "author": "Šiek tiek vaizduotės",
   "documented": "Vardo istorija",
   "origin": "Vardas {name} turi {origins} šaknis.",
-  "related": "Šis vardas turi ir kitų formų: {names}.",
+  "related": "Šis vardas taip pat siejamas su vardais {names}.",
   "local": "Šios šalies bendravardis",
   "international": "Tarptautinis bendravardis",
   "variant": "Gimininga vardo forma",
@@ -211,7 +211,7 @@ const bundles={
   "author": "Veidi kujutlusvõimet",
   "documented": "Nime ajalugu",
   "origin": "Nimel {name} on {origins} juured.",
-  "related": "Sellel nimel on ka teisi kujusid: {names}.",
+  "related": "Seda nime seostatakse ka nimedega {names}.",
   "local": "Selle riigi nimekaim",
   "international": "Rahvusvaheline nimekaim",
   "variant": "Nime sugulasvorm",
@@ -656,10 +656,10 @@ export function describeName(profile,requested='en',variant=0){
   if(facts.registry_kind&&registryKinds[facts.registry_kind])paragraphs.push(fill(registryKinds[facts.registry_kind][i],name));
  }
  const person=profile.people?.[0];
- if(person&&!special[profile.family])paragraphs.push(text(lang,person.match==='related_form'?'relatedNamesake':'namesake',{person:person.labels?.[lang]||person.name,role:roleLabel(person.role,lang)}));
+ if(person?.match==='exact'&&!special[profile.family])paragraphs.push(text(lang,'namesake',{person:person.labels?.[lang]||person.name,role:roleLabel(person.role,lang)}));
  let attestation=null;
  if(facts.first_recorded){const date=formatAttestation(facts.first_recorded,lang);if(date)attestation={date,form:facts.first_recorded_form||name};}
- const related=[...new Set([...(facts.related||[]),...(facts.source_forms||[]).map(f=>f.form)])].filter(n=>nameIdentity(n)!==nameIdentity(name)).slice(0,3);
+ const related=[...new Set([...(facts.related||[]),...(facts.source_forms||[]).map(f=>f.form)])].filter(n=>nameIdentity(n)!==nameIdentity(name)&&!paragraphs.join(' ').includes(n)).slice(0,3);
  if(related.length)paragraphs.push(text(lang,'related',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(related)}));
  if(facts.possible_related?.length)paragraphs.push(text(lang,'possibleRelated',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.possible_related.slice(0,3))}));
  if(facts.archival_variants?.length)paragraphs.push(text(lang,'archivalVariant',{name:facts.archival_form||name,names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.archival_variants)}));

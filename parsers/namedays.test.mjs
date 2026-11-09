@@ -8,6 +8,7 @@ import {nameIdentity} from '../public/namedays-content.js';
 import {formatAttestation,attestationPeriod} from '../public/namedays-attestation.js';
 import {catalogFacts,referenceOrigins} from './nameday-reference.mjs';
 import {resolveLanguage} from '../public/i18n-core.js';
+import {reviewedRoot} from '../public/namedays-roots.js';
 const sample='domain\td\tm\tv\tid\nlv\t5\t11\tŠarlote\t1\nlv\t5\t11\tŠarlote\t2\nlt\t6\t11\tLeonardas\t3\nee\t29\t2\tMari\t4';
 test('name fitting uses every available slot and reserves the actual hidden-name counter',()=>{
  const widths=[60,50,40,70,50,60],counters={1:24,2:24,3:24,4:24,5:24};
@@ -87,6 +88,19 @@ test('full Lithuanian registry evidence enriches the same spelling without inven
  const research={vlkk:{Afroditė:{subgroup:'graikiškas asmenvardis',source:{url:'https://data.gov.lt/datasets/2664/'}}}};
  const p=buildProfile('Afrodīte','lv',research);assert.deepEqual(p.facts.origins,['Ancient Greek']);assert.equal(p.facts.first_recorded,null);assert.equal(p.country,'lv');
 });
+
+test('name comparisons never assign an unrelated root or a curated biography',()=>{
+ const source={url:'https://example.org/reviewed'};
+ for(const [name,related] of [['Ivo',['Ivan']],['Lina',['Paulīna','Karolīna']],['Sample',['Charlotte']]]){
+  const p=buildProfile(name,'lv',{entries:{[name]:{status:'checked',countries:{lv:{origins:[],related,source}}}}});
+  assert.equal(p.facts.root_key,undefined);assert.equal(p.family,null);
+ }
+ for(const lang of LANGUAGES){
+  const f=describeName(buildProfile('Fedors','lv'),lang).history.join(' '),t=describeName(buildProfile('Teodors','lv'),lang).history.join(' ');
+  assert.match(f,/Fyodor|Фёдор/);assert.match(f,/Theodoros/);assert.match(t,/Theodoros/);assert.notEqual(f.replaceAll('Fedors','NAME'),t.replaceAll('Teodors','NAME'));
+ }
+ assert.deepEqual(referenceOrigins('Ivo is based on Old High German iwa, meaning yew.'),['Old High German']);
+});
 test('source periods keep their actual precision in every language',()=>{
  assert.equal(formatAttestation('Fourth quarter of the 19th century','ru'),'XIX век, IV четверть');
  assert.equal(formatAttestation('19. gs. IV c., Pēterburga','ru'),'XIX век, IV четверть');
@@ -125,6 +139,7 @@ test('published calendars and every profile have complete multilingual content',
   const required=new Set(Object.values(calendar.data.days).flat().map(n=>n.key));assert.equal(Object.keys(doc.data).length,required.size);
   const originalImages=new Map(LANGUAGES.map(lang=>[lang,new Map()]));
   for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);
+   if(p.facts.root_key)assert.equal(p.facts.root_key,reviewedRoot(p.name)?.key,'Unreviewed root assignment: '+p.name);
    for(const lang of LANGUAGES){const c=describeName(p,lang);assert.doesNotMatch(c.history.join(' '),/Словарные данные|языковой реестр|Dictionary evidence|language registry|Vārdnīcas dati|valodas reģistrā|Žodyno duomenys|kalbos registre|Sõnaraamatu andmed|keele registris/);
     const image=c.story.replaceAll(p.name,'NAME'),seen=originalImages.get(lang),identity=nameIdentity(p.name);
     assert.ok(!seen.has(image)||seen.get(image)===identity,`Reused imagination for ${p.name} in ${lang}`);seen.set(image,identity);

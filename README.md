@@ -30,7 +30,7 @@ Open `http://127.0.0.1:8080/`. Use `http://127.0.0.1:8080/?lang=ru` to preview R
 
 ## Updates and publication
 
-Use the shared Auto profile. It refreshes only due tasks: fuel every 6 hours, electricity every 30 minutes, gas/markets/horoscopes daily, station catalogues and EC averages weekly, commodity archives and name counts monthly.
+Use the shared Auto profile. It refreshes only due tasks: fuel every 6 hours, the next-day electricity schedule once daily after 15:00 Riga time, gas/markets/horoscopes daily, station catalogues and EC averages weekly, commodity archives and name counts monthly.
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "FULL_PATH\scripts\update-widgets.ps1"
