@@ -28,37 +28,19 @@ npm run preview
 
 Open `http://127.0.0.1:8080/`. Use `http://127.0.0.1:8080/?lang=ru` to preview Russian. Supported languages are `lv`, `ru`, `en`, `lt`, and `et`, with English as the fallback. Horoscope content is available in LV/RU/EN; LT/ET use English content with localized interface labels.
 
-## Daily updates and publication
+## Updates and publication
 
-For the daily current-price update without historical archive downloads, run this from any PowerShell directory:
-
-```powershell
-powershell.exe -NoProfile -File "FULL_PATH\scripts\daily-prices.ps1"
-```
-
-The script checks monthly name statistics, refreshes current fuel/electricity/gas/market prices, runs project checks, builds the site, and publishes data to `main`. GitHub Pages then deploys automatically. It uses the existing populated local database and stops on command failure. Detailed source errors are recorded in `artifacts/current-price-update-report.json`; unavailable sources retain their previous data. Add `-NoPublish` to update and build locally without committing or pushing. The current-price collector is also available as `npm run update:current`. Horoscope files and long historical archives are not published by this collector. Name statistics are checked at most once per successful UTC calendar month.
-
-The existing `scripts/daily-update.ps1` performs the full update, including historical archive checks. Its underlying commands are:
+Use the shared Auto profile. It refreshes only due tasks: fuel every 6 hours, electricity every 30 minutes, gas/markets/horoscopes daily, station catalogues and EC averages weekly, commodity archives and name counts monthly.
 
 ```powershell
-git pull --ff-only
-npm ci
-npm run update
-npm run build
-npm run publish:data
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "FULL_PATH\scripts\update-widgets.ps1"
 ```
 
-`update` collects data once, updates the local SQLite database, prepares today's and tomorrow's horoscopes, and exports JSON to `data/`. The command exits when finished. On an empty database, the first run downloads the available historical archives and can take considerably longer. Later runs reuse the database and incrementally collect new observations.
+The existing `daily-prices.ps1` and `daily-update.ps1` commands remain aliases. Add `-Plan` to inspect due work without source requests or publication, `-NoPublish` for a local run, or `-Profile Prices|Daily|Weekly|Monthly` to select a group. `-Force` intentionally overrides the selected group's cadence. Historical initialization is explicit: `-Profile Full`.
 
-Before a production release, run `npm run update`, inspect `artifacts/update-report.json`, then run `npm test` and `npm run build`. Include the refreshed `data/` snapshots in the release commit. A successful fetch does not imply that an operator publishes prices: Neste LV currently supplies locations only; keep absent prices null rather than estimating them.
+See **[UPDATES.md](UPDATES.md)** for the complete source/cadence table, commands, logs, failure handling, server behaviour and optional Task Scheduler configuration. No local scheduled task is installed automatically. The separate monthly GitHub workflow continues to maintain name counts.
 
-`publish:data` creates a commit **only for `data/`** and pushes it to `main`. It creates no commit if the data has not changed. If other files are already staged, the script stops. GitHub Pages deploys the new version automatically after the push.
-
-Do not run the API server and the standalone collector against the same data directory at the same time. If a source partially fails, the last successful data is retained and the report receives `degraded` status. Read `artifacts/update-report.json` for details. After a crash, remove a lock file only after confirming that its owning process has stopped.
-
-With one update per day, electricity, gas, and market prices are daily snapshots rather than continuously refreshed quotes. Source publication times are stored separately from collection times. Collection can run more often when needed; do not collect fuel more frequently than once every six hours.
-
-No local daily schedule is installed automatically. To schedule it later on Windows, create a task in **Task Scheduler** with program `powershell.exe`, arguments `-NoProfile -File "FULL_PATH\scripts\daily-update.ps1"`, and the project root as its working directory. The script runs update/build/publish sequentially and stops if a command fails. Run it as the Windows user who completed `gh auth login`. Name statistics are checked once per calendar month within the common update, and the monthly `nameday-statistics.yml` GitHub workflow also refreshes and publishes them independently of a local computer. See [NAMEDAYS.md](NAMEDAYS.md).
+`npm run update` uses the same Auto plan and exports JSON. `npm run publish:data` commits only `data/` and pushes to `main`; Pages then deploys automatically. Staged unrelated files stop publication. If an upstream source fails, previously valid data is retained with its original timestamps and errors are recorded in `artifacts/update-report.json`. Source freshness is independent of the time the updater ran. Do not run multiple collectors against the same private database directory.
 
 ## Local database and migration
 

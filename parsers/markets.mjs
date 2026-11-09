@@ -44,8 +44,8 @@ export async function parseWorldBank(buffer,sourceURL=marketSources.worldbank){
   if(rows.length<100)throw Error('World Bank archive incomplete');return {rows,descriptions:descriptions?.data || []};
 }
 export async function fetchMarket(url){const res=await fetch(url,{signal:AbortSignal.timeout(45000),headers:{'User-Agent':'BalticWidgets/1.3'}});if(!res.ok)throw Error(`HTTP ${res.status} (${new URL(url).host})`);return res;}
-export async function refreshCommodityArchive(db,dataDir,now=new Date()){
-  initializeMarkets(db);const previous=meta(db,'worldbank_archive');if(previous&&now.getTime()-Date.parse(previous.checked_at)<30*86400000)return previous;
+export async function refreshCommodityArchive(db,dataDir,now=new Date(),{force=false}={}){
+  initializeMarkets(db);const previous=meta(db,'worldbank_archive');if(!force&&previous&&now.getTime()-Date.parse(previous.checked_at)<30*86400000)return previous;
   const page=await(await fetchMarket('https://www.worldbank.org/en/research/commodity-markets')).text();const $=load(page);const href=$('a[href]').map((_,el)=>$(el).attr('href')).get().find(u=>u.includes('/CMO-Historical-Data-Monthly.xlsx'));const url=new URL(href || marketSources.worldbank);if(url.protocol!=='https:' || url.hostname!=='thedocs.worldbank.org')throw Error('Unexpected World Bank archive host');
   const buffer=Buffer.from(await(await fetchMarket(url)).arrayBuffer());const {rows,descriptions}=await parseWorldBank(buffer,url.href);
   await mkdir(path.join(dataDir,'archives','markets'),{recursive:true});await writeFile(path.join(dataDir,'archives','markets','worldbank-monthly.xlsx'),buffer);await writeFile(path.join(dataDir,'archives','markets','worldbank-descriptions.json'),JSON.stringify(descriptions));saveMarketRows(db,rows);convertMonthlyMarketsToEUR(db);
@@ -77,18 +77,18 @@ export function convertMonthlyMarketsToEUR(db){
   }
   saveMarketRows(db,rows);setMeta(db,'monthly_eur_conversion',{method:'monthly_USD_price_divided_by_arithmetic_mean_of_ECB_USD_per_EUR_in_same_month',gas_mmbtu_per_mwh:MMBTU_PER_MWH,fx_source:marketSources.ecb,rows:rows.length});return rows.length;
 }
-export async function refreshMarkets(db,dataDir,now=new Date()){
+export async function refreshMarkets(db,dataDir,now=new Date(),{backfill=true}={}){
   initializeMarkets(db);await mkdir(path.join(dataDir,'archives','markets'),{recursive:true});const report={updated_at:now.toISOString(),errors:[]};
-  try{const full=!meta(db,'ecb_backfill'),url=full?marketSources.ecb:marketSources.ecbRecent;const xml=await(await fetchMarket(url)).text();const rows=parseECB(xml,url);saveMarketRows(db,rows);await writeFile(path.join(dataDir,'archives','markets',full?'ecb-history.xml':'ecb-recent.xml'),xml);setMeta(db,'ecb_backfill',{updated_at:now.toISOString()});report.ecb=rows.length;}catch(e){report.errors.push('ECB: '+e.message);}
+  try{const full=backfill&&!meta(db,'ecb_backfill'),url=full?marketSources.ecb:marketSources.ecbRecent;const xml=await(await fetchMarket(url)).text();const rows=parseECB(xml,url);saveMarketRows(db,rows);await writeFile(path.join(dataDir,'archives','markets',full?'ecb-history.xml':'ecb-recent.xml'),xml);if(backfill)setMeta(db,'ecb_backfill',{updated_at:now.toISOString()});report.ecb=rows.length;}catch(e){report.errors.push('ECB: '+e.message);}
   try{
-    const first=!meta(db,'gold_backfill'),end=now.toISOString().slice(0,10),start=first?'2013-01-02':new Date(now-10*86400000).toISOString().slice(0,10);let cursor=Date.parse(start),all=[];
+    const first=backfill&&!meta(db,'gold_backfill'),end=now.toISOString().slice(0,10),start=first?'2013-01-02':new Date(now-10*86400000).toISOString().slice(0,10);let cursor=Date.parse(start),all=[];
     while(cursor<=Date.parse(end)){
       const dates=[];for(let n=0;n<4 && cursor<=Date.parse(end);n++){const next=Math.min(cursor+92*86400000,Date.parse(end));dates.push([new Date(cursor).toISOString().slice(0,10),new Date(next).toISOString().slice(0,10)]);cursor=next+86400000;}
       const batches=await Promise.all(dates.map(async([a,b])=>{const url=`${marketSources.nbp}${a}/${b}/?format=json`;return parseGold(await(await fetchMarket(url)).json(),url);}));all.push(...batches.flat());
     }
-    saveMarketRows(db,all);await writeFile(path.join(dataDir,'archives','markets',first?'nbp-gold-history.json':'nbp-gold-recent.json'),JSON.stringify(all));setMeta(db,'gold_backfill',{updated_at:now.toISOString()});report.gold=all.length;
+    saveMarketRows(db,all);await writeFile(path.join(dataDir,'archives','markets',first?'nbp-gold-history.json':'nbp-gold-recent.json'),JSON.stringify(all));if(backfill)setMeta(db,'gold_backfill',{updated_at:now.toISOString()});report.gold=all.length;
   }catch(e){report.errors.push('NBP: '+e.message);}
-  try{const first=!meta(db,'bitcoin_backfill'),url=new URL(marketSources.btc);for(const [k,v] of Object.entries({assets:'btc',metrics:'PriceUSD',frequency:'1d',page_size:'10000',start_time:first?'2009-01-01':new Date(now-10*86400000).toISOString().slice(0,10)}))url.searchParams.set(k,v);const payload=await(await fetchMarket(url)).json(),rows=parseBitcoin(payload,url.href);saveMarketRows(db,rows);await writeFile(path.join(dataDir,'archives','markets',first?'bitcoin-history.json':'bitcoin-recent.json'),JSON.stringify(payload));setMeta(db,'bitcoin_backfill',{updated_at:now.toISOString()});report.bitcoin=rows.length;}catch(e){report.errors.push('Bitcoin: '+e.message);}
+  try{const first=backfill&&!meta(db,'bitcoin_backfill'),url=new URL(marketSources.btc);for(const [k,v] of Object.entries({assets:'btc',metrics:'PriceUSD',frequency:'1d',page_size:'10000',start_time:first?'2009-01-01':new Date(now-10*86400000).toISOString().slice(0,10)}))url.searchParams.set(k,v);const payload=await(await fetchMarket(url)).json(),rows=parseBitcoin(payload,url.href);saveMarketRows(db,rows);await writeFile(path.join(dataDir,'archives','markets',first?'bitcoin-history.json':'bitcoin-recent.json'),JSON.stringify(payload));if(backfill)setMeta(db,'bitcoin_backfill',{updated_at:now.toISOString()});report.bitcoin=rows.length;}catch(e){report.errors.push('Bitcoin: '+e.message);}
   report.converted=convertMarketsToEUR(db);setMeta(db,'markets_last_run',report);return report;
 }
 export function monthlyHistory(db,series){initializeMarkets(db);return db.prepare('SELECT at,value FROM market_prices WHERE series=? ORDER BY at').all(series);}

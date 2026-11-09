@@ -2,7 +2,7 @@ import {extraURLs,koolMapURL,addKoolCoordinates,koolSnippetURLs,parseKoolPrices,
 import {fuelPublicationTime,fuelQuoteFreshness} from '../public/fuel-freshness.js';
 import {collectCommunityFallback} from './energijascenas.mjs';
 import {directoryURLs,parseVirsiDirectory,parseViadaDirectory,parseStraujupiteDirectory,mergeDirectory} from './lv-directories.mjs';
-import {mergeCircleDirectory,circleDirectoryURL} from './circle-directory.mjs';
+import {parseCircleDirectory,circleDirectoryURL} from './circle-directory.mjs';
 import { load } from 'cheerio';
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename, open, unlink } from 'node:fs/promises';
@@ -215,15 +215,32 @@ async function request(url, headers = {}, attempt = 0) {
   }
 }
 
+export const directorySources=['circle','virsi','viada','straujupite','kool','neste'];
+async function collectDirectory(source){
+ if(source==='circle')return parseCircleDirectory(await request(circleDirectoryURL));
+ if(source==='neste')return parseNesteDirectory(JSON.parse(await request(urls.neste)));
+ if(source==='kool'){
+  const snippets=koolSnippetURLs(await request(urls.kool)),html=await request(snippets.directory);
+  const records=parseKoolDirectory(html);
+  try{return addKoolCoordinates(records,await request(koolMapURL(html)));}catch{return records;}
+ }
+ const html=await request(directoryURLs[source]);
+ if(source==='virsi'){
+  const endpoint=load(html)('stations-app').attr('stations-data-url');
+  if(!endpoint||new URL(endpoint).origin!=='https://www.virsi.lv')throw Error('Virši directory endpoint changed');
+  return parseVirsiDirectory(JSON.parse(await request(endpoint)));
+ }
+ if(source==='viada'){
+  const rows=parseViadaDirectory(html);
+  try{return addViadaCoordinates(rows,await request('https://www.viada.lv/degvielasuzpildesstacijas/degvielas-uzpildes-staciju-karte/'));}catch{return rows;}
+ }
+ return parseStraujupiteDirectory(html);
+}
 async function collect(source) {
-  if(source==='neste')return parseNesteDirectory(JSON.parse(await request(urls.neste)));
   if(source==='rietumu')return parseRietumu(await request(urls.rietumu));
   if(source==='kool'){
     const snippets=koolSnippetURLs(await request(urls.kool));
-    const [prices,directory]=await Promise.all([request(snippets.prices),request(snippets.directory)]);
-    let records=parseKoolDirectory(directory);
-    try{records=addKoolCoordinates(records,await request(koolMapURL(directory)));}catch{console.error('kool: optional map unavailable; directory addresses retained');}
-    return {records,network_records:parseKoolPrices(prices)};
+    return {records:[],network_records:parseKoolPrices(await request(snippets.prices))};
   }
   if (source === 'lea') {
     const home = await request(urls.lea);
@@ -248,27 +265,6 @@ async function collect(source) {
     if (!version || country !== '1') throw new Error('FuelEst public client changed');
     return parseFuelest(JSON.parse(await request(new URL(`/Home/GetPageData?countryId=${country}`, urls.fuelest), { 'X-version': version })), home);
   }
-  if(source==='circle'){
-    const records=parseCircle(await request(urls.circle));
-    try{return mergeCircleDirectory(records,await request(circleDirectoryURL));}
-    catch{console.error('circle: directory unavailable; keeping published prices and cached locations');return records;}
-  }
-  if(directoryURLs[source]){
-    const records={virsi:parseVirsi,viada:parseViada,straujupite:parseStraujupite}[source](await request(urls[source]));
-    try{
-      const html=await request(directoryURLs[source]);let directory;
-      if(source==='virsi'){
-        const endpoint=load(html)('stations-app').attr('stations-data-url');
-        if(!endpoint||new URL(endpoint).origin!=='https://www.virsi.lv')throw Error('Virši directory endpoint changed');
-        directory=parseVirsiDirectory(JSON.parse(await request(endpoint)));
-      }else if(source==='viada'){
-        directory=parseViadaDirectory(html);
-        try{directory=addViadaCoordinates(directory,await request('https://www.viada.lv/degvielasuzpildesstacijas/degvielas-uzpildes-staciju-karte/'));}
-        catch{console.error('viada: optional map unavailable; directory addresses retained');}
-      }else directory=parseStraujupiteDirectory(html);
-      return mergeDirectory(records,directory);
-    }catch{console.error(`${source}: directory unavailable; keeping published prices and cached locations`);return records;}
-  }
   return { circle: parseCircle, virsi: parseVirsi, viada: parseViada, straujupite: parseStraujupite }[source](await request(urls[source]));
 }
 
@@ -286,6 +282,8 @@ async function atomicJson(file, value) {
 }
 
 export async function run(output = 'artifacts/fuel-live', sourceList = Object.keys(urls).filter(s => s !== 'liitrihind'), options = {}) {
+  const mode=options.mode||'prices';if(!['prices','directories'].includes(mode))throw Error('Invalid fuel update mode');
+  sourceList=sourceList.filter(s=>mode==='directories'?directorySources.includes(s):s!=='neste');
   await mkdir(output, { recursive: true });
   // Exclusive lock prevents two scheduled/manual collectors from overwriting each other.
   const lockPath = path.join(output, '.collector.lock'); const lock = await open(lockPath, 'wx');
@@ -293,10 +291,21 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
     const now = new Date().toISOString();
     const old = await readJson(path.join(output, 'fuel-stations.json'), { data: [], sources: [] });
     let stations = old.data; const networkQuotes={...(old.network_quotes||{})}; const statuses = new Map(old.sources.map(s => [s.id, s]));
-    let fallbackQuotes=old.fallback_quotes||[];
+    let fallbackQuotes=old.fallback_quotes||[];const errors=[];
     for (const source of sourceList) {
       if (!urls[source] || source === 'liitrihind') throw new Error('Unsupported source');
       try {
+        if(mode==='directories'){
+          const previous=stations.filter(s=>s.source===source),directory=normalize(source,await collectDirectory(source),now);
+          for(const station of directory){
+            const before=previous.find(s=>s.directory_id===station.directory_id);
+            if(before){station.id=before.id;station.prices=before.prices;}
+          }
+          const ids=new Set(directory.map(s=>s.id));
+          stations=[...stations.filter(s=>s.source!==source),...directory,...previous.filter(s=>!ids.has(s.id)&&!s.directory_id&&Object.keys(s.prices).length)];
+          statuses.set(source,{...statuses.get(source),id:source,directory_status:'ok',directory_last_success_at:now,directory_error:null,directory_location_count:directory.length});
+          continue;
+        }
         const collected=await collect(source);
         let records=Array.isArray(collected)?collected:collected.records;
         const previous = new Map(stations.filter(s => s.source === source).map(s => [s.id, s]));
@@ -304,11 +313,11 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
         const directoryLive=hasDirectory&&records.some(s=>s.directory_id);
         const cached=new Map([...previous.values()].filter(s=>s.directory_id).map(s=>[s.directory_id,s]));
         if(hasDirectory&&!directoryLive&&cached.size){
-          const directory=[...cached.values()].map(s=>({country:s.country,brand:s.brand,name:s.name,address:s.address,
+          const directory=[...cached.values()].map(s=>({id:s.id,country:s.country,brand:s.brand,name:s.name,address:s.address,
             lat:s.coordinates?.latitude,lon:s.coordinates?.longitude,directory_id:s.directory_id,directory_url:s.directory_url,available_fuels:s.available_fuels||[]}));
           records=mergeDirectory(records,directory);
         }
-        const fresh=normalize(source,records,now);
+        const fresh=records.length?normalize(source,records,now):[];
         if(!directoryLive)for(const station of fresh)if(cached.has(station.directory_id))station.directory_updated_at=cached.get(station.directory_id).directory_updated_at;
 
         let network;
@@ -324,24 +333,29 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
           p.change = before ? Number((p.value - before.value).toFixed(3)) : null;
         }
         stations = [...stations.filter(s => s.source !== source), ...fresh];
-        statuses.set(source, { id: source, status: 'ok', last_success_at: now, station_count: fresh.length,
+        statuses.set(source, { ...statuses.get(source),id: source, status: 'ok', last_success_at: now, station_count: fresh.length,
           ...(hasDirectory?{directory_status:directoryLive?'ok':fresh.some(s=>s.directory_id)?'cached':'unavailable',directory_location_count:fresh.filter(s=>s.directory_id).length}:{}),
           attribution: source === 'fuelest' ? 'FuelEst.ee — community reports' : source === 'lea' ? 'LEA, degalais prekiaujančios įmonės' : source });
       } catch (e) {
         const prior = statuses.get(source);
+        const message=e.message.replace(/Bearer\s+\S+/g, '[redacted]');errors.push(`${source} ${mode}: ${message}`);
+        if(mode==='directories'){
+          statuses.set(source,{...prior,id:source,directory_status:'error',directory_last_attempt_at:now,directory_error:message});
+          console.error(`${source} directory: ${message}; cached locations retained`);continue;
+        }
         statuses.set(source, { ...prior, id: source, status: 'error', last_attempt_at: now,
           last_success_at: prior?.last_success_at || null, error: e.message.replace(/Bearer\s+\S+/g, '[redacted]') });
         console.error(`${source}: ${e.message}`);
       }
     }
-    if(sourceList.includes('neste')||sourceList.includes('straujupite')){
+    if(mode==='prices'&&sourceList.includes('straujupite')){
       try{const fallback=await collectCommunityFallback(now);fallbackQuotes=fallback.quotes;statuses.set('energijascenas',{id:'energijascenas',status:'ok',last_success_at:now,...fallback.report});}
       catch{statuses.set('energijascenas',{...statuses.get('energijascenas'),id:'energijascenas',status:'error',last_attempt_at:now,error:'Public community fallback temporarily unavailable'});}
     }
     for(const station of stations){delete station.prices['98'];if(station.available_fuels)station.available_fuels=station.available_fuels.filter(f=>f!=='98');}
     // Recompute old values too: a failed source must not retain a 'recent' flag forever.
     for (const s of [...stations,...Object.values(networkQuotes)]) for (const p of Object.values(s.prices)) p.freshness = freshness(p.observed_at, p.observed_date, now,p.fetched_at);
-    const doc = { schema_version: 1, updated_at: now, demo: false, source: 'Baltic station collectors',
+    const doc = { schema_version: 1, updated_at: now, demo: false, source: 'Baltic station collectors',mode,errors,
       coverage: { LV: 'selected operator-published stations', LT: 'LEA reporting stations', EE: 'FuelEst community reports' },
       sources: [...statuses.values()], network_quotes:networkQuotes,fallback_quotes:fallbackQuotes, data: stations.sort((a, b) => a.id.localeCompare(b.id)) };
     await atomicJson(path.join(output, 'fuel-stations.json'), doc);
@@ -355,7 +369,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
       })) };
     await atomicJson(path.join(output, 'summary.json'), summary);
     console.log(JSON.stringify(summary, null, 2));
-    if (options.setExitCode !== false && doc.sources.some(s => s.status === 'error')) process.exitCode = 1;
+    if (options.setExitCode !== false && errors.length) process.exitCode = 1;
     return doc;
   } finally { await lock.close(); await unlink(lockPath); }
 }

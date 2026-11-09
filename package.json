@@ -14,7 +14,13 @@
     "test": "node --test parsers/*.test.mjs services/*.test.mjs public/zodiac-icons.test.mjs",
     "generate:namedays": "node scripts/generate-namedays.mjs",
     "update:nameday-statistics": "node scripts/update-nameday-statistics.mjs",
-    "test:namedays": "node --test parsers/namedays.test.mjs"
+    "test:namedays": "node --test parsers/namedays.test.mjs",
+    "update:plan": "node scripts/update-data.mjs --plan",
+    "update:prices": "node scripts/update-data.mjs --profile=prices",
+    "update:daily": "node scripts/update-data.mjs --profile=daily",
+    "update:weekly": "node scripts/update-data.mjs --profile=weekly",
+    "update:monthly": "node scripts/update-data.mjs --profile=monthly",
+    "update:full": "node scripts/update-data.mjs --profile=full"
   },
   "engines": {
     "node": ">=24"

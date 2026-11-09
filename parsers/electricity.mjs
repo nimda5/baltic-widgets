@@ -44,13 +44,13 @@ async function fetchRange(start,end,{allowEmptyAreas=false,archiveDir}={}) {
   return records;
 }
 
-export async function refreshElectricity(db, now=Date.now(), {archiveDir}={}) {
+export async function refreshElectricity(db, now=Date.now(), {archiveDir,backfill=true}={}) {
   initializeElectricity(db);
   const prior=JSON.parse(db.prepare("SELECT value FROM metadata WHERE key='electricity_backfill'").get()?.value || 'null');
   const minLatest=db.prepare("SELECT min(latest) AS at FROM (SELECT max(at) AS latest FROM electricity_prices WHERE source='elering' GROUP BY market)").get()?.at;
   // Requests stay below Elering's documented maximum of one year.
-  const full=prior?.archive_version!==2;
-  const start=full ? Date.parse('2010-01-01T00:00:00Z') : Math.min(now-2*day,minLatest ? Date.parse(minLatest) : now-2*day);
+  const full=backfill&&prior?.archive_version!==2;
+  const start=full ? Date.parse('2010-01-01T00:00:00Z') : backfill?Math.min(now-2*day,minLatest ? Date.parse(minLatest) : now-2*day):now-2*day;
   const end=now+2*day;
   let count=0;
   for(let cursor=start;cursor<end;) {
@@ -58,7 +58,7 @@ export async function refreshElectricity(db, now=Date.now(), {archiveDir}={}) {
     const records=await fetchRange(cursor,next,{allowEmptyAreas:full,archiveDir});saveElectricity(db,records);count+=records.length;cursor=next;
   }
   const coverage=db.prepare("SELECT market,min(at) AS first,max(at) AS last,count(*) AS observations FROM electricity_prices WHERE source='elering' GROUP BY market").all();
-  const report={archive_version:2,updated_at:new Date(now).toISOString(),source_url:source,rows_received:count,coverage,tax_basis:'without_vat_or_retail_fees'};
+  const report={archive_version:full||prior?.archive_version===2?2:0,updated_at:new Date(now).toISOString(),source_url:source,rows_received:count,coverage,tax_basis:'without_vat_or_retail_fees'};
   db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run('electricity_backfill',JSON.stringify(report));
   return report;
 }

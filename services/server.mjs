@@ -1,16 +1,14 @@
-import {ensureCollectorState} from './collector-state.mjs';
+import {runPlannedUpdates} from './update-runner.mjs';
 import {initializeHoroscope,horoscopeData,calendarDate} from '../parsers/horoscope.mjs';
 import http from 'node:http';
-import {initializeMarkets,refreshMarkets,refreshCommodityArchive,exchangeData} from '../parsers/markets.mjs';
-import {initializeGas,refreshGas,gasData} from '../parsers/gas.mjs';
+import {initializeMarkets,exchangeData} from '../parsers/markets.mjs';
+import {initializeGas,gasData} from '../parsers/gas.mjs';
 import {localized,languages} from './localization.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { mkdir, readFile, writeFile, rename, unlink } from 'node:fs/promises';
-import { database, saveStations, widgetData } from './database.mjs';
-import { refreshArchive } from '../parsers/oil-history.mjs';
-import { run as collectFuel } from '../parsers/fuel.mjs';
-import { initializeElectricity, refreshElectricity, electricityData } from '../parsers/electricity.mjs';
+import { mkdir, readFile, writeFile, rename, unlink, open } from 'node:fs/promises';
+import { database, widgetData } from './database.mjs';
+import { initializeElectricity, electricityData } from '../parsers/electricity.mjs';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
 const dataDir = path.resolve(process.env.DATA_DIR || path.join(project, 'var'));
@@ -22,7 +20,7 @@ await mkdir(dataDir, { recursive: true });
 const db = database(dataDir);
 initializeElectricity(db);initializeGas(db);initializeMarkets(db);initializeHoroscope(db);
 let running = false, stopped = false, timer, lastRun = null;
-let electricityRunning=false,electricityTimer,electricityLastRun=null;
+let electricityLastRun=null;
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.geojson': 'application/geo+json', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.webp': 'image/webp' };
 function json(res, value, status = 200) { res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' }).end(JSON.stringify(value)); }
 async function atomic(file,value){const tmp=file+'.'+crypto.randomUUID()+'.tmp';try{await writeFile(tmp,JSON.stringify(value));await rename(tmp,file);}finally{await unlink(tmp).catch(e=>{if(e.code!=='ENOENT')throw e;});}}
@@ -42,43 +40,25 @@ export async function exportWidgets() {
   await atomic(path.join(dataDir, 'exports', 'archive-info.json'), JSON.parse(db.prepare("SELECT value FROM metadata WHERE key='archive'").get()?.value || '{}'));
 }
 
-async function updateElectricity(){
-  if(electricityRunning||stopped)return;electricityRunning=true;
-  const report={started_at:new Date().toISOString(),errors:[]};
-  try{
-    await mkdir(path.join(dataDir,'exports'),{recursive:true});
-    const results=await Promise.allSettled([refreshElectricity(db,Date.now(),{archiveDir:path.join(dataDir,'archives','electricity')}),refreshGas(db,dataDir),refreshMarkets(db,dataDir),refreshCommodityArchive(db,dataDir)]);
-    for(let i=0;i<results.length;i++){const r=results[i],name=['electricity','gas','markets','commodity_archive'][i];if(r.status==='fulfilled'){report[name]=r.value;for(const error of r.value.errors || [])report.errors.push(name+': '+error);}else report.errors.push(name+': '+r.reason.message);}
-    for(const [name,data] of [['electricity',electricityData(db)],['gas',gasData(db)],['exchange',exchangeData(db)]]){
-      await atomic(path.join(dataDir,'exports',name+'.json'),localized(data,'lv',name));
-      for(const lang of languages){const folder=path.join(dataDir,'exports',lang);await mkdir(folder,{recursive:true});await atomic(path.join(folder,name+'.json'),localized(data,lang,name));}
-    }
-  }catch(e){report.errors.push(e.message);}
-  finally{report.finished_at=new Date().toISOString();electricityLastRun=report;electricityRunning=false;
-    db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run('electricity_last_run',JSON.stringify(report));
-    console.log(JSON.stringify({event:'electricity_updated',...report}));if(!stopped)electricityTimer=setTimeout(updateElectricity,1800000);}
-}
-
+// A single scheduler checks due work every 30 minutes. Fuel/catalogue/history
+// collectors no longer ride on the electricity timer.
 async function update() {
-  if (running || stopped) return;
-  running = true;
-  const status = { started_at: new Date().toISOString(), errors: [] };
-  try {
-    try { await refreshArchive(db, dataDir); } catch (e) { status.errors.push(`archive: ${e.message}`); }
-    try {
-      await ensureCollectorState(db,path.join(dataDir,'collector'));
-      const doc = await collectFuel(path.join(dataDir, 'collector'), undefined, { setExitCode: false });
-      saveStations(db, doc);
-      for (const s of doc.sources.filter(s => s.status === 'error')) status.errors.push(`${s.id}: ${s.error}`);
-    } catch (e) { status.errors.push(`collector: ${e.message}`); }
-    await exportWidgets();
-  } catch (e) { status.errors.push(`export: ${e.message}`); }
-  finally {
-    status.finished_at = new Date().toISOString(); lastRun = status; running = false;
-    db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run('last_run', JSON.stringify(status));
-    console.log(JSON.stringify({ event: 'collection_finished', ...status }));
-    if (!stopped) timer = setTimeout(update, interval * 3600000);
-  }
+ if(running||stopped)return;running=true;let lock;
+ const status={started_at:new Date().toISOString(),errors:[]};
+ try{
+  lock=await open(path.join(dataDir,'.update.lock'),'wx');
+  await lock.writeFile(JSON.stringify({pid:process.pid,started_at:status.started_at,owner:'server'}));
+  const report=await runPlannedUpdates(db,dataDir,{fuelIntervalHours:interval});
+  Object.assign(status,report);electricityLastRun=report.tasks.find(t=>t.id==='electricity')||electricityLastRun;
+  await exportWidgets();
+ }catch(e){status.errors.push(e.code==='EEXIST'?'Another update owns the data directory':e.message);}
+ finally{
+  if(lock){await lock.close();await unlink(path.join(dataDir,'.update.lock'));}
+  status.finished_at=new Date().toISOString();lastRun=status;running=false;
+  db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run('last_run',JSON.stringify(status));
+  console.log(JSON.stringify({event:'collection_finished',...status}));
+  if(!stopped)timer=setTimeout(update,1800000);
+ }
 }
 
 let horoscopeDate,horoscopeBusy=false;
@@ -133,11 +113,8 @@ const server = http.createServer(async (req, res) => {
 
 await new Promise((resolve, reject) => { server.once('error', reject); server.listen(port, host, resolve); });
 console.log(`Widgets server listening on ${host}:${port}`);
-// A single service owns this data directory. A crash can leave the one-shot collector lock.
-await unlink(path.join(dataDir, 'collector', '.collector.lock')).catch(e => { if (e.code !== 'ENOENT') throw e; });
 if (process.env.DISABLE_COLLECTION !== '1') update();
-if (process.env.DISABLE_COLLECTION !== '1') updateElectricity();
 for (const signal of ['SIGTERM', 'SIGINT']) process.on(signal, () => {
-  stopped = true; clearTimeout(timer);clearTimeout(electricityTimer);clearInterval(horoscopeTimer); server.close();
-  const finish = () => { if (running||electricityRunning||horoscopeBusy) setTimeout(finish, 100); else { db.close(); process.exit(0); } }; finish();
+  stopped = true; clearTimeout(timer);clearInterval(horoscopeTimer); server.close();
+  const finish = () => { if (running||horoscopeBusy) setTimeout(finish, 100); else { db.close(); process.exit(0); } }; finish();
 });

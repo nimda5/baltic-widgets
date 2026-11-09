@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
-import {parseElectricity,saveElectricity,electricityData} from './electricity.mjs';
+import {parseElectricity,saveElectricity,electricityData,refreshElectricity} from './electricity.mjs';
 test('electricity retains negative prices and actual delivery intervals, with no VAT conversion',()=>{
   const t=Date.parse('2026-11-05T10:00:00Z')/1000;
   const payload={success:true,data:Object.fromEntries(['lv','lt','ee'].map(m=>[m,[{timestamp:t,price:-10},{timestamp:t+900,price:25}]]))};
@@ -21,4 +21,15 @@ test('historical electricity keeps genuinely absent market areas empty instead o
   assert.throws(()=>parseElectricity(payload));
   const rows=parseElectricity(payload,undefined,{allowEmptyAreas:true});assert.equal(rows.length,2);assert.ok(rows.every(r=>r.market==='LT'));assert.equal(rows[0].resolution,3600);
   assert.throws(()=>parseElectricity({...payload,data:{lt:payload.data.lt}},undefined,{allowEmptyAreas:true}));
+});
+
+test('routine electricity refresh never starts a historical backfill on an empty database',async()=>{
+ const db=new DatabaseSync(':memory:');db.exec('CREATE TABLE metadata(key TEXT PRIMARY KEY,value TEXT)');
+ const original=globalThis.fetch,now=Date.parse('2026-11-09T12:00:00Z'),urls=[];
+ try{
+  globalThis.fetch=async url=>{urls.push(new URL(url));return Response.json({success:true,data:Object.fromEntries(['lv','lt','ee'].map(m=>[m,[{timestamp:now/1000,price:50}]]))});};
+  const result=await refreshElectricity(db,now,{backfill:false});
+  assert.equal(urls.length,1);assert.equal(urls[0].searchParams.get('start'),'2026-11-07T12:00:00.000Z');
+  assert.equal(result.archive_version,0);assert.equal(result.rows_received,3);
+ }finally{globalThis.fetch=original;db.close();}
 });

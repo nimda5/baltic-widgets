@@ -1,10 +1,3 @@
-$ErrorActionPreference = 'Stop'
-Push-Location (Split-Path -Parent $PSScriptRoot)
-try {
-    & npm.cmd run update
-    if ($LASTEXITCODE -ne 0) { throw 'Data update failed' }
-    & npm.cmd run build
-    if ($LASTEXITCODE -ne 0) { throw 'Static build failed' }
-    & npm.cmd run publish:data
-    if ($LASTEXITCODE -ne 0) { throw 'Data publication failed' }
-} finally { Pop-Location }
+param([switch]$NoPublish, [switch]$Force, [switch]$Plan)
+# Compatibility command: shared Auto profile, no unnecessary catalogue requests.
+& "$PSScriptRoot\update-widgets.ps1" -Profile Auto -NoPublish:$NoPublish -Force:$Force -Plan:$Plan
