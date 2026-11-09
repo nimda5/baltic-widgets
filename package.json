@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node services/server.mjs",
     "update": "node scripts/update-data.mjs",
+    "update:current": "node scripts/update-current-prices.mjs",
     "update:offline": "node scripts/update-data.mjs --offline",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/preview-static.mjs",

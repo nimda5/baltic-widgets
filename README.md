@@ -30,6 +30,16 @@ Open `http://127.0.0.1:8080/`. Use `http://127.0.0.1:8080/?lang=ru` to preview R
 
 ## Daily updates and publication
 
+For the daily current-price update without historical archive downloads, run this from any PowerShell directory:
+
+```powershell
+powershell.exe -NoProfile -File "FULL_PATH\scripts\daily-prices.ps1"
+```
+
+The script checks monthly name statistics, refreshes current fuel/electricity/gas/market prices, runs project checks, builds the site, and publishes data to `main`. GitHub Pages then deploys automatically. It uses the existing populated local database and stops on command failure. Detailed source errors are recorded in `artifacts/current-price-update-report.json`; unavailable sources retain their previous data. Add `-NoPublish` to update and build locally without committing or pushing. The current-price collector is also available as `npm run update:current`. Horoscope files and long historical archives are not published by this collector. Name statistics are checked at most once per successful UTC calendar month.
+
+The existing `scripts/daily-update.ps1` performs the full update, including historical archive checks. Its underlying commands are:
+
 ```powershell
 git pull --ff-only
 npm ci
