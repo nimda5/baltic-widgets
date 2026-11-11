@@ -18,10 +18,431 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 Continue research in the shared branch `codex/namedays-round4`; do not create a separate branch per round.
 
-1. Pick names from the priority lists below. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.
+1. Work in calendar order: take the next unfinished day from Priority 0 and complete its names in all three countries before the later priority lists. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.
 2. Verify every claim in a source you actually opened, and keep the URLs in research files and provenance metadata only. Do not display source URLs, clickable citations or source lists in the widget interface. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, Wikipedia in the relevant language, national library and museum pages. vardai.vlkk.lt blocks automated requests; open it manually.
 3. Write two paragraphs per language (lv, ru, en, lt, et): origin and how the name reached the Baltic languages, then one concrete, verified historical detail. Keep uncertain etymology explicitly uncertain; describe literary events as literature; never call a calendar or publication year the creation date unless a source says the name was coined then.
 4. Add the entry to a `public/namedays-history-r<round>-<topic>.js` module, import it in `public/namedays-history.js`, record every examined name (including skipped ones) in `research/namedays/round<round>-notes.json`, bump `WRITER_VERSION`, then run `node scripts/generate-namedays.mjs --country=lv` for LV-only work (use `lt` or `ee` for another country; omit the flag only for a full rebuild), `node --test parsers/namedays.test.mjs` and this script.
+
+## Priority 0: upcoming name days
+
+Research follows the calendar: the widget shows yesterday, today and tomorrow, so the nearest days come first. Generated for 12 November (Europe/Riga); regenerate before each round. Each day lists every name in the LV, LT and EE calendars that still lacks a reviewed history, most common first. Finish a day in all three countries before moving to the next. The full year-long queue is in [`research/namedays/date-queue.csv`](research/namedays/date-queue.csv).
+
+### 12 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Kaija | Short factual summary | 120 |  |
+| LV | Zinovija | Short factual summary | 41 |  |
+| LV | Kaira | Short factual summary | 22 |  |
+| LV | Vidars | Short factual summary | 17 |  |
+| LV | Zinovijs | Early record only | 15 |  |
+| LV | Viāna | Needs research | 13 |  |
+| LV | Kornēlijs | Short factual summary | 9 |  |
+| LV | Vidards | Needs research | 5 |  |
+| LV | Kornelijs | Early record only | 3 |  |
+| LV | Vianta | Short factual summary | 3 |  |
+| LV | Vianita | Short factual summary | 2 |  |
+| LV | Vidarts | Needs research | 2 |  |
+| LV | Vianda | Needs research | 1 |  |
+| LV | Vidavs | Needs research |  |  |
+| LT | Alvilė | Short factual summary |  |  |
+| LT | Ašmantas | Short factual summary |  |  |
+| LT | Juozapotas | Needs research |  |  |
+| LT | Kristinas | Short factual summary |  |  |
+| LT | Renata | Short factual summary |  |  |
+| LT | Teodoras | Short factual summary |  |  |
+| EE | Kuno | Short factual summary | 179 |  |
+| EE | Konrad | Short factual summary | 175 |  |
+| EE | Kuuno | Short factual summary | 59 |  |
+
+### 13 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Jevgeņijs | Short factual summary | 2891 |  |
+| LV | Jevgenijs | Short factual summary | 2749 |  |
+| LV | Jevgēnijs | Short factual summary | 2563 |  |
+| LV | Jevgenija | Short factual summary | 1195 |  |
+| LV | Jevgēnija | Short factual summary | 1005 |  |
+| LV | Jevgeņija | Short factual summary | 950 |  |
+| LV | Jevģēnijs | Short factual summary | 194 |  |
+| LV | Jevģēnija | Short factual summary | 121 |  |
+| LV | Jevgēņijs | Short factual summary | 120 |  |
+| LV | Eižens | Short factual summary | 104 |  |
+| LV | Jevģenijs | Short factual summary | 86 |  |
+| LV | Jevgēņija | Short factual summary | 50 |  |
+| LV | Jevģenija | Short factual summary | 30 |  |
+| LV | Evgenijs | Short factual summary | 10 |  |
+| LV | Eugenijs | Short factual summary | 8 |  |
+| LV | Augenija | Short factual summary | 6 |  |
+| LV | Jevženija | Short factual summary | 4 |  |
+| LV | Eiženijs | Short factual summary | 3 |  |
+| LV | Evģenijs | Short factual summary | 2 |  |
+| LV | Evģēnijs | Short factual summary | 2 |  |
+| LV | Euģēnijs | Short factual summary | 1 |  |
+| LV | Evgēnijs | Short factual summary | 1 |  |
+| LV | Jevžēnija | Short factual summary | 1 |  |
+| LV | Eugēnijs | Short factual summary |  |  |
+| LV | Euģenijs | Short factual summary |  |  |
+| LT | Arkadijus | Short factual summary |  |  |
+| LT | Eirimė | Short factual summary |  |  |
+| LT | Eugenijus | Short factual summary |  |  |
+| LT | Norvydas | Short factual summary |  |  |
+| EE | Kristo | Short factual summary | 2039 |  |
+| EE | Risto | Short factual summary | 1415 |  |
+| EE | Krister | Needs research | 187 |  |
+
+### 14 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Fricis | Short factual summary | 196 |  |
+| LV | Vincents | Short factual summary | 193 |  |
+| LV | Frederiks | Short factual summary | 156 |  |
+| LV | Vikentijs | Short factual summary | 85 |  |
+| LV | Fridrihs | Short factual summary | 46 |  |
+| LV | Vinsents | Short factual summary | 33 |  |
+| LV | Frederika | Short factual summary | 28 |  |
+| LV | Frīdrihs | Short factual summary | 13 |  |
+| LV | Vincenta | Short factual summary | 12 |  |
+| LV | Vincentina | Short factual summary | 7 |  |
+| LV | Vincentīna | Short factual summary | 6 |  |
+| LV | Vicents | Short factual summary | 3 |  |
+| LV | Vikars | Needs research | 3 |  |
+| LV | Vincentijs | Early record only | 3 |  |
+| LV | Vincentīne | Short factual summary | 3 |  |
+| LV | Friderika | Short factual summary | 1 |  |
+| LV | Frideriks | Short factual summary | 1 |  |
+| LV | Fridriha | Short factual summary | 1 |  |
+| LV | Spricis | Short factual summary |  |  |
+| LV | Vicenta | Short factual summary |  |  |
+| LV | Vincens | Short factual summary |  |  |
+| LT | Gotfridas | Short factual summary |  |  |
+| LT | Judita | Short factual summary |  |  |
+| LT | Ramantas | Short factual summary |  |  |
+| LT | Saulenė | Short factual summary |  |  |
+| EE | Alvi | Short factual summary | 67 |  |
+| EE | Alviine | Short factual summary | 9 |  |
+| EE | Alve | Needs research | < 5 |  |
+
+### 15 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Undīne | Short factual summary | 589 |  |
+| LV | Unda | Short factual summary | 113 |  |
+| LV | Leopolds | Short factual summary | 91 |  |
+| LV | Undīna | Short factual summary | 5 |  |
+| LV | Undis | Short factual summary | 5 |  |
+| LV | Undina | Short factual summary | 4 |  |
+| LV | Undija | Short factual summary | 3 |  |
+| LV | Undalgs | Needs research | 2 |  |
+| LV | Leopoldina | Short factual summary | 1 |  |
+| LV | Undita | Short factual summary | 1 |  |
+| LT | Albertas | Short factual summary |  |  |
+| LT | Leopoldas | Short factual summary |  |  |
+| LT | Vaidilas | Short factual summary |  |  |
+| LT | Žadvydė | Short factual summary |  |  |
+| EE | Vaiki | Needs research | 46 |  |
+| EE | Vaige | Needs research | 14 |  |
+| EE | Vaigi | Needs research | < 5 |  |
+
+### 16 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Glorija | Short factual summary | 216 |  |
+| LV | Jefims | Early record only | 89 |  |
+| LV | Jefimija | Short factual summary | 37 |  |
+| LV | Banga | Short factual summary | 16 |  |
+| LV | Landa | Short factual summary | 15 |  |
+| LV | Vētra | Early record only | 7 |  |
+| LV | Landijs | Short factual summary | 3 |  |
+| LV | Ganda | Needs research |  |  |
+| LT | Edmundas | Short factual summary |  |  |
+| LT | Gerdvilė | Needs research |  |  |
+| LT | Vaišvydas | Short factual summary |  |  |
+| EE | Arne | Short factual summary | 703 |  |
+| EE | Aarne | Short factual summary | 659 |  |
+| EE | Arno | Short factual summary | 653 |  |
+| EE | Arnold | Short factual summary | 408 |  |
+
+### 17 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Uģis | Short factual summary | 2226 |  |
+| LV | Hugo | Short factual summary | 1350 |  |
+| LV | Igo | Short factual summary | 104 |  |
+| LV | Uga | Short factual summary | 24 |  |
+| LV | Ugo | Short factual summary | 16 |  |
+| LV | Higo | Short factual summary | 1 |  |
+| LT | Dionyzas | Short factual summary |  |  |
+| LT | Getautas | Short factual summary |  |  |
+| LT | Gilvilė | Short factual summary |  |  |
+| LT | Salomėja | Short factual summary |  |  |
+| EE | Aino | Short factual summary | 1747 |  |
+| EE | Einar | Short factual summary | 652 |  |
+| EE | Egon | Short factual summary | 468 |  |
+| EE | Heinar | Needs research | 270 |  |
+| EE | Egil | Needs research | 7 |  |
+| EE | Ainari | Needs research | < 5 |  |
+
+### 18 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Doloresa | Short factual summary | 46 |  |
+| LV | Aleksandris | Short factual summary | 33 |  |
+| LV | Latvis | Short factual summary | 5 |  |
+| LV | Zanders | Short factual summary | 5 |  |
+| LV | Brīve | Short factual summary | 3 |  |
+| LV | Brīva | Short factual summary | 2 |  |
+| LV | Laisve | Short factual summary | 2 |  |
+| LV | Latvīte | Short factual summary | 2 |  |
+| LV | Alesandrs | Short factual summary | 1 |  |
+| LV | Dolita | Short factual summary | 1 |  |
+| LV | Dollija | Short factual summary | 1 |  |
+| LV | Brīvīte | Short factual summary |  |  |
+| LV | Zandars | Short factual summary |  |  |
+| LT | Ginvydas | Short factual summary |  |  |
+| LT | Ginvydė | Short factual summary |  |  |
+| LT | Otas | Short factual summary |  |  |
+| LT | Otonas | Short factual summary |  |  |
+| LT | Romanas | Short factual summary |  |  |
+| LT | Salomėja | Short factual summary |  |  |
+| EE | Ilo | Short factual summary | 38 |  |
+| EE | Ilu | Needs research | < 5 |  |
+
+### 19 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Jeļizaveta | Short factual summary | 1637 |  |
+| LV | Jelizaveta | Short factual summary | 588 |  |
+| LV | Betija | Short factual summary | 449 |  |
+| LV | Elizabeta | Short factual summary | 203 |  |
+| LV | Liza | Short factual summary | 129 |  |
+| LV | Lisa | Short factual summary | 81 |  |
+| LV | Līza | Short factual summary | 69 |  |
+| LV | Līze | Short factual summary | 56 |  |
+| LV | Beta | Short factual summary | 44 |  |
+| LV | Elīzabete | Short factual summary | 23 |  |
+| LV | Elžbeta | Short factual summary | 9 |  |
+| LV | Eba | Short factual summary | 7 |  |
+| LV | Elizavete | Short factual summary | 5 |  |
+| LV | Elīzabeta | Short factual summary | 3 |  |
+| LV | Elzabeta | Short factual summary | 3 |  |
+| LV | Jelizabeta | Short factual summary | 3 |  |
+| LV | Jelizavete | Short factual summary | 3 |  |
+| LV | Alžbeta | Short factual summary | 1 |  |
+| LV | Elizbete | Short factual summary | 1 |  |
+| LV | Lisija | Short factual summary | 1 |  |
+| LV | Līziņa | Short factual summary | 1 |  |
+| LV | Betsija | Short factual summary |  |  |
+| LV | Jeļizabeta | Short factual summary |  |  |
+| LV | Jeļizavete | Short factual summary |  |  |
+| LV | Lize | Short factual summary |  |  |
+| LT | Audronė | Short factual summary |  |  |
+| LT | Dainius | Short factual summary |  |  |
+| LT | Dainotas | Short factual summary |  |  |
+| LT | Matilda | Short factual summary |  |  |
+| LT | Rimgaudė | Short factual summary |  |  |
+| EE | Eliise | Short factual summary | 1358 |  |
+| EE | Elis | Short factual summary | 757 |  |
+| EE | Elsa | Needs research | 382 |  |
+| EE | Ilse | Needs research | 203 |  |
+| EE | Betti | Short factual summary | 41 |  |
+| EE | Els | Needs research | 41 |  |
+| EE | Else | Needs research | 23 |  |
+
+### 20 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Anda | Short factual summary | 2980 |  |
+| LV | Vigo | Short factual summary | 161 |  |
+| LV | Andīna | Short factual summary | 47 |  |
+| LV | Andija | Short factual summary | 16 |  |
+| LV | Vīgants | Early record only | 12 |  |
+| LV | Vigars | Short factual summary | 7 |  |
+| LV | Vigita | Short factual summary | 7 |  |
+| LV | Nanda | Short factual summary | 6 |  |
+| LV | Andīne | Short factual summary | 4 |  |
+| LV | Vigija | Short factual summary | 4 |  |
+| LV | Vigeta | Short factual summary | 3 |  |
+| LV | Vigilija | Short factual summary | 3 |  |
+| LV | Andina | Short factual summary | 2 |  |
+| LV | Viga | Short factual summary | 2 |  |
+| LV | Vigda | Early record only | 2 |  |
+| LV | Vīgo | Needs research | 2 |  |
+| LV | Vīga | Short factual summary | 1 |  |
+| LV | Vigelijs | Needs research | 1 |  |
+| LV | Viģīlija | Short factual summary | 1 |  |
+| LV | Vigilijs | Short factual summary |  |  |
+| LT | Feliksas | Short factual summary |  |  |
+| LT | Jovydas | Short factual summary |  |  |
+| LT | Laimis | Short factual summary |  |  |
+| LT | Vaidvilė | Short factual summary |  |  |
+| LT | Vaidvitė | Needs research |  |  |
+| EE | Helmut | Needs research | 179 |  |
+| EE | Helmer | Needs research | 19 |  |
+| EE | Helmo | Needs research | 19 |  |
+| EE | Helmu | Needs research | 7 |  |
+| EE | Helmar | Needs research | < 5 |  |
+| EE | Helmur | Needs research | < 5 |  |
+
+### 21 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Zlata | Short factual summary | 542 |  |
+| LV | Zeltīte | Short factual summary | 345 |  |
+| LV | Ando | Short factual summary | 22 |  |
+| LV | Andijs | Short factual summary | 19 |  |
+| LV | Andars | Needs research | 8 |  |
+| LV | Zelta | Short factual summary | 5 |  |
+| LV | Vilfrīds | Short factual summary | 4 |  |
+| LV | Vigors | Needs research | 3 |  |
+| LV | Vigra | Needs research | 2 |  |
+| LV | Vigurds | Short factual summary | 2 |  |
+| LV | Vilibalds | Short factual summary | 2 |  |
+| LV | Andejs | Needs research | 1 |  |
+| LV | Zeltiņa | Short factual summary | 1 |  |
+| LV | Vigorts | Short factual summary |  |  |
+| LV | Vilfrida | Short factual summary |  |  |
+| LV | Viliberts | Short factual summary |  |  |
+| LT | Alberta | Short factual summary |  |  |
+| LT | Eibartė | Short factual summary |  |  |
+| LT | Girenė | Short factual summary |  |  |
+| LT | Gomantas | Short factual summary |  |  |
+| LT | Honoratas | Short factual summary |  |  |
+| LT | Honorijus | Short factual summary |  |  |
+| LT | Norgaudas | Short factual summary |  |  |
+| EE | Pilvi | Short factual summary | 327 |  |
+| EE | Pilve | Short factual summary | 26 |  |
+
+### 22 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Alfons | Short factual summary | 179 |  |
+| LV | Alfonss | Short factual summary | 16 |  |
+| LV | Aldris | Needs research | 7 |  |
+| LV | Vilora | Needs research | 5 |  |
+| LV | Aldra | Short factual summary | 3 |  |
+| LV | Vilonija | Short factual summary | 1 |  |
+| LV | Aldijs | Needs research |  |  |
+| LV | Alfins | Short factual summary |  |  |
+| LV | Alfonija | Short factual summary |  |  |
+| LT | Cecilija | Short factual summary |  |  |
+| LT | Cilė | Short factual summary |  |  |
+| LT | Dargintė | Needs research |  |  |
+| LT | Laimutis | Short factual summary |  |  |
+| LT | Steigintas | Needs research |  |  |
+| EE | Silja | Short factual summary | 657 |  |
+| EE | Sille | Needs research | 480 |  |
+| EE | Säsil | Needs research | 47 |  |
+| EE | Silje | Needs research | 47 |  |
+| EE | Cecilia | Needs research | 21 |  |
+
+### 23 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Zigrīda | Short factual summary | 1119 |  |
+| LV | Zigrida | Short factual summary | 37 |  |
+| LV | Zigfrīda | Short factual summary | 20 |  |
+| LV | Sigrīda | Short factual summary | 13 |  |
+| LV | Zigrīds | Short factual summary | 8 |  |
+| LV | Sigrija | Short factual summary | 7 |  |
+| LV | Sigruna | Short factual summary | 3 |  |
+| LV | Sigrūna | Short factual summary | 3 |  |
+| LV | Ziga | Short factual summary | 3 |  |
+| LV | Zigda | Short factual summary | 3 |  |
+| LV | Zigra | Short factual summary | 3 |  |
+| LV | Zigrita | Short factual summary | 3 |  |
+| LV | Sigurnija | Needs research | 1 |  |
+| LV | Zigfrida | Short factual summary | 1 |  |
+| LV | Zigvija | Needs research | 1 |  |
+| LV | Zigrids | Short factual summary |  |  |
+| LT | Doviltas | Short factual summary |  |  |
+| LT | Felicita | Short factual summary |  |  |
+| LT | Klemensas | Short factual summary |  |  |
+| LT | Kolumbas | Needs research |  |  |
+| LT | Liubartė | Needs research |  |  |
+| LT | Orestas | Short factual summary |  |  |
+| EE | Leemet | Short factual summary | 22 |  |
+| EE | Kleemet | Needs research | < 5 |  |
+| EE | Leemo | Needs research | < 5 |  |
+
+### 24 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Velta | Short factual summary | 2790 |  |
+| LV | Velda | Short factual summary | 19 |  |
+| LV | Velita | Short factual summary | 10 |  |
+| LV | Velards | Short factual summary | 6 |  |
+| LV | Veldra | Needs research | 4 |  |
+| LV | Vīne | Needs research | 2 |  |
+| LV | Viners | Needs research | 1 |  |
+| LV | Velte | Short factual summary |  |  |
+| LV | Veltija | Short factual summary |  |  |
+| LV | Vīna | Needs research |  |  |
+| LV | Vinārs | Needs research |  |  |
+| LT | Gerardas | Short factual summary |  |  |
+| LT | Mantvinas | Short factual summary |  |  |
+| LT | Žybartė | Needs research |  |  |
+| EE | Ustav | Needs research | 8 |  |
+| EE | Ustus | Needs research | < 5 |  |
+
+### 25 November
+
+| Country | Name | Now shows | Bearers | Open note |
+| --- | --- | --- | --- | --- |
+| LV | Keita | Short factual summary | 3105 |  |
+| LV | Kate | Short factual summary | 2221 |  |
+| LV | Jekaterīna | Short factual summary | 1066 |  |
+| LV | Ketija | Short factual summary | 727 |  |
+| LV | Katerina | Short factual summary | 515 |  |
+| LV | Keitija | Short factual summary | 512 |  |
+| LV | Katrīne | Short factual summary | 497 |  |
+| LV | Katerīna | Short factual summary | 166 |  |
+| LV | Ketrīna | Short factual summary | 144 |  |
+| LV | Kadrija | Short factual summary | 109 |  |
+| LV | Ketrina | Short factual summary | 65 |  |
+| LV | Keitlina | Short factual summary | 59 |  |
+| LV | Trīne | Short factual summary | 47 |  |
+| LV | Katalīna | Short factual summary | 37 |  |
+| LV | Keta | Short factual summary | 34 |  |
+| LV | Katažina | Short factual summary | 26 |  |
+| LV | Katrine | Short factual summary | 19 |  |
+| LV | Katija | Short factual summary | 16 |  |
+| LV | Kecija | Needs research | 12 |  |
+| LV | Kadija | Needs research | 11 |  |
+| LV | Trīna | Short factual summary | 11 |  |
+| LV | Katri | Short factual summary | 9 |  |
+| LV | Kēta | Short factual summary | 7 |  |
+| LV | Katriona | Short factual summary | 6 |  |
+| LV | Katre | Short factual summary | 5 |  |
+| LV | Kēte | Short factual summary | 5 |  |
+| LV | Ketrija | Short factual summary | 4 |  |
+| LV | Katiņa | Short factual summary | 2 |  |
+| LV | Kete | Short factual summary | 2 |  |
+| LV | Ketri | Needs research | 1 |  |
+| LV | Katra | Short factual summary |  |  |
+| LT | Germilė | Short factual summary |  |  |
+| LT | Santautas | Short factual summary |  |  |
+| EE | Kadi | Needs research | 1678 |  |
+| EE | Triinu | Short factual summary | 1307 |  |
+| EE | Kati | Needs research | 1237 |  |
+| EE | Katre | Short factual summary | 659 |  |
+| EE | Katri | Short factual summary | 508 |  |
+| EE | Kaarin | Short factual summary | 151 |  |
+| EE | Kadrin | Needs research | 43 |  |
+| EE | Kari | Needs research | 42 |  |
+| EE | Triina | Needs research | 27 |  |
 
 ## Priority 1: started in earlier rounds
 

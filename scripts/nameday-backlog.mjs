@@ -54,10 +54,35 @@ md.push('# Name-day research backlog','',
 table(['Level','LV','LT','EE'],['reviewed','summary','attestation','unresearched'].map(k=>[LABEL[k],coverage.lv[k],coverage.lt[k],coverage.ee[k]]).concat([['Total profiles',coverage.lv.total,coverage.lt.total,coverage.ee.total]]));
 md.push('## How to work through the backlog','',
  'Continue research in the shared branch `codex/namedays-round4`; do not create a separate branch per round.','',
- '1. Pick names from the priority lists below. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.',
+ '1. Work in calendar order: take the next unfinished day from Priority 0 and complete its names in all three countries before the later priority lists. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.',
  '2. Verify every claim in a source you actually opened, and keep the URLs in research files and provenance metadata only. Do not display source URLs, clickable citations or source lists in the widget interface. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, Wikipedia in the relevant language, national library and museum pages. vardai.vlkk.lt blocks automated requests; open it manually.',
  '3. Write two paragraphs per language (lv, ru, en, lt, et): origin and how the name reached the Baltic languages, then one concrete, verified historical detail. Keep uncertain etymology explicitly uncertain; describe literary events as literature; never call a calendar or publication year the creation date unless a source says the name was coined then.',
  '4. Add the entry to a `public/namedays-history-r<round>-<topic>.js` module, import it in `public/namedays-history.js`, record every examined name (including skipped ones) in `research/namedays/round<round>-notes.json`, bump `WRITER_VERSION`, then run `node scripts/generate-namedays.mjs --country=lv` for LV-only work (use `lt` or `ee` for another country; omit the flag only for a full rebuild), `node --test parsers/namedays.test.mjs` and this script.','');
+// Date order comes first: the widget shows yesterday, today and tomorrow, so the next calendar days
+// are researched before anything else, across all three countries. --from=YYYY-MM-DD overrides today.
+const fromArg=process.argv.find(a=>a.startsWith('--from='))?.slice(7);
+const today=fromArg||new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Riga',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+if(!/^\d{4}-\d{2}-\d{2}$/.test(today))throw Error('Invalid --from date');
+const UPCOMING_DAYS=14,rowFor=new Map(rows.map(r=>[r.country+':'+r.name,r])),calendars={};
+for(const country of ['lv','lt','ee'])calendars[country]=(await read(new URL('calendar-'+country+'.json',data))).data.days;
+// Walk a leap year so 29 February always has its place in the cycle.
+const start=new Date('2000-'+today.slice(5)+'T12:00:00Z'),queue=[];
+for(let i=0;i<366;i++){
+ const day=new Date(start.getTime()+i*86400000),key=day.toISOString().slice(5,10);
+ for(const country of ['lv','lt','ee'])for(const n of calendars[country][key]||[]){
+  const r=rowFor.get(country+':'+n.name);
+  if(r&&r.category!=='reviewed')queue.push({order:i,day:key,country,...r});
+ }
+}
+const dayLabel=key=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',timeZone:'UTC'}).format(new Date('2000-'+key+'T12:00:00Z'));
+await writeFile(new URL('research/namedays/date-queue.csv',project),['order,date,country,name,category,registered_bearers,note_status',...queue.map(r=>[r.order,r.day,r.country,r.name,r.category,r.bearers.label,r.note?.status||''].map(csvCell).join(','))].join('\n')+'\n');
+md.push('## Priority 0: upcoming name days','',
+ 'Research follows the calendar: the widget shows yesterday, today and tomorrow, so the nearest days come first. Generated for '+dayLabel(today.slice(5))+' (Europe/Riga); regenerate before each round. Each day lists every name in the LV, LT and EE calendars that still lacks a reviewed history, most common first. Finish a day in all three countries before moving to the next. The full year-long queue is in [`research/namedays/date-queue.csv`](research/namedays/date-queue.csv).','');
+for(let i=0;i<UPCOMING_DAYS;i++){
+ const list=queue.filter(r=>r.order===i);if(!list.length)continue;
+ md.push('### '+dayLabel(list[0].day),'');
+ table(['Country','Name','Now shows','Bearers','Open note'],list.sort((a,b)=>['lv','lt','ee'].indexOf(a.country)-['lv','lt','ee'].indexOf(b.country)||byBearers(a,b)).map(r=>[r.country.toUpperCase(),r.name,LABEL[r.category],r.bearers.label,r.note?(r.note.next_steps||r.note.reason||'').replace(/\|/g,'/'):'']));
+}
 const open=rows.filter(r=>r.note&&r.category!=='reviewed');
 md.push('## Priority 1: started in earlier rounds','',
  'These names were examined but not written, usually because only a meaning was found and no verified historical detail. Each note says what to search next.','');

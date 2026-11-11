@@ -41,6 +41,10 @@ Writer version 1.7.0 removed fictional spelling-based histories and retains orig
 | Total profiles | 5,556 | 1,568 | 1,553 |
 | Fictional historical stories displayed | 0 | 0 | 0 |
 
+### Research order
+
+From 12 November 2026 research follows the calendar. The widget shows only yesterday, today and tomorrow, so `npm run backlog:namedays` puts a Priority 0 section at the top of `NAMEDAYS_BACKLOG.md`: the next 14 days, starting from today in Europe/Riga, with every LV, LT and EE name that still lacks a reviewed history, most common first. A day is finished in all three countries before the next one. The full year-long queue, starting from the same day and including 29 February, is written to `research/namedays/date-queue.csv`; `--from=YYYY-MM-DD` generates it for another start date. The bearer-count priority lists follow only after the upcoming days are covered.
+
 ### Most common EE and LT names (November 2026, writer version 1.8.8)
 
 While the priority rounds continued with Latvian names, a separate round wrote reviewed histories for the most common Estonian and Lithuanian calendar names, ranked by official bearer counts (Statistics Estonia; the Registrų centras TOP 50 lists). Four modules, `public/namedays-history-eelt1-{ee-a,ee-b,lt-a,lt-b}.js`, add 96 families in five languages, for example Margus, Kristjan, Tiiu, Piret, Roman, Mark/Markus, Annika, Antanas/Anton, Kazimieras/Kazys, Jadvyga, Birutė, Kęstutis, Vincas and Nijolė. These stories are registered per country in `public/namedays-history.js`: Estonian entries apply only to the EE calendar and Lithuanian entries only to the LT calendar, so a spelling shared with Latvia (Irena, Regina, Sirje, Monika…) keeps its separately researched LV text. Jana and Arūnas remain open; Veronika was completed in LV round 10, and four Estonian entries (Tiiu, Rein, Maie, Ene) are marked for a better second paragraph because they draw on the same school-primer study. Every examined name is recorded in `research/namedays/round-eelt1-notes.json`; named rounds carry a `country` field, and the backlog generator reads them alongside numbered rounds.
