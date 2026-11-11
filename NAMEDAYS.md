@@ -68,7 +68,7 @@ Calendar-entry evidence is retained for 176 LV profiles. A date assigned to a sh
 
 The additional reviewed histories cover Catherine/Katarina forms, Elizabeth/Elisaveta forms, Veta, Gajs/Kajs, Vytautas, Mindaugas and Kalev. All are translated into five languages and retain source URLs. An uncertain original meaning stays uncertain; later literary and historical associations are distinguished from etymology.
 
-The dialog uses native overflow scrolling with no backdrop blur or smooth-scroll animation. Content and name-list layout are contained. Parsed profiles, formatted copy and previously opened history panels are cached; changing a name does not refetch the profile file or reconstruct an already rendered history. Only Latvian population statistics are requested until separate sourced country snapshots are implemented.
+The dialog uses native overflow scrolling with no backdrop blur or smooth-scroll animation. Content and name-list layout are contained. Parsed profiles, formatted copy and previously opened history panels are cached; changing a name does not refetch the profile file or reconstruct an already rendered history. Population statistics are requested only for countries with a sourced snapshot (LV, LT and EE).
 
 The dialog name list grows to its content height, capped at 180 pixels or 28 percent of the viewport height. The current fifteen-name example fits completely on ordinary phone and desktop widths. Longer lists scroll independently. Buttons do not shrink into clipped rows, and changing the day resets the name-list scroll position. The standalone dialog uses border-box sizing to keep the shell within short viewports.
 
@@ -84,7 +84,7 @@ Namesake research should first search Wikipedia and the relevant national domain
 
 ### Number of name bearers
 
-The namesakes tab displays an approximate number of registered name bearers for the currently enabled Latvian calendar, with only the country and count visible. Snapshot dates and provider names are retained in metadata and are not displayed in the card. `population-lv.json` is separate from historical profiles. Its source is the official PMLP CC0 dataset [Personu vārdi](https://data.gov.lv/dati/dataset/personu-vardi). It counts people registered in PMLP, including a name within multiple given names; it does not assert current physical residence in Latvia. Exact NFC spelling is retained: diacritic variants and hyphenated names are not merged. Each matching component is counted once per person. Missing names are omitted, never shown as zero. Counts are not reduced by one for the visitor.
+The namesakes tab displays an approximate number of registered name bearers for the Latvian and Estonian calendars and for the most common Lithuanian names, with only the country, the count and, for Lithuania, the “born since 1900” scope visible. Snapshot dates and provider names are retained in metadata and are not displayed in the card. `population-lv.json` is separate from historical profiles. Its source is the official PMLP CC0 dataset [Personu vārdi](https://data.gov.lv/dati/dataset/personu-vardi). It counts people registered in PMLP, including a name within multiple given names; it does not assert current physical residence in Latvia. Exact NFC spelling is retained: diacritic variants and hyphenated names are not merged. Each matching component is counted once per person. Missing names are omitted, never shown as zero. Counts are not reduced by one for the visitor.
 
 ```sh
 npm run update:nameday-statistics
@@ -93,7 +93,26 @@ npm run update:nameday-statistics -- --force
 
 The script discovers the latest official CSV through CKAN, validates the entire response, and atomically replaces both published copies. Normal `npm run update` includes this step, skipping repeat requests after a successful check in the same UTC calendar month. Offline updates perform no network requests. Failed source requests leave the previous snapshot intact and appear in the common update report. The monthly GitHub workflow `nameday-statistics.yml` runs on the first day at 07:23 UTC, saves refreshed snapshots, and invokes the existing Pages build/deployment workflow. It can also be started manually. PMLP currently publishes snapshots twice yearly, so monthly checks do not imply monthly changes in the underlying counts.
 
-LT and EE counts are not substituted for LV or inferred from the interface language. Their calendars remain deferred. Future country-specific collectors must preserve their own population definitions, suppression thresholds, dates and exact spellings.
+#### Estonia
+
+`population-ee.json` comes from Statistics Estonia's name application ([stat.ee/nimed](https://stat.ee/nimed/)), which is based on the population register and refreshed once a year (the current snapshot is as of 1 January 2026). Its definition differs from Latvia's: Statistics Estonia counts people whose complete first name is exactly the searched name, so “Maarja Liis” does not count towards Maarja. Estonian figures are therefore lower than a component count would be. The source does not publish exact counts below five. A name the source reports as having fewer than five bearers is listed in `below_threshold` and shown as “fewer than 5”. When the name is shown but both sexes are reported as “fewer than five”, the total is 5–8 and is stored in `ranges` and shown as that range. When only one sex group is below five, only the published group is counted, so the figure is a slight undercount. Names absent from the file show no count; a count is never displayed as zero.
+
+```sh
+npm run update:nameday-statistics:ee
+npm run update:nameday-statistics:ee -- --force
+```
+
+The collector reads one page per EE calendar spelling (`https://stat.ee/nimed/<NAME>`), paced at under two requests per second with retry backoff. Progress is cached in ignored `var/namedays-statistics/ee-progress.json`, so an interrupted run resumes. The monthly `nameday_statistics` update task first reads a single probe page; it re-reads every name only when Statistics Estonia has published a newer annual snapshot. Every page must report the same snapshot date, or the run aborts and the previous file stays published.
+
+#### Lithuania
+
+`population-lt.json` comes from two Registrų centras open datasets on data.gov.lt, “Populiariausi vyrų vardai Lietuvoje nuo 1900 metų, TOP 50” and its women's counterpart. They list only the 50 most common men's and 50 most common women's names, counted among people born since 1900 in the population register, so the widget caption says “born since 1900” in every language. The published counts change between releases in both directions (for example Jonas: 128,475 in June 2023, 127,263 in September 2025), consistent with a count of registered people rather than a cumulative birth total. The snapshot date is the latest change the open-data portal records for the tables. 79 of the 100 listed names are LT calendar spellings; the others are mainly Russian and Belarusian forms such as Ivan and Aliaksandr, which are not in the calendar. Every other LT name has no public official count and shows none.
+
+```sh
+npm run update:nameday-statistics:lt
+```
+
+The monthly `nameday_statistics` task refreshes LV, LT and EE. Per-name frequencies on vardai.vlkk.lt (by birth year 1889–2020, with a different base of 2006 citizens plus later newborns) are not used: the site is protected against automated access, and its definition differs from the other two countries. A full current per-name export should be requested from Registrų centras. LT and EE counts are never substituted for one another or inferred from the interface language.
 
 ```sh
 node scripts/generate-namedays.mjs

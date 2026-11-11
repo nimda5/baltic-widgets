@@ -2,7 +2,7 @@ import {openModal} from './modal.js';
 import {resolveLanguage,locales} from './i18n-core.js';
 import {calendarDate,calendarNames,validateCountryCalendar,fittingNameCount} from './namedays-core.js';
 import {text,describeName,roleLabel,WRITER_VERSION} from './namedays-content.js';
-import {populationCopy,validatePopulation} from './namedays-population.js';
+import {populationCopy,validatePopulation,POPULATION_METRICS} from './namedays-population.js';
 
 const params=new URLSearchParams(location.search),lang=resolveLanguage(params.get('lang')||document.documentElement.lang||'lv');
 const tr=(key,values)=>text(lang,key,values),locale=locales[lang];
@@ -11,7 +11,7 @@ const roots=[...document.querySelectorAll('[data-namedays]')];
 const dataBase=new URL('./data/namedays/',import.meta.url);
 const profileRequests=new Map(),calendarRequests=new Map(),copyCache=new WeakMap(),panelCache=new WeakMap();
 const populationRequests=new Map();
-async function population(country){if(country!=='lv')return null;if(!populationRequests.has(country))populationRequests.set(country,readJSON(new URL('population-'+country+'.json',dataBase)).then(doc=>validatePopulation(doc,country)).catch(()=>{populationRequests.delete(country);return null;}));return populationRequests.get(country);}
+async function population(country){if(!POPULATION_METRICS[country])return null;if(!populationRequests.has(country))populationRequests.set(country,readJSON(new URL('population-'+country+'.json',dataBase)).then(doc=>validatePopulation(doc,country)).catch(()=>{populationRequests.delete(country);return null;}));return populationRequests.get(country);}
 function element(tag,className,content){const e=document.createElement(tag);if(className)e.className=className;if(content!==undefined)e.textContent=content;return e;}
 function button(className,label,handler){const b=element('button',className,label);b.type='button';b.addEventListener('click',handler);return b;}
 async function readJSON(url){const response=await fetch(url,{signal:AbortSignal.timeout(12000),cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);return response.json();}
