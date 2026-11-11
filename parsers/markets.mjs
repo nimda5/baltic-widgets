@@ -3,6 +3,7 @@ import readExcelFile from 'read-excel-file/node';
 import {mkdir,writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
+import {currencyCodes} from '../public/currency-core.js';
 export const marketSources={ecb:'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml',ecbRecent:'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml',nbp:'https://api.nbp.pl/api/cenyzlota/',btc:'https://community-api.coinmetrics.io/v4/timeseries/asset-metrics',worldbank:'https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx'};
 export function initializeMarkets(db){db.exec(`CREATE TABLE IF NOT EXISTS market_prices(series TEXT,at TEXT,value REAL,unit TEXT,source TEXT,source_url TEXT,fx_at TEXT,raw_value REAL,raw_unit TEXT,PRIMARY KEY(series,at));`);}
 const meta=(db,key)=>JSON.parse(db.prepare('SELECT value FROM metadata WHERE key=?').get(key)?.value || 'null');
@@ -15,7 +16,7 @@ export function parseECB(xml,url=marketSources.ecb){
   const $=load(xml,{xml:true}),rows=[],seen=new Set();
   $('Cube[time]').each((_,el)=>{
     const day=$(el).attr('time');if(!/^\d{4}-\d\d-\d\d$/.test(day)||seen.has(day))throw Error('Invalid/duplicate ECB date');seen.add(day);
-    for(const currency of ['USD','PLN']){const rate=Number($(el).children(`Cube[currency="${currency}"]`).attr('rate'));if(!(rate>0))throw Error('Missing ECB rate');rows.push({series:`eur_${currency.toLowerCase()}`,at:day+'T00:00:00.000Z',value:rate,unit:`${currency}/EUR`,source:'ECB reference rate',source_url:url});}
+    for(const currency of ['USD',...currencyCodes]){const field=$(el).children(`Cube[currency="${currency}"]`);if(!field.length&&!['USD','PLN'].includes(currency))continue;const rate=Number(field.attr('rate'));if(field.length!==1||!Number.isFinite(rate)||!(rate>0))throw Error('Missing/invalid ECB rate');rows.push({series:`eur_${currency.toLowerCase()}`,at:day+'T00:00:00.000Z',value:rate,unit:`${currency}/EUR`,source:'ECB reference rate',source_url:url});}
   });
   if(rows.length<2)throw Error('ECB XML schema changed');return rows.sort((a,b)=>a.at.localeCompare(b.at));
 }
@@ -94,7 +95,7 @@ export async function refreshMarkets(db,dataDir,now=new Date(),{backfill=true}={
 export function monthlyHistory(db,series){initializeMarkets(db);return db.prepare('SELECT at,value FROM market_prices WHERE series=? ORDER BY at').all(series);}
 export function exchangeData(db){
   initializeMarkets(db);const data={comparison:'previous_published_observation'};
-  for(const [series,key] of [['eur_usd','eur_usd'],['euribor_6m','euribor_6m'],['gold_eur_oz','gold_eur_oz'],['btc_eur','btc_eur']]){
+  for(const [series,key] of ['eur_usd',...currencyCodes.map(code=>'eur_'+code.toLowerCase()),'euribor_6m','gold_eur_oz','btc_eur'].map(key=>[key,key])){
     const rows=db.prepare('SELECT at,value,source,fx_at FROM market_prices WHERE series=? ORDER BY at').all(series);if(!rows.length)continue;const last=rows.at(-1);
     data[key]={price:last.value,previous:rows.at(-2)?.value??null,observed_at:last.at,fx_at:last.fx_at,history:rows.map(r=>({at:r.at,value:r.value})),history_source:last.source,frequency:'daily'};
     if(key==='euribor_6m')Object.assign(data[key],{unit:'%',comparison:'percentage_points',delay_hours:24,day_count:'act/360',source_url:meta(db,'euribor_last_run')?.source_url});

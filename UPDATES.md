@@ -19,7 +19,7 @@ Missing prices are retained as missing. FuelEst prices are community submissions
 | `fuel` | Every 6 hours | Operator price pages, LEA latest prices, FuelEst prices, eligible community fallback | Separate station lists/maps; Neste has no price collector |
 | `electricity` | Once daily after 15:00 Europe/Riga | Elering LV/LT/EE day-ahead schedule | Repeated downloads of the same published delivery slots; historical backfill |
 | `gas` | Once per Riga calendar day | EEX recent gas files | World Bank monthly history |
-| `markets` | Once per Riga calendar day | Recent ECB exchange rates, NBP gold, Coin Metrics Bitcoin | Full historical downloads |
+| `markets` | Once per Riga calendar day | Recent ECB USD, SEK, NOK, PLN, DKK, GBP and CHF rates, NBP gold, Coin Metrics Bitcoin | Full historical downloads |
 | `euribor` | Once daily after 16:00 Europe/Riga; failed requests retry after one hour when invoked again | Bank of Finland daily Euribor 6M act/360 XML, delayed 24 hours | Other maturities, act/365 rates, monthly averages |
 | `horoscope` | Once per Riga calendar day | Local validated cache for the current day and tomorrow | No external model request; no editorial changes |
 | `directories` | Every 7 days | Circle K, Virši, Viada, Straujupīte, KOOL and Neste station addresses, coordinates and fuel types | Price pages; successful location refreshes never re-date a price |
@@ -30,6 +30,8 @@ Missing prices are retained as missing. FuelEst prices are community submissions
 LEA and FuelEst include station addresses/coordinates in their price responses. Those fields are reused; no additional station-catalogue request is needed. KOOL requires its homepage to discover the price-page URL, but frequent refreshes do not fetch its station list or Google map. Rietumu publishes its single station together with its diesel quote. Cached station lists can be re-exported locally without downloading them again.
 
 These are collection cadences, not guarantees about publisher activity. For example, ECB/NBP generally have no new weekend observations, and PMLP currently publishes snapshots twice a year. Monthly checks simply discover a new official snapshot when one becomes available.
+
+The configurable currency row uses the same daily `markets` task in Auto, Daily, Current and Full profiles, including the Windows updater and API scheduler. All selectable currencies are parsed from the existing ECB response and exported with their own observation dates, previous values and histories in every language's `exchange.json`. Changing the selected currency only reads cached public data and stores the preference in the browser; it does not fetch rates or change the collection cadence.
 
 Electricity collection and display are separate. Nord Pool publishes the next day’s auction schedule once daily; the normal collector waits until 15:00 Riga time. If tomorrow’s complete schedule is delayed or the request fails, it retries after one hour when the updater is invoked again. First-run bootstrap and explicit forced runs can fetch today’s available data earlier. The browser selects the current interval from cached future slots and updates the display locally every minute; it does not re-download the source every half hour. See [Nord Pool’s current publication timing](https://www.nordpoolgroup.com/en/trading/transition-to-15-minute-market-time-unit-mtu/faq/faq-premium-container/will-the-publication-time-of-results-change-after-the-sdac-15-minute-mtu-go-live/).
 

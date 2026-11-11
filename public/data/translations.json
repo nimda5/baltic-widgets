@@ -182,7 +182,9 @@
     "without_current_price": "Bez aktuālas cenas: {count}",
     "price_expired": "Publicētā cena ir vecāka par 48 stundām",
     "six_months": "6 mēneši",
-    "station_search_all": "Pilsēta, adrese, DUS vai tīkls"
+    "station_search_all": "Pilsēta, adrese, DUS vai tīkls",
+    "choose_currency": "Izvēlēties valūtu",
+    "edit_currency": "Mainīt valūtu: {currency}"
   },
   "ru": {
     "fuel": "Энергия",
@@ -367,7 +369,9 @@
     "without_current_price": "Без актуальной цены: {count}",
     "price_expired": "Опубликованной цене больше 48 часов",
     "six_months": "6 месяцев",
-    "station_search_all": "Город, адрес, АЗС или сеть"
+    "station_search_all": "Город, адрес, АЗС или сеть",
+    "choose_currency": "Выбрать валюту",
+    "edit_currency": "Изменить валюту: {currency}"
   },
   "en": {
     "fuel": "Energy",
@@ -552,7 +556,9 @@
     "without_current_price": "Without a current price: {count}",
     "price_expired": "Published price is older than 48 hours",
     "six_months": "6 months",
-    "station_search_all": "City, address, station or network"
+    "station_search_all": "City, address, station or network",
+    "choose_currency": "Choose currency",
+    "edit_currency": "Change currency: {currency}"
   },
   "lt": {
     "fuel": "Energija",
@@ -737,7 +743,9 @@
     "without_current_price": "Be aktualios kainos: {count}",
     "price_expired": "Paskelbta kaina senesnė nei 48 valandos",
     "six_months": "6 mėnesiai",
-    "station_search_all": "Miestas, adresas, degalinė arba tinklas"
+    "station_search_all": "Miestas, adresas, degalinė arba tinklas",
+    "choose_currency": "Pasirinkti valiutą",
+    "edit_currency": "Keisti valiutą: {currency}"
   },
   "et": {
     "fuel": "Energia",
@@ -922,6 +930,8 @@
     "without_current_price": "Ajakohase hinnata: {count}",
     "price_expired": "Avaldatud hind on vanem kui 48 tundi",
     "six_months": "6 kuud",
-    "station_search_all": "Linn, aadress, tankla või kett"
+    "station_search_all": "Linn, aadress, tankla või kett",
+    "choose_currency": "Vali valuuta",
+    "edit_currency": "Muuda valuutat: {currency}"
   }
 }

@@ -1,4 +1,6 @@
 import {openModal} from './modal.js';
+import {selectedCurrency,saveCurrency} from './currency-core.js';
+import {chooseCurrency} from './currency-picker.js';
 import {createStationComparison} from './station-comparison.js';
 import {t,lang,locale,labels as uiLabels} from './i18n.js';
 import {zodiacPaths} from './zodiac-icons.js';
@@ -273,11 +275,15 @@ function horoscope(container, data) {
   container.append(top,text);show();
 }
 
+let marketCurrency;
+try{marketCurrency=selectedCurrency(window.localStorage);}catch{marketCurrency='SEK';}
 function exchange(container, data) {
+  const changeCurrency=()=>chooseCurrency(marketCurrency,code=>{marketCurrency=code;try{saveCurrency(window.localStorage,code);}catch{}exchange(container,data);});
   if (!['eur_usd','gold_eur_oz','btc_eur'].every(key => Number.isFinite(data[key]?.price) && data[key].price > 0)) throw new Error('Invalid rates');
   const usd = data.eur_usd;
   const quotes = [
     {name:'EUR / USD', symbol:'€', sub:t('euro','1 eiro'), quote:usd, digits:4},
+    {name:'EUR / '+marketCurrency, symbol:'€',sub:t('euro','1 eiro'),quote:data['eur_'+marketCurrency.toLowerCase()],digits:4,currency:marketCurrency,editable:true},
     {name:'Euribor', symbol:'%', sub:t('six_months','6 months'), quote:data.euribor_6m, digits:3, rate:true},
     {name:t('gold','Zelts'), symbol:'gold', sub:'EUR / oz', quote:data.gold_eur_oz, digits:2},
     {name:'Bitcoin', symbol:'bitcoin', sub:'EUR / BTC', quote:data.btc_eur, digits:2}
@@ -285,14 +291,23 @@ function exchange(container, data) {
   const list = element('div', 'market-list');
   quotes.forEach(item => {
     if(!Number.isFinite(item.quote?.price)){
-      const row=element('div','market-row'),label=element('span','market-label',item.name),value=element('span','market-unavailable','—');value.title=t('rate_unavailable','Rate not available yet');row.append(label,value);list.append(row);return;
+      const row=element('div','market-row'),label=element(item.editable?'button':'span',item.editable?'currency-choice-trigger market-label':'market-label',item.name+(item.editable?' ✎':'')),value=element('span','market-unavailable','—');
+      if(item.editable){label.type='button';label.setAttribute('aria-haspopup','dialog');label.setAttribute('aria-label',t('edit_currency','Change currency: {currency}',{currency:marketCurrency}));label.addEventListener('click',changeCurrency);}
+      value.title=t('rate_unavailable','Rate not available yet');row.append(label,value);list.append(row);return;
     }
-    const options={label:item.rate?'Euribor 6M':item.name,unit:item.rate?'%':item.name==='EUR / USD'?'USD':item.sub,digits:item.digits,lowerIsBetter:!!item.rate,percentagePoints:!!item.rate};
+    const options={label:item.rate?'Euribor 6M':item.name,unit:item.rate?'%':item.currency||(item.name==='EUR / USD'?'USD':item.sub),digits:item.digits,lowerIsBetter:!!item.rate,percentagePoints:!!item.rate};
     const row=element('div','market-row');
     const label=priceButton(item.quote,{...options,text:item.name,className:'market-name-text'});label.classList.add('market-label','market-label-trigger');
+    let displayLabel=label;
+    if(item.editable){
+      displayLabel=element('button','price-trigger market-label market-label-trigger currency-choice-trigger');displayLabel.type='button';displayLabel.append(element('span','market-name-text',item.name));
+      const pencil=element('span','currency-edit-icon');pencil.setAttribute('aria-hidden','true');pencil.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15z"/></svg>';displayLabel.querySelector('.market-name-text').append(pencil);
+      displayLabel.title=t('choose_currency','Choose currency');displayLabel.setAttribute('aria-label',t('edit_currency','Change currency: {currency}',{currency:marketCurrency}));displayLabel.setAttribute('aria-haspopup','dialog');
+      displayLabel.addEventListener('click',changeCurrency);
+    }
     const symbol = element('span', 'market-symbol'); symbol.setAttribute('aria-hidden','true');
     if (item.symbol === 'gold' || item.symbol === 'bitcoin') symbol.append(icon(item.symbol)); else symbol.textContent = item.symbol;
-    label.prepend(symbol);label.append(element('small','market-unit',item.sub));
+    displayLabel.prepend(symbol);displayLabel.append(element('small','market-unit',item.sub));
     const trigger=priceButton(item.quote,{...options,className:'market-price'});trigger.classList.add('market-value-trigger');
     trigger.title=[item.quote.history_source,item.quote.observed_at?.slice(0,10),t('previous_published','Compared with previous published value')].filter(Boolean).join(' · ');
     applyPriceTrend(trigger,item.quote.price,item.quote.previous);
@@ -303,9 +318,9 @@ function exchange(container, data) {
       change.title=known?t('previous_value','Previous: {value}',{value:number(item.quote.previous,3)+' %'})+' · '+t('change_points','Change: {value} pp',{value:number(delta,3)}):t('no_comparison','No comparison available');change.setAttribute('aria-label',change.title);trigger.append(change);
       trigger.title+=' · '+t('delayed_24h','Published with a 24-hour delay');
     }else trigger.append(trend(item.quote.price,item.quote.previous,true));
-    row.append(label,trigger); list.append(row);
+    row.append(displayLabel,trigger); list.append(row);
   });
-  container.append(list);
+  container.replaceChildren(list);
   const caption=container.closest('.widget').querySelector('.widget-header>.muted,.widget-header>.period,.widget-header>span:last-child');if(caption)caption.remove();
 }
 
