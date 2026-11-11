@@ -1,3 +1,4 @@
+import {openModal} from './modal.js';
 import {t,locale} from './i18n.js';
 import {seriesForPeriod} from './chart-periods.js';
 import {chartWindow,priceChange,nearestPoint,colorTrend,energyUnit} from './chart-math.js';
@@ -6,7 +7,8 @@ const canvas = document.querySelector('#chart-canvas');
 const cursor = document.querySelector('.chart-cursor');
 const readout = document.querySelector('.chart-readout');
 let active, opener, selectedPoints = [], plot, drag = null, comparison = null;
-const format = (value, digits) => new Intl.NumberFormat(locale, {minimumFractionDigits:digits,maximumFractionDigits:digits}).format(value);
+const numberFormats=new Map();
+const format=(value,digits)=>{if(!numberFormats.has(digits))numberFormats.set(digits,new Intl.NumberFormat(locale,{minimumFractionDigits:digits,maximumFractionDigits:digits}));return numberFormats.get(digits).format(value);};
 const dateFormat = (value, intraday = false) => new Intl.DateTimeFormat(locale, {timeZone:'Europe/Riga',day:'2-digit',month:'2-digit',...(intraday ? {hour:'2-digit',minute:'2-digit'} : {year:'numeric'})}).format(new Date(value));
 function node(tag, className, text) {
   const n = document.createElement(tag);
@@ -21,7 +23,7 @@ function svgNode(tag, attrs = {}, text) {
   return n;
 }
 
-export function priceButton(quote, {label, unit, digits = 3, className = 'price-value', intraday = false, text,lowerIsBetter=energyUnit(unit)}) {
+export function priceButton(quote, {label, unit, digits = 3, className = 'price-value', intraday = false, text,lowerIsBetter=energyUnit(unit),percentagePoints=false}) {
   const button = node('button', 'price-trigger');
   button.type = 'button';
   button.dataset.lowerIsBetter=String(lowerIsBetter);
@@ -43,7 +45,7 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
     const dailyPoints=(quote.daily_history || []).filter(p=>Number.isFinite(p.value)&&Number.isFinite(Date.parse(p.at))).map(p=>({at:Date.parse(p.at),value:p.value})).sort((a,b)=>a.at-b.at);
     const chartLabel = reference ? quote.reference_label : label;
     const source = reference ? quote.reference_source : quote.history_source;
-    active = {label:chartLabel,unit,digits,intraday,dailyPoints,lowerIsBetter,price:reference ? points.at(-1).value : (quote.price ?? points.at(-1)?.value),points};
+    active = {label:chartLabel,unit,digits,intraday,dailyPoints,lowerIsBetter,percentagePoints,price:reference ? points.at(-1).value : (quote.price ?? points.at(-1)?.value),points};
     document.querySelector('#chart-title').textContent = chartLabel;
     document.querySelector('#chart-current').textContent = `${format(active.price,digits)} ${unit}${source ? ` · ${source}` : ''}`;
     const periods=intraday?[1,7,...(dailyPoints.length?[30,90,365,1825,0]:[])]:[7,30,90,365,1825,0];
@@ -63,7 +65,7 @@ export function priceButton(quote, {label, unit, digits = 3, className = 'price-
       select.addEventListener('change',()=>showSeries(series[Number(select.value)]));document.querySelector('.chart-periods').before(select);
     }
     showSeries(series[0]);
-    dialog.showModal();
+    openModal(dialog);
   });
   return button;
 }
@@ -87,8 +89,8 @@ function draw(days) {
   const first = selectedPoints[0], last = selectedPoints.at(-1);
   const {delta,percent:changePercent} = priceChange(first.value,last.value);
   change.className = `trend ${colorTrend(delta,active.lowerIsBetter)}`;
-  const percent = changePercent !== null ? ` (${format(Math.abs(changePercent),2)}%)` : '';
-  change.textContent = `${delta>0?'↑':delta<0?'↓':'–'} ${format(Math.abs(delta),active.digits)}${percent}`;
+  const percent = !active.percentagePoints && changePercent !== null ? ` (${format(Math.abs(changePercent),2)}%)` : '';
+  change.textContent = `${delta>0?'↑':delta<0?'↓':'–'} ${format(Math.abs(delta),active.digits)}${active.percentagePoints?' '+t('percentage_points','pp'):''}${percent}`;
   let min = Math.min(...selectedPoints.map(p=>p.value)), max = Math.max(...selectedPoints.map(p=>p.value));
   const pad = (max-min)*.18 || Math.max(Math.abs(min)*.02,.01);
   const low = min-pad, high = max+pad;
@@ -160,7 +162,7 @@ function highlight(index) {
     plot.anchorDot.setAttribute('cx',plot.x(anchor));plot.anchorDot.setAttribute('cy',plot.y(anchor));
     readout.replaceChildren(
       node('span','chart-comparison-context',`${dateFormat(a.at,active.displayIntraday)} – ${dateFormat(b.at,active.displayIntraday)}`),
-      node('strong',`chart-comparison-change ${trend}`,`${delta>0?'↑':delta<0?'↓':'–'} ${sign}${format(Math.abs(delta),active.digits)} ${active.unit} (${percent===null?'—':sign+format(Math.abs(percent),2)+'%'})`),
+      node('strong',`chart-comparison-change ${trend}`,`${delta>0?'↑':delta<0?'↓':'–'} ${sign}${format(Math.abs(delta),active.digits)} ${active.percentagePoints?t('percentage_points','pp'):active.unit}${active.percentagePoints?'':` (${percent===null?'—':sign+format(Math.abs(percent),2)+'%'})`}`),
       node('span','chart-comparison-values',`${format(a.value,active.digits)} → ${format(b.value,active.digits)} ${active.unit}`)
     );
   }else{
@@ -211,7 +213,7 @@ dialog.addEventListener('click',event=>{
   const r=dialog.getBoundingClientRect();
   if(event.target===dialog && (event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom))dialog.close();
 });
-dialog.addEventListener('close',()=>{opener?.focus();});
+dialog.addEventListener('close',()=>{opener?.focus({preventScroll:true});});
 window.addEventListener('resize',()=>{
   if(dialog.open)draw(Number(document.querySelector('.chart-periods [aria-pressed="true"]').dataset.days));
 });

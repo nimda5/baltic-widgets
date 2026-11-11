@@ -37,3 +37,15 @@ test('failures have cooldowns, do not become successful, and force is explicit',
  assert.equal(planUpdates(state,{profile:'weekly',force:true,now:new Date('2026-11-09T12:01:00Z')})[0].due,true);
  assert.throws(()=>planUpdates({}, {profile:'typo'}),/Unknown/);
 });
+
+test('Euribor is independent daily work after 16:00 Riga with hourly failure retries',()=>{
+ const state={euribor:{last_success:'2026-11-09T14:05:00Z'}};
+ const task=(now,profile='auto')=>planUpdates(state,{profile,now:new Date(now)}).find(t=>t.id==='euribor');
+ assert.equal(task('2026-11-10T13:00:00Z').due,false);
+ assert.equal(task('2026-11-10T14:01:00Z').due,true);
+ assert.equal(task('2026-11-10T14:01:00Z','current').due,true);
+ assert.equal(task('2026-11-10T14:01:00Z','prices'),undefined);
+ state.euribor.last_attempt='2026-11-10T14:01:00Z';
+ assert.equal(task('2026-11-10T14:30:00Z').reason,'retry_cooldown');assert.equal(task('2026-11-10T15:02:00Z').due,true);
+ state.euribor.last_success='2026-11-10T15:03:00Z';assert.equal(task('2026-11-10T18:00:00Z').due,false);
+});

@@ -30,7 +30,7 @@ Open `http://127.0.0.1:8080/`. Use `http://127.0.0.1:8080/?lang=ru` to preview R
 
 ## Updates and publication
 
-Use the shared Auto profile. It refreshes only due tasks: fuel every 6 hours, the next-day electricity schedule once daily after 15:00 Riga time, gas/markets/horoscopes daily, station catalogues and EC averages weekly, commodity archives and name counts monthly.
+Use the shared Auto profile. It refreshes only due tasks: fuel every 6 hours, the next-day electricity schedule once daily after 15:00 Riga time, gas/markets/horoscopes daily, Euribor 6M daily after 16:00 Riga time, station catalogues and EC averages weekly, commodity archives and name counts monthly.
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "FULL_PATH\scripts\update-widgets.ps1"
@@ -80,9 +80,11 @@ Replace `en` with the desired language. GitHub Pages does not process API query 
 
 Fuel uses published LV operator prices, LEA in LT, and FuelEst in EE. Widget feeds publish 95-octane petrol and diesel only. The European Commission provides weekly national averages from 2005, kept separate from individual station prices. Electricity uses Elering/Nord Pool history: LT from 2012 and LV/EE from 2013. Natural gas uses regional EEX NGP prices and a separate monthly European benchmark from the World Bank. Long EUR charts use historical ECB exchange rates from 1999; different indices are not merged.
 
+Euribor 6M replaces the inverse USD/EUR row, using official Bank of Finland / EMMI daily act/360 fixings with a 24-hour delay. The initial daily history starts in 2021; rate changes use percentage points. Commercial redistribution is subject to EMMI terms (see THIRD_PARTY.md).
+
 Currencies use ECB history from 1999; gold uses NBP from 2013 and a separate monthly World Bank series; Bitcoin uses Coin Metrics from 2010. Actual coverage depends on the source and the retained database.
 
-Horoscopes use a **Do / Avoid** format: three suggestions in each group, with one per group shown in the compact widget and full lists available through Read more. Horoscopes use editorial templates informed by Astronomy Engine calculations, with two moods (normal and funny) and three variants per sign and day. Dates follow Europe/Riga. Six areas cover work/business, money, relationships, personal plans, home/family, and balance/rest, using practical, topic-specific advice. Adjacent days change the topic and every sentence; a fixed description of the sign is not repeated. These are everyday prompts, not promises of specific events.
+Horoscopes use a **Do / Avoid** format: three suggestions in each group, with all three items per group displayed directly at every screen size. Horoscopes use editorial templates informed by Astronomy Engine calculations, with two moods (normal and funny) and three variants per sign and day. Dates follow Europe/Riga. Six areas cover work/business, money, relationships, personal plans, home/family, and balance/rest, using practical, topic-specific advice. Adjacent days change the topic and every sentence; a fixed description of the sign is not repeated. These are everyday prompts, not promises of specific events.
 
 The news, advertisements, and weather in the layout are saved demonstration material. Their collection and refresh have not been implemented. See [THIRD_PARTY.md](THIRD_PARTY.md).
 
@@ -125,7 +127,7 @@ When Latvia has more than five networks, the main widget shows the five largest 
 
 ## Portal layout
 
-The desktop top section has four columns: login/sidebar, news cards, the original banner, and more news cards. Categories span all three news-area columns. All 24 top stories remain available through pagination and touch swiping. Tablets use two news columns beside the sidebar; phones use one column. See [BREAKPOINTS.md](BREAKPOINTS.md) for dimensions and widget placement.
+The top section restores the original Inbox.lv news list and responsive featured-story treatment, with the advertisement in its own column. All 24 top stories remain available across three pages through pagination and touch swiping. Lower news cards share the portal theme palette. See [BREAKPOINTS.md](BREAKPOINTS.md) for dimensions and widget placement.
 
 ## Name days
 
@@ -146,3 +148,23 @@ Every fuel source uses the same 48-hour age limit. An explicit publication/updat
 The LV collector reads the same anonymous public `fuel_prices` feed used by EnergijasCenas. Public browser-client access material is discovered at runtime, restricted to the expected API host and anonymous role, kept in memory and never logged or published. Only explicitly identified Waze community reports for LV 95/diesel are eligible. The original `source_observed_at`, not `scraped_at` or `imported_at`, must be within 48 hours; conflicting equal-time quotes are rejected. Unknown, foreign, future and expired reports cannot populate current prices.
 
 A reserve quote fills an unavailable/expired provider price and never replaces an available fresh primary quote. Its scope is `network_community_report`, not a network minimum or a price for every station. Individual directory-station prices stay unchanged. History uses the original observation timestamp, and original/provider URLs remain in JSON metadata. No source link or source name is added to the widget interface. Successful empty results clear the reserve; a failed refresh retains the last successful quotes only until their original 48-hour limit. XYdata is not enabled.
+
+## Responsive widget interface
+
+The horoscope card shows all three Do and three Avoid items without a Read more control. The sign button opens an accessible two-column dialog with all twelve signs and short date ranges; Escape closes it and returns focus to the trigger. The markets header omits the redundant daily caption. Compact layouts retain name days as the default tab inside a shared framed group, with a date and a limited name preview plus access to all names. Wide layouts give horoscope text additional width and keep the three cards at a shared 320-pixel height, with long advice scrolling inside the horoscope card rather than growing the row. Compact layouts use an underlined active tab, 46-pixel tab targets and keyboard navigation. Markets use restrained 13-pixel values and a two-column quote grid on tablet widths.
+
+## Station price comparison
+
+Use Compare stations in the energy card header beside the country selector, or select a network name to open the same dialog with that network selected. A single search field matches city, address, station and network tokens together; accents are optional (for example, Vilnius Viada). This is text matching, not geocoding or a claim about municipal boundaries. The 95 and diesel column headers select the sorting fuel; selecting the active header again reverses the price order. Both station prices are displayed side by side, with missing or expired quotes shown as a dash. A separate network filter can further refine the results.
+
+Rankings include only recent positive prices with station scope and a non-failed source, for the selected fuel. Show 20 more progressively reveals the remaining results. Original observation dates and community attribution remain visible; selecting a price opens its history. Missing, expired or failed prices are kept in a collapsed section and never treated as zero. Explicit network-only quotes remain separate and are not applied to all station addresses. Filtering uses the downloaded public JSON and makes no new source requests.
+
+A single compact Compare stations action opens the complete catalogue, including additional networks. All station and additional-network details open in the dialog instead of expanding the dashboard. The dashboard cards retain equal height without growing when the station list is opened.
+
+Dialog shells keep stable viewport-relative dimensions during filtering, loading and tab/period changes. Station results, name-day details and chart overflow scroll inside their respective dialogs; focus restoration avoids scrolling the page. The markets card labels the rate as Euribor with a localized 6 months subtitle, while chart metadata retains the full 6M benchmark identity.
+
+Name-day previews and dialog name lists use the calendar country’s alphabetical collation (Latvian for the enabled calendar), independent of interface language; source arrays and calendar membership are unchanged. Network-only fuel quotes are labeled as prices without a station address, with the published minimum explained per entry rather than implying the same price at every location.
+
+Station search prepares normalized search text once per immutable snapshot, reuses visible row elements and locale formatters, and coalesces typing with a 100 ms delay (including IME composition). Collapsed no-price rows are only built when expanded. The network dropdown uses the selected country’s alphabetical collation independently of the UI language, with All networks first. The redundant current-price count line is omitted.
+
+All native dialogs use a shared opening helper that preserves the document scroll position through autofocus and closing, including nested station-price charts. Scroll areas are discovered once when a dialog opens; wheel and touch handlers do not recalculate ancestor styles for each gesture. Background scrolling is contained without changing the root scroll container’s overflow, and document-level gesture handlers are removed when the last dialog closes. The station comparison uses a dimmed backdrop without live background blur. Price buttons use one text underline on hover without an additional shadow underline. Long horoscope advice remains complete in a keyboard-focusable internal scroll region; mobile advice is capped separately.

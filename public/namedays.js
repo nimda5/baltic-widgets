@@ -1,3 +1,4 @@
+import {openModal} from './modal.js';
 import {resolveLanguage,locales} from './i18n-core.js';
 import {calendarDate,calendarNames,validateCountryCalendar,fittingNameCount} from './namedays-core.js';
 import {text,describeName,roleLabel,WRITER_VERSION} from './namedays-content.js';
@@ -33,11 +34,11 @@ function createDialog(){
  const content=element('div','nameday-content');content.id='nameday-detail-content';content.setAttribute('role','tabpanel');content.setAttribute('aria-live','polite');
  dialog.append(header,days,names,tabs,content);document.body.append(dialog);
  dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();});
- dialog.addEventListener('close',()=>{renderTicket++;const trigger=state?.trigger;if(trigger?.isConnected)trigger.focus();});
+ dialog.addEventListener('close',()=>{renderTicket++;const trigger=state?.trigger;if(trigger?.isConnected)trigger.focus({preventScroll:true});});
 }
 async function open(root,name,trigger){
  if(!dialog)createDialog();state={root,country:countryOf(root),offset:0,selected:name,tab:'history',mood:'serious',variant:0,trigger,profiles:null};
- if(!dialog.open)dialog.showModal();await renderDialog();
+ if(!dialog.open)openModal(dialog);await renderDialog();
 }
 async function renderDialog(){
  const ticket=++renderTicket,date=calendarDate(new Date(),state.offset),content=dialog.querySelector('.nameday-content');
@@ -54,7 +55,7 @@ async function renderDialog(){
 }
 function renderSelection(){dialog.querySelectorAll('[data-key]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.key===state.selected)));}
 function renderContent(){
- const content=dialog.querySelector('.nameday-content');content.replaceChildren();
+ const content=dialog.querySelector('.nameday-content');content.scrollTop=0;content.replaceChildren();
  dialog.querySelectorAll('[data-tab]').forEach(b=>{const active=b.dataset.tab===state.tab;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1;});
  content.setAttribute('aria-labelledby','nameday-tab-'+state.tab);
  if(!state.selected){content.append(element('p','',tr('empty')));return;}
@@ -91,19 +92,21 @@ function fit(root){
  const {buttons,more}=item,available=cloud.getBoundingClientRect().width,gap=parseFloat(getComputedStyle(cloud).columnGap)||0;
  cloud.classList.add('nameday-measuring');buttons.forEach(b=>b.style.removeProperty('max-width'));cloud.replaceChildren(...buttons,more);
  const widths=buttons.map(b=>b.getBoundingClientRect().width),counterWidths={};
- for(let remaining=1;remaining<names.length;remaining++){more.textContent='+'+remaining;counterWidths[remaining]=more.getBoundingClientRect().width;}
+ const moreLabel=remaining=>root.classList.contains('nameday-tab-panel')?tr('all')+' · +'+remaining:'+'+remaining;
+ for(let remaining=1;remaining<names.length;remaining++){more.textContent=moreLabel(remaining);counterWidths[remaining]=more.getBoundingClientRect().width;}
  let shown=fittingNameCount(widths,available,gap,counterWidths);
+ if(root.classList.contains('nameday-tab-panel'))shown=Math.min(shown,6);
  // Keep one unusually long name readable with ellipsis, reserving the exact counter width.
  if(!shown&&names.length){shown=1;const reserved=names.length>1?counterWidths[names.length-1]+gap:0;buttons[0].style.maxWidth=Math.max(0,available-reserved)+'px';}
  cloud.replaceChildren(...buttons.slice(0,shown));
- if(shown<names.length){more.textContent='+'+(names.length-shown);cloud.append(more);}
+ if(shown<names.length){more.textContent=moreLabel(names.length-shown);cloud.append(more);}
  cloud.classList.remove('nameday-measuring');
  if(focused)(focused.isConnected?focused:more.isConnected?more:buttons[0])?.focus({preventScroll:true});
  if(state?.root===root&&state.trigger&&!state.trigger.isConnected)state.trigger=more.isConnected?more:buttons[0];
 }
 async function loadRoot(root){
  const country=countryOf(root),date=calendarDate();root.setAttribute('aria-label',tr('title'));root.replaceChildren(element('p','nameday-state',tr('loading')));
- try{const doc=await calendar(),names=calendarNames(doc,country,date);const heading=element('h3','nameday-heading');const time=element('time','',formatDate(date));time.dateTime=date;heading.append(element('span','',tr('title')),time);const cloud=element('div','nameday-clouds');const old=observed.get(root);if(old)resizeObserver?.unobserve(old.cloud);root.replaceChildren(heading,cloud);if(!names.length)cloud.append(element('p','nameday-state',tr('empty')));else{observed.set(root,{names,cloud});cloudOwners.set(cloud,root);resizeObserver?.observe(cloud);fit(root);}}
+ try{const doc=await calendar(),names=calendarNames(doc,country,date);const heading=element('h3','nameday-heading');const time=element('time','',formatDate(date));time.dateTime=date;heading.append(element('span','nameday-title',tr('title')),element('span','nameday-today',tr('today')),time);const cloud=element('div','nameday-clouds');const old=observed.get(root);if(old)resizeObserver?.unobserve(old.cloud);root.replaceChildren(heading,cloud);if(!names.length)cloud.append(element('p','nameday-state',tr('empty')));else{observed.set(root,{names,cloud});cloudOwners.set(cloud,root);resizeObserver?.observe(cloud);fit(root);}}
  catch{root.replaceChildren(element('p','nameday-state',tr('error')),button('nameday-retry',tr('retry'),()=>loadRoot(root)));}
 }
 if(roots.length){

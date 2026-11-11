@@ -1,5 +1,6 @@
 import path from 'node:path';
-import {mkdir,writeFile,cp,open,unlink} from 'node:fs/promises';
+import {mkdir,writeFile,readFile,cp,open,unlink} from 'node:fs/promises';
+import {fuelCoverage} from '../services/fuel-coverage.mjs';
 import {spawnSync} from 'node:child_process';
 import {database} from '../services/database.mjs';
 import {initializeElectricity} from '../parsers/electricity.mjs';
@@ -39,7 +40,10 @@ try{
    for(const folder of ['', 'lv','lt','et','ru','en']){await mkdir(path.join('data',folder),{recursive:true});for(const file of files)await cp(path.join('artifacts/static-site/data',folder,file),path.join('data',folder,file));}
   }else await cp('artifacts/static-site/data','data',{recursive:true});
   try{await cp(path.join(dir,'collector/fuel-stations.geojson'),'data/fuel-stations.geojson');}catch(e){if(e.code!=='ENOENT')throw e;}
+  report.fuel_coverage=fuelCoverage(await Promise.all(['LV','LT','EE'].map(async country=>JSON.parse(await readFile(`data/fuel-${country}.json`,'utf8')))));
+  console.log(`Collection status: ${report.status}. Fuel coverage: ${report.fuel_coverage.status} (${report.fuel_coverage.available}/${report.fuel_coverage.network_fuel_pairs} network/fuel pairs have current prices). Publication has not been verified yet.`);
+  if(report.fuel_coverage.gaps.length){console.warn('Missing current prices after collection (station counts describe known locations, not price coverage):');console.table(report.fuel_coverage.gaps);}
   await mkdir('artifacts',{recursive:true});await writeFile('artifacts/update-report.json',JSON.stringify(report,null,2));
-  console.log(JSON.stringify({status:report.status,profile,errors:report.errors,report:'artifacts/update-report.json'}));
+  console.log(JSON.stringify({collection_status:report.status,fuel_coverage:report.fuel_coverage.status,publication_status:'not_verified',profile,errors:report.errors,report:'artifacts/update-report.json'}));
  }
 }finally{try{db?.close();}finally{await lock.close();await unlink(lockPath);}}

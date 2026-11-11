@@ -5,11 +5,11 @@ import {createTranslator,resolveLanguage,locales} from '../public/i18n-core.js';
 const catalog=JSON.parse(readFileSync(new URL('../public/data/translations.json',import.meta.url),'utf8'));
 test('UI strings cover all five languages with matching interpolation fields',()=>{
   const keys=new Set();
-  for(const file of ['app.js','charts.js','portal.js']){
+  for(const file of ['app.js','charts.js','portal.js','station-comparison.js']){
     const source=readFileSync(new URL('../public/'+file,import.meta.url),'utf8');
     for(const match of source.matchAll(/\bt\('([^']+)'(?=\s*[,\)])/g))keys.add(match[1]);
   }
-  for(const key of [...keys,'period_all','period_1y','period_5y','all_days','theme_dark','theme_light']){
+  for(const key of [...keys,'cheapest_first','expensive_first','period_all','period_1y','period_5y','all_days','theme_dark','theme_light']){
     assert.equal(typeof catalog.en[key],'string',key);
     const fields=text=>[...text.matchAll(/\{(\w+)\}/g)].map(m=>m[1]).sort();
     for(const lang of Object.keys(locales)){

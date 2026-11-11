@@ -53,8 +53,8 @@ function updateWidgets(){
   if(mobile)widgets.dataset.compactMode='tabs';else delete widgets.dataset.compactMode;
   panels.forEach(panel=>{
     panel.hidden=mobile&&panel.id!==selectedWidget;
-    if(mobile){panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby',`tab-${panel.id}`);}
-    else{panel.removeAttribute('role');panel.removeAttribute('aria-labelledby');}
+    if(mobile){panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby',`tab-${panel.id}`);panel.tabIndex=0;}
+    else{panel.removeAttribute('role');panel.removeAttribute('aria-labelledby');panel.removeAttribute('tabindex');}
   });
   [...switcher.children].forEach(button=>{
     const active=button.getAttribute('aria-controls')===selectedWidget;

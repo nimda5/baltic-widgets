@@ -1,3 +1,5 @@
+import {openModal} from './modal.js';
+import {createStationComparison} from './station-comparison.js';
 import {t,lang,locale,labels as uiLabels} from './i18n.js';
 import {zodiacPaths} from './zodiac-icons.js';
 import { priceButton } from './charts.js';
@@ -65,6 +67,7 @@ async function loadWidget(name, render) {
 
 const paths = {
   ...zodiacPaths,
+  chevron:'M6 9l6 6 6-6',
   fuel: 'M5 21V4h9v17M4 21h12M5 10h9M17 6l3 3v8a2 2 0 0 1-4 0v-3h-2M18 7v4h2',
   horoscope: 'M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z',
   clock: 'M12 8v4l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0',
@@ -150,65 +153,16 @@ function fuel(container, data) {
   [t('station','Station'), '95', t('diesel','Diesel')].forEach(label => { const th = element('th', '', label); th.scope = 'col';header.append(th); });
   head.append(header);
   const body = element('tbody');
-  const providerRows=[];
-  const providers=[...data.providers,...(data.more_providers || [])];
-  providers.forEach((provider, index) => {
-    const row = element('tr');
-    const name = element('th'); name.scope = 'row';
-    const button = element('button', 'provider-button', provider.name);
-    button.type = 'button'; button.setAttribute('aria-expanded', 'false'); button.setAttribute('aria-controls', `provider-${index}`);
-    button.append(icon('right'));
-    if(data.country!=='LV'||provider.directory_location_count){const count=element('small','station-count',` ${provider.station_count}`);count.title=t(provider.directory_location_count?'directory_count':'priced_count','Known locations',{count:provider.station_count});button.append(count);}
-    name.append(button); row.append(name, ...fuelKeys.map((key,i) => fuelCell(withReference(provider.prices[key]),`${provider.name} · ${['95',t('diesel','Diesel')][i]}`)));
-    const detailsRow = element('tr', 'provider-details'); detailsRow.id = `provider-${index}`; detailsRow.hidden = true;
-    const detailsCell = element('td'); detailsCell.colSpan = 3;
-    if (provider.stations?.length) {
-      const sharedPrices=data.country==='LV' && fuelKeys.every(key=>new Set(provider.stations.map(s=>s.prices?.[key]?.price).filter(Number.isFinite)).size<=1);
-      const details = element('div', sharedPrices?'station-list addresses-only':'station-list');
-      if(provider.directory_location_count){
-        const search=element('input','station-search');search.type='search';search.placeholder=t('station_search','Find a location by name or address');search.setAttribute('aria-label',search.placeholder);
-        search.addEventListener('input',()=>{const query=search.value.toLocaleLowerCase(locale).trim();for(const row of details.children)if(row.classList.contains('station-detail'))row.hidden=!row.textContent.toLocaleLowerCase(locale).includes(query);});detailsCell.append(search);details.classList.add('station-directory');
-      }
-
-      [...provider.stations].sort((a,b)=>Number(Object.values(b.prices).some(Boolean))-Number(Object.values(a.prices).some(Boolean))||(a.address||a.name||'').localeCompare(b.address||b.name||'',locale)).forEach(station => {
-        const line = element('div', 'station-detail');
-        if (station.name && station.name !== provider.name) line.append(element('strong', 'station-name', station.name));
-        line.append(element('span', 'station-address', station.address || station.name || provider.name));
-        const prices = element('div',sharedPrices?'station-fuel-tags':'station-price-list');
-        fuelKeys.forEach((key,i)=>{
-          const quote=withReference(station.prices?.[key]), label=['95',t('diesel','Diesel')][i];
-          if(sharedPrices)return;
-          const item=element('span','station-quote'); item.append(element('span','station-fuel-label',label));
-          const value=element('span','station-quote-value');
-          if(fuelPriceState(quote)==='recent') {
-            const trigger = priceButton(quote,{label:`${station.name} · ${label}`,unit:'EUR/l'});
-            applyPriceTrend(trigger,quote.price,quote.previous);
-            if (quote.freshness === 'stale') trigger.classList.add('stale-price');
-            trigger.title = [quote.observed_date || quote.observed_at?.slice(0,10), quote.freshness === 'stale' ? t('old','Outdated price') : '', quote.evidence === 'community_reported' ? t('community_reported','Community report') : '', quote.source_status === 'error' ? t('source_unavailable','Source currently unavailable') : ''].filter(Boolean).join(' · ');
-            value.append(trigger);
-          }
-          else value.append(unavailableFuel(quote,`${station.name} · ${label}`));
-          item.append(value);fuelPriceViews.push({node:value,quote,label:`${station.name} · ${label}`,state:fuelPriceState(quote)});
-          prices.append(item);
-        });
-        const dates = Object.values(station.prices || {}).filter(Boolean).map(q => q.observed_date || q.observed_at?.slice(0,10)).filter(Boolean);
-        const old = Object.values(station.prices || {}).some(q => q?.freshness === 'stale');
-        if(!sharedPrices&&fuelKeys.some(key=>Number.isFinite(station.prices?.[key]?.price)))line.append(prices, element('small','station-date',`${dates.sort().at(-1) || ''}${old ? ' · '+t('stale_station_prices','Some prices are outdated') : ''}`)); details.append(line);
-      });
-      detailsCell.append(details);
-    } else detailsCell.append(element('p', 'provider-empty', t('stations_unavailable','Individual station prices are not available yet.')));
-    detailsRow.append(detailsCell);
-    button.addEventListener('click', () => { detailsRow.hidden = !detailsRow.hidden; button.setAttribute('aria-expanded', String(!detailsRow.hidden)); });
-    if(index>=data.providers.length)row.hidden=true;
-    providerRows.push({row,detailsRow,button});
-    body.append(row, detailsRow);
+  const compare=createStationComparison(data);
+  data.providers.forEach(provider=>{
+    const row=element('tr'),name=element('th');name.scope='row';
+    const button=element('button','provider-button',provider.name);button.type='button';button.setAttribute('aria-haspopup','dialog');button.setAttribute('aria-controls','station-comparison');button.append(icon('right'));
+    if(provider.station_count){const count=element('small','station-count',String(provider.station_count));count.title=t(provider.directory_location_count?'directory_count':'priced_count','Known locations',{count:provider.station_count});button.append(count);}
+    button.addEventListener('click',()=>compare.open(provider.name));name.append(button);row.append(name,...fuelKeys.map((key,i)=>fuelCell(withReference(provider.prices[key]),provider.name+' · '+['95',t('diesel','Diesel')][i])));body.append(row);
   });
-  table.append(head, body); container.append(table);
-  if(data.more_providers?.length){
-    const more=element('button','providers-more');more.type='button';more.setAttribute('aria-expanded','false');
-    const paint=show=>{const label=element('span','',show?t('less_networks','Show less'):t('more_networks','Other networks'));const count=element('span','providers-count',String(data.more_providers.length));more.replaceChildren(label,count,icon('right'));};paint(false);
-    more.addEventListener('click',()=>{const show=more.getAttribute('aria-expanded')!=='true';more.setAttribute('aria-expanded',String(show));paint(show);providerRows.slice(data.providers.length).forEach(({row,detailsRow,button})=>{row.hidden=!show;if(!show){detailsRow.hidden=true;button.setAttribute('aria-expanded','false');}});});container.append(more);
-  }
+  table.append(head,body);container.append(table);
+  const actions=element('div','fuel-header-actions'),compareButton=element('button','compare-stations-button',t('compare_stations','Compare stations'));compareButton.type='button';compareButton.setAttribute('aria-haspopup','dialog');compareButton.setAttribute('aria-controls','station-comparison');compareButton.append(icon('right'));compareButton.addEventListener('click',()=>compare.open());actions.append(compareButton);
+  const fuelHeader=container.closest('.widget').querySelector('.widget-header');fuelHeader.querySelector('.fuel-header-actions')?.remove();fuelHeader.querySelector('h3').after(actions);
 
   const energyQuotes=element('div','energy-quotes');container.append(energyQuotes);
   const power = element('div', 'electricity'); power.textContent = t('electricity_loading','Loading electricity price…'); energyQuotes.append(power);
@@ -273,9 +227,19 @@ function horoscope(container, data) {
     button.addEventListener('click',()=>{day=key;show();});tabs.append(button);
   }
   const top=element('div','zodiac-top'),symbol=element('span','zodiac-symbol'),info=element('div','zodiac-info');
-  const select=element('select');select.setAttribute('aria-label',t('zodiac_sign','Zodiac sign'));
-  data.signs.forEach((sign,i)=>{const option=element('option','',sign.name);option.value=String(i);select.append(option);});
-  select.addEventListener('change',()=>{selected=Number(select.value);show();});
+  const select=element('button','zodiac-select');select.type='button';select.setAttribute('aria-label',t('zodiac_sign','Zodiac sign'));select.setAttribute('aria-haspopup','dialog');select.setAttribute('aria-expanded','false');
+  document.querySelector('#zodiac-dialog')?.remove();
+  const picker=element('dialog','zodiac-dialog');picker.id='zodiac-dialog';picker.setAttribute('aria-labelledby','zodiac-dialog-title');
+  const pickerHeader=element('header','zodiac-dialog-header'),pickerTitle=element('h2','',t('zodiac_sign','Zodiac sign'));pickerTitle.id='zodiac-dialog-title';
+  const closePicker=element('button','zodiac-dialog-close','×');closePicker.type='button';closePicker.setAttribute('aria-label',t('close','Close'));closePicker.addEventListener('click',()=>picker.close());pickerHeader.append(pickerTitle,closePicker);
+  const choices=element('div','zodiac-choices');
+  const ranges=['21.03–19.04','20.04–20.05','21.05–20.06','21.06–22.07','23.07–22.08','23.08–22.09','23.09–22.10','23.10–21.11','22.11–21.12','22.12–19.01','20.01–18.02','19.02–20.03'];
+  data.signs.forEach((sign,i)=>{const choice=element('button','zodiac-choice');choice.type='button';choice.dataset.sign=String(i);choice.append(icon(sign.id),element('span','zodiac-choice-name',sign.name),element('small','',ranges[i]));choice.addEventListener('click',()=>{selected=i;show();picker.close();});choices.append(choice);});
+  choices.addEventListener('keydown',event=>{const offsets={ArrowRight:1,ArrowLeft:-1,ArrowDown:2,ArrowUp:-2};if(!(event.key in offsets)&&!['Home','End'].includes(event.key))return;event.preventDefault();const buttons=[...choices.children],i=buttons.indexOf(document.activeElement),next=event.key==='Home'?0:event.key==='End'?buttons.length-1:(i+offsets[event.key]+buttons.length)%buttons.length;buttons[next].focus();});
+  picker.append(pickerHeader,choices);document.body.append(picker);
+  select.addEventListener('click',()=>{openModal(picker,choices.children[selected]);select.setAttribute('aria-expanded','true');});
+  picker.addEventListener('close',()=>{select.setAttribute('aria-expanded','false');select.focus({preventScroll:true});});
+  picker.addEventListener('click',event=>{if(event.target!==picker)return;const r=picker.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)picker.close();});
   const dates=element('p','zodiac-date');info.append(select,dates);
   const tone=element('details','horoscope-tone'),toneToggle=element('summary');
   const toneMenu=element('div','horoscope-tone-menu');toneMenu.setAttribute('role','group');toneMenu.setAttribute('aria-label',t('horoscope_mood','Tone'));
@@ -288,14 +252,11 @@ function horoscope(container, data) {
   tone.addEventListener('focusout',event=>{if(event.relatedTarget && !tone.contains(event.relatedTarget))tone.open=false;});
   tone.addEventListener('keydown',event=>{if(event.key==='Escape'){tone.open=false;toneToggle.focus();}});
   tone.append(toneToggle,toneMenu);top.append(symbol,info,tone);
-  const text=element('div','horoscope-advice');text.id='horoscope-reading';
-  let expanded=false,readingKey='';
-  const readMore=element('button','horoscope-read-more');readMore.type='button';readMore.setAttribute('aria-controls',text.id);
-  function toggleReading(){text.classList.toggle('is-expanded',expanded);readMore.setAttribute('aria-expanded',String(expanded));readMore.textContent=expanded?t('read_less','Show less'):t('read_more','Read more');}
-  readMore.addEventListener('click',()=>{expanded=!expanded;toggleReading();});
+  const text=element('div','horoscope-advice');text.id='horoscope-reading';text.tabIndex=0;text.setAttribute('role','region');text.setAttribute('aria-label',t('horoscope','Horoscope'));
+  text.classList.add('is-expanded');
   function show(){
-    const key=[selected,day,mood].join(':');if(key!==readingKey){expanded=false;readingKey=key;}toggleReading();
-    const sign=data.signs[selected];select.value=String(selected);symbol.replaceChildren(icon(sign.id));dates.textContent=sign.dates;
+    const sign=data.signs[selected];select.replaceChildren(document.createTextNode(sign.name),icon('chevron'));symbol.replaceChildren(icon(sign.id));dates.textContent=sign.dates;
+    [...choices.children].forEach((choice,i)=>choice.setAttribute('aria-pressed',String(i===selected)));
     const reading=sign.advice?.[day]?.[mood]?.[variant];text.replaceChildren();
     if(reading){
       for(const [field,label] of [['do',t('horoscope_do','Do')],['dont',t('horoscope_dont','Avoid')]]){
@@ -309,7 +270,7 @@ function horoscope(container, data) {
   }
   const header=container.closest('.widget').querySelector('.widget-header');header.querySelector('.horoscope-days')?.remove();header.append(tabs);
   container.dataset.horoscopeDate=data.date;
-  container.append(top,text,readMore);show();
+  container.append(top,text);show();
 }
 
 function exchange(container, data) {
@@ -317,13 +278,16 @@ function exchange(container, data) {
   const usd = data.eur_usd;
   const quotes = [
     {name:'EUR / USD', symbol:'€', sub:t('euro','1 eiro'), quote:usd, digits:4},
-    {name:'USD / EUR', symbol:'$', sub:t('dollar','1 dollar'), quote:{observed_at:usd.observed_at,history_source:usd.history_source,price:1/usd.price, previous:Number.isFinite(usd.previous) && usd.previous > 0 ? 1/usd.previous : null,history:usd.history?.filter(p=>p.value>0).map(p=>({at:p.at,value:1/p.value}))}, digits:4},
+    {name:'Euribor', symbol:'%', sub:t('six_months','6 months'), quote:data.euribor_6m, digits:3, rate:true},
     {name:t('gold','Zelts'), symbol:'gold', sub:'EUR / oz', quote:data.gold_eur_oz, digits:2},
     {name:'Bitcoin', symbol:'bitcoin', sub:'EUR / BTC', quote:data.btc_eur, digits:2}
   ];
   const list = element('div', 'market-list');
   quotes.forEach(item => {
-    const options={label:item.name,unit:item.name==='EUR / USD'?'USD':item.name==='USD / EUR'?'EUR':item.sub,digits:item.digits};
+    if(!Number.isFinite(item.quote?.price)){
+      const row=element('div','market-row'),label=element('span','market-label',item.name),value=element('span','market-unavailable','—');value.title=t('rate_unavailable','Rate not available yet');row.append(label,value);list.append(row);return;
+    }
+    const options={label:item.rate?'Euribor 6M':item.name,unit:item.rate?'%':item.name==='EUR / USD'?'USD':item.sub,digits:item.digits,lowerIsBetter:!!item.rate,percentagePoints:!!item.rate};
     const row=element('div','market-row');
     const label=priceButton(item.quote,{...options,text:item.name,className:'market-name-text'});label.classList.add('market-label','market-label-trigger');
     const symbol = element('span', 'market-symbol'); symbol.setAttribute('aria-hidden','true');
@@ -332,10 +296,17 @@ function exchange(container, data) {
     const trigger=priceButton(item.quote,{...options,className:'market-price'});trigger.classList.add('market-value-trigger');
     trigger.title=[item.quote.history_source,item.quote.observed_at?.slice(0,10),t('previous_published','Compared with previous published value')].filter(Boolean).join(' · ');
     applyPriceTrend(trigger,item.quote.price,item.quote.previous);
-    trigger.append(trend(item.quote.price,item.quote.previous,true)); row.append(label,trigger); list.append(row);
+    if(item.rate){
+      trigger.querySelector('.market-price').append(' %');
+      const known=Number.isFinite(item.quote.previous),delta=known?item.quote.price-item.quote.previous:0;
+      const change=element('span','trend '+(known?colorTrend(delta,true):'unknown'),known?(delta>0?'↑ ':delta<0?'↓ ':'')+number(Math.abs(delta),3)+' '+t('percentage_points','pp'):'—');
+      change.title=known?t('previous_value','Previous: {value}',{value:number(item.quote.previous,3)+' %'})+' · '+t('change_points','Change: {value} pp',{value:number(delta,3)}):t('no_comparison','No comparison available');change.setAttribute('aria-label',change.title);trigger.append(change);
+      trigger.title+=' · '+t('delayed_24h','Published with a 24-hour delay');
+    }else trigger.append(trend(item.quote.price,item.quote.previous,true));
+    row.append(label,trigger); list.append(row);
   });
   container.append(list);
-  const caption=container.closest('.widget').querySelector('.widget-header>.muted,.widget-header>.period,.widget-header>span:last-child');if(caption)caption.textContent=t('published_daily','Daily');
+  const caption=container.closest('.widget').querySelector('.widget-header>.muted,.widget-header>.period,.widget-header>span:last-child');if(caption)caption.remove();
 }
 
 const requestedMarket = new URLSearchParams(location.search).get('market');

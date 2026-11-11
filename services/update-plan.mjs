@@ -7,6 +7,7 @@ export const updateTasks=[
  {id:'electricity',group:'prices',period:'day',notBeforeHour:15,retryInterval:hour,label:'Daily day-ahead electricity schedule after 15:00 Riga'},
  {id:'gas',group:'daily',period:'day',label:'Recent EEX gas prices'},
  {id:'markets',group:'daily',period:'day',label:'Recent ECB, NBP gold and Bitcoin prices'},
+ {id:'euribor',group:'daily',period:'day',notBeforeHour:16,retryInterval:hour,label:'Bank of Finland Euribor 6M daily fixing (24h delayed)'},
  {id:'horoscope',group:'daily',period:'day',label:'Local validated horoscope cache'},
  {id:'fuel_archive',group:'weekly',interval:7*24*hour,label:'European Commission weekly fuel averages'},
  {id:'commodity_archive',group:'monthly',period:'month',label:'World Bank monthly gas/gold history'},
@@ -17,7 +18,7 @@ export function rigaDay(value){return new Intl.DateTimeFormat('en-CA',{timeZone:
 export function rigaHour(value){return Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Riga',hour:'2-digit',hourCycle:'h23'}).format(new Date(value)));}
 export function planUpdates(state={}, {profile='auto',force=false,now=new Date()}={}){
  if(!updateProfiles.includes(profile))throw Error('Unknown update profile: '+profile);
- return updateTasks.filter(t=>profile==='auto'||profile==='full'||t.group===profile||(profile==='current'&&['fuel','electricity','gas','markets'].includes(t.id))).map(task=>{
+ return updateTasks.filter(t=>profile==='auto'||profile==='full'||t.group===profile||(profile==='current'&&['fuel','electricity','gas','markets','euribor'].includes(t.id))).map(task=>{
   const saved=state[task.id]||{},at=saved.last_success,attempt=saved.last_attempt;
   let due=force||profile==='full'||!at;
   if(!due){due=task.interval?+new Date(now)-Date.parse(at)>=task.interval:rigaDay(now).slice(0,task.period==='month'?7:10)!==rigaDay(at).slice(0,task.period==='month'?7:10);}

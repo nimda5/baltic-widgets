@@ -9,7 +9,7 @@ const meta=(db,key)=>JSON.parse(db.prepare('SELECT value FROM metadata WHERE key
 function setMeta(db,key,value){db.prepare('INSERT OR REPLACE INTO metadata VALUES(?,?)').run(key,JSON.stringify(value));}
 export function saveMarketRows(db,rows){
   initializeMarkets(db);const put=db.prepare('INSERT OR REPLACE INTO market_prices VALUES(?,?,?,?,?,?,?,?,?)');db.exec('BEGIN IMMEDIATE');
-  try{for(const r of rows){if(!Number.isFinite(r.value)||r.value<=0||!Number.isFinite(Date.parse(r.at)))throw Error('Invalid market observation');put.run(r.series,r.at,r.value,r.unit,r.source,r.source_url,r.fx_at??null,r.raw_value??r.value,r.raw_unit??r.unit);}db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}
+  try{for(const r of rows){const validValue=r.series==='euribor_6m'?r.unit==='%'&&r.value>=-10&&r.value<=100:r.value>0;if(!Number.isFinite(r.value)||!validValue||!Number.isFinite(Date.parse(r.at)))throw Error('Invalid market observation');put.run(r.series,r.at,r.value,r.unit,r.source,r.source_url,r.fx_at??null,r.raw_value??r.value,r.raw_unit??r.unit);}db.exec('COMMIT');}catch(e){db.exec('ROLLBACK');throw e;}
 }
 export function parseECB(xml,url=marketSources.ecb){
   const $=load(xml,{xml:true}),rows=[],seen=new Set();
@@ -94,10 +94,11 @@ export async function refreshMarkets(db,dataDir,now=new Date(),{backfill=true}={
 export function monthlyHistory(db,series){initializeMarkets(db);return db.prepare('SELECT at,value FROM market_prices WHERE series=? ORDER BY at').all(series);}
 export function exchangeData(db){
   initializeMarkets(db);const data={comparison:'previous_published_observation'};
-  for(const [series,key] of [['eur_usd','eur_usd'],['gold_eur_oz','gold_eur_oz'],['btc_eur','btc_eur']]){
+  for(const [series,key] of [['eur_usd','eur_usd'],['euribor_6m','euribor_6m'],['gold_eur_oz','gold_eur_oz'],['btc_eur','btc_eur']]){
     const rows=db.prepare('SELECT at,value,source,fx_at FROM market_prices WHERE series=? ORDER BY at').all(series);if(!rows.length)continue;const last=rows.at(-1);
     data[key]={price:last.value,previous:rows.at(-2)?.value??null,observed_at:last.at,fx_at:last.fx_at,history:rows.map(r=>({at:r.at,value:r.value})),history_source:last.source,frequency:'daily'};
+    if(key==='euribor_6m')Object.assign(data[key],{unit:'%',comparison:'percentage_points',delay_hours:24,day_count:'act/360',source_url:meta(db,'euribor_last_run')?.source_url});
     if(key==='gold_eur_oz'){const history=monthlyHistory(db,'gold_monthly_eur');if(history.length)data[key].chart_series=[{label:'Gold · World Bank · monthly',unit:'EUR/oz',digits:2,history,history_source:'World Bank / ECB monthly FX · monthly average',frequency:'monthly'}];}
   }
-  const report=meta(db,'markets_last_run');return {schema_version:1,demo:false,updated_at:report?.updated_at||new Date().toISOString(),source:'ECB / NBP / Coin Metrics Community; long archive: World Bank',data,errors:report?.errors||[]};
+  const report=meta(db,'markets_last_run'),euribor=meta(db,'euribor_last_run');return {schema_version:1,demo:false,updated_at:[report?.updated_at,euribor?.updated_at].filter(Boolean).sort().at(-1)||new Date().toISOString(),source:'ECB / Bank of Finland / EMMI / NBP / Coin Metrics Community; long archive: World Bank',data,errors:report?.errors||[]};
 }

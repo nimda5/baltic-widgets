@@ -30,6 +30,6 @@ try {
     if (-not $NoPublish) {
         & npm.cmd run publish:data
         if ($LASTEXITCODE -ne 0) { throw 'Data publication failed' }
-        Write-Host 'Data pushed. GitHub Pages will deploy automatically.'
+        Write-Host ("Publication verified on the live site. Collection: {0}. Fuel coverage: {1}. Reload an already open browser tab to load the new JSON." -f $report.status, $report.fuel_coverage.status)
     } else { Write-Host 'Updated and built locally. Publication skipped.' }
 } finally { Pop-Location }

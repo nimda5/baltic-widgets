@@ -8,6 +8,7 @@ import {refreshArchive} from '../parsers/oil-history.mjs';
 import {refreshElectricity} from '../parsers/electricity.mjs';
 import {refreshGas} from '../parsers/gas.mjs';
 import {refreshMarkets,refreshCommodityArchive} from '../parsers/markets.mjs';
+import {refreshEuribor} from '../parsers/euribor.mjs';
 import {horoscopeData} from '../parsers/horoscope.mjs';
 import {refreshNamedayStatistics} from '../scripts/update-nameday-statistics.mjs';
 const meta=(db,key)=>JSON.parse(db.prepare('SELECT value FROM metadata WHERE key=?').get(key)?.value||'null');
@@ -21,6 +22,7 @@ export async function scheduleState(db,dir){
  seed('directories',latest((collector?.data||[]).map(s=>s.directory_updated_at)));
  seed('electricity',meta(db,'electricity_backfill')?.updated_at);
  seed('gas',meta(db,'gas')?.updated_at);seed('markets',meta(db,'markets_last_run')?.updated_at);
+ seed('euribor',meta(db,'euribor_last_run')?.updated_at);
  seed('fuel_archive',meta(db,'archive')?.imported_at);seed('commodity_archive',meta(db,'worldbank_archive')?.checked_at);
  try{const names=JSON.parse(await readFile(new URL('../public/data/namedays/population-lv.json',import.meta.url),'utf8'));seed('nameday_statistics',names.checked_at);}catch(e){if(e.code!=='ENOENT')throw e;}
  return state;
@@ -42,7 +44,7 @@ export async function runPlannedUpdates(db,dir,{profile='auto',force=false,now=n
   }
   return result;
  };
- const handlers={directories:()=>fuel('directories'),fuel:()=>fuel('prices'),electricity,gas:()=>refreshGas(db,dir),markets:()=>refreshMarkets(db,dir,new Date(),{backfill:profile==='full'}),horoscope:()=>{horoscopeData(db);return{date:rigaDay(new Date())};},fuel_archive:()=>refreshArchive(db,dir,true),commodity_archive:()=>refreshCommodityArchive(db,dir,new Date(),{force:true}),nameday_statistics:()=>refreshNamedayStatistics({force:true})};
+ const handlers={euribor:()=>refreshEuribor(db,dir),directories:()=>fuel('directories'),fuel:()=>fuel('prices'),electricity,gas:()=>refreshGas(db,dir),markets:()=>refreshMarkets(db,dir,new Date(),{backfill:profile==='full'}),horoscope:()=>{horoscopeData(db);return{date:rigaDay(new Date())};},fuel_archive:()=>refreshArchive(db,dir,true),commodity_archive:()=>refreshCommodityArchive(db,dir,new Date(),{force:true}),nameday_statistics:()=>refreshNamedayStatistics({force:true})};
  Object.assign(handlers,executors);
  for(const task of plan){
   if(!task.due){console.log(`[skip] ${task.id}: not due`);report.tasks.push({...task,status:'skipped'});continue;}

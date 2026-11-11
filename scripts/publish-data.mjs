@@ -3,6 +3,9 @@ const run=(args,options={})=>{const r=spawnSync('git',args,{encoding:'utf8',...o
 if(run(['branch','--show-current'])!=='main')throw Error('Publish data from main. Merge code changes separately first.');
 if(run(['diff','--cached','--name-only']))throw Error('The index already contains staged changes. Commit or unstage those first.');
 run(['add','--','data/']);
-if(!run(['diff','--cached','--name-only','--','data/'])){console.log('No data changes to publish.');process.exit(0);}
-run(['commit','-m','Update public widget data '+new Date().toISOString().slice(0,10),'--','data/']);
-run(['push','origin','main']);console.log('Public JSON pushed; GitHub Pages workflow will deploy it.');
+if(run(['diff','--cached','--name-only','--','data/']))run(['commit','-m','Update public widget data '+new Date().toISOString().slice(0,10),'--','data/']);
+else console.log('No new data changes; verifying publication of the current revision.');
+run(['push','origin','main']);
+console.log('Data pushed. Waiting for GitHub Pages and checking the public JSON files...');
+const verified=spawnSync(process.execPath,['scripts/verify-publication.mjs',run(['rev-parse','HEAD'])],{stdio:'inherit'});
+if(verified.status!==0)process.exit(verified.status||1);

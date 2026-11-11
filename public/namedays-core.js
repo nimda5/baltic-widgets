@@ -16,7 +16,13 @@ export function calendarDate(now=new Date(),offset=0){
  return new Date(Date.UTC(get('year'),get('month')-1,get('day')+offset,12)).toISOString().slice(0,10);
 }
 export function dayKey(date){if(!/^\d{4}-\d\d-\d\d$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00Z'))||new Date(date+'T12:00:00Z').toISOString().slice(0,10)!==date)throw Error('Invalid calendar date');return date.slice(5);}
-export function calendarNames(calendar,country,date){if(!COUNTRIES.includes(country))throw Error('Invalid calendar country');if(calendar.country){if(calendar.country!==country)throw Error('Calendar country mismatch');return calendar.data.days[dayKey(date)]||[];}return calendar.data.calendars[country]?.[dayKey(date)]||[];}
+export function calendarNames(calendar,country,date){
+ if(!COUNTRIES.includes(country))throw Error('Invalid calendar country');
+ if(calendar.country&&calendar.country!==country)throw Error('Calendar country mismatch');
+ const names=calendar.country?calendar.data.days[dayKey(date)]:calendar.data.calendars[country]?.[dayKey(date)];
+ const collator=new Intl.Collator({lv:'lv',lt:'lt',ee:'et'}[country],{usage:'sort',sensitivity:'variant'});
+ return [...(names||[])].sort((a,b)=>collator.compare(a.name,b.name));
+}
 export function validateCountryCalendar(doc){
  if(!COUNTRIES.includes(doc?.country)||!doc.data?.days||doc.data.calendars)throw Error('Invalid country calendar');
  const calendars=Object.fromEntries(COUNTRIES.map(c=>[c,c===doc.country?doc.data.days:{}]));
