@@ -14,6 +14,8 @@
     "test": "node --test parsers/*.test.mjs services/*.test.mjs public/zodiac-icons.test.mjs",
     "generate:namedays": "node scripts/generate-namedays.mjs",
     "update:nameday-statistics": "node scripts/update-nameday-statistics.mjs",
+    "update:nameday-statistics:ee": "node scripts/update-nameday-statistics-ee.mjs",
+    "update:nameday-statistics:lt": "node scripts/update-nameday-statistics-lt.mjs",
     "test:namedays": "node --test parsers/namedays.test.mjs",
     "backlog:namedays": "node scripts/nameday-backlog.mjs",
     "update:plan": "node scripts/update-data.mjs --plan",
