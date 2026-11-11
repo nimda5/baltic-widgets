@@ -1,0 +1,877 @@
+{
+  "round": 7,
+  "date": "2026-11-11",
+  "note": "All 39 distinct remaining Priority 1 spellings after round 6 were examined in the existing codex/namedays-round4 branch. Twenty-four now have reviewed narratives in five languages, covering 13 LV, 4 LT and 7 EE country profiles. Fifteen remain unresolved, with explicit failed leads and next steps. Unknown roots, competing etymologies and unproven local transmission routes remain qualified. Source URLs are research/provenance metadata only and are never displayed in the widget. Raw HTML, downloaded PDFs and OCR images remain outside the portable repository. Foreign homonyms, surnames, place names and grammatical forms were kept distinct; Asnāte Ziemele and Le Vallikivi were rejected as mismatched Aisma/Leeli leads.",
+  "records": [
+    {
+      "batch": "priority-follow-up",
+      "name": "Aisma",
+      "spellings": [
+        "Aisma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aisma",
+        "https://www.celotajs.lv/cont/publ/LC_20_gadi/pdf/LC_20_gadi_lv.pdf"
+      ],
+      "facts_used": "The catalogue still leaves origin unestablished and marks the 1932 calendar date as tentative. The tourism lead actually concerns Asnāte Ziemele, not Aisma; no biography was transferred.",
+      "reason": "The catalogue still leaves origin unestablished and marks the 1932 calendar date as tentative. The tourism lead actually concerns Asnāte Ziemele, not Aisma; no biography was transferred.",
+      "next_steps": "Check the original Siliņš entry and find an independently dated exact Aisma cultural or archival record.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Aisma",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Alev",
+      "spellings": [
+        "Alev"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Alev",
+        "https://kasagaleri.sabanciuniv.edu/tr/portfolio-view/sir/"
+      ],
+      "facts_used": "Alev is also a Turkish feminine name meaning flame. That explanation belongs to Turkish naming tradition and does not itself establish the origin of the Estonian name. Identical spelling across languages can belong to different name histories. Turkish ceramic artist Alev Ebüzziya Siesbye’s Sır exhibition at Sabancı University’s Kasa Gallery presented 13 blue-glazed bowls. They came from the artist’s own and private collections, following a retrospective covering her work from 1964 to 2002.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Turkish feminine and Estonian naming traditions are kept separate. The gallery page has conflicting exhibition dates, so no exhibition year is asserted; the retrospective period and bowl count are explicit.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Daugaudas",
+      "spellings": [
+        "Daugaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/d/daugaudas",
+        "https://portalcris.vdu.lt/server/api/core/bitstreams/59c6c747-9bab-4850-9069-6e1011c5080c/content#page=4"
+      ],
+      "facts_used": "Daugaudas is a Lithuanian two-stem name. The name guide connects its parts with dau-, much, and gaud-, catch or obtain. The first element also occurs in other compounds, including Daumantas and Daugirdas. Antanas Pakerys’s 2010 study includes Daugaudas in the dau- group. It explains dau- as a shortening of daug-; the simplification of doubled consonants in other compounds helped the shorter form spread to additional names.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The scholarly first-stem discussion concerns the group; the article does not reconstruct a specific ancient Daugaudas bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Dins",
+      "spellings": [
+        "Dins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dins",
+        "https://iksd.riga.lv/lv/rd-iksd?news_item=dina-vecana-1740-kilometru-skrejiens-pilnmetrazas-dokumentalaja-filma-apskrien-latviju-5175&target=news_item"
+      ],
+      "facts_used": "The origin of Dins remains unsettled. Comparisons in the dictionary material with an English clerical title and a word for a valley are separate hypotheses. The catalogue drawing on Siliņš records an attestation dated 1969. Architect and runner Dins Vecāns ran around Latvia in 2017: the 1,740-kilometre route crossed 43 municipalities and took 22 days. More than 50 hours of footage became the feature documentary Apskrien Latviju.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Competing origin accounts remain hypotheses; 1969 is the catalogue attestation, not a creation date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Dorotija",
+      "spellings": [
+        "Dorotija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.personvarduatveide.lv/uploads/sources/32/pdf/anglu_ipasvardu_atveide_latviesu_valoda.pdf#page=96",
+        "https://www.behindthename.com/name/dorothea",
+        "https://www.gutenberg.org/ebooks/55.html.images"
+      ],
+      "facts_used": "The rendering manual documents Dorotija as a Latvian form of English Dorothy and Dorothea. This family comes from Greek Dorotheos: dōron means gift and theos means god. Its traditional interpretation is gift of God. In L. Frank Baum’s 1900 book The Wonderful Wizard of Oz, a cyclone carries Dorothy and her dog Toto from Kansas to Oz. Silver shoes play a part in her journey home in the original text: this is a literary story about a bearer of that name form.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Literal meanings and local transmission are limited to what the cited sources establish.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Emija",
+      "spellings": [
+        "Emija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.personvarduatveide.lv/uploads/sources/32/pdf/anglu_ipasvardu_atveide_latviesu_valoda.pdf#page=97",
+        "https://emmy-noether.uni-goettingen.de/materialsammlung/"
+      ],
+      "facts_used": "Antonija Ahero’s 2006 manual documents Emija as a Latvian rendering of English Emmie and Emmy, described there as diminutives of Emma. This establishes one traceable name relationship, rather than an identical naming history for every Emija. Mathematician Emmy Noether bore the international form Emmy. In 1915 she moved to Göttingen at the invitation of Felix Klein and David Hilbert. Her work became important in both abstract algebra and theoretical physics.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The manual establishes an Emmy/Emmie rendering, not the naming route of every Latvian bearer. Amy and Emīlija were not conflated.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Girkantas",
+      "spellings": [
+        "Girkantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/g/girkantas",
+        "https://portalcris.vdu.lt/server/api/core/bitstreams/e58915f5-a97d-4ba7-9708-a05e9889bb72/content"
+      ],
+      "facts_used": "The 2014 VDU thesis documents Girkantas as a surname. The given-name guide supplies stems, but a surname bearer is not a dated bearer of this forename.",
+      "reason": "The 2014 VDU thesis documents Girkantas as a surname. The given-name guide supplies stems, but a surname bearer is not a dated bearer of this forename.",
+      "next_steps": "Find exact given-name Girkantas in historical records or a scholarly history that explicitly connects its development.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/g/girkantas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Gulnara",
+      "spellings": [
+        "Gulnara"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/gulnara",
+        "https://www.behindthename.com/name/golnar",
+        "https://lv.wikipedia.org/wiki/Gu%C4%BCnara_Galkina-Samitova",
+        "https://worldathletics.org/news/news/womens-3000m-steeplechase-final-3",
+        "https://worldathletics.org/news/news/world-records-set-at-beijing-olympics-are-rat"
+      ],
+      "facts_used": "The international Gulnara family is related to Persian Golnar, pomegranate flower, from gol, flower, and nār, pomegranate. The spelling occurs across languages, including transcriptions of Tatar and Kazakh names. Spelling alone does not establish its route into every Latvian family. Gulnara Galkina-Samitova won the 2008 Beijing Olympic women’s 3,000-metre steeplechase in 8:58.81. She became the first woman to break nine minutes in the event; the performance was subsequently ratified as a world record.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The international family is documented across languages. The precise local transmission remains unknown; the 2008 record is historical, not described as the current world record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Guļnara",
+      "spellings": [
+        "Guļnara"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/gulnara",
+        "https://www.behindthename.com/name/golnar",
+        "https://lv.wikipedia.org/wiki/Gu%C4%BCnara_Galkina-Samitova",
+        "https://worldathletics.org/news/news/womens-3000m-steeplechase-final-3",
+        "https://worldathletics.org/news/news/world-records-set-at-beijing-olympics-are-rat"
+      ],
+      "facts_used": "Guļnara is documented in a Latvian sporting encyclopedia article as Galkina-Samitova’s name; the international athletics archive uses Gulnara. In this specific correspondence it belongs to the Golnar family, with the Persian meaning pomegranate flower. The borrowing route for every Latvian bearer remains unknown. Gulnara Galkina-Samitova won the 2008 Beijing Olympic women’s 3,000-metre steeplechase in 8:58.81. She became the first woman to break nine minutes in the event; the performance was subsequently ratified as a world record.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The exact Latvian sporting rendering is supported by the encyclopedia entry; the race facts are independently checked against World Athletics. No universal local transmission claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Heik",
+      "spellings": [
+        "Heik"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Heik",
+        "https://www.tagesspiegel.de/wirtschaft/jochen-sandig-1999720.html"
+      ],
+      "facts_used": "International name reference explains Heik as a Frisian short form of Heike. Nordic Names attributes this account to the 1998 Das große Vornamenlexikon. This documents a comparison in another naming tradition; the route taken by each Estonian Heik remains unknown. German publicist Heik Afheldt produced the interview series Heik Afheldt trifft … . In his 30 September 2011 conversation he introduced cultural entrepreneur Jochen Sandig and Berlin’s Radialsystem V arts venue, then celebrating its fifth anniversary.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Frisian origin is an international comparison, not an established route for all Estonian bearers.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Ildze",
+      "spellings": [
+        "Ildze"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ildze",
+        "https://teatris.lv/makslinieks/ildze-jurkovska/"
+      ],
+      "facts_used": "The origin of Ildze has not been securely explained. The catalogue based on Siliņš gives an attestation at Mazsalaca in 1834 and a calendar entry in 1932. These dates document this spelling; resemblance to Ilze alone does not establish its root. Scenographer Ildze Jurkovska joined three fellow students in the Grāfienes collective in 2020. The collective contributed to Latvia’s national exhibition Ceļā at the Prague Quadrennial of Performance Design and Space in 2023.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Origin remains unestablished. The 1834 and 1932 dates are attributed to the catalogue rather than independently claimed as earliest-ever records.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Iraidis",
+      "spellings": [
+        "Iraidis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraidis"
+      ],
+      "facts_used": "The reopened catalogue explicitly says that the dictionary lists Iraīds, not Iraidis. Its Iraīda cross-reference does not establish an exact-form derivation.",
+      "reason": "The reopened catalogue explicitly says that the dictionary lists Iraīds, not Iraidis. Its Iraīda cross-reference does not establish an exact-form derivation.",
+      "next_steps": "Find Iraidis independently in historical records or an explicit scholarly name entry.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Iraidis",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Iraisa",
+      "spellings": [
+        "Iraisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraisa"
+      ],
+      "facts_used": "The reopened exact catalogue still states origin not established. No authoritative bridge to Irais, Iraida or Raisa was obtained.",
+      "reason": "The reopened exact catalogue still states origin not established. No authoritative bridge to Irais, Iraida or Raisa was obtained.",
+      "next_steps": "Inspect an exact given-name dictionary entry or a dated personal record; do not merge the similar forms.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Iraisa",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Jogita",
+      "spellings": [
+        "Jogita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jogita"
+      ],
+      "facts_used": "Jogita is a Latvian feminine name with an unsettled origin. The catalogue based on Siliņš suggests a connection with Jogints but also questions it. Explanations of the Lithuanian roots of Jogints therefore do not yield a secure translation of Jogita. This dictionary material dates an attestation of Jogita to 1922 and its earliest listed calendar entry to 1964. It also cites records from 1973 and 1975. These are separate traces of the name’s use, rather than an established year of its invention.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The Jogints relationship remains tentative. Catalogue dates document use and calendar inclusion, not invention.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Kaarli",
+      "spellings": [
+        "Kaarli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Kaarli"
+      ],
+      "facts_used": "Search material still concerns a place name or the grammatical genitive of Kaarel. Neither establishes the independent nominative forename Kaarli.",
+      "reason": "Search material still concerns a place name or the grammatical genitive of Kaarel. Neither establishes the independent nominative forename Kaarli.",
+      "next_steps": "Locate Kaarli in an original recommendation list or an unambiguous personal register; keep inflected forms separate.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Kaarli",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Kaarli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Kalvi",
+      "spellings": [
+        "Kalvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.riigikogu.ee/riigikogu/riigikogu-liikmed/46fa9a7c-7055-444f-8c55-ea640d1d95d6/kalvi-kova/"
+      ],
+      "facts_used": "Kalvi is documented as an Estonian masculine given name in the parliamentary archive biography of Kalvi Kõva. This personal-name use does not explain its original root. Sound alone cannot securely derive it from a similar place name or Latvian Kalvis. Kõva’s working life included local schools: he taught at Rõuge Basic School in 1993–1994 and Nursi Basic School in 1996–1997. From 1999 to 2007 he served as the head of Rõuge municipality.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Root remains unestablished. The school and municipal career dates are historical archival facts, not a current office claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Karena",
+      "spellings": [
+        "Karena"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Karena",
+        "https://www.personvarduatveide.lv/uploads/sources/40/pdf/danu_norvegu_zviedru_un_somu_ipasvardu_atveide_latviesu_valoda.pdf",
+        "https://blixen.dk/karen-blixen/forfatterskab/den-afrikanske-farm"
+      ],
+      "facts_used": "Karena is also documented as a Latvian rendering of Danish Karen. The rendering manual explicitly pairs Karen Blixen with Karena Bliksena, explaining that Kārena would be closer to Danish pronunciation. The Latvian dictionary catalogue places Karena in the Katrīna family. Blixen’s memoir Den afrikanske farm appeared in Denmark on 6 October 1937 and in London that same year as Out of Africa. It recounts the 17 years she lived in Kenya, from 1914 to 1931.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The manual documents the literary Karen Blixen rendering and distinguishes the pronunciation-based Kārena spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Keisija",
+      "spellings": [
+        "Keisija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Keisija",
+        "https://www.wimbledon.com/en_GB/scores/2024/schedule/pdf/schedulePDF18.pdf"
+      ],
+      "facts_used": "Keisija is independently used as a feminine given name by Latvian athlete Keisija Bērziņa; Wimbledon’s document preserves Keisija Berzina. Its precise borrowing route remains unestablished, so resemblance to English Casey is not treated as a proven derivation. Wimbledon’s results sheet for 11 July 2024 records two wins for Bērziņa in girls’ 14-and-under competition. She beat Joyce Geng 0–6, 6–3, [10–6] and Haniya Minhas 6–4, 6–2. The spelling is preserved in the tournament’s own document.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Borrowing route remains unestablished. No Casey etymology is asserted; only exact-name sporting results are used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Kortnija",
+      "spellings": [
+        "Kortnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/courtney",
+        "https://www.rsu.lv/aktualitates/rsu-vieslektore-no-asv-kortnija-kvina-kopienas-zel-tad-kad-tas-ir-veselas"
+      ],
+      "facts_used": "Kortnija is a documented rendering of English Courtney: RSU publishes Kortnija Kvīna alongside Courtney Queen. The English name comes from a surname with two proposed sources, the French place Courtenay or a Norman nickname referring to a short nose. There is no single secure translation. Queen worked in Rēzekne and Balvi as a Peace Corps volunteer from 2000 to 2002. In 2022 she returned to RSU as a Fulbright scholar, leading seminars on health equity in February and March.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The two Courtney surname-origin accounts remain alternatives; the paired RSU spelling is a specific documented case.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Leeli",
+      "spellings": [
+        "Leeli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Leeli",
+        "https://www.err.ee/631786/eesti-perearstide-seltsi-asub-juhtima-le-vallikivi"
+      ],
+      "facts_used": "The purported family-doctor lead actually concerns Le Vallikivi, not Leeli. It was rejected; place-name and Leelo/Leela comparisons still do not establish this given-name history.",
+      "reason": "The purported family-doctor lead actually concerns Le Vallikivi, not Leeli. It was rejected; place-name and Leelo/Leela comparisons still do not establish this given-name history.",
+      "next_steps": "Inspect an exact scholarly Leeli entry or an independently dated nominative personal record.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Leeli",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Leeli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Liudmina",
+      "spellings": [
+        "Liudmina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/l/liudmina",
+        "https://www.lrytas.lt/gyvenimo-budas/psichologija/2023/07/02/news/vardu-reiksmes-liepos-3-9-d-varduvininkai-27076423"
+      ],
+      "facts_used": "The probed exact guide still lacks substantive entry text. Calendar journalism compares Liudmina and Liaudmina, but a scholarly exact-form history was not verified; Liudmila remains separate.",
+      "reason": "The probed exact guide still lacks substantive entry text. Calendar journalism compares Liudmina and Liaudmina, but a scholarly exact-form history was not verified; Liudmila remains separate.",
+      "next_steps": "Check the official exact-name entry and the Liaudmina comparison in a scholarly given-name dictionary.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/l/liudmina",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Mantigirdas",
+      "spellings": [
+        "Mantigirdas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/m/mantigirdas",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001:J.04~2009~1367167052943/J.04~2009~1367167052943.pdf"
+      ],
+      "facts_used": "The 2009 historical paper uses Mantigirdas in a family-name context, including Petras Mantigirdas. This cannot be presented as the same given name or as evidence for equating it with Mangirdas.",
+      "reason": "The 2009 historical paper uses Mantigirdas in a family-name context, including Petras Mantigirdas. This cannot be presented as the same given name or as evidence for equating it with Mangirdas.",
+      "next_steps": "Find an explicit onomastic relationship and an independent dated forename record.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/m/mantigirdas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Marinas",
+      "spellings": [
+        "Marinas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/m/marinas",
+        "https://www.visitsanmarino.com/pub1/VisitSM/en/contenuto/About-San-Marino/FESTIVIT%25C3%2581-SAMMARINESI.html"
+      ],
+      "facts_used": "Accounts of Marinas offer different routes: a relationship with Marius or Latin marinus, of the sea. These are not the same derivation. The maritime meaning therefore remains one account rather than the only securely established origin. The related international form Marinus names San Marino’s patron saint. Its official tourism calendar marks 3 September as his feast and the republic’s foundation anniversary, traditionally dated to AD 301. This dates a commemorative tradition, not the creation of Marinas.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The Marius and marinus accounts remain alternatives. AD 301 is explicitly a traditional commemorative date, not the name’s creation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Narvydas",
+      "spellings": [
+        "Narvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.vle.lt/straipsnis/patronimai/"
+      ],
+      "facts_used": "The Universal Lithuanian Encyclopedia includes Narvydas among old Lithuanian two-stem personal names. This places it clearly within the local naming tradition. The encyclopedia’s account does not provide a precise combined translation of both elements. The article on patronymics gives the specific example Narwidovicz < Narvydas. A patronymic is formed from a father’s personal name; here the old name survives within another naming form. Surnames and patronymics can therefore preserve personal-name history after forms have changed.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The encyclopedia supplies a specific historical patronymic relationship but no date or complete literal translation; neither was invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Õnneleid",
+      "spellings": [
+        "Õnneleid"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://ojs.utlib.ee/index.php/jeful/article/download/jeful.2020.11.1.05/11547/17571#page=8"
+      ],
+      "facts_used": "Õnneleid belongs to the history of Estonian native-language name renewal. Saarelma-Paukkala and Hussar discuss it in the nineteenth-century movement to give children names formed in their own language. Their historical example is a boy, so a modern calendar grouping does not define all its use. Calendar maker Mats Tõnisson put his own naming proposals into practice in his family: his son received Õnneleid in 1882. The family records cited by the researchers give the following sons as Lootus in 1884, Tõsidus in 1886 and Ustus in 1893.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The historical example is male even if a current calendar group is feminine. No unsupported literal compound translation is asserted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Raens",
+      "spellings": [
+        "Raens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/rajens",
+        "https://www.izpetnieks.lv/en/name/raens",
+        "https://www.izpetnieks.lv/en/name/Raens",
+        "https://www.personvarduatveide.lv/uploads/sources/32/pdf/anglu_ipasvardu_atveide_latviesu_valoda.pdf"
+      ],
+      "facts_used": "The English manual and exact-name searches did not establish Raens/Ryan. Bryan and Bryant substring hits do not document Ryan, and the shared calendar day was rejected as etymological proof.",
+      "reason": "The English manual and exact-name searches did not establish Raens/Ryan. Bryan and Bryant substring hits do not document Ryan, and the shared calendar day was rejected as etymological proof.",
+      "next_steps": "Find an explicit Raens name entry or primary paired rendering; do not substitute Raiens.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Raens",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Rajens",
+      "spellings": [
+        "Rajens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/rajens",
+        "https://www.izpetnieks.lv/en/name/raens",
+        "https://www.izpetnieks.lv/en/name/Rajens",
+        "https://www.personvarduatveide.lv/uploads/sources/32/pdf/anglu_ipasvardu_atveide_latviesu_valoda.pdf"
+      ],
+      "facts_used": "The official English rendering manual was searched for Ryan and the exact Latvian forms. No explicit Rajens/Ryan correspondence was established; calendar co-grouping remains insufficient.",
+      "reason": "The official English rendering manual was searched for Ryan and the exact Latvian forms. No explicit Rajens/Ryan correspondence was established; calendar co-grouping remains insufficient.",
+      "next_steps": "Find a primary paired Rajens/Ryan rendering or an exact-form historical personal record.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Rajens",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Sangailas",
+      "spellings": [
+        "Sangailas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/s/sangailas",
+        "https://portalcris.vdu.lt/server/api/core/bitstreams/e58915f5-a97d-4ba7-9708-a05e9889bb72/content"
+      ],
+      "facts_used": "The 2014 thesis connects Songaila/Sungaila surname forms with Sangaila and references Sangailas. It does not establish that the forename Sangailas is the medieval Sungaila; that biography remains excluded.",
+      "reason": "The 2014 thesis connects Songaila/Sungaila surname forms with Sangaila and references Sangailas. It does not establish that the forename Sangailas is the medieval Sungaila; that biography remains excluded.",
+      "next_steps": "Locate a scholarly exact given-name entry or a primary Sangailas personal record before adding a historical narrative.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/s/sangailas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Savelijs",
+      "spellings": [
+        "Savelijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.lu.lv/materiali/apgads/raksti/728.pdf",
+        "https://www.personvarduatveide.lv/uploads/sources/30/pdf/krievu_ipasvardu_pareizrakstiba_un_pareizruna_latviesu_valoda_1993.pdf#page=102",
+        "https://www.behindthename.com/name/saveliy",
+        "https://www.izpetnieks.lv/en/name/Sav%C4%93lijs",
+        "https://www.mosfilm.ru/cinema/persons/kramarov-saveliy-viktorovich/"
+      ],
+      "facts_used": "A scholarly University of Latvia table documents Savelijs alongside Russian Савелий. The international Saveliy family is explained through Roman Sabellius and the Sabine people. Latvian dictionary material offers other accounts too, so no single uncontested etymology is established. Mosfilm’s archive lists two 1971 comedies in the filmography of Savely Kramarov, a bearer of the Russian form: Gentlemen of Fortune and The Twelve Chairs. It also records Ivan Vasilievich Changes Profession in 1973.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The LU table concerns administrative replacement of Latgalian names; its Silvestrs column is not etymological descent. The table is available in indexed primary-source text despite a failed direct download. Competing etymologies remain open.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Savēlijs",
+      "spellings": [
+        "Savēlijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.lu.lv/materiali/apgads/raksti/728.pdf",
+        "https://www.personvarduatveide.lv/uploads/sources/30/pdf/krievu_ipasvardu_pareizrakstiba_un_pareizruna_latviesu_valoda_1993.pdf#page=102",
+        "https://www.behindthename.com/name/saveliy",
+        "https://www.izpetnieks.lv/en/name/Sav%C4%93lijs",
+        "https://www.mosfilm.ru/cinema/persons/kramarov-saveliy-viktorovich/"
+      ],
+      "facts_used": "Savēlijs is the form given for Савелий in the 1993 Russian-name rendering manual. Sources differ on its origin: the international family is linked with Sabellius and the Sabines, while the catalogue based on Siliņš preserves other hypotheses. They do not combine into one secure translation. Mosfilm’s archive lists two 1971 comedies in the filmography of Savely Kramarov, a bearer of the Russian form: Gentlemen of Fortune and The Twelve Chairs. It also records Ivan Vasilievich Changes Profession in 1973.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The rendering was checked in the scanned 1993 manual. Conflicting dictionary and international origin accounts are retained without selecting one.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Svirgailas",
+      "spellings": [
+        "Svirgailas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/s/svirgailas",
+        "https://portalcris.vdu.lt/server/api/core/bitstreams/e58915f5-a97d-4ba7-9708-a05e9889bb72/content"
+      ],
+      "facts_used": "The surname thesis discusses Svirgaila with tentative svirti and gail- comparisons. It does not establish an exact Svirgailas forename history; Švitrigaila was not substituted.",
+      "reason": "The surname thesis discusses Svirgaila with tentative svirti and gail- comparisons. It does not establish an exact Svirgailas forename history; Švitrigaila was not substituted.",
+      "next_steps": "Find an exact given-name record or original onomastic discussion of Svirgailas.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/s/svirgailas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Tarmu",
+      "spellings": [
+        "Tarmu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://info.err.ee/982627/eesti-rahvusringhaalingu-ajakirjanduseetika-nounikuna-tootab-tarmu-tammerk"
+      ],
+      "facts_used": "Tarmu is documented as an Estonian personal name in journalist Tarmu Tammerk. ERR’s biography describes his work in newspapers and international news agencies and his contributions to Vikerraadio and Raadio 2. This material does not explain the name’s original root. In the late 1990s Tammerk helped draft Estonia’s code of journalism ethics. He subsequently chaired the Press Council and worked as ERR’s ethics adviser, whose responsibilities included reviewing complaints and monitoring programme balance.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Root remains unestablished. The source documents the journalist and his role in the late-1990s ethics code.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Tarvi",
+      "spellings": [
+        "Tarvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.kul.ee/uudised/kultuuriministeeriumi-asekantslerina-alustab-tood-tarvi-sits"
+      ],
+      "facts_used": "Tarvi is independently documented as an Estonian personal name in heritage specialist Tarvi Sits. He graduated from the University of Tartu’s history faculty. This biographical record confirms the spelling but does not establish its original root or a relationship with Tarmo. In August 2013 Estonia’s Ministry of Culture announced that Sits would start as undersecretary for cultural heritage on 9 September. He brought ten years of experience at Muinsuskaitseamet; his new remit covered museums, heritage protection, libraries and folk culture.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Root and proposed Tarmo relationship remain unestablished. The ministry appointment is explicitly dated to 2013.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Tiido",
+      "spellings": [
+        "Tiido"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Tiido",
+        "https://arhiiv.eki.ee/dict/knr/lisad/knr_sonastik.pdf"
+      ],
+      "facts_used": "New exact-form research still mainly yields surnames and village-name histories. The independently verified Tiidu record is a different spelling and was not copied across.",
+      "reason": "New exact-form research still mainly yields surnames and village-name histories. The independently verified Tiidu record is a different spelling and was not copied across.",
+      "next_steps": "Find nominative given-name Tiido in a personal register or a precise onomastic authority.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Tiido",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Tiido",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Tiidu",
+      "spellings": [
+        "Tiidu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.genealoogia.ee/esivanemad/hageri/index.php?leht=sunnid&page=341&sugu=M&sund_eesnimi=&sund_emanimi=Anna&sund_isanimi=Jakob&sund_perenimi=Krais&sund_teave=&sunniaeg=&sunnikoht_est="
+      ],
+      "facts_used": "Tiidu is documented as an individual personal name in a transcription of Hageri parish’s historical birth records. This matters because the same spelling also appears in other linguistic functions. The specific personal record does not, however, establish the name’s original etymology. In the Estonian Genealogical Society’s published transcription, Tiidu Ringmäe appears in a 1937 birth record from Rabivere. Baptism is recorded in the same year. This is a dated attestation of the name, rather than a claim about its first use anywhere in Estonia.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The transcription establishes independent personal-name use, not original etymology or the first Estonian occurrence. Unnecessary full dates of birth and relatives were omitted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Vaišvilas",
+      "spellings": [
+        "Vaišvilas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/v/vaisvilas",
+        "https://portalcris.vdu.lt/server/api/core/bitstreams/59c6c747-9bab-4850-9069-6e1011c5080c/content#page=13"
+      ],
+      "facts_used": "Vaišvilas is a Lithuanian two-stem name. A popular explanation connects vaiš- with vaišės, a feast, and vil- with viltis, hope. Linguistic treatment of the first part is more complex, also considering the stress and syllable intonation of related words. In 2010 Antanas Pakerys treated Vaišvilas in a study of name accentuation. He noted intonational difficulties with a direct comparison to vaišės and compared vaiša and words of the vieš- family. This shows how name research tests sound history as well as similarity of meaning.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "Popular root glosses are distinguished from the scholar’s more nuanced accentological analysis. Vaišelga is not substituted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Valentins",
+      "spellings": [
+        "Valentins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.vestnesis.lv/op/2015/14.MZ",
+        "https://www.behindthename.com/name/valentin",
+        "https://www.tretyakovgallery.ru/events/o/valentin-serov-2022/"
+      ],
+      "facts_used": "Valentins without a macron is documented beside Valentin for one person in a 2015 Latvijas Vēstnesis notice. This is a specific correspondence with the international Valentinus family and its Latin root valens. It does not establish the same borrowing route for every bearer. Painter Valentin Serov bore the international form Valentin. His 1887 Girl with Peaches is held by the Tretyakov Gallery. The gallery’s archive also identifies the painting in its event devoted to the artist on 27 January 2022.",
+      "reason": "Exact-form evidence and a concrete dated, cultural, archival or linguistic history now support two paragraphs in all five languages.",
+      "uncertainties": "The unaccented Valentin pairing is one documented case. The international painter is identified as a bearer of the related form, not proof of every local naming route.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Večeslavs",
+      "spellings": [
+        "Večeslavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ve%C4%8Deslavs",
+        "https://www.personvarduatveide.lv/uploads/sources/30/pdf/krievu_ipasvardu_pareizrakstiba_un_pareizruna_latviesu_valoda_1993.pdf#page=89"
+      ],
+      "facts_used": "The Russian rendering manual gives Вячеслав as Vjačeslavs. That different spelling does not establish the exact Večeslavs correspondence; no independent historical episode was found.",
+      "reason": "The Russian rendering manual gives Вячеслав as Vjačeslavs. That different spelling does not establish the exact Večeslavs correspondence; no independent historical episode was found.",
+      "next_steps": "Locate an exact-form onomastic entry or paired primary document, retaining the spelling distinction.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Ve%C4%8Deslavs",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    },
+    {
+      "batch": "priority-follow-up",
+      "name": "Žydris",
+      "spellings": [
+        "Žydris"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/ž/žydris",
+        "https://www.tv3.lt/vardadieniai/z/zydris"
+      ],
+      "facts_used": "The guide probes still do not provide substantive exact-name text. No authoritative derivation or usable historical episode was established; near-spelling comparisons were not promoted to facts.",
+      "reason": "The guide probes still do not provide substantive exact-name text. No authoritative derivation or usable historical episode was established; near-spelling comparisons were not promoted to facts.",
+      "next_steps": "Find the exact official name entry and a primary dated personal-name record.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/ž/žydris",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ],
+      "uncertainties": "No new reviewed narrative was generated from these incomplete or mismatched leads."
+    }
+  ]
+}

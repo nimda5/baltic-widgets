@@ -34,24 +34,28 @@ Writer version 1.7.0 removed fictional spelling-based histories and retains orig
 
 | Editorial level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed narrative | 353 | 105 | 183 |
-| Short factual summary | 4,076 | 1,232 | 470 |
-| Earlier attestation only | 374 | 1 | 13 |
-| Historical research still needed | 753 | 230 | 887 |
+| Reviewed narrative | 366 | 109 | 190 |
+| Short factual summary | 4,073 | 1,230 | 470 |
+| Earlier attestation only | 369 | 1 | 13 |
+| Historical research still needed | 748 | 228 | 880 |
 | Total profiles | 5,556 | 1,568 | 1,553 |
 | Fictional historical stories displayed | 0 | 0 | 0 |
 
-### Priority research (November 2026, writer version 1.8.4)
+### Priority research (November 2026, writer version 1.8.5)
 
-Round 5 examined every remaining Priority 1 spelling after round 4: 135 distinct names across 142 country profiles. It added 76 reviewed histories, each with two paragraphs in all five languages, covering 82 country profiles (38 LV, 7 LT and 37 EE). The other 59 spellings remain open with individual reasons and concrete next steps in `research/namedays/round5-notes.json`. No unsupported origin was assigned to close a research gap.
+Round 5 examined every remaining Priority 1 spelling after round 4: 135 distinct names across 142 country profiles. It added 76 reviewed histories, each with two paragraphs in all five languages, covering 82 country profiles (38 LV, 7 LT and 37 EE). The other 59 spellings remained open at that stage, with individual reasons and concrete next steps in `research/namedays/round5-notes.json`. No unsupported origin was assigned to close a research gap.
 
 The four `public/namedays-history-r5-*.js` modules separate verified family relationships, Estonian historical records, cultural episodes and Latvian records. Examples include Bialik's suggestion of Aviva, Meja's childhood name becoming official, Anitra in Ibsen's original play, Dailis Rožlapa's film work and the exact entries in Julius Mägiste's 1929 name book. Historical forms such as Valde and Wottele retain their own spelling and dating. Latvian evidence shared with an LT or EE profile is explicitly identified as Latvian.
 
-Round 6 added another 20 distinct spellings across 21 country profiles (5 LV, 6 LT and 10 EE): Brendons, Ivete, Rada, Eliana, Alicija, Nastė, Rimtenis, Vaidutis, Normantas, Žibutė, Kalju, Meeli, Ruut, Kuldar, Aimar, Maia, Elli, Aliise, Säde and Pirja. Each has two paragraphs in all five languages in `public/namedays-history-r6-{baltic,estonian}.js`. The round notes also update eight unresolved research outcomes. Thirty-nine distinct Priority 1 spellings remain open overall.
+Round 6 added another 20 distinct spellings across 21 country profiles (5 LV, 6 LT and 10 EE): Brendons, Ivete, Rada, Eliana, Alicija, Nastė, Rimtenis, Vaidutis, Normantas, Žibutė, Kalju, Meeli, Ruut, Kuldar, Aimar, Maia, Elli, Aliise, Säde and Pirja. Each has two paragraphs in all five languages in `public/namedays-history-r6-{baltic,estonian}.js`. The round notes also update eight unresolved research outcomes. Thirty-nine distinct Priority 1 spellings remained open at the end of that round.
 
 New evidence includes the exact Brendons/Brandon and Ivete/Yvette pairs in Latvian publications, corrected ASCII URLs for Lithuanian name entries, a scholarly review identifying Rimtenis and Vaidutis in the enlarged 2003 dictionary, and primary institutional biographies or archive inventories. Conflicting Alicija accounts, alternative Eliana families, separate masculine and feminine Ruut traditions, the uncertain Kuldar root and the proposed Normas derivation remain explicitly qualified. Finnish usage periods and calendar reforms are identified as Finnish, not as dates for the first Estonian bearer.
 
 Continue all subsequent name-day research in the shared branch `codex/namedays-round4`; do not create a branch per round. Source URLs remain in research files and provenance metadata. The widget displays the narratives without source links or citation lists. Raw snapshots and PDF extracts remain outside the portable repository.
+
+Round 7 examined all 39 remaining spellings and added 24 reviewed histories, each with two paragraphs in all five languages: 13 LV, 4 LT and 7 EE profiles. The new modules are `public/namedays-history-r7-{latvian,baltic}.js`; all 39 outcomes are recorded in `research/namedays/round7-notes.json`. Fifteen distinct Priority 1 spellings remain unresolved, with individual evidence gaps and next steps in the regenerated backlog.
+
+New evidence includes Ahero's exact Emija/Emmy and Dorotija/Dorothy renderings, RSU's Kortnija/Courtney pairing, the Russian rendering manual and LU table for Savēlijs/Savelijs, and the historical Õnneleid naming episode in Tõnisson's family in 1882. Other histories use primary sporting results, institutional biographies, a parish-record transcription and scholarly discussions of Lithuanian compounds. Unknown roots remain unknown where only the name's historical use is established. The Turkish Alev tradition is explicitly separate from the unresolved Estonian origin, and historical records are not called the first occurrence or the creation of a name. Mismatched leads concerning Asnāte Ziemele and Le Vallikivi were rejected for Aisma and Leeli.
 
 ### Research round 2 (November 2026, writer version 1.8.0)
 
