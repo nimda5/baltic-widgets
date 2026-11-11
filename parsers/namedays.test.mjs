@@ -12,6 +12,16 @@ import {resolveLanguage} from '../public/i18n-core.js';
 import {reviewedRoot} from '../public/namedays-roots.js';
 import {reviewedHistory} from '../public/namedays-history.js';
 import {historiesLatvianR9} from '../public/namedays-history-r9-lv.js';
+import {historiesLatvianR10} from '../public/namedays-history-r10-lv.js';
+test('next 50 LV histories retain five languages and stay outside EE/LT lookups',()=>{
+ assert.equal(Object.keys(historiesLatvianR10).length,50);
+ for(const [name,history] of Object.entries(historiesLatvianR10)){
+  assert.equal(reviewedHistory(name,'lv'),history);
+  for(const country of ['lt','ee',undefined])assert.notEqual(reviewedHistory(name,country),history);
+  assert(history.sources.length);
+  for(const lang of LANGUAGES){assert.equal(history.text[lang].length,2);assert(history.text[lang].join(' ').length>300,name+' '+lang);assert.doesNotMatch(history.text[lang].join(' '),/https?:|undefined|\{name\}/);}
+ }
+});
 test('LV-only reviewed histories do not override other country calendars',()=>{
  assert.equal(Object.keys(historiesLatvianR9).length,20);
  for(const [name,history] of Object.entries(historiesLatvianR9)){
