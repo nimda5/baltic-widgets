@@ -1,0 +1,87 @@
+# Name-day research sources
+
+This is the shared, growing directory for LV, LT and EE name-history research. Read it before a new round. Use [NAMEDAYS_BACKLOG.md](NAMEDAYS_BACKLOG.md) for the calendar queue, [NAMEDAYS.md](NAMEDAYS.md) for editorial/data rules, and the [round notes](research/namedays/) for individual claims and outcomes. Source URLs belong here and in working files/provenance, never in the widget interface.
+
+Last directory review: **12 November 2026**, including a second search for the unresolved 12–13 November names. Resource IDs below are stable references for research notes. A useful catalogue or repository is a place to search, not evidence for every name it contains.
+
+## Start here
+
+1. Search the exact NFC spelling, keeping diacritics. Try a second query without them only to discover candidates. Search the source language too: `personvārds`, `vārda izcelsme`, `vardas`, `kilmė`, `eesnimi`, `päritolu`.
+2. Look for an exact dictionary entry or an explicit spelling correspondence. Read academic onomastics when the older dictionary lacks a form. Its absence does not prove that the name was unused.
+3. Find a separate dated historical, archival, literary or professional episode. Identify whether it concerns this spelling, a documented related form, or a fictional character.
+4. Inspect the original PDF page for diacritics, table columns, captions and author/date. Search-engine snippets and PDF text layers can drop or misread letters. Record both PDF and printed page numbers.
+5. Save the exact URL, title/author/year, checked page or section, supported claim, limitations, outcome and next step in the next numbered round notes. Keep raw PDFs, HTML, OCR and screenshots in private `var/namedays-research/`.
+6. A working comparison stays `needs_more` / `unverified`, even when a source independently establishes the spelling's use. Separate established facts from the unresolved inference. Do not transfer first attestations, calendar-entry years, biographies or population counts between forms.
+
+## Newly productive sources for 12–13 November
+
+| ID | Resource and precise location | What was established | Limits and access |
+| --- | --- | --- | --- |
+| LV-ALL93 | Laimute Balode and Renāte Siliņa-Piņķe, **Changes in the Stock of Given Names in the Context of a New Dictionary of Latvian Given Names**, *Acta Linguistica Lithuanica* 93 (2025). [Article](https://journals.lki.lt/actalinguisticalithuanica/article/view/2518), [PDF p. 6](https://journals.lki.lt/actalinguisticalithuanica/article/download/2518/2474/#page=6), DOI `10.35321/all93-01`. | Direct discussion of Jevgenija / Jevgeņija and Jevgenijs / Jevgēnijs / Jevgeņijs. Explains why the older Siliņš dictionary misses familiar forms; documents twentieth-century Jevgenija use in Riga and Latgale. | PDF downloaded and p. 6 visually checked. Extracted text loses diacritics. The article announces a dictionary planned for 2026; it does not establish that the new dictionary has since been published. |
+| LV-IDENTITY25 | Balode and Siliņa-Piņķe, **Reflection of Identity in Given Names of Latvia Over the Last Century**, *Onomastica Uralica* 17 (2025), pp. 139–156. [Repository record](https://hdl.handle.net/10138/625512), [PDF](https://helda.helsinki.fi/server/api/core/bitstreams/fd84c3d3-6e27-4933-a25a-0fa177849054/content). | Russian-name rendering variants and regional historical use. **PDF p. 8 / printed p. 145, Figure 5**, explicitly includes Jevģēnijs in the chart legend. | Chart and enlarged legend visually checked. Read the embedded image as well as the caption: the caption alone names fewer spellings. Do not reconstruct exact counts from chart pixels or combine national-register totals. |
+| LV-LILE24 | **Linguistica Lettica**, special issue (2024), article headed *Ieskats darba procesā / Insight into Work in Progress*. [PDF p. 304](https://lavi.lu.lv/wp-content/uploads/2024/06/LiLe_specizlaidums_Laimutei-Balodei.pdf#page=304). | Latvian-language discussion independently confirms the Jevgenija and Jevgenijs variant issue. | The whole volume is large; direct download works even when the web reader rejects its size. Page 304 visually checked. Keep it distinct from the later English article. |
+| LT-SALYS83 | Antanas Salys, collected writings, vol. 2 (1983), reprinting the **1964 Tikiu Dievą** name calendar. [PDF p. 317 / printed p. 302](https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317). | Eirimė (Eira) and Norvydas (Noras) on 13 November; **Juozapotas (Juozas, Potas)** on 14 November. Exact spelling visually checked. | Juozapotas is on 12 November in the supplied project calendar. Preserve the discrepancy, not an automatic calendar correction. This record establishes usage/short forms, not a proved etymological bridge to Juozapatas or a coining date. |
+| LV-BTN-JEV | Behind the Name: [Jevgēņijs](https://www.behindthename.com/name/jevge23n15ijs), [Yevgeniy](https://www.behindthename.com/name/yevgeniy), [Eugene](https://www.behindthename.com/name/eugene). | An exact curated entry for Jevgēņijs, linked to Russian Yevgeniy and the Greek-derived family. | Read the curated entry, not forum guesses or automatic “same spelling” links. Does not prove every diacritic permutation. |
+| LV-RFS | FC RFS: [Svarīga uzvara Jelgavā, 8 April 2026](https://fkrfs.lv/svariga-uzvara-jelgava/). | Exact Jevgēņijs Nerugals spelling in a club report of a 1–0 away win. | A dated professional-use example, not the first attestation of the name. Other club pages use different spellings. |
+| LV-OLYMPIC | Latvian Olympic Committee: [Jevgenijs Borodavko](https://www.olimpiade.lv/olimpietis/534). | Exact Jevgenijs use and London 2012 / Rio 2016 judo participation. | A bearer biography supports that individual's record, not every similarly named athlete or the name's creation date. |
+
+## Latvia: dictionaries, spelling and archives
+
+| ID | Where to look | Best use and limits |
+| --- | --- | --- |
+| LV-SILINS | Klāvs Siliņš, *Latviešu personvārdu vārdnīca* (1990); [Personvārdu izpētnieks](https://www.izpetnieks.lv/), e.g. [Jevgeņijs](https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs). | Dictionary origin summaries, cross-references and dated attestations with printed-page references. Used throughout earlier rounds. It is a secondary catalogue of the book, not full coverage of every spelling. Keep cross-reference dates attached to their actual form. |
+| LV-LVA | Latvian Language Agency, [Citvalodu personvārdu atveide](https://www.personvarduatveide.lv/), especially its literature list and language-specific manuals. [Russian manual (1993)](https://www.personvarduatveide.lv/uploads/sources/30/pdf/krievu_ipasvardu_pareizrakstiba_un_pareizruna_latviesu_valoda_1993.pdf). | Explicit foreign/Latvian spelling pairs. Russian PDF p. 78 / printed 185 gives feminine Jevgēnija / Jevgeņija; p. 91 / printed 198 gives masculine Jevgēnijs / Jevgeņijs. A patronymic below a male entry is not a female given-name entry. |
+| LV-LVA-LT | T. Porīte, *Norādījumi par citvalodu īpašvārdu pareizrakstību un pareizrunu latviešu literārajā valodā*, IV: *Lietuviešu valodas īpašvārdi* (Riga, 1961). [PDF p. 46](https://www.personvarduatveide.lv/uploads/sources/27/pdf/noradijumi_par_citvalodu_ipasvardu_pareizrakstibu_un_pareizrunu_latviesu_literaraja_valoda_4._lietuviesu_valodas_ipasvardi.pdf#page=46). | Title page and enlarged table row visually checked: Eugenijus → **Euģenijus**, *Eiženijs. The search snippet misleadingly suggests Eugenijs. This manual is useful for exact correspondences, but this particular row was **rejected as evidence for Eugenijs**. Do not drop ģ or change the ending while reading it. |
+| LV-LAVI | [LU Latvian Language Institute](https://lavi.lu.lv/), including *Linguistica Lettica* and *Onomastica Lettica*. | First stop for scholarly explanations, new dictionaries, competing variants and historical naming studies. Use a specific article and page, not a journal homepage as proof. |
+| LV-LU-REPO | [University of Latvia repository](https://dspace.lu.lv/). | Theses, monographs and onomastic collections. Follow the publication's bibliography to older sources; keep repository upload dates separate from publication dates. |
+| LV-PERIODIKA | [Periodika](https://periodika.lv/) and [LNB collections/catalogues](https://lnb.lv/lv/). | Dated newspapers, historical calendars, literary naming and exact-form bearer records. Web search may miss the archive's own index. Some material requires an interactive reader or library access. Check the scan: OCR matches can be common words or surnames. |
+| LV-VVC | State Language Centre, [extended name-day list](https://www.vvc.gov.lv/lv/media/163/download?attachment=). | Official list includes Vianda, Viāna, Vidards, Vidarts and Vidavs on 12 November. Download checked in this recheck. **Calendar membership only**: it does not establish their origins or relationships. |
+| LV-ENCYCLOPEDIA | [National Encyclopaedia](https://enciklopedija.lv/). | Named scholars, writers, institutions and dated historical episodes. Inflected personal names need grammatical checking; a masculine genitive ending in -a is not automatically a feminine name. |
+| LV-LITERATURE | [Literatura.lv](https://www.literatura.lv/), [Latvian Literature](https://www.latvianliterature.lv/), [National Film Centre archive](https://www.filmas.lv/). | Earlier rounds use these for author biographies, works, screen credits and literary characters. Distinguish stage names, characters and birth names. |
+
+## Lithuania: onomastics and historical use
+
+| ID | Where to look | Best use and limits |
+| --- | --- | --- |
+| LT-VLKK | [VLKK names](https://vardai.vlkk.lt/) and [official classification dataset](https://data.gov.lt/datasets/2664/). | Exact names and linguistic classification. The site returns 403 to automated reading in this review; use an interactive visit when necessary. A registry's compound classification does not supply a verified literal translation of its elements. |
+| LT-LKI | [Institute of the Lithuanian Language journals](https://journals.lki.lt/), especially *Acta Linguistica Lithuanica*. | Scholarly Lithuanian and Baltic name research. Newly productive for LV forms as well: do not restrict searches to the calendar country's domains. |
+| LT-LITUANISTIKA | [Lituanistika](https://www.lituanistika.lt/) and linked `etalpykla.lituanistika.lt` full texts. | Searchable scholarship, reviews of name dictionaries, historical artists and explicit paired forms. Portal opened in this review; individual candidate PDFs still require inspection before claims are accepted. |
+| LT-SALYS83 | [Salys vol. 2 PDF](https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf). | Historical name lists, short forms and the 1964 calendar; exact productive pages listed above. Read editorial introduction and original publication year separately from the 1983 reprint. |
+| LT-DRAUGAS | [Draugas archive](https://www.draugas.org/), e.g. [12 March 1960 supplement](https://www.draugas.org/archive/1960_reg/1960-03-12-PRIEDAS-DRAUGAS.pdf). | Historical name lists and diaspora naming discussions. Earlier rounds checked Kralikauskas's list; do not misattribute his article to Salys or call a modern reprint an inspected medieval original. |
+| LT-VLE | [Visuotinė lietuvių enciklopedija](https://www.vle.lt/), e.g. [Juozapatas Kuncevičius](https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/). | Scholarly biographies and historical figures. This particular entry documents Juozapatas, not an automatic correspondence to Juozapotas. |
+| LT-GUIDE | [Tėvų Darželis name guide](https://www.tevu-darzelis.lt/vaiku-vardai/), e.g. [Eirimė](https://www.tevu-darzelis.lt/vaiku-vardai/eirime/). | Search lead and secondary support for name elements. “Similar and related names” is a mixed list, not proof that every pair is an exact variant. Ignore personality and promotional copy. Its day may differ from the supplied project calendar. |
+| LT-INSTITUTIONS | [Writers' Union](https://rasytojai.lt/) and [National Library](https://www.lnb.lt/). | Bibliographies and dated cultural events used in rounds 11–12. An event announcement proves the announced programme, not independently confirmed attendance. |
+
+## Estonia: language references and digital collections
+
+| ID | Where to look | Best use and limits |
+| --- | --- | --- |
+| EE-EKI | [Institute of the Estonian Language](https://eki.ee/) and its linked dictionaries / Sõnaveeb. | Language-specific explanations and bibliographic leads. Homepage opened in this review; it reports temporary restrictions on some applications. A general word dictionary does not automatically establish a personal-name etymology. |
+| EE-ETERA | [ETERA digital library](https://www.etera.ee/). | Historical books, newspapers and name references, including scans used in earlier Estonian rounds. Interactive search required; the landing page yields no readable text to the web reader. Inspect title pages, exact letters and original dates. |
+| EE-DIGAR | [DIGAR](https://www.digar.ee/). | Further national-library discovery route for digitised books and press. **Access lead**: this review received 403; no new name claim was accepted from it. |
+| EE-INSTITUTIONS | [Tallinn University](https://www.tlu.ee/riho-patsi-koolimuusika-fond-tunnustab-2013-aasta-laureaate), [Vanemuine](https://vanemuine.ee/en/people/risto-joost/), [Estonian Art Museum](https://kunstimuuseum.ekm.ee/). | Primary biographical and exhibition records used for Kristo, Risto and Konrad. Choose a dated achievement over a potentially stale current-job claim. |
+
+## Cross-language guides and population data
+
+| ID | Resource | What it can establish |
+| --- | --- | --- |
+| INT-BTN | [Behind the Name](https://www.behindthename.com/). | Curated etymologies and explicit variants; follow the full chain to its linguistic root. User submissions, forum guesses, popularity ratings and personality impressions are not equivalent evidence. |
+| INT-WIKTIONARY | [Wiktionary](https://en.wiktionary.org/), e.g. [Kristo, Estonian section](https://en.wiktionary.org/wiki/Kristo#Estonian). | Exact national-language entries, short forms and references. Select the right language section; homonyms in Finnish, Albanian or Japanese do not prove an Estonian origin. Check dictionary citations where supplied. |
+| INT-SNL | [Store norske leksikon](https://snl.no/), e.g. [Krister](https://snl.no/Krister_-_mannsnamn). | Signed name-scholar articles and concrete cultural examples. Norwegian literary history must remain identified as Norwegian. |
+| POP-LV | [PMLP person-name data](https://www.pmlp.gov.lv/) and the existing population updater described in [NAMEDAYS.md](NAMEDAYS.md#number-of-name-bearers). | Official bearer data for priority, not etymology or a first-attestation date. Preserve snapshot date and the component-count definition. |
+| POP-EE | [Statistics Estonia names](https://stat.ee/nimed/), e.g. [Krister](https://stat.ee/nimed/KRISTER). | Exact first-name counts and published suppression limits. Do not substitute Latvia's component-count definition. |
+| POP-LT | [Registrų centras](https://www.registrucentras.lt/) TOP 50 snapshots used by the existing LT updater. | Published popularity lists within their stated population/time scope. Absence from a TOP 50 list is not proof of zero bearers. |
+
+## Sources that did not resolve the current gaps
+
+The 12 November rare LV names produced calendar-list matches, surname matches and unrelated common words. In particular, Vidavs as a surname does not establish the given name's origin. The VVC list confirms membership but leaves the five origins open.
+
+For the remaining 13 November spellings, neither a shared day nor a nearby name in a catalogue proves a spelling correspondence. Automatic aggregators may merge Jevgenijs and Jevgeņijs, then display the latter's count under the former. Use such pages only to locate their underlying reference. Do not import merged counts, generic personality text, AI etymologies, greeting-shop descriptions or a search-result snippet as verified history.
+
+Juozapotas now has an exact historical calendar record, but the proposed Juozapatas etymological bridge remains unverified. Commercial pages offer inconsistent derivations; do not collapse Joseph and Josaphat families on that basis. Its next step is an authoritative dictionary or explicit historical paired-form record, not another calendar listing.
+
+## Keep this directory current
+
+When a new source is productive, add or extend a row with a stable ID, direct link, provider, title/author/year, exact page/section, a named example, supported claim, access limitation and last review date. Put unresolved leads in the relevant limitations field, not among proven results. Link those IDs from the round notes and give unresolved names a concrete next search step.
+
+Use the next numeric `round<N>-notes.json` so existing backlog precedence remains correct. Keep earlier rounds as history; the latest country-scoped note records the current outcome. After content changes, bump the writer, regenerate the affected country data and the backlog, then run the appropriate validation. Update [NAMEDAYS.md](NAMEDAYS.md), this directory and contributor instructions when the workflow changes. Continue using `codex/namedays-round4`.

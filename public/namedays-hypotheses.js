@@ -26,5 +26,15 @@ entries.lt.Juozapotas={sources:['https://www.vle.lt/Straipsnis/juozapatas-kuncev
  lt:['Juozapotas galėtų būti susijęs su Juozapatas rašyba. Kol kas tai nepatikrintas formų palyginimas: šaltinis dokumentuoja Juozapatas, bet ne abiejų rašybų atitiktį. Vien panašumas neįrodo bendros etimologijos ir neleidžia perkelti istorinio asmens biografijos.'],
  et:['Juozapotas võib olla seotud kirjapildiga Juozapatas. See on seni kontrollimata vormivõrdlus: allikas dokumenteerib Juozapatast, mitte kahe kirjapildi vastavust. Sarnasus üksi ei tõesta ühist etümoloogiat ega õigusta ajaloolise isiku eluloo ülekandmist.']
 }};
+// Exact historical usage is established; the proposed etymological bridge remains open.
+entries.lt.Juozapotas.sources.push('https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317');
+const juozapotasRecord=[
+ 'Droši dokumentēta ir pati Juozapotas forma: 1964. gada «Tikiu Dievą» vārdu kalendārā tā dota ar īsformām Juozas un Potas. Saraksts pārpublicēts Saļa rakstos 1983. gadā. Tur norādīts 14. novembris, nevis šajā kalendārā izmantotais 12. novembris; šī atšķirība nepierāda vārda cilmi.',
+ 'Сама форма Juozapotas документирована: календарь имён «Tikiu Dievą» 1964 года даёт её с краткими формами Juozas и Potas. Список перепечатан в трудах Салиса в 1983 году. Там указано 14 ноября, тогда как в нашем календаре — 12 ноября; это различие не объясняет происхождение имени.',
+ 'The spelling Juozapotas itself is documented: the 1964 Tikiu Dievą name calendar lists it with short forms Juozas and Potas, reprinted in Salys’s writings in 1983. That list uses 14 November, whereas this calendar uses 12 November. This difference does not establish the name’s etymology.',
+ 'Pati Juozapotas forma dokumentuota: 1964 metų „Tikiu Dievą“ vardų kalendorius ją pateikia su trumpiniais Juozas ir Potas. Sąrašas perspausdintas Salio raštuose 1983 metais. Ten nurodyta lapkričio 14 diena, o šiame kalendoriuje — lapkričio 12 diena; šis skirtumas nepaaiškina vardo kilmės.',
+ 'Kirjapilt Juozapotas ise on dokumenteeritud: 1964. aasta Tikiu Dievą nimekalender annab selle koos lühivormidega Juozas ja Potas. Loend avaldati uuesti Salyse kirjutistes 1983. aastal. Seal on 14. november, selles kalendris aga 12. november. Erinevus ei tõesta nime etümoloogiat.'
+];
+for(const [i,l] of langs.entries())entries.lt.Juozapotas.text[l].push(juozapotasRecord[i]);
 export const HYPOTHESIS_LABELS={lv:'Pieņēmums',ru:'Предположение',en:'Hypothesis',lt:'Prielaida',et:'Oletus'};
 export function unverifiedHistory(name,country){return entries[country]?.[name.normalize('NFC').replace(/\.$/,'')]||null;}

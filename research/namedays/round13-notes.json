@@ -1,0 +1,726 @@
+{
+  "round": 13,
+  "date": "2026-11-12",
+  "scope": "Recheck the 23 unresolved hypotheses for 12–13 November across the LV, LT and EE calendars; no new calendar day is researched.",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Four LV hypotheses are resolved: Jevgenijs, Jevgenija, Jevgēņijs and Jevģēnijs. Nineteen remain explicitly unverified: 18 LV and 1 LT. Juozapotas gains a verified historical spelling/short-form record while its proposed origin remains open, including a documented source-calendar discrepancy. Existing 12–13 November reviewed histories remain in place. New resources include academic articles and a repository-held historical trend study, an exact curated name entry, primary sporting records, and official spelling/calendar PDFs. Source IDs link outcomes to the growing shared directory. Search snippets and failed spelling leads are recorded as limitations, not accepted facts. Raw files remain private and URLs are not displayed in the widget. Continue on codex/namedays-round4.",
+  "records": [
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Juozapotas",
+      "spellings": [
+        "Juozapotas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Exact Juozapotas with short forms Juozas and Potas appears on 14 November in the 1964 Tikiu Dievą calendar, reprinted in Salys 1983. The project calendar still uses 12 November.",
+      "hypothesis": "Juozapotas may be connected with the spelling Juozapatas. This remains an unverified comparison: the source documents Juozapatas, not a correspondence between the two forms. Similarity alone does not establish a shared etymology or justify transferring a historical person’s biography.",
+      "reason": "Exact historical usage is now established, but the proposed Juozapatas etymological bridge remains unverified. The widget adds the verified record separately inside the qualified hypothesis account.",
+      "uncertainties": "Salys PDF p. 317 / printed p. 302 was visually checked: Juozapotas (Juozas, Potas) is on 14 November in the 1964 calendar, reprinted in 1983. Our supplied LT calendar uses 12 November. Neither this discrepancy nor a commercial Joseph/Josaphat comparison proves the origin.",
+      "next_steps": "Use LT-VLKK and LT-LITUANISTIKA to find an authoritative exact-form etymology or an explicit Juozapotas/Juozapatas paired record. Historical calendar usage and short forms are already established; preserve the 14-versus-12-November discrepancy.",
+      "source_ids": [
+        "LT-SALYS83",
+        "LT-VLE",
+        "LT-VLKK",
+        "LT-LITUANISTIKA"
+      ],
+      "previous_round": 11
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Eugenijs",
+      "spellings": [
+        "Eugenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21",
+        "https://www.personvarduatveide.lv/uploads/sources/27/pdf/noradijumi_par_citvalodu_ipasvardu_pareizrakstibu_un_pareizrunu_latviesu_literaraja_valoda_4._lietuviesu_valodas_ipasvardi.pdf#page=46"
+      ],
+      "facts_used": "",
+      "hypothesis": "Eugenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Eugenijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence. A search snippet for the 1961 Lithuanian rendering manual suggests Eugenijs, but the enlarged PDF p. 46 row actually reads Eugenijus → Euģenijus, *Eiženijs. This lead was rejected for Eugenijs.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Eugenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. Do not reuse the misleading 1961-manual search snippet: its actual row is Euģenijus, not Eugenijs.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA",
+        "LV-LVA-LT"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Euģenijs",
+      "spellings": [
+        "Euģenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Euģenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Euģenijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Euģēnijs",
+      "spellings": [
+        "Euģēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Euģēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Euģēnijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evgenijs",
+      "spellings": [
+        "Evgenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evgenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evgenijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evgēnijs",
+      "spellings": [
+        "Evgēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evgēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evgēnijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evģenijs",
+      "spellings": [
+        "Evģenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evģenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evģenijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evģēnijs",
+      "spellings": [
+        "Evģēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evģēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evģēnijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgenija",
+      "spellings": [
+        "Jevgenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://journals.lki.lt/actalinguisticalithuanica/article/download/2518/2474/#page=6",
+        "https://lavi.lu.lv/wp-content/uploads/2024/06/LiLe_specizlaidums_Laimutei-Balodei.pdf#page=304",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs"
+      ],
+      "facts_used": "Recent personal-name research documents the relationship between Jevgenija and Jevgeņija, differing in the spelling n or ņ. Through Jevgeņija and Jevgeņijs this feminine name connects with the Greek eugenēs family, well-born or noble; the spellings’ attestation dates remain separate. Balode and Siliņa-Piņķe’s 2025 article records Jevgenija being given to girls during the twentieth century in Riga and especially Latgale. They compare it with Jevgeņija in Siliņš’s 1990 dictionary. Absence from the older dictionary therefore does not mean the spelling was unused then.",
+      "hypothesis": "",
+      "reason": "Newly opened exact-form scholarship or a curated name entry establishes the relationship, with separately checked historical or professional evidence.",
+      "uncertainties": "The 2025 article PDF/printed p. 6 and the 2024 article p. 304 explicitly distinguish Jevgenija from palatalised Jevgeņija while treating them as variants. The twentieth-century Riga/Latgale usage is a statement in the study, not an exact first-attestation year. No 1877/1899 dates are transferred.",
+      "next_steps": "",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-LILE24",
+        "LV-SILINS"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgēņija",
+      "spellings": [
+        "Jevgēņija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevgēņija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevgēņija.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevgēņija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģenija",
+      "spellings": [
+        "Jevģenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģenija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevģenija.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģēnija",
+      "spellings": [
+        "Jevģēnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģēnija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevģēnija.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgenijs",
+      "spellings": [
+        "Jevgenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://journals.lki.lt/actalinguisticalithuanica/article/download/2518/2474/#page=6",
+        "https://lavi.lu.lv/wp-content/uploads/2024/06/LiLe_specizlaidums_Laimutei-Balodei.pdf#page=304",
+        "https://helda.helsinki.fi/server/api/core/bitstreams/fd84c3d3-6e27-4933-a25a-0fa177849054/content#page=8",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.olimpiade.lv/olimpietis/534"
+      ],
+      "facts_used": "Name researchers Laimute Balode and Renāte Siliņa-Piņķe explicitly discuss Jevgenijs alongside Jevgeņijs and Jevgēnijs as renderings of Russian Евгений. The wider family leads to Greek eugenēs, well-born or noble. The relationship is supported by scholarship, beyond spelling resemblance. The Latvian Olympic Committee uses this exact spelling in its profile of judoka Jevgenijs Borodavko. It documents his participation in the men’s under-100-kilogram judo events at the London 2012 and Rio de Janeiro 2016 Olympic Games.",
+      "hypothesis": "",
+      "reason": "Newly opened exact-form scholarship or a curated name entry establishes the relationship, with separately checked historical or professional evidence.",
+      "uncertainties": "The exact forms in the 2025 dictionary article PDF p. 6 and the 2024 Latvian article p. 304 were visually checked. The 2025 identity study pp. 144–145 directly links them with Russian Евгений. The Olympic Committee uses exact Jevgenijs for Borodavko and confirms London 2012 and Rio 2016 judo participation. No 1876/1864 dates are transferred from Jevgeņijs.",
+      "next_steps": "",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-LILE24",
+        "LV-IDENTITY25",
+        "LV-SILINS",
+        "LV-OLYMPIC"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgēņijs",
+      "spellings": [
+        "Jevgēņijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.behindthename.com/name/jevge23n15ijs",
+        "https://www.behindthename.com/name/yevgeniy",
+        "https://www.behindthename.com/name/eugene",
+        "https://fkrfs.lv/svariga-uzvara-jelgava/"
+      ],
+      "facts_used": "The name guide separately documents Jevgēņijs as a Latvian form of Russian Yevgeniy, alongside variant Jevgeņijs. The family leads to Greek eugenēs, well-born. The evidence concerns the exact spelling with ē and ņ; it does not automatically establish every similar form’s origin. RFS football club’s match report dated 8 April 2026 names its goalkeeper Jevgēņijs Nerugals. The report describes RFS’s 1–0 away win against Jelgava. It provides a specific instance of this spelling in professional sport, rather than a date for the name’s first use.",
+      "hypothesis": "",
+      "reason": "Newly opened exact-form scholarship or a curated name entry establishes the relationship, with separately checked historical or professional evidence.",
+      "uncertainties": "The curated exact-form guide explicitly gives Latvian Jevgēņijs as a Yevgeniy form. The RFS match report dated 8 April 2026 uses Jevgēņijs Nerugals and records a 1–0 away victory against Jelgava. Other pages spell the same goalkeeper differently; this account describes the actual report spelling, without assigning it to another person.",
+      "next_steps": "",
+      "source_ids": [
+        "LV-BTN-JEV",
+        "LV-RFS"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģenijs",
+      "spellings": [
+        "Jevģenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģenijs could be compared with the documented dictionary form Jevgeņijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņijs therefore cannot safely be assigned to Jevģenijs.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģēnijs",
+      "spellings": [
+        "Jevģēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://helda.helsinki.fi/server/api/core/bitstreams/fd84c3d3-6e27-4933-a25a-0fa177849054/content#page=8",
+        "https://journals.lki.lt/actalinguisticalithuanica/article/download/2518/2474/#page=6",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs"
+      ],
+      "facts_used": "Jevģēnijs appears in Balode and Siliņa-Piņķe’s research chart alongside Jevgenijs, Jevgeņijs and Jevgēnijs. The authors discuss these as renderings of Russian Евгений. This specific comparison connects the form with the Greek eugenēs family while preserving the individual spellings’ differences. Figure 5 of the 2025 article Reflection of Identity in Given Names of Latvia Over the Last Century compares these variants’ popularity in Latgale using historical CSB data. It documents the spellings’ coexistence, rather than establishing one creation year or a combined present-day bearer count.",
+      "hypothesis": "",
+      "reason": "Newly opened exact-form scholarship or a curated name entry establishes the relationship, with separately checked historical or professional evidence.",
+      "uncertainties": "The identity study PDF p. 8 / printed p. 145 Figure 5 chart legend was enlarged and visually checked: its fourth label is JEVĢĒNIJS. The caption says Jevgeņijs and variants; surrounding text identifies competing renderings of Russian Евгений. The embedded image matters: the caption and PDF text extraction alone omit this fourth spelling. No exact historical frequency or current combined count is inferred from pixels.",
+      "next_steps": "",
+      "source_ids": [
+        "LV-IDENTITY25",
+        "LV-ALL93",
+        "LV-SILINS"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevženija",
+      "spellings": [
+        "Jevženija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevženija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevženija.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevženija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevžēnija",
+      "spellings": [
+        "Jevžēnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevžēnija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevžēnija.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The opened 2024/2025 academic studies establish specific forms, not every diacritic permutation. The exact remaining spelling has no accepted correspondence in the inspected passages; mixed related-name lists and merged population aggregators are not decisive evidence.",
+      "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevžēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence.",
+      "source_ids": [
+        "LV-ALL93",
+        "LV-IDENTITY25",
+        "LV-LVA",
+        "LV-PERIODIKA"
+      ],
+      "previous_round": 12
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Viāna",
+      "spellings": [
+        "Viāna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vianita",
+        "https://www.izpetnieks.lv/en/name/Vianta",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Viāna might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for Viāna. This is a working hypothesis, not an established relationship between the names.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The VVC PDF p. 21 visually confirms calendar membership for the exact spelling, but provides no origin. New academic sources did not resolve the proposed phonetic or Vidars relationship. Reject surname Vidavs, common-word vianda and unrelated foreign Viana matches.",
+      "next_steps": "Search LV-PERIODIKA and LV-LU-REPO for exact Viāna as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only.",
+      "source_ids": [
+        "LV-VVC",
+        "LV-PERIODIKA",
+        "LV-SILINS"
+      ],
+      "previous_round": 11
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vianda",
+      "spellings": [
+        "Vianda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vianita",
+        "https://www.izpetnieks.lv/en/name/Vianta",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vianda might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for Vianda. This is a working hypothesis, not an established relationship between the names.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The VVC PDF p. 21 visually confirms calendar membership for the exact spelling, but provides no origin. New academic sources did not resolve the proposed phonetic or Vidars relationship. Reject surname Vidavs, common-word vianda and unrelated foreign Viana matches.",
+      "next_steps": "Search LV-PERIODIKA and LV-LU-REPO for exact Vianda as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only.",
+      "source_ids": [
+        "LV-VVC",
+        "LV-PERIODIKA",
+        "LV-SILINS"
+      ],
+      "previous_round": 11
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidards",
+      "spellings": [
+        "Vidards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "The spelling Vidards suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidards has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The VVC PDF p. 21 visually confirms calendar membership for the exact spelling, but provides no origin. New academic sources did not resolve the proposed phonetic or Vidars relationship. Reject surname Vidavs, common-word vianda and unrelated foreign Viana matches.",
+      "next_steps": "Search LV-PERIODIKA and LV-LU-REPO for exact Vidards as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only.",
+      "source_ids": [
+        "LV-VVC",
+        "LV-PERIODIKA",
+        "LV-SILINS"
+      ],
+      "previous_round": 11
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidarts",
+      "spellings": [
+        "Vidarts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "The spelling Vidarts suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidarts has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The VVC PDF p. 21 visually confirms calendar membership for the exact spelling, but provides no origin. New academic sources did not resolve the proposed phonetic or Vidars relationship. Reject surname Vidavs, common-word vianda and unrelated foreign Viana matches.",
+      "next_steps": "Search LV-PERIODIKA and LV-LU-REPO for exact Vidarts as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only.",
+      "source_ids": [
+        "LV-VVC",
+        "LV-PERIODIKA",
+        "LV-SILINS"
+      ],
+      "previous_round": 11
+    },
+    {
+      "batch": "recheck-2026-11-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidavs",
+      "spellings": [
+        "Vidavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars",
+        "https://www.vvc.gov.lv/lv/media/163/download?attachment=#page=21"
+      ],
+      "facts_used": "",
+      "hypothesis": "The spelling Vidavs suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidavs has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+      "reason": "Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology.",
+      "uncertainties": "The VVC PDF p. 21 visually confirms calendar membership for the exact spelling, but provides no origin. New academic sources did not resolve the proposed phonetic or Vidars relationship. Reject surname Vidavs, common-word vianda and unrelated foreign Viana matches.",
+      "next_steps": "Search LV-PERIODIKA and LV-LU-REPO for exact Vidavs as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only.",
+      "source_ids": [
+        "LV-VVC",
+        "LV-PERIODIKA",
+        "LV-SILINS"
+      ],
+      "previous_round": 11
+    }
+  ]
+}

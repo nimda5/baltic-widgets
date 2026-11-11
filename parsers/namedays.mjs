@@ -118,7 +118,8 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(history){sources.push(...history.sources.map(url=>({url,type:'reviewed_name_history'})));chosen=chosen.map(p=>p.id===history.pseudonymPerson?{...p,match:'pseudonym'}:p);}
  const hypothesis=history?null:unverifiedHistory(name,country);
  if(hypothesis)sources.push(...hypothesis.sources.map(url=>({url,type:'unverified_name_hypothesis',verification_status:'unverified'})));
- const provenance=[...new Map(sources.map(s=>[s.url,s])).values()];
+ // Resolved histories retain their reviewed evidence; obsolete comparisons stay in round notes.
+ const provenance=[...new Map(sources.filter(s=>!history||s.type!=='unverified_name_hypothesis').map(s=>[s.url,s])).values()];
  const profile={key,name,country,writer_version:WRITER_VERSION,family,facts,people:chosen,provenance,research_status:entry?.status||previous?.research_status||'pending',content_type:'sourced_history_and_original_greetings'};
  if(hypothesis){profile.verification_status='unverified';profile.content_type='unverified_hypothesis_and_original_greetings';}
  return validateProfile(profile);

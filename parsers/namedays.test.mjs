@@ -16,6 +16,20 @@ import {historiesLatvianR10} from '../public/namedays-history-r10-lv.js';
 import {historiesLatvianR11} from '../public/namedays-history-r11-lv.js';
 import {historiesLithuanianR11,historiesEstonianR11} from '../public/namedays-history-r11-baltic.js';
 import {unverifiedHistory,HYPOTHESIS_LABELS} from '../public/namedays-hypotheses.js';
+import {historiesLatvianR13} from '../public/namedays-history-r13-lv.js';
+
+test('new exact-form evidence resolves hypotheses without clearing unresolved origins',()=>{
+ for(const name of ['Jevgenijs','Jevgenija','Jevgēņijs','Jevģēnijs']){
+  assert.equal(reviewedHistory(name,'lv'),historiesLatvianR13[name]);assert.equal(unverifiedHistory(name,'lv'),null);assert.equal(reviewedHistory(name,'ee'),null);
+  const p=buildProfile(name,'lv');assert.equal(p.verification_status,undefined);
+  p.provenance.push({url:'https://example.org/old-comparison',type:'unverified_name_hypothesis',verification_status:'unverified'});
+  const rebuilt=buildProfile(name,'lv',{},new Map(),p);assert(!rebuilt.provenance.some(s=>s.type==='unverified_name_hypothesis'));
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert(c.reviewed_narrative);assert.equal(c.unverified_hypothesis,false);assert.equal(c.history.length,2);assert(c.history.join(' ').length>300);assert.doesNotMatch(c.history.join(' '),/1876|1877|1864|1899|https?:|\{name\}/);}
+ }
+ const p=buildProfile('Juozapotas','lt');assert.equal(p.verification_status,'unverified');
+ for(const lang of LANGUAGES){const c=describeName(p,lang);assert(!c.reviewed_narrative);assert(c.unverified_hypothesis);assert.match(c.history[1],/1964/);assert.match(c.history[1],/1983/);assert.match(c.history[1],/14/);assert.match(c.history[1],/12/);}
+ assert.equal(reviewedHistory('Eugenijs','lv'),null);assert(unverifiedHistory('Eugenijs','lv'));
+});
 test('November 13 rendering evidence stays distinct from provisional diacritic comparisons',()=>{
  for(const name of ['Jevgēnijs','Jevgēnija']){
   const p=buildProfile(name,'lv');
@@ -24,7 +38,7 @@ test('November 13 rendering evidence stays distinct from provisional diacritic c
   assert.equal(reviewedHistory(name,'ee'),null);
   for(const lang of LANGUAGES){const c=describeName(p,lang);assert(c.reviewed_narrative);assert.match(c.history[1],/1993/);assert.doesNotMatch(c.history[1],/1864|1899/);}
  }
- for(const name of ['Jevģēnijs','Jevgēņijs','Jevģēnija','Jevgēņija','Euģenijs']){
+ for(const name of ['Jevģenijs','Jevģenija','Jevģēnija','Jevgēņija','Euģenijs']){
   const p=buildProfile(name,'lv');assert.equal(reviewedHistory(name,'lv'),null);assert.equal(p.verification_status,'unverified');
   for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.reviewed_narrative,false);assert.equal(c.kind,'unresearched');assert.equal(c.hypothesis_label,HYPOTHESIS_LABELS[lang]);assert.doesNotMatch(c.history.join(' '),/https?:|\{name\}/);}
   assert.equal(unverifiedHistory(name,'lt'),null);

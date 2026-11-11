@@ -2,8 +2,8 @@
 export const hypothesesLatvianR12={};
 const langs=['lv','ru','en','lt','et'];
 const groups={
- Jevgeņijs:['Jevgenijs','Jevģēnijs','Jevgēņijs','Jevģenijs'],
- Jevgeņija:['Jevgenija','Jevģēnija','Jevgēņija','Jevģenija','Jevženija','Jevžēnija'],
+ Jevgeņijs:['Jevģenijs'],
+ Jevgeņija:['Jevģēnija','Jevgēņija','Jevģenija','Jevženija','Jevžēnija'],
  Eugēnijs:['Evgenijs','Eugenijs','Evģenijs','Evģēnijs','Euģēnijs','Evgēnijs','Euģenijs']
 };
 for(const [compared,names] of Object.entries(groups))for(const name of names){
