@@ -22,11 +22,12 @@ function bearers(country,name){
 const byBearers=(a,b)=>b.bearers.rank-a.bearers.rank||a.name.localeCompare(b.name);
 const notes=[];
 // Numeric order keeps round 10 and later newer than single-digit rounds.
-for(const file of (await readdir(new URL('research/namedays/',project))).filter(f=>/^round\d+-notes\.json$/.test(f)).sort((a,b)=>Number(a.match(/\d+/)[0])-Number(b.match(/\d+/)[0])))
+// Named rounds (round-<topic>-notes.json) are country-scoped: their records carry `country`.
+for(const file of (await readdir(new URL('research/namedays/',project))).filter(f=>/^round(\d+|-[a-z0-9-]+)-notes\.json$/.test(f)).sort((a,b)=>Number(a.match(/\d+/)?.[0]??0)-Number(b.match(/\d+/)?.[0]??0)||a.localeCompare(b)))
  for(const record of (await read(new URL('research/namedays/'+file,project))).records)notes.push(record);
 // The latest note for a spelling wins; written notes are history, not backlog.
 const noteFor=new Map();
-for(const n of notes)for(const s of new Set([n.name,...n.spellings]))noteFor.set(s.normalize('NFC'),n);
+for(const n of notes)for(const s of new Set([n.name,...n.spellings]))noteFor.set((n.country?n.country+':':'')+s.normalize('NFC'),n);
 const LABEL={reviewed:'Reviewed history',summary:'Short factual summary',attestation:'Early record only',unresearched:'Needs research'};
 const rows=[],coverage={};
 for(const country of ['lv','lt','ee']){
@@ -36,7 +37,7 @@ for(const country of ['lv','lt','ee']){
   const c=describeName(p,'en',0,profiles);
   const category=c.reviewed_narrative?'reviewed':c.kind==='unresearched'?'unresearched':c.calendar_only?'attestation':'summary';
   coverage[country][category]++;coverage[country].total++;
-  const note=noteFor.get(p.name);
+  const note=noteFor.get(country+':'+p.name)||noteFor.get(p.name);
   rows.push({country,name:p.name,category,bearers:bearers(country,p.name),dates:(p.facts.calendar_dates||[]).join(' '),note:note&&note.status!=='written'?note:null});
  }
 }

@@ -1,5 +1,5 @@
 {
-  "writer_version": "namedays-1.8.7",
+  "writer_version": "namedays-1.8.8",
   "enabled_countries": [
     "lv",
     "lt",
@@ -39,8 +39,8 @@
       "with_word_meanings": 54,
       "research_pending": 8,
       "editorial": {
-        "reviewed_narratives": 115,
-        "factual_summaries": 1230,
+        "reviewed_narratives": 166,
+        "factual_summaries": 1179,
         "attestation_only": 1,
         "needs_research": 222,
         "fictional_stories": 0,
@@ -51,7 +51,7 @@
           "lt",
           "et"
         ],
-        "with_related_context": 74,
+        "with_related_context": 73,
         "with_calendar_entry": 0
       }
     },
@@ -63,10 +63,10 @@
       "with_word_meanings": 59,
       "research_pending": 0,
       "editorial": {
-        "reviewed_narratives": 193,
-        "factual_summaries": 470,
-        "attestation_only": 13,
-        "needs_research": 877,
+        "reviewed_narratives": 246,
+        "factual_summaries": 435,
+        "attestation_only": 12,
+        "needs_research": 860,
         "fictional_stories": 0,
         "translated_languages": [
           "lv",
@@ -75,7 +75,7 @@
           "lt",
           "et"
         ],
-        "with_related_context": 160,
+        "with_related_context": 161,
         "with_calendar_entry": 0
       }
     }

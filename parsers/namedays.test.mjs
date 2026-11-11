@@ -256,3 +256,11 @@ test('reviewed LT calendar misspellings are corrected without adding duplicates'
  assert.deepEqual(doc.data.calendars.lt['05-14'].map(n=>n.name),['Bonifacas']);
  assert.deepEqual(doc.data.calendars.lt['03-06'].map(n=>n.name),['Felicita']);
 });
+
+test('popular EE and LT histories stay in their own country calendar',()=>{
+ for(const [name,country] of [['Margus','ee'],['Anton','ee'],['Antanas','lt'],['Irena','lt'],['Sirje','ee']]){
+  const p=buildProfile(name,country);for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.reviewed_narrative,true,name+' '+lang);assert.ok(c.history.join(' ').length>300);}
+ }
+ assert.equal(reviewedHistory('Anton','lt'),null);
+ for(const name of ['Irena','Sirje','Regina'])assert.notEqual(reviewedHistory(name,'lv'),reviewedHistory(name,name==='Sirje'?'ee':'lt'));
+});

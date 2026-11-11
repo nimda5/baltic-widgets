@@ -34,12 +34,16 @@ Writer version 1.7.0 removed fictional spelling-based histories and retains orig
 
 | Editorial level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed narrative | 392 | 115 | 193 |
-| Short factual summary | 4,052 | 1,230 | 470 |
-| Earlier attestation only | 369 | 1 | 13 |
-| Historical research still needed | 743 | 222 | 877 |
+| Reviewed narrative | 392 | 166 | 246 |
+| Short factual summary | 4,052 | 1,179 | 435 |
+| Earlier attestation only | 369 | 1 | 12 |
+| Historical research still needed | 743 | 222 | 860 |
 | Total profiles | 5,556 | 1,568 | 1,553 |
 | Fictional historical stories displayed | 0 | 0 | 0 |
+
+### Most common EE and LT names (November 2026, writer version 1.8.8)
+
+While the priority rounds continued with Latvian names, a separate round wrote reviewed histories for the most common Estonian and Lithuanian calendar names, ranked by official bearer counts (Statistics Estonia; the Registrų centras TOP 50 lists). Four modules, `public/namedays-history-eelt1-{ee-a,ee-b,lt-a,lt-b}.js`, add 96 families in five languages, for example Margus, Kristjan, Tiiu, Piret, Roman, Mark/Markus, Annika, Antanas/Anton, Kazimieras/Kazys, Jadvyga, Birutė, Kęstutis, Vincas and Nijolė. These stories are registered per country in `public/namedays-history.js`: Estonian entries apply only to the EE calendar and Lithuanian entries only to the LT calendar, so a spelling shared with Latvia (Irena, Regina, Sirje, Monika…) keeps its separately researched LV text. Jana and Arūnas remain open; Veronika is left to the LV round, and four Estonian entries (Tiiu, Rein, Maie, Ene) are marked for a better second paragraph because they draw on the same school-primer study. Every examined name is recorded in `research/namedays/round-eelt1-notes.json`; named rounds carry a `country` field, and the backlog generator reads them alongside numbered rounds.
 
 ### Priority research (November 2026, LV writer version 1.8.7)
 

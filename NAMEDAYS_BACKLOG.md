@@ -8,10 +8,10 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 392 | 115 | 193 |
-| Short factual summary | 4052 | 1230 | 470 |
-| Early record only | 369 | 1 | 13 |
-| Needs research | 743 | 222 | 877 |
+| Reviewed history | 392 | 166 | 246 |
+| Short factual summary | 4052 | 1179 | 435 |
+| Early record only | 369 | 1 | 12 |
+| Needs research | 743 | 222 | 860 |
 | Total profiles | 5556 | 1568 | 1553 |
 
 ## How to work through the backlog
@@ -27,14 +27,29 @@ Continue research in the shared branch `codex/namedays-round4`; do not create a 
 
 These names were examined but not written, usually because only a meaning was found and no verified historical detail. Each note says what to search next.
 
-All previously started spellings now have reviewed histories. Unknown roots remain explicitly qualified in the narratives. Continue with Priority 2.
+### LT
 
-## Priority 2: most common LV names without a reviewed history
+| Name | Now shows | Bearers | Why open | Next step |
+| --- | --- | --- | --- | --- |
+| Veronika | Short factual summary | 29983 | Written in parallel by the LV research round (r10); left to that entry to avoid duplicate keys. |  |
+| Arūnas | Short factual summary | 20338 | Origin verified, but no concrete, verifiable historical detail (coiner, first attestation, emblematic pre-modern bearer) found; the LKŽ neologism label for aras could not be opened directly (ekalba.lt returned no entry text). | Open the LKŽ entry for aras (lkz.lt / ekalba.lt) to confirm who introduced aras "eagle" and when; check Lithuanian onomastic literature (e.g. Kuzavinis & Savukynas, Lietuvių vardų kilmės žodynas) for when Arūnas first appeared as a given name. |
 
-Ranked by registered bearers (PMLP snapshot). These already show a short factual line, but are seen most often.
+### EE
 
-| Name | Now shows | LV bearers |
-| --- | --- | ---: |
+| Name | Now shows | Bearers | Why open | Next step |
+| --- | --- | --- | --- | --- |
+| Jana | Short factual summary | 2704 | No verified, name-specific historical detail found; et.wikipedia has only statistics and lv.wikipedia only a disambiguation page. Text must also hold for Latvian bearers (alsoLV). | Look for an EKI or Latvian (LU/LVA) note on when Jana entered Estonian/Latvian use, or a well-documented historical bearer named Jana. |
+
+## Priority 2: most common names without a reviewed history
+
+Ranked by official bearer counts. These already show a short factual line, but are seen most often.
+
+### LV
+
+LV: registered bearers (PMLP, name anywhere among given names).
+
+| Name | Now shows | Bearers |
+| --- | --- | --- |
 | Veronika | Short factual summary | 5221 |
 | Armands | Short factual summary | 5179 |
 | Dainis | Short factual summary | 5150 |
@@ -96,16 +111,103 @@ Ranked by registered bearers (PMLP snapshot). These already show a short factual
 | Darja | Short factual summary | 3403 |
 | Inna | Short factual summary | 3397 |
 
-## Priority 3: LV names with only a calendar date or an early record
+### LT
 
-| Name | Now shows | LV bearers |
-| --- | --- | ---: |
+LT: only the official TOP 50 men’s and women’s names have counts (Registrų centras, born since 1900); other names are listed afterwards.
+
+| Name | Now shows | Bearers |
+| --- | --- | --- |
+| Vida | Short factual summary | 15980 |
+| Gintaras | Short factual summary | 15070 |
+| Albinas | Short factual summary | 15050 |
+| Paulius | Short factual summary | 14571 |
+| Gediminas | Short factual summary | 14431 |
+| Egidijus | Short factual summary | 13591 |
+| Matas | Short factual summary | 13487 |
+
+### EE
+
+EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the source’s own suppressed values.
+
+| Name | Now shows | Bearers |
+| --- | --- | --- |
+| Veronika | Short factual summary | 2547 |
+| Konstantin | Short factual summary | 2147 |
+| Kalle | Short factual summary | 2106 |
+| Silver | Short factual summary | 2094 |
+| Henri | Short factual summary | 2055 |
+| Kristo | Short factual summary | 2039 |
+| Lea | Short factual summary | 2033 |
+| Ants | Short factual summary | 2025 |
+| Veera | Short factual summary | 1963 |
+| Ingrid | Short factual summary | 1925 |
+| Helle | Short factual summary | 1912 |
+| Ain | Short factual summary | 1890 |
+| Krista | Short factual summary | 1769 |
+| Tõnis | Short factual summary | 1762 |
+| Aili | Short factual summary | 1761 |
+| Hanna | Short factual summary | 1756 |
+| Maris | Short factual summary | 1750 |
+| Aino | Short factual summary | 1747 |
+| Monika | Short factual summary | 1707 |
+| Arvo | Short factual summary | 1673 |
+| Evelin | Short factual summary | 1658 |
+| Kairi | Short factual summary | 1650 |
+| Rain | Short factual summary | 1637 |
+| Alar | Short factual summary | 1610 |
+| Allan | Short factual summary | 1571 |
+| Rauno | Short factual summary | 1531 |
+| Kerli | Short factual summary | 1522 |
+| Veiko | Short factual summary | 1516 |
+| Sven | Short factual summary | 1510 |
+| Mattias | Short factual summary | 1474 |
+| Sten | Short factual summary | 1468 |
+| Jaanika | Short factual summary | 1460 |
+| Marju | Short factual summary | 1446 |
+| Silvi | Short factual summary | 1438 |
+| Signe | Short factual summary | 1437 |
+| Rene | Short factual summary | 1435 |
+| Ivo | Short factual summary | 1424 |
+| Risto | Short factual summary | 1415 |
+| Erki | Short factual summary | 1413 |
+| Ülo | Short factual summary | 1412 |
+| Evi | Short factual summary | 1402 |
+| Ragnar | Short factual summary | 1390 |
+| Joosep | Short factual summary | 1364 |
+| Helgi | Short factual summary | 1359 |
+| Eliise | Short factual summary | 1358 |
+| Aivo | Short factual summary | 1314 |
+| Triinu | Short factual summary | 1307 |
+| Raido | Short factual summary | 1303 |
+| Liidia | Short factual summary | 1295 |
+| Kertu | Short factual summary | 1294 |
+| Birgit | Short factual summary | 1277 |
+| Hugo | Short factual summary | 1258 |
+| Andre | Short factual summary | 1247 |
+| Emma | Short factual summary | 1224 |
+| Erika | Short factual summary | 1196 |
+| Heino | Short factual summary | 1187 |
+| Karmen | Short factual summary | 1177 |
+| Hendrik | Short factual summary | 1170 |
+| Johanna | Short factual summary | 1170 |
+| Märt | Short factual summary | 1154 |
+
+## Priority 3: names with only a calendar date or an early record
+
+Ranked by official bearer counts; names without a count follow in Priority 4 and 5.
+
+### LV
+
+LV: registered bearers (PMLP, name anywhere among given names).
+
+| Name | Now shows | Bearers |
+| --- | --- | --- |
 | Milans | Early record only | 125 |
+| Dāgs | Early record only | 123 |
 | Sibilla | Early record only | 123 |
 | Tadeušs | Early record only | 123 |
-| Dāgs | Early record only | 123 |
-| Keila | Early record only | 122 |
 | Jonatans | Early record only | 122 |
+| Keila | Early record only | 122 |
 | Daiva | Early record only | 121 |
 | Tihons | Early record only | 113 |
 | Iraīda | Early record only | 101 |
@@ -119,79 +221,166 @@ Ranked by registered bearers (PMLP snapshot). These already show a short factual
 | Dīns | Early record only | 72 |
 | Eila | Early record only | 71 |
 | Vaida | Early record only | 70 |
-| Rina | Early record only | 67 |
 | Pērle | Early record only | 67 |
+| Rina | Early record only | 67 |
 | Venta | Early record only | 57 |
 | Vidvuds | Early record only | 57 |
 | Ramina | Needs research | 56 |
 | Rets | Early record only | 56 |
 | Ramils | Needs research | 55 |
 | Treviss | Needs research | 55 |
-| Monvīds | Early record only | 54 |
 | Alons | Needs research | 54 |
+| Monvīds | Early record only | 54 |
 | Sentis | Early record only | 53 |
+| Elia | Needs research | 52 |
 | Enia | Needs research | 52 |
 | Uva | Early record only | 52 |
-| Elia | Needs research | 52 |
 | Līksma | Early record only | 51 |
-| Radmila | Early record only | 50 |
 | Normans | Early record only | 50 |
+| Radmila | Early record only | 50 |
 | Ingemārs | Early record only | 49 |
 | Telma | Early record only | 49 |
 | Manefa | Early record only | 48 |
 | Sebastjans | Early record only | 47 |
-| Nameda | Early record only | 46 |
 | Kestutis | Early record only | 46 |
+| Nameda | Early record only | 46 |
+| Allans | Early record only | 42 |
 | Džeida | Needs research | 42 |
 | Esēnija | Needs research | 42 |
-| Uno | Early record only | 42 |
-| Jurate | Needs research | 42 |
-| Allans | Early record only | 42 |
 | Jonatāns | Early record only | 42 |
+| Jurate | Needs research | 42 |
+| Uno | Early record only | 42 |
 | Arleta | Early record only | 41 |
 | Revita | Early record only | 41 |
-| Venita | Early record only | 41 |
 | Sanijs | Needs research | 41 |
 | Venija | Early record only | 41 |
+| Venita | Early record only | 41 |
 | Albīns | Early record only | 40 |
 | Tesa | Needs research | 39 |
-| Vaiva | Early record only | 38 |
 | Spartaks | Early record only | 38 |
+| Vaiva | Early record only | 38 |
 | Aļika | Needs research | 37 |
-| Steisija | Needs research | 36 |
-| Narine | Needs research | 36 |
 | Estella | Needs research | 36 |
-| Ritums | Early record only | 35 |
+| Narine | Needs research | 36 |
+| Steisija | Needs research | 36 |
 | Liepa | Needs research | 35 |
 | Rio | Early record only | 35 |
+| Ritums | Early record only | 35 |
 | Skarleta | Early record only | 35 |
-| Spulga | Early record only | 33 |
-| Maksimiljans | Early record only | 33 |
 | Ailands | Needs research | 33 |
-| Treisija | Needs research | 33 |
 | Ako | Early record only | 33 |
-| Kālebs | Needs research | 32 |
+| Maksimiljans | Early record only | 33 |
+| Spulga | Early record only | 33 |
+| Treisija | Needs research | 33 |
 | Anvars | Needs research | 32 |
+| Kālebs | Needs research | 32 |
+| Ninele | Early record only | 32 |
 | Persijs | Early record only | 32 |
 | Prans | Needs research | 32 |
-| Ninele | Early record only | 32 |
-| Roma | Early record only | 31 |
 | Ravita | Early record only | 31 |
+| Roma | Early record only | 31 |
 | Severīns | Early record only | 31 |
 | Fabians | Early record only | 30 |
 | Frīdis | Needs research | 30 |
 
-## Priority 4: LT names that still need research (222)
+### EE
 
-Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name's own stems from a source, and add a historical bearer only when one is documented.
+EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the source’s own suppressed values.
+
+| Name | Now shows | Bearers |
+| --- | --- | --- |
+| Tiia | Needs research | 2086 |
+| Maire | Needs research | 2006 |
+| Külli | Needs research | 1987 |
+| Aare | Needs research | 1925 |
+| Toivo | Early record only | 1680 |
+| Kadi | Needs research | 1678 |
+| Jaak | Needs research | 1605 |
+| Milvi | Needs research | 1588 |
+| Terje | Needs research | 1567 |
+| Aime | Needs research | 1548 |
+| Ave | Needs research | 1510 |
+| Siiri | Needs research | 1461 |
+| Hannes | Needs research | 1415 |
+| Kaire | Needs research | 1352 |
+| Argo | Early record only | 1324 |
+| Janno | Needs research | 1280 |
+| Mikk | Needs research | 1264 |
+| Kati | Needs research | 1237 |
+| Kai | Needs research | 1154 |
+| Marje | Needs research | 1135 |
+| Liivi | Needs research | 1115 |
+| Vahur | Needs research | 1052 |
+| Gert | Needs research | 1043 |
+| Jaana | Needs research | 1033 |
+| Kaidi | Needs research | 1033 |
+| Raili | Needs research | 1006 |
+| Ly | Needs research | 974 |
+| Harri | Needs research | 964 |
+| Rando | Needs research | 936 |
+| Jakob | Needs research | 919 |
+| Egert | Needs research | 907 |
+| Mait | Needs research | 872 |
+| Peep | Needs research | 866 |
+| Asta | Needs research | 863 |
+| Taivo | Early record only | 862 |
+| Kaur | Needs research | 845 |
+| Maimu | Needs research | 817 |
+| Viljar | Needs research | 807 |
+| Silvia | Needs research | 764 |
+| Kalmer | Needs research | 748 |
+| Tauri | Needs research | 745 |
+| Marianne | Needs research | 741 |
+| Moonika | Needs research | 740 |
+| Uno | Early record only | 739 |
+| Kirke | Needs research | 726 |
+| Aire | Needs research | 708 |
+| Sirli | Needs research | 699 |
+| Villu | Needs research | 655 |
+| Leida | Early record only | 649 |
+| Hille | Needs research | 642 |
+| Loore | Needs research | 627 |
+| Lilian | Needs research | 621 |
+| Teet | Needs research | 620 |
+| Valve | Needs research | 609 |
+| Elve | Needs research | 588 |
+| Saara | Needs research | 585 |
+| Fred | Needs research | 537 |
+| Sirle | Needs research | 523 |
+| Ervin | Needs research | 516 |
+| Eneli | Needs research | 502 |
+| Sille | Needs research | 480 |
+| Ardo | Needs research | 471 |
+| Eveli | Needs research | 466 |
+| Ergo | Needs research | 463 |
+| Saima | Needs research | 463 |
+| Karmo | Needs research | 442 |
+| Mall | Needs research | 438 |
+| Heigo | Needs research | 423 |
+| Vallo | Needs research | 421 |
+| Aivi | Needs research | 419 |
+| Riin | Needs research | 403 |
+| Virge | Needs research | 402 |
+| Liilia | Needs research | 401 |
+| Maili | Needs research | 388 |
+| Heldur | Needs research | 387 |
+| Mairo | Needs research | 387 |
+| Elsa | Needs research | 382 |
+| Herman | Needs research | 381 |
+| Ragne | Needs research | 381 |
+| Age | Needs research | 380 |
+
+## Priority 4: other LT names that still need research (222)
+
+These names are outside the official TOP 50 lists, so no count is available; the list is alphabetical. Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name’s own stems from a source, and add a historical bearer only when one is documented.
 
 Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bilmantas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvydė, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargintė, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Eularija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Geisvinė, Gelvydė, Gentvainas, Gentvila, Gerdvilas, Gerdvilė, Gilvainas, Gilvynas, Ginbutas, Girvydė, Gordijonas, Guntilda, Hetga, Iminė, Irenijus, Irvita, Josmilas, Juozapotas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Kolumbas, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liubartė, Liudginas, Liudlė, Liugailė, Mandravas, Mandravė, Mangailas, Mangailė, Mantgailas, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Norgaudė, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Saugardas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Steigintas, Svaigaudas, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvainas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaidvitė, Vaigedas, Vaigedė, Vaingedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vėjūnas, Veliuona, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilbutas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Vytartė, Vitbutas, Zygfrydas, Žadvainas, Žadvainis, Žybartė
 
-## Priority 5: EE names that still need research (877)
+## Priority 5: other EE names that still need research (785)
 
-No registry counts are available for Estonia, so the list is alphabetical. Estonian-coined and literary names (Aavik, Saal, Kalevipoeg) usually have the richest histories.
+Ranked by Statistics Estonia counts, with the bearer count in brackets. Estonian-coined and literary names (Aavik, Saal, Kalevipoeg) usually have the richest histories.
 
-Aabi, Aabo, Aadam, Aadi, Aalike, Aap, Aare, Aaro, Aasa, Aase, Adelheid, Adolf, Age, Agi, Agu, Agur, Aht, Aii, Aiki, Ailo, Aime, Aimer, Aimo, Aimur, Ainar, Ainari, Aini, Ainike, Aire, Aiver, Aivi, Albe, Albi, Albin, Albo, Aldi, Aldo, Aldur, Alf, Algi, Algo, Aller, Alli, Allo, Almar, Alme, Alve, Alver, Alvin, Alvo, Amalie, Ambrus, Ami, Andi, Andro, Andu, Annes, Anno, Annus, Anto, Antonia Ande, Antu, Arbo, Ardi, Ardo, Ardu, Are, Arm, Armand, Armas, Armi, Armiida, Armo, Arp, Arpo, Arro, Arto, Asko, Askur, Asmo, Asmus, Asse, Asso, Asta, Atso, Augst, Auli, Aulik, Aulis, Auni, Aurel, Aurelia, Auri, Auvo, Ave, Brigitta, Cecilia, Daaniel, Dagmar, Deboora, Dolores, Doora, Ebba, Ebe, Edi, Eede, Eedi, Eedit, Eeri, Eesi, Eevald, Eevo, Ege, Egert, Egil, Ehala, Eho, Eike, Eimar, Eke, Elar, Ele, Eleonoora, Elev, Elfi, Elfriide, Elias, Elme, Elmer, Elmet, Elmi, Els, Elsa, Else, Elve, Elviira, Elvo, Enda, Eneken, Enel, Eneli, Enelin, Enna, Enne, Eno, Ere, Ergi, Ergo, Erla, Erland, Erle, Ervi, Ervin, Ervo, Esmi, Esmo, Este, Esti, Ethel, Eugenia, Eveli, Evert, Fred, Fredi, Gerhard, Gert, Gisela, Guido, Haili, Haldi, Haldja, Haldo, Haldur, Halja, Haljand, Hallar, Halliki, Hannes, Hannus, Hardo, Harri, Harro, Hasso, Hedvig, Heelia, Heero, Heido, Heigo, Heinar, Heivo, Hela, Helar, Helari, Helbe, Helda, Helde, Heldi, Heldur, Helend, Helger, Helgo, Helin, Helja, Helje, Hell, Hellar, Hellen, Helli, Helliki, Helmar, Helmeles, Helmer, Helmo, Helmu, Helmur, Helmut, Hendrika, Hengo, Henna, Henni, Herald, Herbi, Herman, Hermann, Hermi, Hermo, Hiie, Hildegard, Hiljar, Hilje, Hiljo, Hilju, Hille, Hilli, Hillo, Hinge, Hingi, Hingo, Hirvo, Holger, Hrm, Huko, Hurme, Hurmi, Hädi, Häidi, Häili, Häli, Hälli, Härmel, Härmi, Härmo, Ihan, Ihanus, Iida, Iivi, Iivika, Ike, Iko, Illar, Illart, Ilse, Ilu, Imand, Imant, Imma, Imme, Immo, Ingeborg, Ingel, Inger, Ingi, Ingvar, Innar, Inno, Irja, Irje, Irmgard, Irmi, Iti, Ivalo, Jaagup, Jaak, Jaako, Jaana, Jaano, Jaanus, Jaap, Jako, Jakob, Janek, Janno, Jass, Joosu, Joosua, Juho, Jukk, Juss, Juudit, Jürgo, Jürja, Jürje, Jürjo, Jüts, Kaari, Kaaro, Kadi, Kadrin, Kahru, Kai, Kaidi, Kaidu, Kaimar, Kaire, Kairo, Kaivo, Kajar, Kalli, Kallis, Kalmer, Kalmo, Kanni, Kannike, Kanut, Kardo, Kari, Karin, Karli, Karlotte, Karme, Karmo, Karoliine, Karro, Kati, Kaubi, Kaur, Kauri, Keerdo, Kenno, Kerman, Kiira, Kiiri, Killu, Kimmo, Kindel, Kirke, Kirsti, Klaara, Klaarika, Kleemet, Koido, Koidu, Koidula, Kostel, Kreeta, Krister, Kristi, Kuido, Kulla, Kullar Kullo, Kulmo, Kulno, Kunder, Kurmo, Kustas, Kusti, Kusto, Kuulo, Kärdi, Külli, Küllo, Külve, Külvi, Külvo, Laar, Laas, Laide, Laidi, Laido, Laili, Lainela, Laini, Laive, Laivi, Lauli, Laur, Laurits, Lauro, Laus, Leegi, Leemo, Leen, Leena, Leeni, Leevi, Leevo, Lehar, Lehe, Leho, Lehti, Lehto, Leia, Leidi, Leido, Leidur, Leiger, Leine, Leini, Leivo, Lembe, Lembi, Lembo, Lemme, Lemmert, Lemmi, Lemmik, Lemmo, Leonoora, Leopold, Lepo, Liane, Liias, Liidi, Liili, Liilia, Liine, Liis, Liisa, Liisi, Liisu, Liivar, Liivi, Liivia, Liivika, Liivo, Lilian, Lille, Loit, Loomet, Loone, Loora, Loore, Lucia, Ludvig, Lui, Luige, Luukas, Luuli, Luulik, Ly, Maaja, Maali, Maano, Maanus, Maara, Maare, Maari, Maarius, Maasika, Madi, Madro, Magdaleena, Maido, Maidu, Maile, Maili, Mailis, Maime, Maimo, Maimu, Mainmi, Maire, Mairi, Mairo, Mait, Maiu, Maive, Maivi, Malde, Maldi, Malev, Mall, Malve, Malvi, Malvo, Mango, Manivald, Manni, Mardi, Mariann, Marianne, Mariina, Marili, Marje, Marjo, Marna, Marvi, Marvo, Mauno, Maur, Mauri, Maurits, Meeland, Meelik, Meelit, Meelitu, Meelo, Meelu, Meeme, Meemo, Meeri, Meevi, Mehto, Meida, Meila, Meili, Meinhard, Meino, Melanie, Meljo, Mella, Melli, Mello, Merike, Merli, Mesike, Miida, Mikk, Miko, Miku, Milde, Miljo, Milve, Milvi, Mirja, Mirje, Mirle, Mooni, Moonika, Mäido, Märten, Naima, Nanna, Neeme, Neemo, Neida, Niilas, Noora, Nuut, Olaf, Olav, Olger, Oliver, Olli, Olve, Olvi, Orvi, Osmar, Oss, Ove, Paap, Paavel, Parba, Pauliine, Pearn, Pearu, Peedo, Peep, Pendo, Pent, Piibe, Piine, Piiu, Preedik, Priida, Priide, Priidika, Priido, Priidu, Priit, Päive, Päivi, Päivo, Päivu, Pärja, Pärje, Pärle, Pärn, Pärno, Pärt, Pärtel, Päärn, Pääro, Ragne, Rahel, Raid, Raidu, Raik, Raili, Raimu, Raimund, Raine, Raini, Raino, Randel, Rando, Randolf, Rasmus, Reeda, Reedik, Reeli, Reena, Reene, Reeno, Reesi, Reimu, Rein, Reinhold, Reinu, Riin, Riina, Riine, Riko, Riku, Rista, Riste, Robi, Rolf, Ronald, Roome, Roomo, Roosi, Rosalie, Ruudi, Ruuta, Räni, Rünno, Saale, Saali, Saamo, Saamu, Saamuel, Saara, Saare, Saari, Saima, Saime, Saimi, Sale, Salli, Salmi, Salmo, Salve, Salvi, Sanne, Sass, Seida, Selmar, Selme, Senna, Senni, Siimo, Siimon, Siimu, Siiri, Siivi, Silje, Sille, Silvar, Silve, Silvia, Silvo, Simmo, Simmu, Simun, Singe, Sireli, Sirelin, Sirja, Sirle, Sirli, Snno, Solveig, Sula, Sulo, Sulve, Sulvi, Susi, Suuru, Svea, Sveno, Sõlmi, Säsil, Taale, Taali, Taalo, Taaniel, Taano, Taave, Taavet, Taavo, Taban, Tahvo, Taidi, Taido, Taidur, Taima, Taimar, Taimo, Taivi, Tali, Talva, Talve, Talvi, Talvo, Tamaara, Tambet, Tammo, Tamur, Tani, Tanno, Tapper, Tauri, Tavo, Teedo, Teedu, Teesi, Teet, Teetlev, Teeto, Teho, Tehvan, Tehvo, Teisi, Teri, Terje, Thea, Tiia, Tiino, Tilde, Timmo, Timmu, Tommi, Toom, Tooni, Tormi, Triin, Triina, Truude, Truuta, Tulev, Tunne, Tuudur, Tuulike, Tõivot, Tõivotu, Tõivu, Tõnno, Tähte, Tähti, Uko, Uljo, Ulmi, Ulrik, Ulve, Urban, Urbe, Urmi, Urva, Urves, Urvi, Ustav, Ustus, Vaane, Vaano, Vaarika, Vaho, Vahto, Vahur, Vaido, Vaige, Vaigi, Vaigo, Vaiki, Vaiko, Valba, Valbe, Valdek, Valdeko, Valdemar, Valdu, Valjo, Valju, Valle, Vallo, Vallot, Vallut, Valmar, Valme, Valmer, Valmi, Valmo, Valve, Valvi, Valvik, Valvo, Vambo, Vane, Vanevald, Varje, Varju, Varmo, Varve, Veegi, Veevi, Veevo, Veli, Vella, Velli, Velve, Velvo, Venda, Vendo, Venno, Verni, Veroonika, Veste, Viido, Viilo, Viilup, Viire, Viise, Viit, Viiva, Viivia, Viivika, Viivo, Vilbo, Vilimo, Viljar, Vilje, Viljer, Viljo, Vilju, Villi, Villo, Villu, Vilmar, Vilme, Vilmer, Vilmo, Vilve, Vilvi, Virge, Virgi, Virgo, Virma, Virme, Virmo, Virvi, Virvo, Vivian, Volber, Volli, Volmer, Võitur, Võso, Väiko, Väinu, Õile, Õili, Õrne, Üar, Üllart, Üllas, Ülve, Ürjo
+Merli (380), Mariann (365), Tormi (365), Ardi (355), Tambet (348), Agu (343), Guido (339), Roosi (337), Riko (335), Neeme (333), Maiu (324), Helje (322), Ainar (316), Koidu (309), Maido (305), Holger (297), Dagmar (296), Jaagup (295), Virgo (292), Leho (288), Ele (286), Andro (285), Mairi (281), Hiie (278), Elar (276), Märten (276), Jako (275), Helin (274), Vilve (274), Heinar (270), Kirsti (269), Marili (265), Karoliine (263), Irja (262), Karli (259), Mailis (253), Evert (251), Leena (251), Iti (250), Rahel (247), Thea (244), Meeri (243), Ronald (242), Varje (241), Illar (240), Laur (239), Asko (235), Viivika (234), Ruudi (232), Kardo (231), Andi (230), Valdek (229), Liivia (228), Vivian (227), Kaimar (224), Taimo (224), Kauri (223), Maive (218), Olav (214), Vaido (214), Erle (211), Aurelia (209), Pärtel (208), Maaja (207), Kuido (206), Randel (206), Ilse (203), Heldi (202), Kiira (200), Brigitta (195), Ethel (195), Taaniel (189), Krister (187), Eike (185), Elviira (181), Helbe (181), Helmut (179), Lembi (176), Aldo (175), Valmar (175), Maidu (174), Miko (172), Koidula (170), Ege (168), Innar (167), Rünno (167), Alli (163), Are (163), Raino (159), Laivi (157), Fredi (155), Kenno (155), Noora (155), Elias (154), Naima (153), Ove (152), Iivi (149), Kairo (149), Aiki (148), Reena (148), Klaarika (146), Talvi (146), Ingvar (145), Reeli (143), Ebe (140), Taimar (137), Kalli (136), Svea (135), Silvar (134), Armand (132), Juss (130), Loora (130), Helja (127), Kaari (127), Valdeko (126), Robi (125), Taavo (123), Liili (121), Timmo (121), Enel (120), Marvi (119), Priidu (118), Agur (117), Viljo (115), Vaiko (114), Simmo (113), Maimo (111), Ere (108), Maanus (108), Inger (106), Enna (105), Kusti (105), Eneken (104), Mauri (104), Aasa (103), Lehti (103), Hedvig (101), Meida (98), Taivi (98), Jaano (97), Kajar (97), Lille (96), Mirja (96), Eeri (94), Arto (92), Hardo (92), Mirje (92), Liivika (91), Maile (91), Mariina (91), Piibe (91), Asso (90), Veroonika (90), Volli (90), Aaro (88), Villi (88), Auli (87), Helari (87), Klaara (87), Laili (87), Lemmi (87), Aimur (86), Annes (86), Enda (85), Meinhard (85), Siivi (85), Helar (84), Pärt (82), Eimar (81), Kulla (81), Saamuel (80), Velli (80), Enelin (78), Olaf (78), Ulve (78), Leeni (76), Laidi (75), Viire (75), Gerhard (73), Iko (73), Melanie (73), Ingel (72), Luukas (72), Häli (71), Inno (71), Saale (71), Eno (70), Lemme (69), Iida (68), Vilmar (68), Aldur (67), Lembe (67), Raini (66), Killu (65), Sireli (65), Leevi (64), Mauno (64), Pauliine (64), Kaivo (63), Reesi (63), Heido (62), Sirelin (62), Uko (60), Kulno (59), Alver (58), Aadi (57), Andu (57), Lehar (57), Raine (57), Venno (57), Liivo (56), Tamur (56), Aulis (55), Riine (55), Alvin (54), Timmu (54), Anto (53), Liidi (53), Maivi (53), Pärja (53), Varmo (53), Hilje (52), Juho (52), Kaidu (52), Olli (52), Elvo (50), Jass (49), Lucia (49), Meeme (49), Tommi (49), Arbo (48), Elmet (48), Kimmo (48), Helger (47), Rolf (47), Säsil (47), Silje (47), Aini (46), Elme (46), Sulo (46), Vaiki (46), Daaniel (45), Eke (45), Liane (45), Liine (45), Maare (45), Olger (45), Siimo (45), Maime (44), Armo (43), Kadrin (43), Külvi (43), Leini (43), Hellen (42), Kari (42), Els (41), Veli (41), Helda (40), Kustas (40), Tähti (40), Tavo (40), Helli (39), Pärle (39), Reedik (39), Senni (39), Sirja (39), Gisela (38), Almar (37), Leen (37), Raimu (36), Sass (36), Taima (36), Liivar (35), Maarius (35), Sale (35), Eedi (34), Elmi (34), Adolf (33), Ami (33), Hermo (33), Huko (33), Irje (33), Pearu (33), Reeda (33), Armas (32), Elmer (32), Haldi (32), Leia (32), Olvi (32), Reene (32), Teesi (32), Halja (31), Küllo (31), Leidi (31), Solveig (31), Vambo (31), Aap (30), Esti (30), Laas (30), Reeno (30), Teisi (30), Hildegard (29), Jürgo (29), Rosalie (29), Tõnno (29), Valdu (29), Hermann (28), Maari (28), Malve (28), Marjo (28), Silve (28), Velvo (28), Heivo (27), Iivika (27), Siimon (27), Triina (27), Velve (27), Algi (26), Halliki (26), Kanni (26), Riste (26), Urmi (26), Anno (25), Dolores (25), Hasso (25), Hinge (25), Kurmo (25), Lembo (25), Paavel (25), Sanne (25), Tähte (25), Atso (24), Eesi (24), Päivi (24), Tanno (24), Valle (24), Venda (24), Algo (23), Auri (23), Else (23), Haljand (23), Härmo (23), Leopold (23), Ludvig (23), Lui (23), Tuulike (23), Vilvi (23), Edi (22), Ingeborg (22), Raimund (22), Aadam (21), Cecilia (21), Elfriide (21), Hallar (21), Hela (21), Hellar (21), Paap (21), Raik (21), Reinhold (21), Urvi (21), Valjo (21), Varju (21), Eugenia (20), Loit (20), Maano (20), Manivald (20), Marvo (20), Õrne (20), Valju (20), Helmer (19), Helmo (19), Ingi (19), Leivo (19), Maali (19), Maara (19), Valvi (19), Joosua (18), Jürjo (18), Karro (18), Leiger (18), Pent (18), Saimi (18), Ülve (18), Este (17), Mirle (17), Valvo (17), Arpo (16), Asmo (16), Ergi (16), Haldja (16), Hilli (16), Kerman (16), Kreeta (16), Õili (16), Pärje (16), Peedo (16), Viido (16), Villo (16), Virgi (16), Haldur (15), Harro (15), Heelia (15), Karme (15), Leegi (15), Meili (15), Randolf (15), Taali (15), Valmer (15), Henna (14), Hiljar (14), Kiiri (14), Lemmo (14), Õile (14), Orvi (14), Päärn (14), Raid (14), Tamaara (14), Toom (14), Vaige (14), Vendo (14), Aimo (13), Helgo (13), Loone (13), Manni (13), Meelik (13), Ruuta (13), Senna (13), Silvo (13), Ürjo (13), Vilme (13), Asse (12), Hengo (12), Mäido (12), Maur (12), Milde (12), Mooni (12), Tammo (12), Vilje (12), Ailo (11), Arp (11), Arro (11), Elfi (11), Herald (11), Hilju (11), Magdaleena (11), Melli (11), Mesike (11), Neemo (11), Talvo (11), Üllas (11), Valdemar (11), Veevo (11), Auni (10), Illart (10), Ivalo (10), Miku (10), Päivo (10), Tali (10), Valmo (10), Virmo (10), Aimer (9), Aller (9), Aurel (9), Ebba (9), Erland (9), Hurmi (9), Lepo (9), Malvi (9), Malvo (9), Milve (9), Priido (9), Sulvi (9), Tooni (9), Tuudur (9), Vallot (9), Valmi (9), Adelheid (8), Amalie (8), Doora (8), Elev (8), Hell (8), Imant (8), Jaako (8), Malev (8), Meino (8), Neida (8), Saamu (8), Siimu (8), Simmu (8), Ustav (8), Vane (8), Veste (8), Agi (7), Aiver (7), Egil (7), Ervi (7), Haili (7), Helend (7), Helmu (7), Henni (7), Ike (7), Juudit (7), Karlotte (7), Kuulo (7), Mango (7), Meljo (7), Teri (7), Väiko (7), Väinu (7), Veevi (7), Vella (7), Viiva (7), Alvo (6), Annus (6), Eleonoora (6), Erla (6), Ervo (6), Helliki (6), Hirvo (6), Immo (6), Irmgard (6), Kaaro (6), Lemmik (6), Preedik (6), Reinu (6), Saime (6), Taave (6), Tani (6), Vaarika (6), Vaigo (6), Viljer (6), Aase (5), Ainike (5), Aldi (5–8), Armi (5), Külve (5), Laive (5), Meila (5), Raidu (5), Räni (5), Rista (5), Susi (5–8), Teho (5), Truuta (5), Urva (5), Vaho (5), Viivo (5–8), Aabi (< 5), Aabo (< 5), Aalike (< 5), Aht (< 5), Aii (< 5), Ainari (< 5), Albe (< 5), Albi (< 5), Albin (< 5), Albo (< 5), Alf (< 5), Allo (< 5), Alme (< 5), Alve (< 5), Ambrus (< 5), Antonia Ande (< 5), Antu (< 5), Ardu (< 5), Arm (< 5), Armiida (< 5), Askur (< 5), Asmus (< 5), Augst (< 5), Aulik (< 5), Auvo (< 5), Deboora (< 5), Eede (< 5), Eedit (< 5), Eevald (< 5), Eevo (< 5), Ehala (< 5), Eho (< 5), Enne (< 5), Esmi (< 5), Esmo (< 5), Hädi (< 5), Häidi (< 5), Häili (< 5), Haldo (< 5), Hälli (< 5), Hannus (< 5), Härmel (< 5), Härmi (< 5), Heero (< 5), Helde (< 5), Helmar (< 5), Helmeles (< 5), Helmur (< 5), Hendrika (< 5), Herbi (< 5), Hermi (< 5), Hiljo (< 5), Hillo (< 5), Hingi (< 5), Hingo (< 5), Hrm (< 5), Hurme (< 5), Ihan (< 5), Ihanus (< 5), Ilu (< 5), Imand (< 5), Imma (< 5), Imme (< 5), Irmi (< 5), Jaap (< 5), Joosu (< 5), Jukk (< 5), Jürja (< 5), Jürje (< 5), Jüts (< 5), Kahru (< 5), Kallis (< 5), Kalmo (< 5), Kannike (< 5), Kanut (< 5), Kärdi (< 5), Kaubi (< 5), Keerdo (< 5), Kindel (< 5), Kleemet (< 5), Koido (< 5), Kostel (< 5), Kullar Kullo (< 5), Kulmo (< 5), Külvo (< 5), Kunder (< 5), Kusto (< 5), Laar (< 5), Laide (< 5), Laido (< 5), Lainela (< 5), Laini (< 5), Lauli (< 5), Lauro (< 5), Laus (< 5), Leemo (< 5), Leevo (< 5), Lehe (< 5), Lehto (< 5), Leido (< 5), Leidur (< 5), Leine (< 5), Lemmert (< 5), Leonoora (< 5), Liias (< 5), Loomet (< 5), Luige (< 5), Luuli (< 5), Luulik (< 5), Maasika (< 5), Madi (< 5), Madro (< 5), Mainmi (< 5), Malde (< 5), Maldi (< 5), Mardi (< 5), Marna (< 5), Maurits (< 5), Meeland (< 5), Meelit (< 5), Meelitu (< 5), Meelo (< 5), Meelu (< 5), Meemo (< 5), Meevi (< 5), Mehto (< 5), Mella (< 5), Mello (< 5), Miida (< 5), Miljo (< 5), Nanna (< 5), Niilas (< 5), Nuut (< 5), Olve (< 5), Osmar (< 5), Oss (< 5), Pääro (< 5), Päive (< 5), Päivu (< 5), Parba (< 5), Pärn (< 5), Pärno (< 5), Pearn (< 5), Pendo (< 5), Piine (< 5), Piiu (< 5), Priida (< 5), Priide (< 5), Priidika (< 5), Reimu (< 5), Riku (< 5), Roome (< 5), Roomo (< 5), Saali (< 5), Saamo (< 5), Saare (< 5), Saari (< 5), Salli (< 5), Salmi (< 5), Salmo (< 5), Salve (< 5), Salvi (< 5), Seida (< 5), Selmar (< 5), Selme (< 5), Simun (< 5), Singe (< 5), Snno (< 5), Sõlmi (< 5), Sula (< 5), Sulve (< 5), Suuru (< 5), Sveno (< 5), Taale (< 5), Taalo (< 5), Taano (< 5), Taban (< 5), Tahvo (< 5), Taidi (< 5), Taido (< 5), Taidur (< 5), Talva (< 5), Talve (< 5), Tapper (< 5), Teedo (< 5), Teedu (< 5), Teetlev (< 5), Teeto (< 5), Tehvan (< 5), Tehvo (< 5), Tiino (< 5), Tilde (< 5), Tõivot (< 5), Tõivotu (< 5), Tõivu (< 5), Truude (< 5), Tulev (< 5), Tunne (< 5), Üar (< 5), Uljo (< 5), Üllart (< 5), Ulmi (< 5), Ulrik (< 5), Urban (< 5), Urbe (< 5), Urves (< 5), Ustus (< 5), Vaane (< 5), Vaano (< 5), Vahto (< 5), Vaigi (< 5), Valba (< 5), Valbe (< 5), Vallut (< 5), Valme (< 5), Valvik (< 5), Vanevald (< 5), Varve (< 5), Veegi (< 5), Verni (< 5), Viilo (< 5), Viilup (< 5), Viise (< 5), Viit (< 5), Viivia (< 5), Vilbo (< 5), Vilimo (< 5), Vilju (< 5), Vilmer (< 5), Vilmo (< 5), Virma (< 5), Virme (< 5), Virvi (< 5), Virvo (< 5), Võitur (< 5), Volber (< 5), Volmer (< 5), Võso (< 5)
 
 ## Known data issues
 

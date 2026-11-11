@@ -22,6 +22,12 @@ import {historiesLatvianR7} from './namedays-history-r7-latvian.js';
 import {historiesBalticR7} from './namedays-history-r7-baltic.js';
 import {historiesLatvianR8} from './namedays-history-r8-latvian.js';
 import {historiesBalticR8} from './namedays-history-r8-baltic.js';
+// Most common EE and LT names by official bearer counts. These stories are scoped to their own country
+// calendar, so a shared spelling (for example Irena or Sirje) keeps its separately researched LV text.
+import {historiesEeA} from './namedays-history-eelt1-ee-a.js';
+import {historiesEeB} from './namedays-history-eelt1-ee-b.js';
+import {historiesLtA} from './namedays-history-eelt1-lt-a.js';
+import {historiesLtB} from './namedays-history-eelt1-lt-b.js';
 // Reviewed cultural histories. Literary plots are identified as literature;
 // a publication date is never presented as a person's first recorded name.
 const epic='https://enciklopedija.lv/skirklis/37565';
@@ -92,7 +98,9 @@ const entries={
   }
  }
 };
-const countryEntries={lv:historiesLatvianR9};
+// Anton is the Estonian spelling in the Antanas family entry.
+const {Anton,...popularLt}={...historiesLtA,...historiesLtB};
+const countryEntries={lv:historiesLatvianR9,ee:{...historiesEeA,...historiesEeB,Anton},lt:popularLt};
 export function reviewedHistory(name,country){
  const key=name.normalize('NFC').replace(/\.$/,'');
  return countryEntries[country]?.[key]||entries[key]||null;
