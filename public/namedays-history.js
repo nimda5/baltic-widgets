@@ -1,5 +1,6 @@
 import {researchedHistories} from './namedays-history-details.js';
 import {historiesLatvianR9} from './namedays-history-r9-lv.js';
+import {historiesLatvianR10} from './namedays-history-r10-lv.js';
 import {balticHistories} from './namedays-history-baltic.js';
 // Research round 2 (November 2026): verified family histories, one module per research batch.
 import {historiesClassicsM} from './namedays-history-r2-classics-m.js';
@@ -100,7 +101,7 @@ const entries={
 };
 // Anton is the Estonian spelling in the Antanas family entry.
 const {Anton,...popularLt}={...historiesLtA,...historiesLtB};
-const countryEntries={lv:historiesLatvianR9,ee:{...historiesEeA,...historiesEeB,Anton},lt:popularLt};
+const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10},ee:{...historiesEeA,...historiesEeB,Anton},lt:popularLt};
 export function reviewedHistory(name,country){
  const key=name.normalize('NFC').replace(/\.$/,'');
  return countryEntries[country]?.[key]||entries[key]||null;

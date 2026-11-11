@@ -1,0 +1,938 @@
+{
+  "round": 10,
+  "date": "2026-11-11",
+  "note": "The next 50 highest-ranked LV Priority 2 spellings have reviewed histories: 250 translations and 500 authored paragraphs. Research and regeneration are restricted to LV. All matching EE/LT profile and calendar bytes, coverage sections and five-language rendered copy remain unchanged against the pre-round baseline. The five topic modules are registered through the LV-only round-10 module; shared spellings cannot import these histories into foreign calendars. Unknown exact-spelling roots, alternative derivations, historical date precision, literary names, stage characters and mythological narratives remain explicitly qualified. Sources were opened and recorded in research files and profile provenance, never widget citation links. Soft-404 author leads and mismatched names were rejected. Raw downloads and source text remain private. Continue on codex/namedays-round4.",
+  "records": [
+    {
+      "batch": "next-50-common-lv",
+      "name": "Adrians",
+      "spellings": [
+        "Adrians"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Adrians",
+        "https://www.behindthename.com/name/adrians",
+        "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/"
+      ],
+      "facts_used": "Adrians is the Latvian form of Adrian, from Roman Hadrianus, from Hadria, a place in Italy. Its origin is geographical: a connection with a place rather than a quality assigned to everyone who bears the name. Emperor Hadrian belongs to the Roman name family. Following his visit to Britain in AD 122, the Roman army began building Hadrian’s Wall on his orders. English Heritage documents this specific monument connected with the imperial name.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The catalogue and name guide explicitly establish the Adrian/Hadrianus relationship. The Roman emperor illustrates the family, not the Latvian spelling in antiquity. Hadrian’s Wall began after his AD 122 visit, not necessarily completed that year.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Aina",
+      "spellings": [
+        "Aina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aina"
+      ],
+      "facts_used": "The dictionary connects Aina with Latvian aina, view. Separately it compares Finnish and Estonian Aino and Aina, linked with Finnish aino(a), only one. These accounts belong to different language traditions and are not merged into one meaning. The catalogue gives a possible personal-name record in Rūjiena in 1915. For the calendar it offers a possible 1896 entry with an additional 1889 reference in parentheses. Both calendar references remain, without selecting an independently proven first date.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Latvian view and the Finnish/Estonian only-one tradition remain separate. The 1915 personal record and both qualified calendar references, 1896 and parenthetical 1889, are retained without choosing an independently proven earliest date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Alla",
+      "spellings": [
+        "Alla"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alla"
+      ],
+      "facts_used": "Alla’s meaning remains unknown in the dictionary catalogue. The source describes an old feminine name used since the fourth century and also mentions a possible connection with Aleksandra. That comparison alone establishes no certain root. For Latvian calendar history the catalogue suggests an entry in 1899. This is a specific local calendar date with the source’s uncertainty retained. It does not date the origin of the name or the birth of its earliest bearer.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Meaning remains unknown and the Aleksandra connection is only possible. Fourth-century usage is attributed to the catalogue; the Latvian 1899 calendar date remains possible.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Amanda",
+      "spellings": [
+        "Amanda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Amanda",
+        "https://www.behindthename.com/name/amanda"
+      ],
+      "facts_used": "Amanda is linked with Latin amanda, lovable or worthy of love, and the feminine of Amandus. The name guide says seventeenth-century writers recreated it directly from the Latin word, distinguishing its linguistic basis from its later literary use. Playwright Colley Cibber named a character Amanda in Love’s Last Shift (1696). Separately, the Latvian catalogue gives a personal-name record in 1893 and a calendar entry in 1767. The English stage example does not replace those Latvian dates.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The name guide documents the Latin basis and seventeenth-century literary recreation. The 1696 English stage example is separate from Latvian personal-name and calendar dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Andis",
+      "spellings": [
+        "Andis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andis",
+        "https://www.literatura.lv/personas/andis-surgunts"
+      ],
+      "facts_used": "The dictionary lists Andis as a form of Andrejs. Greek andreios is explained as manly or brave. This historical meaning reaches the short form through its documented Andrejs relationship; it is not a judgement of an individual’s character. Poet Andis Surgunts’s selection Skaistākā no aizmiršanās hipotēzēm appeared with Orbīta in 2019, after his death. Valters Dakša’s publishing house issued another selection in 2021, continuing to bring his poetry to readers.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Andrejs relationship is explicit. Surgunts’s 2019 and 2021 selections appeared after his death; neither is described as a lifetime release.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Armands",
+      "spellings": [
+        "Armands"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Armands",
+        "https://www.literatura.lv/personas/armands-melnalksnis"
+      ],
+      "facts_used": "The dictionary links Armands with Hermanis and the Old High German elements heri, army or people, and man, man. These explain the historical name family rather than the character or occupation of an individual bearer. Poet Armands Melnalksnis published his first poem in Zvaigzne magazine in 1967. His first collection, Mainība, appeared with Liesma in 1973, followed by Karsts sudrabs vēja dūdās in 1978.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Arnis",
+      "spellings": [
+        "Arnis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Arnis",
+        "https://www.literatura.lv/personas/arnis-korosevskis"
+      ],
+      "facts_used": "The dictionary lists Arnis as a form of Arnolds, based on Old High German arn, eagle, and waltan, rule. This is an explicitly documented name-family link, rather than a relationship inferred solely from similar opening sounds. Literary scholar Arnis Koroševskis published Lielais noliedzējs, a monograph on Andrejs Upīts, in 2022. Issued by Dienas Grāmata, it continued his work with Upīts’s literary legacy and the writer’s memorial museum.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Artis",
+      "spellings": [
+        "Artis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Artis",
+        "https://www.literatura.lv/personas/artis-ostups"
+      ],
+      "facts_used": "The dictionary leaves two possibilities for Artis: a form of Arturs or a comparison with Latin ars, craft, art or knowledge. These are different origin accounts; translating the Latin word alone does not establish every bearer’s naming history. Artis Ostups debuted with Biedrs Sniegs in 2010, followed by Fotogrāfija un šķēres (2013) and Žesti (2016). In 2014 he founded the journal Punctum with Justīne Janpaule and Igors Gubenko.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Arturs and Latin ars are alternative proposals, not one certain derivation. Literary dates concern the actual poet Artis Ostups.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Daiga",
+      "spellings": [
+        "Daiga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Daiga",
+        "https://www.literatura.lv/personas/daiga-lapane"
+      ],
+      "facts_used": "The dictionary tentatively proposes a connection between Daiga and Lithuanian daigas, sprout. This is a possible comparison rather than a demonstrated naming route for every bearer. The plant image remains an origin proposal. Poet and translator Daiga Lapāne published Meditācija smilšu pulkstenī in 2000 and Mirklis virs valodas in 2012. She painted the watercolour used on her first collection’s cover, bringing visual art into her poetic work.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Lithuanian sprout comparison is tentative. Lapāne’s two collections and self-painted cover are documented; no borrowed Lithuanian calendar data are used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Daina",
+      "spellings": [
+        "Daina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Daina",
+        "https://www.literatura.lv/personas/daina-avotina"
+      ],
+      "facts_used": "Daina is formed from Latvian daina, folk song. The dictionary explains it as a local word used as a personal name. The masculine Dainis belongs to the same family, preserving the song connection in both forms. Daina Avotiņa wrote and translated, fostering exchanges between Latvian and Lithuanian literature. Soliņš pie Salacas appeared in 2018, publishing her correspondence with Lithuanian poet Alfonsas Maldonis, a real dialogue between two literary cultures.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Dainis",
+      "spellings": [
+        "Dainis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dainis",
+        "https://www.literatura.lv/en/persons/dainis-ivans"
+      ],
+      "facts_used": "Dainis is the masculine form of Daina. The dictionary derives the family from Latvian daina, folk song. A local word from the language and its song culture therefore underlies both the masculine and feminine personal names. Dainis Īvāns also wrote screenplays, including the documentaries Astoņas zvaigznes (2017) and Dziesmuvara (2018), and the historical drama Zeme, kas dzied (2024). His work connects public writing with Latvian history on screen.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Dāvis",
+      "spellings": [
+        "Dāvis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/D%C4%81vis",
+        "https://www.nkc.gov.lv/lv/tevs-nakts"
+      ],
+      "facts_used": "Dāvis is a form of Dāvids. The dictionary connects the family with Hebrew Dāwīd and the meaning beloved. The short form retains its relationship with a widespread international name while remaining a separately used Latvian spelling. Dāvis Sīmanis’s feature Tēvs Nakts appeared in 2018 in Latvia’s centenary film programme. It tells of Žanis Lipke and his family rescuing Jews during the Second World War, with Artūrs Skrastiņš playing Žanis.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Elza",
+      "spellings": [
+        "Elza"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elza"
+      ],
+      "facts_used": "The dictionary connects Elza with Elizabete. The latter entry offers several explanations of Hebrew ēlīšeba, including God is my oath. This is a traditional account of the family alongside other interpretations retained by the source. The catalogue dates an Elza record to 1506 and a calendar entry to 1892. Recording a personal name and giving it a calendar place are different events. The dates for Elza remain distinct from the history of the longer Elizabete form.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Elizabete relationship is explicit; God is my oath is one of the offered Hebrew accounts. The 1506 and 1892 dates belong to Elza.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Ernests",
+      "spellings": [
+        "Ernests"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ernests",
+        "https://www.behindthename.com/name/ernest"
+      ],
+      "facts_used": "Ernests belongs to the Ernest and Ernst family, from Old High German ernust, serious or earnest. The international name guide explicitly lists Ernests as the Latvian form, connecting the family account with this exact spelling. The Latvian catalogue records Ernests in Liepāja in 1687 and in a calendar in 1767. The related English form Ernest appears in Oscar Wilde’s comedy The Importance of Being Earnest (1895), a separate example from the English stage.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The name guide explicitly lists Ernests as Latvian and gives the Germanic root. The English Wilde character is a separate literary example, not a Latvian bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Estere",
+      "spellings": [
+        "Estere"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Estere",
+        "https://www.behindthename.com/name/esther"
+      ],
+      "facts_used": "Estere is the Latvian form in the Esther family. Two possibilities remain for its origin: Persian star or a connection with the goddess Ishtar. These are alternatives, not one proven root, a distinction retained by the international name guide. In the biblical Book of Esther, the queen reveals her Jewish ancestry to the king and saves her people from Haman’s plan. Her original name in the narrative is Hadassah. This is a specific religious-story association, not a date for the first Latvian bearer.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Persian star and the Ishtar derivation remain alternatives. The queen’s episode is explicitly the biblical narrative, not an independently dated Latvian historical event.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Evelīna",
+      "spellings": [
+        "Evelīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evel%C4%ABna",
+        "https://www.literatura.lv/personas/evelina-gramatniece"
+      ],
+      "facts_used": "The consulted dictionary material does not establish an origin for the exact spelling Evelīna. The catalogue distinguishes it from Evelina with a short i. Similar sound alone does not transfer the other form’s historical dates or explanation. Evelīna Grāmatniece published her first poem, Piesnigušā mežā, on 30 January 1915 in the literary supplement of Jauno Latviešu Avīžu. Her comedy Jaunsaimnieka līgava was staged in Liepāja in 1936 and later by Latvian theatre groups in exile.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The exact spelling is distinct from Evelina in the consulted catalogue. Root remains unestablished. Grāmatniece’s institutional biography independently documents the macron form and her 1915 publication.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Evija",
+      "spellings": [
+        "Evija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evija",
+        "https://www.literatura.lv/en/persons/evija-gulbe"
+      ],
+      "facts_used": "The dictionary explicitly places Evija under Eva. This records a family relationship, not a separate early attestation of Evija. Similarity of forms does not make an Eva historical date a date for this exact Evija spelling. Evija Gulbe published Koko un Riko in 2011. The characters’ adventures continued in further books, and Ģirts Šolis’s stage adaptation Koko un Riko premiered at the Latvian Puppet Theatre on 10 September 2017.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Evita",
+      "spellings": [
+        "Evita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evita",
+        "https://www.literatura.lv/personas/evita-hofmane"
+      ],
+      "facts_used": "The dictionary explicitly places Evita under Eva. This documents a name-family relationship but supplies no separate first-use date for Evita. Dates attached to Eva cannot therefore be relabelled as Evita dates without further evidence. Evita Hofmane won recognition at the first Vidzemes Prozas lasījumi in 2024 with her story Paslēpes. The literary database documents her as a writer and journalist and as head of the Iļģuciems branch library, a specific bearer in Latvian cultural work.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Eva reference does not transfer Eva’s dates to Evita. Hofmane was a laureate at the first Vidzemes Prozas lasījumi, not asserted to be its only or chronologically first winner.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Gatis",
+      "spellings": [
+        "Gatis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gatis",
+        "https://www.filmas.lv/person/92/"
+      ],
+      "facts_used": "For Gatis the dictionary points to Gothards. The latter entry gives Old High German got, god, and hart, strong or brave. This origin account reaches Gatis through a documented relationship with the longer form. Director Gatis Šmits completed the feature Seržanta Lapiņa atgriešanās in 2010. The film archive also credits him as one of four directors of Vogelfrei (2007) and as director of the historical feature 1906 (2019).",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The root elements belong to Gothards, reached through the catalogue’s explicit Gatis reference. The film archive verifies Šmits’s works; the unrelated Homo Novus lead was rejected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Gunārs",
+      "spellings": [
+        "Gunārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gun%C4%81rs",
+        "https://www.literatura.lv/personas/gunars-priede"
+      ],
+      "facts_used": "The dictionary connects Gunārs with Ginter and Guntrams, whose origin accounts differ. One family involves war and strength, the other Old High German gunt, battle, and hraban, raven. It selects no single secure root combination for Gunārs. Gunārs Priede’s first published play, Jaunākā brāļa vasara, appeared in Karogs in 1955 and was staged at the Dailes Theatre that year. He also wrote the screenplay for Elpojiet dziļi... (1967), publicly screened in 1986.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Ginter and Guntrams have different origin accounts. Gunārs Priede is the documented bearer; the initially examined Gunars Janovskis spelling was not silently equated with Gunārs. The 1967 film and its public screening in 1986 are distinct dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Gustavs",
+      "spellings": [
+        "Gustavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gustavs",
+        "https://www.president.lv/lv/Gustavs-Zemgals"
+      ],
+      "facts_used": "The dictionary offers several Scandinavian accounts of Gustavs, including elements glossed battle and staff, and a Swedish interpretation involving support of the people of Götaland. It does not securely select one original compound. Gustavs Zemgals chaired Latvia’s independence proclamation ceremony at the National Theatre on 18 November 1918. The Saeima elected him president on 8 April 1927, and he served until 9 April 1930.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Alternative Scandinavian and Swedish explanations remain unresolved. Zemgals’s ceremony and presidential dates were checked against the presidential office biography.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Iļja",
+      "spellings": [
+        "Iļja"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/I%C4%BCja"
+      ],
+      "facts_used": "The dictionary lists Iļja among Slavic forms of Eliass, mentioning Belarusian, Russian and Ukrainian. Hebrew Ēlīyyāhū is explained as Yahweh is my God. The language list does not establish every Latvian family’s borrowing route. The catalogue places the Latvian personal-name attestation in Vecsloboda in the first quarter of the twentieth century. It gives a place and period, not one exact year. This dates a local record rather than the much older Hebrew family’s origin.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The catalogue lists multiple Slavic-language forms without selecting one route for every Latvian family. The Vecsloboda record retains first-quarter-of-the-twentieth-century precision.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Jana",
+      "spellings": [
+        "Jana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jana",
+        "https://www.literatura.lv/personas/jana-egle"
+      ],
+      "facts_used": "The dictionary lists Jana as a form of Johanna, in turn connected to Johannes. The family’s Hebrew Yōḥānān is explained as Yahweh has shown grace. This documented chain links the short form with the wider international name family. Jana Egle published the story collection Gaismā in 2016. Her story Bedre later became the basis for Dace Pūce’s 2021 feature of the same name, a concrete passage from prose to the cinema.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Karīna",
+      "spellings": [
+        "Karīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kar%C4%ABna",
+        "https://www.literatura.lv/personas/karina-racko"
+      ],
+      "facts_used": "The consulted dictionary material does not establish an origin for the exact spelling Karīna. The catalogue reports its absence from the relevant scan and separately refers to Karina. That reference does not prove identical histories for the two spellings. Writer Karīna Gleitnere, also known as Karīna Račko, published Saplēstās mežģīnes with Zvaigzne ABC in 2017, followed by Debesis pelnos in 2018. Her institutional biography documents the exact spelling Karīna.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Root for the macron spelling remains unestablished. The institutional author biography documents Karīna Gleitnere / Račko. Inconsistent Samaitātā publication dates were excluded; only the verified 2017 and 2018 novels are used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Kristers",
+      "spellings": [
+        "Kristers"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristers",
+        "https://www.izpetnieks.lv/en/name/Kristi%C4%81ns"
+      ],
+      "facts_used": "The dictionary explicitly lists Kristers as a form of Kristiāns and connects it with Latin christiānus, Christian. This differs from the origin account of Kristaps: a similar opening does not make the two name families identical. For Kristers the catalogue gives a 1638 attestation in Vecpiebalga. The separate Kristiāns entry records 1582 and a calendar entry in 1767. Those longer-form dates remain attached to Kristiāns instead of becoming earlier records of Kristers.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The catalogue explicitly refers to Kristiāns, not Kristaps. The 1638 Vecpiebalga record belongs to Kristers; the separate Kristiāns dates of 1582 and 1767 remain attributed to that longer spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Lauris",
+      "spellings": [
+        "Lauris"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lauris"
+      ],
+      "facts_used": "Lauris is a form of Laurentijs. Latin Laurentius originally meant a man from Laurentum; association with the laurel wreath came later. The dictionary distinguishes these layers, preserving the place-name origin beside the familiar plant image. The Latvian usage catalogue records Lauris as a personal name in Smiltene in 1638 and gives a calendar entry in 1884. This supplies a place and year for one attestation without claiming the name was created there or then.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Man from Laurentum is distinguished from the later laurel-wreath association. The 1638 Smiltene record and 1884 calendar entry are not invention dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Ļubova",
+      "spellings": [
+        "Ļubova"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C4%BBubova"
+      ],
+      "facts_used": "For Ļubova the dictionary gives Russian ljubov’, love. This is a direct connection with a word in that language, rather than a meaning inferred from someone’s character. The Latvian spelling retains the personal name’s recognisable sound pattern. The catalogue dates a personal-name attestation to the last quarter of the nineteenth century and a calendar entry to 1899. The earlier record remains a period; the exact calendar year is not reused to invent an exact first personal-name date.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The nineteenth-century personal record retains last-quarter precision and is not converted into the exact 1899 calendar date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Māra",
+      "spellings": [
+        "Māra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/M%C4%81ra",
+        "https://www.literatura.lv/personas/mara-zalite"
+      ],
+      "facts_used": "For Māra the dictionary retains different possibilities: Marija or Tamāra, a Hebrew bitter interpretation, and separately Māra in Latvian folklore. These do not constitute one proven etymology. A possible Trikāta attestation is dated 1765. Māra Zālīte published Pieci pirksti in 2013 and its continuation Paradīzes putni in 2018, giving the childhood narrative a two-book span. She also wrote the libretto for the 1988 rock opera Lāčplēsis.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Marija, Tamāra, bitter and folklore interpretations remain separate. The Old High German roots under the unrelated Maraldi reference were not imported. The Trikāta 1765 record remains possible.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Mareks",
+      "spellings": [
+        "Mareks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Mareks"
+      ],
+      "facts_used": "The dictionary lists Mareks under Markuss as a Czech and Polish form. Its family account mentions Mars and a tentative comparison with Latin marcus, hammer. These are different etymological proposals rather than one uncontested translation. The catalogue places a possible Mareks personal-name attestation in the third quarter of the twentieth century and its calendar entry in 1972. This local chronology concerns Mareks, without turning Roman family history into a date for the Latvian spelling.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Czech/Polish form relationship is explicit. Mars and the questioned hammer comparison remain alternatives. The possible personal-name record retains third-quarter-of-the-twentieth-century precision.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Mārīte",
+      "spellings": [
+        "Mārīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/M%C4%81r%C4%ABte",
+        "https://www.literatura.lv/personas/marite-romane"
+      ],
+      "facts_used": "The dictionary refers Mārīte to Māra, whose entry offers several possibilities: Marija, Tamāra, a Hebrew bitter account and Latvian folklore interpretations. This reference does not select one uncontested root for Mārīte either. Mārīte Romāne, whose actual name was Marija Romāne, published the documentary miniatures Desmitvīru spēks in 1984. She also wrote stories and radio plays and worked in Latvian Radio’s children’s and youth department. Here Mārīte is a literary name.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Māra relationship inherits multiple unresolved proposals. Mārīte Romāne is explicitly a literary name; the biography gives her actual name as Marija Romāne.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Ņikita",
+      "spellings": [
+        "Ņikita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C5%85ikita"
+      ],
+      "facts_used": "The dictionary connects Ņikita with Greek nikaō, win. This explains the root. The source does not separately supply a complete personal-name translation victor, so the account retains the actual scope of its linguistic evidence. A possible personal-name attestation is dated to the third quarter of the nineteenth century; the calendar entry is dated 1889. The source’s caution and period precision are retained, and the calendar date remains separate from the earlier possible record.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Only the Greek verb gloss win is given, without presenting victor as a separate dictionary translation. The personal-name record remains possible and third-quarter-of-the-nineteenth-century.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Pāvels",
+      "spellings": [
+        "Pāvels"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/P%C4%81vels"
+      ],
+      "facts_used": "The dictionary connects Pāvels with the Pauls family and Latin paulus, small. That is the family’s etymological basis. Pāvels and Pauls remain distinct spellings whose historical dates cannot simply be exchanged. The catalogue dates a possible early personal-name attestation of Pāvels to 1515 and a possible calendar entry to 1889. Both dates retain the source’s qualification; neither establishes when the name was created.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Both the 1515 personal record and 1889 calendar date are explicitly possible. Pauls dates are not substituted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Raivis",
+      "spellings": [
+        "Raivis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Raivis"
+      ],
+      "facts_used": "The dictionary places Raivis under Raivo, described as an Estonian personal name or a name of unclear origin. The recorded relationship does not settle the root’s meaning, so no definite Latvian or Estonian translation is supplied. The catalogue gives a Raivis personal-name record in 1966 and a calendar entry in 1972. These two local dates concern Raivis itself; they are not borrowed from an Estonian Raivo calendar or from its earlier bearers.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The Raivo reference leaves the root uncertain. The 1966 and 1972 dates are Latvian Raivis records, not imported Estonian dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Reinis",
+      "spellings": [
+        "Reinis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Reinis"
+      ],
+      "facts_used": "The dictionary connects Reinis with both Reinhards and Reinholds. Both families contain ragin, counsel, but differ in the second element: hart, strong or brave, or waltan, rule. The source selects no single shortening route. The catalogue dates a personal-name attestation of Reinis to 1601 and a calendar entry to 1767. These different records trace the form’s local history without deciding which longer name lay behind a particular family’s choice.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Reinhards and Reinholds have different second elements and remain alternative shortening routes. Neither related form’s dates replace Reinis records.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Renārs",
+      "spellings": [
+        "Renārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ren%C4%81rs"
+      ],
+      "facts_used": "The dictionary lists Renārs as a French form under Reinhards. The base is explained through ragin, counsel of fate or the gods, and hart, strong or brave. This is a recorded family relationship rather than mere similarity between words. The catalogue places a Renārs personal-name attestation in Vaiņode in 1941 and its calendar entry in 1974. These local records remain distinct from the older history of Reinhards; related forms do not have interchangeable historical dates.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Ričards",
+      "spellings": [
+        "Ričards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ri%C4%8Dards",
+        "https://www.filmas.lv/person/92/"
+      ],
+      "facts_used": "The dictionary lists Ričards as an English form under Rihards, with Old High German rīchi, powerful, and hart, strong or brave. The nearby 1962 record concerns Ričarda and must not be reassigned to this masculine name. Ričards also appears as a Latvian stage character’s name. On graduating from the Academy of Culture in 1996, Gatis Šmits staged his diploma production Ričards III. Jorku ģimenes pēdējā ziema in the Dailes Theatre’s Small Hall.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The 1962 date belongs to Ričarda and is explicitly excluded as a male-name attestation. The archive documents Šmits’s 1996 diploma production, a stage-character association rather than a birth-name claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Rolands",
+      "spellings": [
+        "Rolands"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Rolands"
+      ],
+      "facts_used": "Rolands is based on Old High German hrōd or hruod, glory, and lant, land. The dictionary lists local short forms including Rola, Rols and Roliks, showing how one full personal name develops several conversational derivatives. The catalogue records Rolands in 1545 and gives a calendar entry in 1892. These belong to different layers of its history: a personal-name record and a later calendar. Neither is presented as the year the name was invented.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Samanta",
+      "spellings": [
+        "Samanta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Samanta",
+        "https://www.behindthename.com/name/samantha"
+      ],
+      "facts_used": "Samanta renders English Samantha. Samantha may have been formed as a feminine of Samuel with -antha, perhaps influenced by Greek anthos, flower. This is a proposal, not a demonstrated compound meaning such as God’s flower. The international name guide places Samantha’s beginnings in eighteenth-century America. The English form became more popular after Bewitched began in 1964, through its main character’s name. This describes English-language diffusion, not the first Latvian Samanta.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Samuel plus -antha and possible anthos influence remain a hypothesis. Bewitched’s 1964 influence concerns English Samantha, not the first Latvian Samanta.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Sanita",
+      "spellings": [
+        "Sanita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sanita",
+        "https://www.literatura.lv/personas/sanita-reinsone"
+      ],
+      "facts_used": "The dictionary places Sanita under Sane. It also tentatively compares Latin sanitas, health, marking the connection as uncertain. Health is therefore a proposed origin account rather than the one securely demonstrated meaning. Folklore researcher Sanita Reinsone published Meža meitas in 2015, collecting twelve women’s life accounts. In 2018 Mārtiņš Eihe adapted the book for Valmiera Drama Theatre, carrying those documentary voices onto the stage.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The sanitas proposal remains tentative. Meža meitas publication in 2015 and Eihe’s theatre adaptation in 2018 are distinct events.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Sarmīte",
+      "spellings": [
+        "Sarmīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sarm%C4%ABte"
+      ],
+      "facts_used": "The dictionary places Sarmīte under Sarma without giving it a separate root gloss. The documented relationship with Sarma can be stated; a different name or foreign-language origin should not be invented to replace that evidence. The catalogue dates a personal-name record of Sarmīte to 1922 and a calendar entry to 1925. The three-year interval separates two kinds of evidence: use of the name and its calendar inclusion, rather than a moment of invention.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Only the explicit Sarma relationship is claimed; no unsupported independent root gloss is added. Personal record 1922 and calendar entry 1925 remain separate.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Silvija",
+      "spellings": [
+        "Silvija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Silvija"
+      ],
+      "facts_used": "For Silvija the dictionary mentions Latin silva, forest, and silvia, forest dweller. This connects the personal name with the forest. These are linguistic indications from the source, not claims that every bearer was born or lived in woodland. The catalogue records Silvija in Rūjiena in 1884, with later records in 1973 and 1975. The calendar entry is dated 1880. Its local history therefore contains several usage dates alongside a separate calendar year.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Latin glosses are attributed to the dictionary. The 1884 Rūjiena record, 1973/1975 later records and 1880 calendar entry remain distinct.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Sintija",
+      "spellings": [
+        "Sintija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sintija",
+        "https://www.behindthename.com/name/cynthia"
+      ],
+      "facts_used": "The dictionary lists Sintija as a form of Kintija, connected with Greek Kynthia, woman from Cynthus, an epithet of Artemis. In Greek myth Cynthus is the mountain on Delos where the goddess and her twin brother Apollo were born. The catalogue dates Sintija’s calendar entry to 1970. This places the form in Latvian calendar tradition. It does not by itself identify the birth of the earliest bearer or the language through which an individual family encountered it.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The catalogue explicitly links Sintija, Kintija and Kynthia; the international Cynthia entry corroborates Sintija and the Artemis epithet. Birth on Delos is identified as Greek myth. The 1970 date concerns the Latvian calendar.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Tamāra",
+      "spellings": [
+        "Tamāra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tam%C4%81ra"
+      ],
+      "facts_used": "The dictionary connects Tamāra with Hebrew tāmār, date palm. It also tentatively mentions tamarisk, a different plant, so the two explanations remain distinct. Short and diminutive forms are also listed in the entry. The Latvian attestation is placed in Riga in the last quarter of the nineteenth century. The calendar entry is dated 1910. The first keeps the source’s quarter-century precision rather than an invented exact year; the second belongs to calendar history.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Date palm and tentative tamarisk are distinct plant accounts. The Riga record retains last-quarter-of-the-nineteenth-century precision.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Valērijs",
+      "spellings": [
+        "Valērijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Val%C4%93rijs",
+        "https://www.uefa.com/uefaeuro/history/news/0253-0d80a06bdc4c-93a26e80b8ff-1000--latvia-rally-from-two-down-against-iceland/"
+      ],
+      "facts_used": "The consulted dictionary material does not securely establish the origin of the spelling Valērijs: the catalogue says this exact form was not found in the scan. Valerijs is a different spelling whose explanation is not automatically transferred. Valērijs Šabala scored Latvia’s equaliser in Iceland in a European Championship qualifier on 10 October 2015. Latvia trailed 2–0 at half-time, but goals from Aleksandrs Cauņa and Šabala earned a 2–2 draw.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The exact macron spelling is not established in the dictionary scan; Valerijs is not substituted. UEFA documents Valērijs Šabala and the Iceland equaliser on 10 October 2015. The earlier Kazakhstan two-goal lead was not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Vera",
+      "spellings": [
+        "Vera"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vera"
+      ],
+      "facts_used": "The shared dictionary entry for Vera offers several distinct connections: Latin veras, true, Russian вера, faith, or a reference to Veronika. It does not combine them into one securely established origin. The entry’s catalogue gives an attestation in Rēzekne in 1876 and a calendar entry in 1883. These document the name’s Latvian history without choosing between the proposed language traditions or explaining every family’s naming decision.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Latin veras, Russian faith and the Veronika reference remain separate proposals. Dates are attributed to the shared dictionary entry.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Veronika",
+      "spellings": [
+        "Veronika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Veronika"
+      ],
+      "facts_used": "The dictionary catalogue offers two distinct accounts of Veronika: Greek pherō, bring, with nikē, victory, or Latin verus, true, with iconicus, image. It does not establish one certain origin for the name. For Latvian usage the catalogue records Veronika in Rēzekne in 1877 and in a calendar in 1892. These dates belong to a personal-name record and a calendar source respectively; neither is a date when the name was invented.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The catalogue offers two unresolved origin accounts, not a proven unified compound. The 1877 Rēzekne record and 1892 calendar entry have different source roles.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Vija",
+      "spellings": [
+        "Vija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vija",
+        "https://www.literatura.lv/personas/vija-beinerte"
+      ],
+      "facts_used": "Vija’s entry compares the Latvian common noun vija, twist or winding, and lists diminutives. This is a lexical comparison. The catalogue dates a personal-name record to the first quarter of the twentieth century and a calendar entry to 1910. Filmmaker and essayist Vija Beinerte published Tās dullās Paulīnes dēļ in 2005 and Klusumā sadzirdēt in 2010. Her books also include Elejas Veronika. Mūžs, kas nepieder sev (2011), extending her writing into a biographical account.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary relationship and the independently documented literary episode are kept distinct. No earliest-ever, name-invention, personality or universal family-naming claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Vita",
+      "spellings": [
+        "Vita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vita"
+      ],
+      "facts_used": "The shared dictionary entry for Vita gives Latin vīta, life, and lists several diminutives. Life is the Latin word’s gloss, explaining the personal name’s linguistic connection; the entry does not supply a separate expanded translation of the name. The catalogue dates the calendar entry to 1864 and a personal-name attestation to the first quarter of the twentieth century. The calendar date is earlier than the listed personal record. They are different source types, not interchangeable first-use dates.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "Life is the Latin word gloss; dates come from the shared entry. The 1864 calendar entry is earlier than the separately dated twentieth-century personal record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Vjačeslavs",
+      "spellings": [
+        "Vjačeslavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vja%C4%8Deslavs",
+        "https://www.saeima.lv/lv/sasaukumi/12-saeima/deputati/12-vjaceslavs-dombrovskis/"
+      ],
+      "facts_used": "Vjačeslavs is explained through Old Russian vjače, more, and slava, glory. The dictionary supplies these element meanings rather than a separate expanded translation of the whole personal name. They describe a historical Slavic compound. The parliamentary archive records Vjačeslavs Dombrovskis in the twelfth Saeima from 5 November 2014 to 30 April 2015. He served on its Budget and Finance Committee and chaired the Tax Policy Subcommittee from December.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The dictionary gives component glosses, not a separate complete translation. The parliamentary archive dates Dombrovskis’s temporary twelfth-Saeima mandate and subcommittee service; no current office claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "next-50-common-lv",
+      "name": "Žanna",
+      "spellings": [
+        "Žanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C5%BDanna"
+      ],
+      "facts_used": "The dictionary identifies Žanna as a French feminine form in the Johanna family. Its Johannes entry explains Hebrew Jəhānān and Jehohānān as Yahweh has shown favour. The French-form reference links Žanna with a wider international family. The catalogue records Žanna as a personal name in Nereta in 1891. It does not give that year as a calendar entry. This is a place-specific personal-name attestation whose source type remains distinct from modern calendar membership.",
+      "reason": "An opened dictionary or name-family reference supports the origin account, with a concrete dated calendar, archival, literary, cinematic or professional episode in a separate paragraph.",
+      "uncertainties": "The 1891 Nereta record is a personal-name attestation, not a calendar year. The French feminine relationship is explicitly sourced.",
+      "next_steps": ""
+    }
+  ]
+}

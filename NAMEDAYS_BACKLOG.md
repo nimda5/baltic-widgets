@@ -8,8 +8,8 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 392 | 166 | 246 |
-| Short factual summary | 4052 | 1179 | 435 |
+| Reviewed history | 442 | 166 | 246 |
+| Short factual summary | 4002 | 1179 | 435 |
 | Early record only | 369 | 1 | 12 |
 | Needs research | 743 | 222 | 860 |
 | Total profiles | 5556 | 1568 | 1553 |
@@ -50,56 +50,6 @@ LV: registered bearers (PMLP, name anywhere among given names).
 
 | Name | Now shows | Bearers |
 | --- | --- | --- |
-| Veronika | Short factual summary | 5221 |
-| Armands | Short factual summary | 5179 |
-| Dainis | Short factual summary | 5150 |
-| Pāvels | Short factual summary | 5140 |
-| Gatis | Short factual summary | 5130 |
-| Sanita | Short factual summary | 5088 |
-| Vera | Short factual summary | 5035 |
-| Alla | Short factual summary | 5025 |
-| Vija | Short factual summary | 4974 |
-| Ričards | Short factual summary | 4972 |
-| Māra | Short factual summary | 4822 |
-| Gustavs | Short factual summary | 4807 |
-| Valērijs | Short factual summary | 4678 |
-| Tamāra | Short factual summary | 4620 |
-| Jana | Short factual summary | 4599 |
-| Sintija | Short factual summary | 4583 |
-| Artis | Short factual summary | 4578 |
-| Sarmīte | Short factual summary | 4531 |
-| Evelīna | Short factual summary | 4525 |
-| Daina | Short factual summary | 4472 |
-| Reinis | Short factual summary | 4471 |
-| Rolands | Short factual summary | 4364 |
-| Arnis | Short factual summary | 4358 |
-| Dāvis | Short factual summary | 4256 |
-| Karīna | Short factual summary | 4246 |
-| Ļubova | Short factual summary | 4138 |
-| Ņikita | Short factual summary | 4123 |
-| Daiga | Short factual summary | 4072 |
-| Mārīte | Short factual summary | 4051 |
-| Adrians | Short factual summary | 4032 |
-| Mareks | Short factual summary | 4025 |
-| Vita | Short factual summary | 3988 |
-| Kristers | Short factual summary | 3977 |
-| Vjačeslavs | Short factual summary | 3906 |
-| Raivis | Short factual summary | 3890 |
-| Elza | Short factual summary | 3887 |
-| Amanda | Short factual summary | 3819 |
-| Lauris | Short factual summary | 3815 |
-| Evita | Short factual summary | 3812 |
-| Gunārs | Short factual summary | 3782 |
-| Renārs | Short factual summary | 3779 |
-| Evija | Short factual summary | 3752 |
-| Andis | Short factual summary | 3748 |
-| Žanna | Short factual summary | 3704 |
-| Ernests | Short factual summary | 3685 |
-| Iļja | Short factual summary | 3685 |
-| Estere | Short factual summary | 3652 |
-| Aina | Short factual summary | 3651 |
-| Silvija | Short factual summary | 3614 |
-| Samanta | Short factual summary | 3613 |
 | Guntars | Short factual summary | 3597 |
 | Ainārs | Short factual summary | 3574 |
 | Nikola | Short factual summary | 3568 |
@@ -110,6 +60,56 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Ruslans | Short factual summary | 3405 |
 | Darja | Short factual summary | 3403 |
 | Inna | Short factual summary | 3397 |
+| Līva | Short factual summary | 3388 |
+| Ksenija | Short factual summary | 3387 |
+| Olivers | Short factual summary | 3383 |
+| Regīna | Short factual summary | 3327 |
+| Jolanta | Short factual summary | 3305 |
+| Biruta | Short factual summary | 3298 |
+| Jēkabs | Short factual summary | 3296 |
+| Ingrīda | Short factual summary | 3280 |
+| Sandis | Short factual summary | 3266 |
+| Valters | Short factual summary | 3231 |
+| Alīna | Short factual summary | 3157 |
+| Valerijs | Short factual summary | 3108 |
+| Keita | Short factual summary | 3105 |
+| Patrīcija | Short factual summary | 3098 |
+| Rūdolfs | Short factual summary | 3091 |
+| Ligita | Short factual summary | 3074 |
+| Skaidrīte | Short factual summary | 3061 |
+| Romāns | Short factual summary | 3036 |
+| Antons | Short factual summary | 3009 |
+| Anda | Short factual summary | 2980 |
+| Ineta | Short factual summary | 2936 |
+| Dāvids | Short factual summary | 2935 |
+| Vilnis | Short factual summary | 2927 |
+| Antoņina | Short factual summary | 2913 |
+| Jevgeņijs | Short factual summary | 2891 |
+| Valērija | Short factual summary | 2889 |
+| Raisa | Short factual summary | 2886 |
+| Kristiāns | Short factual summary | 2877 |
+| Annija | Short factual summary | 2845 |
+| Kristiāna | Short factual summary | 2822 |
+| Romans | Short factual summary | 2820 |
+| Mārcis | Short factual summary | 2790 |
+| Velta | Short factual summary | 2790 |
+| Vineta | Short factual summary | 2783 |
+| Karina | Short factual summary | 2767 |
+| Jevgenijs | Short factual summary | 2749 |
+| Aļona | Short factual summary | 2745 |
+| Gita | Short factual summary | 2742 |
+| Luīze | Short factual summary | 2732 |
+| Sabīne | Short factual summary | 2727 |
+| Krista | Short factual summary | 2722 |
+| Gabriela | Short factual summary | 2698 |
+| Konstantīns | Short factual summary | 2696 |
+| Dārta | Short factual summary | 2686 |
+| Ilmārs | Short factual summary | 2656 |
+| Amēlija | Short factual summary | 2608 |
+| Alberts | Short factual summary | 2600 |
+| Dana | Short factual summary | 2582 |
+| Viesturs | Short factual summary | 2578 |
+| Jevgēnijs | Short factual summary | 2563 |
 
 ### LT
 
