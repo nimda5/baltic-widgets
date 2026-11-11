@@ -8,10 +8,10 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 366 | 109 | 190 |
-| Short factual summary | 4073 | 1230 | 470 |
+| Reviewed history | 372 | 115 | 193 |
+| Short factual summary | 4072 | 1230 | 470 |
 | Early record only | 369 | 1 | 13 |
-| Needs research | 748 | 228 | 880 |
+| Needs research | 743 | 222 | 877 |
 | Total profiles | 5556 | 1568 | 1553 |
 
 ## How to work through the backlog
@@ -27,35 +27,7 @@ Continue research in the shared branch `codex/namedays-round4`; do not create a 
 
 These names were examined but not written, usually because only a meaning was found and no verified historical detail. Each note says what to search next.
 
-### LV
-
-| Name | Now shows | LV bearers | Why open | Next step |
-| --- | --- | ---: | --- | --- |
-| Rajens | Needs research | 143 | The official English rendering manual was searched for Ryan and the exact Latvian forms. No explicit Rajens/Ryan correspondence was established; calendar co-grouping remains insufficient. | Find a primary paired Rajens/Ryan rendering or an exact-form historical personal record. |
-| Raens | Needs research | 116 | The English manual and exact-name searches did not establish Raens/Ryan. Bryan and Bryant substring hits do not document Ryan, and the shared calendar day was rejected as etymological proof. | Find an explicit Raens name entry or primary paired rendering; do not substitute Raiens. |
-| Aisma | Needs research | 71 | The catalogue still leaves origin unestablished and marks the 1932 calendar date as tentative. The tourism lead actually concerns Asnāte Ziemele, not Aisma; no biography was transferred. | Check the original Siliņš entry and find an independently dated exact Aisma cultural or archival record. |
-| Večeslavs | Needs research | 66 | The Russian rendering manual gives Вячеслав as Vjačeslavs. That different spelling does not establish the exact Večeslavs correspondence; no independent historical episode was found. | Locate an exact-form onomastic entry or paired primary document, retaining the spelling distinction. |
-| Iraisa | Needs research | 3 | The reopened exact catalogue still states origin not established. No authoritative bridge to Irais, Iraida or Raisa was obtained. | Inspect an exact given-name dictionary entry or a dated personal record; do not merge the similar forms. |
-| Iraidis | Short factual summary | 2 | The reopened catalogue explicitly says that the dictionary lists Iraīds, not Iraidis. Its Iraīda cross-reference does not establish an exact-form derivation. | Find Iraidis independently in historical records or an explicit scholarly name entry. |
-
-### LT
-
-| Name | Now shows | Why open | Next step |
-| --- | --- | --- | --- |
-| Girkantas | Needs research | The 2014 VDU thesis documents Girkantas as a surname. The given-name guide supplies stems, but a surname bearer is not a dated bearer of this forename. | Find exact given-name Girkantas in historical records or a scholarly history that explicitly connects its development. |
-| Liudmina | Needs research | The probed exact guide still lacks substantive entry text. Calendar journalism compares Liudmina and Liaudmina, but a scholarly exact-form history was not verified; Liudmila remains separate. | Check the official exact-name entry and the Liaudmina comparison in a scholarly given-name dictionary. |
-| Mantigirdas | Needs research | The 2009 historical paper uses Mantigirdas in a family-name context, including Petras Mantigirdas. This cannot be presented as the same given name or as evidence for equating it with Mangirdas. | Find an explicit onomastic relationship and an independent dated forename record. |
-| Sangailas | Needs research | The 2014 thesis connects Songaila/Sungaila surname forms with Sangaila and references Sangailas. It does not establish that the forename Sangailas is the medieval Sungaila; that biography remains excluded. | Locate a scholarly exact given-name entry or a primary Sangailas personal record before adding a historical narrative. |
-| Svirgailas | Needs research | The surname thesis discusses Svirgaila with tentative svirti and gail- comparisons. It does not establish an exact Svirgailas forename history; Švitrigaila was not substituted. | Find an exact given-name record or original onomastic discussion of Svirgailas. |
-| Žydris | Needs research | The guide probes still do not provide substantive exact-name text. No authoritative derivation or usable historical episode was established; near-spelling comparisons were not promoted to facts. | Find the exact official name entry and a primary dated personal-name record. |
-
-### EE
-
-| Name | Now shows | Why open | Next step |
-| --- | --- | --- | --- |
-| Kaarli | Needs research | Search material still concerns a place name or the grammatical genitive of Kaarel. Neither establishes the independent nominative forename Kaarli. | Locate Kaarli in an original recommendation list or an unambiguous personal register; keep inflected forms separate. |
-| Leeli | Needs research | The purported family-doctor lead actually concerns Le Vallikivi, not Leeli. It was rejected; place-name and Leelo/Leela comparisons still do not establish this given-name history. | Inspect an exact scholarly Leeli entry or an independently dated nominative personal record. |
-| Tiido | Needs research | New exact-form research still mainly yields surnames and village-name histories. The independently verified Tiidu record is a different spelling and was not copied across. | Find nominative given-name Tiido in a personal register or a precise onomastic authority. |
+All previously started spellings now have reviewed histories. Unknown roots remain explicitly qualified in the narratives. Continue with Priority 2.
 
 ## Priority 2: most common LV names without a reviewed history
 

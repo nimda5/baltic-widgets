@@ -19,6 +19,8 @@ import {historiesEstonianR6} from './namedays-history-r6-estonian.js';
 import {historiesBalticR6} from './namedays-history-r6-baltic.js';
 import {historiesLatvianR7} from './namedays-history-r7-latvian.js';
 import {historiesBalticR7} from './namedays-history-r7-baltic.js';
+import {historiesLatvianR8} from './namedays-history-r8-latvian.js';
+import {historiesBalticR8} from './namedays-history-r8-baltic.js';
 // Reviewed cultural histories. Literary plots are identified as literature;
 // a publication date is never presented as a person's first recorded name.
 const epic='https://enciklopedija.lv/skirklis/37565';
@@ -46,6 +48,8 @@ const entries={
  ...historiesBalticR6,
  ...historiesLatvianR7,
  ...historiesBalticR7,
+ ...historiesLatvianR8,
+ ...historiesBalticR8,
  'Lāčplēsis':{
   sources:[epic,remembrance],
   text:{

@@ -34,14 +34,14 @@ Writer version 1.7.0 removed fictional spelling-based histories and retains orig
 
 | Editorial level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed narrative | 366 | 109 | 190 |
-| Short factual summary | 4,073 | 1,230 | 470 |
+| Reviewed narrative | 372 | 115 | 193 |
+| Short factual summary | 4,072 | 1,230 | 470 |
 | Earlier attestation only | 369 | 1 | 13 |
-| Historical research still needed | 748 | 228 | 880 |
+| Historical research still needed | 743 | 222 | 877 |
 | Total profiles | 5,556 | 1,568 | 1,553 |
 | Fictional historical stories displayed | 0 | 0 | 0 |
 
-### Priority research (November 2026, writer version 1.8.5)
+### Priority research (November 2026, writer version 1.8.6)
 
 Round 5 examined every remaining Priority 1 spelling after round 4: 135 distinct names across 142 country profiles. It added 76 reviewed histories, each with two paragraphs in all five languages, covering 82 country profiles (38 LV, 7 LT and 37 EE). The other 59 spellings remained open at that stage, with individual reasons and concrete next steps in `research/namedays/round5-notes.json`. No unsupported origin was assigned to close a research gap.
 
@@ -53,9 +53,15 @@ New evidence includes the exact Brendons/Brandon and Ivete/Yvette pairs in Latvi
 
 Continue all subsequent name-day research in the shared branch `codex/namedays-round4`; do not create a branch per round. Source URLs remain in research files and provenance metadata. The widget displays the narratives without source links or citation lists. Raw snapshots and PDF extracts remain outside the portable repository.
 
-Round 7 examined all 39 remaining spellings and added 24 reviewed histories, each with two paragraphs in all five languages: 13 LV, 4 LT and 7 EE profiles. The new modules are `public/namedays-history-r7-{latvian,baltic}.js`; all 39 outcomes are recorded in `research/namedays/round7-notes.json`. Fifteen distinct Priority 1 spellings remain unresolved, with individual evidence gaps and next steps in the regenerated backlog.
+Round 7 examined all 39 remaining spellings and added 24 reviewed histories, each with two paragraphs in all five languages: 13 LV, 4 LT and 7 EE profiles. The new modules are `public/namedays-history-r7-{latvian,baltic}.js`; all 39 outcomes are recorded in `research/namedays/round7-notes.json`. Fifteen distinct Priority 1 spellings remained unresolved at that stage.
 
 New evidence includes Ahero's exact Emija/Emmy and Dorotija/Dorothy renderings, RSU's Kortnija/Courtney pairing, the Russian rendering manual and LU table for Savēlijs/Savelijs, and the historical Õnneleid naming episode in Tõnisson's family in 1882. Other histories use primary sporting results, institutional biographies, a parish-record transcription and scholarly discussions of Lithuanian compounds. Unknown roots remain unknown where only the name's historical use is established. The Turkish Alev tradition is explicitly separate from the unresolved Estonian origin, and historical records are not called the first occurrence or the creation of a name. Mismatched leads concerning Asnāte Ziemele and Le Vallikivi were rejected for Aisma and Leeli.
+
+Round 8 completed sourced narratives for all 15 remaining started spellings: Rajens, Raens, Aisma, Večeslavs, Iraisa, Iraidis, Girkantas, Liudmina, Mantigirdas, Sangailas, Svirgailas, Žydris, Kaarli, Tiido and Leeli. The two `public/namedays-history-r8-{latvian,baltic}.js` modules contain 75 translations and 150 paragraphs, covering 6 LV, 6 LT and 3 EE profiles. A reviewed narrative records verified use and history; it does not imply that an unknown etymology has been solved. The round notes explicitly retain those unknown roots and separate foreign homonyms, related literary forms and historical calendar variants.
+
+Evidence includes municipal newborn-name reports for Rajens and Raens, the 2019 Aisma gathering and an individual family naming account, Salys's exact Žydris entry and Girkantas calendar recommendation, the documented Svirgaila variant, Mantigirdas as governor in 1396, a 2002 Liudmina calendar entry, and the 1922 archival episode involving Tiido Laur. Sporting, professional and literary examples are attributed to their actual language and context. The earlier-round audit found no other unfinished started profiles and no written research note missing a reviewed profile. Its results and the next ranked LV names are in `research/namedays/round8-priority-audit.json`.
+
+Priority 1 is now empty. Priority 2 still displays the 60 most common LV names without reviewed histories, beginning with Valentīna, Jekaterina, Maija, Raimonds and Madara. This is a ranked excerpt of the larger backlog, not a claim that only 60 names remain. The complete unfinished inventory remains in `research/namedays/backlog.csv`. Round files are now ordered numerically so that round 10 and later cannot be superseded by older single-digit notes.
 
 ### Research round 2 (November 2026, writer version 1.8.0)
 

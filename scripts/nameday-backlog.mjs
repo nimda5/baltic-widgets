@@ -7,7 +7,8 @@ const project=new URL('../',import.meta.url),data=new URL('public/data/namedays/
 const read=async url=>JSON.parse(await readFile(url,'utf8'));
 const population=(await read(new URL('population-lv.json',data))).data;
 const notes=[];
-for(const file of (await readdir(new URL('research/namedays/',project))).filter(f=>/^round\d+-notes\.json$/.test(f)).sort())
+// Numeric order keeps round 10 and later newer than single-digit rounds.
+for(const file of (await readdir(new URL('research/namedays/',project))).filter(f=>/^round\d+-notes\.json$/.test(f)).sort((a,b)=>Number(a.match(/\d+/)[0])-Number(b.match(/\d+/)[0])))
  for(const record of (await read(new URL('research/namedays/'+file,project))).records)notes.push(record);
 // The latest note for a spelling wins; written notes are history, not backlog.
 const noteFor=new Map();
@@ -45,6 +46,7 @@ md.push('## How to work through the backlog','',
 const open=rows.filter(r=>r.note&&r.category!=='reviewed');
 md.push('## Priority 1: started in earlier rounds','',
  'These names were examined but not written, usually because only a meaning was found and no verified historical detail. Each note says what to search next.','');
+if(!open.length)md.push('All previously started spellings now have reviewed histories. Unknown roots remain explicitly qualified in the narratives. Continue with Priority 2.','');
 for(const country of ['lv','lt','ee']){
  const list=open.filter(r=>r.country===country).sort((a,b)=>(b.bearers??0)-(a.bearers??0)||a.name.localeCompare(b.name));
  if(!list.length)continue;

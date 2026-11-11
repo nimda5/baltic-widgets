@@ -1,0 +1,299 @@
+{
+  "round": 8,
+  "date": "2026-11-11",
+  "note": "All 15 remaining previously started Priority 1 spellings now have reviewed histories in five languages, covering 6 LV, 6 LT and 3 EE profiles. Reviewed history means a sourced account of documented use; it does not imply that an unknown root has been solved. Uncertain origins, distinct foreign naming traditions, related literary forms, historical calendar spellings and source-specific dates are explicitly qualified. The audit of all earlier round notes found no other started-but-unwritten names and no written note lacking a reviewed country profile. Priority 2 remains open: the backlog displays the 60 most common LV names with short summaries, starting with Valentīna, Jekaterina, Maija, Raimonds and Madara. That displayed list is a ranked excerpt, not the entire remaining research inventory. Work remains in codex/namedays-round4. Source URLs are provenance and working-file evidence only, never widget citations. Raw PDFs, HTML and rendered source images remain private.",
+  "records": [
+    {
+      "batch": "priority-completion",
+      "name": "Aisma",
+      "spellings": [
+        "Aisma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aisma",
+        "https://staburags.lv/arhivs/aismas-pulcejas-klintaine/"
+      ],
+      "facts_used": "The origin of Aisma remains unsettled. A specific family choice is documented: Aisma Baltiņa explained in an interview that her mother named her after a schoolmate from Klintaine. This personal transmission story does not establish one etymology for every Aisma. On 20 August 2019 Staburags reported Latvia’s third Aisma gathering. Eleven namesakes met at Baltiņa’s invitation in Klintaine, toured the Pļaviņas area and gathered at the parish library. Actress Regīna Devīte also attended; the participants called her their godmother.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Root remains unknown. The specific mother’s-schoolmate naming account and eleven-person 2019 gathering are primary interview/report evidence. Unsupported Greek-root and personality claims in the same article were excluded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Girkantas",
+      "spellings": [
+        "Girkantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=302",
+        "https://www.tv3.lt/vardadieniai/g/girkantas"
+      ],
+      "facts_used": "Girkantas is a Lithuanian two-stem name with differing explanations of its first part. Antanas Salys connects gir(t)- with girti, praise, while a popular guide offers giria, forest. The second part kant- is compared with words for endurance and patience; there is no single secure combined translation. The calendar in the 1964 Chicago publication Tikiu Dievą places Girkantas on 29 January with the short form Giras. This selection by A. Salys and priest Stasys Yla was reprinted in volume two of Salys’s collected writings in 1983. Publication does not date the name’s invention.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Salys associates gir(t)- with praise, whereas the modern guide compares forest. Both accounts remain distinct. The 1964 calendar and Giras short form were checked in the 1983 reprint; neither year is called the name’s creation date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Iraidis",
+      "spellings": [
+        "Iraidis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraidis",
+        "https://www.tribunacionaleticoenfermeria.com/mariasoto/",
+        "https://www.tribunacionaleticoenfermeria.com/wp-content/uploads/2024/05/ACUERDO-290-MODIFICACION-DE-REGLAMENTO-18-DE-MARZO.pdf#page=3"
+      ],
+      "facts_used": "The precise origin of Iraidis remains unestablished: the Latvian catalogue distinguishes it from dictionary form Iraīds. Iraidis also occurs as part of a woman’s compound personal name in Colombia. This foreign example proves neither shared origin nor identical gender use in both traditions. Nursing educator María Iraidis Soto Soto is documented in the history of Colombia’s nursing ethics tribunal. The signature page of its internal regulations adopted in Bogotá on 18 March 2024 identifies her as vice-president. The institution’s biography also describes her long work in nursing education.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "The catalogue distinguishes Iraidis from Iraīds; root remains unknown. The Colombian professional’s compound feminine name is explicitly a foreign parallel, not a universal origin or gender claim. Only public professional history is used; unrelated private-person, residential and court-case leads were excluded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Iraisa",
+      "spellings": [
+        "Iraisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraisa",
+        "https://www.medigraphic.com/pdfs/revcubmedmil/cmm-2020/cmm204g.pdf#page=1"
+      ],
+      "facts_used": "The Latvian name source leaves Iraisa’s origin unestablished. The same spelling also occurs in a woman’s personal name in a Spanish-language scientific paper. This documents international use, rather than a proven route into Latvia or equivalence with Raisa and Iraida. In 2020 Iraisa León Cid was the first author of a Revista Cubana de Medicina Militar paper about the experience of Havana’s Luis Díaz Soto hospital. It covered material from 2010–2019, with Guillermo Rodríguez Iglesias and Anadys Beatriz Segura Fernández as coauthors.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Local root and transmission remain unknown. The exact Spanish-language author name is an independent international attestation, not proof of a Latvian Raisa/Iraida family link. No clinical advice or medical outcome claim is included.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Kaarli",
+      "spellings": [
+        "Kaarli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.stat.ee/nimed/Kaarli",
+        "https://live.swimrankings.net/49589/StartList_14.pdf"
+      ],
+      "facts_used": "Kaarli is documented as an independent Estonian masculine given name: Statistics Estonia counts it separately in its data for 1 January 2026. This establishes personal-name use, but does not itself explain the origin or connect every instance with similar forms. The start list for the Karksi Kevad swimming meet in Viljandi on 12 April 2026 names Kaarli Haandi. He is entered in the men’s 50-metre butterfly. Surname and given name are explicitly separated, so Kaarli here is the athlete’s own given name.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Official statistics and an explicitly separated surname/given-name start-list entry establish independent personal-name use. Root remains unknown. The swimming source is a start list; no finishing result, medal or completed performance is invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Leeli",
+      "spellings": [
+        "Leeli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.stat.ee/nimed/Leeli",
+        "https://www.loc.gov/nls/wp-content/uploads/2017/11/TBT-Nov-Dec-2017-for-online112717.pdf#page=20"
+      ],
+      "facts_used": "Leeli is documented as an independent Estonian feminine name. Statistics Estonia records 12 women with it on 1 January 2026. Its origin remains unestablished; a similar village name or another given name does not itself prove an etymology. The same spelling belongs to Leeli Igiby in Andrew Peterson’s 2008 fantasy novel On the Edge of the Dark Sea of Darkness. The Library of Congress describes her finding a map with Janner and Tink and seeking family secrets. This is a literary example, not an origin account for the Estonian name.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Root remains unknown. Official Estonian feminine-name use is separate from Peterson’s English-language fictional character. The 2008 publication date does not date the first Estonian bearer. The Library of Congress PDF was detected by its PDF signature despite a non-PDF content-type.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Liudmina",
+      "spellings": [
+        "Liudmina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.lrytas.lt/gyvenimo-budas/seima/2018/07/02/news/vardu-reiksmes-liepos-2-8-d-varduvininkai-6755688",
+        "https://www.draugas.org/archive/2002_reg/2002-07-03-DRAUGAS-i7-8.pdf#page=6"
+      ],
+      "facts_used": "A Lithuanian newspaper’s name guide treats Liudmina together with Liaudmina. It proposes Lithuanian liaud-, people, and min-, mention or remember, interpreted as remembered by the people. This is that guide’s origin account; similar Liudmila is a different spelling. The Chicago Lithuanian newspaper Draugas already prints Liudmina in its calendar column on 3 July 2002. It appears alongside Anatolijus, Leonas, Rytis and Vaidilas. This documents the exact form in diaspora print, rather than dating the name’s invention.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "The newspaper guide’s Liaudmina relationship and root proposal are attributed, not presented as independently established scholarly consensus. The exact Liudmina spelling was visually verified in the 3 July 2002 Draugas calendar column; Liudmila remains separate.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Mantigirdas",
+      "spellings": [
+        "Mantigirdas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/m/mantigirdas",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=292",
+        "https://www.vle.lt/straipsnis/mantigirdai/"
+      ],
+      "facts_used": "Mantigirdas is a Lithuanian two-stem personal name. Mant- is compared both with manta, possessions or wealth, and mantus, resourceful or understanding. Gird- is linked with girdėti, hear, and girdas, news. These are old name elements rather than one uncontested sentence-like translation. The Universal Lithuanian Encyclopedia mentions Mantigirdas as governor of Polotsk in 1396 and names his sons Alekna, Petras and Jonas. The later family form Mantigirdaitis preserves a trace of this personal name. This is a specific historical attestation, not a claim about the very first bearer.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "The VLE article explicitly identifies the ancestor Mantigirdas as governor in 1396. This resolves the earlier family-name-only lead without treating Petras Mantigirdas as a bearer of this given name. Mant- has alternative glosses; no earliest-ever claim is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Raens",
+      "spellings": [
+        "Raens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Raens",
+        "https://novads.dundaga.lv/avize/d263_20210205.pdf#page=11"
+      ],
+      "facts_used": "Independent use of Raens for children in Latvia is documented in a municipal civil-registration report. Its precise borrowing route remains unknown. The spelling therefore cannot automatically be explained through Ryan or assigned the history of another similar name. The January–February 2021 issue of Dundadznieks lists Raens among the previous year’s rarer newborn names. The report then gave 51 registered people with that name in Latvia. This figure belongs to the historical report.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Root and Ryan correspondence remain unestablished. The 51-person figure is explicitly historical and attributed to the 2021 report, not substituted for the current registry count.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Rajens",
+      "spellings": [
+        "Rajens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Rajens",
+        "https://kuldigasnovads.lv/wp-content/uploads/2022/08/vestis_29_01_2015.pdf#page=4"
+      ],
+      "facts_used": "Rajens is documented as a boy’s name in Latvia, but its precise origin remains unestablished. Resemblance to foreign names does not establish one etymology. Kuldīga’s civil-registration report lists this spelling separately from Rainers. The municipal newspaper of 29 January 2015 reviewed the previous year’s registrations: the office had registered 261 newborns. Rajens appeared among unusual choices for boys, alongside Arons, Samuēls, Brendons and Amadejs. This is a specific attestation of use in 2014.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Root and foreign rendering remain unknown. The 2015 municipal report attests newborn naming in 2014, not the first occurrence or invention of the name. Its separate Rainers entry is not an etymological link.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Sangailas",
+      "spellings": [
+        "Sangailas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.vardai.org/vardo-reiksme/sangailas/",
+        "https://www.tevu-darzelis.lt/vaiku-vardai/sangailas/",
+        "https://www.sundance.org/blogs/2015-sundance-film-festival-announces-feature-film-awards-3/"
+      ],
+      "facts_used": "Sangailas is a Lithuanian two-stem name: san- is compared with together or with, and gail- with gailas, strong or vigorous. The guide lists old variant Sangaila, while its name family includes feminine Sangailė. This does not automatically equate it with every similar medieval spelling. Related feminine Sangailė entered cinema. Alantė Kavaitė won the World Cinema Dramatic Directing Award at Sundance in 2015 for The Summer of Sangaile. Its fictional Sangailė is a seventeen-year-old girl fascinated by stunt planes.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "A guide and family list explicitly identify the old Sangaila variant and related feminine Sangailė. The 2015 film episode concerns the feminine literary form, not the masculine name’s invention. No unsupported equation with medieval Sungaila is asserted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Svirgailas",
+      "spellings": [
+        "Svirgailas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.vardai.org/vardo-reiksme/svirgailas/",
+        "https://www.tv3.lt/vardadieniai/s/svirgailas",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=300"
+      ],
+      "facts_used": "Svirgailas is a Lithuanian two-stem name; the guide explicitly lists variant Svirgaila and short forms Sviras and Svirius. Gail- is compared with gailas, strong or vigorous, while several related words are proposed for svir-. One literal translation is therefore uncertain. The 1964 Tikiu Dievą name calendar uses the specific form Svirgaila, on 2 December, with short form Sviras. A. Salys’s selection of native names was reprinted in his 1983 collected writings. This records the documented variant’s calendar history.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "The guide explicitly bridges Svirgailas and Svirgaila. The 1964 calendar uses Svirgaila, and the narrative identifies that exact historical variant rather than silently replacing it. Svir- remains uncertain; Švitrigaila is not substituted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Tiido",
+      "spellings": [
+        "Tiido"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.stat.ee/nimed/Tiido",
+        "https://en.wikipedia.org/wiki/Tiido_Laur",
+        "https://tuna.ra.ee/wp-content/uploads/tuna-2020-4-mihkel-truman-cederberg.pdf#page=6"
+      ],
+      "facts_used": "Tiido is an independent Estonian masculine given name, also confirmed by its separate Statistics Estonia entry. It is not confined to a surname or place-name spelling. These sources do not explain its precise etymology, so the origins of similar Tiidu or Tiit are not automatically transferred. On 10 December 1922 archivist Tiido Laur was selected to represent municipal archive keepers on Estonia’s Archives Council for three years. Mihkel Truman’s study in Tuna describes the episode, citing the council’s meeting record of 18 December.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "The root and Tiit/Tiidu relationship remain unknown. The National Archives-hosted study gives the 10 December 1922 election, supported by its 18 December 1922 council-minute citation. Laur’s nominative surname is separately corroborated; surname and place-name hits were not used as etymology.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Večeslavs",
+      "spellings": [
+        "Večeslavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ve%C4%8Deslavs",
+        "https://athletics.lv/lv/person/9207"
+      ],
+      "facts_used": "Večeslavs is independently documented as a masculine name in the Latvian Athletics Association’s results archive. Its precise origin remains unestablished. The explanation of similar Vjačeslavs cannot automatically be transferred to this spelling without a separately demonstrated link. Večeslavs Mitins ran the Valmiera marathon in 3:42:12 on 30 September 2007. The following spring, on 18 May 2008, the archive records his 1:31:29 half-marathon in Riga. These are dated sporting performances by a specific bearer of the name.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Root and Vjačeslavs correspondence remain unknown. The Latvian Athletics Association documents the exact given name and actual 2007/2008 sporting results; no etymology was inferred from them.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-completion",
+      "name": "Žydris",
+      "spellings": [
+        "Žydris"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=280",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2001~1367164470999/J.04~2001~1367164470999.pdf#page=7"
+      ],
+      "facts_used": "Žydris is documented as a Lithuanian masculine personal name. Linguistic writing also records the common noun žydris, the blueness of the sky, providing a specific lexical comparison. That comparison alone does not establish each family’s naming route. The proper-name list in volume two of Antanas Salys’s 1983 collected writings gives Žydris its own entry, with genitive ending -io. Žydrė and Žydrūnas appear in separate neighbouring entries. This is direct dictionary evidence for Žydris itself, not merely a similar longer name.",
+      "reason": "An exact-name or explicitly documented related-form attestation and a concrete archival, calendar, dictionary, sporting, professional or cultural episode support two paragraphs in all five languages.",
+      "uncertainties": "Salys lists the exact masculine personal name, with genitive -io, separately from Žydrė and Žydrūnas. The noun žydris is documented by the 2001 linguistic study; its resemblance is a lexical comparison, not a universal family naming account. The collection year is not a creation date.",
+      "next_steps": ""
+    }
+  ]
+}

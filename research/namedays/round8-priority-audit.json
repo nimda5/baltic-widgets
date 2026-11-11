@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-11",
+  "writer_version": "namedays-1.8.6",
+  "branch": "codex/namedays-round4",
+  "scope": "Audit all research round notes against the actual country profiles and displayed reviewed narratives. The common-LV list is the next 60 ranked names shown in Priority 2, not the complete unfinished inventory.",
+  "notes_checked": [
+    "round2-notes.json",
+    "round3-notes.json",
+    "round4-notes.json",
+    "round5-notes.json",
+    "round6-notes.json",
+    "round7-notes.json",
+    "round8-notes.json"
+  ],
+  "round_files": 7,
+  "current_coverage": {
+    "lv": {
+      "reviewed": 372,
+      "summary": 4072,
+      "attestation": 369,
+      "unresearched": 743
+    },
+    "lt": {
+      "reviewed": 115,
+      "summary": 1230,
+      "attestation": 1,
+      "unresearched": 222
+    },
+    "ee": {
+      "reviewed": 193,
+      "summary": 470,
+      "attestation": 13,
+      "unresearched": 877
+    }
+  },
+  "unfinished_previously_started": [],
+  "written_note_without_reviewed_profile": [],
+  "next_common_lv_priority": [
+    {
+      "name": "Valentīna",
+      "bearers": 11972
+    },
+    {
+      "name": "Jekaterina",
+      "bearers": 7075
+    },
+    {
+      "name": "Maija",
+      "bearers": 6863
+    },
+    {
+      "name": "Raimonds",
+      "bearers": 6160
+    },
+    {
+      "name": "Madara",
+      "bearers": 6068
+    },
+    {
+      "name": "Santa",
+      "bearers": 6052
+    },
+    {
+      "name": "Artjoms",
+      "bearers": 6001
+    },
+    {
+      "name": "Vadims",
+      "bearers": 5840
+    },
+    {
+      "name": "Deniss",
+      "bearers": 5804
+    },
+    {
+      "name": "Liene",
+      "bearers": 5788
+    },
+    {
+      "name": "Ņina",
+      "bearers": 5764
+    },
+    {
+      "name": "Markuss",
+      "bearers": 5706
+    },
+    {
+      "name": "Paula",
+      "bearers": 5664
+    },
+    {
+      "name": "Inta",
+      "bearers": 5640
+    },
+    {
+      "name": "Rihards",
+      "bearers": 5600
+    },
+    {
+      "name": "Irēna",
+      "bearers": 5558
+    },
+    {
+      "name": "Anatolijs",
+      "bearers": 5483
+    },
+    {
+      "name": "Ralfs",
+      "bearers": 5443
+    },
+    {
+      "name": "Normunds",
+      "bearers": 5368
+    },
+    {
+      "name": "Marks",
+      "bearers": 5297
+    },
+    {
+      "name": "Veronika",
+      "bearers": 5221
+    },
+    {
+      "name": "Armands",
+      "bearers": 5179
+    },
+    {
+      "name": "Dainis",
+      "bearers": 5150
+    },
+    {
+      "name": "Pāvels",
+      "bearers": 5140
+    },
+    {
+      "name": "Gatis",
+      "bearers": 5130
+    },
+    {
+      "name": "Sanita",
+      "bearers": 5088
+    },
+    {
+      "name": "Vera",
+      "bearers": 5035
+    },
+    {
+      "name": "Alla",
+      "bearers": 5025
+    },
+    {
+      "name": "Vija",
+      "bearers": 4974
+    },
+    {
+      "name": "Ričards",
+      "bearers": 4972
+    },
+    {
+      "name": "Māra",
+      "bearers": 4822
+    },
+    {
+      "name": "Gustavs",
+      "bearers": 4807
+    },
+    {
+      "name": "Valērijs",
+      "bearers": 4678
+    },
+    {
+      "name": "Tamāra",
+      "bearers": 4620
+    },
+    {
+      "name": "Jana",
+      "bearers": 4599
+    },
+    {
+      "name": "Sintija",
+      "bearers": 4583
+    },
+    {
+      "name": "Artis",
+      "bearers": 4578
+    },
+    {
+      "name": "Sarmīte",
+      "bearers": 4531
+    },
+    {
+      "name": "Evelīna",
+      "bearers": 4525
+    },
+    {
+      "name": "Daina",
+      "bearers": 4472
+    },
+    {
+      "name": "Reinis",
+      "bearers": 4471
+    },
+    {
+      "name": "Rolands",
+      "bearers": 4364
+    },
+    {
+      "name": "Arnis",
+      "bearers": 4358
+    },
+    {
+      "name": "Dāvis",
+      "bearers": 4256
+    },
+    {
+      "name": "Karīna",
+      "bearers": 4246
+    },
+    {
+      "name": "Ļubova",
+      "bearers": 4138
+    },
+    {
+      "name": "Ņikita",
+      "bearers": 4123
+    },
+    {
+      "name": "Daiga",
+      "bearers": 4072
+    },
+    {
+      "name": "Mārīte",
+      "bearers": 4051
+    },
+    {
+      "name": "Adrians",
+      "bearers": 4032
+    },
+    {
+      "name": "Mareks",
+      "bearers": 4025
+    },
+    {
+      "name": "Vita",
+      "bearers": 3988
+    },
+    {
+      "name": "Kristers",
+      "bearers": 3977
+    },
+    {
+      "name": "Vjačeslavs",
+      "bearers": 3906
+    },
+    {
+      "name": "Raivis",
+      "bearers": 3890
+    },
+    {
+      "name": "Elza",
+      "bearers": 3887
+    },
+    {
+      "name": "Amanda",
+      "bearers": 3819
+    },
+    {
+      "name": "Lauris",
+      "bearers": 3815
+    },
+    {
+      "name": "Evita",
+      "bearers": 3812
+    },
+    {
+      "name": "Gunārs",
+      "bearers": 3782
+    }
+  ]
+}
