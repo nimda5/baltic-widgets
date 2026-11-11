@@ -1,0 +1,554 @@
+{
+  "round": 11,
+  "date": "2026-11-12",
+  "note": "Calendar-order research examined every unfinished 12 November name in all three calendars: 14 LV, 6 LT and 3 EE profiles. Seventeen now have reviewed histories (9 LV, 5 LT, 3 EE). Six remain unverified (5 LV and 1 LT), with explicitly labelled widget hypotheses, source basis and concrete next verification steps. These six remain in Priority 0 and the full date queue; the day is not declared verified-complete and no later date is researched in this round. Hypotheses are stored separately from reviewed histories, never counted as reviewed and never copied into another name’s related-history panel. Source URLs remain working-file/provenance metadata only. Raw PDF, HTML and rendered source checks remain private. Continue in codex/namedays-round4.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "ee",
+      "name": "Konrad",
+      "spellings": [
+        "Konrad"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.behindthename.com/name/konrad",
+        "https://www.behindthename.com/name/conrad",
+        "https://kunstimuuseum.ekm.ee/syndmus/konrad-magi/"
+      ],
+      "facts_used": "Konrad is a Conrad-family form with Germanic kuoni, bold, and rat, counsel. The name guide documents it in several European language traditions. This family origin remains distinct from the life story of a particular Estonian painter. Kumu Art Museum’s Konrad Mägi exhibition ran from 24 August 2018 to 24 March 2019. It showed more than forty paintings, focusing on landscapes and including works from his Italian period. Eero Epner curated it.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The name guide explicitly relates Konrad and Conrad. The Kumu exhibition dates, more-than-forty-paintings scope and curator were checked against the museum’s own page.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "ee",
+      "name": "Kuno",
+      "spellings": [
+        "Kuno"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.behindthename.com/name/kuno",
+        "https://eelk.ee/our-church/history/archbishops-and-bishops/kuno-pajula/"
+      ],
+      "facts_used": "The name guide connects Kuno with short forms of Germanic names in kunni, clan or family; it can also shorten Konrad. Both relationships remain distinct, without choosing one route for every Estonian bearer. Kuno Pajula was elected archbishop of the Estonian Evangelical Lutheran Church on 11 June 1987 and retired in 1994. He was also a founder of the Estonian Council of Churches and its president in 1989–1993.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "Germanic kunni-family and Konrad-shortening accounts remain distinct. Pajula’s election, retirement and council service are historical statements from the church’s own biography, not current-office claims.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "ee",
+      "name": "Kuuno",
+      "spellings": [
+        "Kuuno"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Kuuno#Estonian",
+        "https://muinsuskaitseamet.ee/sites/default/files/documents/2024-06/P%C3%A4rnu%20muinsuskaitseala%20inventeerimise%20l%C3%B5pparuanne%20%286.08.2021%29.pdf#page=89"
+      ],
+      "facts_used": "The Estonian dictionary entry connects Kuuno with a diminutive of Konrad and lists Kuno alongside it. This is a direct language-specific reference, not a relationship inferred from the doubled vowel alone. The two spellings’ historical records still remain distinct. A 2021 Pärnu heritage inventory documents architect Kuuno Raude’s 1993 building as a local example of postmodernism, noting its independent architectural value. Here Kuuno is the architect’s personal name, not a place or company name.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The exact Estonian dictionary entry explicitly gives the Konrad diminutive and related Kuno. The heritage PDF page 89 row was visually inspected and identifies architect Kuuno Raude and a 1993 building. No resident information or private address is published.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Alvilė",
+      "spellings": [
+        "Alvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://data.gov.lt/datasets/2664/",
+        "https://vardai.lt/",
+        "https://www.tauragesausra.lt/sveciuose-rasytoja-alvile-rimaite-nuo-knygos-iki-kurybiniu-dirbtuviu/"
+      ],
+      "facts_used": "Official name data classify Alvilė as a Lithuanian compound. A popular name guide proposes al- linked with each and vil- with viltis, hope. This is the guide’s origin proposal, not the one independently demonstrated meaning of the compound. Children’s writer Alvilė Rimaitė visited Tauragė’s Aušros school on 10–11 November 2025. The school’s own report describes a reading about Kliukliukas and a workshop making the character from yarn, a documented literary event involving a real bearer.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The official registry establishes compound-name classification. The popular guide’s al-/vil- interpretation is attributed as a proposal, not independently proven. The school’s primary report was published 15 November 2025 and dates the author’s visit to 10–11 November 2025. A similarly named company was rejected as personal-name evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Ašmantas",
+      "spellings": [
+        "Ašmantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://data.gov.lt/datasets/2664/",
+        "https://www.draugas.org/archive/1960_reg/1960-03-12-PRIEDAS-DRAUGAS.pdf#page=2"
+      ],
+      "facts_used": "The official name classification identifies Ašmantas as a Lithuanian compound personal name. This establishes its structure without selecting an unproven complete translation. A similarly written surname alone is not evidence of someone bearing it as a given name. Juozas Kralikauskas included Ašmantas in a male-name list in his 12 March 1960 Draugas article on thirteenth- to fifteenth-century personal names. The 1960 article is a checked publication; it is not presented as a newly inspected medieval original document.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The official registry supports compound classification. The 12 March 1960 Draugas article is by Juozas Kralikauskas, not Salys; its page 2 name list and date were visually inspected. It is a checked historical publication, not an independently inspected medieval original. Surname occurrences and forced root glosses were excluded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Juozapotas",
+      "spellings": [
+        "Juozapotas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/"
+      ],
+      "facts_used": "",
+      "hypothesis": "Juozapotas may be connected with the spelling Juozapatas. This remains an unverified comparison: the source documents Juozapatas, not a correspondence between the two forms. Similarity alone does not establish a shared etymology or justify transferring a historical person’s biography.",
+      "reason": "Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research.",
+      "uncertainties": "The proposed relationship is unverified. Cited references describe the compared forms and do not endorse the editorial inference. Do not use it as verified root, bearer or date evidence.",
+      "next_steps": "Find an authoritative exact-spelling Juozapotas entry or a documented correspondence with Juozapatas. Inspect the original calendar and an official Lithuanian name reference. The saint’s Juozapatas biography is not proof of this spelling."
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Kristinas",
+      "spellings": [
+        "Kristinas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf",
+        "https://www.vle.lt/straipsnis/kristinas-astikas/"
+      ],
+      "facts_used": "Linguist Antanas Salys explains Latin Christinus as a variant of Christianus, linking the Kristinas family with the designation Christian. This is a specific relationship between forms, distinct from the similarly beginning name Kristupas. Kristinas Astikas was a witness to the Treaty of Salynas in 1398 and the Union of Horodło in 1413. The Lithuanian encyclopaedia identifies him as founder of the Astikas family; his son Radvila founded the Radvila family.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "Salys explicitly treats Christinus as a Christianus variant; ultimate Greek and intermediate Latin stages are not contradictory. VLE documents Kristinas Astikas as witness to the 1398 and 1413 agreements. Kristupas is a separate form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Renata",
+      "spellings": [
+        "Renata"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.behindthename.com/name/renata",
+        "https://www.behindthename.com/name/renatus",
+        "https://rasytojai.lt/rasytojai/serelyte-renata/"
+      ],
+      "facts_used": "Renata is the feminine of Latin Renatus, explained as born again. The international name guide explicitly includes Lithuanian usage of Renata. This family meaning is not a claim about events in any particular person’s life. Renata Šerelytė’s first short-story book, Žuvies darinėjimas, appeared in Vilnius in 1995. Her novel Vardas tamsoje became the basis of Agnė Marcinkevičiūtė’s 2013 film. The Writers’ Union biography documents this passage from book to screen.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The feminine Renatus relationship and Lithuanian usage are explicit. The 1995 book and 2013 adaptation come from the Writers’ Union biography; no current residence claim is included.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lt",
+      "name": "Teodoras",
+      "spellings": [
+        "Teodoras"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/teodoras/",
+        "https://www.behindthename.com/name/theodore",
+        "https://www.vle.lt/straipsnis/teodoras-narbutas/"
+      ],
+      "facts_used": "Teodoras is a Lithuanian form in the Greek Theodoros family. Its elements are theos, god, and dōron, gift, traditionally gift of God. The related Dorothea uses the same elements in the reverse order. Historian Teodoras Narbutas published his extensive history of Lithuania in Polish in nine volumes in 1835–1841. Its first volume concerned ancient mythology. This records his publication, rather than endorsing every historical or mythological interpretation in it.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The direct Lithuanian guide supplies the Greek elements. The attempted Wiktionary #Lithuanian source actually contained only a Portuguese plural and was rejected, as was a user-submitted-only Behind the Name entry. Narbutas’s nine-volume publication is documented without endorsing his historical or mythological conclusions.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Kaija",
+      "spellings": [
+        "Kaija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kaija"
+      ],
+      "facts_used": "The dictionary compares Kaija with Latvian kaija, seagull, and separately lists it as a Finnish form of Katarīna. These are different linguistic connections. The pure interpretation under Katarīna is not automatically Kaija’s only meaning. The catalogue gives a personal-name attestation of Kaija in 1549 and a calendar entry in 1910. These are different historical layers. Calendar inclusion does not date the form’s creation, and the early record alone does not choose between the two origin accounts.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The Latvian seagull comparison and Finnish Katarīna relationship remain distinct; pure is not asserted as the only meaning.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Kaira",
+      "spellings": [
+        "Kaira"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kaira"
+      ],
+      "facts_used": "The dictionary tentatively connects Kaira with Latvian kairs, pleasantly exciting or captivating, or with the Estonian personal name Kaira. The Latvian comparison carries a question mark; no single secure borrowing route is given. The personal-name attestation is dated to the last quarter of the nineteenth century; the calendar entry is dated 1879. The broader period preserves the source’s precision and is not narrowed to an invented exact year simply because the calendar date is more precise.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The kairs comparison remains tentative, alongside the Estonian-name comparison. The personal record retains last-quarter-of-the-nineteenth-century precision.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Kornelijs",
+      "spellings": [
+        "Kornelijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kornelijs",
+        "https://www.personvarduatveide.lv/uploads/sources/2/pdf/polu_ipasvardu_pareizrakstiba_1998.pdf#page=33",
+        "https://www.izpetnieks.lv/en/name/Korn%C4%93lijs"
+      ],
+      "facts_used": "The Polish-name rendering manual gives Kornelijs and Kornēlijs together for Korneli, directly documenting their relationship. The catalogue links Kornēlijs to Roman Cornelius; further comparisons with cornu, horn, or the tree word cornus remain tentative. For the macron spelling Kornēlijs specifically, the catalogue gives a 1638 attestation near Valmiera and a calendar entry in 1767. These dates remain attached to Kornēlijs. The manual’s paired forms alone do not prove Kornelijs in those same early years.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The Polish rendering manual PDF page 33 (printed page 51) explicitly pairs Korneli with Kornelijs and *Kornēlijs; the table was visually inspected. This resolves the catalogue’s unsupported-form warning. The 1638 and 1767 dates remain attributed to Kornēlijs, not the unaccented spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Kornēlijs",
+      "spellings": [
+        "Kornēlijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Korn%C4%93lijs",
+        "https://www.personvarduatveide.lv/uploads/sources/2/pdf/polu_ipasvardu_pareizrakstiba_1998.pdf#page=33",
+        "https://www.izpetnieks.lv/en/name/Korn%C4%93lijs"
+      ],
+      "facts_used": "The Polish-name rendering manual gives Kornelijs and Kornēlijs together for Korneli, directly documenting their relationship. The catalogue links Kornēlijs to Roman Cornelius; further comparisons with cornu, horn, or the tree word cornus remain tentative. For the macron spelling Kornēlijs specifically, the catalogue gives a 1638 attestation near Valmiera and a calendar entry in 1767. These dates remain attached to Kornēlijs. The manual’s paired forms alone do not prove Kornelijs in those same early years.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The manual directly relates both spellings, but early dates belong specifically to Kornēlijs. Cornu and cornus remain alternative tentative explanations of Cornelius.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Viāna",
+      "spellings": [
+        "Viāna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vianita",
+        "https://www.izpetnieks.lv/en/name/Vianta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Viāna might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for Viāna. This is a working hypothesis, not an established relationship between the names.",
+      "reason": "Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research.",
+      "uncertainties": "The proposed relationship is unverified. Cited references describe the compared forms and do not endorse the editorial inference. Do not use it as verified root, bearer or date evidence.",
+      "next_steps": "Locate the exact macron form in a reliable onomastic reference or a dated public professional/archive record. Test the sound-formation hypothesis; do not assume a Viviana, Viana or place-name relationship from resemblance."
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vianda",
+      "spellings": [
+        "Vianda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vianita",
+        "https://www.izpetnieks.lv/en/name/Vianta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vianda might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for Vianda. This is a working hypothesis, not an established relationship between the names.",
+      "reason": "Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research.",
+      "uncertainties": "The proposed relationship is unverified. Cited references describe the compared forms and do not endorse the editorial inference. Do not use it as verified root, bearer or date evidence.",
+      "next_steps": "Inspect the original Siliņš page 323 and dated municipal or archival personal-name records for the exact Vianda spelling. Confirm or reject the sound-formation hypothesis independently of Vianta/Vianita; Spanish food vocabulary is not name etymology."
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vianita",
+      "spellings": [
+        "Vianita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vianita"
+      ],
+      "facts_used": "The dictionary catalogue marks Vianita fnd., a phonetic formation. It was formed for its sound, without identifying an underlying word or its translation. A similar-sounding foreign word therefore does not automatically become its established root. The catalogue dates a personal-name attestation of Vianita to the third quarter of the twentieth century, without specifying an exact year or place. This period records use of the form, rather than licensing an invented first bearer or creator.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The catalogue explicitly classifies this name as a phonetic formation, without a lexical root. Its personal record retains third-quarter-of-the-twentieth-century precision and has no supplied location.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vianta",
+      "spellings": [
+        "Vianta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vianta"
+      ],
+      "facts_used": "The dictionary catalogue describes Vianta as a phonetic formation, based on sound rather than a specified lexical word. It gives no separate root or meaning. This classification concerns Vianta itself, not every similarly written name. The catalogue places a Vianta personal-name attestation near Liepāja in the third quarter of the twentieth century. Both location and period precision are retained. This documents usage, not a claim that the name was invented at that place or time.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The catalogue explicitly classifies this name as a phonetic formation. The third-quarter-of-the-twentieth-century Liepāja-area record is not an invention date. That classification is not transferred as fact to Vianda or Viāna.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidards",
+      "spellings": [
+        "Vidards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars"
+      ],
+      "facts_used": "",
+      "hypothesis": "The spelling Vidards suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidards has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+      "reason": "Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research.",
+      "uncertainties": "The proposed relationship is unverified. Cited references describe the compared forms and do not endorse the editorial inference. Do not use it as verified root, bearer or date evidence.",
+      "next_steps": "Locate a direct Vidards/Vidars correspondence or a dated exact-name personal record. Check the original dictionary and historical spelling guides; a similar initial sequence is insufficient."
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidars",
+      "spellings": [
+        "Vidars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars"
+      ],
+      "facts_used": "The Vidars entry gives Old Scandinavian element glosses tree or forest and warrior, without combining them into one secure full-name translation. These indications concern Vidars; relationships with other similar spellings require separate evidence. The catalogue records Vidars in Gulbene in 1931 and gives a calendar entry in 1966. These are specific local historical dates. They cannot automatically be transferred to Vidards, Vidarts or Vidavs simply because the spellings look similar.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "Old Scandinavian tree/forest and warrior are element glosses, not a securely established complete translation. Gulbene 1931 and calendar 1966 are not transferred to similar spellings.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidarts",
+      "spellings": [
+        "Vidarts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars"
+      ],
+      "facts_used": "",
+      "hypothesis": "The spelling Vidarts suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidarts has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+      "reason": "Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research.",
+      "uncertainties": "The proposed relationship is unverified. Cited references describe the compared forms and do not endorse the editorial inference. Do not use it as verified root, bearer or date evidence.",
+      "next_steps": "Locate a direct Vidarts/Vidars correspondence or a dated exact-name personal record. Exclude video-arts organization and domain-name hits."
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Vidavs",
+      "spellings": [
+        "Vidavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vidars"
+      ],
+      "facts_used": "",
+      "hypothesis": "The spelling Vidavs suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidavs has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+      "reason": "Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research.",
+      "uncertainties": "The proposed relationship is unverified. Cited references describe the compared forms and do not endorse the editorial inference. Do not use it as verified root, bearer or date evidence.",
+      "next_steps": "Find a reliable exact-given-name record and inspect the original extended-calendar/dictionary source for a possible transcription issue. Surname Vidavs and court-case results do not establish the given name or its root."
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Zinovija",
+      "spellings": [
+        "Zinovija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zinovija"
+      ],
+      "facts_used": "The dictionary places Zinovija under Zinovijs, which refers on to Zinobijs. That entry mentions Greek Zeus, genitive Zēnos, and bios, life. The source does not supply a separate translation of the complete compound. The personal-name attestation of Zinovija is dated to the first quarter of the twentieth century and its calendar entry to 1889. The feminine dates remain distinct from Zinovijs records; a family reference alone does not transfer one form’s early year to another.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The explicit Zinovijs → Zinobijs chain supports the linguistic account. The feminine first-quarter-of-the-twentieth-century record and 1889 calendar year stay separate from masculine dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-12",
+      "date": "2026-11-12",
+      "calendar_date": "11-12",
+      "country": "lv",
+      "name": "Zinovijs",
+      "spellings": [
+        "Zinovijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zinovijs"
+      ],
+      "facts_used": "The dictionary lists Zinovijs under Zinobijs as a Belarusian and Russian form. The Zinobijs account mentions Greek Zeus, genitive Zēnos, and bios, life. These are supplied root glosses rather than a separately established translation of the full personal name. The catalogue dates a personal-name attestation of Zinovijs to 1850 and its calendar entry to 1851. These are close but distinct dates. They are not replaced with the later feminine Zinovija records or its calendar year.",
+      "hypothesis": "",
+      "reason": "An opened reference and a concrete dated dictionary, archival, cultural or professional record support a reviewed account.",
+      "uncertainties": "The explicit Belarusian/Russian form reference is retained. Root glosses do not establish a complete name translation. The 1850 personal record and 1851 calendar entry belong to this masculine form.",
+      "next_steps": ""
+    }
+  ]
+}

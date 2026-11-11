@@ -8,18 +8,20 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 442 | 166 | 246 |
-| Short factual summary | 4002 | 1179 | 435 |
-| Early record only | 369 | 1 | 12 |
+| Reviewed history | 451 | 171 | 249 |
+| Short factual summary | 3995 | 1174 | 432 |
+| Early record only | 367 | 1 | 12 |
 | Needs research | 743 | 222 | 860 |
 | Total profiles | 5556 | 1568 | 1553 |
+
+Unverified hypotheses remain included in Needs research: LV 5; LT 1; EE 0. Their widget text is explicitly labelled as a hypothesis, and their records stay in the verification queue.
 
 ## How to work through the backlog
 
 Continue research in the shared branch `codex/namedays-round4`; do not create a separate branch per round.
 
 1. Work in calendar order: take the next unfinished day from Priority 0 and complete its names in all three countries before the later priority lists. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.
-2. Verify every claim in a source you actually opened, and keep the URLs in research files and provenance metadata only. Do not display source URLs, clickable citations or source lists in the widget interface. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, Wikipedia in the relevant language, national library and museum pages. vardai.vlkk.lt blocks automated requests; open it manually.
+2. Verify factual claims in sources you actually opened. An unverified working hypothesis may be displayed only with an explicit translated Hypothesis label and qualified wording; retain status needs_more, verification_status unverified, its source basis and a concrete next step in the round notes. Never count it as a reviewed history. Keep URLs in research files and provenance metadata only, never as widget citations. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, national libraries and museums. vardai.vlkk.lt blocks automated requests; open it manually.
 3. Write two paragraphs per language (lv, ru, en, lt, et): origin and how the name reached the Baltic languages, then one concrete, verified historical detail. Keep uncertain etymology explicitly uncertain; describe literary events as literature; never call a calendar or publication year the creation date unless a source says the name was coined then.
 4. Add the entry to a `public/namedays-history-r<round>-<topic>.js` module, import it in `public/namedays-history.js`, record every examined name (including skipped ones) in `research/namedays/round<round>-notes.json`, bump `WRITER_VERSION`, then run `node scripts/generate-namedays.mjs --country=lv` for LV-only work (use `lt` or `ee` for another country; omit the flag only for a full rebuild), `node --test parsers/namedays.test.mjs` and this script.
 
@@ -31,29 +33,12 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Kaija | Short factual summary | 120 |  |
-| LV | Zinovija | Short factual summary | 41 |  |
-| LV | Kaira | Short factual summary | 22 |  |
-| LV | Vidars | Short factual summary | 17 |  |
-| LV | Zinovijs | Early record only | 15 |  |
-| LV | Viāna | Needs research | 13 |  |
-| LV | Kornēlijs | Short factual summary | 9 |  |
-| LV | Vidards | Needs research | 5 |  |
-| LV | Kornelijs | Early record only | 3 |  |
-| LV | Vianta | Short factual summary | 3 |  |
-| LV | Vianita | Short factual summary | 2 |  |
-| LV | Vidarts | Needs research | 2 |  |
-| LV | Vianda | Needs research | 1 |  |
-| LV | Vidavs | Needs research |  |  |
-| LT | Alvilė | Short factual summary |  |  |
-| LT | Ašmantas | Short factual summary |  |  |
-| LT | Juozapotas | Needs research |  |  |
-| LT | Kristinas | Short factual summary |  |  |
-| LT | Renata | Short factual summary |  |  |
-| LT | Teodoras | Short factual summary |  |  |
-| EE | Kuno | Short factual summary | 179 |  |
-| EE | Konrad | Short factual summary | 175 |  |
-| EE | Kuuno | Short factual summary | 59 |  |
+| LV | Viāna | Unverified hypothesis | 13 | Locate the exact macron form in a reliable onomastic reference or a dated public professional/archive record. Test the sound-formation hypothesis; do not assume a Viviana, Viana or place-name relationship from resemblance. |
+| LV | Vidards | Unverified hypothesis | 5 | Locate a direct Vidards/Vidars correspondence or a dated exact-name personal record. Check the original dictionary and historical spelling guides; a similar initial sequence is insufficient. |
+| LV | Vidarts | Unverified hypothesis | 2 | Locate a direct Vidarts/Vidars correspondence or a dated exact-name personal record. Exclude video-arts organization and domain-name hits. |
+| LV | Vianda | Unverified hypothesis | 1 | Inspect the original Siliņš page 323 and dated municipal or archival personal-name records for the exact Vianda spelling. Confirm or reject the sound-formation hypothesis independently of Vianta/Vianita; Spanish food vocabulary is not name etymology. |
+| LV | Vidavs | Unverified hypothesis |  | Find a reliable exact-given-name record and inspect the original extended-calendar/dictionary source for a possible transcription issue. Surname Vidavs and court-case results do not establish the given name or its root. |
+| LT | Juozapotas | Unverified hypothesis |  | Find an authoritative exact-spelling Juozapotas entry or a documented correspondence with Juozapatas. Inspect the original calendar and an official Lithuanian name reference. The saint’s Juozapatas biography is not proof of this spelling. |
 
 ### 13 November
 
@@ -448,12 +433,23 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 
 These names were examined but not written, usually because only a meaning was found and no verified historical detail. Each note says what to search next.
 
+### LV
+
+| Name | Now shows | Bearers | Why open | Next step |
+| --- | --- | --- | --- | --- |
+| Viāna | Unverified hypothesis | 13 | Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research. | Locate the exact macron form in a reliable onomastic reference or a dated public professional/archive record. Test the sound-formation hypothesis; do not assume a Viviana, Viana or place-name relationship from resemblance. |
+| Vidards | Unverified hypothesis | 5 | Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research. | Locate a direct Vidards/Vidars correspondence or a dated exact-name personal record. Check the original dictionary and historical spelling guides; a similar initial sequence is insufficient. |
+| Vidarts | Unverified hypothesis | 2 | Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research. | Locate a direct Vidarts/Vidars correspondence or a dated exact-name personal record. Exclude video-arts organization and domain-name hits. |
+| Vianda | Unverified hypothesis | 1 | Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research. | Inspect the original Siliņš page 323 and dated municipal or archival personal-name records for the exact Vianda spelling. Confirm or reject the sound-formation hypothesis independently of Vianta/Vianita; Spanish food vocabulary is not name etymology. |
+| Vidavs | Unverified hypothesis |  | Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research. | Find a reliable exact-given-name record and inspect the original extended-calendar/dictionary source for a possible transcription issue. Surname Vidavs and court-case results do not establish the given name or its root. |
+
 ### LT
 
 | Name | Now shows | Bearers | Why open | Next step |
 | --- | --- | --- | --- | --- |
 | Veronika | Short factual summary | 29983 | Written in parallel by the LV research round (r10); left to that entry to avoid duplicate keys. |  |
 | Arūnas | Short factual summary | 20338 | Origin verified, but no concrete, verifiable historical detail (coiner, first attestation, emblematic pre-modern bearer) found; the LKŽ neologism label for aras could not be opened directly (ekalba.lt returned no entry text). | Open the LKŽ entry for aras (lkz.lt / ekalba.lt) to confirm who introduced aras "eagle" and when; check Lithuanian onomastic literature (e.g. Kuzavinis & Savukynas, Lietuvių vardų kilmės žodynas) for when Arūnas first appeared as a given name. |
+| Juozapotas | Unverified hypothesis |  | Only a provisional editorial comparison is available; no direct source establishes the proposed exact-name relationship. It may be shown with the translated Hypothesis label and remains open research. | Find an authoritative exact-spelling Juozapotas entry or a documented correspondence with Juozapatas. Inspect the original calendar and an official Lithuanian name reference. The saint’s Juozapatas biography is not proof of this spelling. |
 
 ### EE
 
@@ -791,11 +787,11 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Ragne | Needs research | 381 |
 | Age | Needs research | 380 |
 
-## Priority 4: other LT names that still need research (222)
+## Priority 4: other LT names that still need research (221)
 
 These names are outside the official TOP 50 lists, so no count is available; the list is alphabetical. Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name’s own stems from a source, and add a historical bearer only when one is documented.
 
-Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bilmantas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvydė, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargintė, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Eularija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Geisvinė, Gelvydė, Gentvainas, Gentvila, Gerdvilas, Gerdvilė, Gilvainas, Gilvynas, Ginbutas, Girvydė, Gordijonas, Guntilda, Hetga, Iminė, Irenijus, Irvita, Josmilas, Juozapotas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Kolumbas, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liubartė, Liudginas, Liudlė, Liugailė, Mandravas, Mandravė, Mangailas, Mangailė, Mantgailas, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Norgaudė, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Saugardas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Steigintas, Svaigaudas, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvainas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaidvitė, Vaigedas, Vaigedė, Vaingedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vėjūnas, Veliuona, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilbutas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Vytartė, Vitbutas, Zygfrydas, Žadvainas, Žadvainis, Žybartė
+Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bilmantas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvydė, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargintė, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Eularija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Geisvinė, Gelvydė, Gentvainas, Gentvila, Gerdvilas, Gerdvilė, Gilvainas, Gilvynas, Ginbutas, Girvydė, Gordijonas, Guntilda, Hetga, Iminė, Irenijus, Irvita, Josmilas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Kolumbas, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liubartė, Liudginas, Liudlė, Liugailė, Mandravas, Mandravė, Mangailas, Mangailė, Mantgailas, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Norgaudė, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Saugardas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Steigintas, Svaigaudas, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvainas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaidvitė, Vaigedas, Vaigedė, Vaingedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vėjūnas, Veliuona, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilbutas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Vytartė, Vitbutas, Zygfrydas, Žadvainas, Žadvainis, Žybartė
 
 ## Priority 5: other EE names that still need research (785)
 

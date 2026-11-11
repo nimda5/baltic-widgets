@@ -65,7 +65,7 @@ function renderContent(){
  let panels=panelCache.get(state.profiles);if(!panels){panels=new Map();panelCache.set(state.profiles,panels);}const panelKey=profile.key+':'+lang+':'+state.tab;
  if(state.tab==='history'&&panels.has(panelKey)){content.replaceChildren(...panels.get(panelKey));return;}
  if(state.tab==='history'){
-  if(copy.history.length&&!copy.calendar_only){content.append(element('h3','',tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
+  if(copy.history.length&&!copy.calendar_only){content.append(element('h3','',copy.unverified_hypothesis?copy.hypothesis_label:tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
   if(copy.attestation){
    const record=element('div','nameday-attestation');
    record.append(element('h3','',tr('recordedLabel')),element('strong','',copy.attestation.date),element('small','',tr('recordedNote',{form:copy.attestation.form})));

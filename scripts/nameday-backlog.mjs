@@ -29,6 +29,7 @@ for(const file of (await readdir(new URL('research/namedays/',project))).filter(
 const noteFor=new Map();
 for(const n of notes)for(const s of new Set([n.name,...n.spellings]))noteFor.set((n.country?n.country+':':'')+s.normalize('NFC'),n);
 const LABEL={reviewed:'Reviewed history',summary:'Short factual summary',attestation:'Early record only',unresearched:'Needs research'};
+const rowLabel=r=>r.unverified?'Unverified hypothesis':LABEL[r.category];
 const rows=[],coverage={};
 for(const country of ['lv','lt','ee']){
  const profiles=(await read(new URL('profiles-'+country+'.json',data))).data;
@@ -38,11 +39,11 @@ for(const country of ['lv','lt','ee']){
   const category=c.reviewed_narrative?'reviewed':c.kind==='unresearched'?'unresearched':c.calendar_only?'attestation':'summary';
   coverage[country][category]++;coverage[country].total++;
   const note=noteFor.get(country+':'+p.name)||noteFor.get(p.name);
-  rows.push({country,name:p.name,category,bearers:bearers(country,p.name),dates:(p.facts.calendar_dates||[]).join(' '),note:note&&note.status!=='written'?note:null});
+  rows.push({country,name:p.name,category,unverified:!!c.unverified_hypothesis,bearers:bearers(country,p.name),dates:(p.facts.calendar_dates||[]).join(' '),note:note&&note.status!=='written'?note:null});
  }
 }
 const csvCell=v=>{const s=String(v??'');return /[",\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;};
-const csv=['country,name,category,registered_bearers,bearer_basis,calendar_dates,note_status,next_steps',...rows.filter(r=>r.category!=='reviewed').sort((a,b)=>a.country.localeCompare(b.country)||byBearers(a,b)).map(r=>[r.country,r.name,r.category,r.bearers.label,r.bearers.label?BASIS[r.country]:'',r.dates,r.note?.status||'',r.note?.next_steps||''].map(csvCell).join(','))].join('\n')+'\n';
+const csv=['country,name,category,registered_bearers,bearer_basis,calendar_dates,verification_status,note_status,next_steps',...rows.filter(r=>r.category!=='reviewed').sort((a,b)=>a.country.localeCompare(b.country)||byBearers(a,b)).map(r=>[r.country,r.name,r.category,r.bearers.label,r.bearers.label?BASIS[r.country]:'',r.dates,r.unverified?'unverified':'',r.note?.status||'',r.note?.next_steps||''].map(csvCell).join(','))].join('\n')+'\n';
 await writeFile(new URL('research/namedays/backlog.csv',project),csv);
 
 const md=[];
@@ -52,10 +53,11 @@ md.push('# Name-day research backlog','',
  'The complete list of names that still lack a reviewed history, one row per name, is in [`research/namedays/backlog.csv`](research/namedays/backlog.csv).','',
  '## Current coverage','');
 table(['Level','LV','LT','EE'],['reviewed','summary','attestation','unresearched'].map(k=>[LABEL[k],coverage.lv[k],coverage.lt[k],coverage.ee[k]]).concat([['Total profiles',coverage.lv.total,coverage.lt.total,coverage.ee.total]]));
+md.push('Unverified hypotheses remain included in Needs research: '+['lv','lt','ee'].map(country=>country.toUpperCase()+' '+rows.filter(r=>r.country===country&&r.unverified).length).join('; ')+'. Their widget text is explicitly labelled as a hypothesis, and their records stay in the verification queue.','');
 md.push('## How to work through the backlog','',
  'Continue research in the shared branch `codex/namedays-round4`; do not create a separate branch per round.','',
  '1. Work in calendar order: take the next unfinished day from Priority 0 and complete its names in all three countries before the later priority lists. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.',
- '2. Verify every claim in a source you actually opened, and keep the URLs in research files and provenance metadata only. Do not display source URLs, clickable citations or source lists in the widget interface. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, Wikipedia in the relevant language, national library and museum pages. vardai.vlkk.lt blocks automated requests; open it manually.',
+ '2. Verify factual claims in sources you actually opened. An unverified working hypothesis may be displayed only with an explicit translated Hypothesis label and qualified wording; retain status needs_more, verification_status unverified, its source basis and a concrete next step in the round notes. Never count it as a reviewed history. Keep URLs in research files and provenance metadata only, never as widget citations. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, national libraries and museums. vardai.vlkk.lt blocks automated requests; open it manually.',
  '3. Write two paragraphs per language (lv, ru, en, lt, et): origin and how the name reached the Baltic languages, then one concrete, verified historical detail. Keep uncertain etymology explicitly uncertain; describe literary events as literature; never call a calendar or publication year the creation date unless a source says the name was coined then.',
  '4. Add the entry to a `public/namedays-history-r<round>-<topic>.js` module, import it in `public/namedays-history.js`, record every examined name (including skipped ones) in `research/namedays/round<round>-notes.json`, bump `WRITER_VERSION`, then run `node scripts/generate-namedays.mjs --country=lv` for LV-only work (use `lt` or `ee` for another country; omit the flag only for a full rebuild), `node --test parsers/namedays.test.mjs` and this script.','');
 // Date order comes first: the widget shows yesterday, today and tomorrow, so the next calendar days
@@ -75,13 +77,13 @@ for(let i=0;i<366;i++){
  }
 }
 const dayLabel=key=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',timeZone:'UTC'}).format(new Date('2000-'+key+'T12:00:00Z'));
-await writeFile(new URL('research/namedays/date-queue.csv',project),['order,date,country,name,category,registered_bearers,note_status',...queue.map(r=>[r.order,r.day,r.country,r.name,r.category,r.bearers.label,r.note?.status||''].map(csvCell).join(','))].join('\n')+'\n');
+await writeFile(new URL('research/namedays/date-queue.csv',project),['order,date,country,name,category,registered_bearers,verification_status,note_status',...queue.map(r=>[r.order,r.day,r.country,r.name,r.category,r.bearers.label,r.unverified?'unverified':'',r.note?.status||''].map(csvCell).join(','))].join('\n')+'\n');
 md.push('## Priority 0: upcoming name days','',
  'Research follows the calendar: the widget shows yesterday, today and tomorrow, so the nearest days come first. Generated for '+dayLabel(today.slice(5))+' (Europe/Riga); regenerate before each round. Each day lists every name in the LV, LT and EE calendars that still lacks a reviewed history, most common first. Finish a day in all three countries before moving to the next. The full year-long queue is in [`research/namedays/date-queue.csv`](research/namedays/date-queue.csv).','');
 for(let i=0;i<UPCOMING_DAYS;i++){
  const list=queue.filter(r=>r.order===i);if(!list.length)continue;
  md.push('### '+dayLabel(list[0].day),'');
- table(['Country','Name','Now shows','Bearers','Open note'],list.sort((a,b)=>['lv','lt','ee'].indexOf(a.country)-['lv','lt','ee'].indexOf(b.country)||byBearers(a,b)).map(r=>[r.country.toUpperCase(),r.name,LABEL[r.category],r.bearers.label,r.note?(r.note.next_steps||r.note.reason||'').replace(/\|/g,'/'):'']));
+ table(['Country','Name','Now shows','Bearers','Open note'],list.sort((a,b)=>['lv','lt','ee'].indexOf(a.country)-['lv','lt','ee'].indexOf(b.country)||byBearers(a,b)).map(r=>[r.country.toUpperCase(),r.name,rowLabel(r),r.bearers.label,r.note?(r.note.next_steps||r.note.reason||'').replace(/\|/g,'/'):'']));
 }
 const open=rows.filter(r=>r.note&&r.category!=='reviewed');
 md.push('## Priority 1: started in earlier rounds','',
@@ -91,7 +93,7 @@ for(const country of ['lv','lt','ee']){
  const list=open.filter(r=>r.country===country).sort(byBearers);
  if(!list.length)continue;
  md.push('### '+country.toUpperCase(),'');
- table(['Name','Now shows','Bearers','Why open','Next step'],list.map(r=>[r.name,LABEL[r.category],r.bearers.label,(r.note.reason||'').replace(/\|/g,'/'),(r.note.next_steps||'').replace(/\|/g,'/')]));
+ table(['Name','Now shows','Bearers','Why open','Next step'],list.map(r=>[r.name,rowLabel(r),r.bearers.label,(r.note.reason||'').replace(/\|/g,'/'),(r.note.next_steps||'').replace(/\|/g,'/')]));
 }
 const scope={lv:'LV: registered bearers (PMLP, name anywhere among given names).',lt:'LT: only the official TOP 50 men’s and women’s names have counts (Registrų centras, born since 1900); other names are listed afterwards.',ee:'EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the source’s own suppressed values.'};
 md.push('## Priority 2: most common names without a reviewed history','',
@@ -100,7 +102,7 @@ for(const [country,limit] of [['lv',60],['lt',60],['ee',60]]){
  const list=rows.filter(r=>r.country===country&&r.category==='summary'&&!r.note&&r.bearers.rank>=5).sort(byBearers).slice(0,limit);
  if(!list.length)continue;
  md.push('### '+country.toUpperCase(),'',scope[country],'');
- table(['Name','Now shows','Bearers'],list.map(r=>[r.name,LABEL[r.category],r.bearers.label]));
+ table(['Name','Now shows','Bearers'],list.map(r=>[r.name,rowLabel(r),r.bearers.label]));
 }
 // Names already ranked in Priority 3 are not repeated in the per-country lists below.
 const listed=new Set();
@@ -110,7 +112,7 @@ for(const [country,limit] of [['lv',80],['lt',80],['ee',80]]){
  const list=rows.filter(r=>r.country===country&&(r.category==='unresearched'||r.category==='attestation')&&!r.note&&r.bearers.rank>=5).sort(byBearers).slice(0,limit);
  if(!list.length)continue;
  md.push('### '+country.toUpperCase(),'',scope[country],'');
- table(['Name','Now shows','Bearers'],list.map(r=>[r.name,LABEL[r.category],r.bearers.label]));
+ table(['Name','Now shows','Bearers'],list.map(r=>[r.name,rowLabel(r),r.bearers.label]));
  for(const r of list)listed.add(r);
 }
 for(const country of ['lt','ee']){

@@ -2,6 +2,7 @@ import {COUNTRIES,validateCalendar} from '../public/namedays-core.js';
 import {LANGUAGES,WRITER_VERSION,describeName,nameIdentity} from '../public/namedays-content.js';
 import {reviewedRoot} from '../public/namedays-roots.js';
 import {reviewedHistory} from '../public/namedays-history.js';
+import {unverifiedHistory} from '../public/namedays-hypotheses.js';
 import {attestationRange} from '../public/namedays-attestation.js';
 import {catalogFacts,calendarEntry} from './nameday-reference.mjs';
 // Reviewed spelling corrections for the supplied calendar. Each misspelling is absent from the official
@@ -115,12 +116,16 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  const entryDate=country==='lv'?(calendarEntry(research.catalog?.[name],name)||previous?.facts?.calendar_entry):(previous?.facts?.calendar_entry?.country===country?previous.facts.calendar_entry:null);
  if(entryDate){facts.calendar_entry=entryDate;sources.push(entryDate.source);}
  if(history){sources.push(...history.sources.map(url=>({url,type:'reviewed_name_history'})));chosen=chosen.map(p=>p.id===history.pseudonymPerson?{...p,match:'pseudonym'}:p);}
+ const hypothesis=history?null:unverifiedHistory(name,country);
+ if(hypothesis)sources.push(...hypothesis.sources.map(url=>({url,type:'unverified_name_hypothesis',verification_status:'unverified'})));
  const provenance=[...new Map(sources.map(s=>[s.url,s])).values()];
  const profile={key,name,country,writer_version:WRITER_VERSION,family,facts,people:chosen,provenance,research_status:entry?.status||previous?.research_status||'pending',content_type:'sourced_history_and_original_greetings'};
+ if(hypothesis){profile.verification_status='unverified';profile.content_type='unverified_hypothesis_and_original_greetings';}
  return validateProfile(profile);
 }
 export function validateProfile(profile,writerVersion=WRITER_VERSION){
  if(!/^namedays-\d+\.\d+\.\d+$/.test(writerVersion)||!profile||!COUNTRIES.includes(profile.country)||profile.key!==profile.country+':'+profile.name||profile.writer_version!==writerVersion||!Array.isArray(profile.provenance)||!Array.isArray(profile.people)||!Array.isArray(profile.facts?.origins))throw Error('Invalid name profile');
+ if(unverifiedHistory(profile.name,profile.country)&&!reviewedHistory(profile.name,profile.country)&&(profile.verification_status!=='unverified'||!profile.provenance.some(s=>s.type==='unverified_name_hypothesis'&&s.verification_status==='unverified')))throw Error('Unverified hypotheses need explicit status and provenance');
  if((reviewedHistory(profile.name,profile.country)||profile.facts.calendar_entry||profile.family||profile.facts.origins.length||profile.facts.first_recorded||profile.facts.registry_kind||profile.facts.related?.length||profile.facts.possible_related?.length||profile.facts.etymons?.length||profile.facts.archival_variants?.length)&&!profile.provenance.length)throw Error('Historical claims need provenance');
  if(profile.facts.calendar_entry&&(!Number.isInteger(profile.facts.calendar_entry.year)||profile.facts.calendar_entry.year<1500||profile.facts.calendar_entry.year>new Date().getUTCFullYear()||!profile.facts.calendar_entry.source?.url))throw Error('Invalid calendar-entry evidence');
  for(const word of profile.facts.etymons||[])if(!word.term||LANGUAGES.some(lang=>!word.gloss?.[lang])||/[A-Za-z]/.test(word.gloss.ru))throw Error('Incomplete etymological gloss');

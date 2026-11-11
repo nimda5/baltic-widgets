@@ -1,7 +1,8 @@
 import {formatAttestation} from './namedays-attestation.js';
 import {reviewedHistory} from './namedays-history.js';
+import {unverifiedHistory,HYPOTHESIS_LABELS} from './namedays-hypotheses.js';
 import {rootHistory,reviewedRoot} from './namedays-roots.js';
-export const WRITER_VERSION='namedays-1.8.8';
+export const WRITER_VERSION='namedays-1.9.0';
 export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={
@@ -651,6 +652,7 @@ export function describeName(profile,requested='en',variant=0,profiles=null){
  const lang=LANGUAGES.includes(requested)?requested:'en',i=LANGUAGES.indexOf(lang),seed=hash(nameIdentity(profile.name)),name=profile.name;
  const facts=profile.facts||{},paragraphs=[];
  const reviewed=reviewedHistory(name,profile.country);
+ const hypothesis=reviewed?null:unverifiedHistory(name,profile.country);
  const root=rootHistory(facts.root_key,name,lang);
  if(special[profile.family])paragraphs.push(fill(special[profile.family][lang],name));
  else if(root)paragraphs.push(root);
@@ -676,7 +678,8 @@ export function describeName(profile,requested='en',variant=0,profiles=null){
   const calendarNote={lv:'Personvārdu vārdnīcā norādīts, ka {name} kalendārā iekļauts {year}. gadā.',ru:'В словаре личных имён отмечено, что {name} включено в календарь в {year} году.',en:'The given-name dictionary records {name} as entering the calendar in {year}.',lt:'Asmenvardžių žodyne nurodyta, kad {name} į kalendorių įtrauktas {year} metais.',et:'Isikunimesõnastiku järgi lisati {name} kalendrisse {year}. aastal.'};
   const entry=facts.calendar_entry;const entryNote={lv:'Saistītajā vārdnīcas šķirklī {name} norādīts kalendāra gads {year}; atsevišķo formu datējums nav precizēts.',ru:'В общей словарной статье {name} указана календарная дата {year}; раздельная датировка написаний не уточнена.',en:'The shared dictionary entry {name} gives the calendar year {year}; it does not date each spelling separately.',lt:'Bendrame žodyno straipsnyje {name} nurodyti kalendoriaus metai {year}; atskirų rašybos formų datos nepatikslintos.',et:'Ühine sõnastikuartikkel {name} annab kalendriaastaks {year}; eri kirjapilte pole eraldi dateeritud.'};history.push((entry.scope==='reference_entry'?entryNote[lang]:calendarNote[lang]).replaceAll('{name}',entry.scope==='reference_entry'?entry.form:name).replaceAll('{year}',String(entry.year)));
  }
- const kind=history.length||attestation?'documented':'unresearched',calendar_only=!history.length;
+ if(hypothesis)history.splice(0,history.length,...hypothesis.text[lang].map(p=>fill(p,name)));
+ const kind=hypothesis?'unresearched':history.length||attestation?'documented':'unresearched',calendar_only=!history.length;
  if(!history.length&&facts.calendar_dates?.length){if(!dayFormats.has(lang))dayFormats.set(lang,new Intl.DateTimeFormat(localeForName(lang),{month:'long',day:'numeric',timeZone:'UTC'}));const df=dayFormats.get(lang),dates=facts.calendar_dates.map(day=>df.format(new Date('2000-'+day+'T12:00:00Z'))).join(', '),country=text(lang,profile.country);const line={lv:'Vārds {name} šajā {country} vārda dienu kalendārā ierakstīts datumā: {dates}.',ru:'Имя {name} указано в календаре именин страны {country} на даты: {dates}.',en:'The name {name} is listed in the {country} name-day calendar on: {dates}.',lt:'Vardas {name} šalies {country} vardadienių kalendoriuje įrašytas šiomis datomis: {dates}.',et:'Nimi {name} on riigi {country} nimepäevakalendris kuupäevadel: {dates}.'};history.push(line[lang].replaceAll('{name}',name).replaceAll('{country}',country).replaceAll('{dates}',dates));}
  const notice={lv:'Pārbaudītu vēsturisku ziņu par šo vārdu mums vēl nav.',ru:'Подтверждённой истории этого имени у нас пока нет.',en:'We do not yet have a verified history of this name.',lt:'Patvirtintos šio vardo istorijos kol kas neturime.',et:'Selle nime kohta ei ole meil veel kontrollitud ajaloolisi andmeid.'};
  const related_context=[];
@@ -690,12 +693,12 @@ export function describeName(profile,requested='en',variant=0,profiles=null){
    const target=other||(root||review?{key:profile.country+':'+candidate.name,name:candidate.name,country:profile.country,facts:root?{root_key:root.key}:{},people:[]}:null);
    if(!target||seen.has(target.key))continue;seen.add(target.key);
    const copy=describeName(target,lang,0,null);
-   if(!copy.history.length||(!review&&!root&&!target.family&&!target.facts?.origins?.length&&!target.facts?.etymons?.length))continue;
+   if(copy.unverified_hypothesis||!copy.history.length||(!review&&!root&&!target.family&&!target.facts?.origins?.length&&!target.facts?.etymons?.length))continue;
    related_context.push({name:target.name,possible:candidate.possible,title:titles[lang][Number(candidate.possible)].replaceAll('{name}',target.name),history:copy.history});
    if(related_context.length===2)break;
   }
  }
- return{kind,history,calendar_only,attestation,story:'',notice:kind==='unresearched'?notice[lang]:'',reviewed_narrative:!!reviewed||!!special[profile.family],related_context,wishes:greetings};
+ return{kind,history,calendar_only,attestation,story:'',notice:kind==='unresearched'?notice[lang]:'',reviewed_narrative:!hypothesis&&(!!reviewed||!!special[profile.family]),unverified_hypothesis:!!hypothesis,hypothesis_label:hypothesis?HYPOTHESIS_LABELS[lang]:'',related_context,wishes:greetings};
 }
 export const ROLE_LABELS={
  writer:['rakstnieks','писатель','writer','rašytojas','kirjanik'],poet:['dzejnieks','поэт','poet','poetas','luuletaja'],actor:['kino un teātra mākslinieks','актёр','actor','aktorius','näitleja'],musician:['mūziķis','музыкант','musician','muzikantas','muusik'],composer:['komponists','композитор','composer','kompozitorius','helilooja'],athlete:['sportists','спортсмен','athlete','sportininkas','sportlane'],scientist:['zinātnieks','учёный','scientist','mokslininkas','teadlane'],artist:['mākslinieks','художник','artist','menininkas','kunstnik'],director:['kinorežisors','кинорежиссёр','film director','kino režisierius','filmirežissöör'],astronaut:['astronauts','астронавт','astronaut','astronautas','astronaut'],public_figure:['sabiedriska personība','общественный деятель','public figure','visuomenės veikėjas','avaliku elu tegelane']

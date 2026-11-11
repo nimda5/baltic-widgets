@@ -1,0 +1,29 @@
+// Provisional editorial comparisons. These never count as reviewed histories or root evidence.
+const vianSources=['https://www.izpetnieks.lv/en/name/Vianita','https://www.izpetnieks.lv/en/name/Vianta'];
+const langs=['lv','ru','en','lt','et'];
+const vianText=[
+ '{name} varētu būt patstāvīgs darinājums pēc skanējuma, līdzīgi Vianita un Vianta. Abām pēdējām formām vārdnīca norāda fonētisku darināšanu, taču tieši {name} gadījumā šāda cilme nav dokumentēta. Tā ir darba hipotēze, nevis pierādīta vārdu radniecība.',
+ '{name} может быть самостоятельным образованием по звучанию, подобно Vianita и Vianta. Для двух последних форм словарь указывает фонетическое образование, но для {name} такое происхождение не документировано. Это рабочая гипотеза, а не доказанное родство имён.',
+ '{name} might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for {name}. This is a working hypothesis, not an established relationship between the names.',
+ '{name} galėtų būti savarankiškas garsinis darinys, panašiai kaip Vianita ir Vianta. Pastarąsias žodynas vadina fonetiniais dariniais, bet būtent {name} tokios kilmės nedokumentuoja. Tai darbo hipotezė, o ne įrodyta vardų giminystė.',
+ '{name} võib olla iseseisev kõlapõhine moodustis nagu Vianita ja Vianta. Sõnaraamat nimetab neid kaht foneetilisteks moodustisteks, kuid ei dokumenteeri sellist päritolu nimele {name}. See on tööhüpotees, mitte tõestatud nimesugulus.'
+];
+const vidText=[
+ '{name} rakstība ļauj apsvērt iespējamu saikni ar Vidars. Tā ir tikai darba versija pēc formu līdzības: nav atrasta dokumentēta pāreja no Vidars uz {name}. Vidars cilmes skaidrojumu tādēļ nevar uzskatīt par pierādītu arī šim vārdam.',
+ 'Написание {name} позволяет рассмотреть возможную связь с Vidars. Это лишь рабочая версия по сходству форм: документального перехода от Vidars к {name} не найдено. Поэтому этимологию Vidars нельзя считать доказанной и для этого имени.',
+ 'The spelling {name} suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to {name} has been found. The origin of Vidars therefore cannot be treated as established for this name.',
+ '{name} rašyba leidžia svarstyti galimą ryšį su Vidars. Tai tik darbo versija pagal formų panašumą: dokumentuoto perėjimo iš Vidars į {name} nerasta. Todėl Vidars kilmė negali būti laikoma įrodyta ir šiam vardui.',
+ 'Kirjapilt {name} lubab kaaluda võimalikku võrdlust Vidarsiga. See on üksnes sarnastel vormidel põhinev tööversioon: dokumenteeritud üleminekut Vidarsist nimeks {name} pole leitud. Vidarsi päritolu ei saa seega pidada selle nime puhul tõestatuks.'
+];
+const entries={lv:{},lt:{},ee:{}};
+for(const name of ['Vianda','Viāna'])entries.lv[name]={sources:vianSources,text:Object.fromEntries(langs.map((l,i)=>[l,[vianText[i]]]))};
+for(const name of ['Vidards','Vidarts','Vidavs'])entries.lv[name]={sources:['https://www.izpetnieks.lv/en/name/Vidars'],text:Object.fromEntries(langs.map((l,i)=>[l,[vidText[i]]]))};
+entries.lt.Juozapotas={sources:['https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/'],text:{
+ lv:['Juozapotas varētu būt saistīts ar Juozapatas rakstību. Šī ir pagaidām nepārbaudīta formu salīdzināšana: avots dokumentē Juozapatas, bet ne abu rakstību savstarpēju atbilsmi. No šīs līdzības vien nevar droši pārņemt ne cilmi, ne konkrēta vēsturiska cilvēka dzīvesstāstu.'],
+ ru:['Juozapotas может быть связано с написанием Juozapatas. Пока это непроверенное сравнение форм: источник документирует Juozapatas, но не соответствие двух написаний. Одного сходства недостаточно, чтобы перенести этимологию или биографию конкретного исторического человека.'],
+ en:['Juozapotas may be connected with the spelling Juozapatas. This remains an unverified comparison: the source documents Juozapatas, not a correspondence between the two forms. Similarity alone does not establish a shared etymology or justify transferring a historical person’s biography.'],
+ lt:['Juozapotas galėtų būti susijęs su Juozapatas rašyba. Kol kas tai nepatikrintas formų palyginimas: šaltinis dokumentuoja Juozapatas, bet ne abiejų rašybų atitiktį. Vien panašumas neįrodo bendros etimologijos ir neleidžia perkelti istorinio asmens biografijos.'],
+ et:['Juozapotas võib olla seotud kirjapildiga Juozapatas. See on seni kontrollimata vormivõrdlus: allikas dokumenteerib Juozapatast, mitte kahe kirjapildi vastavust. Sarnasus üksi ei tõesta ühist etümoloogiat ega õigusta ajaloolise isiku eluloo ülekandmist.']
+}};
+export const HYPOTHESIS_LABELS={lv:'Pieņēmums',ru:'Предположение',en:'Hypothesis',lt:'Prielaida',et:'Oletus'};
+export function unverifiedHistory(name,country){return entries[country]?.[name.normalize('NFC').replace(/\.$/,'')]||null;}

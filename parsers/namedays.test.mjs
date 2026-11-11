@@ -13,6 +13,32 @@ import {reviewedRoot} from '../public/namedays-roots.js';
 import {reviewedHistory} from '../public/namedays-history.js';
 import {historiesLatvianR9} from '../public/namedays-history-r9-lv.js';
 import {historiesLatvianR10} from '../public/namedays-history-r10-lv.js';
+import {historiesLatvianR11} from '../public/namedays-history-r11-lv.js';
+import {historiesLithuanianR11,historiesEstonianR11} from '../public/namedays-history-r11-baltic.js';
+import {unverifiedHistory,HYPOTHESIS_LABELS} from '../public/namedays-hypotheses.js';
+test('calendar-day research separates 17 verified histories from six open hypotheses',()=>{
+ let count=0;
+ for(const [country,histories] of [['lv',historiesLatvianR11],['lt',historiesLithuanianR11],['ee',historiesEstonianR11]])for(const [name,h] of Object.entries(histories)){
+  assert.equal(reviewedHistory(name,country),h);
+  for(const lang of LANGUAGES){assert.equal(h.text[lang].length,2);assert(h.text[lang].join(' ').length>300,name+' '+lang);}
+  count++;
+ }
+ assert.equal(count,17);
+ for(const [country,name] of [['lv','Vianda'],['lv','Viāna'],['lv','Vidards'],['lv','Vidarts'],['lv','Vidavs'],['lt','Juozapotas']]){
+  const p=buildProfile(name,country);assert.equal(p.verification_status,'unverified');assert.equal(reviewedHistory(name,country),null);assert(unverifiedHistory(name,country));
+  assert(p.provenance.some(s=>s.type==='unverified_name_hypothesis'&&s.verification_status==='unverified'));
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert(c.unverified_hypothesis);assert.equal(c.hypothesis_label,HYPOTHESIS_LABELS[lang]);assert.equal(c.reviewed_narrative,false);assert.equal(c.kind,'unresearched');assert.equal(c.calendar_only,false);assert(c.notice);assert(c.history.length);assert.doesNotMatch(c.history.join(' '),/https?:|undefined/);}
+ }
+});
+test('unverified comparisons cannot lose their status or become another name’s related history',()=>{
+ const p=buildProfile('Vianda','lv');delete p.verification_status;assert.throws(()=>validateProfile(p),/explicit status/);
+ const q=buildProfile('Vianda','lv');q.provenance=q.provenance.filter(s=>s.type!=='unverified_name_hypothesis');assert.throws(()=>validateProfile(q),/provenance/);
+ const inherited=buildProfile('Vianda','lv');inherited.family='charlotte';assert.equal(describeName(inherited).reviewed_narrative,false);
+ assert.equal(unverifiedHistory('Vianda','lt'),null);assert.equal(unverifiedHistory('Juozapotas','lv'),null);
+ const target=buildProfile('Vidards','lv');target.facts.origins=['Old High German'];
+ const other=buildProfile('UnrelatedTestName','lv');other.facts.related=['Vidards'];
+ for(const lang of LANGUAGES)assert.deepEqual(describeName(other,lang,0,{[target.key]:target}).related_context,[]);
+});
 test('next 50 LV histories retain five languages and stay outside EE/LT lookups',()=>{
  assert.equal(Object.keys(historiesLatvianR10).length,50);
  for(const [name,history] of Object.entries(historiesLatvianR10)){
