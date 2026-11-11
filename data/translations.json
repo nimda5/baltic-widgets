@@ -156,7 +156,12 @@
     "namedays": "Vārda diena",
     "exchange_tab": "Valūtas",
     "fuel_price_expired": "Publicētā cena ir vecāka par 48 stundām",
-    "fuel_price_unconfirmed": "Nav apstiprinātas cenas par pēdējām 48 stundām"
+    "fuel_price_unconfirmed": "Nav apstiprinātas cenas par pēdējām 48 stundām",
+    "annual_rate": "Gada likme",
+    "percentage_points": "pp",
+    "change_points": "Izmaiņa: {value} pp",
+    "delayed_24h": "Publicēts ar 24 stundu aizkavi",
+    "rate_unavailable": "Likme vēl nav pieejama"
   },
   "ru": {
     "fuel": "Энергия",
@@ -315,7 +320,12 @@
     "namedays": "Именины",
     "exchange_tab": "Валюты",
     "fuel_price_expired": "Опубликованной цене больше 48 часов",
-    "fuel_price_unconfirmed": "Нет подтверждённой цены за последние 48 часов"
+    "fuel_price_unconfirmed": "Нет подтверждённой цены за последние 48 часов",
+    "annual_rate": "Годовая ставка",
+    "percentage_points": "п.п.",
+    "change_points": "Изменение: {value} п.п.",
+    "delayed_24h": "Публикуется с задержкой 24 часа",
+    "rate_unavailable": "Ставка пока недоступна"
   },
   "en": {
     "fuel": "Energy",
@@ -474,7 +484,12 @@
     "namedays": "Name day",
     "exchange_tab": "Markets",
     "fuel_price_expired": "Published price is older than 48 hours",
-    "fuel_price_unconfirmed": "No confirmed price from the last 48 hours"
+    "fuel_price_unconfirmed": "No confirmed price from the last 48 hours",
+    "annual_rate": "Annual rate",
+    "percentage_points": "pp",
+    "change_points": "Change: {value} pp",
+    "delayed_24h": "Published with a 24-hour delay",
+    "rate_unavailable": "Rate not available yet"
   },
   "lt": {
     "fuel": "Energija",
@@ -633,7 +648,12 @@
     "namedays": "Vardadienis",
     "exchange_tab": "Valiutos",
     "fuel_price_expired": "Paskelbta kaina senesnė nei 48 valandos",
-    "fuel_price_unconfirmed": "Nėra patvirtintos kainos per pastarąsias 48 valandas"
+    "fuel_price_unconfirmed": "Nėra patvirtintos kainos per pastarąsias 48 valandas",
+    "annual_rate": "Metinė norma",
+    "percentage_points": "proc. p.",
+    "change_points": "Pokytis: {value} proc. p.",
+    "delayed_24h": "Skelbiama su 24 valandų vėlavimu",
+    "rate_unavailable": "Norma dar neprieinama"
   },
   "et": {
     "fuel": "Energia",
@@ -792,6 +812,11 @@
     "namedays": "Nimepäev",
     "exchange_tab": "Valuutad",
     "fuel_price_expired": "Avaldatud hind on vanem kui 48 tundi",
-    "fuel_price_unconfirmed": "Viimase 48 tunni kinnitatud hind puudub"
+    "fuel_price_unconfirmed": "Viimase 48 tunni kinnitatud hind puudub",
+    "annual_rate": "Aastamäär",
+    "percentage_points": "pp",
+    "change_points": "Muutus: {value} pp",
+    "delayed_24h": "Avaldatakse 24-tunnise viivitusega",
+    "rate_unavailable": "Intressimäär pole veel saadaval"
   }
 }
