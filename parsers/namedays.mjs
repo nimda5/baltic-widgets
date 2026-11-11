@@ -108,7 +108,7 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(previous?.people?.length)chosen=[...new Map([...previous.people,...chosen].map(p=>[p.id,p])).values()];
  for(const person of [...chosen])if(person.id.startsWith('reviewed:')){const original=chosen.findIndex(p=>p.id!==person.id&&p.name===person.name);if(original>=0){chosen[original]=reviewedPerson(chosen[original],person);chosen=chosen.filter(p=>p.id!==person.id);}}
  chosen=[...chosen].sort((a,b)=>Number(b.match==='exact')-Number(a.match==='exact')||Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0)).slice(0,3);
- const history=reviewedHistory(name);
+ const history=reviewedHistory(name,country);
  if(history?.related)facts.related=[...new Set([...facts.related,...history.related])];
  const formation=research.catalog?.[name]?.raw_origin;
  if(/phonetic formation/i.test(formation||'')||previous?.facts?.formation==='phonetic')facts.formation='phonetic';
@@ -119,9 +119,9 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  const profile={key,name,country,writer_version:WRITER_VERSION,family,facts,people:chosen,provenance,research_status:entry?.status||previous?.research_status||'pending',content_type:'sourced_history_and_original_greetings'};
  return validateProfile(profile);
 }
-export function validateProfile(profile){
- if(!profile||!COUNTRIES.includes(profile.country)||profile.key!==profile.country+':'+profile.name||profile.writer_version!==WRITER_VERSION||!Array.isArray(profile.provenance)||!Array.isArray(profile.people)||!Array.isArray(profile.facts?.origins))throw Error('Invalid name profile');
- if((reviewedHistory(profile.name)||profile.facts.calendar_entry||profile.family||profile.facts.origins.length||profile.facts.first_recorded||profile.facts.registry_kind||profile.facts.related?.length||profile.facts.possible_related?.length||profile.facts.etymons?.length||profile.facts.archival_variants?.length)&&!profile.provenance.length)throw Error('Historical claims need provenance');
+export function validateProfile(profile,writerVersion=WRITER_VERSION){
+ if(!/^namedays-\d+\.\d+\.\d+$/.test(writerVersion)||!profile||!COUNTRIES.includes(profile.country)||profile.key!==profile.country+':'+profile.name||profile.writer_version!==writerVersion||!Array.isArray(profile.provenance)||!Array.isArray(profile.people)||!Array.isArray(profile.facts?.origins))throw Error('Invalid name profile');
+ if((reviewedHistory(profile.name,profile.country)||profile.facts.calendar_entry||profile.family||profile.facts.origins.length||profile.facts.first_recorded||profile.facts.registry_kind||profile.facts.related?.length||profile.facts.possible_related?.length||profile.facts.etymons?.length||profile.facts.archival_variants?.length)&&!profile.provenance.length)throw Error('Historical claims need provenance');
  if(profile.facts.calendar_entry&&(!Number.isInteger(profile.facts.calendar_entry.year)||profile.facts.calendar_entry.year<1500||profile.facts.calendar_entry.year>new Date().getUTCFullYear()||!profile.facts.calendar_entry.source?.url))throw Error('Invalid calendar-entry evidence');
  for(const word of profile.facts.etymons||[])if(!word.term||LANGUAGES.some(lang=>!word.gloss?.[lang])||/[A-Za-z]/.test(word.gloss.ru))throw Error('Incomplete etymological gloss');
  for(const p of profile.people){if(!p.id||!p.name||!p.role||!p.source?.url||!['exact','related_form','pseudonym'].includes(p.match))throw Error('Invalid namesake');}

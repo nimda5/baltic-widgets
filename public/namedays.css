@@ -58,7 +58,7 @@ html[data-bs-theme=light] .nameday-dialog,html[data-theme=light] .nameday-dialog
 .nameday-dialog .nameday-names{flex:0 0 auto;max-height:min(180px,28dvh);min-height:0;align-content:flex-start;align-items:flex-start;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding-bottom:6px}
 .nameday-dialog .nameday-name{flex-shrink:0}
 .nameday-dialog .nameday-tabs{flex:none;min-height:34px}
-.nameday-dialog .nameday-content{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;overflow-anchor:none}
+.nameday-dialog .nameday-content{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;overflow-anchor:none;padding-inline-end:14px}
 .nameday-dialog .nameday-content,.nameday-dialog .nameday-names{scroll-behavior:auto;contain:layout paint}
 .nameday-country{min-width:0;max-width:75px;border:0;background:transparent;color:inherit;font:inherit;font-size:10px;cursor:pointer;padding:0}
 .nameday-country option{background:var(--portal-surface-primary,#242529);color:var(--portal-text-primary,#eee)}

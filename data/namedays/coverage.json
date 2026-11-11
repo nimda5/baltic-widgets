@@ -1,5 +1,5 @@
 {
-  "writer_version": "namedays-1.8.6",
+  "writer_version": "namedays-1.8.7",
   "enabled_countries": [
     "lv",
     "lt",
@@ -15,8 +15,8 @@
       "with_word_meanings": 654,
       "research_pending": 0,
       "editorial": {
-        "reviewed_narratives": 372,
-        "factual_summaries": 4072,
+        "reviewed_narratives": 392,
+        "factual_summaries": 4052,
         "attestation_only": 369,
         "needs_research": 743,
         "fictional_stories": 0,
@@ -27,7 +27,7 @@
           "lt",
           "et"
         ],
-        "with_related_context": 2310,
+        "with_related_context": 2331,
         "with_calendar_entry": 176
       }
     },

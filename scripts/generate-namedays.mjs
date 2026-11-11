@@ -3,6 +3,10 @@ import {parseCalendar,buildProfile,namesakeIndex,evidenceIndex,correctCalendarNa
 import {validateCountryCalendar} from '../public/namedays-core.js';
 import {WRITER_VERSION,describeName,LANGUAGES} from '../public/namedays-content.js';
 const project=new URL('../',import.meta.url),target=new URL('public/data/namedays/',project);
+const allCountries=['lv','lt','ee'];
+const countryArg=process.argv.find(arg=>arg.startsWith('--country='))?.slice(10);
+if(countryArg&&!allCountries.includes(countryArg))throw Error('Invalid --country; expected lv, lt or ee');
+const selectedCountries=countryArg?[countryArg]:allCountries;
 await mkdir(target,{recursive:true});
 let calendar;
 try{calendar=parseCalendar(await readFile(new URL('namedays.txt',project),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;const c=validateCountryCalendar(JSON.parse(await readFile(new URL('calendar-lv.json',target),'utf8')));calendar={...c,data:{...c.data,source_rows_by_country:{lv:c.data.source_rows},calendars:{lv:c.data.days}}};}
@@ -24,9 +28,9 @@ for(const country of ['lt','ee']){
  calendar.data.calendars[country]=doc.data.days;calendar.data.source_rows_by_country[country]=doc.data.source_rows;
 }
 const people=namesakeIndex(entities,localRows);
-const countries=['lv','lt','ee'],documents=[],report={writer_version:WRITER_VERSION,enabled_countries:countries,source_rows:Object.values(calendar.data.source_rows_by_country).reduce((a,b)=>a+b,0),countries:{}};
-const baselines=Object.fromEntries(await Promise.all(countries.map(async country=>[country,(await json(new URL('profiles-'+country+'.json',target),{})).data||{}])));
-for(const country of countries){
+const documents=[],priorReport=await json(new URL('coverage.json',target),{}),report={writer_version:WRITER_VERSION,enabled_countries:allCountries,source_rows:Object.values(calendar.data.source_rows_by_country).reduce((a,b)=>a+b,0),countries:countryArg?{...priorReport.countries}:{}};
+const baselines=Object.fromEntries(await Promise.all(allCountries.map(async country=>[country,(await json(new URL('profiles-'+country+'.json',target),{})).data||{}])));
+for(const country of selectedCountries){
  const baseline=process.argv.find(arg=>arg.startsWith('--baseline='))?.slice(11);
  const previous=(baseline?JSON.parse(await readFile(baseline,'utf8')):await json(new URL('profiles-'+country+'.json',target),{})).data||{};
  const evidence=evidenceIndex(research,Object.values(baselines).flatMap(Object.values));
@@ -48,4 +52,7 @@ for(const [file,value] of documents){
  try{await writeFile(temp,JSON.stringify(value));await rename(temp,file);}finally{await unlink(temp).catch(e=>{if(e.code!=='ENOENT')throw e;});}
 }
 await writeFile(new URL('coverage.json',target),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
-try{if((await stat(new URL('data/',project))).isDirectory())await cp(target,new URL('data/namedays/',project),{recursive:true});}catch(e){if(e.code!=='ENOENT')throw e;}
+try{if((await stat(new URL('data/',project))).isDirectory()){
+ await mkdir(new URL('data/namedays/',project),{recursive:true});
+ for(const file of [...documents.map(([file])=>file),new URL('coverage.json',target)])await cp(file,new URL('data/namedays/'+file.pathname.split('/').pop(),project));
+}}catch(e){if(e.code!=='ENOENT')throw e;}

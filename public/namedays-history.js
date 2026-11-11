@@ -1,4 +1,5 @@
 import {researchedHistories} from './namedays-history-details.js';
+import {historiesLatvianR9} from './namedays-history-r9-lv.js';
 import {balticHistories} from './namedays-history-baltic.js';
 // Research round 2 (November 2026): verified family histories, one module per research batch.
 import {historiesClassicsM} from './namedays-history-r2-classics-m.js';
@@ -91,4 +92,8 @@ const entries={
   }
  }
 };
-export function reviewedHistory(name){return entries[name.normalize('NFC').replace(/\.$/,'')]||null;}
+const countryEntries={lv:historiesLatvianR9};
+export function reviewedHistory(name,country){
+ const key=name.normalize('NFC').replace(/\.$/,'');
+ return countryEntries[country]?.[key]||entries[key]||null;
+}

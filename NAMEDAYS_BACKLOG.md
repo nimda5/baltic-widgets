@@ -8,8 +8,8 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 372 | 115 | 193 |
-| Short factual summary | 4072 | 1230 | 470 |
+| Reviewed history | 392 | 115 | 193 |
+| Short factual summary | 4052 | 1230 | 470 |
 | Early record only | 369 | 1 | 13 |
 | Needs research | 743 | 222 | 877 |
 | Total profiles | 5556 | 1568 | 1553 |
@@ -21,7 +21,7 @@ Continue research in the shared branch `codex/namedays-round4`; do not create a 
 1. Pick names from the priority lists below. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.
 2. Verify every claim in a source you actually opened, and keep the URLs in research files and provenance metadata only. Do not display source URLs, clickable citations or source lists in the widget interface. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, Wikipedia in the relevant language, national library and museum pages. vardai.vlkk.lt blocks automated requests; open it manually.
 3. Write two paragraphs per language (lv, ru, en, lt, et): origin and how the name reached the Baltic languages, then one concrete, verified historical detail. Keep uncertain etymology explicitly uncertain; describe literary events as literature; never call a calendar or publication year the creation date unless a source says the name was coined then.
-4. Add the entry to a `public/namedays-history-r<round>-<topic>.js` module, import it in `public/namedays-history.js`, record every examined name (including skipped ones) in `research/namedays/round<round>-notes.json`, bump `WRITER_VERSION`, then run `node scripts/generate-namedays.mjs`, `node --test parsers/namedays.test.mjs` and this script.
+4. Add the entry to a `public/namedays-history-r<round>-<topic>.js` module, import it in `public/namedays-history.js`, record every examined name (including skipped ones) in `research/namedays/round<round>-notes.json`, bump `WRITER_VERSION`, then run `node scripts/generate-namedays.mjs --country=lv` for LV-only work (use `lt` or `ee` for another country; omit the flag only for a full rebuild), `node --test parsers/namedays.test.mjs` and this script.
 
 ## Priority 1: started in earlier rounds
 
@@ -35,26 +35,6 @@ Ranked by registered bearers (PMLP snapshot). These already show a short factual
 
 | Name | Now shows | LV bearers |
 | --- | --- | ---: |
-| Valentīna | Short factual summary | 11972 |
-| Jekaterina | Short factual summary | 7075 |
-| Maija | Short factual summary | 6863 |
-| Raimonds | Short factual summary | 6160 |
-| Madara | Short factual summary | 6068 |
-| Santa | Short factual summary | 6052 |
-| Artjoms | Short factual summary | 6001 |
-| Vadims | Short factual summary | 5840 |
-| Deniss | Short factual summary | 5804 |
-| Liene | Short factual summary | 5788 |
-| Ņina | Short factual summary | 5764 |
-| Markuss | Short factual summary | 5706 |
-| Paula | Short factual summary | 5664 |
-| Inta | Short factual summary | 5640 |
-| Rihards | Short factual summary | 5600 |
-| Irēna | Short factual summary | 5558 |
-| Anatolijs | Short factual summary | 5483 |
-| Ralfs | Short factual summary | 5443 |
-| Normunds | Short factual summary | 5368 |
-| Marks | Short factual summary | 5297 |
 | Veronika | Short factual summary | 5221 |
 | Armands | Short factual summary | 5179 |
 | Dainis | Short factual summary | 5150 |
@@ -95,6 +75,26 @@ Ranked by registered bearers (PMLP snapshot). These already show a short factual
 | Lauris | Short factual summary | 3815 |
 | Evita | Short factual summary | 3812 |
 | Gunārs | Short factual summary | 3782 |
+| Renārs | Short factual summary | 3779 |
+| Evija | Short factual summary | 3752 |
+| Andis | Short factual summary | 3748 |
+| Žanna | Short factual summary | 3704 |
+| Ernests | Short factual summary | 3685 |
+| Iļja | Short factual summary | 3685 |
+| Estere | Short factual summary | 3652 |
+| Aina | Short factual summary | 3651 |
+| Silvija | Short factual summary | 3614 |
+| Samanta | Short factual summary | 3613 |
+| Guntars | Short factual summary | 3597 |
+| Ainārs | Short factual summary | 3574 |
+| Nikola | Short factual summary | 3568 |
+| Ģirts | Short factual summary | 3518 |
+| Lilija | Short factual summary | 3510 |
+| Anete | Short factual summary | 3488 |
+| Elīza | Short factual summary | 3410 |
+| Ruslans | Short factual summary | 3405 |
+| Darja | Short factual summary | 3403 |
+| Inna | Short factual summary | 3397 |
 
 ## Priority 3: LV names with only a calendar date or an early record
 

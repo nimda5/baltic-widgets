@@ -10,6 +10,31 @@ import {formatAttestation,attestationPeriod} from '../public/namedays-attestatio
 import {catalogFacts,referenceOrigins} from './nameday-reference.mjs';
 import {resolveLanguage} from '../public/i18n-core.js';
 import {reviewedRoot} from '../public/namedays-roots.js';
+import {reviewedHistory} from '../public/namedays-history.js';
+import {historiesLatvianR9} from '../public/namedays-history-r9-lv.js';
+test('LV-only reviewed histories do not override other country calendars',()=>{
+ assert.equal(Object.keys(historiesLatvianR9).length,20);
+ for(const [name,history] of Object.entries(historiesLatvianR9)){
+  assert.equal(reviewedHistory(name,'lv'),history);
+  for(const country of ['lt','ee',undefined])assert.notEqual(reviewedHistory(name,country),history);
+  for(const lang of LANGUAGES){assert.equal(history.text[lang].length,2);assert.ok(history.text[lang].join(' ').length>300,name+' '+lang);assert.doesNotMatch(history.text[lang].join(' '),/https?:/);}
+ }
+});
+test('profile validation uses the country document writer and rejects mismatches',()=>{
+ const profile=buildProfile('RareName','ee');profile.writer_version='namedays-1.8.6';
+ assert.equal(validateProfile(profile,'namedays-1.8.6'),profile);
+ assert.throws(()=>validateProfile(profile),/Invalid name profile/);
+ assert.throws(()=>validateProfile(profile,'namedays-1.8.5'),/Invalid name profile/);
+ profile.writer_version='invalid';assert.throws(()=>validateProfile(profile,'invalid'),/Invalid name profile/);
+});
+test('reviewed calendar dates are not appended twice and additional evidence is retained',()=>{
+ for(const name of ['Madara','Ņina','Paula','Normunds','Marks']){
+  const p=buildProfile(name,'lv');p.facts.calendar_entry={year:historiesLatvianR9[name].calendar_entry_year,scope:'exact_form',country:'lv',form:name};
+  for(const lang of LANGUAGES)assert.equal(describeName(p,lang).history.length,2,name+' '+lang);
+  p.facts.calendar_entry.year=1700;
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.history.length,3);assert.match(c.history[2],/1700/);}
+ }
+});
 const sample='domain\td\tm\tv\tid\nlv\t5\t11\tŠarlote\t1\nlv\t5\t11\tŠarlote\t2\nlt\t6\t11\tLeonardas\t3\nee\t29\t2\tMari\t4';
 test('name fitting uses every available slot and reserves the actual hidden-name counter',()=>{
  const widths=[60,50,40,70,50,60],counters={1:24,2:24,3:24,4:24,5:24};
@@ -164,10 +189,11 @@ test('published calendars and every profile have complete multilingual content',
  assert.equal(calendar.country,'lv');assert.equal(calendar.data.calendars,undefined);
  assert.throws(()=>calendarNames(calendar,'lt','2026-11-06'),/country mismatch/);
  for(const country of ['lv','lt','ee']){
-  const doc=JSON.parse(await readFile(new URL('../public/data/namedays/profiles-'+country+'.json',import.meta.url),'utf8'));assert.equal(doc.writer_version,WRITER_VERSION);
+  const doc=JSON.parse(await readFile(new URL('../public/data/namedays/profiles-'+country+'.json',import.meta.url),'utf8'));assert.match(doc.writer_version,/^namedays-\d+\.\d+\.\d+$/);
   const countryCalendar=country==='lv'?calendar:validateCountryCalendar(JSON.parse(await readFile(new URL('../public/data/namedays/calendar-'+country+'.json',import.meta.url),'utf8')));
   const required=new Set(Object.values(countryCalendar.data.days).flat().map(n=>n.key));assert.equal(Object.keys(doc.data).length,required.size);
-  for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);if(country!=='lv')assert.ok(!p.facts.calendar_entry||p.facts.calendar_entry.country===country);for(const lang of LANGUAGES)assert.ok(describeName(p,lang,0,doc.data).history.length,'Empty text: '+key+' '+lang);
+  assert.equal(countryCalendar.writer_version,doc.writer_version);
+  for(const key of required){const p=validateProfile(doc.data[key],doc.writer_version);assert.equal(p.country,country);assert.equal(p.key,key);if(country!=='lv')assert.ok(!p.facts.calendar_entry||p.facts.calendar_entry.country===country);for(const lang of LANGUAGES)assert.ok(describeName(p,lang,0,doc.data).history.length,'Empty text: '+key+' '+lang);
    if(p.facts.root_key)assert.equal(p.facts.root_key,reviewedRoot(p.name)?.key,'Unreviewed root assignment: '+p.name);
    for(const lang of LANGUAGES){const c=describeName(p,lang);assert.doesNotMatch(c.history.join(' '),/Словарные данные|языковой реестр|Dictionary evidence|language registry|Vārdnīcas dati|valodas reģistrā|Žodyno duomenys|kalbos registre|Sõnaraamatu andmed|keele registris/);
     assert.equal(c.story,'',`Fiction remains for ${p.name} in ${lang}`);

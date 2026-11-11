@@ -1,0 +1,388 @@
+{
+  "round": 9,
+  "date": "2026-11-11",
+  "note": "Twenty highest-ranked LV Priority 2 profiles now have reviewed histories, with 100 translations and 200 paragraphs. This round is explicitly limited to the LV calendar, including shared spellings such as Paula. EE/LT profile and calendar files, their coverage sections and five-language rendered content are unchanged. Country-scoped lookup and --country=lv generation preserve independent country releases. Older shared histories remain available. Unknown roots, tentative connections and source-specific date precision stay qualified. Source URLs remain provenance and working-file evidence only, never widget citations. Raw HTML, PDFs and rendered source checks remain private. Continue in codex/namedays-round4; EE/LT research belongs to a separate session.",
+  "records": [
+    {
+      "batch": "common-lv-priority",
+      "name": "Anatolijs",
+      "spellings": [
+        "Anatolijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anatolijs"
+      ],
+      "facts_used": "The dictionary links Anatolijs with Anatols and Greek anatolē, sunrise or east. Accounts of the family also mention Anatolia. The starting point here is the source’s Greek word for the east and the rising sun. The Latvian dictionary catalogue dates a personal-name attestation of Anatolijs to the last quarter of the nineteenth century and its calendar entry to 1889. The broader period retains the source’s precision rather than becoming an invented exact year.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Anatols, Greek sunrise/east and the Anatolia comparison are retained as the dictionary account. The personal record keeps the last-quarter-of-the-nineteenth-century precision.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Artjoms",
+      "spellings": [
+        "Artjoms"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Artjoms",
+        "https://www.uefa.com/uefaeuropaleague/news/01e9-0e758132a2b9-a6e89a45ecea-1000/"
+      ],
+      "facts_used": "The Latvian dictionary lists Artjoms as a form of Artemijs. Its proposed origin account compares the family with Greek artemēs, unharmed or safe. On 16 September 2010 Artjoms Rudņevs scored all three Lech Poznań goals against Juventus in Turin in the Europa League. His last strike came in added time to secure a 3–3 draw. UEFA reported the match as his hat-trick evening.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The Artemijs relationship and comparison with Greek artemēs are attributed to the dictionary catalogue. No unsupported Artemis derivation is asserted. The sporting episode is a historical match, not a current ranking.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Deniss",
+      "spellings": [
+        "Deniss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Deniss",
+        "https://results.isu.org/bios/isufs00011354.htm"
+      ],
+      "facts_used": "The Latvian dictionary explicitly lists Deniss as a form of Dionīss. The family is linked with Greek Dionysios and the god Dionysus. Changes across languages explain how the ancient Greek family is also recognised in the shorter spelling Deniss. Figure skater Deniss Vasiļjevs won European Championship bronze in 2022. The International Skating Union identifies him as Latvia’s first skater to medal at that championship. He also won silver at the John Wilson Trophy Grand Prix that year.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The catalogue explicitly identifies the Dionīss form. The ISU biography supports the dated 2022 results; no current coaching claim is included.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Inta",
+      "spellings": [
+        "Inta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Inta",
+        "https://www.lnmm.lv/upload/content/tikai-neraudi_katalogs.pdf#page=32"
+      ],
+      "facts_used": "Inta is a feminine name whose shared dictionary entry with Inte directly links it to Ints, in turn related to Indriķis. This documents a Latvian name-family explanation. The catalogue lists its calendar entry in 1933. Inta Ruka’s 1986 photograph Matrjona Vasiljeva belongs to Mani lauku ļaudis. The National Museum of Art catalogue preserves the sitter’s account of working as a milkmaid at Reči farm beside her portrait. The museum holds a silver gelatin print.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The catalogue links Inta/Inte through Ints to Indriķis; unrelated Inga or compound-name explanations were excluded. The museum catalogue PDF page 32 (printed page 54) documents the 1986 Ruka portrait; both caption and image were inspected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Irēna",
+      "spellings": [
+        "Irēna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ir%C4%93na",
+        "https://www.literatura.lv/personas/irena-birzvalka"
+      ],
+      "facts_used": "Irēna is based on Greek eirēnē, peace. In Greek mythology Eirene personifies peace. This connection explains the name’s traditional meaning and its place in the international Irene family, which developed different spellings across languages. Translator and lexicographer Irēna Birzvalka’s first translated work was Zofia Posmysz’s novella Pasažiere, published by Liesma in 1966. She translated from Polish, English and Russian and also helped compile bilingual dictionaries.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Greek peace is distinguished from the translator’s professional history. The 1966 book is identified as her first published translation according to the institutional biography.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Jekaterina",
+      "spellings": [
+        "Jekaterina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jekaterina",
+        "https://www.personvarduatveide.lv/uploads/sources/76/pdf/ukrainuIpasvarduAtveideLatviesuValoda.pdf#page=156",
+        "https://www.behindthename.com/name/katherine",
+        "https://www.behindthename.com/name/yekaterina"
+      ],
+      "facts_used": "Jekaterina without a macron is documented beside Єкатерина in the Ukrainian-name rendering manual. This establishes a specific rendering. The Greek origin of the international Katherine family is disputed; the pure interpretation reflects a later association with katharos. The family has a specific name-change story: German princess Sophie of Anhalt-Zerbst adopted Екатерина in 1744 before marrying the future Russian emperor Peter III. She later ruled as Catherine II, known as Catherine the Great.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The Ukrainian rendering manual explicitly pairs Єкатерина with Jekaterina on page 156. It does not establish every Latvian borrowing route. Katherine has an uncertain Greek origin; purity is a later association. Catherine II adopted Екатерина, not the Latvian spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Liene",
+      "spellings": [
+        "Liene"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Liene",
+        "https://www.valodaskonsultacijas.lv/uploads/suggested_sources/14/pdf/ValodasPrakse_Nr14.pdf#page=153"
+      ],
+      "facts_used": "The dictionary treats Liene and Liena together under Helēna. This family’s Greek root is not securely settled; comparisons include helene, torch, as a folk etymology. A single light-related meaning therefore cannot be presented as a proven origin. The Latvian Language Agency’s 2019 Valodas prakse collection cites Liene as an example of literary and cinematic influence. Known in Vidzeme since 1740, it became especially popular after the film adaptation of the Kaudzīte brothers’ Mērnieku laiki.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The Liene/Liena dictionary entry refers to Helēna, whose Greek root remains uncertain. The 2019 language-practice volume, page 153, gives Liene in Vidzeme in 1740 and later film-related popularity. No unverified film release or cast detail is added.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Madara",
+      "spellings": [
+        "Madara"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Madara",
+        "https://www.literatura.lv/en/persons/madara-gruntmane"
+      ],
+      "facts_used": "Madara is a feminine name based on the Latvian plant word madara, a wild plant. The dictionary catalogue gives a calendar entry in 1932 and a personal-name attestation in 1969. The calendar year is not treated as the name’s creation date. Poet Madara Gruntmane debuted with Narkozes in 2015. An English translation appeared in Wales in 2018; that same year Latvia saw her second collection, Dzērājmeitiņa. These are specific milestones in a bearer’s literary career.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The 1932 calendar entry and 1969 personal-name attestation do not date the invention or earliest-ever use. Conflicting literary-award year leads were excluded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Maija",
+      "spellings": [
+        "Maija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Maija",
+        "https://www.literatura.lv/personas/anna-brigadere"
+      ],
+      "facts_used": "The dictionary entry for Maija preserves several possibilities: a link with Marija, Greek and Roman Maia, or Vedic Māyā. These are distinct proposals. It gives a Latvian attestation in 1506 and a calendar entry in 1782. Anna Brigadere published the fairy-tale play Maija un Paija with Valters un Rapa in 1921. It premiered at the National Theatre on 15 November 1922, directed by Aleksis Mierlauks. Maija thus also became the name of a Latvian stage character.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Marija, Greek/Roman Maia and Vedic Māyā are distinct proposed connections, not a single proven derivation. Publication in 1921 and premiere in 1922 are different events.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Marks",
+      "spellings": [
+        "Marks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Marks",
+        "https://rothkomuseum.com/muzejs/rotko-muzejs/vesture/"
+      ],
+      "facts_used": "The dictionary places Marks under Markuss and the Latin Marcus family. It preserves both the traditional Mars comparison and the questioned little-hammer account. It suggests an attestation at Popervāle in 1582 and gives a calendar entry in 1817. Marks Rotko is the Latvian name of the Daugavpils-born artist. His art centre in Daugavpils Fortress opened on 24 April 2013. Cooperation with the artist’s children made it possible to exhibit original works from the family collection in the city.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Mars and questioned Latin marcus explanations remain separate. The possible 1582 attestation stays qualified. The Rothko Museum gives the 24 April 2013 opening and family collection loan; it does not date the name’s creation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Markuss",
+      "spellings": [
+        "Markuss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Markuss",
+        "https://plato.stanford.edu/entries/marcus-aurelius/"
+      ],
+      "facts_used": "Markuss belongs to the Latin Marcus family. The dictionary mentions a traditional connection with Mars and a questioned comparison with marcus, little hammer. These are distinct etymological accounts, neither presented as the only uncontested translation. Roman Marcus was borne by emperor and philosopher Marcus Aurelius, who ruled from AD 161 to 180. His Meditations were written in part during the last years of his military campaigns. They preserve personal philosophical reflections.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Mars and the questioned Latin little-hammer explanation remain distinct. Marcus Aurelius illustrates a related historical form, not the use of the Latvian spelling in ancient Rome.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Ņina",
+      "spellings": [
+        "Ņina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C5%85ina"
+      ],
+      "facts_used": "Ņina and Nina share a dictionary entry with several possible explanations: Antoņina, Katarina and Anna, plus a questioned link with Greek Ninos. No one family or meaning can therefore be securely assigned to every bearer. The catalogue of this shared entry gives a calendar record in 1889. A possible early personal-name attestation is dated more broadly to the first quarter of the twentieth century. Both dates retain the source’s scope and do not explain every family’s choice.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The shared Ņina/Nina catalogue entry offers several questioned roots. Calendar and personal-record dates are explicitly attributed to that shared entry, not asserted as exact-spelling first attestations.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Normunds",
+      "spellings": [
+        "Normunds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Normunds",
+        "https://www.literatura.lv/darbi/408244"
+      ],
+      "facts_used": "The Latvian dictionary account links Normunds with nord, north, and munt, protection. This is the source’s proposed compound. The catalogue suggests a personal-name attestation in 1913 and an earlier calendar entry in 1910. Critic Normunds Naumanis contributed to the 2002 collection 20. gadsimta teātra režija pasaulē un Latvijā. Jumava published it in Riga, with Silvija Radzobe as compiler. The name thus also appears in the history of Latvian theatre scholarship.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The dictionary proposes nord plus munt. No unsupported Norman/north-man derivation is substituted. The 1913 attestation remains possible. Naumanis is identified as a contributor, not sole author or compiler.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Paula",
+      "spellings": [
+        "Paula"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Paula",
+        "https://www.museen-boettcherstrasse.de/museen/paula-modersohn-becker-museum/architektur/"
+      ],
+      "facts_used": "Paula is the feminine form of Pauls; Latin paulus means small. The Latvian dictionary catalogue suggests an early attestation at Bērzmuiža in 1878 and gives a calendar entry in 1915. The possible nature of the early record is retained. Painter Paula Modersohn-Becker bore the same international form. Her commemorative building on Bremen’s Böttcherstraße opened on 2 June 1927. Originally named Paula-Becker-Modersohn-Haus, it was designed by her artist friend Bernhard Hoetger.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The possible 1878 attestation remains qualified. The German artist and Bremen museum are international bearer history, not a Latvian borrowing or earliest-name claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Raimonds",
+      "spellings": [
+        "Raimonds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Raimonds",
+        "https://www.behindthename.com/name/raymond",
+        "https://enciklopedija.lv/skirklis/59071",
+        "https://www.personvarduatveide.lv/uploads/sources/32/pdf/anglu_ipasvardu_atveide_latviesu_valoda.pdf"
+      ],
+      "facts_used": "Raimonds belongs to Germanic Raginmund, with regin, counsel or decision, and munt, protection. The English-name rendering manual also documents Raymond as Raimonds. This example does not mean that every Latvian family borrowed the name through English. In 1964 Raimonds Pauls became musical director, chief conductor and pianist of the Riga Variety Orchestra. The next year he prepared a concert version of George Gershwin’s Porgy and Bess. This orchestral period also established his Maestro form of address.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Germanic root elements and the English rendering pair are separate evidence. Raymond → Raimonds is not proof that all Latvian families borrowed through English.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Ralfs",
+      "spellings": [
+        "Ralfs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ralfs",
+        "https://www.eurovision.com/eurovision-song-contest/malmo-2013/participants/per-1/"
+      ],
+      "facts_used": "The dictionary links Ralfs with Ralf and Old English rǣd, counsel, and wulf, wolf. It also mentions Rūdolfs and Randolfs comparisons. It gives a calendar entry in 1964 and an early personal-name attestation in late-nineteenth-century Stopiņi. Ralfs Eilands represented Latvia with PeR at Eurovision 2013 in Malmö with Here We Go. The contest’s official credits identify him as lyricist and as co-composer with Arturas Burke.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The dictionary account and Rūdolfs/Randolfs comparisons are attributed. Eurovision’s official participant page was read through the web index after direct download returned 403; song credits were checked, and no lyrics were copied.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Rihards",
+      "spellings": [
+        "Rihards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Rihards",
+        "https://enciklopedija.lv/skirklis/55935"
+      ],
+      "facts_used": "The dictionary explains Rihards through Old High German rīchi, powerful, and hart, strong or brave. It also lists Latvian short forms Ričis and Ričuks. The catalogue gives an attestation in 1545 and a calendar entry in 1901. Graphic artist Rihards Zariņš’s major cultural undertaking was the three-volume folk-ornament collection Latvju Raksti, published in 1924–1931. Its patterns continued to inform folk-costume making. His artistic work thus intersected with research into traditional applied arts.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The source concerns the graphic artist Rihards Zariņš, not a same-named pastor. Latvju Raksti publication spans 1924–1931; no single-year substitution is made.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Santa",
+      "spellings": [
+        "Santa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Santa",
+        "https://www.literatura.lv/darbi/1450106"
+      ],
+      "facts_used": "Santa’s origin has no single established explanation. The Latvian dictionary catalogue tentatively offers Latin sanctus, holy, or a comparison with Aleksandra. Both links are questioned, so neither yields the only secure translation. Santa Remere authored Mūsējās, published in Riga in 2020, with artist Elīna Brasliņa and publisher Ascendum. The book presents Latvian women’s life stories through biographical prose and literary fairy-tale approaches.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The catalogue questions both sanctus and Aleksandra connections. Neither is treated as certain. The Literatura work record dates Mūsējās to 2020; an unsupported 2019 lead and unverified numerical claims were excluded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Vadims",
+      "spellings": [
+        "Vadims"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vadims"
+      ],
+      "facts_used": "Dictionary material tentatively compares Vadims with Old Russian vaditi, incite or urge. The connection remains a proposal, and the precise origin has not been securely explained. The catalogue based on Siliņš gives a calendar entry for Vadims in 1889. A separate personal-name attestation is dated to the first quarter of the twentieth century in Daugavpils. The calendar and personal record represent two different kinds of evidence.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "The Old Russian vaditi connection remains tentative. The Daugavpils record retains first-quarter-of-the-twentieth-century precision. A calendar entry is not an exact-spelling first occurrence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "common-lv-priority",
+      "name": "Valentīna",
+      "spellings": [
+        "Valentīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valent%C4%ABna",
+        "https://www.literatura.lv/personas/valentina-freimane"
+      ],
+      "facts_used": "Valentīna is the feminine form of Valentīns, from the Latin family based on valens, strong or healthy. The Latvian dictionary catalogue gives an attestation in Cēsis in 1876 and a calendar entry in 1889, separate dates in the name’s use. Film and theatre scholar Valentīna Freimane published Ardievu, Atlantīda! in 2010, recalling childhood in Riga, Paris and Berlin and survival during the Holocaust. Its continuation, Antigones likums, appeared posthumously in 2024.",
+      "reason": "A checked dictionary or rendering reference and a concrete dated calendar, cultural, literary, sporting or institutional episode support two paragraphs in all five product languages.",
+      "uncertainties": "Dictionary attestation and calendar inclusion are separate dates, neither a creation date. Freimane is a documented bearer, not an explanation of every family naming decision.",
+      "next_steps": ""
+    }
+  ]
+}

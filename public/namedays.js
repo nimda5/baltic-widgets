@@ -1,7 +1,7 @@
 import {openModal} from './modal.js';
 import {resolveLanguage,locales} from './i18n-core.js';
 import {calendarDate,calendarNames,validateCountryCalendar,fittingNameCount} from './namedays-core.js';
-import {text,describeName,roleLabel,WRITER_VERSION} from './namedays-content.js';
+import {text,describeName,roleLabel} from './namedays-content.js';
 import {populationCopy,validatePopulation} from './namedays-population.js';
 
 const params=new URLSearchParams(location.search),lang=resolveLanguage(params.get('lang')||document.documentElement.lang||'lv');
@@ -16,7 +16,7 @@ function element(tag,className,content){const e=document.createElement(tag);if(c
 function button(className,label,handler){const b=element('button',className,label);b.type='button';b.addEventListener('click',handler);return b;}
 async function readJSON(url){const response=await fetch(url,{signal:AbortSignal.timeout(12000),cache:'no-cache'});if(!response.ok)throw Error('HTTP '+response.status);return response.json();}
 async function calendar(country='lv'){if(!calendarRequests.has(country))calendarRequests.set(country,readJSON(new URL('calendar-'+country+'.json',dataBase)).then(validateCountryCalendar).then(doc=>{if(doc.country!==country)throw Error('Calendar country mismatch');return doc;}).catch(e=>{calendarRequests.delete(country);throw e;}));return calendarRequests.get(country);}
-async function profiles(country){if(!profileRequests.has(country))profileRequests.set(country,readJSON(new URL('profiles-'+country+'.json',dataBase)).then(doc=>{if(doc.schema_version!==1||doc.country!==country||doc.writer_version!==WRITER_VERSION||!doc.data||Object.values(doc.data).some(p=>p.country!==country))throw Error('Invalid profiles');return doc.data;}).catch(e=>{profileRequests.delete(country);throw e;}));return profileRequests.get(country);}
+async function profiles(country){if(!profileRequests.has(country))profileRequests.set(country,readJSON(new URL('profiles-'+country+'.json',dataBase)).then(doc=>{if(doc.schema_version!==1||doc.country!==country||!/^namedays-\d+\.\d+\.\d+$/.test(doc.writer_version)||!doc.data||Object.values(doc.data).some(p=>p.country!==country||p.writer_version!==doc.writer_version))throw Error('Invalid profiles');return doc.data;}).catch(e=>{profileRequests.delete(country);throw e;}));return profileRequests.get(country);}
 // Calendar country is independent of the UI language and the finance market.
 function countryOf(root){const country=root?.dataset.namedayCountry||params.get('country')||root?.dataset.country||'lv';return ['lv','lt','ee'].includes(country)?country:'lv';}
 const formatDate=(date,full=false)=>new Intl.DateTimeFormat(locale,{day:'numeric',month:full?'long':'short',timeZone:'UTC'}).format(new Date(date+'T12:00:00Z'));
@@ -60,12 +60,12 @@ function renderContent(){
  content.setAttribute('aria-labelledby','nameday-tab-'+state.tab);
  if(!state.selected){content.append(element('p','',tr('empty')));return;}
  const profile=state.profiles?.[state.selected];
- if(!profile||profile.key!==state.selected||profile.writer_version!==WRITER_VERSION||profile.country!==state.country||typeof profile.name!=='string'){content.append(element('p','',tr('error')));return;}
+ if(!profile||profile.key!==state.selected||profile.country!==state.country||typeof profile.name!=='string'){content.append(element('p','',tr('error')));return;}
  let copies=copyCache.get(state.profiles);if(!copies){copies=new Map();copyCache.set(state.profiles,copies);}const copyKey=profile.key+':'+lang+':'+state.variant;let copy=copies.get(copyKey);if(!copy){copy=describeName(profile,lang,state.variant,state.profiles);copies.set(copyKey,copy);}
  let panels=panelCache.get(state.profiles);if(!panels){panels=new Map();panelCache.set(state.profiles,panels);}const panelKey=profile.key+':'+lang+':'+state.tab;
  if(state.tab==='history'&&panels.has(panelKey)){content.replaceChildren(...panels.get(panelKey));return;}
  if(state.tab==='history'){
-  if(copy.history.length){content.append(element('h3','',copy.calendar_only?({lv:'Kalendāra ieraksts',ru:'Календарная запись',en:'Calendar record',lt:'Kalendoriaus įrašas',et:'Kalendrikirje'}[lang]):tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
+  if(copy.history.length&&!copy.calendar_only){content.append(element('h3','',tr('documented')));for(const p of copy.history)content.append(element('p','',p));}
   if(copy.attestation){
    const record=element('div','nameday-attestation');
    record.append(element('h3','',tr('recordedLabel')),element('strong','',copy.attestation.date),element('small','',tr('recordedNote',{form:copy.attestation.form})));

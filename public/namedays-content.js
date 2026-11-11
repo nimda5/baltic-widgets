@@ -1,7 +1,7 @@
 import {formatAttestation} from './namedays-attestation.js';
 import {reviewedHistory} from './namedays-history.js';
 import {rootHistory,reviewedRoot} from './namedays-roots.js';
-export const WRITER_VERSION='namedays-1.8.6';
+export const WRITER_VERSION='namedays-1.8.7';
 export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={
@@ -650,7 +650,7 @@ const localeForName=lang=>({lv:'lv-LV',ru:'ru-RU',en:'en-GB',lt:'lt-LT',et:'et-E
 export function describeName(profile,requested='en',variant=0,profiles=null){
  const lang=LANGUAGES.includes(requested)?requested:'en',i=LANGUAGES.indexOf(lang),seed=hash(nameIdentity(profile.name)),name=profile.name;
  const facts=profile.facts||{},paragraphs=[];
- const reviewed=reviewedHistory(name);
+ const reviewed=reviewedHistory(name,profile.country);
  const root=rootHistory(facts.root_key,name,lang);
  if(special[profile.family])paragraphs.push(fill(special[profile.family][lang],name));
  else if(root)paragraphs.push(root);
@@ -672,7 +672,7 @@ export function describeName(profile,requested='en',variant=0,profiles=null){
  const greetings=Object.fromEntries(['serious','humor'].map(mood=>[mood,Array.from({length:3},(_,n)=>fill(wishes[lang][mood][(wishIndex+n)%wishes[lang][mood].length],name))]));
  if(familyHumor[profile.family])greetings.humor[0]=fill(familyHumor[profile.family][lang],name);
  const history=reviewed?reviewed.text[lang].map(p=>fill(p,name)):paragraphs.length?[paragraphs.join(' ')]:[];
- if(facts.calendar_entry){
+ if(facts.calendar_entry&&reviewed?.calendar_entry_year!==facts.calendar_entry.year){
   const calendarNote={lv:'Personvārdu vārdnīcā norādīts, ka {name} kalendārā iekļauts {year}. gadā.',ru:'В словаре личных имён отмечено, что {name} включено в календарь в {year} году.',en:'The given-name dictionary records {name} as entering the calendar in {year}.',lt:'Asmenvardžių žodyne nurodyta, kad {name} į kalendorių įtrauktas {year} metais.',et:'Isikunimesõnastiku järgi lisati {name} kalendrisse {year}. aastal.'};
   const entry=facts.calendar_entry;const entryNote={lv:'Saistītajā vārdnīcas šķirklī {name} norādīts kalendāra gads {year}; atsevišķo formu datējums nav precizēts.',ru:'В общей словарной статье {name} указана календарная дата {year}; раздельная датировка написаний не уточнена.',en:'The shared dictionary entry {name} gives the calendar year {year}; it does not date each spelling separately.',lt:'Bendrame žodyno straipsnyje {name} nurodyti kalendoriaus metai {year}; atskirų rašybos formų datos nepatikslintos.',et:'Ühine sõnastikuartikkel {name} annab kalendriaastaks {year}; eri kirjapilte pole eraldi dateeritud.'};history.push((entry.scope==='reference_entry'?entryNote[lang]:calendarNote[lang]).replaceAll('{name}',entry.scope==='reference_entry'?entry.form:name).replaceAll('{year}',String(entry.year)));
  }
@@ -685,7 +685,7 @@ export function describeName(profile,requested='en',variant=0,profiles=null){
   const titles={lv:['Par saistīto vārdu {name}','Iespējama saikne: {name}'],ru:['О связанном имени {name}','Возможная связь: {name}'],en:['About the related name {name}','Possible connection: {name}'],lt:['Apie susijusį vardą {name}','Galimas ryšys: {name}'],et:['Seotud nimest {name}','Võimalik seos: {name}']};
   for(const candidate of candidates){
    const other=profiles[profile.country+':'+candidate.name.normalize('NFC')];
-   const root=reviewedRoot(candidate.name),review=reviewedHistory(candidate.name);
+   const root=reviewedRoot(candidate.name),review=reviewedHistory(candidate.name,profile.country);
    if((reviewed&&review?.text===reviewed.text)||(facts.root_key&&root?.key===facts.root_key))continue;
    const target=other||(root||review?{key:profile.country+':'+candidate.name,name:candidate.name,country:profile.country,facts:root?{root_key:root.key}:{},people:[]}:null);
    if(!target||seen.has(target.key))continue;seen.add(target.key);
