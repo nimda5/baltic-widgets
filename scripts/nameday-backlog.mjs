@@ -1,11 +1,25 @@
-// Builds the name-day research backlog from the published profiles, the LV population snapshot
+// Builds the name-day research backlog from the published profiles, the LV/LT/EE population snapshots
 // and the round notes in research/namedays/. Run after `node scripts/generate-namedays.mjs`.
 // Output: NAMEDAYS_BACKLOG.md (prioritized, human-readable) and research/namedays/backlog.csv (every name).
 import {readFile,writeFile,readdir} from 'node:fs/promises';
 import {describeName} from '../public/namedays-content.js';
 const project=new URL('../',import.meta.url),data=new URL('public/data/namedays/',project);
 const read=async url=>JSON.parse(await readFile(url,'utf8'));
-const population=(await read(new URL('population-lv.json',data))).data;
+// Official bearer counts per country (see NAMEDAYS.md): LV every given-name component, EE exact first
+// names with values below five suppressed, LT only the TOP 50 men's and women's names born since 1900.
+const populations={};
+for(const country of ['lv','lt','ee'])try{populations[country]=await read(new URL('population-'+country+'.json',data));}catch(e){if(e.code!=='ENOENT')throw e;}
+const BASIS={lv:'PMLP registered name component',lt:'Registrų centras TOP 50, born since 1900',ee:'Statistics Estonia exact first name'};
+// rank orders names by size; label is what the backlog shows. Unknown names rank last.
+function bearers(country,name){
+ const doc=populations[country],key=name.normalize('NFC').trim().toLocaleUpperCase('lv');
+ if(!doc)return{rank:-1,label:''};
+ if(Number.isSafeInteger(doc.data[key]))return{rank:doc.data[key],label:String(doc.data[key])};
+ const range=doc.ranges?.[key];if(range)return{rank:range[0],label:range[0]+'–'+range[1]};
+ if(doc.below_threshold?.includes(key))return{rank:1,label:'< '+doc.suppressed_below};
+ return{rank:-1,label:''};
+}
+const byBearers=(a,b)=>b.bearers.rank-a.bearers.rank||a.name.localeCompare(b.name);
 const notes=[];
 for(const file of (await readdir(new URL('research/namedays/',project))).filter(f=>/^round\d+-notes\.json$/.test(f)).sort())
  for(const record of (await read(new URL('research/namedays/'+file,project))).records)notes.push(record);
@@ -22,11 +36,11 @@ for(const country of ['lv','lt','ee']){
   const category=c.reviewed_narrative?'reviewed':c.kind==='unresearched'?'unresearched':c.calendar_only?'attestation':'summary';
   coverage[country][category]++;coverage[country].total++;
   const note=noteFor.get(p.name);
-  rows.push({country,name:p.name,category,bearers:country==='lv'?population[p.name.toLocaleUpperCase('lv')]||0:null,dates:(p.facts.calendar_dates||[]).join(' '),note:note&&note.status!=='written'?note:null});
+  rows.push({country,name:p.name,category,bearers:bearers(country,p.name),dates:(p.facts.calendar_dates||[]).join(' '),note:note&&note.status!=='written'?note:null});
  }
 }
 const csvCell=v=>{const s=String(v??'');return /[",\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;};
-const csv=['country,name,category,lv_registered_bearers,calendar_dates,note_status,next_steps',...rows.filter(r=>r.category!=='reviewed').sort((a,b)=>a.country.localeCompare(b.country)||(b.bearers??0)-(a.bearers??0)||a.name.localeCompare(b.name)).map(r=>[r.country,r.name,r.category,r.bearers??'',r.dates,r.note?.status||'',r.note?.next_steps||''].map(csvCell).join(','))].join('\n')+'\n';
+const csv=['country,name,category,registered_bearers,bearer_basis,calendar_dates,note_status,next_steps',...rows.filter(r=>r.category!=='reviewed').sort((a,b)=>a.country.localeCompare(b.country)||byBearers(a,b)).map(r=>[r.country,r.name,r.category,r.bearers.label,r.bearers.label?BASIS[r.country]:'',r.dates,r.note?.status||'',r.note?.next_steps||''].map(csvCell).join(','))].join('\n')+'\n';
 await writeFile(new URL('research/namedays/backlog.csv',project),csv);
 
 const md=[];
@@ -45,21 +59,36 @@ const open=rows.filter(r=>r.note&&r.category!=='reviewed');
 md.push('## Priority 1: started in earlier rounds','',
  'These names were examined but not written, usually because only a meaning was found and no verified historical detail. Each note says what to search next.','');
 for(const country of ['lv','lt','ee']){
- const list=open.filter(r=>r.country===country).sort((a,b)=>(b.bearers??0)-(a.bearers??0)||a.name.localeCompare(b.name));
+ const list=open.filter(r=>r.country===country).sort(byBearers);
  if(!list.length)continue;
  md.push('### '+country.toUpperCase(),'');
- table(['Name','Now shows',...(country==='lv'?['LV bearers']:[]),'Why open','Next step'],list.map(r=>[r.name,LABEL[r.category],...(country==='lv'?[r.bearers]:[]),(r.note.reason||'').replace(/\|/g,'/'),(r.note.next_steps||'').replace(/\|/g,'/')]));
+ table(['Name','Now shows','Bearers','Why open','Next step'],list.map(r=>[r.name,LABEL[r.category],r.bearers.label,(r.note.reason||'').replace(/\|/g,'/'),(r.note.next_steps||'').replace(/\|/g,'/')]));
 }
-md.push('## Priority 2: most common LV names without a reviewed history','',
- 'Ranked by registered bearers (PMLP snapshot). These already show a short factual line, but are seen most often.','');
-table(['Name','Now shows','LV bearers'],rows.filter(r=>r.country==='lv'&&r.category==='summary'&&!r.note).sort((a,b)=>b.bearers-a.bearers).slice(0,60).map(r=>[r.name,LABEL[r.category],r.bearers]));
-md.push('## Priority 3: LV names with only a calendar date or an early record','');
-table(['Name','Now shows','LV bearers'],rows.filter(r=>r.country==='lv'&&(r.category==='unresearched'||r.category==='attestation')&&!r.note).sort((a,b)=>b.bearers-a.bearers).slice(0,80).map(r=>[r.name,LABEL[r.category],r.bearers]));
+const scope={lv:'LV: registered bearers (PMLP, name anywhere among given names).',lt:'LT: only the official TOP 50 men’s and women’s names have counts (Registrų centras, born since 1900); other names are listed afterwards.',ee:'EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the source’s own suppressed values.'};
+md.push('## Priority 2: most common names without a reviewed history','',
+ 'Ranked by official bearer counts. These already show a short factual line, but are seen most often.','');
+for(const [country,limit] of [['lv',60],['lt',60],['ee',60]]){
+ const list=rows.filter(r=>r.country===country&&r.category==='summary'&&!r.note&&r.bearers.rank>=5).sort(byBearers).slice(0,limit);
+ if(!list.length)continue;
+ md.push('### '+country.toUpperCase(),'',scope[country],'');
+ table(['Name','Now shows','Bearers'],list.map(r=>[r.name,LABEL[r.category],r.bearers.label]));
+}
+// Names already ranked in Priority 3 are not repeated in the per-country lists below.
+const listed=new Set();
+md.push('## Priority 3: names with only a calendar date or an early record','',
+ 'Ranked by official bearer counts; names without a count follow in Priority 4 and 5.','');
+for(const [country,limit] of [['lv',80],['lt',80],['ee',80]]){
+ const list=rows.filter(r=>r.country===country&&(r.category==='unresearched'||r.category==='attestation')&&!r.note&&r.bearers.rank>=5).sort(byBearers).slice(0,limit);
+ if(!list.length)continue;
+ md.push('### '+country.toUpperCase(),'',scope[country],'');
+ table(['Name','Now shows','Bearers'],list.map(r=>[r.name,LABEL[r.category],r.bearers.label]));
+ for(const r of list)listed.add(r);
+}
 for(const country of ['lt','ee']){
- const list=rows.filter(r=>r.country===country&&r.category==='unresearched'&&!r.note).map(r=>r.name).sort((a,b)=>a.localeCompare(b,country==='lt'?'lt':'et'));
- md.push('## Priority '+(country==='lt'?4:5)+': '+country.toUpperCase()+' names that still need research ('+list.length+')','',
-  country==='lt'?'Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name\'s own stems from a source, and add a historical bearer only when one is documented.':'No registry counts are available for Estonia, so the list is alphabetical. Estonian-coined and literary names (Aavik, Saal, Kalevipoeg) usually have the richest histories.','',
-  list.join(', '),'');
+ const list=rows.filter(r=>r.country===country&&r.category==='unresearched'&&!r.note&&!listed.has(r)).sort(country==='ee'?byBearers:(a,b)=>a.name.localeCompare(b.name,'lt'));
+ md.push('## Priority '+(country==='lt'?4:5)+': other '+country.toUpperCase()+' names that still need research ('+list.length+')','',
+  country==='lt'?'These names are outside the official TOP 50 lists, so no count is available; the list is alphabetical. Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name’s own stems from a source, and add a historical bearer only when one is documented.':'Ranked by Statistics Estonia counts, with the bearer count in brackets. Estonian-coined and literary names (Aavik, Saal, Kalevipoeg) usually have the richest histories.','',
+  list.map(r=>r.bearers.label?r.name+' ('+r.bearers.label+')':r.name).join(', '),'');
 }
 md.push('## Known data issues','',
  '- LT calendar: the supplied misspellings Arnasd, Felidta and Binifacas are corrected to Arnas, Felicita and Bonifacas through `CALENDAR_CORRECTIONS` in `parsers/namedays.mjs`; only the corrected forms are in the official VLKK registry. Check whether Arnas really belongs on 13 August: tv3.lt lists 8 July, and day.lt lists no Arnas for 13 August.',
