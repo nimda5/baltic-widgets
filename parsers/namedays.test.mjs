@@ -16,6 +16,25 @@ import {historiesLatvianR10} from '../public/namedays-history-r10-lv.js';
 import {historiesLatvianR11} from '../public/namedays-history-r11-lv.js';
 import {historiesLithuanianR11,historiesEstonianR11} from '../public/namedays-history-r11-baltic.js';
 import {unverifiedHistory,HYPOTHESIS_LABELS} from '../public/namedays-hypotheses.js';
+test('November 13 rendering evidence stays distinct from provisional diacritic comparisons',()=>{
+ for(const name of ['Jevgēnijs','Jevgēnija']){
+  const p=buildProfile(name,'lv');
+  assert(reviewedHistory(name,'lv').sources.some(u=>/1993\.pdf#page=/.test(u)));
+  assert.equal(p.facts.calendar_entry,undefined);
+  assert.equal(reviewedHistory(name,'ee'),null);
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert(c.reviewed_narrative);assert.match(c.history[1],/1993/);assert.doesNotMatch(c.history[1],/1864|1899/);}
+ }
+ for(const name of ['Jevģēnijs','Jevgēņijs','Jevģēnija','Jevgēņija','Euģenijs']){
+  const p=buildProfile(name,'lv');assert.equal(reviewedHistory(name,'lv'),null);assert.equal(p.verification_status,'unverified');
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.reviewed_narrative,false);assert.equal(c.kind,'unresearched');assert.equal(c.hypothesis_label,HYPOTHESIS_LABELS[lang]);assert.doesNotMatch(c.history.join(' '),/https?:|\{name\}/);}
+  assert.equal(unverifiedHistory(name,'lt'),null);
+ }
+ for(const [name,country,marker] of [['Eirimė','lt',/1964/],['Norvydas','lt',/1964/],['Arkadijus','lt',/2026/],['Eugenijus','lt',/1991/],['Kristo','ee',/2007/],['Risto','ee',/2020/],['Krister','ee',/1946/]]){
+  assert(reviewedHistory(name,country));assert.equal(reviewedHistory(name,'lv'),null);
+  for(const lang of LANGUAGES){const c=describeName(buildProfile(name,country),lang);assert(c.reviewed_narrative);assert.equal(c.history.length,2);assert.match(c.history[1],marker);}
+ }
+});
+
 test('calendar-day research separates 17 verified histories from six open hypotheses',()=>{
  let count=0;
  for(const [country,histories] of [['lv',historiesLatvianR11],['lt',historiesLithuanianR11],['ee',historiesEstonianR11]])for(const [name,h] of Object.entries(histories)){

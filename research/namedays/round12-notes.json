@@ -1,0 +1,785 @@
+{
+  "round": 12,
+  "date": "2026-11-12",
+  "note": "The research pass advances to 13 November across all three calendars, as requested, while preserving the six earlier 12 November hypotheses as open and unverified. All 32 unfinished 13 November profiles were examined: 25 LV, 4 LT, 3 EE. Fifteen now have reviewed five-language histories (8 LV, 4 LT, 3 EE); seventeen LV spellings retain explicitly labelled, unverified editorial comparisons with source basis and individual next verification steps. The 12 and 13 November days are not declared verified-complete. All 23 unresolved hypotheses remain in the backlog and full date queue. Source URLs remain working-file/provenance metadata only. Raw source caches and PDF render checks remain private. Continue on codex/namedays-round4; next fresh calendar pass is 14 November.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "ee",
+      "name": "Krister",
+      "spellings": [
+        "Krister"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://snl.no/Krister_-_mannsnamn",
+        "https://www.behindthename.com/name/krister",
+        "https://stat.ee/nimed/KRISTER"
+      ],
+      "facts_used": "In Scandinavian naming tradition Krister is a form of Kristian, alongside the spellings Christer and Crister. Its older basis is Latin Christianus and Greek Christianos, Christian. This family is distinct from the Kristofer family meaning Christ-bearer. A specific literary use is the character Krister in Tarjei Vesaas’s 1946 work Bleikeplassen. This is an example from Norwegian literature, not evidence for when the name entered Estonia. Estonian use is separately documented by the national name-statistics catalogue.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The name scholar’s SNL article documents the Kristian/Christianus family and the Krister character in Vesaas’s 1946 Bleikeplassen. This is explicitly Norwegian literary history, not a first Estonian attestation. Statistics Estonia confirms independent exact-form use; no current population count is copied into narrative.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "ee",
+      "name": "Kristo",
+      "spellings": [
+        "Kristo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Kristo#Estonian",
+        "https://www.behindthename.com/name/kristo",
+        "https://www.behindthename.com/name/christian",
+        "https://www.behindthename.com/name/christopher",
+        "https://www.tlu.ee/riho-patsi-koolimuusika-fond-tunnustab-2013-aasta-laureaate"
+      ],
+      "facts_used": "The Estonian dictionary entry connects Kristo with short forms of both Kristjan and Kristofer. These are distinct lines: Kristjan leads to Christianus, Christian, while Kristofer leads to a name meaning Christ-bearer. One route need not be assigned to every bearer. Tallinn University’s announcement of the 2013 laureates describes guitarist and teacher Kristo Käo. In 2007 he created an interactive guitar-learning portal. The announcement also connects his work with music-teacher training and bringing guitar playing into school lessons.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The exact Estonian Wiktionary section gives both Kristjan and Kristofer. Behind the Name names only the Estonian Kristjan route and gives an Albanian Kristofor route; no Albanian martyr or Finnish literary evidence is reassigned to Estonia. Tallinn University’s 2013 announcement documents Käo’s 2007 portal.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "ee",
+      "name": "Risto",
+      "spellings": [
+        "Risto"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://en.wiktionary.org/wiki/Risto#Estonian",
+        "https://www.behindthename.com/name/risto",
+        "https://www.behindthename.com/name/christian",
+        "https://www.behindthename.com/name/christopher",
+        "https://vanemuine.ee/en/people/risto-joost/"
+      ],
+      "facts_used": "The Estonian dictionary entry connects Risto with short forms of both Kristjan and Kristofer. These are distinct lines: Kristjan leads to Christianus, Christian, while Kristofer leads to a name meaning Christ-bearer. One route need not be assigned to every bearer. Conductor Risto Joost earned a master’s degree at Stockholm’s Royal College of Music in 2008, studying orchestral conducting with Jorma Panula. Vanemuine Theatre dates the start of his work as its music director and chief conductor to August 2020.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The exact Estonian Wiktionary section supports both Kristjan and Kristofer; Behind the Name supplies the Christopher route. Both remain distinct. Vanemuine explicitly dates Joost’s Stockholm degree to 2008 and his music-director appointment to August 2020; no claim about his current office is required.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lt",
+      "name": "Arkadijus",
+      "spellings": [
+        "Arkadijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/arkadijus/",
+        "https://www.lnb.lt/renginiai/14670-aktorius-be-kaukes-susitikimas-su-arkadijumi-vinokuru-kulturos-naktis-2026"
+      ],
+      "facts_used": "Arkadijus is connected with Greek Arkadios, from Arcadia. Arcadia is a historical region of Greece, so the name’s basis is geographical. That meaning does not establish an Arcadian ancestry for every person who bears the name. Lithuania’s National Library announced the evening Aktorius be kaukės with Arkadijus Vinokuras for 12 June 2026. Its programme presented him as an actor and mime artist whose experience included Sweden’s Royal Dramatic Theatre and European circuses.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The Greek Arkadios/Arcadia geographical explanation is documented by the opened guide. The national library’s announcement schedules an event for 12 June 2026; the text reports an announcement, not independently confirmed attendance.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lt",
+      "name": "Eirimė",
+      "spellings": [
+        "Eirimė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eirime/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "The Lithuanian guide explains Eirimė as a two-stem name: ei- is compared with eiti, to go, and rim- with rimti and ramintis, to grow calm. These are comparisons for individual elements, rather than a reason to invent one exact sentence translating the whole name. The name calendar in the 1964 Chicago publication Tikiu Dievą places Eirimė on 13 November with short form Eira. The list by A. Salys and priest Stasys Yla was reprinted in the second volume of Salys’s writings in 1983. This dates a publication, not the name’s invention.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The guide supports the two-stem comparison, without an invented combined literal meaning. Salys PDF page 317, printed page 302, was visually checked for November 13 Eirimė (Eira). This is the 1964 calendar reprinted in 1983, not a coining date. The modern guide lists another day; the supplied national calendar remains unchanged.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lt",
+      "name": "Eugenijus",
+      "spellings": [
+        "Eugenijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eugenijus/",
+        "https://www.behindthename.com/name/eugene",
+        "https://rasytojai.lt/rasytojai/alisanka-eugenijus/"
+      ],
+      "facts_used": "Eugenijus is a Lithuanian form in a Greek-derived name family. The guide gives Greek eugenios; the wider family’s history is connected with eugenēs, well-born or noble. Different languages preserve the shared basis while developing their own endings and spellings. Poet and translator Eugenijus Ališanka graduated from Vilnius University’s Mathematics Faculty in 1983. The Lithuanian Writers’ Union bibliography dates his poetry collection Lygiadienis to 1991 and Peleno miestas to 1995.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "Greek eugenios/eugenēs family evidence is kept distinct from the modern poet’s biography. The Writers Union bibliography gives Lygiadienis 1991 and Peleno miestas 1995; these dates were checked rather than inferred from the English book title. The guide lists another day, which is not imported.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lt",
+      "name": "Norvydas",
+      "spellings": [
+        "Norvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/norvydas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Norvydas is a Lithuanian two-stem name. The guide compares nor- with noras and norėti, wish and to want, and vyd- with vydo, saw. These old name elements can be discussed separately without turning them into a promise or a description of someone’s character. Norvydas, with short form Noras, appears on 13 November in the 1964 Tikiu Dievą name calendar. This list by A. Salys and Stasys Yla was reprinted in Salys’s writings in 1983. It is a specific printed example of the name and its short form, rather than evidence of their year of creation.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The guide’s nor-/vyd- comparisons remain element glosses, not a forced combined translation. Salys PDF page 317, printed page 302, visually confirms November 13 Norvydas (Noras) in the 1964 calendar reprinted in 1983.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Augenija",
+      "spellings": [
+        "Augenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Augenija",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "The dictionary explicitly relates Augenija to Eiženija in the Greek eugenēs family, with the basic sense well-born or noble. The relationship rests on a dictionary cross-reference rather than an inference from the opening vowel alone. The family’s Latvian history is illustrated by masculine Eižens, recorded in Riga in 1869 and in the calendar in 1884. Those are dates for the related form. The Augenija entry supplies no comparable early dated attestation, so these years cannot be presented as its first records.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The exact catalogue entry directly relates Augenija to Eiženija. The second paragraph illustrates the documented family using male Eižens’s Riga 1869/calendar 1884 records, explicitly not Augenija’s own first attestations.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Eiženijs",
+      "spellings": [
+        "Eiženijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEenijs",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "Eiženijs belongs to the Eižens family, which the dictionary connects with Greek eugenēs, well-born or noble. This describes the historical meaning behind the name, rather than the ancestry or character of a person who bears it today. The dictionary catalogue dates the exact form Eiženijs to 1942 in Riga. This documents that spelling’s use in Latvia. No separate calendar-entry year is supplied for it; the 1884 calendar record for Eižens therefore remains attached to Eižens.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The catalogue explicitly relates Eiženijs to Eižens and records Eiženijs in Riga in 1942. Eižens’s 1884 calendar year is not assigned to Eiženijs.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Eižens",
+      "spellings": [
+        "Eižens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "Eižens belongs to the Eižens family, which the dictionary connects with Greek eugenēs, well-born or noble. This describes the historical meaning behind the name, rather than the ancestry or character of a person who bears it today. The catalogue records Eižens in Riga in 1869 and gives 1884 for its calendar entry. These are separate records of personal-name use and calendar tradition. Neither date marks the creation of the older Greek-derived name family.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "Riga 1869 and calendar 1884 belong to Eižens; neither is called the family’s creation date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Eugenijs",
+      "spellings": [
+        "Eugenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Eugenijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Eugenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Eugenijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Eugenijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Eugenijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Eugēnijs",
+      "spellings": [
+        "Eugēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "Eugēnijs belongs to the Eižens family, which the dictionary connects with Greek eugenēs, well-born or noble. This describes the historical meaning behind the name, rather than the ancestry or character of a person who bears it today. The dictionary catalogue dates the exact form Eugēnijs to 1965 in Vidzeme. This documents that spelling’s use in Latvia. No separate calendar-entry year is supplied for it; the 1884 calendar record for Eižens therefore remains attached to Eižens.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The catalogue places Eugēnijs under Eižens and records it in Vidzeme in 1965. No calendar year is supplied for this form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Euģenijs",
+      "spellings": [
+        "Euģenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Eu%C4%A3enijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Euģenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Euģenijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Euģenijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Euģenijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Euģēnijs",
+      "spellings": [
+        "Euģēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Eu%C4%A3%C4%93nijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Euģēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Euģēnijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Euģēnijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Euģēnijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evgenijs",
+      "spellings": [
+        "Evgenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Evgenijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evgenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evgenijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Evgenijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Evgenijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evgēnijs",
+      "spellings": [
+        "Evgēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Evg%C4%93nijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evgēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evgēnijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Evgēnijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Evgēnijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evģenijs",
+      "spellings": [
+        "Evģenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Ev%C4%A3enijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evģenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evģenijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Evģenijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Evģenijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Evģēnijs",
+      "spellings": [
+        "Evģēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eug%C4%93nijs",
+        "https://www.izpetnieks.lv/en/name/Ev%C4%A3%C4%93nijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Evģēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evģēnijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Eugēnijs, not a documented transition to Evģēnijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Evģēnijs to Eugēnijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgenija",
+      "spellings": [
+        "Jevgenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jevgenija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevgenija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevgenija.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņija, not a documented transition to Jevgenija. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevgenija to Jevgeņija. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgeņija",
+      "spellings": [
+        "Jevgeņija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "The dictionary identifies Jevgeņija as the feminine form of Jevgeņijs; through Eižens the family leads to Greek eugenēs, well-born or noble. The reference thus documents a particular feminine–masculine pair, beyond a resemblance in sound. The catalogue records Jevgeņija in Rēzekne in 1877 and in the calendar in 1899. These dates belong specifically to the feminine form. Earlier calendar evidence for Jevgeņijs does not become an introduction date for Jevgeņija.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The catalogue explicitly identifies the feminine form and gives its own Rēzekne 1877 and calendar 1899 dates, independently of the masculine form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgēnija",
+      "spellings": [
+        "Jevgēnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.personvarduatveide.lv/uploads/sources/30/pdf/krievu_ipasvardu_pareizrakstiba_un_pareizruna_latviesu_valoda_1993.pdf#page=78",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "Jevgēnija is supported by more than spelling resemblance: the Russian-name rendering manual lists it alongside Jevgeņija as renderings of the same Russian personal name. That documented link connects it to the Eižens family and Greek eugenēs, well-born or noble. The 1993 manual’s table contains the exact spelling Jevgēnija. It is a concrete record of a name-rendering tradition, rather than a birth register or a calendar-introduction document. Earlier dates for Jevgeņija are therefore not transferred to this form.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The 1993 manual was visually checked: PDF page 78, printed page 185, pairs Евгения with Jevgēnija and Jevgeņija. This is the feminine given-name table, independent of the masculine table’s patronymics. No first-birth or calendar-entry year is inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgēņija",
+      "spellings": [
+        "Jevgēņija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jevg%C4%93%C5%86ija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevgēņija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevgēņija.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņija, not a documented transition to Jevgēņija. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevgēņija to Jevgeņija. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģenija",
+      "spellings": [
+        "Jevģenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jev%C4%A3enija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģenija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevģenija.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņija, not a documented transition to Jevģenija. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevģenija to Jevgeņija. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģēnija",
+      "spellings": [
+        "Jevģēnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jev%C4%A3%C4%93nija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģēnija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevģēnija.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņija, not a documented transition to Jevģēnija. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevģēnija to Jevgeņija. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgenijs",
+      "spellings": [
+        "Jevgenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Jevgenijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevgenijs could be compared with the documented dictionary form Jevgeņijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņijs therefore cannot safely be assigned to Jevgenijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņijs, not a documented transition to Jevgenijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevgenijs to Jevgeņijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then. The Eugenijus guide lists Jevgenijs under “similar and related names”; find a direct rendering or etymology entry rather than treating that mixed list as decisive."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgeņijs",
+      "spellings": [
+        "Jevgeņijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "The dictionary describes Jevgeņijs as a rendering of the Russian form of Eižens. The family goes back to Greek eugenēs, well-born or noble. The Latvian rendering and the older Greek basis represent different stages in this form’s history. The catalogue gives a personal-name record of Jevgeņijs in Rēzekne in 1876 and a calendar entry in 1864. The earlier calendar date is compatible with the later personal record: a published name list and a surviving record of an individual are different kinds of evidence.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The catalogue documents the Russian-form rendering, a personal-name record in Rēzekne in 1876 and a calendar record in 1864. The two kinds of evidence are distinguished.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgēnijs",
+      "spellings": [
+        "Jevgēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "sources": [
+        "https://www.personvarduatveide.lv/uploads/sources/30/pdf/krievu_ipasvardu_pareizrakstiba_un_pareizruna_latviesu_valoda_1993.pdf#page=91",
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Ei%C5%BEens"
+      ],
+      "facts_used": "Jevgēnijs is supported by more than spelling resemblance: the Russian-name rendering manual lists it alongside Jevgeņijs as renderings of the same Russian personal name. That documented link connects it to the Eižens family and Greek eugenēs, well-born or noble. The 1993 manual’s table contains the exact spelling Jevgēnijs. It is a concrete record of a name-rendering tradition, rather than a birth register or a calendar-introduction document. Earlier dates for Jevgeņijs are therefore not transferred to this form.",
+      "hypothesis": "",
+      "reason": "Opened references and an exact-form dictionary, historical publication, professional or cultural record support the reviewed account.",
+      "uncertainties": "The 1993 rendering manual was visually checked: PDF page 91, printed page 198, pairs Евгений with Jevgēnijs and Jevgeņijs. The line beneath is a patronymic, not evidence for a feminine given name. Earlier Jevgeņijs dates are not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevgēņijs",
+      "spellings": [
+        "Jevgēņijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Jevg%C4%93%C5%86ijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevgēņijs could be compared with the documented dictionary form Jevgeņijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņijs therefore cannot safely be assigned to Jevgēņijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņijs, not a documented transition to Jevgēņijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevgēņijs to Jevgeņijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģenijs",
+      "spellings": [
+        "Jevģenijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Jev%C4%A3enijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģenijs could be compared with the documented dictionary form Jevgeņijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņijs therefore cannot safely be assigned to Jevģenijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņijs, not a documented transition to Jevģenijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevģenijs to Jevgeņijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevģēnijs",
+      "spellings": [
+        "Jevģēnijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ijs",
+        "https://www.izpetnieks.lv/en/name/Jev%C4%A3%C4%93nijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevģēnijs could be compared with the documented dictionary form Jevgeņijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņijs therefore cannot safely be assigned to Jevģēnijs.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņijs, not a documented transition to Jevģēnijs. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevģēnijs to Jevgeņijs. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevženija",
+      "spellings": [
+        "Jevženija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jev%C5%BEenija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevženija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevženija.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņija, not a documented transition to Jevženija. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevženija to Jevgeņija. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    },
+    {
+      "batch": "calendar-2026-11-13",
+      "date": "2026-11-12",
+      "calendar_date": "11-13",
+      "country": "lv",
+      "name": "Jevžēnija",
+      "spellings": [
+        "Jevžēnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jevge%C5%86ija",
+        "https://www.izpetnieks.lv/en/name/Jev%C5%BE%C4%93nija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jevžēnija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevžēnija.",
+      "reason": "The exact spelling has no documented origin in the opened catalogue. A comparison with an established form may be shown as an explicitly labelled hypothesis, not as verified etymology.",
+      "uncertainties": "The cited catalogue describes Jevgeņija, not a documented transition to Jevžēnija. The comparison is an editorial inference. Similar spelling and shared calendar membership do not prove shared roots or historical dates.",
+      "next_steps": "Locate an exact-form onomastic entry or an explicit paired document relating Jevžēnija to Jevgeņija. Inspect the source spelling and diacritics visually; keep the proposed relationship, roots and dates unverified until then."
+    }
+  ]
+}
