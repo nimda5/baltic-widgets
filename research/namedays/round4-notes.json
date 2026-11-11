@@ -1,0 +1,339 @@
+{
+  "round": 4,
+  "date": "2026-11-11",
+  "note": "Next 20 LV priority names after round 3: 16 written, four retained for stronger exact-form evidence. Source URLs are research/provenance metadata only. Google Play and the LU repository were read through the web tool after direct fetch returned a region block/security page. Altshuller biography was read through the web tool because direct fetch decoded its legacy encoding incorrectly. Raw snapshots remain private.",
+  "records": [
+    {
+      "batch": "priority-lv-20",
+      "name": "Agnija",
+      "spellings": [
+        "Agnija"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Agnija",
+        "https://www.behindthename.com/name/agniya",
+        "https://www.behindthename.com/name/agnes",
+        "https://www.vle.lt/straipsnis/agnija-barto/"
+      ],
+      "facts_used": "Agnija is compared with Russian Agniya, which is a form of Agnes. That family leads to Greek hagnos, “chaste”. Siliņš marks the Latvian connection with Agnese as uncertain and gives a possible record in 1913; it does not establish a separate derivation from “fire”. The poet Agniya Barto is called Agnija Barto in the Lithuanian encyclopaedia. Besides children’s verse, she wrote Najti čeloveka (1968), a prose book about children separated during the war. This documents a related international form without resolving the Latvian borrowing route.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Latvian Agnese connection remains tentative; no ignis derivation is asserted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Ints",
+      "spellings": [
+        "Ints"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ints",
+        "https://dziesmusvetki.lndb.lv/person/?gallery=1&id=47"
+      ],
+      "facts_used": "Ints is a form of Indriķis in Siliņš’s dictionary. Through that name it belongs to the Germanic family built from heim, “home”, and rīchi, “powerful” or “ruler”. Its short Latvian shape therefore has a documented connection rather than a meaning guessed from its sound. Conductor Ints Teterovskis founded the youth choir Tiāde in 1994 and led it until 2005. He became artistic director of Balsis in 1997. The National Library’s Song Festival collection preserves these milestones in the name’s Latvian musical history.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Aleks",
+      "spellings": [
+        "Aleks"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aleks",
+        "https://www.behindthename.com/name/aleks",
+        "https://www.alekskrotoski.com/latest/thedigitalhuman"
+      ],
+      "facts_used": "Aleks has several documented expansions internationally: Aleksey, Aleksandr and Aleksandra. The Latvian catalogue does not establish which applies to the Latvian spelling. A short form can cross languages and genders; resemblance alone cannot choose one full name for every bearer. Broadcaster Aleks Krotoski and the BBC Scotland team made The Digital Human from 2012 to 2024, creating nearly two hundred documentaries about life in a digital world. Her use of Aleks is an international example, not a claim about the gender or origin of the Latvian name.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "International expansions are documented; exact LV route remains open. Aleks Krotoski is a female international example, not a local male namesake.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Vladislava",
+      "spellings": [
+        "Vladislava"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vladislava",
+        "https://www.behindthename.com/name/vladislava",
+        "https://www.olympedia.org/athletes/92942"
+      ],
+      "facts_used": "Vladislava is the feminine form of Vladislav. Siliņš explicitly links it to Vladislavs and the Slavic elements vlad-, “to rule”, and slava, “glory”. He records Vladislava in Kārsava in 1930; the source does not require the two elements to become one fixed sentence. Sailor Vladislava Ukraintseva competed with Anna Basalkina at the Sydney Olympics in 2000. They finished fifteenth in the women’s two-person dinghy event. This is a documented bearer of the feminine name, with her own history rather than a biography borrowed from a male Vladislav.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Henriks",
+      "spellings": [
+        "Henriks"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Henriks",
+        "https://enciklopedija.lv/skirklis/30164"
+      ],
+      "facts_used": "Siliņš places Henriks in a grouped entry referring to Heinrihs. Its Germanic elements are heim, “home”, and rīchi, “powerful” or “ruler”. The entry’s medieval date belongs to a group of forms, so it should not be read as proof of the exact modern spelling in 1305. Latvian readers know the Norwegian playwright Henrik Ibsen as Henriks Ibsens. His dramatic poems Brand (1866) and Peer Gynt (1867) combined Norwegian history and folklore with modern existential questions. This documents Henriks as a Latvian rendering of the Norwegian name.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "1305 belongs to a grouped dictionary entry, not necessarily this exact modern spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Iraida",
+      "spellings": [
+        "Iraida"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraida",
+        "https://www.behindthename.com/name/iraida",
+        "https://www.oca.org/saints/lives/2022/09/23/102706-virgin-martyr-irais-rhais-of-alexandria"
+      ],
+      "facts_used": "Iraida is listed internationally as a Russian and Spanish form of Herais. The checked Latvian dictionary instead has Iraīda, so its dates cannot simply be transferred to Iraida. The international relationship is documented; the exact route into Latvian use remains open. An Orthodox saint’s life uses Iraida for the martyr also called Irais or Rhais of Alexandria. In that religious account she puts down her water pitcher and voluntarily joins Christian prisoners aboard a ship. This is a hagiographic tradition, not an independently verified biography or a name-creation date.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "International Herais relationship is sourced; the LV route remains open. The martyr story is explicitly hagiographic.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Elina",
+      "spellings": [
+        "Elina"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elina",
+        "https://www.behindthename.com/name/elina",
+        "https://www.wtatennis.com/players/316738/elina-svitolina"
+      ],
+      "facts_used": "Elina is a Finnish, Estonian and Swedish form of Helen. The Latvian catalogue also compares Elina with Helēna, but treats the underlying meanings as uncertain alternatives. It records Elina in Apekalns in 1898 and gives a calendar entry in 1915. Ukrainian tennis player Elina Svitolina won the WTA Finals in 2018, defeating Sloane Stephens in the final after winning all three group matches. This international bearer provides a separate sporting story for Elina, without borrowing Elīna Zālīte’s biography or attributing a Finnish origin to Svitolina.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Helen meanings remain uncertain; no Finnish origin is assigned to the Ukrainian athlete.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Margita",
+      "spellings": [
+        "Margita"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Margita",
+        "https://www.literatura.lv/personas/margita-gutmane"
+      ],
+      "facts_used": "Margita is directly linked to Margarita in Siliņš’s dictionary. The family leads through Latin margarīta and Greek margaritēs to the word “pearl”. The catalogue gives a possible record in Ķirupe in 1761 and a possible calendar entry in 1864. Writer Margita Gūtmane left Latvia as a small child in 1944 and returned to live there in 1996. Her prose book Vēstules mātei appeared in 1998. It explores exile and longing for home through a particular life, rather than treating those feelings as traits of everyone named Margita.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Anfisa",
+      "spellings": [
+        "Anfisa"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anfisa",
+        "https://www.olympedia.org/athletes/82183"
+      ],
+      "facts_used": "Anfisa is connected with Greek Anthusa, “blossoming”, in the checked Latvian entry. That is more specific evidence than a resemblance to Anfija. The entry gives a written record in 1942 and a calendar year of 1899, two different kinds of evidence rather than a creation date. Anfisa Reztsova won Olympic gold in two sports: the cross-country skiing relay in 1988 and the biathlon sprint in 1992. The Olympic results distinguish the events, showing how one bearer’s career crossed from skiing into biathlon.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Olympedia biography and results table disagree on 1992 medals. Used the results table: sprint gold, relay bronze; the text mentions only sprint gold.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Aksana",
+      "spellings": [
+        "Aksana"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aksana",
+        "https://www.behindthename.com/name/aksana",
+        "https://www.behindthename.com/name/xenia",
+        "https://www.wwe.com/superstars/aksana"
+      ],
+      "facts_used": "Aksana is the Belarusian form of Xenia, whose Greek background concerns hospitality and the guest or stranger. This relationship is documented for the Belarusian name. It does not by itself establish how every Latvian bearer acquired the spelling Aksana. Aksana also became a wrestling ring name. WWE’s biography describes a Lithuanian performer from Alytus who entered its NXT programme in the third season after bodybuilding and fitness modelling. This is a professional alias, not evidence of her birth name or a Lithuanian etymology.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Belarusian relationship is documented; LV borrowing is unknown. WWE ring name is explicitly an alias.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Mihaels",
+      "spellings": [
+        "Mihaels"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Mihaels",
+        "https://lvvv.tezaurs.lv/?id=65076"
+      ],
+      "facts_used": "Mihaels is connected with Hebrew Mīkāēl, “who is like God?”, in the Latvian catalogue. The question belongs to the name’s religious background. It links this spelling to the Michael family without making the autumn Miķeļi celebration the origin of every form. The Historical Dictionary of Latvian records the related spelling Michael in a Latvian religious text from 1587, and again in 1615. Its passage describes Michael and his angels fighting the dragon. This is an early printed family form, not proof that the exact modern spelling Mihaels was printed then.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "1587/1615 attestations are explicitly for the related Michael spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Dins",
+      "spellings": [
+        "Dins"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dins",
+        "https://www.izpetnieks.lv/vards/Dins"
+      ],
+      "facts_used": "No new reviewed history published.",
+      "reason": "English catalogue text says Dina, whereas the Latvian version says Dinam; both offer competing deene/denu paths. No printed scan or independently sourced exact-form history was obtained. Search results with celebrity lists and incorrect calendar claims were rejected.",
+      "next_steps": "Inspect the original Siliņš p. 99 and establish whether Dins is explicitly linked to Dean; then verify a concrete historical detail."
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Valentins",
+      "spellings": [
+        "Valentins"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valentins",
+        "https://www.izpetnieks.lv/vards/Valentins",
+        "https://www.behindthename.com/name/valentinas"
+      ],
+      "facts_used": "No new reviewed history published.",
+      "reason": "Opened catalogue explicitly documents Valentīns, not Valentins. Foreign Valentin and Lithuanian Valentinas entries do not prove the exact LV unaccented form. No exact-form historical narrative was assigned.",
+      "next_steps": "Find an authoritative Latvian spelling correspondence for Valentins/Valentīns or a historical record with this exact spelling before extending the family history."
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Emija",
+      "spellings": [
+        "Emija"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emija",
+        "https://www.izpetnieks.lv/vards/Emija"
+      ],
+      "facts_used": "No new reviewed history published.",
+      "reason": "Both Latvian and English catalogue pages leave origin unestablished. Same-day Eimija and similar Amy/Emmy/Emīlija are insufficient evidence. Search did not yield an authoritative exact-form link.",
+      "next_steps": "Inspect the printed dictionary or LVA/VVC guidance explicitly connecting Emija to a foreign name; do not infer the link from its calendar date."
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Henrihs",
+      "spellings": [
+        "Henrihs"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Henrihs",
+        "https://dspace.lu.lv/items/88113d8b-baf1-4283-a45a-c764196f17da"
+      ],
+      "facts_used": "Henrihs is referred to Heinrihs in Siliņš’s dictionary. The older Germanic elements are heim, “home”, and rīchi, “powerful” or “ruler”. The shared dictionary material also gives diminutives, showing how a longer inherited name acquired everyday forms in Latvian use. The University of Latvia repository lists Henrihs Strods as a co-author of Latvijas Valsts universitātes vēsture, 1940–1990, published in 1999. The record documents this spelling in Latvian scholarship. A spelling attached to this individual does not establish a universal equivalence between every similar name.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Repository co-author label applies to an individual; it is not generalized into a universal alias relationship.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Genrihs",
+      "spellings": [
+        "Genrihs"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Genrihs",
+        "https://www.behindthename.com/name/genrikh",
+        "https://www.behindthename.com/name/henry",
+        "https://www.altshuller.ru/biography/",
+        "https://www.lffb.lv/raksti/lasit-talak/padomju-fantastika-1dala"
+      ],
+      "facts_used": "Genrihs may represent Russian Genrikh in Latvian. Genrikh is a Russian form of Heinrich, from the Germanic elements for “home” and “ruler”. The Latvian catalogue keeps this route tentative, so that meaning remains conditional for the exact spelling Genrihs. A Latvian science-fiction history calls Genrikh Altshuller Genrihs Altšullers and notes his pen name Genrihs Altovs. His official biography identifies him as a creator of TRIZ, the theory of inventive problem solving. In 1968 he held a TRIZ teacher-training seminar in Dzintari, Latvia.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Russian borrowing route remains tentative; Latvian Altšullers/Altovs renderings are independently sourced.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Savelijs",
+      "spellings": [
+        "Savelijs"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Savelijs",
+        "https://www.izpetnieks.lv/vards/Savelijs",
+        "https://www.behindthename.com/name/saveliy"
+      ],
+      "facts_used": "No new reviewed history published.",
+      "reason": "Opened catalogue explicitly distinguishes Savelijs from the printed Savēlijs. Behind the Name supports Russian Saveliy from Sabellius, but no authoritative connection to this exact Latvian spelling was established.",
+      "next_steps": "Check the original Siliņš p. 286 and authoritative Latvian rendering guidance for Savelijs/Savēlijs before assigning the Sabellius history."
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Akims",
+      "spellings": [
+        "Akims"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Akims",
+        "https://www.behindthename.com/name/akim",
+        "https://www.behindthename.com/name/joachim",
+        "https://www.nationalgallery.org.uk/paintings/dalmatian-venetian-saint-joachim-s-offering-meeting-at-the-golden-gate"
+      ],
+      "facts_used": "Akims is compared with Russian Akim, a form of Joachim. Joachim is explained through the biblical names Jehoiachin or Jehoiakim. The Latvian catalogue leaves the direct borrowing route open; the source chain should not be shortened into one certain literal meaning for Akims. A related name appears in a National Gallery panel made around 1400: Joachim and Anne meet at Jerusalem’s Golden Gate. The picture follows the Golden Legend’s religious story about Mary’s parents. It illustrates Joachim’s medieval cultural life, not a historical event involving someone with the exact Latvian name Akims.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Russian Akim–Joachim relationship is sourced; LV borrowing remains tentative. The painting depicts religious tradition, not a verified event.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Railija",
+      "spellings": [
+        "Railija"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Railija",
+        "https://www.behindthename.com/name/riley",
+        "https://play.google.com/store/movies/details/Pr%C4%81ta_sp%C4%93les?hl=lv&id=g-3PeqF8M0Y"
+      ],
+      "facts_used": "Railija may be connected with English Riley. That given name comes from surnames with two different histories: Irish Reilly and an English place-name interpreted as “rye clearing”. The Latvian borrowing route is not established, so the two histories should remain alternatives. Railija is the Latvian name used for the girl in Pixar’s Inside Out (2015), titled Prāta spēles in Latvian. The official Latvian synopsis follows her move to San Francisco and the emotions inside her mind. This verifies a translated fictional use, not the invention of the personal name.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Riley has two surname origins. Latvian film usage verifies the spelling but does not date its creation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-lv-20",
+      "name": "Mare",
+      "spellings": [
+        "Mare"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Mare",
+        "https://snl.no/Mare_Kandre"
+      ],
+      "facts_used": "Mare is placed with both Maria and Margaret in Siliņš’s dictionary. The entry selects no single origin, and one proposed meaning should not erase the other route. Its possible Latvian attestation is in Trikāta in 1767; the source gives no calendar-entry year. Swedish writer Mare Kandre had an Estonian family background. Her debut I ett annat land (1984) brought together prose pieces about a girl’s upbringing. A prize in her memory has been awarded since 2006, giving this exact spelling a literary history beyond Latvia.",
+      "reason": "Reviewed origin discussion and a concrete cultural detail in five languages.",
+      "uncertainties": "Maria and Margaret remain alternatives.",
+      "next_steps": ""
+    }
+  ]
+}

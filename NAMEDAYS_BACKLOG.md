@@ -8,10 +8,10 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 294 | 91 | 132 |
-| Short factual summary | 4109 | 1240 | 481 |
-| Early record only | 380 | 1 | 13 |
-| Needs research | 773 | 236 | 927 |
+| Reviewed history | 310 | 92 | 136 |
+| Short factual summary | 4099 | 1239 | 477 |
+| Early record only | 378 | 1 | 13 |
+| Needs research | 769 | 236 | 927 |
 | Total profiles | 5556 | 1568 | 1553 |
 
 ## How to work through the backlog
@@ -29,26 +29,10 @@ These names were examined but not written, usually because only a meaning was fo
 
 | Name | Now shows | LV bearers | Why open | Next step |
 | --- | --- | ---: | --- | --- |
-| Agnija | Short factual summary | 751 | Russian Agniya has a disputed link (hagnos or ignis); not merged with Agnese. | behindthename Agniya; izpetnieks Agnija. |
-| Ints | Short factual summary | 651 | Not part of a family in this batch (Old High German heim + rīchi per status). | latvian-a or a later batch. |
-| Aleks | Short factual summary | 618 | Not merged into the written families: gender counterparts, short forms or forms whose link was not verified, so the written texts would not be literally true for them. | Write separate entries if needed (Sergo as Georgian Sergius, Svetoslavs as Bulgarian Svetoslav, Vladislava as feminine of Vladislav). |
-| Vladislava | Short factual summary | 384 | Not merged into the written families: gender counterparts, short forms or forms whose link was not verified, so the written texts would not be literally true for them. | Write separate entries if needed (Sergo as Georgian Sergius, Svetoslavs as Bulgarian Svetoslav, Vladislava as feminine of Vladislav). |
-| Henriks | Short factual summary | 360 | Russian form of Heinrich/Henry; would need a shared Henry family story and boundaries with Henrijs. | behindthename henry, heinrich; decide family boundaries. |
-| Iraida | Early record only | 319 | Not researched this round (time budget). Usually tied to Greek Herais and the martyr Iraida of Alexandria; unverified. | ru.wikipedia Ираида (имя); azbyka.ru life of Iraida of Alexandria; izpetnieks.lv for Iraida/Iraidis. Check whether Iraisa belongs. |
-| Elina | Short factual summary | 311 | Not researched in this round. | Check behindthename Elina (Finnish form of Helena?) and izpetnieks Elīna; must not reuse the Helēna paragraph. |
-| Margita | Short factual summary | 270 | These can derive from Maria or Margaret; not merged. | izpetnieks Mare, Marika, Margita. |
-| Anfisa | Early record only | 247 | Not researched. Anfija status line says Greek anthos; Anfisa link unverified. | ru.wikipedia Анфиса; behindthename anfisa / anthousa; saint Anthusa. |
-| Aksana | Needs research | 245 | Not researched. Oksana is usually the Ukrainian form of Xenia; Aksana and Aksenija need sourced linking. | behindthename oksana, xenia; St Xenia of Rome. |
-| Mihaels | Short factual summary | 226 | Not merged into the written families: gender counterparts, short forms or forms whose link was not verified, so the written texts would not be literally true for them. | Write separate entries if needed (Sergo as Georgian Sergius, Svetoslavs as Bulgarian Svetoslav, Vladislava as feminine of Vladislav). |
-| Dins | Early record only | 207 | The catalogue text appears to mix Dins with Dina/Dean; etymology unreliable for a narrative. | Verify the printed Siliņš entry p. 99; check whether Dins is a Latvianised English Dean. |
-| Valentins | Short factual summary | 193 | Not merged into the written families: gender counterparts, short forms or forms whose link was not verified, so the written texts would not be literally true for them. | Write separate entries if needed (Sergo as Georgian Sergius, Svetoslavs as Bulgarian Svetoslav, Vladislava as feminine of Vladislav). |
-| Emija | Needs research | 190 | Same day as Eimija, but izpetnieks says origin not established; it could equally be Amy, Emmy or a short form of Emīlija/Emma. | Check Siliņš dictionary print entry or LV orthography guidance for whether Emija renders Amy or Emmy. |
-| Henrihs | Short factual summary | 180 | Russian form of Heinrich/Henry; would need a shared Henry family story and boundaries with Henrijs. | behindthename henry, heinrich; decide family boundaries. |
-| Genrihs | Needs research | 178 | Russian form of Heinrich/Henry; would need a shared Henry family story and boundaries with Henrijs. | behindthename henry, heinrich; decide family boundaries. |
-| Savelijs | Early record only | 177 | Not researched; commonly linked to Sabellius or Saul, unverified. | behindthename saveliy; ru.wikipedia Савелий. |
-| Akims | Needs research | 170 | Not researched. Akim is usually described as a Russian form of Joachim; needs a source and a family decision for Joakims/Joakimas/Joakim. | behindthename akim and joachim. |
-| Railija | Needs research | 164 | Etymology only; no verified historical story; Latvian link not checked on izpetnieks. | Check izpetnieks.lv/en/name/railija; search for the O'Reilly (Ó Raghallaigh) clan of Breifne history or the origin of the phrase 'the life of Riley' in a reliable source. |
-| Mare | Short factual summary | 159 | These can derive from Maria or Margaret; not merged. | izpetnieks Mare, Marika, Margita. |
+| Dins | Early record only | 207 | English catalogue text says Dina, whereas the Latvian version says Dinam; both offer competing deene/denu paths. No printed scan or independently sourced exact-form history was obtained. Search results with celebrity lists and incorrect calendar claims were rejected. | Inspect the original Siliņš p. 99 and establish whether Dins is explicitly linked to Dean; then verify a concrete historical detail. |
+| Valentins | Short factual summary | 193 | Opened catalogue explicitly documents Valentīns, not Valentins. Foreign Valentin and Lithuanian Valentinas entries do not prove the exact LV unaccented form. No exact-form historical narrative was assigned. | Find an authoritative Latvian spelling correspondence for Valentins/Valentīns or a historical record with this exact spelling before extending the family history. |
+| Emija | Needs research | 190 | Both Latvian and English catalogue pages leave origin unestablished. Same-day Eimija and similar Amy/Emmy/Emīlija are insufficient evidence. Search did not yield an authoritative exact-form link. | Inspect the printed dictionary or LVA/VVC guidance explicitly connecting Emija to a foreign name; do not infer the link from its calendar date. |
+| Savelijs | Early record only | 177 | Opened catalogue explicitly distinguishes Savelijs from the printed Savēlijs. Behind the Name supports Russian Saveliy from Sabellius, but no authoritative connection to this exact Latvian spelling was established. | Check the original Siliņš p. 286 and authoritative Latvian rendering guidance for Savelijs/Savēlijs before assigning the Sabellius history. |
 | Jogita | Early record only | 151 | Origin explicitly uncertain and no historical detail found. | Check the Jogints entry and Lithuanian sources (vardai.vlkk.lt returned 403 to automated fetch) for Jog- stems. |
 | Rajens | Needs research | 143 | Same name day as Raiens (29 July) and very likely Ryan renderings, but izpetnieks.lv says 'origin not established' for both; not merged without a source. | Find a Latvian source (Siliņš dictionary, LVA/VVC orthography guidance on English names) that explicitly links Rajens/Raens to Ryan; then add them to the Raiens entry. |
 | Dailis | Short factual summary | 139 | Not merged into Daila because the Daila text uses Daila-specific dates; Daile has no origin text. | Write Dailis as its own entry if desired. |
@@ -114,7 +98,6 @@ These names were examined but not written, usually because only a meaning was fo
 | --- | --- | --- | --- |
 | Alicija | Short factual summary | Estonian Aliise and Alicija not verified as listed forms of Alice in an opened source. | EKI / behindthename alicja, alicia. |
 | Daugaudas | Needs research | dau- (daug) + gaud- (gaudyti, gauti) "receiving much" found; no historical detail. | Search for an attested bearer or the year the name entered the LT calendar. |
-| Elina | Short factual summary | Not researched in this round. | Check behindthename Elina (Finnish form of Helena?) and izpetnieks Elīna; must not reuse the Helēna paragraph. |
 | Girkantas | Needs research | Not researched (time). | tv3.lt/vardadieniai/g/girkantas for the stems. |
 | Henrikas | Short factual summary | Russian form of Heinrich/Henry; would need a shared Henry family story and boundaries with Henrijs. | behindthename henry, heinrich; decide family boundaries. |
 | Laimonas | Needs research | Not researched; LV Laimonis/Laimons/Laimonds also exist and may belong to the Latvian batches. | tv3.lt and izpetnieks.lv. |
@@ -142,13 +125,11 @@ These names were examined but not written, usually because only a meaning was fo
 | Name | Now shows | Why open | Next step |
 | --- | --- | --- | --- |
 | Aimar | Needs research | behindthename describes a medieval Basque Aimar; its link to the Estonian name is not established. | Find an Estonian source on Aimar. |
-| Aleks | Short factual summary | Not merged into the written families: gender counterparts, short forms or forms whose link was not verified, so the written texts would not be literally true for them. | Write separate entries if needed (Sergo as Georgian Sergius, Svetoslavs as Bulgarian Svetoslav, Vladislava as feminine of Vladislav). |
 | Alev | Needs research | Alevipoeg is a Kalevipoeg character, but no source links the given name Alev to him, and Turkish alev ('flame') is a separate homonym. | Look for an Estonian onomastic source (Rajandi, EKI) on Alev; write only if the Kalevipoeg link is explicit. |
 | Aliise | Needs research | Estonian Aliise and Alicija not verified as listed forms of Alice in an opened source. | EKI / behindthename alicja, alicia. |
 | Barba | Short factual summary | Not verified as a Barbara form in an opened source; Baiba belongs to batch latvian-a. | izpetnieks Barba. |
 | Dorotea | Needs research | Not researched in this round. | behindthename Dorothea; Saint Dorothea of Caesarea legend; izpetnieks Doroteja. |
 | Eha | Needs research | Meaning 'dusk' verified only; not part of the Koit/Hämarik legend. |  |
-| Elina | Short factual summary | Not researched in this round. | Check behindthename Elina (Finnish form of Helena?) and izpetnieks Elīna; must not reuse the Helēna paragraph. |
 | Elle | Needs research | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
 | Elli | Needs research | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
 | Elmar | Needs research | Only 'German form of Adelmar or Egilmar' verified; no Estonian story. |  |
@@ -160,7 +141,6 @@ These names were examined but not written, usually because only a meaning was fo
 | Illimar | Needs research | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
 | Ilmi | Needs research | Karel/Kaarli and Linda belong to other batches; the other forms share dates with written families, but no source confirms that they belong to the same family. | Confirm variant relations before adding them to the Leelo, Tarmo/Tarvo, Tiidrik, Ilmatar or Meelis keys. |
 | Imbi | Needs research | Cognate of Finnish Impi; no story found. |  |
-| Ints | Short factual summary | Not part of a family in this batch (Old High German heim + rīchi per status). | latvian-a or a later batch. |
 | Kaarli | Needs research | Karel/Kaarli and Linda belong to other batches; the other forms share dates with written families, but no source confirms that they belong to the same family. | Confirm variant relations before adding them to the Leelo, Tarmo/Tarvo, Tiidrik, Ilmatar or Meelis keys. |
 | Kalju | Short factual summary | Only the meaning 'rock, boulder' is verified; no historical detail found. | Rajandi/EKI for first use; a Tartu study on 1930s name fashions surfaced in search but was not opened. |
 | Kalvi | Needs research | Estonian calendar name; not shown to be the same as Latvian Kalvis, so not merged. | Estonian batch should check EKI for Kalvi. |
@@ -171,7 +151,6 @@ These names were examined but not written, usually because only a meaning was fo
 | Mai | Needs research | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
 | Maia | Needs research | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
 | Malle | Short factual summary | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
-| Mare | Short factual summary | These can derive from Maria or Margaret; not merged. | izpetnieks Mare, Marika, Margita. |
 | Meeli | Needs research | Karel/Kaarli and Linda belong to other batches; the other forms share dates with written families, but no source confirms that they belong to the same family. | Confirm variant relations before adding them to the Leelo, Tarmo/Tarvo, Tiidrik, Ilmatar or Meelis keys. |
 | Mehis | Needs research | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
 | Õie | Short factual summary | behindthename has no definitions for most of these; no verified origin or story found in this round. | Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule). |
