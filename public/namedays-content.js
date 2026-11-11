@@ -1,7 +1,7 @@
 import {formatAttestation} from './namedays-attestation.js';
 import {reviewedHistory} from './namedays-history.js';
 import {rootHistory,reviewedRoot} from './namedays-roots.js';
-export const WRITER_VERSION='namedays-1.8.3';
+export const WRITER_VERSION='namedays-1.8.4';
 export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={

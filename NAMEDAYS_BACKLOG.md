@@ -8,10 +8,10 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 348 | 99 | 173 |
-| Short factual summary | 4078 | 1236 | 471 |
+| Reviewed history | 353 | 105 | 183 |
+| Short factual summary | 4076 | 1232 | 470 |
 | Early record only | 374 | 1 | 13 |
-| Needs research | 756 | 232 | 896 |
+| Needs research | 753 | 230 | 887 |
 | Total profiles | 5556 | 1568 | 1553 |
 
 ## How to work through the backlog
@@ -38,20 +38,15 @@ These names were examined but not written, usually because only a meaning was fo
 | Jogita | Early record only | 151 | Jogints is a possible catalogue comparison, not an established root for Jogita; no additional exact-form episode was verified. | Inspect Jogints and the official Lithuanian given-name dictionary for the exact Jogita relationship. |
 | Rajens | Needs research | 143 | The catalogue leaves the exact origin open; a shared calendar day with Raiens is not a Ryan correspondence. | Find an explicit LVA/VVC rendering of Rajens as Ryan. |
 | Ildze | Early record only | 135 | No origin is supplied for this spelling. The similarity to Ilze remains insufficient for transferring that history. | Inspect the original Siliņš p. 159 and locate an exact-form historical bearer. |
-| Brendons | Needs research | 124 | English Brandon has a verified surname/place-name explanation, but the Latvian catalogue does not establish the exact transmission. | Verify Brendons/Brandon in Latvian rendering guidance and open a primary Brandon place-history record. |
-| Rada | Needs research | 116 | The international Slavic radŭ explanation is documented; the Latvian catalogue lacks a corresponding printed entry, and no further exact-form episode was verified. | Check South Slavic name dictionaries and a primary biography using Rada as a given name. |
 | Raens | Needs research | 116 | The exact catalogue entry does not establish Ryan; the same calendar day does not prove a family link. | Find an authoritative Raens/Ryan correspondence, retaining this spelling separately. |
-| Eliana | Needs research | 110 | Several international Eliana/Eliane routes remain possible; no exact Latvian transmission or independent historical episode was established. | Separate the Hebrew and Latin/Greek families with an exact-form authority before extending a narrative. |
 | Aisma | Needs research | 71 | The catalogue explicitly leaves origin unknown and offers a tentative 1932 calendar date. No independent creation story was found. | Inspect the original p. 45 and the 1932 calendar; check Limbaži archival records without inventing an etymology. |
 | Večeslavs | Needs research | 66 | The exact catalogue does not supply an origin; resemblance to Vyacheslav alone was not used as an authoritative spelling correspondence. | Find LVA/VVC guidance explicitly mapping Večeslavs to its foreign form. |
 | Keisija | Needs research | 65 | International Casey is documented, but the exact Latvian route is open. Casey Jones is a nickname associated with Cayce, not proof of the surname etymology. | Find a Latvian Casey/Keisija correspondence and a primary given-name episode with the distinction preserved. |
 | Kortnija | Needs research | 54 | Courtney has competing surname explanations; no primary exact-form Latvian connection was verified. A probed Powderham history URL returned 404. | Locate a working primary Courtenay family-history page and verify the Latvian rendering separately. |
 | Guļnara | Needs research | 44 | International Gulnara/Golnar evidence does not independently establish the exact Latvian Guļnara correspondence. | Inspect the printed catalogue and an authoritative rendering rule distinguishing Guļnara from Gulnara. |
-| Alicija | Short factual summary | 43 | The opened Lithuanian name guide gives a French short-form account inconsistent with a simple unsupported Alice assignment. No exact-form origin authority resolved it. | Consult VLKK for Alicija; separately verify Alicija Rūgytė in the original diaspora journal before writing a biography paragraph. |
 | Karena | Short factual summary | 26 | The catalogue places Karena under Katrīna without a separate etymology and gives a 1922 Tukums record. It is not the Armenian masculine Karen. | Inspect the original grouped entry and locate an independent exact-form episode. |
 | Savēlijs | Early record only | 24 | The printed-name catalogue presents competing explanations. Those cannot be silently replaced with the foreign Saveliy/Sabellius account. | Read Siliņš p. 286 directly and find an authoritative correspondence retaining the long vowel. |
 | Gulnara | Needs research | 20 | The foreign Gulnara/Golnar relationship is verified; Byron’s Gulnare is a different literary form, not proof that Latvian bearers derive from the poem. | Verify the exact Latvian transmission and, if using the poem, inspect the original text for the precise literary episode. |
-| Ivete | Short factual summary | 13 | The checked catalogue does not establish the exact Ivete relationship through the separate Iveta entry. | Locate an authoritative Ivete/Iveta/Yvette correspondence or original dictionary entry. |
 | Dorotija | Short factual summary | 11 | The exact catalogue does not establish equivalence with Doroteja; the shared date is insufficient. | Find explicit Dorotija/Dorothea evidence before sharing the Doroteja narrative. |
 | Iraisa | Needs research | 3 | No authoritative exact-form connection to Irais, Iraida or Raisa was obtained. | Check the original Latvian entry and church-name correspondences without merging the candidates. |
 | Iraidis | Short factual summary | 2 | No exact-form derivation was established; the masculine ending is not proof of an Iraida family relationship. | Inspect the original dictionary and an exact-form bearer record. |
@@ -60,47 +55,31 @@ These names were examined but not written, usually because only a meaning was fo
 
 | Name | Now shows | Why open | Next step |
 | --- | --- | --- | --- |
-| Alicija | Short factual summary | The opened Lithuanian name guide gives a French short-form account inconsistent with a simple unsupported Alice assignment. No exact-form origin authority resolved it. | Consult VLKK for Alicija; separately verify Alicija Rūgytė in the original diaspora journal before writing a biography paragraph. |
 | Daugaudas | Needs research | The Lithuanian guide supplies dau-/gaud- components, but no additional dated personal-name history was verified. | Consult VLKK and historical given-name indexes for Daugaudas, excluding surname-only hits. |
 | Girkantas | Needs research | The guide supplies gir-/kant- components; a surname such as Jonas Girkantas is not a historical bearer of this given name. | Verify the exact given-name entry in VLKK and search dated personal-name records. |
 | Liudmina | Needs research | No exact entry text was obtained from the probed guide; Liudmila is a distinct spelling and was not substituted. | Consult the exact VLKK Liudmina entry and historical records. |
 | Mantigirdas | Needs research | The guide discusses mant-/gird-; historical Mangirdas is a different name and cannot supply this biography. | Find a dated bearer of Mantigirdas itself and confirm both stems in VLKK. |
 | Marinas | Short factual summary | The guide offers both a Marius-related and a Latin marinus account. Neither is established as the sole route; Marius itself must not automatically be reduced to Mars. | Resolve the exact Lithuanian family in VLKK before using Saint Marinus or San Marino as family context. |
 | Narvydas | Short factual summary | The probed page supplied no substantive exact-name explanation; surname hits did not establish a given-name history. | Check the exact VLKK entry and historical personal-name indexes. |
-| Nastė | Short factual summary | The exact guide page supplied no substantive origin. Similarity to Nastja does not prove an Anastasia derivation. | Consult the exact VLKK entry and a dated Nastė bearer record. |
-| Normantas | Short factual summary | The guide supplies nor-/mant- components. Paulius Normantas bears Normantas as a surname, so his biography was excluded. | Find an exact given-name bearer and confirm the stems in VLKK. |
-| Rimtenis | Short factual summary | The guide offers both a Rimtas derivation and a Rimtautas shortening; neither was silently selected. | Find an exact-form historical record and authority distinguishing the two routes. |
 | Sangailas | Needs research | The guide supplies san-/gail-. VLE’s medieval Sungaila biography does not itself prove that Sangailas is the same name. | Obtain an explicit Sangailas/Sungaila correspondence before applying that historical episode. |
 | Svirgailas | Needs research | Only the guide’s stem explanation was established. The similar Švitrigaila is a different spelling and was excluded as a namesake. | Confirm the stems and a dated Svirgailas bearer in Lithuanian onomastic sources. |
-| Vaidutis | Needs research | The guide links the name with Vaidas/Vaid- names, but no independent exact-form historical episode was verified. | Consult VLKK and dated given-name records, distinguishing Vaidutis from surnames. |
-| Vaišvilas | Needs research | The probed guide page supplied no exact explanation. Vaišelga was not treated as an equivalent historical bearer. | Inspect the exact official entry and find a primary record for Vaišvilas. |
-| Žibutė | Needs research | Search results chiefly concerned kindergartens and other institutions named Žibutė. These are not biographies of women with this given name. | Check the ASCII-normalized guide slug and the official entry, then a primary given-name bearer biography. |
-| Žydris | Needs research | Calendar journalism provides a sky-blue/clear gloss, but no independent historical episode was found. | Verify the exact official entry and a dated personal-name record; exclude unrelated Žydrūnas forms. |
+| Vaišvilas | Needs research | The ASCII-normalized TV3 URL now supplies vaiš- (vaišės) and vil- (viltis). No exact-form historical episode has yet been verified; Vaišelga remains separate. | Check the exact compound in scholarly name histories and historical records; do not use Vaišelga as a substitute. |
+| Žydris | Needs research | The ASCII-normalized guide URL still provides no substantive exact-name entry. Calendar journalism is insufficient for a historical paragraph. | Locate an exact official name entry and a primary dated bearer record. |
 
 ### EE
 
 | Name | Now shows | Why open | Next step |
 | --- | --- | --- | --- |
-| Aimar | Needs research | Nordic Names gives a Germanic Agimar comparison and Norwegian historical usage. The Estonian page does not establish the local transmission; the Basque homonym was kept separate. | Check an Estonian onomastic authority for Aimar and a primary biography such as Aimar Ventsel. |
 | Alev | Needs research | The Nordic page concerns a Turkish flame name; Estonian results are largely a settlement term or surname. None proves the Estonian given-name origin. | Find an exact Estonian personal-name entry; do not infer it from Alevipoeg or the Turkish homonym. |
-| Aliise | Needs research | The Nordic entry verifies a Finnish spelling of Alise/Alice, but no Estonian borrowing history or additional exact-form episode was established. | Consult an Estonian given-name dictionary and historical Aliise records, keeping Finnish evidence country-specific. |
-| Elli | Needs research | The Nordic entry gives both an Ella variant and Old Norse old-age mythology; the Estonian disambiguation page does not choose a local route. | Inspect Elli (eesnimi) and an Estonian dictionary before assigning the mythological story to the local name. |
 | Heik | Needs research | The Nordic entry gives a Frisian Heike shortening; it does not itself document the Estonian transmission. | Find an Estonian exact-form authority and a dated Heik bearer. |
 | Kaarli | Needs research | Kaarel’s grammatical genitive and a place-name entry are not evidence for the independent given name Kaarli. | Use a given-name dictionary and historical personal-name records rather than inflection or place-name data. |
-| Kalju | Short factual summary | The Estonian rock/cliff meaning is verified. The 1929 name book’s Kaljo spelling must be identified as a related form, not dated as exact Kalju. | Open a primary Kalju Lepik biography or an exact-spelling early record for a second paragraph. |
 | Kalvi | Needs research | No authoritative exact-form derivation was established. A place or surname and the Latvian Kalvis do not resolve it. | Check an Estonian given-name dictionary and exact-form historical bearer records. |
-| Kuldar | Needs research | Nordic Names has no entry; a gold-derived explanation was not established. A composer biography alone would not verify that proposed root. | Open the Estonian Music Information Centre’s Kuldar Sink entry and a given-name authority, keeping origin uncertain if necessary. |
-| Leeli | Needs research | Nordic Names has no entry; the Estonian place-name homonym is not an origin for the given name. Leela/Leelo evidence was not copied. | Find the exact name in an Estonian given-name dictionary or historical personal record. |
-| Maia | Needs research | The Nordic guide gives a Maja comparison, while the initially opened Estonian page concerns the Greek mythological figure. These do not select an Estonian origin. | Inspect Maia (eesnimi) and an Estonian name dictionary before choosing the Mary or Greek family. |
-| Meeli | Needs research | A Finnish guide calls Meeli an Estonian Mielikki form, while Estonian references point to a naming recommendation. The local account needs corroboration. | Open the full Mats Tõnisson naming-history article and an Estonian given-name dictionary; distinguish the Finnish comparison. |
-| Õnneleid | Needs research | A principal search hit is an album title, not a historical bearer or proof of how the personal name was formed. | Find the exact name in historic recommendation lists or personal-name records. |
-| Pirja | Needs research | The Nordic guide verifies Finnish Pirja as a Pirjo variant, but no exact Estonian historical episode was established. | Check an Estonian authority for the borrowing and a primary Pirja bearer record. |
-| Ruut | Needs research | International Finnish Ruth evidence does not decide the Estonian form, which can be masculine; actor Ruut Tarmo used a stage name. | Inspect an Estonian dictionary and the actor’s primary biography, explicitly separating stage name from birth name. |
-| Säde | Needs research | The Finnish ray-of-light explanation is verified. The Estonian newspaper title is not an account of the given name’s creation. | Verify Estonian säde and the personal-name entry; locate an exact bearer or dated naming recommendation. |
-| Tarmu | Needs research | No exact Nordic entry was found; the 1929 book lists Tarmo, not an independently established Tarmu form. | Find an explicit Tarmu/Tarmo correspondence and an exact-form historical record. |
-| Tarvi | Needs research | No exact Nordic entry was found; a shared calendar day with Tarvo is not a derivation. | Inspect an Estonian given-name dictionary and historical Tarvi records. |
-| Tiido | Needs research | No exact Nordic entry was found. Similar Tiit, Tiidrik and surname Tiido evidence does not establish this given-name derivation. | Check exact Tiido in an Estonian given-name dictionary and an early bearer record. |
-| Tiidu | Needs research | No exact Nordic entry was found. An inflected form of Tiit or a similar Tiidrik entry is not independent-name evidence. | Check exact Tiidu as a nominative given name in an Estonian authority and dated personal records. |
+| Leeli | Needs research | The additional exact-name and Rajandi search did not produce a usable given-name entry. Leela/Leelo and place-name evidence were not transferred. | Inspect the exact Leeli entry in a scholarly given-name source or a dated personal record. |
+| Õnneleid | Needs research | The exact-name and Tõnisson query did not produce an original recommendation-list entry; the album title remains insufficient. | Find Õnneleid in an original name-recommendation list or exact personal record. |
+| Tarmu | Needs research | Search chiefly returned shared calendar dates and unsourced Tarmo/Tarmen claims. These do not establish an exact-form relationship. | Find an explicit onomastic Tarmu entry and a dated bearer, retaining uncertainty meanwhile. |
+| Tarvi | Needs research | Search yielded official name statistics but no authoritative etymology or historical episode. A page linking Tarvi to Tarmo/Tarmen has no supporting source and was rejected. | Inspect a scholarly Estonian given-name dictionary and exact Tarvi historical records. |
+| Tiido | Needs research | The new EKI hit concerns a village name derived from Tiit. It is place-name evidence, not an explicit derivation of the independent personal name Tiido. | Locate Tiido as a nominative given name in an onomastic authority and a dated personal record. |
+| Tiidu | Needs research | The EKI hit uses Tiidu as a historical place spelling, while other hits are calendar groupings. No independent given-name derivation was established. | Verify nominative given-name Tiidu separately from inflection and place names. |
 
 ## Priority 2: most common LV names without a reviewed history
 
