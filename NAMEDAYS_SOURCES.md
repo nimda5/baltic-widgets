@@ -2,7 +2,7 @@
 
 This is the shared, growing directory for LV, LT and EE name-history research. Read it before a new round. Use [NAMEDAYS_BACKLOG.md](NAMEDAYS_BACKLOG.md) for the calendar queue, [NAMEDAYS.md](NAMEDAYS.md) for editorial/data rules, and the [round notes](research/namedays/) for individual claims and outcomes. Source URLs belong here and in working files/provenance, never in the widget interface.
 
-Last directory review: **12 November 2026**, including a second search for the unresolved 12–13 November names. Resource IDs below are stable references for research notes. A useful catalogue or repository is a place to search, not evidence for every name it contains.
+Last directory review: **12 November 2026**, including the 12–13 November recheck and the 14 November research pass. Resource IDs below are stable references for research notes. A useful catalogue or repository is a place to search, not evidence for every name it contains.
 
 ## Start here
 
@@ -24,6 +24,17 @@ Last directory review: **12 November 2026**, including a second search for the u
 | LV-BTN-JEV | Behind the Name: [Jevgēņijs](https://www.behindthename.com/name/jevge23n15ijs), [Yevgeniy](https://www.behindthename.com/name/yevgeniy), [Eugene](https://www.behindthename.com/name/eugene). | An exact curated entry for Jevgēņijs, linked to Russian Yevgeniy and the Greek-derived family. | Read the curated entry, not forum guesses or automatic “same spelling” links. Does not prove every diacritic permutation. |
 | LV-RFS | FC RFS: [Svarīga uzvara Jelgavā, 8 April 2026](https://fkrfs.lv/svariga-uzvara-jelgava/). | Exact Jevgēņijs Nerugals spelling in a club report of a 1–0 away win. | A dated professional-use example, not the first attestation of the name. Other club pages use different spellings. |
 | LV-OLYMPIC | Latvian Olympic Committee: [Jevgenijs Borodavko](https://www.olimpiade.lv/olimpietis/534). | Exact Jevgenijs use and London 2012 / Rio 2016 judo participation. | A bearer biography supports that individual's record, not every similarly named athlete or the name's creation date. |
+
+## Productive sources for 14 November
+
+| ID | Resource and checked location | Supported claim and limits |
+| --- | --- | --- |
+| LV-LVA-FREDERICA | Language Agency [Frederica export](https://www.personvarduatveide.lv/words/28368%2C28369.pdf?locale=lv), single page, citing Ahero (2006), p. 102. | Visually checked separate Frederīka and **Frederika** rows. Establishes the exact English/Latvian correspondence. The export cites the 2006 manual; it is not an independently inspected 2006 original or a first-birth record. |
+| LV-LVA-FRIEDRICH | Language Agency [Friedrich export](https://www.personvarduatveide.lv/words/39362.pdf?locale=en), single page, citing Ceplītis (1960), p. 61. | Visually checked Friedrich → **Frīdrihs**, including the macron. Do not transfer Fridrihs's Burtnieki 1638 record to the long-ī form. |
+| LV-LVA-VINCENT | Language Agency [Vincent export](https://www.personvarduatveide.lv/words/30051.pdf?locale=en), single page, citing Ahero (2006), p. 89. | Visually checked separate **Vinsents** and **Vincents** rows. Establishes the rendering family, not the same historical first date for both forms. |
+| EE-NKK | Naiskodukaitse, [Saaremaa membership, 1925–1940](https://naiskodukaitse.ee/s2/270_19215_235_NKK_Saaremaa_ringkonna_liikmeskond_1925-1940.pdf#page=46), PDF p. 46 / printed p. 44. | Visually checked Alvine Trei (Reigo), with **Alvi** in parentheses, founding member 8 December 1925; **Alviine** End, joined 25 June 1929, left after moving on 23 March 1934. A historical compilation with source references, not an independently inspected original membership register. It does not itself prove a universal etymology. |
+
+Round 14 also checked **Ramantas (Ramas)** and **Saulenė (Saulė)** on 14 November in LT-SALYS83, PDF p. 317 / printed p. 302. The scan clearly reads Ramantas; text extraction reads Bamantas. The [6 November 1931 Dirva lead](https://www.spauda.org/dirva/archive/n1931/1931-11-06-DIRVA.pdf) timed out; its search snippet was not used for an earlier attestation. [Frideriks Šopēns](https://enciklopedija.lv/skirklis/247143) supplies an explicit Latvian/Polish name pair; the [Herder bibliography](https://www.vle.lt/straipsnis/johann-gottfried-herder/) uses Gotfridas for a 1978 Lithuanian edition, while its main heading uses Gotfrydas. Preserve those exact scopes.
 
 ## Latvia: dictionaries, spelling and archives
 

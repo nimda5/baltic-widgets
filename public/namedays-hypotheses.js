@@ -1,5 +1,6 @@
 // Provisional editorial comparisons. These never count as reviewed histories or root evidence.
 import {hypothesesLatvianR12} from './namedays-hypotheses-r12.js';
+import {hypothesesLatvianR14,hypothesesEstonianR14} from './namedays-hypotheses-r14.js';
 const vianSources=['https://www.izpetnieks.lv/en/name/Vianita','https://www.izpetnieks.lv/en/name/Vianta'];
 const langs=['lv','ru','en','lt','et'];
 const vianText=[
@@ -16,7 +17,7 @@ const vidText=[
  '{name} rašyba leidžia svarstyti galimą ryšį su Vidars. Tai tik darbo versija pagal formų panašumą: dokumentuoto perėjimo iš Vidars į {name} nerasta. Todėl Vidars kilmė negali būti laikoma įrodyta ir šiam vardui.',
  'Kirjapilt {name} lubab kaaluda võimalikku võrdlust Vidarsiga. See on üksnes sarnastel vormidel põhinev tööversioon: dokumenteeritud üleminekut Vidarsist nimeks {name} pole leitud. Vidarsi päritolu ei saa seega pidada selle nime puhul tõestatuks.'
 ];
-const entries={lv:{...hypothesesLatvianR12},lt:{},ee:{}};
+const entries={lv:{...hypothesesLatvianR12,...hypothesesLatvianR14},lt:{},ee:{...hypothesesEstonianR14}};
 for(const name of ['Vianda','Viāna'])entries.lv[name]={sources:vianSources,text:Object.fromEntries(langs.map((l,i)=>[l,[vianText[i]]]))};
 for(const name of ['Vidards','Vidarts','Vidavs'])entries.lv[name]={sources:['https://www.izpetnieks.lv/en/name/Vidars'],text:Object.fromEntries(langs.map((l,i)=>[l,[vidText[i]]]))};
 entries.lt.Juozapotas={sources:['https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/'],text:{

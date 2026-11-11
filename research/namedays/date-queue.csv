@@ -18,34 +18,11 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 1,11-13,lv,Jevģenijs,unresearched,86,unverified,needs_more
 1,11-13,lv,Jevženija,unresearched,4,unverified,needs_more
 1,11-13,lv,Jevžēnija,unresearched,1,unverified,needs_more
-2,11-14,lv,Fricis,summary,196,,
-2,11-14,lv,Vikentijs,summary,85,,
-2,11-14,lv,Vincents,summary,193,,
-2,11-14,lv,Frederika,summary,28,,
-2,11-14,lv,Frederiks,summary,156,,
-2,11-14,lv,Friderika,summary,1,,
-2,11-14,lv,Frideriks,summary,1,,
-2,11-14,lv,Fridriha,summary,1,,
-2,11-14,lv,Fridrihs,summary,46,,
-2,11-14,lv,Frīdrihs,summary,13,,
-2,11-14,lv,Spricis,summary,,,
-2,11-14,lv,Vicenta,summary,,,
-2,11-14,lv,Vicents,summary,3,,
-2,11-14,lv,Vikars,unresearched,3,,
-2,11-14,lv,Vincens,summary,,,
-2,11-14,lv,Vincenta,summary,12,,
-2,11-14,lv,Vincentijs,attestation,3,,
-2,11-14,lv,Vincentina,summary,7,,
-2,11-14,lv,Vincentīna,summary,6,,
-2,11-14,lv,Vincentīne,summary,3,,
-2,11-14,lv,Vinsents,summary,33,,
-2,11-14,lt,Gotfridas,summary,,,
-2,11-14,lt,Judita,summary,,,
-2,11-14,lt,Ramantas,summary,,,
-2,11-14,lt,Saulenė,summary,,,
-2,11-14,ee,Alviine,summary,9,,
-2,11-14,ee,Alvi,summary,67,,
-2,11-14,ee,Alve,unresearched,< 5,,
+2,11-14,lv,Fridriha,unresearched,1,unverified,needs_more
+2,11-14,lv,Vicenta,unresearched,,unverified,needs_more
+2,11-14,lv,Vikars,unresearched,3,unverified,needs_more
+2,11-14,lv,Vincentina,unresearched,7,unverified,needs_more
+2,11-14,ee,Alve,unresearched,< 5,unverified,needs_more
 3,11-15,lv,Leopolds,summary,91,,
 3,11-15,lv,Undīne,summary,589,,
 3,11-15,lv,Unda,summary,113,,
@@ -3838,7 +3815,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 175,05-06,lt,Benė,summary,,,
 175,05-06,lt,Benedikta,summary,,,
 175,05-06,lt,Eidmantė,summary,,,
-175,05-06,lt,Judita,summary,,,
 175,05-06,lt,Liucijus,summary,,,
 175,05-06,lt,Minvydas,summary,,,
 175,05-06,lt,Evodijus,unresearched,,,
@@ -6341,7 +6317,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 279,08-18,lt,Gendvilė,summary,,,
 279,08-18,lt,Mantautas,summary,,,
 279,08-18,lt,Agapitas,summary,,,
-279,08-18,lt,Saulenė,summary,,,
 279,08-18,lt,Saulenis,summary,,,
 279,08-18,ee,Heleene,summary,88,,
 279,08-18,ee,Helene,summary,236,,
@@ -8216,7 +8191,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 361,11-08,lv,Aleksandrīna,summary,18,,
 361,11-08,lv,Aleksandrīne,summary,2,,
 361,11-08,lt,Domantė,summary,,,
-361,11-08,lt,Gotfridas,summary,,,
 361,11-08,lt,Severijonas,unresearched,,,
 361,11-08,lt,Severinas,summary,,,
 361,11-08,lt,Svirbutas,unresearched,,,

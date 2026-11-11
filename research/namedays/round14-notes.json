@@ -1,0 +1,840 @@
+{
+  "round": 14,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed the research pass over every unfinished 14 November name in all three calendars: 28 profiles (21 LV, 4 LT, 3 EE). Added 23 reviewed histories (17 LV, 4 LT, 2 EE), with two paragraphs in all five languages. Four LV names and one EE name remain unverified: Fridriha, Vicenta, Vincentina, Vikars and Alve. They retain explicit hypothesis labels, source basis and concrete next steps in the backlog. The previous 19 hypotheses for 12–13 November remain open, bringing the total to 24. New productive Language Agency exact rendering exports and Naiskodukaitse’s historical membership list are added to the shared source directory. The 1931 newspaper lead timed out and no claim was accepted from its snippet. No supplied calendar membership or dates were changed. URLs remain working-file/provenance evidence only; raw PDFs and rendered checks remain private. Continue on codex/namedays-round4; next fresh calendar pass is 15 November.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "ee",
+      "name": "Alve",
+      "spellings": [
+        "Alve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-EKI",
+        "EE-ETERA",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Alviine#Estonian",
+        "https://en.wiktionary.org/wiki/Alvi#Estonian",
+        "https://www.stat.ee/nimed/ALVE"
+      ],
+      "facts_used": "",
+      "hypothesis": "Alve may be connected with Alviine and Alvi: the Estonian dictionary entries list it among related names. They do not supply a separate Alve etymology, so its derivational route remains unverified. A similar Scandinavian name or Finnish surname does not itself establish the Estonian name’s origin.",
+      "reason": "The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Find an exact Estonian etymology in EE-EKI, EE-ETERA or a signed name study. Alviine/Alvi entries list Alve among related terms but do not prove its derivation; do not substitute the Scandinavian male name, Finnish surname or a user-submitted guide.",
+      "next_steps": "Find an exact Estonian etymology in EE-EKI, EE-ETERA or a signed name study. Alviine/Alvi entries list Alve among related terms but do not prove its derivation; do not substitute the Scandinavian male name, Finnish surname or a user-submitted guide."
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "ee",
+      "name": "Alvi",
+      "spellings": [
+        "Alvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-NKK"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Alvi#Estonian",
+        "https://www.behindthename.com/name/alwine",
+        "https://www.behindthename.com/name/alwin",
+        "https://www.behindthename.com/name/adalwin",
+        "https://naiskodukaitse.ee/s2/270_19215_235_NKK_Saaremaa_ringkonna_liikmeskond_1925-1940.pdf#page=46"
+      ],
+      "facts_used": "The Estonian dictionary entry connects Alvi with German Alwine as a short form of Alviine. Through Alwin and Adalwin the German family leads to elements for noble and friend. This is the Estonian feminine name’s linguistic line; similar Alvi in other languages may have another origin. The same historical Saaremaa list gives Alvine Trei (Reigo), with Alvi in parentheses. It records her as a founding member on 8 December 1925 and an organiser of medical work. The entry documents a short form for a particular person, rather than a guess about every similarly named woman.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The exact Estonian section explicitly shortens Alviine and gives German Alwine; Faroese and Finnish masculine homonyms are excluded. Naiskodukaitse PDF p. 46 / printed p. 44 visually records Alvine Trei (Reigo), with Alvi in parentheses, as a founding member on 8 December 1925 and a medical-work organiser. It is an individual documented short form, not a new universal alias rule.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "ee",
+      "name": "Alviine",
+      "spellings": [
+        "Alviine"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-NKK"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Alviine#Estonian",
+        "https://www.behindthename.com/name/alwine",
+        "https://www.behindthename.com/name/alwin",
+        "https://www.behindthename.com/name/adalwin",
+        "https://naiskodukaitse.ee/s2/270_19215_235_NKK_Saaremaa_ringkonna_liikmeskond_1925-1940.pdf#page=46"
+      ],
+      "facts_used": "The Estonian dictionary entry connects Alviine with German Alwine. Through Alwin and Adalwin the German family leads to elements for noble and friend. This is the Estonian feminine name’s linguistic line; similar Alvi in other languages may have another origin. Naiskodukaitse’s historical Saaremaa membership list records Alviine End joining on 25 June 1929 and leaving on 23 March 1934 because she moved. This is a specific personal-name record from interwar Estonia, rather than a claim that the name was created in 1929.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The exact Estonian dictionary section gives German Alwine. The Alwine → Alwin → Adalwin chain is separately checked, retaining noble/friend rather than importing unrelated English Alvin interpretations. Naiskodukaitse PDF p. 46 / printed p. 44 visually records Alviine End joining 25 June 1929 and leaving after moving on 23 March 1934.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lt",
+      "name": "Gotfridas",
+      "spellings": [
+        "Gotfridas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-VLE",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gotfridas/",
+        "https://www.behindthename.com/name/gottfried",
+        "https://www.behindthename.com/name/godfrey",
+        "https://www.vle.lt/straipsnis/johann-gottfried-herder/"
+      ],
+      "facts_used": "The guide connects Gotfridas with German Gottfried. This Germanic family is based on got, god, and fridu, peace. A root explanation is distinct from a translation in each modern language: it is not a Lithuanian sentence or a statement about a bearer’s beliefs. The Lithuanian encyclopaedia’s Herder bibliography lists the 1978 edition Poetika ir literatūros estetika under the author name Johanas Gotfridas Herderis. This documents a specific Lithuanian spelling in publishing; the German philosopher’s own name was Johann Gottfried Herder.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The Lithuanian guide directly links Gottfried; the international guide supports god plus peace, rather than relying on the popular guide’s alternative good gloss. VLE’s bibliography uses exact Johanas Gotfridas Herderis for the Vilnius 1978 edition Poetika ir literatūros estetika. Its main heading instead uses Gotfrydas; the narrative identifies the bibliography’s spelling, not a Latvian/Lithuanian-born philosopher.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lt",
+      "name": "Judita",
+      "spellings": [
+        "Judita"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-INSTITUTIONS"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/judita/",
+        "https://rasytojai.lt/rasytojai/vaiciunaite-judita/"
+      ],
+      "facts_used": "Judita is connected with Hebrew Yehudit, woman from Judea. The name originally indicates an association with a region. This is its historical linguistic meaning, rather than a conclusion about a modern bearer’s birthplace or religion. The Lithuanian Writers’ Union bibliography of poet and translator Judita Vaičiūnaitė dates Pavasario akvarelės to 1960 and Kaip žalias vynas to 1962. These are specific milestones in her literary work, rather than dates for the name’s first appearance.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The Lithuanian guide gives the Yehudit/Judea relationship. The Writers Union bibliography dates Pavasario akvarelės 1960 and Kaip žalias vynas 1962. Foreign name-day dates are not imported.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lt",
+      "name": "Ramantas",
+      "spellings": [
+        "Ramantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ramantas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Ramantas is a Lithuanian two-stem name. The guide connects ram- with ramus, calm, and mant- with mantus, resourceful, or manta, property or wealth. The explanations of the second element remain alternatives rather than being merged into one supposedly exact translation of the whole name. The name calendar in the 1964 publication Tikiu Dievą lists Ramantas on 14 November with short form Ramas. It was reprinted in volume two of A. Salys’s writings in 1983. This is a specific printed example of the name and its short form; publication does not date the name’s creation.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Guide supports ram- calm and alternative mant- resourceful / property, not one forced full translation. Salys PDF p. 317 / printed p. 302 was visually checked: Ramantas (Ramas) on 14 November in the 1964 calendar reprinted in 1983. Text extraction incorrectly reads Bamantas; the scan resolves it. A 1931 Dirva lead timed out and was not used as evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lt",
+      "name": "Saulenė",
+      "spellings": [
+        "Saulenė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/saulene/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "The guide identifies Saulenė as a derivative of Lithuanian Saulė, sun. This is a direct relationship with a Lithuanian word and personal name, beyond resemblance to Solar or Sol in other languages. Solar imagery also belongs to Baltic mythology, without determining why a particular family chose the name. The 1964 Tikiu Dievą name calendar places Saulenė on 14 November, with Saulė in parentheses as its short form. The list was reprinted in Salys’s writings in 1983. It documents both the longer form and its relationship to Saulė; publication does not date the name’s invention.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The guide directly derives Saulenė from Saulė. Salys PDF p. 317 / printed p. 302 visually confirms Saulenė (Saulė) on 14 November in the 1964 calendar reprinted in 1983. No coining date or individual family’s naming motive is inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Frederika",
+      "spellings": [
+        "Frederika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-FREDERICA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Frederika",
+        "https://www.personvarduatveide.lv/words/28368%2C28369.pdf?locale=lv",
+        "https://www.behindthename.com/name/frederica",
+        "https://www.behindthename.com/name/frederick"
+      ],
+      "facts_used": "Frederika is a documented Latvian rendering of English Frederica, a feminine form of Frederick. The family is based on Germanic elements for peace and ruler. The Language Agency’s table establishes this particular correspondence, beyond a comparison with Friderika. The agency cites page 102 of Ahero’s 2006 English-name rendering manual for both Frederīka and Frederika, listed separately in its table. This documents a rendering tradition, rather than dating Frederika’s first appearance in a Latvian birth register.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The Language Agency one-page export was visually inspected: English Frederica has separate Frederīka and Frederika rows. It cites Ahero 2006 p. 102. The publication date does not become a first Latvian birth record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Frederiks",
+      "spellings": [
+        "Frederiks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Frederiks",
+        "https://www.izpetnieks.lv/en/name/Fridrihs"
+      ],
+      "facts_used": "The dictionary identifies Frederiks as a Low German form of Fridrihs. The family’s older elements are fridu, peace, and rīchi, mighty or ruler. The Low German form is a documented transmission stage, beyond a resemblance to English Frederick. The catalogue documents Frederiks in 1522. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The dictionary directly gives the Low German form of Fridrihs and an exact Frederiks record in 1522.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Fricis",
+      "spellings": [
+        "Fricis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Fricis",
+        "https://www.izpetnieks.lv/en/name/Fridrihs"
+      ],
+      "facts_used": "The dictionary places Fricis under Fridrihs, connecting the shorter Latvian form with Old High German fridu, peace, and rīchi, mighty or ruler. The relationship rests on an explicit cross-reference rather than an attempt to translate Fricis as an ordinary Latvian word. The catalogue documents Fricis in Bīriņi in 1638. Its calendar entry is dated 1889. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Exact dictionary cross-reference to Fridrihs; Bīriņi 1638 and calendar 1889 are catalogue records, not creation dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Friderika",
+      "spellings": [
+        "Friderika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Friderika",
+        "https://www.izpetnieks.lv/en/name/Fridrihs"
+      ],
+      "facts_used": "Friderika belongs to the Fridrihs family. The dictionary explains its basis through Old High German fridu, peace, and rīchi, mighty or strong, ruler. These historical elements describe the name’s formation rather than predict its bearer’s character. The catalogue documents Friderika in Ēdole in 1829. Its calendar entry is dated 1767. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Direct dictionary reference to the Fridrihs family. Ēdole 1829 and calendar 1767 are kept as distinct evidence types.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Frideriks",
+      "spellings": [
+        "Frideriks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-ENCYCLOPEDIA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Frideriks",
+        "https://enciklopedija.lv/skirklis/247143",
+        "https://www.behindthename.com/name/fryderyk",
+        "https://www.behindthename.com/name/frederick"
+      ],
+      "facts_used": "Frideriks is a documented Latvian rendering of Polish Fryderyk: the National Encyclopaedia gives the pair in its Chopin entry. Fryderyk is a Polish form in the Frederick family, with Germanic elements for peace and ruler. The relationship need not be guessed from similar letters. The encyclopaedia records Frideriks Šopēns arriving in Paris on 5 October 1831. The city became the centre of his later professional life. This is a specific event in the composer’s biography; the Latvian rendering of his name does not make him a Latvian composer.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The National Encyclopaedia explicitly pairs Latvian Frideriks with Polish Fryderyk in the Chopin article. The curated Fryderyk entry establishes the Frederick family. The article dates arrival in Paris to 5 October 1831. No date from a Friderika/Fridrihs entry is reused.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Fridriha",
+      "spellings": [
+        "Fridriha"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Fridriha",
+        "https://www.izpetnieks.lv/en/name/Friderika"
+      ],
+      "facts_used": "",
+      "hypothesis": "Fridriha could be compared with the documented form Friderika. This remains an unverified working proposal: the reference does not provide an unambiguous correspondence for this exact spelling. The origin, early records and calendar years of Friderika therefore cannot automatically be assigned to Fridriha.",
+      "reason": "The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Search LV-LVA German/Russian feminine-name tables and LV-PERIODIKA for an exact Fridriha correspondence; do not mistake a masculine genitive Fridriha for an independently recorded feminine name.",
+      "next_steps": "Search LV-LVA German/Russian feminine-name tables and LV-PERIODIKA for an exact Fridriha correspondence; do not mistake a masculine genitive Fridriha for an independently recorded feminine name."
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Fridrihs",
+      "spellings": [
+        "Fridrihs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Fridrihs"
+      ],
+      "facts_used": "Fridrihs belongs to the Fridrihs family. The dictionary explains its basis through Old High German fridu, peace, and rīchi, mighty or strong, ruler. These historical elements describe the name’s formation rather than predict its bearer’s character. The catalogue documents Fridrihs in Burtnieki in 1638. Its calendar entry is dated 1901. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Exact short-i form: Burtnieki 1638 and calendar 1901. Do not transfer those records to Frīdrihs.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Frīdrihs",
+      "spellings": [
+        "Frīdrihs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-FRIEDRICH",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Fr%C4%ABdrihs",
+        "https://www.personvarduatveide.lv/words/39362.pdf?locale=en",
+        "https://www.izpetnieks.lv/en/name/Fridrihs",
+        "https://www.behindthename.com/name/frederick"
+      ],
+      "facts_used": "Frīdrihs belongs to the Fridrihs family. The dictionary explains its basis through Old High German fridu, peace, and rīchi, mighty or strong, ruler. These historical elements describe the name’s formation rather than predict its bearer’s character. The Language Agency renders German Friedrich as Frīdrihs, citing page 61 of L. Ceplītis’s 1960 German-name guidelines. This establishes the exact long-ī spelling. It does not turn the earlier Burtnieki record for Fridrihs into a first-attestation date for Frīdrihs.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Visually inspected Language Agency export pairs German Friedrich with long-ī Frīdrihs, citing Ceplītis 1960 p. 61. Fridrihs 1638 is explicitly not transferred. The export is evidence of the cited rendering entry; it is not an independently inspected 1960 original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Spricis",
+      "spellings": [
+        "Spricis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Spricis",
+        "https://www.izpetnieks.lv/en/name/Fricis",
+        "https://www.izpetnieks.lv/en/name/Fridrihs"
+      ],
+      "facts_used": "The dictionary cross-references Spricis to Fricis and then Fridrihs, connecting its family with Old High German fridu, peace, and rīchi, mighty or ruler. This concerns the given name; an identical surname would not alone establish its origin. The catalogue documents Spricis in Apriķi in 1742. Its calendar entry is dated 1817. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Direct dictionary chain Spricis → Fricis → Fridrihs; exact Apriķi 1742 and calendar 1817 records. Surname matches and speculative spriest derivation were not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vicenta",
+      "spellings": [
+        "Vicenta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vicenta",
+        "https://www.izpetnieks.lv/en/name/Vincenta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vicenta could be compared with the documented form Vincenta. This remains an unverified working proposal: the reference does not provide an unambiguous correspondence for this exact spelling. The origin, early records and calendar years of Vincenta therefore cannot automatically be assigned to Vicenta.",
+      "reason": "The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Inspect the original Siliņš pp. 323/328 and an authoritative exact Vicenta entry. The catalogue’s tentative Vicents/Vincentīna pointer does not establish a clear exact-form derivation; do not import their dates.",
+      "next_steps": "Inspect the original Siliņš pp. 323/328 and an authoritative exact Vicenta entry. The catalogue’s tentative Vicents/Vincentīna pointer does not establish a clear exact-form derivation; do not import their dates."
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vicents",
+      "spellings": [
+        "Vicents"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vicents",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.izpetnieks.lv/en/name/Vincents",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vicents is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The catalogue places the personal-name attestation of Vicents in the first quarter of the twentieth century and dates its calendar record to 1928. The broad period preserves the source’s precision; it is not narrowed to an invented exact year or confused with the calendar date.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Direct Vicents → Vincents → Vincentijs chain. Personal record retains first-quarter-of-twentieth-century precision, independently of calendar 1928.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vikars",
+      "spellings": [
+        "Vikars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vikars"
+      ],
+      "facts_used": "The catalogue documents the given name near Bauska in 1975; the origin remains explicitly tentative.",
+      "hypothesis": "The dictionary tentatively compares Vikars with Latin vicarius, deputy or helper. The source itself questions this origin, so it remains an unverified proposal. A separate personal-name record of Vikars near Bauska in 1975 establishes use, rather than the suggested Latin etymology.",
+      "reason": "The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified.",
+      "next_steps": "Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified."
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vikentijs",
+      "spellings": [
+        "Vikentijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vikentijs",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vikentijs is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The catalogue places the personal-name attestation of Vikentijs in the first quarter of the twentieth century and dates its calendar record to 1889. The broad period preserves the source’s precision; it is not narrowed to an invented exact year or confused with the calendar date.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The source identifies Belarusian/Russian/Ukrainian form correspondence with Vincentijs. Personal record retains first-quarter-of-twentieth-century precision, independently of calendar 1889.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincens",
+      "spellings": [
+        "Vincens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincens",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vincens is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The catalogue documents Vincens in 1650. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Exact Vincens record in 1650, with a direct Vincentijs cross-reference; no year for entry into the calendar was supplied.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincenta",
+      "spellings": [
+        "Vincenta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincenta",
+        "https://www.izpetnieks.lv/en/name/Vincent%C4%ABna",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vincenta is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The catalogue documents Vincenta in the last quarter of the nineteenth century. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The catalogue gives the last quarter of the nineteenth century for this form. The broad period is retained without inventing an exact year or copying another form’s calendar date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincentijs",
+      "spellings": [
+        "Vincentijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "The dictionary connects Vincentijs with Latin vincens, conquering. In the international family Vincentius leads to the verb vincere, to conquer. The Latvian ending adapts the older name to the language; the root’s meaning does not predict a particular person’s future. The catalogue documents Vincentijs in 1395. Its calendar entry is dated 1937. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Exact record in 1395 and calendar 1937. Latin vincens/vincere evidence supports the family without fictional personality claims.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincentina",
+      "spellings": [
+        "Vincentina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincentina",
+        "https://www.izpetnieks.lv/en/name/Vincent%C4%ABna"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vincentina could be compared with the documented form Vincentīna. This remains an unverified working proposal: the reference does not provide an unambiguous correspondence for this exact spelling. The origin, early records and calendar years of Vincentīna therefore cannot automatically be assigned to Vincentina.",
+      "reason": "The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Find an exact unaccented Vincentina rendering or etymology entry through LV-LVA and the original dictionary. The normalized lookup inherits Vincentīna’s record, so retain that record’s attested macron and do not claim 1877 for Vincentina.",
+      "next_steps": "Find an exact unaccented Vincentina rendering or etymology entry through LV-LVA and the original dictionary. The normalized lookup inherits Vincentīna’s record, so retain that record’s attested macron and do not claim 1877 for Vincentina."
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincentīna",
+      "spellings": [
+        "Vincentīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincent%C4%ABna",
+        "https://www.izpetnieks.lv/en/name/Vincent%C4%ABna",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vincentīna is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The combined dictionary entry Vincentīn/a, -e covers both feminine forms and refers to Vincentīns, then Vincentijs. The catalogue gives a Rēzekne attestation in 1877 for this entry. Its shared-entry scope is retained rather than inventing a separate first-use date for each ending.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The source combines Vincentīn/a, -e, referring to Vincentīns and Vincentijs. Rēzekne 1877 stays within the combined-entry scope, not independent first dates for each ending.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincentīne",
+      "spellings": [
+        "Vincentīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincent%C4%ABne",
+        "https://www.izpetnieks.lv/en/name/Vincent%C4%ABna",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vincentīne is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The combined dictionary entry Vincentīn/a, -e covers both feminine forms and refers to Vincentīns, then Vincentijs. The catalogue gives a Rēzekne attestation in 1877 for this entry. Its shared-entry scope is retained rather than inventing a separate first-use date for each ending.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "The source combines Vincentīn/a, -e, referring to Vincentīns and Vincentijs. Rēzekne 1877 stays within the combined-entry scope, not independent first dates for each ending.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vincents",
+      "spellings": [
+        "Vincents"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vincents",
+        "https://www.izpetnieks.lv/en/name/Vincentijs",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vincents is linked through dictionary cross-references to Vincentijs. The family is based on Latin vincens, conquering, from vincere, to conquer. This explains the historical basis rather than promising that a person with the name will always win. The catalogue documents Vincents in Rēzekne in 1877. Its calendar entry is dated 1925. This is a specific record in the spelling’s history. The surviving attestation demonstrates use in that source, rather than proving that the name itself was created at that time.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Exact catalogue record in Rēzekne in 1877 and calendar 1925. The dictionary cross-reference leads to Vincentijs; Latin root gloss is distinguished from a literal full-name promise.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-14",
+      "date": "2026-11-12",
+      "calendar_date": "11-14",
+      "country": "lv",
+      "name": "Vinsents",
+      "spellings": [
+        "Vinsents"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-VINCENT",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinsents",
+        "https://www.personvarduatveide.lv/words/30051.pdf?locale=en",
+        "https://www.behindthename.com/name/vincent"
+      ],
+      "facts_used": "Vinsents is an officially documented Latvian rendering of English Vincent. The Vincent family comes from Latin Vincentius and the verb vincere, to conquer. The Language Agency’s exact correspondence establishes the link, beyond a resemblance to Vincents. The agency cites page 89 of Ahero’s 2006 English-name manual for two renderings, Vinsents and Vincents, displayed in separate table rows. This is dated evidence of a rendering tradition; it does not transfer Vincents’s early Rēzekne record to Vinsents.",
+      "hypothesis": "",
+      "reason": "Opened exact-form references and a concrete dated historical, dictionary, bibliographic or professional record support the five-language history.",
+      "uncertainties": "Visually inspected Language Agency export directly pairs English Vincent with Vinsents and Vincents in separate rows, citing Ahero 2006 p. 89. The publication record is not a first attestation, and Vincents’s Rēzekne 1877 is not transferred.",
+      "next_steps": ""
+    }
+  ]
+}

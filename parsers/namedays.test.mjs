@@ -17,6 +17,26 @@ import {historiesLatvianR11} from '../public/namedays-history-r11-lv.js';
 import {historiesLithuanianR11,historiesEstonianR11} from '../public/namedays-history-r11-baltic.js';
 import {unverifiedHistory,HYPOTHESIS_LABELS} from '../public/namedays-hypotheses.js';
 import {historiesLatvianR13} from '../public/namedays-history-r13-lv.js';
+import {historiesLatvianR14} from '../public/namedays-history-r14-lv.js';
+import {historiesLithuanianR14,historiesEstonianR14} from '../public/namedays-history-r14-baltic.js';
+
+test('November 14 exact forms, shared records and unresolved origins retain their scope',()=>{
+ let reviewed=0;
+ for(const [country,histories]of [['lv',historiesLatvianR14],['lt',historiesLithuanianR14],['ee',historiesEstonianR14]])for(const[name,h]of Object.entries(histories)){
+  reviewed++;assert.equal(reviewedHistory(name,country),h);
+  for(const lang of LANGUAGES){const c=describeName(buildProfile(name,country),lang);assert(c.reviewed_narrative);assert.equal(c.history.length,2);assert(c.history.join(' ').length>300);assert.doesNotMatch(c.history.join(' '),/https?:|\{name\}|undefined/);}
+ }
+ assert.equal(reviewed,23);
+ for(const[country,name]of [['lv','Fridriha'],['lv','Vicenta'],['lv','Vincentina'],['lv','Vikars'],['ee','Alve']]){
+  const p=buildProfile(name,country);assert.equal(p.verification_status,'unverified');assert.equal(p.facts.root_key,undefined);assert.equal(reviewedHistory(name,country),null);
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert(!c.reviewed_narrative);assert(c.unverified_hypothesis);assert.equal(c.hypothesis_label,HYPOTHESIS_LABELS[lang]);}
+ }
+ for(const name of ['Frederika','Frīdrihs','Vinsents']){assert(reviewedHistory(name,'lv').sources.some(s=>s.includes('personvarduatveide.lv/words/')));assert.equal(reviewedHistory(name,'ee'),null);}
+ assert.match(describeName(buildProfile('Frideriks','lv'),'en').history[1],/1831/);
+ for(const name of ['Vincentīna','Vincentīne'])assert.match(describeName(buildProfile(name,'lv'),'en').history[1],/combined|shared-entry/);
+ for(const name of ['Alvi','Alviine']){assert.equal(reviewedHistory(name,'lv'),null);assert.match(describeName(buildProfile(name,'ee'),'en').history[1],/1925|1929/);}
+ assert.doesNotMatch(describeName(buildProfile('Ramantas','lt'),'en').history.join(' '),/Bamantas|PDF/);
+});
 
 test('new exact-form evidence resolves hypotheses without clearing unresolved origins',()=>{
  for(const name of ['Jevgenijs','Jevgenija','Jevgēņijs','Jevģēnijs']){
