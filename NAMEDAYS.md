@@ -34,12 +34,20 @@ Writer version 1.7.0 removed fictional spelling-based histories and retains orig
 
 | Editorial level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed narrative | 274 | 89 | 130 |
-| Short factual summary | 4,128 | 1,242 | 483 |
-| Earlier attestation only | 381 | 1 | 13 |
-| Historical research still needed | 773 | 236 | 927 |
+| Reviewed narrative | 348 | 99 | 173 |
+| Short factual summary | 4,078 | 1,236 | 471 |
+| Earlier attestation only | 374 | 1 | 13 |
+| Historical research still needed | 756 | 232 | 896 |
 | Total profiles | 5,556 | 1,568 | 1,553 |
 | Fictional historical stories displayed | 0 | 0 | 0 |
+
+### Priority sweep (November 2026, writer version 1.8.3)
+
+Round 5 examined every remaining Priority 1 spelling after round 4: 135 distinct names across 142 country profiles. It added 76 reviewed histories, each with two paragraphs in all five languages, covering 82 country profiles (38 LV, 7 LT and 37 EE). The other 59 spellings remain open with individual reasons and concrete next steps in `research/namedays/round5-notes.json`. No unsupported origin was assigned to close a research gap.
+
+The four `public/namedays-history-r5-*.js` modules separate verified family relationships, Estonian historical records, cultural episodes and Latvian records. Examples include Bialik's suggestion of Aviva, Meja's childhood name becoming official, Anitra in Ibsen's original play, Dailis Rožlapa's film work and the exact entries in Julius Mägiste's 1929 name book. Historical forms such as Valde and Wottele retain their own spelling and dating. Latvian evidence shared with an LT or EE profile is explicitly identified as Latvian.
+
+Continue all subsequent name-day research in the shared branch `codex/namedays-round4`; do not create a branch per round. Source URLs remain in research files and provenance metadata. The widget displays the narratives without source links or citation lists. Raw snapshots and PDF extracts remain outside the portable repository.
 
 ### Research round 2 (November 2026, writer version 1.8.0)
 
@@ -62,7 +70,7 @@ Every name examined in the round, including the 97 not yet written, is recorded 
 
 Round 2 also normalizes whitespace in calendar names (nine published LT names had stray spaces, which split two of them into duplicate profiles), makes the calendar validator reject padded names, corrects three reviewed LT misspellings (Arnasd, Felidta and Binifacas become Arnas, Felicita and Bonifacas; only the corrected forms are in the official VLKK registry) through `CALENDAR_CORRECTIONS` in `parsers/namedays.mjs`, and drops extraction artifacts where a source label such as “gloss” had been captured as an etymological word (Vitālis, Vitalis).
 
-The four readiness categories are mutually exclusive within each country. Reviewed narratives include explicitly reviewed name families; short summaries may contain only an origin, a sourced relationship or a namesake, so neither category implies a long individual biography. Related-name context is available for 2,293 LV, 71 LT and 154 EE profiles; these counts overlap the categories above. Context is limited to two direct reference links and does not recursively follow chains or copy another name's attestation. Possible connections remain qualified.
+The four readiness categories are mutually exclusive within each country. Reviewed narratives include explicitly reviewed name families; short summaries may contain only an origin, a sourced relationship or a namesake, so neither category implies a long individual biography. Related-name context is available for 2,308 LV, 74 LT and 158 EE profiles; these counts overlap the categories above. Context is limited to two direct reference links and does not recursively follow chains or copy another name's attestation. Possible connections remain qualified.
 
 Calendar-entry evidence is retained for 176 LV profiles. A date assigned to a shared or cross-referenced dictionary entry is labeled with both forms rather than presented as an exact-spelling date. For example, the catalogue's Kajs/Gajs entry gives 1767 and a separate 1942 attestation. The original dictionary page has not been independently inspected, so the former is not asserted as proof of the exact Kajs spelling in 1767. Calendar-entry years are not creation dates or automatically the earliest use of a name.
 

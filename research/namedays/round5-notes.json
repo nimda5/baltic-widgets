@@ -1,0 +1,3041 @@
+{
+  "round": 5,
+  "date": "2026-11-11",
+  "note": "Full sweep of the Priority 1 snapshot after round 4: 135 distinct spellings across 142 country rows. Each spelling has an outcome. 76 narratives written; 59 retained with specific evidence gaps. One shared branch, codex/namedays-round4. Source URLs remain working-file and provenance metadata, never interface citations. Raw page snapshots and PDF extracts remain private. Direct-fetch blocks for Weizmann, the Met and Iranica were resolved by opening their pages through the web tool.",
+  "records": [
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Dins",
+      "spellings": [
+        "Dins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dins",
+        "https://www.izpetnieks.lv/vards/Dins"
+      ],
+      "facts_used": "The catalogue language versions differ (Dina/Dinam); competing deene/denu explanations remain unresolved.",
+      "reason": "The catalogue language versions differ (Dina/Dinam); competing deene/denu explanations remain unresolved.",
+      "next_steps": "Inspect the printed Siliņš p. 99 before assigning Dean or another family.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Dins",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Valentins",
+      "spellings": [
+        "Valentins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valentins",
+        "https://www.izpetnieks.lv/vards/Valentins",
+        "https://www.behindthename.com/name/valentinas"
+      ],
+      "facts_used": "The opened Latvian catalogue documents Valentīns rather than proving the unaccented Valentins correspondence.",
+      "reason": "The opened Latvian catalogue documents Valentīns rather than proving the unaccented Valentins correspondence.",
+      "next_steps": "Find an authoritative exact-spelling correspondence or a dated bearer of Valentins in Latvian material.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Valentins",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Emija",
+      "spellings": [
+        "Emija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emija",
+        "https://www.izpetnieks.lv/vards/Emija"
+      ],
+      "facts_used": "The exact catalogue entry still leaves origin unestablished; Amy, Emmy and Emīlija are separate comparisons without a demonstrated link.",
+      "reason": "The exact catalogue entry still leaves origin unestablished; Amy, Emmy and Emīlija are separate comparisons without a demonstrated link.",
+      "next_steps": "Check the printed entry and LVA rendering guidance explicitly naming Emija.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Emija",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Savelijs",
+      "spellings": [
+        "Savelijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Savelijs",
+        "https://www.izpetnieks.lv/vards/Savelijs",
+        "https://www.behindthename.com/name/saveliy"
+      ],
+      "facts_used": "The catalogue distinguishes Savelijs from the printed Savēlijs entry; foreign Saveliy does not resolve that distinction.",
+      "reason": "The catalogue distinguishes Savelijs from the printed Savēlijs entry; foreign Saveliy does not resolve that distinction.",
+      "next_steps": "Inspect Siliņš p. 286 and Latvian spelling guidance before assigning Sabellius.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Savelijs",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Jogita",
+      "spellings": [
+        "Jogita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jogita"
+      ],
+      "facts_used": "Jogints is a possible catalogue comparison, not an established root for Jogita; no additional exact-form episode was verified.",
+      "reason": "Jogints is a possible catalogue comparison, not an established root for Jogita; no additional exact-form episode was verified.",
+      "next_steps": "Inspect Jogints and the official Lithuanian given-name dictionary for the exact Jogita relationship.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Jogita",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Rajens",
+      "spellings": [
+        "Rajens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/rajens",
+        "https://www.izpetnieks.lv/en/name/raens",
+        "https://www.izpetnieks.lv/en/name/Rajens"
+      ],
+      "facts_used": "The catalogue leaves the exact origin open; a shared calendar day with Raiens is not a Ryan correspondence.",
+      "reason": "The catalogue leaves the exact origin open; a shared calendar day with Raiens is not a Ryan correspondence.",
+      "next_steps": "Find an explicit LVA/VVC rendering of Rajens as Ryan.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Rajens",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Dailis",
+      "spellings": [
+        "Dailis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dailis",
+        "https://www.filmas.lv/person/1877/"
+      ],
+      "facts_used": "Dailis is the masculine form linked with Daila in Siliņš’s dictionary. Its Latvian word background is daile, “beauty”. The relationship is explicit, but it does not transfer Daila’s own literary appearances or individual record dates to Dailis. Artist Dailis Rožlapa began film work in make-up, including Zvejnieka dēls (1957). In 1972 he joined Riga Film Studio as a production designer for Vella kalpi Vella dzirnavās. His career moved from transforming faces to creating the visible world of films.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ildze",
+      "spellings": [
+        "Ildze"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ildze"
+      ],
+      "facts_used": "No origin is supplied for this spelling. The similarity to Ilze remains insufficient for transferring that history.",
+      "reason": "No origin is supplied for this spelling. The similarity to Ilze remains insufficient for transferring that history.",
+      "next_steps": "Inspect the original Siliņš p. 159 and locate an exact-form historical bearer.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Ildze",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Teiksma",
+      "spellings": [
+        "Teiksma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Teiksma"
+      ],
+      "facts_used": "Teiksma is associated with the Latvian common noun teiksma, a tale or legend. It brings an image of storytelling and imagination into the name, although the source gives neither a separate fixed translation of the personal name nor a securely identified creator. The catalogue entry citing Siliņš records use in Rauna in the second quarter of the twentieth century and a calendar entry in 1928. Rauna is the location of the record. The quarter-century dating retains the source’s precision rather than supplying an invented birth or creation year.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Marga",
+      "spellings": [
+        "Marga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Marga"
+      ],
+      "facts_used": "The catalogue citing Siliņš refers Marga to Margarita and compares it with Latvian margot, to shine. These are different kinds of connection: a personal-name cross-reference and a linguistic comparison. Margot is not established as the secure root of Marga. The catalogue allows a possible early record in the eighteenth century and gives a calendar entry in 1899. The century remains an approximate date, with no specific year or securely identified first Marga. The calendar date records publication of the name rather than its invention.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Anitra",
+      "spellings": [
+        "Anitra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anitra",
+        "https://snl.no/Anitra_-_kvinnenamn",
+        "https://ibsen.uio.no/DRVIT_PG%7CPG06.html",
+        "https://enciklopedija.lv/skirklis/30164"
+      ],
+      "facts_used": "Anitra has a clear literary connection with Henrik Ibsen’s Peer Gynt (1867). Its deeper origin remains uncertain: a comparison with Anita is tentative, and an Italian word for “duck” has also been proposed. Neither explanation should be promoted to a settled meaning. In the play Anitra dances before Peer, who imagines himself a prophet. When he offers to teach her about the soul, she would rather have the opal from his turban. This is a scene in literature, not an account of the behaviour of real women named Anitra.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Brendons",
+      "spellings": [
+        "Brendons"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/brandon",
+        "https://www.izpetnieks.lv/en/name/brendons",
+        "https://www.izpetnieks.lv/en/name/Brendons"
+      ],
+      "facts_used": "English Brandon has a verified surname/place-name explanation, but the Latvian catalogue does not establish the exact transmission.",
+      "reason": "English Brandon has a verified surname/place-name explanation, but the Latvian catalogue does not establish the exact transmission.",
+      "next_steps": "Verify Brendons/Brandon in Latvian rendering guidance and open a primary Brandon place-history record.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Brendons",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Railijs",
+      "spellings": [
+        "Railijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/riley",
+        "https://www.arts.gov/honors/heritage/riley-bb-king"
+      ],
+      "facts_used": "Railijs can be compared with English Riley, used as a personal name for both sexes. The international explanation allows two surname routes: Irish Reilly and an English place name associated with rye and a clearing. The exact Latvian transmission remains unproved. The American blues musician B. B. King’s personal name was Riley. The National Endowment for the Arts honoured him with a National Heritage Fellowship in 1991. Its biography recalls his childhood guitar lessons from an uncle and the records he heard at his aunt’s home.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Meja",
+      "spellings": [
+        "Meja"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/meja",
+        "https://alexandra.se/ambassador/meja/"
+      ],
+      "facts_used": "An international name guide suggests that Meja may be a Low German form connected with Germanic megin, strength. The derivation remains tentative. Swedish use is documented, although each Latvian family’s route to the name remains a separate question. The singer Meja’s ambassador biography preserves an actual naming story. Born Anna Pernilla Torndahl, she called herself Meja from around the age of three. In 1976 her parents applied successfully to make that childhood self-chosen name official.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Rada",
+      "spellings": [
+        "Rada"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Rada"
+      ],
+      "facts_used": "The international Slavic radŭ explanation is documented; the Latvian catalogue lacks a corresponding printed entry, and no further exact-form episode was verified.",
+      "reason": "The international Slavic radŭ explanation is documented; the Latvian catalogue lacks a corresponding printed entry, and no further exact-form episode was verified.",
+      "next_steps": "Check South Slavic name dictionaries and a primary biography using Rada as a given name.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Rada",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Raens",
+      "spellings": [
+        "Raens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/rajens",
+        "https://www.izpetnieks.lv/en/name/raens",
+        "https://www.izpetnieks.lv/en/name/Raens"
+      ],
+      "facts_used": "The exact catalogue entry does not establish Ryan; the same calendar day does not prove a family link.",
+      "reason": "The exact catalogue entry does not establish Ryan; the same calendar day does not prove a family link.",
+      "next_steps": "Find an authoritative Raens/Ryan correspondence, retaining this spelling separately.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Raens",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Skaidra",
+      "spellings": [
+        "Skaidra"
+      ],
+      "countries": [
+        "lv",
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Skaidra",
+        "https://www.tv3.lt/vardadieniai/s/skaidra"
+      ],
+      "facts_used": "Skaidra occurs in both Latvian and Lithuanian material. Latvian skaidrs and Lithuanian skaidrus suggest clarity, transparency and brightness. This Baltic linguistic connection does not establish a single creator or an identical naming motive in every family. The Latvian catalogue citing Siliņš gives Skaidra a record in the final quarter of the nineteenth century and a calendar entry in 1928. These dates belong specifically to Latvian material. Lithuanian use retains its own calendar days and history.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Eliana",
+      "spellings": [
+        "Eliana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eliana"
+      ],
+      "facts_used": "Several international Eliana/Eliane routes remain possible; no exact Latvian transmission or independent historical episode was established.",
+      "reason": "Several international Eliana/Eliane routes remain possible; no exact Latvian transmission or independent historical episode was established.",
+      "next_steps": "Separate the Hebrew and Latin/Greek families with an exact-form authority before extending a narrative.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Eliana",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Heilija",
+      "spellings": [
+        "Heilija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/hayley",
+        "https://www.behindthename.com/name/hailey",
+        "https://www.oscars.org/oscars/ceremonies/1961/M"
+      ],
+      "facts_used": "Heilija can be compared with English Hayley and Hailey. Those international forms come from a surname and place name with Old English elements concerning hay and a clearing. The exact chain leading to the Latvian spelling remains unestablished. A film-history episode belongs to the related English form: Hayley Mills received the Academy’s special award at the 1961 ceremony for her 1960 performance in Pollyanna. Annette Funicello accepted it on her behalf, with Shirley Temple presenting.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Maiks",
+      "spellings": [
+        "Maiks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/mike",
+        "https://www.behindthename.com/name/michael",
+        "https://www.lsm.lv/raksts/dzive--stils/izklaide/maiks-taisons-klus-par-krievijas-rakstnieku-savienibas-biedru.a103426/"
+      ],
+      "facts_used": "Maiks is documented as a Latvian rendering of English Mike. Mike is short for Michael, whose wider family leads to the Hebrew question “who is like God?”. The religious wording is a question of incomparability rather than a claim that its bearer resembles God. Latvia’s public broadcaster calls the boxer Mike Tyson Maiks Taisons. Its 2014 report also records an episode beyond boxing: his autobiography Undisputed Truth appeared in the United States in November 2013. This provides a concrete example of the Latvian rendering in use.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vitālija",
+      "spellings": [
+        "Vitālija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vit%C4%81lija",
+        "https://www.behindthename.com/name/vitalija",
+        "https://www.turismo.ra.it/cultura-e-storia/edifici-religiosi/basilica-san-vitale"
+      ],
+      "facts_used": "{name} belongs beside feminine Vitalija and the older masculine Vitalis. The Latin word vitalis concerns life; Lithuanian Vitalija and Latvian Vitālija have documented links to that family. The route of an individual unaccented Latvian spelling need not be identical to the Lithuanian one. A monument associated with the related masculine form is San Vitale in Ravenna. Bishop Maximian consecrated the basilica in 547, dedicating it to Saint Vitalis. This is the wider family’s cultural history, not the biography of a woman called Vitalija.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Karens",
+      "spellings": [
+        "Karens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/karen-2",
+        "https://www.behindthename.com/name/garen",
+        "https://komiopera.ru/repertoire/priklyucheniya-chipollino/"
+      ],
+      "facts_used": "Karens may be compared with the Armenian masculine Karen, corresponding to Western Armenian Garen. The precise Latvian transmission is unestablished. This comparison concerns the masculine name, distinct from the similarly spelled Scandinavian feminine form. The composer Karen Khachaturian wrote the music for the ballet Cipollino after Gianni Rodari’s tale. The Komi opera and ballet theatre’s historical note dates its world premiere to 8 November 1974 in Kyiv. This is a documented cultural example of the related masculine name.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Zīle",
+      "spellings": [
+        "Zīle"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Z%C4%ABle"
+      ],
+      "facts_used": "The source tentatively connects Zīle with Latvian zīle, an acorn. The word connection is suggested, but the actual naming motivation is not supplied. The oak image therefore remains a possible explanation rather than the known history of every family choosing Zīle. The catalogue citing Siliņš gives a historical date of 1544 and a later calendar entry in 1882. These are distinct pieces of evidence: an early record of the name and its place in a printed calendar. The earliest cited date is not evidence of its invention.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Karims",
+      "spellings": [
+        "Karims"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/karim",
+        "https://www.behindthename.com/name/karima",
+        "https://www.iranicaonline.org/articles/zand-dynasty/"
+      ],
+      "facts_used": "Karims can be compared with Arabic Karim, generous or noble, and Karima with its feminine form. The international family relationship is documented. The precise route into these Latvian calendar forms remains unestablished; the meaning does not promise a character trait. The related masculine name was borne by Persia’s Karim Khan Zand. Ruling from Shiraz, he declined the title of shah and used wakil, deputy or representative. This is an eighteenth-century historical episode associated with the family’s masculine form.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Aisma",
+      "spellings": [
+        "Aisma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aisma"
+      ],
+      "facts_used": "The catalogue explicitly leaves origin unknown and offers a tentative 1932 calendar date. No independent creation story was found.",
+      "reason": "The catalogue explicitly leaves origin unknown and offers a tentative 1932 calendar date. No independent creation story was found.",
+      "next_steps": "Inspect the original p. 45 and the 1932 calendar; check Limbaži archival records without inventing an etymology.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Aisma",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Anfija",
+      "spellings": [
+        "Anfija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anfija"
+      ],
+      "facts_used": "The catalogue citing Siliņš explains Anfija through Greek anthos, flower. The flower image is a linguistic association, without assigning identical qualities to all its bearers. The entry gives a calendar record in 1899 and evidence of use in the second quarter of the twentieth century. These details concern Anfija in the catalogue; the quarter-century date is retained. They document circulation of the name without dating its creation.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Demija",
+      "spellings": [
+        "Demija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/demi",
+        "https://www.behindthename.com/name/demetria",
+        "https://goldenglobes.com/person/demi-moore/"
+      ],
+      "facts_used": "Demija may be compared with international Demi, although the Latvian form’s route is not firmly established. Demi itself is explained both as a rendering of Greek Dimi and as an English short form of Demetria. Neither route can therefore be treated as the sole origin of Demija. The international form appears in Demi Moore’s screen name. Her performance in the 2024 film The Substance earned the 2025 Golden Globe for a female actor in a motion picture, musical or comedy. The awards biography records her birth name as Demi Guynes.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Večeslavs",
+      "spellings": [
+        "Večeslavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ve%C4%8Deslavs"
+      ],
+      "facts_used": "The exact catalogue does not supply an origin; resemblance to Vyacheslav alone was not used as an authoritative spelling correspondence.",
+      "reason": "The exact catalogue does not supply an origin; resemblance to Vyacheslav alone was not used as an authoritative spelling correspondence.",
+      "next_steps": "Find LVA/VVC guidance explicitly mapping Večeslavs to its foreign form.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Ve%C4%8Deslavs",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Aviva",
+      "spellings": [
+        "Aviva"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/aviva",
+        "https://wis-wander.weizmann.ac.il/people/prof-aviva-lapidot-chemistry-all-way"
+      ],
+      "facts_used": "Aviva is the feminine form associated with Hebrew Aviv, “spring”. The word supplies a seasonal image rather than a promise about its bearer. This Hebrew derivation is documented, although it does not reveal why each Latvian family chose the name. The Weizmann Institute preserves one actual naming story. Aviva Lapidot’s father asked the poet Haim Nahman Bialik for suggestions; because she was born on the eve of Passover, he proposed Aviva for spring. She later became a chemist working on research and medical imaging.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Keisija",
+      "spellings": [
+        "Keisija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Keisija"
+      ],
+      "facts_used": "International Casey is documented, but the exact Latvian route is open. Casey Jones is a nickname associated with Cayce, not proof of the surname etymology.",
+      "reason": "International Casey is documented, but the exact Latvian route is open. Casey Jones is a nickname associated with Cayce, not proof of the surname etymology.",
+      "next_steps": "Find a Latvian Casey/Keisija correspondence and a primary given-name episode with the distinction preserved.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Keisija",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Kortnija",
+      "spellings": [
+        "Kortnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kortnija"
+      ],
+      "facts_used": "Courtney has competing surname explanations; no primary exact-form Latvian connection was verified. A probed Powderham history URL returned 404.",
+      "reason": "Courtney has competing surname explanations; no primary exact-form Latvian connection was verified. A probed Powderham history URL returned 404.",
+      "next_steps": "Locate a working primary Courtenay family-history page and verify the Latvian rendering separately.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Kortnija",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Radomirs",
+      "spellings": [
+        "Radomirs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/radomir",
+        "https://en.wikipedia.org/wiki/Gavril_Radomir"
+      ],
+      "facts_used": "Radomirs can be compared with Slavic Radomir. The family’s elements are radŭ, happy or willing, and mirŭ, peace or world. The international comparison is documented, while the exact transmission of the Latvian ending remains unspecified. Gavril Radomir succeeded his father Samuel as tsar of Bulgaria in 1014 and ruled until 1015. The related form is therefore documented in a medieval Balkan ruler’s name long before its appearance in a modern Latvian calendar.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Rubens",
+      "spellings": [
+        "Rubens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Rubens",
+        "https://www.formula1.com/en/latest/article/classic-onboard-barrichellos-epic-opening-lap.1EP8qXHTuDQOzwtOtzo1dO"
+      ],
+      "facts_used": "Rubens is a masculine personal name, although the checked Latvian catalogue does not establish a secure origin. This exact spelling is also documented internationally. It should not automatically be confused with the painter’s surname Rubens or equated with Ruben. The Brazilian driver Rubens Barrichello started the 2000 German Grand Prix from eighteenth after electrical problems in qualifying. Formula 1’s historical account describes how he nevertheless took his first championship race win at Hockenheim.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Uma",
+      "spellings": [
+        "Uma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/uma",
+        "https://www.metmuseum.org/art/collection/search/849513"
+      ],
+      "facts_used": "Uma is a name of the Hindu goddess Parvati. Its Sanskrit explanations differ; the religious reading u mā, “oh, do not”, should not be treated as the only established etymology. The name’s cultural setting is clearer than a single literal derivation. The Metropolitan Museum’s Agamani, a print from Kolkata dated about 1878–83, shows Uma returning to her parental home with the child Ganesha. The scene belongs to the Durga Puja homecoming tradition. This is a documented artistic image of the goddess, not a biography of a modern name bearer.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Doroteja",
+      "spellings": [
+        "Doroteja"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Doroteja",
+        "https://www.izpetnieks.lv/en/name/Dorota",
+        "https://www.behindthename.com/name/dorota",
+        "https://www.behindthename.com/name/dorotea",
+        "https://blog.metmuseum.org/cloistersgardens/2009/02/06/february-fill-dyke/st_dorothea_300/"
+      ],
+      "facts_used": "{name} belongs to the Dorothea family, combining Greek dōron, “gift”, and theos, “God”. Doroteja and Dorota are explicitly linked in the Latvian dictionary; Dorotea is documented in several other European languages. These forms share an origin without sharing every local record or name-day date. Saint Dorothea’s basket of roses became a recognizable image in Christian art. The Metropolitan Museum preserves an example under that description. The flowers belong to the saint’s religious legend; they explain the name family’s cultural imagery rather than proving a miraculous event.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Guļnara",
+      "spellings": [
+        "Guļnara"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gu%C4%BCnara"
+      ],
+      "facts_used": "International Gulnara/Golnar evidence does not independently establish the exact Latvian Guļnara correspondence.",
+      "reason": "International Gulnara/Golnar evidence does not independently establish the exact Latvian Guļnara correspondence.",
+      "next_steps": "Inspect the printed catalogue and an authoritative rendering rule distinguishing Guļnara from Gulnara.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Gu%C4%BCnara",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Alicija",
+      "spellings": [
+        "Alicija"
+      ],
+      "countries": [
+        "lv",
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alicija",
+        "https://www.tv3.lt/vardadieniai/a/alicija"
+      ],
+      "facts_used": "The opened Lithuanian name guide gives a French short-form account inconsistent with a simple unsupported Alice assignment. No exact-form origin authority resolved it.",
+      "reason": "The opened Lithuanian name guide gives a French short-form account inconsistent with a simple unsupported Alice assignment. No exact-form origin authority resolved it.",
+      "next_steps": "Consult VLKK for Alicija; separately verify Alicija Rūgytė in the original diaspora journal before writing a biography paragraph.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Alicija",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://www.tv3.lt/vardadieniai/a/alicija",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Hanss",
+      "spellings": [
+        "Hanss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hanss",
+        "https://www.behindthename.com/name/hans",
+        "https://www.kb.dk/en/inspiration/hans-christian-andersens-manuscripts-and-letters/life-hans-christian-andersen"
+      ],
+      "facts_used": "{name} belongs to the Johannes family. Hans began as a German short form and became an independent name; Latvian Hanss is explicitly referred to Johannes in Siliņš’s dictionary. The older Hebrew background is Jōhānān or Jehohānān, explained as “Yahweh has shown mercy”. A small archival episode concerns Hans Christian Andersen. On 27 November 1834 he applied for work at what is now the Royal Danish Library because of financial difficulties. The library preserves this part of the writer’s life alongside his manuscripts and letters.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Svetoslavs",
+      "spellings": [
+        "Svetoslavs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/svetoslav",
+        "https://www.behindthename.com/name/svyatoslav",
+        "https://en.wikipedia.org/wiki/Sviatoslav_I"
+      ],
+      "facts_used": "Svetoslavs can be compared with Bulgarian Svetoslav, a documented form of Svyatoslav. The Slavic elements concern “sacred” and “glory”. This establishes the international family comparison, while the exact route into the Latvian spelling remains uncertain. A related historical bearer was Sviatoslav of Kyiv, son of Igor and Olga. He remained a pagan although his mother adopted Christianity, and died in 972. The comparison concerns the wider family; it does not mean that the medieval prince used the Latvian spelling Svetoslavs.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Aksenija",
+      "spellings": [
+        "Aksenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aksenija",
+        "https://www.oca.org/saints/lives/0204/01/24/100286-venerable-xenia-of-rome-and-her-two-female-servants"
+      ],
+      "facts_used": "The catalogue citing Siliņš refers Aksenija directly to Ksenija and Greek xenia, hospitality. It gives this form an eighteenth-century record, retaining the century’s precision. The wider family’s history also carries the image of the stranger or traveller. In the saint’s life of Xenia of Rome, a woman originally called Eusebia leaves an arranged marriage with two female servants and adopts Xenia, stranger. This episode associated with a related form is preserved in the Church’s hagiographic tradition.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Barba",
+      "spellings": [
+        "Barba"
+      ],
+      "countries": [
+        "lv",
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Barba",
+        "https://www.izpetnieks.lv/en/name/Barbara"
+      ],
+      "facts_used": "The Latvian dictionary catalogue links Barba directly with Barbara. The wider family comes from Greek barbaros, describing a foreigner or someone speaking another language. That historical word meaning carries no judgement about a present-day bearer’s character. The catalogue records Barba itself in Riga in 1475 and in a calendar in 1877. These dates belong to the Latvian evidence. For the same spelling in Estonia’s calendar, they provide a neighbouring comparison rather than an Estonian first-use date.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Karena",
+      "spellings": [
+        "Karena"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Karena"
+      ],
+      "facts_used": "The catalogue places Karena under Katrīna without a separate etymology and gives a 1922 Tukums record. It is not the Armenian masculine Karen.",
+      "reason": "The catalogue places Karena under Katrīna without a separate etymology and gives a 1922 Tukums record. It is not the Armenian masculine Karen.",
+      "next_steps": "Inspect the original grouped entry and locate an independent exact-form episode.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Karena",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Savēlijs",
+      "spellings": [
+        "Savēlijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sav%C4%93lijs"
+      ],
+      "facts_used": "The printed-name catalogue presents competing explanations. Those cannot be silently replaced with the foreign Saveliy/Sabellius account.",
+      "reason": "The printed-name catalogue presents competing explanations. Those cannot be silently replaced with the foreign Saveliy/Sabellius account.",
+      "next_steps": "Read Siliņš p. 286 directly and find an authoritative correspondence retaining the long vowel.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Sav%C4%93lijs",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vitalija",
+      "spellings": [
+        "Vitalija"
+      ],
+      "countries": [
+        "lv",
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vit%C4%81lija",
+        "https://www.behindthename.com/name/vitalija",
+        "https://www.turismo.ra.it/cultura-e-storia/edifici-religiosi/basilica-san-vitale"
+      ],
+      "facts_used": "{name} belongs beside feminine Vitalija and the older masculine Vitalis. The Latin word vitalis concerns life; Lithuanian Vitalija and Latvian Vitālija have documented links to that family. The route of an individual unaccented Latvian spelling need not be identical to the Lithuanian one. A monument associated with the related masculine form is San Vitale in Ravenna. Bishop Maximian consecrated the basilica in 547, dedicating it to Saint Vitalis. This is the wider family’s cultural history, not the biography of a woman called Vitalija.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Nastja",
+      "spellings": [
+        "Nastja"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nastasija",
+        "https://www.behindthename.com/name/nastja",
+        "https://www.behindthename.com/name/anastasia",
+        "https://en.wikipedia.org/wiki/Anastasia_of_Sirmium"
+      ],
+      "facts_used": "{name} is connected with Anastasia. Siliņš explicitly lists Nastasija under Anastasija; Nastja is documented internationally as a diminutive of Anastazija. The Greek background is anastasis, “resurrection”. The exact path into Latvian use need not have been identical for both short forms. The family’s church history includes Anastasia of Sirmium, traditionally placed among the martyrs of the early fourth century. Her cult later reached Constantinople and Rome. The later saint’s legends should be distinguished from securely known events, and do not date the creation of Nastasija or Nastja.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Gulnara",
+      "spellings": [
+        "Gulnara"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gulnara"
+      ],
+      "facts_used": "The foreign Gulnara/Golnar relationship is verified; Byron’s Gulnare is a different literary form, not proof that Latvian bearers derive from the poem.",
+      "reason": "The foreign Gulnara/Golnar relationship is verified; Byron’s Gulnare is a different literary form, not proof that Latvian bearers derive from the poem.",
+      "next_steps": "Verify the exact Latvian transmission and, if using the poem, inspect the original text for the precise literary episode.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Gulnara",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Nastasija",
+      "spellings": [
+        "Nastasija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nastasija",
+        "https://www.behindthename.com/name/nastja",
+        "https://www.behindthename.com/name/anastasia",
+        "https://en.wikipedia.org/wiki/Anastasia_of_Sirmium"
+      ],
+      "facts_used": "{name} is connected with Anastasia. Siliņš explicitly lists Nastasija under Anastasija; Nastja is documented internationally as a diminutive of Anastazija. The Greek background is anastasis, “resurrection”. The exact path into Latvian use need not have been identical for both short forms. The family’s church history includes Anastasia of Sirmium, traditionally placed among the martyrs of the early fourth century. Her cult later reached Constantinople and Rome. The later saint’s legends should be distinguished from securely known events, and do not date the creation of Nastasija or Nastja.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Daile",
+      "spellings": [
+        "Daile"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Daile"
+      ],
+      "facts_used": "Daile comes from the Latvian word daile, beauty or loveliness. This form is documented separately from Daila and Dailis. Their shared linguistic image permits comparison while each spelling retains its own recorded evidence. The catalogue citing Siliņš gives Daile a calendar entry in 1877 and a record of use in Riga in 1922. In this collection, the calendar recommendation precedes the cited personal use. Neither date is identified as the year the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Dorota",
+      "spellings": [
+        "Dorota"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Doroteja",
+        "https://www.izpetnieks.lv/en/name/Dorota",
+        "https://www.behindthename.com/name/dorota",
+        "https://www.behindthename.com/name/dorotea",
+        "https://blog.metmuseum.org/cloistersgardens/2009/02/06/february-fill-dyke/st_dorothea_300/"
+      ],
+      "facts_used": "{name} belongs to the Dorothea family, combining Greek dōron, “gift”, and theos, “God”. Doroteja and Dorota are explicitly linked in the Latvian dictionary; Dorotea is documented in several other European languages. These forms share an origin without sharing every local record or name-day date. Saint Dorothea’s basket of roses became a recognizable image in Christian art. The Metropolitan Museum preserves an example under that description. The flowers belong to the saint’s religious legend; they explain the name family’s cultural imagery rather than proving a miraculous event.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ivete",
+      "spellings": [
+        "Ivete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/iveta",
+        "https://www.izpetnieks.lv/en/name/Ivete"
+      ],
+      "facts_used": "The checked catalogue does not establish the exact Ivete relationship through the separate Iveta entry.",
+      "reason": "The checked catalogue does not establish the exact Ivete relationship through the separate Iveta entry.",
+      "next_steps": "Locate an authoritative Ivete/Iveta/Yvette correspondence or original dictionary entry.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Ivete",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Sveta",
+      "spellings": [
+        "Sveta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/sveta",
+        "https://www.behindthename.com/name/svetlana",
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D0%BD%D0%B0_(%D0%B8%D0%BC%D1%8F)"
+      ],
+      "facts_used": "Sveta is a Russian short form of Svetlana. That longer name is associated with svet, “light”, and svetly, “bright”. The relationship is documented in Russian; it does not establish a single borrowing route for every Latvian bearer of the short spelling. Svetlana’s literary history reaches Alexander Vostokov’s Svetlana and Mstislav (1802) and Vasily Zhukovsky’s ballad Svetlana (1813). Sveta therefore belongs to a family shaped by authored literature, rather than being evidence for an otherwise unknown ancient Slavic heroine.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Dorotija",
+      "spellings": [
+        "Dorotija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dorotija"
+      ],
+      "facts_used": "The exact catalogue does not establish equivalence with Doroteja; the shared date is insufficient.",
+      "reason": "The exact catalogue does not establish equivalence with Doroteja; the shared date is insufficient.",
+      "next_steps": "Find explicit Dorotija/Dorothea evidence before sharing the Doroteja narrative.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Dorotija",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Malle",
+      "spellings": [
+        "Malle"
+      ],
+      "countries": [
+        "lv",
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=18",
+        "https://www.izpetnieks.lv/en/name/Malle",
+        "https://et.wikipedia.org/wiki/Malle"
+      ],
+      "facts_used": "In Estonian use Malle is usually linked with Maria; the Latvian dictionary also mentions a Danish connection with Amalia. These traditions should not be compressed into one certain derivation. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Mall and Malle are presented together; Malle is marked as current usage and supported by older written references. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Sergo",
+      "spellings": [
+        "Sergo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/sergo",
+        "https://www.behindthename.com/name/sergius",
+        "https://en.wikipedia.org/wiki/Sergius_of_Radonezh"
+      ],
+      "facts_used": "Sergo is a Georgian form of Sergius. The older name is a Roman family name whose original meaning is uncertain. The Georgian form gives this old name a distinct history in the Caucasus. A religious bearer of the related name was Sergius of Radonezh, originally named Bartholomew. His monastic community near Moscow developed into the Trinity Lavra of Saint Sergius. This is history within the wider name family, not a claim that the medieval monk was called Sergo.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Joakims",
+      "spellings": [
+        "Joakims"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Joakims",
+        "https://www.izpetnieks.lv/en/name/Joahims",
+        "https://www.nationalgallery.org.uk/paintings/dalmatian-venetian-saint-joachim-s-offering-meeting-at-the-golden-gate"
+      ],
+      "facts_used": "Joakims is explicitly listed in the catalogue as a form of Joahims. The family is Hebrew and theophoric; the catalogue offers several glosses involving Yahweh, including “Yahweh raises” and “Yahweh awakens”. The Joakims entry gives a record in Rēzekne in 1877 and a calendar entry in 1899. On a panel painted around 1400 in London’s National Gallery, Joachim meets Anne at Jerusalem’s Golden Gate. The scene belongs to the religious tradition about Mary’s parents retold in the Golden Legend, providing an art-history episode for the related form.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Karima",
+      "spellings": [
+        "Karima"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/karim",
+        "https://www.behindthename.com/name/karima",
+        "https://www.iranicaonline.org/articles/zand-dynasty/"
+      ],
+      "facts_used": "Karims can be compared with Arabic Karim, generous or noble, and Karima with its feminine form. The international family relationship is documented. The precise route into these Latvian calendar forms remains unestablished; the meaning does not promise a character trait. The related masculine name was borne by Persia’s Karim Khan Zand. Ruling from Shiraz, he declined the title of shah and used wakil, deputy or representative. This is an eighteenth-century historical episode associated with the family’s masculine form.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Laimdots",
+      "spellings": [
+        "Laimdots"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Laimdots"
+      ],
+      "facts_used": "The catalogue citing Siliņš places Laimdots in the family of Laimdota, explained as “given by Laima”. The masculine form’s comparison with this family is documented. Events belonging to the female literary character Laimdota remain her own story. For the group of forms, the catalogue gives a calendar entry in 1908 and a record of use in 1922. These are group dates: they do not establish that the exact spelling Laimdots first appeared in either year.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vladimira",
+      "spellings": [
+        "Vladimira"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/vladimira",
+        "https://www.behindthename.com/name/vladimir",
+        "https://en.wikipedia.org/wiki/Vladimir_the_Great"
+      ],
+      "facts_used": "Vladimira is a feminine form of Vladimir. That Slavic family contains an element connected with ruling; the history of its second element is more complex than simply reading modern mir as “peace”. The international feminine relationship does not date the exact Latvian spelling. The related masculine name was borne by Vladimir of Kyiv. His conversion to Christianity and marriage to the Byzantine princess Anna in 988 became major events in the region’s history.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vello",
+      "spellings": [
+        "Vello"
+      ],
+      "countries": [
+        "lv",
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/vello",
+        "https://ewod.ut.ee/m/metsanurk/",
+        "https://www.er500.ee/teemad/raamatulugu-1918-1940/umera-joel-ajalooline-romaan"
+      ],
+      "facts_used": "Vello is an Estonian name explained as a diminutive of veli, brother. It has an independent personal-name tradition. The identical spelling in the Latvian calendar can be compared with this documented Estonian form. Vello is a character in Mait Metsanurk’s historical novel Ümera jõel, first published in 1934. The author made him the elder of the invented district of Mägiste. The setting takes readers to the thirteenth century, while Vello himself is a fictional character.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Riho",
+      "spellings": [
+        "Riho"
+      ],
+      "countries": [
+        "lv",
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/riho",
+        "https://www.behindthename.com/name/richard",
+        "https://www.efis.ee/en/film/3043"
+      ],
+      "facts_used": "Riho is an independent Estonian name documented as a short form of Richard. The Germanic family’s elements concern ruling and strength. This explanation is distinct from an identically romanized Japanese name, which can have a different origin. The director Riho Unt made the puppet animation Kapsapea, Cabbage Head, in 1993. The Estonian film database describes it as a parody of a classical action film. It provides a specific episode in a bearer’s contribution to Estonian animation.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Iraisa",
+      "spellings": [
+        "Iraisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraisa"
+      ],
+      "facts_used": "No authoritative exact-form connection to Irais, Iraida or Raisa was obtained.",
+      "reason": "No authoritative exact-form connection to Irais, Iraida or Raisa was obtained.",
+      "next_steps": "Check the original Latvian entry and church-name correspondences without merging the candidates.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Iraisa",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Iraidis",
+      "spellings": [
+        "Iraidis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iraidis"
+      ],
+      "facts_used": "No exact-form derivation was established; the masculine ending is not proof of an Iraida family relationship.",
+      "reason": "No exact-form derivation was established; the masculine ending is not proof of an Iraida family relationship.",
+      "next_steps": "Inspect the original dictionary and an exact-form bearer record.",
+      "research_probes": [
+        {
+          "url": "https://www.izpetnieks.lv/en/name/Iraidis",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Daugaudas",
+      "spellings": [
+        "Daugaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/d/daugaudas"
+      ],
+      "facts_used": "The Lithuanian guide supplies dau-/gaud- components, but no additional dated personal-name history was verified.",
+      "reason": "The Lithuanian guide supplies dau-/gaud- components, but no additional dated personal-name history was verified.",
+      "next_steps": "Consult VLKK and historical given-name indexes for Daugaudas, excluding surname-only hits.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/d/daugaudas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Girkantas",
+      "spellings": [
+        "Girkantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/g/girkantas"
+      ],
+      "facts_used": "The guide supplies gir-/kant- components; a surname such as Jonas Girkantas is not a historical bearer of this given name.",
+      "reason": "The guide supplies gir-/kant- components; a surname such as Jonas Girkantas is not a historical bearer of this given name.",
+      "next_steps": "Verify the exact given-name entry in VLKK and search dated personal-name records.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/g/girkantas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Henrikas",
+      "spellings": [
+        "Henrikas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/henrikas",
+        "https://www.behindthename.com/name/henry",
+        "https://www.vle.lt/straipsnis/henrikas-radauskas/"
+      ],
+      "facts_used": "Henrikas is the Lithuanian form of Heinrich. The old Germanic elements heim and rīchi concern home and power or a ruler. It belongs to the wider family of Henry and Henrik, with the ending characteristic of the Lithuanian masculine form. The poet Henrikas Radauskas worked with books beyond his poetry: from 1959 to 1969 he was employed at the Library of Congress in Washington. Earlier in his American exile he had lived in Baltimore and earned his living through manual work.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Laimonas",
+      "spellings": [
+        "Laimonas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/l/laimonas",
+        "https://www.vle.lt/straipsnis/laimonas-noreika/"
+      ],
+      "facts_used": "The Lithuanian name guide derives Laimonas from Laimas or Laimis. The family is connected with Lithuanian laimė, happiness or good fortune. This is the word’s association with luck rather than a prediction about the bearer’s life. The actor Laimonas Noreika played the title role in Justinas Marcinkevičius’s Mažvydas in 1978. He also brought his theatrical experience into books: Aktoriaus dienoraščiai appeared in 1999, followed by Vidurnakčio užrašai in 2001.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Liudmina",
+      "spellings": [
+        "Liudmina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/l/liudmina"
+      ],
+      "facts_used": "No exact entry text was obtained from the probed guide; Liudmila is a distinct spelling and was not substituted.",
+      "reason": "No exact entry text was obtained from the probed guide; Liudmila is a distinct spelling and was not substituted.",
+      "next_steps": "Consult the exact VLKK Liudmina entry and historical records.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/l/liudmina",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Mantigirdas",
+      "spellings": [
+        "Mantigirdas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/m/mantigirdas"
+      ],
+      "facts_used": "The guide discusses mant-/gird-; historical Mangirdas is a different name and cannot supply this biography.",
+      "reason": "The guide discusses mant-/gird-; historical Mangirdas is a different name and cannot supply this biography.",
+      "next_steps": "Find a dated bearer of Mantigirdas itself and confirm both stems in VLKK.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/m/mantigirdas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Marinas",
+      "spellings": [
+        "Marinas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/m/marinas"
+      ],
+      "facts_used": "The guide offers both a Marius-related and a Latin marinus account. Neither is established as the sole route; Marius itself must not automatically be reduced to Mars.",
+      "reason": "The guide offers both a Marius-related and a Latin marinus account. Neither is established as the sole route; Marius itself must not automatically be reduced to Mars.",
+      "next_steps": "Resolve the exact Lithuanian family in VLKK before using Saint Marinus or San Marino as family context.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/m/marinas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Narvydas",
+      "spellings": [
+        "Narvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/n/narvydas"
+      ],
+      "facts_used": "The probed page supplied no substantive exact-name explanation; surname hits did not establish a given-name history.",
+      "reason": "The probed page supplied no substantive exact-name explanation; surname hits did not establish a given-name history.",
+      "next_steps": "Check the exact VLKK entry and historical personal-name indexes.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/n/narvydas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Nastė",
+      "spellings": [
+        "Nastė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/n/nastė"
+      ],
+      "facts_used": "The exact guide page supplied no substantive origin. Similarity to Nastja does not prove an Anastasia derivation.",
+      "reason": "The exact guide page supplied no substantive origin. Similarity to Nastja does not prove an Anastasia derivation.",
+      "next_steps": "Consult the exact VLKK entry and a dated Nastė bearer record.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/n/nastė",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Normantas",
+      "spellings": [
+        "Normantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/n/normantas"
+      ],
+      "facts_used": "The guide supplies nor-/mant- components. Paulius Normantas bears Normantas as a surname, so his biography was excluded.",
+      "reason": "The guide supplies nor-/mant- components. Paulius Normantas bears Normantas as a surname, so his biography was excluded.",
+      "next_steps": "Find an exact given-name bearer and confirm the stems in VLKK.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/n/normantas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Radegunda",
+      "spellings": [
+        "Radegunda"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/r/radegunda",
+        "https://www.jesus.cam.ac.uk/st-radegund"
+      ],
+      "facts_used": "Radegunda is a Lithuanian form in the Germanic Radegund family. The Lithuanian explanation identifies the old elements ragin and gund, the latter concerning battle. European historical tradition also preserves Radegund and French Radegonde. Jesus College, Cambridge, recognizes the sixth-century Radegund as one of its patron saints. In 1496 the college took over the site and endowments of the former Priory of St Mary and St Radegund. The medieval saint’s name thus continued in the new educational institution’s tradition.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ramutis",
+      "spellings": [
+        "Ramutis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/r/ramutis",
+        "https://www.teatras.lt/lt/teatras/trupe/ramutis_rimeikis"
+      ],
+      "facts_used": "The Lithuanian name guide connects Ramutis with Ramas or Ramys and the adjective ramus, calm. The derivation shows how words from the Lithuanian language enter personal naming, without assigning a temperament to everyone who bears the name. The Lithuanian National Drama Theatre lists Ramutis Rimeikis as Laurynas in its 1973 Katedra. That year he also played Gregers in Ibsen’s The Wild Duck: two contrasting roles shortly after completing his conservatory training in 1972.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Rimtenis",
+      "spellings": [
+        "Rimtenis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/r/rimtenis"
+      ],
+      "facts_used": "The guide offers both a Rimtas derivation and a Rimtautas shortening; neither was silently selected.",
+      "reason": "The guide offers both a Rimtas derivation and a Rimtautas shortening; neither was silently selected.",
+      "next_steps": "Find an exact-form historical record and authority distinguishing the two routes.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/r/rimtenis",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Sangailas",
+      "spellings": [
+        "Sangailas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/s/sangailas"
+      ],
+      "facts_used": "The guide supplies san-/gail-. VLE’s medieval Sungaila biography does not itself prove that Sangailas is the same name.",
+      "reason": "The guide supplies san-/gail-. VLE’s medieval Sungaila biography does not itself prove that Sangailas is the same name.",
+      "next_steps": "Obtain an explicit Sangailas/Sungaila correspondence before applying that historical episode.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/s/sangailas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Sonata",
+      "spellings": [
+        "Sonata"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/s/sonata",
+        "https://www.vle.lt/straipsnis/sonata/",
+        "https://www.lse.lt/biografija/sonata-milusauskaite/"
+      ],
+      "facts_used": "The Lithuanian name guide connects Sonata with Latin sonare, to sound. The musical term sonata came through Italian. Alongside its use as a personal name, the word denotes a composition for one or more instruments. The Lithuanian race walker Sonata Milušauskaitė competed at four Olympics: Atlanta 1996, Sydney 2000, Athens 2004 and Beijing 2008. Her sporting history places this musical-sounding name in a quite different field of cultural life.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Svirgailas",
+      "spellings": [
+        "Svirgailas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/s/svirgailas"
+      ],
+      "facts_used": "Only the guide’s stem explanation was established. The similar Švitrigaila is a different spelling and was excluded as a namesake.",
+      "reason": "Only the guide’s stem explanation was established. The similar Švitrigaila is a different spelling and was excluded as a namesake.",
+      "next_steps": "Confirm the stems and a dated Svirgailas bearer in Lithuanian onomastic sources.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/s/svirgailas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vaidutis",
+      "spellings": [
+        "Vaidutis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/v/vaidutis"
+      ],
+      "facts_used": "The guide links the name with Vaidas/Vaid- names, but no independent exact-form historical episode was verified.",
+      "reason": "The guide links the name with Vaidas/Vaid- names, but no independent exact-form historical episode was verified.",
+      "next_steps": "Consult VLKK and dated given-name records, distinguishing Vaidutis from surnames.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/v/vaidutis",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vaišvilas",
+      "spellings": [
+        "Vaišvilas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/v/vaisvilas",
+        "https://www.tv3.lt/vardadieniai/v/vaišvilas"
+      ],
+      "facts_used": "The probed guide page supplied no exact explanation. Vaišelga was not treated as an equivalent historical bearer.",
+      "reason": "The probed guide page supplied no exact explanation. Vaišelga was not treated as an equivalent historical bearer.",
+      "next_steps": "Inspect the exact official entry and find a primary record for Vaišvilas.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/v/vaišvilas",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Žibutė",
+      "spellings": [
+        "Žibutė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/z/zibute",
+        "https://www.tv3.lt/vardadieniai/ž/žibutė"
+      ],
+      "facts_used": "Search results chiefly concerned kindergartens and other institutions named Žibutė. These are not biographies of women with this given name.",
+      "reason": "Search results chiefly concerned kindergartens and other institutions named Žibutė. These are not biographies of women with this given name.",
+      "next_steps": "Check the ASCII-normalized guide slug and the official entry, then a primary given-name bearer biography.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/ž/žibutė",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Žydris",
+      "spellings": [
+        "Žydris"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.tv3.lt/vardadieniai/ž/žydris"
+      ],
+      "facts_used": "Calendar journalism provides a sky-blue/clear gloss, but no independent historical episode was found.",
+      "reason": "Calendar journalism provides a sky-blue/clear gloss, but no independent historical episode was found.",
+      "next_steps": "Verify the exact official entry and a dated personal-name record; exclude unrelated Žydrūnas forms.",
+      "research_probes": [
+        {
+          "url": "https://www.tv3.lt/vardadieniai/ž/žydris",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Aimar",
+      "spellings": [
+        "Aimar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/aimar",
+        "https://www.nordicnames.de/wiki/Aimar",
+        "https://et.wikipedia.org/wiki/Aimar"
+      ],
+      "facts_used": "Nordic Names gives a Germanic Agimar comparison and Norwegian historical usage. The Estonian page does not establish the local transmission; the Basque homonym was kept separate.",
+      "reason": "Nordic Names gives a Germanic Agimar comparison and Norwegian historical usage. The Estonian page does not establish the local transmission; the Basque homonym was kept separate.",
+      "next_steps": "Check an Estonian onomastic authority for Aimar and a primary biography such as Aimar Ventsel.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Aimar",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Aimar",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Alev",
+      "spellings": [
+        "Alev"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Alevipoeg",
+        "https://www.nordicnames.de/wiki/Alev",
+        "https://et.wikipedia.org/wiki/Alev"
+      ],
+      "facts_used": "The Nordic page concerns a Turkish flame name; Estonian results are largely a settlement term or surname. None proves the Estonian given-name origin.",
+      "reason": "The Nordic page concerns a Turkish flame name; Estonian results are largely a settlement term or surname. None proves the Estonian given-name origin.",
+      "next_steps": "Find an exact Estonian personal-name entry; do not infer it from Alevipoeg or the Turkish homonym.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Alev",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Alev",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Aliise",
+      "spellings": [
+        "Aliise"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Aliise"
+      ],
+      "facts_used": "The Nordic entry verifies a Finnish spelling of Alise/Alice, but no Estonian borrowing history or additional exact-form episode was established.",
+      "reason": "The Nordic entry verifies a Finnish spelling of Alise/Alice, but no Estonian borrowing history or additional exact-form episode was established.",
+      "next_steps": "Consult an Estonian given-name dictionary and historical Aliise records, keeping Finnish evidence country-specific.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Aliise",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Aliise",
+          "status": 404,
+          "result": "No usable exact-name page"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Dorotea",
+      "spellings": [
+        "Dorotea"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Doroteja",
+        "https://www.izpetnieks.lv/en/name/Dorota",
+        "https://www.behindthename.com/name/dorota",
+        "https://www.behindthename.com/name/dorotea",
+        "https://blog.metmuseum.org/cloistersgardens/2009/02/06/february-fill-dyke/st_dorothea_300/"
+      ],
+      "facts_used": "{name} belongs to the Dorothea family, combining Greek dōron, “gift”, and theos, “God”. Doroteja and Dorota are explicitly linked in the Latvian dictionary; Dorotea is documented in several other European languages. These forms share an origin without sharing every local record or name-day date. Saint Dorothea’s basket of roses became a recognizable image in Christian art. The Metropolitan Museum preserves an example under that description. The flowers belong to the saint’s religious legend; they explain the name family’s cultural imagery rather than proving a miraculous event.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Eha",
+      "spellings": [
+        "Eha"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=14",
+        "https://www.nordicnames.de/wiki/Eha"
+      ],
+      "facts_used": "Eha is an Estonian name connected with eha, evening twilight. That does not make it the name of the character Hämarik in the Dawn and Dusk legend. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Eha appears in the women’s list; the introduction also explicitly includes it among newly formed Estonian names. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Elle",
+      "spellings": [
+        "Elle"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=14",
+        "https://www.nordicnames.de/wiki/Elle"
+      ],
+      "facts_used": "Elle is a documented Estonian feminine form. A Nordic name guide compares it with Ella, although that connection alone does not select one of Ella’s several origin families. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Elle, Ella and Ellu share a line in the women’s list; Elle carries references to Wiedemann, dialects and Hurt’s island material. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Elli",
+      "spellings": [
+        "Elli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/mehis",
+        "https://www.nordicnames.de/wiki/Elli",
+        "https://et.wikipedia.org/wiki/Elli"
+      ],
+      "facts_used": "The Nordic entry gives both an Ella variant and Old Norse old-age mythology; the Estonian disambiguation page does not choose a local route.",
+      "reason": "The Nordic entry gives both an Ella variant and Old Norse old-age mythology; the Estonian disambiguation page does not choose a local route.",
+      "next_steps": "Inspect Elli (eesnimi) and an Estonian dictionary before assigning the mythological story to the local name.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Elli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Elli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Elmar",
+      "spellings": [
+        "Elmar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Elmar",
+        "https://eki.ee/dict/qs1918/qs100.pdf"
+      ],
+      "facts_used": "Elmar has several documented Germanic comparisons: Athalmar, Old English Æthelmær, Eilmar and Elimar. A single compound translation cannot therefore securely explain every Elmar. The name has also become established in Estonian use. The linguist Elmar Muuk completed the first edition of Väike õigekeelsus-sõnaraamat in 1933. The Institute of the Estonian Language’s historical survey describes how this practical language-standard dictionary became popular and went through numerous editions.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Hando",
+      "spellings": [
+        "Hando"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=26"
+      ],
+      "facts_used": "Hando is an Estonian name with the historical variant Handu. Its connection with Hant is documented, but that alone does not supply a secure literal translation. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Hando and Handu share a cross-reference to Hant, whose entry cites the older spellings Hante and Hanto. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Hans",
+      "spellings": [
+        "Hans"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hanss",
+        "https://www.behindthename.com/name/hans",
+        "https://www.kb.dk/en/inspiration/hans-christian-andersens-manuscripts-and-letters/life-hans-christian-andersen"
+      ],
+      "facts_used": "{name} belongs to the Johannes family. Hans began as a German short form and became an independent name; Latvian Hanss is explicitly referred to Johannes in Siliņš’s dictionary. The older Hebrew background is Jōhānān or Jehohānān, explained as “Yahweh has shown mercy”. A small archival episode concerns Hans Christian Andersen. On 27 November 1834 he applied for work at what is now the Royal Danish Library because of financial difficulties. The library preserves this part of the writer’s life alongside his manuscripts and letters.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Heik",
+      "spellings": [
+        "Heik"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/heik",
+        "https://www.nordicnames.de/wiki/Heik"
+      ],
+      "facts_used": "The Nordic entry gives a Frisian Heike shortening; it does not itself document the Estonian transmission.",
+      "reason": "The Nordic entry gives a Frisian Heike shortening; it does not itself document the Estonian transmission.",
+      "next_steps": "Find an Estonian exact-form authority and a dated Heik bearer.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Heik",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Heik",
+          "status": 404,
+          "result": "No usable exact-name page"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Helme",
+      "spellings": [
+        "Helme"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=14"
+      ],
+      "facts_used": "Helme’s history is clearer than its original motivation. The place-name Helme and similar personal names do not by themselves establish its derivation. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Helme is a women’s entry credited to the Sõggel collection. This is a specific printed example, independent of an inference from a place-name. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Henrik",
+      "spellings": [
+        "Henrik"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=27",
+        "https://www.nordicnames.de/wiki/Henrik"
+      ],
+      "facts_used": "Henrik is a Low German form of Heinrich. The Germanic family combines heim, “home”, and rih, “ruler”; Scandinavian and Baltic spellings developed in different languages. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Henrik appears in the men’s list with references to Wiedemann’s dictionary and dialect use. Hendrik is a separate entry on the same page. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Illimar",
+      "spellings": [
+        "Illimar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://rmk.ee/en/exploring-nature/hiking-route/100-stories-from-the-hiking-route/1937-friedebert-tuglas-writes-vaike-illimar-little-illimar/",
+        "https://kreutzwald.kirmus.ee/et/lisamaterjalid/ajatelje_materjalid?action=booktext&book_id=385&hide_template=1&html=1&item_id=385&table=Books"
+      ],
+      "facts_used": "Illimar is an Estonian personal name with a clearly documented literary connection. The checked sources do not establish a secure root translation. They do preserve the exact spelling Illimar in Estonian prose, giving the name a traceable cultural history. Friedebert Tuglas’s Väike Illimar appeared in 1937. In the novel, the writer returned to his childhood at Ahja Manor, its buildings, landscapes and people. Little Illimar is a fictional character in an autobiographical setting rather than the author’s birth name.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ilmi",
+      "spellings": [
+        "Ilmi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Ilmi",
+        "https://ewod.ut.ee/k/kolla/"
+      ],
+      "facts_used": "Ilmi is documented as a woman’s name in Estonia and also occurs in the Nordic countries. A Nordic name guide connects it with Ilma. This international comparison leaves individual Estonian transmission routes open; a link with the mythological Ilmatar remains unestablished. The poet Ilmi Kolla’s first poems appeared in periodicals in 1947. After her death in 1954, Luuletused was published in 1957. Her poems also found a musical life; a well-known example is Nukrad hetked, set by Arne Oit.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Imbi",
+      "spellings": [
+        "Imbi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Imbi",
+        "https://www.nordicnames.de/wiki/Impi",
+        "https://imbipaju.com/en/books/memories-denied/"
+      ],
+      "facts_used": "Imbi is documented as an Estonian form of Finnish Impi. Finnish impi means maiden or young woman. The relationship shows the name passing between related languages without identifying a first Estonian bearer or a particular borrowing year. The writer Imbi Paju’s Memories Denied first appeared in Finnish in 2006. Following the documentary of the same name, she expanded interviews and archival material into a book, exploring beyond the limits of an hour-long film.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Kaarli",
+      "spellings": [
+        "Kaarli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Kaarli"
+      ],
+      "facts_used": "Kaarel’s grammatical genitive and a place-name entry are not evidence for the independent given name Kaarli.",
+      "reason": "Kaarel’s grammatical genitive and a place-name entry are not evidence for the independent given name Kaarli.",
+      "next_steps": "Use a given-name dictionary and historical personal-name records rather than inflection or place-name data.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Kaarli",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Kaarli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Kalju",
+      "spellings": [
+        "Kalju"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/kalju",
+        "https://et.wikipedia.org/wiki/Kalju_(eesnimi)",
+        "https://www.nordicnames.de/wiki/Kalju",
+        "https://et.wikipedia.org/wiki/Kalju"
+      ],
+      "facts_used": "The Estonian rock/cliff meaning is verified. The 1929 name book’s Kaljo spelling must be identified as a related form, not dated as exact Kalju.",
+      "reason": "The Estonian rock/cliff meaning is verified. The 1929 name book’s Kaljo spelling must be identified as a related form, not dated as exact Kalju.",
+      "next_steps": "Open a primary Kalju Lepik biography or an exact-spelling early record for a second paragraph.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Kalju",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Kalju",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Kalvi",
+      "spellings": [
+        "Kalvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Kalvi"
+      ],
+      "facts_used": "No authoritative exact-form derivation was established. A place or surname and the Latvian Kalvis do not resolve it.",
+      "reason": "No authoritative exact-form derivation was established. A place or surname and the Latvian Kalvis do not resolve it.",
+      "next_steps": "Check an Estonian given-name dictionary and exact-form historical bearer records.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Kalvi",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Kalvi",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Kuldar",
+      "spellings": [
+        "Kuldar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/mehis",
+        "https://et.wikipedia.org/wiki/Kuldar"
+      ],
+      "facts_used": "Nordic Names has no entry; a gold-derived explanation was not established. A composer biography alone would not verify that proposed root.",
+      "reason": "Nordic Names has no entry; a gold-derived explanation was not established. A composer biography alone would not verify that proposed root.",
+      "next_steps": "Open the Estonian Music Information Centre’s Kuldar Sink entry and a given-name authority, keeping origin uncertain if necessary.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Kuldar",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Kuldar",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Leela",
+      "spellings": [
+        "Leela"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17"
+      ],
+      "facts_used": "Leela is historically linked with Leelo, an Estonian word associated with song and poetry. That documented Estonian connection is distinct from similarly spelled names in other languages. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Leela is marked as then-current usage and explicitly paired with Leelo. The accompanying German glosses mention song and poetry. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Leeli",
+      "spellings": [
+        "Leeli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Leeli"
+      ],
+      "facts_used": "Nordic Names has no entry; the Estonian place-name homonym is not an origin for the given name. Leela/Leelo evidence was not copied.",
+      "reason": "Nordic Names has no entry; the Estonian place-name homonym is not an origin for the given name. Leela/Leelo evidence was not copied.",
+      "next_steps": "Find the exact name in an Estonian given-name dictionary or historical personal record.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Leeli",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Leeli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Lehte",
+      "spellings": [
+        "Lehte"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Lehte",
+        "https://www.folklore.ee/rl/pubte/ee/kamp/Kampmann1923.pdf"
+      ],
+      "facts_used": "Lehte is an Estonian feminine name whose passage from literature into personal use is described in name-history sources. The related Lehe spelling is recorded in Mats Tõnisson’s 1884 calendar, while Lehte is recorded in a calendar in 1901. In August Kitzberg’s Maimu, Lehte is the wife of the elder Venda and the mother of Maimu. Mihkel Kampmann’s 1923 literary history explicitly identifies these characters as fictional. The story’s ancient setting therefore supplies no medieval bearer’s record.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Mai",
+      "spellings": [
+        "Mai"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=18",
+        "https://www.nordicnames.de/wiki/Mai"
+      ],
+      "facts_used": "Mai is documented as a woman’s name in Estonian use. A Nordic name guide links the same spelling with Maj. That comparison keeps the personal name distinct from a month name and from identically spelled words in other languages. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), the Mai entry cites older May and Maije forms, with Maie alongside as a separate variant. The book preserves variation in the spelling. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Maia",
+      "spellings": [
+        "Maia"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/mehis",
+        "https://www.nordicnames.de/wiki/Maia",
+        "https://et.wikipedia.org/wiki/Maia"
+      ],
+      "facts_used": "The Nordic guide gives a Maja comparison, while the initially opened Estonian page concerns the Greek mythological figure. These do not select an Estonian origin.",
+      "reason": "The Nordic guide gives a Maja comparison, while the initially opened Estonian page concerns the Greek mythological figure. These do not select an Estonian origin.",
+      "next_steps": "Inspect Maia (eesnimi) and an Estonian name dictionary before choosing the Mary or Greek family.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Maia",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Maia",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Meeli",
+      "spellings": [
+        "Meeli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Meeli",
+        "https://et.wikipedia.org/wiki/Meeli"
+      ],
+      "facts_used": "A Finnish guide calls Meeli an Estonian Mielikki form, while Estonian references point to a naming recommendation. The local account needs corroboration.",
+      "reason": "A Finnish guide calls Meeli an Estonian Mielikki form, while Estonian references point to a naming recommendation. The local account needs corroboration.",
+      "next_steps": "Open the full Mats Tõnisson naming-history article and an Estonian given-name dictionary; distinguish the Finnish comparison.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Meeli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Meeli",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Mehis",
+      "spellings": [
+        "Mehis"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=41"
+      ],
+      "facts_used": "Mehis is an Estonian name linked with mehis, manliness. This is a historical word explanation, not a statement about every bearer’s character or purpose in life. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Mehis is compared with the older spelling Mechis and glossed in German as Mannhaftigkeit. The compared record remains distinct from the modern spelling. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Õie",
+      "spellings": [
+        "Õie"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=22",
+        "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5is/1/est"
+      ],
+      "facts_used": "Õie is linked with Estonian õis, “blossom”. The word’s image explains an association of the name, rather than determining the character of its bearer. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Õie is in the women’s list with the references Sõggel and Rnm. It remains separate from the neighbouring Õile and Õilme. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Õilme",
+      "spellings": [
+        "Õilme"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=22"
+      ],
+      "facts_used": "Õilme is linked in the historical Estonian list with Õile, glossed as “blossom”. This is a specific name connection, not proof that all similar flower names are interchangeable. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Õilme shares a group with Õile and Öili. This early printed grouping documents the connection without inventing a first child given the name. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Olev",
+      "spellings": [
+        "Olev"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=43"
+      ],
+      "facts_used": "Olev is an Estonian form in the Olaf family. It should not be derived solely from the similar Estonian philosophical word for “being”, or attributed only to the character Olevipoeg. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Olev is explicitly equated with Olaf and older spellings Oleff and Olleff. Oolep and Oolev are also listed separately. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Õnneleid",
+      "spellings": [
+        "Õnneleid"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/mehis",
+        "https://et.wikipedia.org/wiki/%C3%95nneleid"
+      ],
+      "facts_used": "A principal search hit is an album title, not a historical bearer or proof of how the personal name was formed.",
+      "reason": "A principal search hit is an album title, not a historical bearer or proof of how the personal name was formed.",
+      "next_steps": "Find the exact name in historic recommendation lists or personal-name records.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/%C3%95nneleid",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/%C3%95nneleid",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Pirja",
+      "spellings": [
+        "Pirja"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirjo",
+        "https://www.nordicnames.de/wiki/Pirja"
+      ],
+      "facts_used": "The Nordic guide verifies Finnish Pirja as a Pirjo variant, but no exact Estonian historical episode was established.",
+      "reason": "The Nordic guide verifies Finnish Pirja as a Pirjo variant, but no exact Estonian historical episode was established.",
+      "next_steps": "Check an Estonian authority for the borrowing and a primary Pirja bearer record.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Pirja",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Pirja",
+          "status": 404,
+          "result": "No usable exact-name page"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Pirje",
+      "spellings": [
+        "Pirje"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=20",
+        "https://www.nordicnames.de/wiki/Pirje"
+      ],
+      "facts_used": "Pirje has more than one international explanation. The historical Estonian book offers it in the women’s list as a Finnish dialect form of Brigitta; the later Finnish masculine Pirjeri connection is a different account. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Pirje appears immediately after Piret and Pirit with the note “sm. murd., = Brigitta”. The feminine connection is genuinely present in that recommendation list. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ruth",
+      "spellings": [
+        "Ruth"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/rutt",
+        "https://www.nordicnames.de/wiki/Ruth",
+        "https://www.nordicnames.de/wiki/Rut",
+        "https://www.biblegateway.com/passage/?search=Ruth%202&version=KJV"
+      ],
+      "facts_used": "Ruth and Rutt belong to the family of biblical Ruth; Rutt is documented as an Estonian form. The Hebrew name is often associated with a friend or companion, although its etymology is not completely secure. Both spellings participate in the international biblical naming tradition. In chapter two of the Book of Ruth, Ruth the Moabite goes to glean behind the reapers and arrives in Boaz’s field. This particular harvest episode belongs to the biblical narrative and to later artistic representations of Ruth and Boaz.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Rutt",
+      "spellings": [
+        "Rutt"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.behindthename.com/name/rutt",
+        "https://www.nordicnames.de/wiki/Ruth",
+        "https://www.nordicnames.de/wiki/Rut",
+        "https://www.biblegateway.com/passage/?search=Ruth%202&version=KJV"
+      ],
+      "facts_used": "Ruth and Rutt belong to the family of biblical Ruth; Rutt is documented as an Estonian form. The Hebrew name is often associated with a friend or companion, although its etymology is not completely secure. Both spellings participate in the international biblical naming tradition. In chapter two of the Book of Ruth, Ruth the Moabite goes to glean behind the reapers and arrives in Boaz’s field. This particular harvest episode belongs to the biblical narrative and to later artistic representations of Ruth and Boaz.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ruut",
+      "spellings": [
+        "Ruut"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/ruth-1",
+        "https://www.nordicnames.de/wiki/Ruut",
+        "https://et.wikipedia.org/wiki/Ruut"
+      ],
+      "facts_used": "International Finnish Ruth evidence does not decide the Estonian form, which can be masculine; actor Ruut Tarmo used a stage name.",
+      "reason": "International Finnish Ruth evidence does not decide the Estonian form, which can be masculine; actor Ruut Tarmo used a stage name.",
+      "next_steps": "Inspect an Estonian dictionary and the actor’s primary biography, explicitly separating stage name from birth name.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Ruut",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Ruut",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Säde",
+      "spellings": [
+        "Säde"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://www.behindthename.com/name/mehis",
+        "https://www.nordicnames.de/wiki/S%C3%A4de",
+        "https://et.wikipedia.org/wiki/S%C3%A4de"
+      ],
+      "facts_used": "The Finnish ray-of-light explanation is verified. The Estonian newspaper title is not an account of the given name’s creation.",
+      "reason": "The Finnish ray-of-light explanation is verified. The Estonian newspaper title is not an account of the given name’s creation.",
+      "next_steps": "Verify Estonian säde and the personal-name entry; locate an exact bearer or dated naming recommendation.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/S%C3%A4de",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/S%C3%A4de",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Taimi",
+      "spellings": [
+        "Taimi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=21",
+        "https://www.nordicnames.de/wiki/Taimi"
+      ],
+      "facts_used": "Taimi is linked with Finnish taimi, “seedling”. The word’s image explains an association of the name, rather than determining the character of its bearer. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Taimi appears in the women’s list with German glosses about a plant and sprouting. The Finnish word image thus entered an Estonian recommendation book too. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Tarmu",
+      "spellings": [
+        "Tarmu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [],
+      "facts_used": "No exact Nordic entry was found; the 1929 book lists Tarmo, not an independently established Tarmu form.",
+      "reason": "No exact Nordic entry was found; the 1929 book lists Tarmo, not an independently established Tarmu form.",
+      "next_steps": "Find an explicit Tarmu/Tarmo correspondence and an exact-form historical record.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Tarmu",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Tarmu",
+          "status": 404,
+          "result": "No usable exact-name page"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Tarvi",
+      "spellings": [
+        "Tarvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Tarvi"
+      ],
+      "facts_used": "No exact Nordic entry was found; a shared calendar day with Tarvo is not a derivation.",
+      "reason": "No exact Nordic entry was found; a shared calendar day with Tarvo is not a derivation.",
+      "next_steps": "Inspect an Estonian given-name dictionary and historical Tarvi records.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Tarvi",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Tarvi",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Tiido",
+      "spellings": [
+        "Tiido"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Tiido"
+      ],
+      "facts_used": "No exact Nordic entry was found. Similar Tiit, Tiidrik and surname Tiido evidence does not establish this given-name derivation.",
+      "reason": "No exact Nordic entry was found. Similar Tiit, Tiidrik and surname Tiido evidence does not establish this given-name derivation.",
+      "next_steps": "Check exact Tiido in an Estonian given-name dictionary and an early bearer record.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Tiido",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Tiido",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Tiidu",
+      "spellings": [
+        "Tiidu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "sources": [
+        "https://et.wikipedia.org/wiki/Tiidu"
+      ],
+      "facts_used": "No exact Nordic entry was found. An inflected form of Tiit or a similar Tiidrik entry is not independent-name evidence.",
+      "reason": "No exact Nordic entry was found. An inflected form of Tiit or a similar Tiidrik entry is not independent-name evidence.",
+      "next_steps": "Check exact Tiidu as a nominative given name in an Estonian authority and dated personal records.",
+      "research_probes": [
+        {
+          "url": "https://www.nordicnames.de/wiki/Tiidu",
+          "status": 404,
+          "result": "No usable exact-name page"
+        },
+        {
+          "url": "https://et.wikipedia.org/wiki/Tiidu",
+          "status": 200,
+          "result": "Opened; relevance evaluated in the research outcome"
+        }
+      ]
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Tiina",
+      "spellings": [
+        "Tiina"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=21",
+        "https://www.behindthename.com/name/tiina",
+        "https://www.behindthename.com/name/christina"
+      ],
+      "facts_used": "Tiina is a short form of Kristiina. The family continues Latin Christiana, the feminine form of Christianus, associated with “Christian”. The shortened name has developed independent use. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Tiina and Tiinu are grouped with a link to Kristiine. The entry also cites dialects and Hurt’s collections from the islands. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Tuuli",
+      "spellings": [
+        "Tuuli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.nordicnames.de/wiki/Tuuli",
+        "https://www.olympedia.org/editions/54/medal",
+        "https://yle.fi/a/7-523009"
+      ],
+      "facts_used": "Tuuli means wind in Finnish, and that explanation of the Finnish name is documented in a name guide. The same spelling appears in Estonia’s calendar. The nature image is clear, while each Estonian family’s transmission route remains unestablished. The Finnish sailor Tuuli Petäjä won silver in women’s RS:X windsurfing at the London 2012 Olympics. The races took place at Weymouth. This is a documented sporting episode involving a bearer of the Finnish name.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Ülev",
+      "spellings": [
+        "Ülev"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=55"
+      ],
+      "facts_used": "Ülev occurs in Estonian personal-name tradition. The modern adjective can evoke the sublime, but that alone does not prove the historical motive for choosing the name. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Ülev appears in the men’s list with German der Wache, “the wakeful one”. That differing historical gloss is retained rather than silently replaced with the modern meaning. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Uljas",
+      "spellings": [
+        "Uljas"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=52",
+        "https://www.nordicnames.de/wiki/Uljas"
+      ],
+      "facts_used": "Uljas is linked with Finnish uljas, “valiant, noble”. The word’s image explains an association of the name, rather than determining the character of its bearer. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Uljas is included as a Finnish almanac name, explained with Estonian vahva and südi. This documents a borrowed form, rather than a new guess based on resemblance. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Urve",
+      "spellings": [
+        "Urve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=21",
+        "https://www.nordicnames.de/wiki/Urve"
+      ],
+      "facts_used": "Urve is linked with Estonian urb, “catkin”. The word’s image explains an association of the name, rather than determining the character of its bearer. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Urve is in the women’s list with the German gloss Knospe, “bud”. The older gloss preserves the botanical image without establishing every family’s naming motive. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Valdo",
+      "spellings": [
+        "Valdo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=52",
+        "https://www.nordicnames.de/wiki/Valdo"
+      ],
+      "facts_used": "In Estonian name history Valdo appears beside Valdu and medieval Valde. That comparison is more precise than assuming that every similar Scandinavian or Germanic form arrived by the same route. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), the Valdo and Valdu entry cites a Valde record from 1255. The year belongs to the source spelling Valde, not automatically to modern Valdo. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Valdur",
+      "spellings": [
+        "Valdur"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=52",
+        "https://www.nordicnames.de/wiki/Valdur"
+      ],
+      "facts_used": "Valdur is associated in a historical Estonian explanation with power and strength. Another name reference links it to Waltheri; these differing accounts should not be fused into one proven derivation. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Valdur appears in the men’s list with German glosses meaning “powerful” and “holding authority”. The older recommendation also shows how readers were invited to understand it. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Valev",
+      "spellings": [
+        "Valev"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=52"
+      ],
+      "facts_used": "Valev belongs to Estonian naming tradition. The old recommendation book gives it an image of brightness — white, light, shining — rather than a description of a person’s appearance or character. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Valev has a separate entry beside Valdur and Valit. Similar beginnings therefore do not justify merging their meanings. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Viiu",
+      "spellings": [
+        "Viiu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=22",
+        "https://et.wikipedia.org/wiki/Viiu",
+        "https://www.behindthename.com/name/sophia"
+      ],
+      "facts_used": "Viiu is an Estonian form in the Sofia family. Greek sophia means “wisdom”, but the Estonian spelling developed within local language tradition rather than by copying Greek letters directly. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Viio and Viiu are explicitly linked to Sofiie. References to Wiedemann, Hurt’s island collections and dialects point to already existing usage. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Virve",
+      "spellings": [
+        "Virve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=22",
+        "https://www.nordicnames.de/wiki/Virve"
+      ],
+      "facts_used": "Virve’s historical Estonian explanation concerns a branch or shoot. Finnish references also mention Virpi and Virva; those cannot automatically be made into one derivation for every language. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Virve has its own women’s entry with the German glosses Zweig and Sprössling. This is more than an inference from the modern village name Virve. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "priority-sweep-lv-lt-ee",
+      "name": "Vootele",
+      "spellings": [
+        "Vootele"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=55"
+      ],
+      "facts_used": "Estonian tradition compares Vootele with the chronicle spelling Wottele. A possible link with “fighter” remains a comparison: the historical researcher himself marked it with a question mark. In Julius Mägiste’s Eestipäraseid isikunimesid (1929), Wottele is identified as a Sakala elder, while Vootele is labelled a form then in use. The spellings remain distinct when describing the medieval evidence. This records historical use or recommendation, rather than the date the name was created.",
+      "reason": "Reviewed origin discussion and a concrete historical, literary or dated-record detail in all five languages.",
+      "uncertainties": "The narrative preserves uncertain roots, family comparisons, source precision and country-specific dates explicitly.",
+      "next_steps": ""
+    }
+  ]
+}

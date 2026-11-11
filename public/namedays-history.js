@@ -11,6 +11,10 @@ import {historiesEstonian} from './namedays-history-r2-estonian.js';
 import {historiesLithuanian} from './namedays-history-r2-lithuanian.js';
 import {historiesPriority} from './namedays-history-r3-priority.js';
 import {historiesPriorityR4} from './namedays-history-r4-priority.js';
+import {historiesPriorityFamilies} from './namedays-history-r5-families.js';
+import {historiesEstonianRecords} from './namedays-history-r5-estonian-records.js';
+import {historiesPriorityCulture} from './namedays-history-r5-culture.js';
+import {historiesLatvianRecords} from './namedays-history-r5-latvian-records.js';
 // Reviewed cultural histories. Literary plots are identified as literature;
 // a publication date is never presented as a person's first recorded name.
 const epic='https://enciklopedija.lv/skirklis/37565';
@@ -30,6 +34,10 @@ const entries={
  ...historiesLithuanian,
  ...historiesPriority,
  ...historiesPriorityR4,
+ ...historiesPriorityFamilies,
+ ...historiesEstonianRecords,
+ ...historiesPriorityCulture,
+ ...historiesLatvianRecords,
  'Lāčplēsis':{
   sources:[epic,remembrance],
   text:{

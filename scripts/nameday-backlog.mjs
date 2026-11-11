@@ -37,6 +37,7 @@ md.push('# Name-day research backlog','',
  '## Current coverage','');
 table(['Level','LV','LT','EE'],['reviewed','summary','attestation','unresearched'].map(k=>[LABEL[k],coverage.lv[k],coverage.lt[k],coverage.ee[k]]).concat([['Total profiles',coverage.lv.total,coverage.lt.total,coverage.ee.total]]));
 md.push('## How to work through the backlog','',
+ 'Continue research in the shared branch `codex/namedays-round4`; do not create a separate branch per round.','',
  '1. Pick names from the priority lists below. Work in name families: one entry may cover several calendar spellings when the same text is true for each of them.',
  '2. Verify every claim in a source you actually opened, and keep the URLs in research files and provenance metadata only. Do not display source URLs, clickable citations or source lists in the widget interface. Useful sources: izpetnieks.lv (Klāvs Siliņš dictionary pages), behindthename.com, enciklopedija.lv, literatura.lv, vle.lt, et.wikipedia.org, eki.ee, Wikipedia in the relevant language, national library and museum pages. vardai.vlkk.lt blocks automated requests; open it manually.',
  '3. Write two paragraphs per language (lv, ru, en, lt, et): origin and how the name reached the Baltic languages, then one concrete, verified historical detail. Keep uncertain etymology explicitly uncertain; describe literary events as literature; never call a calendar or publication year the creation date unless a source says the name was coined then.',
