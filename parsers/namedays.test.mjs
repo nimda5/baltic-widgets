@@ -4,6 +4,7 @@ import {readFile} from 'node:fs/promises';
 import {parseCalendar,buildProfile,namesakeIndex,validateProfile,evidenceIndex} from './namedays.mjs';
 import {calendarDate,calendarNames,validateCalendar,validateCountryCalendar,fittingNameCount} from '../public/namedays-core.js';
 import {describeName,LANGUAGES,WRITER_VERSION,text} from '../public/namedays-content.js';
+import {calendarEntry} from './nameday-reference.mjs';
 import {nameIdentity} from '../public/namedays-content.js';
 import {formatAttestation,attestationPeriod} from '../public/namedays-attestation.js';
 import {catalogFacts,referenceOrigins} from './nameday-reference.mjs';
@@ -33,9 +34,9 @@ test('yesterday/tomorrow use Riga civil dates across years, leap days and DST',(
  assert.equal(calendarDate(new Date('2026-03-28T23:30:00Z'),1),'2026-03-30');
  assert.equal(calendarDate(new Date('2026-10-24T22:30:00Z'),-1),'2026-10-24');
 });
-test('unverified names get labeled creative content, not invented etymologies',()=>{
+test('unverified names show a translated research notice instead of invented content',()=>{
  const p=buildProfile('RareName','lv');assert.equal(p.research_status,'pending');
- for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.kind,'creative');assert.deepEqual(c.history,[]);assert.match(c.story,/RareName/);assert.equal(new Set(c.wishes.humor).size,3);}
+ for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.kind,'unresearched');assert.deepEqual(c.history,[]);assert.equal(c.story,'');assert.ok(c.notice.length>20);assert.equal(new Set(c.wishes.humor).size,3);}
 });
 test('dictionary evidence is reused across calendars while profile identities stay local',()=>{
  const research={entries:{Mari:{status:'checked',countries:{ee:{origins:['Hebrew'],related:['Maria'],first_recorded:null,source:{url:'https://en.wiktionary.org/wiki/Mari#Estonian'}}}}}};
@@ -75,12 +76,40 @@ test('biography indexing does not invent famous people or assign unrelated first
 test('historical claims require provenance before publication',()=>{
  const p=buildProfile('Name','lv');p.facts.origins=['Latin'];assert.throws(()=>validateProfile(p),/provenance/);
 });
-test('Fedots and Teodors have independently sourced roots and different original images',()=>{
+test('calendar-entry years are sourced, exact-form only and survive offline rebuilds',()=>{
+ const record={first_recorded_form:'Nellija',raw_origin:'Nellija is recorded in 1904; it entered the calendar in 1915.',source:{url:'https://www.izpetnieks.lv/en/name/nellija'}};
+ assert.equal(calendarEntry(record,'Nellija').year,1915);assert.equal(calendarEntry(record,'Nelija'),null);
+ assert.equal(calendarEntry({...record,raw_origin:'The exact form was not found in the dictionary; the base entered the calendar in 1915.'},'Nellija'),null);
+ const p=buildProfile('Nellija','lv',{catalog:{Nellija:record}}),offline=buildProfile('Nellija','lv',{},new Map(),p);
+ assert.equal(offline.facts.calendar_entry.year,1915);
+ for(const lang of LANGUAGES)assert.match(describeName(offline,lang).history.join(' '),/1915/);
+});
+test('related-name context supplies real history without borrowing the other name’s record date',async()=>{
+ const all=JSON.parse(await readFile(new URL('../public/data/namedays/profiles-lv.json',import.meta.url),'utf8')).data;
+ for(const lang of LANGUAGES){
+  const nel=describeName(all['lv:Nelija'],lang,0,all),rain=describeName(all['lv:Rainars'],lang,0,all);
+  assert.ok(nel.related_context.some(c=>c.name==='Nellija'&&c.history.length>=2));assert.equal(nel.attestation,null);
+  assert.ok(rain.related_context.some(c=>c.name==='Rainers'&&c.history.join(' ').includes('heri')));assert.equal(rain.attestation,null);
+  const uncertain=describeName(all['lv:Nelita'],lang,0,all);assert.ok(uncertain.related_context.length);assert.ok(uncertain.related_context.every(c=>c.possible));
+ }
+ const a=buildProfile('RelatedA','lv'),b=buildProfile('RelatedB','lv');a.facts.related=['RelatedB'];b.facts.related=['RelatedA'];
+ assert.deepEqual(describeName(a,'en',0,{[a.key]:a,[b.key]:b}).related_context,[]);
+});
+test('literary histories have five complete translations, sources and no invented sound portraits',()=>{
+ for(const name of ['Lāčplēsis','Spīdola','Laimdota','Rainis']){
+  const p=buildProfile(name,'lv');assert.ok(p.provenance.some(s=>s.type==='reviewed_name_history'));
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.kind,'documented');assert.equal(c.reviewed_narrative,true);assert.equal(c.story,'');assert.equal(c.notice,'');assert.ok(c.history.length>=2);assert.ok(c.history.join(' ').length>250);}
+ }
+ const p=buildProfile('Lāčplēsis','lv');p.facts.first_recorded='1922. gads, Jelgava';
+ for(const lang of LANGUAGES){const c=describeName(p,lang);assert.match(c.history.join(' '),/1888/);assert.match(c.history.join(' '),/1919/);assert.match(c.attestation.date,/1922/);assert.doesNotMatch(c.history.join(' '),/1922/);}
+ const p2=buildProfile('Rainis','lv',{},new Map([['Rainis',[{id:'Q348001',name:'Rainis',role:'poet',countries:['lv'],source:{url:'https://www.wikidata.org/wiki/Q348001'}}]]]));assert.equal(p2.people[0].match,'pseudonym');
+});
+test('Fedots and Teodors have independently sourced roots without fictional additions',()=>{
  const fedots=buildProfile('Fedots','lv',{},namesakeIndex()),teodors=buildProfile('Teodors','lv');
  assert.equal(fedots.facts.root_key,'theodotus');assert.equal(teodors.facts.root_key,'theodore');
  assert.ok(fedots.provenance.some(s=>s.provider==='Latvian Language Agency'));
  assert.equal(fedots.people[0].labels.ru,'Федот Сычков');assert.equal(fedots.people[0].match,'related_form');
- for(const lang of LANGUAGES){assert.notEqual(describeName(fedots,lang).story.replaceAll('Fedots','NAME'),describeName(teodors,lang).story.replaceAll('Teodors','NAME'));assert.match(describeName(fedots,lang).history[0],/Theodotos/);}
+ for(const lang of LANGUAGES){assert.notEqual(describeName(fedots,lang).history[0],describeName(teodors,lang).history[0]);assert.equal(describeName(fedots,lang).story,'');assert.match(describeName(fedots,lang).history[0],/Theodotos/);}
  const previous=buildProfile('Fedots','lv',{},namesakeIndex());
  const offline=buildProfile('Fedots','lv',{},new Map(),previous,evidenceIndex({},[previous]));assert.deepEqual(offline.people,previous.people);assert.equal(offline.facts.root_key,previous.facts.root_key);
 });
@@ -134,15 +163,15 @@ test('published calendars and every profile have complete multilingual content',
  const calendar=validateCountryCalendar(JSON.parse(await readFile(new URL('../public/data/namedays/calendar-lv.json',import.meta.url),'utf8')));
  assert.equal(calendar.country,'lv');assert.equal(calendar.data.calendars,undefined);
  assert.throws(()=>calendarNames(calendar,'lt','2026-11-06'),/country mismatch/);
- for(const country of ['lv']){
+ for(const country of ['lv','lt','ee']){
   const doc=JSON.parse(await readFile(new URL('../public/data/namedays/profiles-'+country+'.json',import.meta.url),'utf8'));assert.equal(doc.writer_version,WRITER_VERSION);
-  const required=new Set(Object.values(calendar.data.days).flat().map(n=>n.key));assert.equal(Object.keys(doc.data).length,required.size);
-  const originalImages=new Map(LANGUAGES.map(lang=>[lang,new Map()]));
-  for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);
+  const countryCalendar=country==='lv'?calendar:validateCountryCalendar(JSON.parse(await readFile(new URL('../public/data/namedays/calendar-'+country+'.json',import.meta.url),'utf8')));
+  const required=new Set(Object.values(countryCalendar.data.days).flat().map(n=>n.key));assert.equal(Object.keys(doc.data).length,required.size);
+  for(const key of required){const p=validateProfile(doc.data[key]);assert.equal(p.country,country);assert.equal(p.key,key);if(country!=='lv')assert.ok(!p.facts.calendar_entry||p.facts.calendar_entry.country===country);for(const lang of LANGUAGES)assert.ok(describeName(p,lang,0,doc.data).history.length,'Empty text: '+key+' '+lang);
    if(p.facts.root_key)assert.equal(p.facts.root_key,reviewedRoot(p.name)?.key,'Unreviewed root assignment: '+p.name);
    for(const lang of LANGUAGES){const c=describeName(p,lang);assert.doesNotMatch(c.history.join(' '),/Словарные данные|языковой реестр|Dictionary evidence|language registry|Vārdnīcas dati|valodas reģistrā|Žodyno duomenys|kalbos registre|Sõnaraamatu andmed|keele registris/);
-    const image=c.story.replaceAll(p.name,'NAME'),seen=originalImages.get(lang),identity=nameIdentity(p.name);
-    assert.ok(!seen.has(image)||seen.get(image)===identity,`Reused imagination for ${p.name} in ${lang}`);seen.set(image,identity);
+    assert.equal(c.story,'',`Fiction remains for ${p.name} in ${lang}`);
+    assert.equal(!!c.notice,c.kind==='unresearched');
    }
   }
  }
@@ -151,4 +180,53 @@ test('all five interface languages and the ee alias are supported independently 
  assert.equal(resolveLanguage('ee'),'et');assert.equal(resolveLanguage('EE'),'et');
  const labels={lv:'Vārda diena',ru:'Именины',en:'Name day',lt:'Vardadienis',et:'Nimepäev'};
  for(const lang of LANGUAGES)assert.equal(text(lang,'title'),labels[lang]);
+});
+
+
+test('cross-referenced dictionary dates retain their scope and do not leak into other calendars',()=>{
+ const record={raw_origin:'The scan lists Kajs as Gajs without a question mark. Attested in 1942; entered the calendar in 1767.',related:['Gajs'],first_recorded:'1942',first_recorded_form:'Kajs',source:{url:'https://www.izpetnieks.lv/en/name/kajs'}};
+ const research={catalog:{Kajs:record}},lv=buildProfile('Kajs','lv',research);
+ assert.equal(lv.facts.calendar_entry.scope,'reference_entry');assert.equal(lv.facts.calendar_entry.form,'Kajs / Gajs');
+ const ee=buildProfile('Kajs','ee',research,new Map(),lv);assert.equal(ee.facts.calendar_entry,undefined);
+ for(const lang of LANGUAGES){const c=describeName(lv,lang);assert.match(c.history.join(' '),/1767/);assert.match(c.history.join(' '),/Gajs/);}
+});
+
+test('reviewed related histories and calendar-only records remain distinct in all countries',()=>{
+ for(const country of ['lv','lt','ee']){
+  for(const name of ['Veta','Kajsa','Vytautas','Kalev']){const p=buildProfile(name,country);for(const lang of LANGUAGES)assert.ok(describeName(p,lang).history.join(' ').length>200);}
+  const p=buildProfile('RareNameForTest',country);p.facts.calendar_dates=['11-12'];
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert.ok(c.history.length);assert.equal(c.calendar_only,true);assert.equal(c.kind,'unresearched');assert.ok(c.notice);}
+ }
+});
+
+test('ordinary source prose is not mistaken for a cross-referenced spelling',()=>{
+ const p=buildProfile('Kaija','lv',{catalog:{Kaija:{raw_origin:'The source separately lists it as a Finnish form. Kaija entered the calendar in 1910.',first_recorded_form:'Kaija',source:{url:'https://example.org/kaija'}}}});
+ assert.equal(p.facts.calendar_entry.scope,'exact_form');assert.equal(p.facts.calendar_entry.form,'Kaija');
+});
+
+test('research round 2 histories are complete, sourced and country-neutral',()=>{
+ for(const [name,country,marker] of [['Jānis','lv',/Yohanan/],['Smaida','lv',/1879/],['Vendija','lv',/Barrie|Барри|Barij/],['Traidenis','lt',/1270/],['Lembit','ee',/1217/],['Sergejs','lv',/Sergi/]]){
+  const p=buildProfile(name,country);assert.ok(p.provenance.some(s=>s.type==='reviewed_name_history'),name);
+  for(const lang of LANGUAGES){const c=describeName(p,lang);assert.equal(c.reviewed_narrative,true,name+' '+lang);assert.ok(c.history.length>=2);assert.ok(c.history.join(' ').length>300,name+' '+lang);assert.doesNotMatch(c.history.join(' '),/undefined|\{\w+\}/);}
+  assert.match(describeName(p,'en').history.join(' '),marker,name);
+ }
+});
+
+test('calendar names are trimmed and source labels never become etymological words',()=>{
+ const doc=parseCalendar('domain\td\tm\tv\tid\nlt\t20\t4\tTraidenis \t1\nlt\t20\t4\t Traidenis\t2');
+ assert.deepEqual(doc.data.calendars.lt['04-20'],[{key:'lt:Traidenis',name:'Traidenis'}]);
+ assert.throws(()=>validateCountryCalendar({schema_version:1,country:'lt',writer_version:'x',data:{days:{'04-20':[{key:'lt:Traidenis ',name:'Traidenis '}]}}}));
+ const p=buildProfile('Vitālis','lv',{},namesakeIndex({},[]),null,evidenceIndex({},[{name:'Vitālis',country:'lv',facts:{origins:[],related:[],etymons:[{term:'gloss',gloss:{en:'vital',lv:'dzīvīgs',ru:'жизненный',lt:'gyvybingas',et:'elujõuline'}}]},provenance:[]}]));
+ assert.ok(!p.facts.etymons.some(w=>w.term==='gloss'));
+});
+
+test('published LT and EE calendars contain no padded names',async()=>{
+ for(const country of ['lt','ee']){const doc=validateCountryCalendar(JSON.parse(await readFile(new URL('../public/data/namedays/calendar-'+country+'.json',import.meta.url),'utf8')));for(const names of Object.values(doc.data.days))for(const n of names)assert.equal(n.name,n.name.trim());}
+});
+
+test('reviewed LT calendar misspellings are corrected without adding duplicates',()=>{
+ const doc=parseCalendar('domain\td\tm\tv\tid\nlt\t13\t8\tArnasd\t1\nlt\t14\t5\tBonifacas\t2\nlt\t14\t5\tBinifacas\t3\nlt\t6\t3\tFelidta\t4');
+ assert.deepEqual(doc.data.calendars.lt['08-13'].map(n=>n.name),['Arnas']);
+ assert.deepEqual(doc.data.calendars.lt['05-14'].map(n=>n.name),['Bonifacas']);
+ assert.deepEqual(doc.data.calendars.lt['03-06'].map(n=>n.name),['Felicita']);
 });

@@ -3,6 +3,17 @@
 import {attestationPeriod} from '../public/namedays-attestation.js';
 import {referenceEtymons} from './nameday-glosses.mjs';
 const originTerms={Greek:'Ancient Greek',Latin:'Latin',Hebrew:'Hebrew',Arabic:'Arabic',Germanic:'Germanic languages','Old High German':'Old High German','Old Norse':'Old Norse','Old English':'English',Sanskrit:'Sanskrit',Persian:'Persian',Finnish:'Finnish',Lithuanian:'Lithuanian',Latvian:'Latvian',German:'German',Slavic:'Slavic'};
+export function calendarEntry(record,name){
+ if(!record?.source?.url||record.first_recorded_form!==name)return null;
+ const raw=record.raw_origin||'';
+ if(/exact form.{0,45}(?:not found|not attested)|no direct support|not found in (?:this|the) (?:entry|dictionary)/i.test(raw))return null;
+ const match=/\b(?:entered|added to|included in) the calendar in (\d{4})\b/i.exec(raw);
+ if(!match)return null;const year=Number(match[1]);
+ if(year<1500||year>new Date().getUTCFullYear())return null;
+ const matchForm=/\b(?:lists?\s+(\p{L}+)\s+as|listed under)\s+(\p{L}+)/iu.exec(raw);
+ const crossForm=matchForm&&(!matchForm[1]||matchForm[1]===name)&&/^\p{Lu}/u.test(matchForm[2])?matchForm[2]:null;
+ return{year,country:'lv',source:record.source,...(crossForm?{scope:'reference_entry',form:name+' / '+crossForm}:{scope:'exact_form',form:name})};
+}
 export function uncertainReference(text){return /\b(?:uncertain|unknown|unresolved|unclear|speculative|cannot be established|not established|not been reliably established|several theories|may be|possibly|possible|does not prove|does not establish|does not specify|folk etymology|not a proven)\b/i.test(text);}
 export function referenceOrigins(text){
  if(uncertainReference(text))return[];
@@ -15,5 +26,5 @@ export function referenceOrigins(text){
 }
 export function catalogFacts(record){
  const text=record.raw_origin||'',individual=/does not prove a general variant relationship/i.test(text),uncertain=uncertainReference(text),related=(record.related||[]).map(n=>n.replace(/\s*\([^)]*\)\s*$/,'').trim());
- return{origins:referenceOrigins(text),related:uncertain?[]:related,possible_related:uncertain&&!individual?related:[],archival_variants:individual?related:[],archival_form:individual?record.first_recorded_form:null,etymons:uncertain?[]:referenceEtymons(text),first_recorded:attestationPeriod(record.first_recorded)?record.first_recorded:null,first_recorded_form:record.first_recorded_form,first_recorded_country:'lv',origin_uncertain:uncertain};
+ return{origins:referenceOrigins(text),related:uncertain?[]:related,possible_related:uncertain&&!individual?related:[],archival_variants:individual?related:[],archival_form:individual?record.first_recorded_form:null,etymons:uncertain?[]:referenceEtymons(text),first_recorded:attestationPeriod(record.first_recorded)?record.first_recorded:null,first_recorded_form:record.first_recorded_form,first_recorded_country:'lv',origin_uncertain:uncertain,...(/phonetic formation/i.test(text)?{formation:'phonetic'}:{})};
 }

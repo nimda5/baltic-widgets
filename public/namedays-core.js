@@ -32,7 +32,7 @@ export function validateCalendar(doc){
  if(doc?.schema_version!==1||!doc.writer_version||!doc.data?.calendars)throw Error('Invalid name-day calendar');
  for(const country of COUNTRIES){if(!doc.data.calendars[country])throw Error('Missing calendar country');
   for(const [key,names] of Object.entries(doc.data.calendars[country])){if(!/^\d\d-\d\d$/.test(key)||new Date('2000-'+key+'T12:00:00Z').toISOString().slice(5,10)!==key||!Array.isArray(names))throw Error('Invalid calendar day');
-   const seen=new Set();for(const n of names){if(!n||typeof n.name!=='string'||!n.name.trim()||n.key!==country+':'+n.name||seen.has(n.key))throw Error('Invalid calendar name');seen.add(n.key);}
+   const seen=new Set();for(const n of names){if(!n||typeof n.name!=='string'||!n.name.trim()||n.name!==n.name.trim()||/\s\s/.test(n.name)||n.key!==country+':'+n.name||seen.has(n.key))throw Error('Invalid calendar name');seen.add(n.key);}
   }
  }
  return doc;

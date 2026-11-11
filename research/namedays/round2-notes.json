@@ -1,0 +1,4376 @@
+{
+ "round": 2,
+ "date": "2026-11-11",
+ "note": "Research notes for every name examined in round 2. Status written = a reviewed history is published; needs_more/skipped = backlog.",
+ "records": [
+  {
+   "batch": "classics-f",
+   "name": "Anna",
+   "spellings": [
+    "Anna",
+    "Anne",
+    "Ann",
+    "Ana",
+    "Ona",
+    "Anu",
+    "Anni"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/anna",
+    "https://en.wikipedia.org/wiki/Saint_Anne"
+   ],
+   "facts_used": "Hannah/ḥanan; Byzantine and medieval spread; Saint Anne first named with Joachim in Protevangelium of James (~mid-2nd c.); 26 July feast.",
+   "reason": "Verified in opened sources.",
+   "next_steps": "Annija/Annele/Anete are separate Latvian derivatives; check izpetnieks pages before adding them."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Marija",
+   "spellings": [
+    "Marija",
+    "Maria",
+    "Maarja",
+    "Mari",
+    "Marja"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/mary",
+    "https://www.behindthename.com/name/maarja",
+    "https://en.wikipedia.org/wiki/Terra_Mariana"
+   ],
+   "facts_used": "Latin Maria < Greek Mariam/Maria < Hebrew Miryam, meaning uncertain, possibly Egyptian; Bishop Albert at Lateran IV 1215 \"land of the Mother\"; Terra Mariana; Maarjamaa poetic name since early 20th c.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Kristīne",
+   "spellings": [
+    "Kristīne",
+    "Kristina",
+    "Kristīna",
+    "Kristiina",
+    "Kristine"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/christina",
+    "https://www.behindthename.com/name/kristiina",
+    "https://en.wikipedia.org/wiki/Christina,_Queen_of_Sweden"
+   ],
+   "facts_used": "Christiana < Christianus; possibly legendary St Christina; Queen Christina of Sweden: throne 1632 at 5, ruled from 18, abdicated 1654, converted, Rome, d. 1689, buried St Peter’s.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Viktorija",
+   "spellings": [
+    "Viktorija",
+    "Viktoria"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/victoria",
+    "https://en.wikipedia.org/wiki/Queen_Victoria"
+   ],
+   "facts_used": "Latin victoria; goddess; 4th-c. N. African martyr; rare in English before Queen Victoria; baptised Alexandrina Victoria 1819 (godfather Alexander I, mother Victoria of Saxe-Coburg-Saalfeld); reigned 1837-1901; places named after her.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Natālija",
+   "spellings": [
+    "Natālija",
+    "Natalija",
+    "Nataļja",
+    "Natalja",
+    "Natalie"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/natalie",
+    "https://www.behindthename.com/name/natalia",
+    "https://en.wikipedia.org/wiki/Adrian_and_Natalia"
+   ],
+   "facts_used": "natalis \"birthday\", Christmas sense; more common in East; St Natalia wife of Adrian of Nicomedia, prison visit disguised, recovered hand; feast 26 Aug Orthodox.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Laura",
+   "spellings": [
+    "Laura"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/laura",
+    "https://en.wikipedia.org/wiki/Petrarch"
+   ],
+   "facts_used": "laurus laurel, victors’ garlands; 9th-c. Spanish St Laura; English since 13th c.; Petrarch first saw Laura 6 Apr 1327 Sainte-Claire Avignon; Canzoniere 366 poems/317 sonnets; identity uncertain.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Ieva",
+   "spellings": [
+    "Ieva",
+    "Eva",
+    "Eeva",
+    "Eve",
+    "Eevi"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/eve",
+    "https://www.behindthename.com/name/ieva",
+    "https://www.izpetnieks.lv/en/name/ieva"
+   ],
+   "facts_used": "Ḥawwa, ḥawa/ḥaya; rare in Middle Ages; ieva = Prunus padus in LV/LT; Siliņš: possible double link, attested Limbaži 1743, calendar 1817.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Anastasija",
+   "spellings": [
+    "Anastasija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/anastasia",
+    "https://www.behindthename.com/name/anastasius",
+    "https://en.wikipedia.org/wiki/Anastasia_of_Sirmium"
+   ],
+   "facts_used": "Anastasios < anastasis \"resurrection\" (ana+stasis); St Anastasia of Sirmium d. c.304, relics to Constantinople 5th c., Pharmakolytria, 22/25 Dec.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Diāna",
+   "spellings": [
+    "Diāna",
+    "Diana"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/diana",
+    "https://en.wikipedia.org/wiki/Rob_Roy_(novel)"
+   ],
+   "facts_used": "Roman goddess; dia/diva, dyew-; used since Renaissance; Scott’s Rob Roy (Edinburgh 30 Dec 1817) Diana Vernon; Meredith Diana of the Crossways 1885.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Jūlija",
+   "spellings": [
+    "Jūlija",
+    "Julija",
+    "Julia",
+    "Juuli"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/julia",
+    "https://en.wikipedia.org/wiki/Roman_naming_conventions",
+    "https://en.wikipedia.org/wiki/Julia_the_Elder"
+   ],
+   "facts_used": "feminine of Julius; Roman women known by feminine nomen, Major/Minor; Romans 16:15; common in English only since 18th c.; Julia the Elder b. 39 BC, three marriages, exiled 2 BC to Pandateria, Rhegium, d. AD 14.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Linda",
+   "spellings": [
+    "Linda"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/linda",
+    "https://en.wikipedia.org/wiki/Kalevipoeg"
+   ],
+   "facts_used": "medieval short form of Germanic lind names; coincides with Spanish linda; Kalevipoeg: Linda from grouse egg, wife of Kalev, Toompea mound, Ülemiste from tears (literary events).",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Sandra",
+   "spellings": [
+    "Sandra"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/sandra",
+    "https://www.izpetnieks.lv/en/name/sandra",
+    "https://literariness.org/2025/05/14/analysis-of-george-merediths-sandra-belloni/"
+   ],
+   "facts_used": "short form of Alessandra; alexō+anēr; Siliņš possible 1937 attestation, possible 1966 calendar; Meredith Emilia in England 1864, heroine Emilia Sandra Belloni, reissued as Sandra Belloni 1887.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Marta",
+   "spellings": [
+    "Marta",
+    "Morta"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/martha",
+    "https://en.wikipedia.org/wiki/Martha",
+    "https://www.izpetnieks.lv/en/name/marta"
+   ],
+   "facts_used": "Aramaic mārtā \"lady\"; Siliņš attested 1591, calendar 1864; Luke 10 and John 11; patron of cooks/housewives; Tarasque legend.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Alise",
+   "spellings": [
+    "Alise",
+    "Alisa",
+    "Alice"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/alice",
+    "https://en.wikipedia.org/wiki/Alice_Liddell"
+   ],
+   "facts_used": "Aalis < Adelais < Adalheidis; popular 12th c.; 4 July 1862 boat trip, Alice Liddell, manuscript Nov 1864, Wonderland 1865.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Sofija",
+   "spellings": [
+    "Sofija",
+    "Sofia"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/sophia",
+    "https://en.wikipedia.org/wiki/Hagia_Sophia"
+   ],
+   "facts_used": "sophia wisdom; royalty; Hanover popularised in Britain; Hagia Sophia 532-537, inaugurated 27 Dec 537, \"Holy Wisdom\" = Christ; legendary St Sophia probably from misunderstanding.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Ilona",
+   "spellings": [
+    "Ilona"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ilona",
+    "https://en.wikipedia.org/wiki/Ilona_Zrínyi"
+   ],
+   "facts_used": "Old Hungarian form of Helen possibly via Slavic; Finnish ilo association; Ilona Zrínyi / Jelena Zrinska b. 1643, Munkács defence 1685-88, d. 1703 in exile.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Agnese",
+   "spellings": [
+    "Agnese",
+    "Agnes",
+    "Agnė",
+    "Agne",
+    "Agnesa",
+    "Agneta",
+    "Agnete"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/agnes",
+    "https://en.wikipedia.org/wiki/Agnes_of_Rome"
+   ],
+   "facts_used": "Hagne < hagnos; agnus association; popular in England Middle Ages-17th c.; St Agnes c.304 aged 12-13; Ambrose; pope blesses lambs for pallia on 21 Jan.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Margarita",
+   "spellings": [
+    "Margarita",
+    "Margareta",
+    "Margarēta",
+    "Margrieta",
+    "Grieta",
+    "Greta",
+    "Grete",
+    "Margareeta",
+    "Maret",
+    "Margit",
+    "Reet",
+    "Marge"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/margaret",
+    "https://www.izpetnieks.lv/en/name/grieta",
+    "https://en.wikipedia.org/wiki/Margaret_of_Antioch",
+    "https://en.wikipedia.org/wiki/Margaret_I_of_Denmark"
+   ],
+   "facts_used": "margarites pearl, probably Indo-Iranian; Grieta attested 1729, calendar 1817 (Siliņš); Margaret of Antioch dragon legend, patron of pregnant women, fictitious; Margaret I, Kalmar 1397 (great-nephew Erik crowned).",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Rita",
+   "spellings": [
+    "Rita"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/rita",
+    "https://en.wikipedia.org/wiki/Rita_of_Cascia"
+   ],
+   "facts_used": "short form of Margherita; St Rita of Cascia b. c.1381 Margherita Ferri Lotti, d. 22 May 1457, canonised 1900, impossible causes.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Lidija",
+   "spellings": [
+    "Lidija",
+    "Lydia"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/lydia",
+    "https://en.wikipedia.org/wiki/Lydia_of_Thyatira"
+   ],
+   "facts_used": "\"from Lydia\"; region named after Lydos; used since Reformation; Lydia of Thyatira, purple seller, baptised in Philippi, first documented convert in Europe.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Barbara",
+   "spellings": [
+    "Barbara",
+    "Barbora"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/barbara",
+    "https://en.wikipedia.org/wiki/Saint_Barbara",
+    "https://en.wikipedia.org/wiki/Barbara_Radziwiłł"
+   ],
+   "facts_used": "barbarus/barbaros; St Barbara legend (7th c.), tower, Dioscorus killed by lightning, 4 Dec; Barbora Radvilaitė secret marriage 1547, crowned Dec 1550, d. May 1551, buried Vilnius Cathedral.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Edīte",
+   "spellings": [
+    "Edīte",
+    "Edite",
+    "Edita",
+    "Edith"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/edith",
+    "https://en.wikipedia.org/wiki/Eadgyth"
+   ],
+   "facts_used": "Eadgyð ead+guð; Eadgyth daughter of Edward the Elder, married Otto c.930, founded St Maurice Magdeburg 937, d. 946; coffin opened 2008, isotope analysis.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Gertrūde",
+   "spellings": [
+    "Gertrūde",
+    "Gertrude",
+    "Gertruda",
+    "Gertrūda",
+    "Gertrud"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/gertrude",
+    "https://en.wikipedia.org/wiki/Gertrude_of_Nivelles"
+   ],
+   "facts_used": "ger+drud \"spear of strength\"; Gertrude the Great; England 15th c.; Hamlet; Gertrude of Nivelles c.626-659, feast 17 March, rats/mice from 15th c.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Rūta",
+   "spellings": [
+    "Rūta",
+    "Ruta",
+    "Rute"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ruta",
+    "https://www.behindthename.com/name/ruth-1",
+    "https://www.izpetnieks.lv/en/name/r%C5%ABta",
+    "https://en.wikipedia.org/wiki/Ruta_graveolens"
+   ],
+   "facts_used": "two lines: BtN Ruta = form of Ruth (Hebrew \"female friend\"); Siliņš links Rūta with Lithuanian rūta (rue), maiden symbol; attested last quarter 19th c., calendar 1879; rue national herb of Lithuania.",
+   "reason": "Verified in opened sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-f",
+   "name": "Iveta",
+   "spellings": [
+    "Iveta",
+    "Ivete"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/iveta"
+   ],
+   "facts_used": "Siliņš: possible links with Ivonna, French Yve and French form of Judīte; attested first quarter 20th c.; calendar 1964.",
+   "reason": "Origin unsettled; no concrete historical detail found.",
+   "next_steps": "Check behindthename Iveta/Yvette and Czech/Slovak sources (Iveta is common in Czech); Saint Ivetta (Yvette) of Huy could work only if a source ties the name to her."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Elīna",
+   "spellings": [
+    "Elīna",
+    "Elina"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched in this round.",
+   "next_steps": "Check behindthename Elina (Finnish form of Helena?) and izpetnieks Elīna; must not reuse the Helēna paragraph."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Anita",
+   "spellings": [
+    "Anita",
+    "Anitra"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched in this round; Anitra possibly from Ibsen’s Peer Gynt (unverified).",
+   "next_steps": "behindthename Anita and Anitra; izpetnieks Anita."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Doroteja",
+   "spellings": [
+    "Doroteja",
+    "Dorotea",
+    "Dorota",
+    "Dorotija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched in this round.",
+   "next_steps": "behindthename Dorothea; Saint Dorothea of Caesarea legend; izpetnieks Doroteja."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Ruth",
+   "spellings": [
+    "Ruth",
+    "Rutt",
+    "Ruut"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/ruth-1"
+   ],
+   "facts_used": "",
+   "reason": "Estonian Ruth/Rutt not merged with the Rūta entry; Ruut may be a separate Estonian name.",
+   "next_steps": "Check EKI name resources for Ruut and Rutt; write a separate Book-of-Ruth entry."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Aliise",
+   "spellings": [
+    "Aliise",
+    "Alicija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Estonian Aliise and Alicija not verified as listed forms of Alice in an opened source.",
+   "next_steps": "EKI / behindthename alicja, alicia."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Agnija",
+   "spellings": [
+    "Agnija"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Russian Agniya has a disputed link (hagnos or ignis); not merged with Agnese.",
+   "next_steps": "behindthename Agniya; izpetnieks Agnija."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Mare/Marika",
+   "spellings": [
+    "Mare",
+    "Marika",
+    "Margita",
+    "Marga"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "These can derive from Maria or Margaret; not merged.",
+   "next_steps": "izpetnieks Mare, Marika, Margita."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Barba",
+   "spellings": [
+    "Barba"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not verified as a Barbara form in an opened source; Baiba belongs to batch latvian-a.",
+   "next_steps": "izpetnieks Barba."
+  },
+  {
+   "batch": "classics-f",
+   "name": "Nastasija",
+   "spellings": [
+    "Nastasija",
+    "Nastja",
+    "Nastė"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Folk forms of Anastasija not verified in an opened source.",
+   "next_steps": "behindthename Nastasya; izpetnieks Nastasija."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Jānis",
+   "spellings": [
+    "Jānis",
+    "Janis",
+    "Jāns",
+    "Jans",
+    "Johans",
+    "Juhans",
+    "Jonas",
+    "Jaan",
+    "Jan",
+    "Johannes",
+    "Johan",
+    "Juhan",
+    "Ivans"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/john",
+    "https://www.izpetnieks.lv/en/name/j%C4%81nis",
+    "https://en.wikipedia.org/wiki/Jaanip%C3%A4ev",
+    "https://en.wikipedia.org/wiki/Jonin%C4%97s"
+   ],
+   "facts_used": "Yohanan 'Yahweh is gracious' via Ioannes/Iohannes; John the Baptist and apostle John; Siliņš: Jānis also discussed with Janus, no single settled etymology, first written 1290; midsummer 24 June = Jāņi/Joninės/jaanipäev ('John's day'); cheese and beer at Jāņi.",
+   "reason": "",
+   "next_steps": "Hans/Hanss (LV 26 Jan) left out: needs its own short-form story. Wikipedia's claim that Jānis is a 'pre-Christian name' was not used (contested)."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Aleksandrs",
+   "spellings": [
+    "Aleksandrs",
+    "Aleksanders",
+    "Aleksandras",
+    "Aleksander",
+    "Sander"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/alexander",
+    "https://en.wikipedia.org/wiki/Alaksandu"
+   ],
+   "facts_used": "alexo + aner 'defender of men'; Paris; Alexander the Great and medieval tales; Sander Estonian short form; Hittite treaty c.1280 BC with Alaksandu of Wilusa, probably Alexandros, link to Paris uncertain.",
+   "reason": "",
+   "next_steps": "Aleks, Alekss, Aleksis (LV 17 Jul, shared with Aleksejs), Aleksandris, Sandis not included: check Siliņš pages for each before attaching."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Andrejs",
+   "spellings": [
+    "Andrejs",
+    "Andris",
+    "Andrius",
+    "Andres",
+    "Andrus",
+    "Andreas",
+    "Endrū"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/andrew",
+    "https://www.izpetnieks.lv/en/name/andrejs",
+    "https://www.izpetnieks.lv/en/name/andris",
+    "https://www.izpetnieks.lv/en/name/endr%C5%AB"
+   ],
+   "facts_used": "andreios 'manly'; apostle Andrew first disciple, brother of Peter, Black Sea, X-shaped cross legend, patron of Scotland/Russia/Greece/Romania; Andrejs attested 1204, Andris 1522 (Siliņš); Endrū 'may be' rendering of English Andrew; 30 Nov in all three calendars.",
+   "reason": "",
+   "next_steps": "Andriejus (LT), Andrievs, Andrijs, Andrējs, Andro, Anti not added: verify individually (behindthename lists Anti as Estonian)."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Edgars",
+   "spellings": [
+    "Edgars",
+    "Edgards",
+    "Edgaras",
+    "Edgar"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/edgar",
+    "https://www.izpetnieks.lv/en/name/edgars",
+    "https://en.wikipedia.org/wiki/Edgar,_King_of_England"
+   ],
+   "facts_used": "ead + gar; faded after Norman Conquest, revived 18th-19th c. incl. Scott's Bride of Lammermoor (1819); LV calendar 1851, Riga record 1872; Edgar the Peaceful 959-975; Chester 973, six kings per ASC; rowing on the Dee only in 12th-c. writers.",
+   "reason": "",
+   "next_steps": "King Lear connection not used (behindthename only tags it)."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Juris",
+   "spellings": [
+    "Juris",
+    "Jurģis",
+    "Jurgis",
+    "Jüri",
+    "Georgs",
+    "Georg"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/george",
+    "https://www.izpetnieks.lv/en/name/juris",
+    "https://lv.wikipedia.org/wiki/Jur%C4%A3i",
+    "https://en.wikipedia.org/wiki/St._George%27s_Night_Uprising"
+   ],
+   "facts_used": "georgos 'farmer'; St George Cappadocian soldier, Diocletian, dragon legend, crusaders; Juris/Jurģis attested 1599; Jurģi 23 Apr start of herding season, contract end after serfdom, moving; Jüriöö uprising 1343-1345.",
+   "reason": "",
+   "next_steps": "Jurijs and Georgijs belong to the slavic batch. Jürgen, Jürgo, Jürjo, Jürnas, Jureks, Juriks not verified. A source on the German Jürgen route into Latvian Juris would strengthen paragraph 1."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Artūrs",
+   "spellings": [
+    "Artūrs",
+    "Arturs",
+    "Artūras",
+    "Artur"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/arthur",
+    "https://www.izpetnieks.lv/en/name/art%C5%ABrs",
+    "https://en.wikipedia.org/wiki/King_Arthur"
+   ],
+   "facts_used": "Origin uncertain (artos 'bear' / Artorius); Siliņš: origin not established; Arthurian legend, medieval England, 19th-c. revival; Historia Brittonum 9th c., twelve battles, Badon, 960 men; Geoffrey of Monmouth c.1138; most historians doubt historicity.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "classics-m",
+   "name": "Mārtiņš",
+   "spellings": [
+    "Mārtiņš",
+    "Martiņš",
+    "Martins",
+    "Martynas",
+    "Martin",
+    "Mart"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/martin",
+    "https://www.izpetnieks.lv/en/name/m%C4%81rti%C5%86%C5%A1",
+    "https://lv.wikipedia.org/wiki/M%C4%81rti%C5%86diena",
+    "https://et.wikipedia.org/wiki/Mardip%C3%A4ev"
+   ],
+   "facts_used": "Martinus from Mars; St Martin of Tours cloak legend; Mart Estonian short form (behindthename/name/mart); attested 1601, calendar 1767; Mārtiņi/mardipäev 10 Nov, end of field work, mummers; St Martin feast 11 Nov (LT keeps for Martynas), Protestant shift to 10 Nov = Luther's birthday.",
+   "reason": "",
+   "next_steps": "Martens, Martys, Martinijonas not checked. Mārts/Marts (3 Mar) are a different name day; do not merge without a source."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Viktors",
+   "spellings": [
+    "Viktors",
+    "Viktoras",
+    "Viktor"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/victor",
+    "https://www.behindthename.com/name/viktor",
+    "https://en.wikipedia.org/wiki/Pope_Victor_I"
+   ],
+   "facts_used": "Roman cognomen Victor 'conqueror'; early Christians, saints, three popes; rare in medieval England, 19th-c. revival, Victor Hugo; Pope Victor I from Roman Africa, end of 2nd c., dates uncertain; Quartodeciman controversy, rebuked by Irenaeus per Eusebius.",
+   "reason": "",
+   "next_steps": "Viktorijs, Viktorinas not included (need own sources). Pope Victor I and Latin liturgy claim NOT supported by the page; dropped."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Roberts",
+   "spellings": [
+    "Roberts",
+    "Robertas",
+    "Robert"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/robert",
+    "https://www.izpetnieks.lv/en/name/roberts",
+    "https://en.wikipedia.org/wiki/Robert_the_Bruce"
+   ],
+   "facts_used": "Hrodebert hruod + beraht; Normans to Britain; common 13th-20th c.; LV attested 1545, calendar 1889; Robert the Bruce 1306-1329, Bannockburn 1314, 1328 treaty, heart pilgrimage wish, buried Melrose.",
+   "reason": "",
+   "next_steps": "Roberto (LV) not added; could share entry if a source confirms it as an Italian/Spanish form used in Latvia."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Kristaps",
+   "spellings": [
+    "Kristaps",
+    "Kristupas",
+    "Kristofors",
+    "Kristofers",
+    "Kristoforas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/christopher",
+    "https://www.izpetnieks.lv/en/name/kristaps",
+    "https://www.rigamuz.lv/rvkm/?p=1445",
+    "https://rigapt.lv/en/useful-information/legend-of-riga"
+   ],
+   "facts_used": "Christophoros 'bearing Christ'; figurative early use, literal legend, patron of travellers; Kristaps form of Kristofors attested 1638; Riga giant Kristaps legend (child, gold, city built); early 16th-c. 2.4 m wooden statue in Museum of the History of Riga and Navigation. Film award Lielais Kristaps (est. 1977) dropped to keep sources at 4; could be added with en.wikipedia.org/wiki/Lielais_Kristaps.",
+   "reason": "",
+   "next_steps": "Statue date varies in tourist sources (1510/1590/1683); only the museum's 'early 16th century' was used. Kristofs, Kristafors, Krists, Kristo not checked."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Kārlis",
+   "spellings": [
+    "Kārlis",
+    "Karl",
+    "Kaarel",
+    "Karel",
+    "Karels",
+    "Karolis",
+    "Karols"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/charles",
+    "https://www.behindthename.com/name/karl",
+    "https://www.izpetnieks.lv/en/name/k%C4%81rlis",
+    "https://en.wikipedia.org/wiki/Charlemagne"
+   ],
+   "facts_used": "Karl/Carolus 'man' (alt. 'army'); Charlemagne 742-814; Kārlis attested 1638; coronation 25 Dec 800 by Leo III; Slavic 'king' words from Karolus; died Aachen 28 Jan 814 = Karl name day in LV/EE/Scandinavia (coincidence stated, no causation claimed).",
+   "reason": "",
+   "next_steps": "Karel is also listed in the estonian batch brief; coordinate. Kaarli/Karli left to estonian batch. Latvian 'karalis' and Lithuanian 'karalius' derivation not sourced; not used."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Nikolajs",
+   "spellings": [
+    "Nikolajs",
+    "Niklāvs",
+    "Niklavs",
+    "Klāvs",
+    "Mikalojus",
+    "Nikolai",
+    "Nigul",
+    "Klaus"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/nicholas",
+    "https://www.izpetnieks.lv/en/name/kl%C4%81vs",
+    "https://en.wikipedia.org/wiki/Saint_Nicholas",
+    "https://lt.wikipedia.org/wiki/%C5%A0ventasis_Mikalojus"
+   ],
+   "facts_used": "nike + laos; St Nicholas of Myra 4th c., patron of children/sailors/merchants; Klāvs usually linked with Nikolaus but Siliņš also mentions Latvian klāvs 'barn'; dowry legend (disputed); Sinterklaas to Santa Claus; 6 Dec in all three calendars. Klaus = German short form (behindthename/name/klaus); Nigul = Estonian form (behindthename/name/nigul).",
+   "reason": "",
+   "next_steps": "Laas and Niilo (EE 6 Dec) not verified; Niks, Niko, Nikijs, Niklass/Niklāss/Nikolass not checked."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Miķelis",
+   "spellings": [
+    "Miķelis",
+    "Mikus",
+    "Mykolas",
+    "Mihkel"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/michael",
+    "https://www.izpetnieks.lv/en/name/mi%C4%B7elis",
+    "https://www.izpetnieks.lv/en/name/mikus",
+    "https://lv.wikipedia.org/wiki/Mi%C4%B7e%C4%BCi"
+   ],
+   "facts_used": "Mikha'el 'who is like God?'; only named archangel, Daniel and Revelation; Miķelis attested 1601, Mikus listed under Miķelis; Miķeļi 29 Sep: harvest end, catching Jumis, last courting chance, start of veļu laiks until Mārtiņi, Miķelis in folk songs. Mihkel Estonian form (behindthename/name/mihkel).",
+   "reason": "",
+   "next_steps": "Mihails is in the slavic batch. Mikk, Miko, Miku, Miks, Mikuss, Miķēlis, Mikaels, Mikijs not verified."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Daniels",
+   "spellings": [
+    "Daniels",
+    "Daniēls",
+    "Danielius"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/daniel",
+    "https://www.izpetnieks.lv/en/name/daniels",
+    "https://en.wikipedia.org/wiki/Belshazzar%27s_feast"
+   ],
+   "facts_used": "Daniyyel 'God is my judge'; Book of Daniel, Babylonian court, dreams, visions; LV record 1316; Belshazzar's feast, Mene mene tekel upharsin, idiom 'writing on the wall', conflicts with history.",
+   "reason": "",
+   "next_steps": "Taniel dropped: behindthename says it is a Western Armenian transcription, not Estonian. Tanel (EE 11 Dec) may be an Estonian form: needs a source. Daniils/Danils (Russian forms) not included."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Pēteris",
+   "spellings": [
+    "Pēteris",
+    "Pēters",
+    "Petras",
+    "Peeter"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/peter",
+    "https://www.izpetnieks.lv/en/name/p%C4%93teris",
+    "https://en.wikipedia.org/wiki/Saint_Peter",
+    "https://en.wikipedia.org/wiki/St._Peter%27s_Church,_Riga"
+   ],
+   "facts_used": "Petros 'stone' = Aramaic Cephas given to Simon of Bethsaida; Matthew 16:18 wordplay; most prominent apostle; LV name group records from 1292; feast 29 June with Paul; Riga St Peter's: first mentioned 1209, cornerstone of new tower 29 June 1667, destroyed 29 June 1941, rooster 1970 is seventh.",
+   "reason": "",
+   "next_steps": "Peet, Petrs, Petro not verified. Upside-down crucifixion not used (apocryphal)."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Eduards",
+   "spellings": [
+    "Eduards",
+    "Edvards",
+    "Eduardas",
+    "Edvardas",
+    "Eduard"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/edward",
+    "https://www.izpetnieks.lv/en/name/eduards",
+    "https://en.wikipedia.org/wiki/Edward_the_Confessor"
+   ],
+   "facts_used": "ead + weard; Anglo-Saxon kings; one of few Old English names used across Europe; LV calendar 1817, record 1850 Jaunkalsnava; Edward the Confessor 1042-1066, Westminster consecrated 28 Dec 1065, died 5 Jan 1066, Hastings, canonised 1161, Henry III named heir after him, seven later kings.",
+   "reason": "",
+   "next_steps": "Eduars, Edvarts not checked."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Oskars",
+   "spellings": [
+    "Oskars",
+    "Oskaras",
+    "Oskar"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/oscar",
+    "https://www.izpetnieks.lv/en/name/oskars",
+    "https://en.wikipedia.org/wiki/Ossian",
+    "https://en.wikipedia.org/wiki/Oscar_I_of_Sweden"
+   ],
+   "facts_used": "Debated origin (oss + carae / Osgar / Ásgeirr; Siliņš: Old English 'god' + 'spear'); Irish legend son of Oisín; LV calendar 1892; Macpherson's Ossian 1760s, authenticity doubted; Napoleon chose name for Bernadotte's son born Paris 1799, King Oscar I from 1844.",
+   "reason": "",
+   "next_steps": "Godfather claim is presented two ways on Wikipedia (Napoleon vs Joseph Bonaparte); text only says the name was chosen by Napoleon."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Emīls",
+   "spellings": [
+    "Emīls",
+    "Emils",
+    "Emilis",
+    "Emil"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/emil",
+    "https://www.izpetnieks.lv/en/name/em%C4%ABls",
+    "https://en.wikipedia.org/wiki/Emile,_or_On_Education"
+   ],
+   "facts_used": "Aemilius, aemulus 'rival'; many European languages; Siliņš allows link with Emīlija, other explanations; LV calendar 1883; Rousseau's Emile (1762), banned and burned in Paris and Geneva, put on the Index; framed as a literary event.",
+   "reason": "",
+   "next_steps": "No source found that Rousseau's book popularised the name; that claim was NOT made. Emīlis, Emīlijs, Emilians/Emiljans not checked."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Toms",
+   "spellings": [
+    "Toms",
+    "Tomass",
+    "Tomas",
+    "Toomas",
+    "Tom"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/thomas",
+    "https://www.izpetnieks.lv/en/name/toms",
+    "https://en.wikipedia.org/wiki/Thomas_the_Apostle"
+   ],
+   "facts_used": "Aramaic Te'oma 'twin', Didymus; apostle Thomas; Becket boosted English use; Toms recorded 1537; John 20 doubt episode; St Thomas Christian tradition Muziris c.52, killed near Chennai c.72 (disputed); older calendars 21 Dec (kept in LV/EE), modern 3 July (LT Tomas has both).",
+   "reason": "",
+   "next_steps": "Phrase 'doubting Thomas' removed (not in opened source). Tomašs/Tomāšs, Tomijs, Tommi, Toom not checked. Toomas as Estonian form relies on general knowledge; a behindthename/toomas citation would confirm."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Ēriks",
+   "spellings": [
+    "Ēriks",
+    "Eriks",
+    "Erikas",
+    "Erik",
+    "Erich"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/eric",
+    "https://www.izpetnieks.lv/en/name/%C4%93riks",
+    "https://en.wikipedia.org/wiki/Eric_IX_of_Sweden",
+    "https://en.wikipedia.org/wiki/Erik_the_Red"
+   ],
+   "facts_used": "Eiríkr ei + ríkr; Siliņš: no secure meaning; Scandinavian kings; Erik the Red named Greenland to attract settlers (saga); 18 May = St Eric of Sweden; killed May 1160 near Uppsala after Ascension Mass, legend details partly supported by 2016 bone study; patron of Sweden/Stockholm, coat of arms, relics Uppsala.",
+   "reason": "",
+   "next_steps": "Eerik (EE) not verified."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Matīss",
+   "spellings": [
+    "Matīss",
+    "Motiejus",
+    "Mati",
+    "Matti",
+    "Mats"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/matthias",
+    "https://www.izpetnieks.lv/en/name/mat%C4%ABss",
+    "https://en.wikipedia.org/wiki/Saint_Matthias",
+    "https://en.wikipedia.org/wiki/Matthew_the_Apostle"
+   ],
+   "facts_used": "Hebrew 'gift of Yahweh'; Matthaios (Matthew) and variant Matthias; Siliņš lists Matīss under Mateuss, possible first record 1388; Motiejus and Mati forms of Matthias; Matthias chosen by lot over Joseph Barsabbas; feast 24 Feb (EE Mati/Matti/Mats) moved to 14 May in 1969 (LT Motiejus has both); LV Matīss 21 Sep = Matthew's feast.",
+   "reason": "",
+   "next_steps": "Matiss (no macron) is not in any calendar, so not keyed. Matis, Mattias, Matas, Mateuss, Matejs, Matvejs not added: check Siliņš and VLKK pages."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Hans",
+   "spellings": [
+    "Hans",
+    "Hanss"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Short form of Johannes, but LV Hanss sits on 26 Jan, not with Jānis; would need its own story.",
+   "next_steps": "behindthename.com/name/hans plus izpetnieks Hanss page."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Jurijs",
+   "spellings": [
+    "Jurijs",
+    "Georgijs"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Assigned to the slavic batch.",
+   "next_steps": "Slavic batch."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Mihails",
+   "spellings": [
+    "Mihails"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Assigned to the slavic batch.",
+   "next_steps": "Slavic batch."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Taniel",
+   "spellings": [
+    "Taniel"
+   ],
+   "status": "skipped",
+   "sources": [
+    "https://www.behindthename.com/name/taniel"
+   ],
+   "facts_used": "",
+   "reason": "Not in any calendar; behindthename gives it as Western Armenian, not Estonian.",
+   "next_steps": "Check whether Tanel (EE 11 Dec) is an Estonian form of Daniel (EKI name resources)."
+  },
+  {
+   "batch": "classics-m",
+   "name": "Ints",
+   "spellings": [
+    "Ints"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not part of a family in this batch (Old High German heim + rīchi per status).",
+   "next_steps": "latvian-a or a later batch."
+  },
+  {
+   "batch": "estonian",
+   "name": "Lembit",
+   "spellings": [
+    "Lembit",
+    "Lembitu"
+   ],
+   "status": "written",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Lembitu",
+    "https://www.behindthename.com/name/lembit"
+   ],
+   "facts_used": "Elder of northern Sakala; chronicle mentions him 14 times in five spellings; killed 21 Sept 1217 at St Matthew's Day battle near Viljandi; linked with lemb 'love' (original form unknown); revived in 19th c.; Jaan Jung's 1880s publication of the chronicle spread his fame.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Kaupo",
+   "spellings": [
+    "Kaupo"
+   ],
+   "status": "written",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Kaupo"
+   ],
+   "facts_used": "Livonian elder of Turaida; uncertain etymology (Jacob short form, merchant/innkeeper, kubjas); Caupo/Kope spellings; Rome 1202-1203 with Bishop Theoderich, Innocent III gave 100 gold coins; mortally wounded 1217, bones buried near Krimulda church; historians divided.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Vambola",
+   "spellings": [
+    "Vambola"
+   ],
+   "status": "written",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Vambola",
+    "https://ewod.ut.ee/s/saal",
+    "https://et.wikipedia.org/wiki/Andres_Saal",
+    "https://et.wikipedia.org/wiki/Vambola_(miiniristleja)"
+   ],
+   "facts_used": "Title hero of Andres Saal's 1889 story (subtitle 1209-1212), trilogy with Aita 1891 and Leili 1892-93; possible models Varbola stronghold or Wamba in Kreutzwald's Lembitu; elder son of the Soontagana elder; earliest bearers in Tartu church registers 1905; destroyer renamed Vambola 1919, sold to Peru 1933.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Vaike",
+   "spellings": [
+    "Vaike"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/vaike",
+    "https://et.wikipedia.org/wiki/Vaike",
+    "https://en.wikipedia.org/wiki/Estonian_name"
+   ],
+   "facts_used": "Coined by Andres Saal for a female character in Vambola (1889); linked with vaikus; counted among proposed reconstructed names (Väike/Vaike); early 20th c. in double names like Vaike-Rosalinde, from 1920 mostly alone.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Aita",
+   "spellings": [
+    "Aita"
+   ],
+   "status": "written",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Aita",
+    "https://ewod.ut.ee/s/saal",
+    "https://en.wikipedia.org/wiki/Estonian_name",
+    "https://et.wikipedia.org/wiki/Andres_Saal"
+   ],
+   "facts_used": "Name came into use after the heroine of Saal's Aita (1891, Tallinn, G. Pihlakas); among proposed reconstructed women's names; Saal's character names given to children for generations.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Leili",
+   "spellings": [
+    "Leili"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/leili-1",
+    "https://et.wikipedia.org/wiki/Leili",
+    "https://ewod.ut.ee/s/saal"
+   ],
+   "facts_used": "Probably from Laila, also linked with leil; first in Mats Tõnisson's calendar 1884 (24 Sept); spread after Saal's Leili, üks pagana naine (1892-1893); much more common in the first decade of the 20th c.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Meelis",
+   "spellings": [
+    "Meelis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/meelis",
+    "https://et.wikipedia.org/wiki/Meelis",
+    "https://en.wikipedia.org/wiki/Estonian_name",
+    "https://et.wikipedia.org/wiki/Meelis_(Kippel)"
+   ],
+   "facts_used": "Linked with meel 'mind'; presumed meaning uncertain; among 19th-century revived names; Enn Kippel's 1941 youth novel Meelis (son of Lembitu, dies defending Tartu 1224 with Vyachko); many reprints; sculpture group on Kassitoome, Tartu.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Salme",
+   "spellings": [
+    "Salme"
+   ],
+   "status": "written",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Salme_(tegelaskuju)",
+    "https://www.behindthename.com/name/salme",
+    "https://www.izpetnieks.lv/en/name/salme"
+   ],
+   "facts_used": "Heroine of the epic folk song (Tähemõrsja) used by Kreutzwald in Kalevipoeg; hen becomes Salme, rejects Moon and Sun, accepts Star (son of the North Star); sometimes linked with salm 'verse'; in Latvia recorded 1914 as of Estonian folkloric origin.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Hämarik",
+   "spellings": [
+    "Hämarik"
+   ],
+   "status": "written",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Koit_ja_H%C3%A4marik",
+    "https://en.wikipedia.org/wiki/H%C3%A4marik",
+    "https://en.wikipedia.org/wiki/XO-4"
+   ],
+   "facts_used": "'Dusk'; from Faehlmann's literary legend Koit ja Hämarik (first printed 1840, a kunstmuistend that inspired artists); plot; planet XO-4b named Hämarik in IAU NameExoWorlds, chosen by Estonia.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Koit",
+   "spellings": [
+    "Koit"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/koit",
+    "https://et.wikipedia.org/wiki/Koit_ja_H%C3%A4marik",
+    "https://en.wikipedia.org/wiki/XO-4"
+   ],
+   "facts_used": "'Dawn'; same Faehlmann legend told from Koit's side (relights the sun); star XO-4 officially named Koit.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Sulev",
+   "spellings": [
+    "Sulev"
+   ],
+   "status": "written",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Estonian_name",
+    "https://et.wikipedia.org/wiki/Sulevipoeg",
+    "https://en.wikipedia.org/wiki/Sulev"
+   ],
+   "facts_used": "Among 19th-century revived old names; Sulevipoeg ('son of Sulev') in Kalevipoeg: courts a hell maiden, rescues another from Tuuslar with Alevipoeg, singes hair on Sädemesaar and lights his pipe, dies in final battle; minehunter EML Sulev.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Leelo",
+   "spellings": [
+    "Leelo"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/leelo",
+    "https://et.wikipedia.org/wiki/Leelo",
+    "https://en.wikipedia.org/wiki/Seto_leelo"
+   ],
+   "facts_used": "leelo = folk song in regivärss, leelotamine; Seto refrain / Seto leelo; UNESCO intangible heritage 2009; 'Mother of Song' title at Seto Kingdom Day.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Tarmo",
+   "spellings": [
+    "Tarmo",
+    "Tarvo"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/tarmo",
+    "https://www.behindthename.com/name/tarvo",
+    "https://en.wikipedia.org/wiki/Tarmo_(1907_icebreaker)"
+   ],
+   "facts_used": "'vigour, energy' in Estonian and Finnish; Tarvo dialectal variant; Finnish ships named Tarmo; icebreaker Tarmo (Newcastle 1907), March 1918 seized near Aegna with Svinhufvud aboard disguised as engineer; museum ship in Kotka since 1992.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Joonas",
+   "spellings": [
+    "Joonas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/joonas",
+    "https://www.behindthename.com/name/jonah"
+   ],
+   "facts_used": "Finnish/Estonian form of Jonas = Jonah, Hebrew Yona 'dove'; Greek Ionas; cognates; Jonah story (Nineveh, fish, three days); popular in the Middle Ages.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Heiki",
+   "spellings": [
+    "Heiki",
+    "Enn"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/heiki",
+    "https://www.behindthename.com/name/enn",
+    "https://www.behindthename.com/name/henry",
+    "https://en.wikipedia.org/wiki/Henry_of_Livonia"
+   ],
+   "facts_used": "Heinrich < Heimirich (heim + rih); Heiki Estonian form of Heinrich, Enn short form of Hendrik; Henry of Livonia (Henricus de Lettis / Läti Henrik): born c. 1187, ordained 1208, interpreter of legate William of Modena, chronicle c. 1229, priest of Papendorf (Rubene) 1259.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Indrek",
+   "spellings": [
+    "Indrek"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/indrek",
+    "https://et.wikipedia.org/wiki/Indrek_Paas",
+    "https://et.wikipedia.org/wiki/Indrek"
+   ],
+   "facts_used": "Estonian form of Heinrich, related Hindrek, Ints; Indrek Paas protagonist of vols II-V of Tammsaare's Tõde ja õigus (1926-1933), son of Andres Paas and Mari; 1975 film Indrek based on part II.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Tiidrik",
+   "spellings": [
+    "Tiidrik"
+   ],
+   "status": "written",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Estonian_name",
+    "https://www.behindthename.com/name/theodoric",
+    "https://en.wikipedia.org/wiki/Theoderich_von_Treyden"
+   ],
+   "facts_used": "Dietrich adapted as Tiidrik/Tiidrek; Gothic Þiudareiks 'ruler of the people'; Theodoric the Great; Theoderich of Treiden: priest in Turaida from 1191, first abbot of Daugavgrīva 1202, founded Sword Brothers 1202, bishop of Estonia 1211, killed at Lyndanisse 15 June 1219 on Valdemar II's side.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Ilmar",
+   "spellings": [
+    "Ilmar"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ilmar",
+    "https://en.wikipedia.org/wiki/Ilmarinen"
+   ],
+   "facts_used": "Estonian form of Ilmarinen (related Ilmari, Ilmārs); ilma 'air'; Proto-Finnic god-name 'sky-being'; smith who forged sky dome and Sampo; Agricola 1551; Ukko took over weather roles; Muhu song of a 'world-wise smith'.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Ilmatar",
+   "spellings": [
+    "Ilmatar"
+   ],
+   "status": "written",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ilmatar"
+   ],
+   "facts_used": "ilma + -tar 'Airess'; virgin air spirit, mother of Väinämöinen in the Kalevala; Lönnrot's depiction as birth-giver of the world based on one runic song; otherwise not connected to creation; Kalevala inspired Kalevipoeg.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Ahto",
+   "spellings": [
+    "Ahto"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/ahto",
+    "https://en.wikipedia.org/wiki/Ahti",
+    "https://et.wikipedia.org/wiki/Ahti"
+   ],
+   "facts_used": "Linked with Finnish Ahto, variant of Ahti (sea god), etymology unknown; Idman (Áktios), Ganander 1789, Germanic water words; earliest mention 1551 as giver of fish; Kalevala uses Ahto to avoid confusion with Ahti Saarelainen; wife Vellamo; Kreutzwald used Ahti once in canto 16 of Kalevipoeg; 'Ahti graves'.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Luule",
+   "spellings": [
+    "Luule"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/luule",
+    "https://et.wikipedia.org/wiki/Luule_(eesnimi)",
+    "https://et.wikipedia.org/wiki/Oskar_Kallas"
+   ],
+   "facts_used": "'poetry'; first proposed in Mats Tõnisson's calendar, again in 1910 by Oskar Kallas (per Edgar Rajandi, Raamat nimedest, 2011, p. 113, cited on et.wikipedia); Oskar Kallas 1868-1946, first Estonian doctor of folklore 1901, studied Lutsi/Kraasna, envoy, co-founder of ERM, married Aino Kallas.",
+   "reason": "Verified family history written in five languages.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Heik",
+   "spellings": [
+    "Heik"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/heik"
+   ],
+   "facts_used": "",
+   "reason": "Shares the 19 January date with Heiki and Enn, but no opened source states that Heik is a form of Heinrich/Hendrik; kept out of the Heiki|Enn entry.",
+   "next_steps": "Check EKI name resources or Edgar Rajandi's Raamat nimedest; if confirmed as a Heinrich short form, add it to the Heiki|Enn key."
+  },
+  {
+   "batch": "estonian",
+   "name": "Alev",
+   "spellings": [
+    "Alev"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Alevipoeg"
+   ],
+   "facts_used": "",
+   "reason": "Alevipoeg is a Kalevipoeg character, but no source links the given name Alev to him, and Turkish alev ('flame') is a separate homonym.",
+   "next_steps": "Look for an Estonian onomastic source (Rajandi, EKI) on Alev; write only if the Kalevipoeg link is explicit."
+  },
+  {
+   "batch": "estonian",
+   "name": "Olev",
+   "spellings": [
+    "Olev"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Olevipoeg"
+   ],
+   "facts_used": "",
+   "reason": "Olevipoeg (town builder in Kalevipoeg) is documented, but the given name Olev is also linked with Olaf; no opened source states its origin. Status was 'summary'.",
+   "next_steps": "Find a source on Olev < Olaf vs. Olevipoeg and the Tallinn St Olaf (Oleviste) legend."
+  },
+  {
+   "batch": "estonian",
+   "name": "Pirje",
+   "spellings": [
+    "Pirje",
+    "Pirja"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pirjo"
+   ],
+   "facts_used": "",
+   "reason": "Finnish Pirjo is a short form of Birgitta, but no source confirms Pirje/Pirja; nordicnames gives a different origin.",
+   "next_steps": "Check Rajandi or EKI; if Birgitta is confirmed, the St Bridget / Pirita convent story fits."
+  },
+  {
+   "batch": "estonian",
+   "name": "Vootele",
+   "spellings": [
+    "Vootele"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://et.wikipedia.org/wiki/Vootele"
+   ],
+   "facts_used": "",
+   "reason": "et.wikipedia lists an elder named Vootele but the name page gives no origin.",
+   "next_steps": "Open et.wikipedia 'Vootele (vanem)' and Henry's chronicle to confirm the historical bearer and the chronicle spelling."
+  },
+  {
+   "batch": "estonian",
+   "name": "Kalju",
+   "spellings": [
+    "Kalju"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/kalju",
+    "https://et.wikipedia.org/wiki/Kalju_(eesnimi)"
+   ],
+   "facts_used": "",
+   "reason": "Only the meaning 'rock, boulder' is verified; no historical detail found.",
+   "next_steps": "Rajandi/EKI for first use; a Tartu study on 1930s name fashions surfaced in search but was not opened."
+  },
+  {
+   "batch": "estonian",
+   "name": "Virve",
+   "spellings": [
+    "Virve"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/virve",
+    "https://en.wikipedia.org/wiki/Estonian_name"
+   ],
+   "facts_used": "",
+   "reason": "Meaning 'ripple, shimmer' and its listing among proposed reconstructed names verified, but no concrete story.",
+   "next_steps": "Find who first proposed Virve in Rajandi or EKI."
+  },
+  {
+   "batch": "estonian",
+   "name": "Tuuli",
+   "spellings": [
+    "Tuuli"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/tuuli"
+   ],
+   "facts_used": "",
+   "reason": "Only the meaning 'wind' verified.",
+   "next_steps": "First use / Finnish calendar history."
+  },
+  {
+   "batch": "estonian",
+   "name": "Tiina",
+   "spellings": [
+    "Tiina"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/tiina"
+   ],
+   "facts_used": "",
+   "reason": "Short form of Kristiina; no specific history, and Kristiina belongs to classics-f.",
+   "next_steps": "Could join the classics-f Kristiina family if that batch agrees."
+  },
+  {
+   "batch": "estonian",
+   "name": "Urve",
+   "spellings": [
+    "Urve"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/urve"
+   ],
+   "facts_used": "",
+   "reason": "Only 'from urb, catkin' verified.",
+   "next_steps": "Rajandi / EKI for first attestation."
+  },
+  {
+   "batch": "estonian",
+   "name": "Vello",
+   "spellings": [
+    "Vello"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/vello"
+   ],
+   "facts_used": "",
+   "reason": "Only 'diminutive of veli, brother' verified.",
+   "next_steps": "Rajandi / EKI for first attestation."
+  },
+  {
+   "batch": "estonian",
+   "name": "Taimi",
+   "spellings": [
+    "Taimi"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/taimi"
+   ],
+   "facts_used": "",
+   "reason": "Only the meaning verified (Finnish taimi / Estonian taim).",
+   "next_steps": "fi.wikipedia Taimi for Finnish calendar history."
+  },
+  {
+   "batch": "estonian",
+   "name": "Riho",
+   "spellings": [
+    "Riho"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/riho"
+   ],
+   "facts_used": "",
+   "reason": "Only 'short form of Richard' verified; no specific story.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Elmar",
+   "spellings": [
+    "Elmar"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/elmar"
+   ],
+   "facts_used": "",
+   "reason": "Only 'German form of Adelmar or Egilmar' verified; no Estonian story.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Aimar",
+   "spellings": [
+    "Aimar"
+   ],
+   "status": "skipped",
+   "sources": [
+    "https://www.behindthename.com/name/aimar"
+   ],
+   "facts_used": "",
+   "reason": "behindthename describes a medieval Basque Aimar; its link to the Estonian name is not established.",
+   "next_steps": "Find an Estonian source on Aimar."
+  },
+  {
+   "batch": "estonian",
+   "name": "Eha",
+   "spellings": [
+    "Eha"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/eha"
+   ],
+   "facts_used": "",
+   "reason": "Meaning 'dusk' verified only; not part of the Koit/Hämarik legend.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Imbi",
+   "spellings": [
+    "Imbi"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/imbi"
+   ],
+   "facts_used": "",
+   "reason": "Cognate of Finnish Impi; no story found.",
+   "next_steps": ""
+  },
+  {
+   "batch": "estonian",
+   "name": "Mehis, Hando, Valev, Uljas, Ülev, Säde, Lehte, Helme, Viiu, Malle, Õnneleid, Õie/Õilme, Valdur/Valdo, Illimar, Kuldar, Mai/Maia, Elle/Elli",
+   "spellings": [
+    "Mehis",
+    "Hando",
+    "Valev",
+    "Uljas",
+    "Ülev",
+    "Säde",
+    "Lehte",
+    "Helme",
+    "Viiu",
+    "Malle",
+    "Õnneleid",
+    "Õie",
+    "Õilme",
+    "Valdur",
+    "Valdo",
+    "Illimar",
+    "Kuldar",
+    "Mai",
+    "Maia",
+    "Elle",
+    "Elli"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/mehis"
+   ],
+   "facts_used": "",
+   "reason": "behindthename has no definitions for most of these; no verified origin or story found in this round.",
+   "next_steps": "Edgar Rajandi, Raamat nimedest (2011) and EKI resources; et.wikipedia '<name> (eesnimi)' pages sometimes cite Rajandi (as for Luule)."
+  },
+  {
+   "batch": "estonian",
+   "name": "Karel/Kaarli, Linda, Leela/Leeli, Tarvi/Tarmu, Tiido/Tiidu, Ilmi, Meeli",
+   "spellings": [
+    "Karel",
+    "Kaarli",
+    "Linda",
+    "Leela",
+    "Leeli",
+    "Tarvi",
+    "Tarmu",
+    "Tiido",
+    "Tiidu",
+    "Ilmi",
+    "Meeli"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Karel/Kaarli and Linda belong to other batches; the other forms share dates with written families, but no source confirms that they belong to the same family.",
+   "next_steps": "Confirm variant relations before adding them to the Leelo, Tarmo|Tarvo, Tiidrik, Ilmatar or Meelis keys."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Inese",
+   "spellings": [
+    "Inese",
+    "Inesa",
+    "Ines"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/inese",
+    "https://www.behindthename.com/name/ines",
+    "https://en.wikipedia.org/wiki/In%C3%AAs_de_Castro"
+   ],
+   "facts_used": "Latvian form of Spanish/Portuguese Inés/Inês < Agnes (Greek hagnos); calendar 1915, attestation 1922 (Siliņš); Inês de Castro killed 1355, posthumous recognition, coronation legend = myth, Lusiads, Alcobaça tombs.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Ilze",
+   "spellings": [
+    "Ilze",
+    "Ilza"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/ilze",
+    "https://www.lsm.lv/raksts/dzive-stils/vesture/02.04.2026-ka-barbara-kluva-par-baibu-un-elizabete-par-ilzi-jauna-elektroniska-vardnica-atklaj-latviesu-personvardu-vesturi.a641377/"
+   ],
+   "facts_used": "Short form of Elizabete via Middle Low German (LU Institute of Latvian Language dictionary, LSM 2026); attestation 1458, calendar 1864; diminutive Ilžuks.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Baiba",
+   "spellings": [
+    "Baiba"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/baiba",
+    "https://www.lsm.lv/raksts/dzive-stils/vesture/02.04.2026-ka-barbara-kluva-par-baibu-un-elizabete-par-ilzi-jauna-elektroniska-vardnica-atklaj-latviesu-personvardu-vesturi.a641377/",
+    "https://en.wikipedia.org/wiki/Saint_Barbara",
+    "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/modernistiska-interpretacija-par-raini-put-vejini-rekordi.a275412/"
+   ],
+   "facts_used": "Barbara > Baiba known only in Latvian, path unclear (Babe/Baba?); Durbe 1777, calendar 1889; St Barbara legend, 4 Dec, removed from General Roman Calendar 1969; Baiba in Rainis Pūt, vējiņi! (1913); about 2000 applicants for Baiba/Gatis roles in the 1973 film; Esmeralda Ermale.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Māris",
+   "spellings": [
+    "Māris"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/m%C4%81ris",
+    "https://en.wikipedia.org/wiki/Saint_Maurice"
+   ],
+   "facts_used": "Origin unsettled (Siliņš lists under Morics and Māra); Dikļi 1736, calendar 1908; shares 22 Sep with Morics, the feast of St Maurice (shared date read from the LV calendar data); Theban Legion, Agaunum c. 287, patron of soldiers and Holy Roman Emperors.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Imants",
+   "spellings": [
+    "Imants"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/imants",
+    "https://dspace.ut.ee/items/cbd05572-9310-4ee9-83a3-f7e9323c2b0d/full",
+    "https://militaryheritagetourism.info/en/military/stories/view/457"
+   ],
+   "facts_used": "Livonian origin, im+and etymology doubtful; Livonian Chronicle 13th c.; calendar 1879; Merkel, Wannem Ymanta, Leipzig 1802 (Hartknoch), Imants as Livonian leader; Toepfer copy survived 1944 fire, via a French doctor to Stockholm, now Museum of the History of Riga and Navigation.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Līga",
+   "spellings": [
+    "Līga"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/l%C4%ABga",
+    "https://en.wikipedia.org/wiki/J%C4%81%C5%86i"
+   ],
+   "facts_used": "Linked to līgot; name day 23 June = Līgo Day; refrain explanations disputed (deity Līgo only proposed); calendar 1879, first known bearer 1930 Valmiera; Russow 1584 description of Jāņi.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Mirdza",
+   "spellings": [
+    "Mirdza"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/mirdza",
+    "https://en.wikipedia.org/wiki/Aspazija"
+   ],
+   "facts_used": "From mirdzēt; calendar 1879, possible attestation 1887; Mirdza is a character in Aspazija’s Vaidelote (per Siliņš), staged in Riga 1894 with Zaudētās tiesības; set in 14th-c. Grand Duchy of Lithuania; January 1905 run read as a call to break with imperial Russia.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Indulis",
+   "spellings": [
+    "Indulis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/indulis",
+    "https://www.lsm.lv/raksts/kultura/teatris-un-deja/liepajas-teatri-top-sezonas-atklasanas-izrade-indulis-un-arija.a95727/",
+    "https://en.wikipedia.org/wiki/Rainis"
+   ],
+   "facts_used": "Siliņš files under Indriķis (Heinrich); Rūjiena 1877, calendar 1879; Rainis Indulis un Ārija 1911, old legend of Curonian chieftain Indulis and Ārija, daughter of the German knights’ leader, set in Embūte.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Dzintars",
+   "spellings": [
+    "Dzintars",
+    "Dzintra"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/dzintars",
+    "https://www.izpetnieks.lv/en/name/dzintra",
+    "https://en.wiktionary.org/wiki/dzintars",
+    "https://en.wikipedia.org/wiki/Curonian_language"
+   ],
+   "facts_used": "From dzintars \"amber\"; Dzintars calendar 1898, Riga 1st quarter 20th c.; Dzintra attestation and calendar 1922; the word likely borrowed from Curonian (extinct in the 16th c., substrate in western dialects); Lithuanian gintaras cognate; ultimate origin unknown.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Uldis",
+   "spellings": [
+    "Uldis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/uldis",
+    "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/modernistiska-interpretacija-par-raini-put-vejini-rekordi.a275412/",
+    "https://www.themoviedb.org/movie/367056-put-vejini"
+   ],
+   "facts_used": "Siliņš under Ulrihs (uodal+rīchi); Rūjiena late 19th c., calendar 1925; hero of Rainis Pūt, vējiņi! (1913, Swiss exile, folk song in 5 acts); plot (Zane, Baiba) taken from the 1973 film synopsis; film by Gunārs Piesis, Imants Ziedonis co-writer.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Zane",
+   "spellings": [
+    "Zane"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/zane",
+    "https://www.behindthename.com/name/susanna",
+    "https://www.lsm.lv/raksts/kultura/kino-foto-un-tv/modernistiska-interpretacija-par-raini-put-vejini-rekordi.a275412/"
+   ],
+   "facts_used": "Siliņš links to Zuzanna (šōšannā \"white water lily\"); Rauna 1795, calendar 1882; Zane in Pūt, vējiņi!; Astrīda Kairiša played her for the third time; spell scene a film classic; LSM: families gave children the names Baiba, Uldis, Zane, Gatis.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Kaspars",
+   "spellings": [
+    "Kaspars",
+    "Kasparas",
+    "Kaspar",
+    "Kasper",
+    "Jasper"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/jasper",
+    "https://www.izpetnieks.lv/en/name/kaspars",
+    "https://en.wikipedia.org/wiki/Biblical_Magi"
+   ],
+   "facts_used": "Gaspar < Hebrew gizbar \"treasurer\" < Old Persian ganzabara; Gondophares theory; Jaunpils 1577, calendar 1767; Magi names first in 8th-c. Excerpta Latina Barbari (lost Greek original, probably Alexandria); relics Constantinople > Milan > Cologne (12th c., after Frederick I took Milan), translation commemorated 24 July.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Laila",
+   "spellings": [
+    "Laila"
+   ],
+   "status": "written",
+   "sources": [
+    "https://snl.no/Laila",
+    "https://en.wikipedia.org/wiki/Jens_Andreas_Friis",
+    "https://www.izpetnieks.lv/en/name/laila"
+   ],
+   "facts_used": "Disputed: Sami/Finnish (Aila) or Arabic Leila; Siliņš: Sami with a question mark; LV attestation late 19th c., calendar 1933; Friis, Fra Finmarken 1881, Lajla; opera and 1929 silent film; SNL says the film made the name more popular in Norway.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Gints",
+   "spellings": [
+    "Gints"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/gints",
+    "https://www.vestnesis.lv/ta/id/3331"
+   ],
+   "facts_used": "Possibly from Lithuanian Gint- names; diminutive Gintišs; name day 3 May; Latvian rendering of Peer Gynt (Pērs Gints); Akuraters verse translation 1914, first staged by Dailes teātris 1921; the 1920s called the right time for the play.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Valdis",
+   "spellings": [
+    "Valdis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/valdis",
+    "https://www.lsm.lv/raksts/dzive--stils/vesture/12-gada-menesu-vardi-ieskats-vidzemes-kalendara-1817-gadam.a318851/"
+   ],
+   "facts_used": "Siliņš compares with valdīt and Valdemārs, meaning undetermined; Ogre late 19th c.; earliest calendar entry 1783; Vidzeme calendar printed by Christoph Harder 1781–1790, whose innovations included Latvian personal names (juxtaposition only; no claim that Harder added Valdis).",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Ivars",
+   "spellings": [
+    "Ivars",
+    "Ivar",
+    "Aivars",
+    "Aivar"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ivar",
+    "https://www.izpetnieks.lv/en/name/ivars",
+    "https://www.izpetnieks.lv/en/name/aivars",
+    "https://en.wikipedia.org/wiki/Ivar_the_Boneless"
+   ],
+   "facts_used": "Old Norse Ívarr (ýr + herr, cautious); Siliņš also links Ivars to Johannes; Ivars calendar 1885, Aivars 1921; Ivar the Boneless: Great Heathen Army 865, York 867, identified with Ímar of Dublin 870–873, nickname theories (exosus).",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Aija",
+   "spellings": [
+    "Aija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/aija",
+    "https://literatura.lv/en/works/1083510",
+    "https://www.lsm.lv/raksts/kultura/teatris-un-deja/29.04.2026-silke-ar-cukuru-recenzija-par-nacionala-teatra-izradi-atbalss-aija.a644882/"
+   ],
+   "facts_used": "Compared with aijā!, aijas, aijāt; first bearers 1st quarter 20th c., calendar 1931; Jaunsudrabiņš Aija serialised in Latvija Jan–Feb 1911 (literatura.lv); trilogy Aija read in secondary school; widow Aija and town-bred Jānis; National Theatre Atbalss Aija by Regnārs Vaivars, reviewed by LSM in 2026.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Edvīns",
+   "spellings": [
+    "Edvīns",
+    "Edvins",
+    "Edvinas",
+    "Edvin"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/edwin",
+    "https://en.wikipedia.org/wiki/Edwin_of_Northumbria",
+    "https://www.izpetnieks.lv/en/name/edv%C4%ABns"
+   ],
+   "facts_used": "Old English ead + wine; declined after the Norman Conquest, revived in the 19th c.; LV calendar 1901; Edwin of Northumbria baptised 627 (Æthelburh, Paulinus first Bishop of York), killed at Hatfield Chase 633, feast 12 Oct.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Inga",
+   "spellings": [
+    "Inga"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/inga",
+    "https://www.behindthename.com/name/inga",
+    "https://www.behindthename.com/name/ing"
+   ],
+   "facts_used": "Feminine form of Inge; Siliņš distinguishes two branches (Ingwio vs Indriķis); Ing/Ingwaz obscure fertility god, ancestor of the Ingaevones, maybe an earlier Freyr; Kuldīga 1683, calendar 1921.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Dace",
+   "spellings": [
+    "Dace"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/dace"
+   ],
+   "facts_used": "",
+   "reason": "Dictionary data only: two alternative pathways (Dārta/Doroteja or Dagnija), Riga 1858, calendar 1915. No verified story found.",
+   "next_steps": "Check personvardi.lu.lv (LU historical name dictionary) for Dace/Dārta; Siliņš pp. 91, 95, 101; look for Dace in 19th-century literature on literatura.lv."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Guntis/Gunta",
+   "spellings": [
+    "Guntis",
+    "Gunta"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/guntis",
+    "https://www.izpetnieks.lv/en/name/gunta"
+   ],
+   "facts_used": "",
+   "reason": "Dictionary data only: Gunta linked to Gundega (plant) and Guna (guns/uguns, fire); Guntis 1930/1931, Gunta 1922/1933. No historical detail found.",
+   "next_steps": "Search literatura.lv for characters named Gunta/Guntis; look for articles on 1930s calendar name creation (LSM, enciklopedija.lv)."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Agris",
+   "spellings": [
+    "Agris"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/agris"
+   ],
+   "facts_used": "",
+   "reason": "Dictionary data only: from agrs \"early\"; possible calendar 1915, possible attestation 1930 Alūksne.",
+   "next_steps": "Look for a literary origin of Agris on literatura.lv and for calendar history."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Ināra",
+   "spellings": [
+    "Ināra"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/in%C4%81ra"
+   ],
+   "facts_used": "",
+   "reason": "Origin not established (Siliņš lists under Ina; Greek Inarēs?); 1922 attestation, calendar 1925. Nothing verifiable to tell.",
+   "next_steps": "Search literatura.lv for an early literary Ināra (1910s–1920s); check whether a writer coined it."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Aigars",
+   "spellings": [
+    "Aigars"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/aigars"
+   ],
+   "facts_used": "",
+   "reason": "Origin unclear; a Livonian/Estonian Aigar link is hypothetical; 1922 attestation, calendar 1931.",
+   "next_steps": "Fetch behindthename.com/name/aigar and EKI Estonian name resources for Aigar; literatura.lv for 1920s use."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Ausma",
+   "spellings": [
+    "Ausma"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/ausma"
+   ],
+   "facts_used": "",
+   "reason": "Dictionary data only: from ausma \"dawn\"; Saka 1896, calendar 1908. No story found.",
+   "next_steps": "Check literatura.lv for Ausma as a character or pen name and the 1908 calendar context."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Ilga",
+   "spellings": [
+    "Ilga"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/ilga"
+   ],
+   "facts_used": "",
+   "reason": "Dictionary data only: linked to ilgas \"longing\"; Krustpils late 19th c., calendar 1908.",
+   "next_steps": "Check literatura.lv for an early literary Ilga; 1908 calendar context."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Aldis",
+   "spellings": [
+    "Aldis"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched in this round.",
+   "next_steps": "Fetch izpetnieks.lv/en/name/aldis."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Agita",
+   "spellings": [
+    "Agita"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched in this round; existing data links it to Agate.",
+   "next_steps": "Fetch izpetnieks.lv/en/name/agita and behindthename Agata."
+  },
+  {
+   "batch": "latvian-a",
+   "name": "Laimdots",
+   "spellings": [
+    "Laimdots"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Very rare; the related Laimdota story (Lāčplēsis) belongs with Laimdota. Not researched.",
+   "next_steps": "If needed, verify Pumpurs, Lāčplēsis (1888), and whether Laimdots is a later masculine derivation."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Asnate",
+   "spellings": [
+    "Asnate",
+    "Asnāte"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Asnate",
+    "https://www.behindthename.com/name/asenath",
+    "https://enciklopedija.lv/skirklis/61494"
+   ],
+   "facts_used": "Egyptian Asenath \"belonging to Neith\" (BtN); wife of Joseph, mother of Manasseh/Ephraim; Siliņš: variant Aseneta, record 1940, calendar 1938, character in a Rainis play; Enciklopedija: play published as a book 1919, premiere 17 Nov 1920 at the National Theatre, Asnate = Joseph's wife, daughter of high priest Potifers.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "Asnāte (with long ā) was added as a spelling of the same name; confirm the spelling in the printed Siliņš entry."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Aelita",
+   "spellings": [
+    "Aelita"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/aelita",
+    "https://en.wikipedia.org/wiki/Aelita_(novel)",
+    "https://www.izpetnieks.lv/en/name/Aelita"
+   ],
+   "facts_used": "BtN: created by A. Tolstoy for the 1923 novel, Martian gloss \"starlight seen for the last time\"; Siliņš: Greek aēr+lithos comparison, record 1922, calendar 1928; Wikipedia: novel 1923, Los and Gusev, film by Protazanov 1924.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "Check the 1922 Latvian record cited by Siliņš (before the novel) in the printed dictionary p. 41."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Silvestrs",
+   "spellings": [
+    "Silvestrs",
+    "Silvesters",
+    "Silvestris",
+    "Silvestras",
+    "Silvester"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/silvester",
+    "https://en.wikipedia.org/wiki/Pope_Sylvester_I",
+    "https://www.izpetnieks.lv/en/name/Silvestrs"
+   ],
+   "facts_used": "Latin silvester \"wooded\" (BtN); Pope Silvester I 314-335, d. 31 Dec 335, feast 31 Dec, legends of baptising Constantine and curing leprosy, forged Donation (2nd half of 8th c.), New Year's Eve called Silvester (Wikipedia); Siliņš: attested 1545, calendar 1767; all spellings have 31 Dec in the project calendars.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Malvīne",
+   "spellings": [
+    "Malvīne",
+    "Malvīna",
+    "Malvina",
+    "Malvine",
+    "Malviine"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/malvina",
+    "https://en.wikipedia.org/wiki/Ossian",
+    "https://www.izpetnieks.lv/en/name/Malv%C4%ABne"
+   ],
+   "facts_used": "BtN: created by Macpherson for the Ossian poems, possibly Gaelic mala+mìn; Siliņš alternatives (Celtic / OHG mahal+wini), record 1873, calendar 1882; Wikipedia: Fragments 1760, Fingal dated 1762, Temora 1763, Malvina Oscar's lover who looks after Ossian in old age, Johnson called Macpherson a fraud, Napoleon an admirer, Girodet painting.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Aldona",
+   "spellings": [
+    "Aldona"
+   ],
+   "status": "written",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Aldona_of_Lithuania",
+    "https://www.izpetnieks.lv/en/name/Aldona"
+   ],
+   "facts_used": "Siliņš: Lithuanian aldėti/aldoti + -ona or Belarusian Aldoņa < Eudokia; record St Petersburg 4th quarter 19th c.; calendar 1889. Wikipedia: Aldona of Lithuania c.1309-1339, daughter of Gediminas, married Casimir III in 1325, baptised Anna/Ona, crowned 1333, pagan name known only from Stryjkowski, piety and music.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Laine",
+   "spellings": [
+    "Laine"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/laine",
+    "https://www.izpetnieks.lv/en/name/Laine"
+   ],
+   "facts_used": "BtN: Estonian \"wave\"; Siliņš: Estonian laine, Alūksne 1st quarter 20th c., LV calendar 1956; name days 29 Apr (LV) and 6 Aug (EE) from the project calendars.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "An Estonian source (EKI, Estonian name statistics) on when Laine became an Estonian given name would strengthen paragraph 2."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Daila",
+   "spellings": [
+    "Daila"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Daila",
+    "https://tezaurs.lv/daile",
+    "https://enciklopedija.lv/skirklis/55397",
+    "https://stacija.org/krustamie-vardi-1876-gada/"
+   ],
+   "facts_used": "Siliņš: daile \"beauty\", calendar 1877, record Riga 1922; tezaurs daile (poetic: beauty; art, creative work); Enciklopedija: Auseklis compiled ~300 Latvian names for the calendar for 1879 (published 1878), b. 18.09.1850, d. St Petersburg 6 Feb 1879; stacija.org transcription of the Auseklis list includes Daila and Dailons.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "Identify the 1877 calendar that first listed Daila (Siliņš date) and its compiler; search gramatas.lndb.lv / periodika.lv."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Smaida",
+   "spellings": [
+    "Smaida"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Smaida",
+    "https://tezaurs.lv/smaids",
+    "https://stacija.org/krustamie-vardi-1876-gada/",
+    "https://enciklopedija.lv/skirklis/55397"
+   ],
+   "facts_used": "Siliņš: smaids \"smile\", Laucese 4th quarter 19th c., calendar 1879; stacija.org: Smaida, Spodra, Mirdza, Līga in the Auseklis 1879 list, and his argument that foreign baptismal names had been distorted.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Spodra",
+   "spellings": [
+    "Spodra",
+    "Spodris"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Spodra",
+    "https://www.izpetnieks.lv/en/name/Spodris",
+    "https://tezaurs.lv/spodrs",
+    "https://stacija.org/krustamie-vardi-1876-gada/"
+   ],
+   "facts_used": "Siliņš: spodrs bright/clean/shining, Spodra calendar 1879, Spodris record 1922, calendar 1933; tezaurs spodrs; stacija.org: Spodra and Sirdsspodra in the Auseklis 1879 list; Sirdsspodra absent from the current project calendar.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Druvis",
+   "spellings": [
+    "Druvis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Druvis",
+    "https://www.izpetnieks.lv/en/name/Druvvaldis",
+    "https://tezaurs.lv/druva",
+    "https://stacija.org/krustamie-vardi-1876-gada/"
+   ],
+   "facts_used": "Siliņš: druva grain field, calendar 1889, Riga 2nd quarter 20th c.; Druvvaldis (druva+valdīt) calendar 1889, compared with Drivinalds; stacija.org: Druvena and Drivinalds in the Auseklis list; tezaurs druva figurative \"field of activity\".",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "Identify the 1889 calendar that introduced Druvis, Daira, Aldona and Druvvaldis (all dated 1889 by Siliņš); a common compiler is plausible but unverified."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Daira",
+   "spellings": [
+    "Daira",
+    "Dairis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Daira",
+    "https://www.izpetnieks.lv/en/name/Dairis",
+    "https://tezaurs.lv/dairs"
+   ],
+   "facts_used": "Siliņš: dairs strange/unknown, older possible \"observant\", creators' intention unknown; Daira calendar 1889, record Riga 1935; Dairis masculine, record Riga 1929, calendar 1968; tezaurs dairs (dated): eerie, unknown; shy.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "The dspace.lu.lv paper cited on izpetnieks.lv is behind a CAPTCHA; read it for who created Daira and in which 1889 calendar."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Raita",
+   "spellings": [
+    "Raita",
+    "Raitis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Raita",
+    "https://www.izpetnieks.lv/en/name/Raitis",
+    "https://tezaurs.lv/raits"
+   ],
+   "facts_used": "Siliņš: raits nimble/swift, Finnish Raita/raitis a separate comparison; Raita Rauna 1935, calendar 1932; Raitis Valmiera 1938, calendar 1927; tezaurs raits senses.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Agra",
+   "spellings": [
+    "Agra",
+    "Agrita"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Agra",
+    "https://www.izpetnieks.lv/en/name/Agrita",
+    "https://lv.wikipedia.org/wiki/Agra"
+   ],
+   "facts_used": "Siliņš: agrs early (definite fem. agrā), Agra calendar 1923, record 1st quarter 20th c.; Agrita listed under Agra with (?), record and calendar 1925; lv.wikipedia Agra disambiguation: the Indian city is spelt Āgra.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Selga",
+   "spellings": [
+    "Selga"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Selga",
+    "https://tezaurs.lv/selga",
+    "https://lv.wikipedia.org/wiki/Selga"
+   ],
+   "facts_used": "Siliņš/tezaurs: deep place at sea far from shore; dialect: low damp fertile place; ridge landforms in Karelia, Finland, Estonia; calendar 1910, Dobele 1925; lv.wikipedia Selga disambiguation: student corporation, Rīgas Radiorūpnīca radio models, a Soviet-era name of Stukmaņi, biscuits.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Mētra",
+   "spellings": [
+    "Mētra"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/M%C4%93tra",
+    "https://lv.wikipedia.org/wiki/M%C4%93tra"
+   ],
+   "facts_used": "Siliņš: compared with the noun mētra, possible record 4th quarter 19th c., no calendar year; lv.wikipedia Mētra: mint genus (Lamiaceae), leafy stem e.g. of bilberry, old Latvian name of the Emajõgi, other name of the Pubuļupe.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Kaiva",
+   "spellings": [
+    "Kaiva"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Kaiva",
+    "https://tezaurs.lv/kaiva",
+    "https://en.wiktionary.org/wiki/kaiva"
+   ],
+   "facts_used": "Siliņš: kaiva = seagull, Valmiera 3rd quarter 20th c., earliest possible calendar 1938; tezaurs: poetic, = kaija; Wiktionary: poetic alternative form of kaija.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "Look for the first literary use of kaiva as a name (poetry, 1930s calendars) in periodika.lv."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Saiva",
+   "spellings": [
+    "Saiva"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Saiva",
+    "https://tezaurs.lv/saiva"
+   ],
+   "facts_used": "Siliņš: possible link with saiva (spool), questioned; record 4th quarter 19th c.; calendar 1929; tezaurs: boat-shaped tool for winding thread in weaving or net mending.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Kalvis",
+   "spellings": [
+    "Kalvis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Kalvis",
+    "https://tezaurs.lv/kalvis"
+   ],
+   "facts_used": "Siliņš: kalvis metalworker; earliest possible calendar 1921, record 1939; tezaurs: poetic, = kalējs; craft words rotkalis, nažkalis, biskalis on the same page.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Vēsma",
+   "spellings": [
+    "Vēsma"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/V%C4%93sma",
+    "https://www.izpetnieks.lv/en/name/V%C4%93smi%C5%86a",
+    "https://tezaurs.lv/v%C4%93sma"
+   ],
+   "facts_used": "Siliņš: compared with vēsma, forms Vēsmēns, Vēsmulītis, Vēsmīšs, Vēšuks; calendar 1925; Vēsmiņa record 1935; tezaurs vēsma senses (gentle air flow, scent, faint new trend).",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": "Siliņš gives an earliest attestation coded \"R 1487\" for Vēsma; interpret the code in the printed dictionary (p. 322) before using it."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Dinārs",
+   "spellings": [
+    "Dinārs",
+    "Dinars"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Din%C4%81rs",
+    "https://en.wikipedia.org/wiki/Gold_dinar"
+   ],
+   "facts_used": "Siliņš: Latin dinarius, Arabic gold coin; record 1962; Wikipedia Gold dinar: from Latin denarius (silver coin), first issued AH 77 (696-697) by Abd al-Malik, copies of Byzantine solidi.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Vizbulīte",
+   "spellings": [
+    "Vizbulīte"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vizbul%C4%ABte",
+    "https://enciklopedija.lv/skirklis/96513"
+   ],
+   "facts_used": "Siliņš: plant blooming early in spring, character in Rainis Indulis un Ārija, record 1922, calendar 1908; Enciklopedija: written at Castagnola, published 1911, premiere Jaunais Rīgas teātris 3 Apr 1912, Vizbulīte a young girl contrasting with Ārija, loves Indulis, urges Ārija to seek him, killed on the commander's orders.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Rigonda",
+   "spellings": [
+    "Rigonda"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Rigonda",
+    "https://fantlab.ru/work292279",
+    "https://readli.net/poteryannaya-rodina/"
+   ],
+   "facts_used": "Siliņš: island name in a V. Lācis novel, no etymology, calendar 1968, Limbaži district 1969; fantlab: Latvian title Pazudusī dzimtene, island in a remote southern sea, Ako, whaling schooner, ch. 1-14 written 1940 and published 1941, ch. 15-18 written 1949-1952, full novel 1953; readli foreword: most written 1940, 14 of 16 planned chapters ready by mid-June.",
+   "reason": "All claims checked against the listed sources.",
+   "next_steps": ""
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Ilva",
+   "spellings": [
+    "Ilva"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Ilva"
+   ],
+   "facts_used": "Siliņš: origin unknown (fnd. ?), record 1943, calendar 1968.",
+   "reason": "No etymology and no concrete historical detail. Ilva is also the Latin name of Elba (Wikipedia), but no source links the personal name to it, so that would be an unrelated association.",
+   "next_steps": "Find who introduced Ilva into the 1968 calendar; check whether Ilvija/Ilvita/Ilveta derive from it; Latvian press of the 1960s on new calendar names."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Jogita",
+   "spellings": [
+    "Jogita"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Jogita"
+   ],
+   "facts_used": "Siliņš: link to Jogints questioned; records 1922, 1973, 1975; calendar 1964.",
+   "reason": "Origin explicitly uncertain and no historical detail found.",
+   "next_steps": "Check the Jogints entry and Lithuanian sources (vardai.vlkk.lt returned 403 to automated fetch) for Jog- stems."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Dins",
+   "spellings": [
+    "Dins"
+   ],
+   "status": "skipped",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Dins"
+   ],
+   "facts_used": "Catalogue gives two etymologies for Dina (Middle English deene, Old English denu); record 1969.",
+   "reason": "The catalogue text appears to mix Dins with Dina/Dean; etymology unreliable for a narrative.",
+   "next_steps": "Verify the printed Siliņš entry p. 99; check whether Dins is a Latvianised English Dean."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Aisma",
+   "spellings": [
+    "Aisma"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Aisma"
+   ],
+   "facts_used": "Siliņš: formation of unknown origin (?); Limbaži district 3rd quarter 20th c.; calendar 1932.",
+   "reason": "Origin unknown, no story found.",
+   "next_steps": "Search 1930s periodicals for the calendar that introduced Aisma."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Teiksma",
+   "spellings": [
+    "Teiksma"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Teiksma"
+   ],
+   "facts_used": "Siliņš: noun teiksma \"tale, legend\"; Rauna 2nd quarter 20th c.; calendar 1928.",
+   "reason": "Not enough for a second paragraph yet.",
+   "next_steps": "Look for a literary source of the name in the 1920s."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Skaidra",
+   "spellings": [
+    "Skaidra"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Skaidra",
+    "https://stacija.org/krustamie-vardi-1876-gada/"
+   ],
+   "facts_used": "Siliņš: skaidrs clear; record 4th quarter 19th c.; calendar 1928. The Auseklis 1879 list has Skaidrīte and Skaidris (not Skaidra).",
+   "reason": "Good candidate, not written for time; check first whether Skaidrīte belongs in the same family.",
+   "next_steps": "Write Skaidra (and possibly Skaidrīte) using the Auseklis list after checking the Skaidrīte izpetnieks entry."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Ildze",
+   "spellings": [
+    "Ildze"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Ildze"
+   ],
+   "facts_used": "Siliņš: record Mazsalaca 1834; calendar 1932; no origin text in the catalogue.",
+   "reason": "No origin given; possibly connected with Ilze (latvian-a batch), unverified.",
+   "next_steps": "Check the printed Siliņš p. 159."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Zīle",
+   "spellings": [
+    "Zīle"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Z%C4%ABle"
+   ],
+   "facts_used": "Siliņš: possibly the word zīle \"acorn\"; record 1544; calendar 1882.",
+   "reason": "Promising (1544 record) but naming motivation unspecified; not written for time.",
+   "next_steps": "Interpret the 1544 record in the printed dictionary p. 338."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Kalvi",
+   "spellings": [
+    "Kalvi"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Estonian calendar name; not shown to be the same as Latvian Kalvis, so not merged.",
+   "next_steps": "Estonian batch should check EKI for Kalvi."
+  },
+  {
+   "batch": "latvian-b",
+   "name": "Dailis",
+   "spellings": [
+    "Dailis",
+    "Daile"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Dailis"
+   ],
+   "facts_used": "Dailis: masculine of Daila, record Riga 1922, calendar 1910.",
+   "reason": "Not merged into Daila because the Daila text uses Daila-specific dates; Daile has no origin text.",
+   "next_steps": "Write Dailis as its own entry if desired."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Traidenis",
+   "spellings": [
+    "Traidenis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/t/traidenis",
+    "https://lt.wikipedia.org/wiki/Traidenis",
+    "https://en.wikipedia.org/wiki/Traidenis"
+   ],
+   "facts_used": "Derived from verb traidinti (to chase, drive about); chronicle forms Troiden/Thoreiden/Traydene/Trojden; Grand Duke c.1269-1282 from Kernave; pagan, four brothers Orthodox; victories at Karuse 1270 and Aizkraukle 1279; first ruler after Mindaugas to die naturally.",
+   "reason": "",
+   "next_steps": "Confirm the traidinti etymology in vardai.vlkk.lt (403 for automated fetch) or Zinkevicius."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Butigeidas",
+   "spellings": [
+    "Butigeidas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/b/butigeidas",
+    "https://en.wikipedia.org/wiki/Butigeidis"
+   ],
+   "facts_used": "bu- (buti) + geid- (geisti); forms Budikid/Butegeyde/Butygejd; Grand Duke c.1285-1290/91, probably son of Traidenis; Peter of Dusburg \"king of the Lithuanians\"; first chain of castles along the Nemunas.",
+   "reason": "",
+   "next_steps": "VLE article on Butigeidis for an independent check of reign dates."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Kęsgailas",
+   "spellings": [
+    "Kęsgailas",
+    "Kęsgailė"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/k/kesgailas",
+    "https://www.vle.lt/straipsnis/kesgailos/"
+   ],
+   "facts_used": "kęs- (kęsti, endure) + gail- (gailas, strong); Kęsgailos family from Deltuva; Mykolas Valimantaitis companion of Vytautas; 34 manors; last Stanislovas d.1554, friend of Sigismund Augustus, backed Barbara Radziwill marriage.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Goštautas",
+   "spellings": [
+    "Goštautas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/g/gostautas",
+    "https://www.vle.lt/straipsnis/gostautai/"
+   ],
+   "facts_used": "From the Goštautai surname; gos-/goš- (gosti, long for) + taut- (tauta); folk name of Lychnis chalcedonica; Andrius Vilnius elder 1387-89, Salynas witness 1398; line extinct 1542; estates largely to the Radziwills.",
+   "reason": "",
+   "next_steps": "Albertas Goštautas (chancellor) could add a second story; VLE has a separate article."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Dausprungas",
+   "spellings": [
+    "Dausprungas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/d/dausprungas",
+    "https://en.wikipedia.org/wiki/Dausprungas"
+   ],
+   "facts_used": "dau- (daug) + sprung- (springti, sprunga run/flee); Ruthenian Dovsprunk; only known brother of Mindaugas; 1219 treaty among five senior dukes; died before 1238; presumed father of Tautvilas and Edivydas.",
+   "reason": "",
+   "next_steps": "VLE entry for Dausprungas to cross-check."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Daugirutis",
+   "spellings": [
+    "Daugirutis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/d/daugirutis",
+    "https://en.wikipedia.org/wiki/Daugirutis"
+   ],
+   "facts_used": "Derivative of Daugiras: daug- + gir- (girti), much praised; Henry of Livonia forms Dangerutis/Daugeruthe; daughter married Visvaldis of Jersika; 1213 Novgorod trip, captured, held at Wenden/Cesis, suicide.",
+   "reason": "en.wikipedia article lacks inline citations; facts are standard but a VLE check is advisable.",
+   "next_steps": "Check VLE \"Daugirutis\" and the Chronicle of Henry of Livonia."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Vaidevutis",
+   "spellings": [
+    "Vaidevutis",
+    "Vaidivutis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/v/vaidevutis",
+    "https://en.wikipedia.org/wiki/Widewuto"
+   ],
+   "facts_used": "Lithuanianised Prussian name, vaidevis \"knowing\"; modern emendation; legend of Widewuto and Bruteno from Stella, Grunau, Lucas David; laws; self-immolation at Romuva aged 116; regarded as legendary.",
+   "reason": "Vaidivutis treated as a spelling variant (same date 05-21) without a separate source.",
+   "next_steps": "Confirm the Vaidivutis variant in vardai.vlkk.lt."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Ginvilas",
+   "spellings": [
+    "Ginvilas",
+    "Ginvilė"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/g/ginvilas",
+    "https://lt.wikipedia.org/wiki/Ginvilas"
+   ],
+   "facts_used": "gin- (ginti) + vil- (viltis); Ginvilas Trakai elder 1398, Salynas witness, sent by Vytautas against Kaributas; son Načkus Ginvilaitis.",
+   "reason": "",
+   "next_steps": "Petrauskas, Lietuvos diduomenė XIV a. pabaigoje - XV a., for more detail."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Grigalius",
+   "spellings": [
+    "Grigalius"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/gregory",
+    "https://en.wikipedia.org/wiki/Pope_Gregory_I"
+   ],
+   "facts_used": "Gregorius < Gregorios, watchful/awaken; Gregory the Great prefect of Rome, pope 3 Sep 590 - 12 Mar 604; Latin feast 3 Sep, Eastern 12 Mar (both LT name days); Augustine mission; Gregorian chant standardised about three centuries later.",
+   "reason": "LV/EE forms not included.",
+   "next_steps": ""
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Herbertas",
+   "spellings": [
+    "Herbertas",
+    "Herberts",
+    "Herbert"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/herbert",
+    "https://en.wikipedia.org/wiki/Heribert_of_Cologne"
+   ],
+   "facts_used": "heri army + beraht bright; Merovingian Charibert; Normans to England, rare then revived 19th c.; St Heribert of Cologne: chancellor of Otto III, archbishop 999, detained 1002 by Henry II, later adviser; founded Deutz; died 16 March 1021.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Eudokija",
+   "spellings": [
+    "Eudokija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/eudocia",
+    "https://en.wikipedia.org/wiki/Aelia_Eudocia"
+   ],
+   "facts_used": "eudokeo to be well pleased (eu + dokeo); Byzantine royalty; Empress Eudocia born Athenais, daughter of Leontius, baptised before marriage to Theodosius II 7 June 421; Homeric centos, Martyrdom of St Cyprian; Jerusalem; died 460.",
+   "reason": "LT name day 1 March probably refers to another St Eudokia; not stated in the text.",
+   "next_steps": "A source on St Eudokia of Heliopolis (1 March) could add a calendar detail."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Girėnas",
+   "spellings": [
+    "Girėnas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/g/girenas",
+    "https://www.vle.lt/straipsnis/stasys-girenas/"
+   ],
+   "facts_used": "gir- (giria forest), forest dweller; surname of the aviator; Stasys Girėnas b.1893 Vytogala, to USA 1910; Lituanica 15-17 July 1933, crash 0:36 near Soldin (Myślibórz), 6411 km in 37 h 11 min; LT name day 17 July.",
+   "reason": "No source says the calendar date was chosen for the crash; the text states only that the dates coincide.",
+   "next_steps": "Find when Girėnas entered the LT calendar and why."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Servacijus",
+   "spellings": [
+    "Servacijus"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/servatius",
+    "https://en.wikipedia.org/wiki/Servatius_of_Tongeren",
+    "https://en.wikipedia.org/wiki/Ice_Saints"
+   ],
+   "facts_used": "Root servo; Servaas/Servais/Sarbatios; bishop of Tongeren; Serdica 343 against Arians; died Maastricht 13 May 384 by tradition; basilica, patron; Ice Saint, last spring frosts belief.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Ubaldas",
+   "spellings": [
+    "Ubaldas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ubaldo",
+    "https://en.wikipedia.org/wiki/Ubald_of_Gubbio"
+   ],
+   "facts_used": "Hugbald (mind/spirit + bold); Ubaldo Baldassini raised by uncle bishop; bishop c.1128; 1151 victory over Perugia-led alliance; 1155 Barbarossa spared Gubbio; died 16 May 1160; canonised 1192; Corsa dei Ceri.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Bernardinas",
+   "spellings": [
+    "Bernardinas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/bernardino",
+    "https://www.behindthename.com/name/bernard",
+    "https://en.wikipedia.org/wiki/Bernardino_of_Siena",
+    "https://www.vle.lt/straipsnis/bernardinai/"
+   ],
+   "facts_used": "Diminutive of Bernardo; bern bear + hart; Bernardino of Siena 1380-1444, plague nursing c.1400, Observants 1403, IHS, died in L Aquila, canonised 1450, feast 20 May; Observants called Bernardines in Poland; Lithuanian bernardinai named after him.",
+   "reason": "LV Bernardina (08-20) excluded: its date points to Bernard of Clairvaux, a different story.",
+   "next_steps": "Arrival of the Bernardines in Vilnius (1469) needs a source."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Kolumbanas",
+   "spellings": [
+    "Kolumbanas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Columbanus"
+   ],
+   "facts_used": "Latinised Colmán, little dove; born Leinster c.543, Bangor; c.590 to Gaul with 12 companions; Annegray, Luxeuil, Fontaine; Easter dispute and Brunhilda, expelled; Bobbio 614; died Nov 615; feast 23 Nov.",
+   "reason": "Kolumbas (same date 11-23) and Kolumba (09-20) left out: not verified as the same name.",
+   "next_steps": "Check whether LT Kolumbas is a variant of Kolumbanas or of Columba of Iona."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Hugonas",
+   "spellings": [
+    "Hugonas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/hugh",
+    "https://en.wikipedia.org/wiki/Hugh_of_Ch%C3%A2teauneuf"
+   ],
+   "facts_used": "hug mind/thought/spirit; Frankish/French nobility, Hugh Capet; Hugh of Grenoble bishop 1080, Cluny attempt, 1084 Bruno and six companions at Chartreuse (Carthusians), died 1132, canonised 1134, feast 1 April.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Svirgailas",
+   "spellings": [
+    "Svirgailas"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/s/svirgailas"
+   ],
+   "facts_used": "",
+   "reason": "svir- (svirti, svarbus) + gail- (gailas strong) found, but no verified historical bearer for a second paragraph.",
+   "next_steps": "Search VLE/Petrauskas for a 14th-15th c. noble named Svirgaila."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Vaišvilas",
+   "spellings": [
+    "Vaišvilas"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/v/vaisvilas"
+   ],
+   "facts_used": "",
+   "reason": "vaiš- (vaišės) + vil- (viltis) found; no verified bearer (Vaišelga is a different name).",
+   "next_steps": "Look for a historical Vaišvilas in GDL documents; VLE."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Daugaudas",
+   "spellings": [
+    "Daugaudas"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/d/daugaudas"
+   ],
+   "facts_used": "",
+   "reason": "dau- (daug) + gaud- (gaudyti, gauti) \"receiving much\" found; no historical detail.",
+   "next_steps": "Search for an attested bearer or the year the name entered the LT calendar."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Mantigirdas",
+   "spellings": [
+    "Mantigirdas"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/m/mantigirdas"
+   ],
+   "facts_used": "",
+   "reason": "mant- (mantus clever) + gird- (girdėti) \"famous for his mind\" found; no bearer.",
+   "next_steps": "Check whether Mantigirdas appears in 13th-14th c. sources (Būga, Zinkevičius)."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Normantas",
+   "spellings": [
+    "Normantas"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/n/normantas"
+   ],
+   "facts_used": "",
+   "reason": "nor- (norėti) + mant- (mantus) found; no bearer; LV Normants/Normanta not checked.",
+   "next_steps": "izpetnieks.lv for LV Normants; a historical Lithuanian bearer."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Sangailas",
+   "spellings": [
+    "Sangailas"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/s/sangailas"
+   ],
+   "facts_used": "",
+   "reason": "san- (prefix, = su-) + gail- (gailas strong) found; no bearer. Sangailė (feminine) also in calendar.",
+   "next_steps": "Look for nobles named Sangaila/Sungaila and whether it is the same name."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Vaidutis",
+   "spellings": [
+    "Vaidutis"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/v/vaidutis"
+   ],
+   "facts_used": "",
+   "reason": "Only \"derivative of Vaidas, short form of Vaid- names\"; too thin for a history.",
+   "next_steps": "Combine with the Vaidas family if that is researched later."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Žibutė",
+   "spellings": [
+    "Žibutė"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/z/zibute"
+   ],
+   "facts_used": "",
+   "reason": "From the flower name žibutė; no verified historical detail (first bearer, calendar year).",
+   "next_steps": "Find when Žibutė entered LT calendars or a literary source."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Sonata",
+   "spellings": [
+    "Sonata"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/s/sonata"
+   ],
+   "facts_used": "",
+   "reason": "From Latin sonare; no source on how it became a Lithuanian given name.",
+   "next_steps": "Search Lithuanian onomastics on 20th-century new names."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Ramutis",
+   "spellings": [
+    "Ramutis"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.tv3.lt/vardadieniai/r/ramutis"
+   ],
+   "facts_used": "",
+   "reason": "Derivative of Ramas/Ramys, from ramus (calm); no historical detail.",
+   "next_steps": "Find literary or calendar history of Ramutis/Ramutė."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Žydris",
+   "spellings": [
+    "Žydris"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "tv3.lt has no Žydris entry; vardai.vlkk.lt returned 403 to automated fetch.",
+   "next_steps": "Open vardai.vlkk.lt manually."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Radegunda",
+   "spellings": [
+    "Radegunda"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Radegund"
+   ],
+   "facts_used": "",
+   "reason": "Saint story verified (Thuringian princess, Holy Cross abbey at Poitiers, Justin II relic, Vexilla Regis, died 13 Aug 587) but no source found for the etymology of the name.",
+   "next_steps": "behindthename has no definition; try de.wikipedia or a Germanic name dictionary."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Girkantas",
+   "spellings": [
+    "Girkantas"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched (time).",
+   "next_steps": "tv3.lt/vardadieniai/g/girkantas for the stems."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Narvydas",
+   "spellings": [
+    "Narvydas"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched (time). Calendar entry has a leading space.",
+   "next_steps": "tv3.lt for the stems."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Rimtenis",
+   "spellings": [
+    "Rimtenis"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched (time). Calendar entry has a trailing space.",
+   "next_steps": "tv3.lt for the stems."
+  },
+  {
+   "batch": "lithuanian",
+   "name": "Laimonas",
+   "spellings": [
+    "Laimonas"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; LV Laimonis/Laimons/Laimonds also exist and may belong to the Latvian batches.",
+   "next_steps": "tv3.lt and izpetnieks.lv."
+  },
+  {
+   "batch": "modern",
+   "name": "Raiens",
+   "spellings": [
+    "Raiens"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ryan",
+    "https://www.izpetnieks.lv/en/name/raiens",
+    "https://en.wikipedia.org/wiki/Ryan%27s_Daughter"
+   ],
+   "facts_used": "Ryan from Irish surname O Riain; Rian meaning uncertain, often 'little king' from ri; US rise in 1950s-60s, accelerated after David Lean's Ryan's Daughter (1970, Dingle Peninsula, County Kerry, WWI), top-20 for three decades.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Rajens",
+   "spellings": [
+    "Rajens",
+    "Raens"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/rajens",
+    "https://www.izpetnieks.lv/en/name/raens"
+   ],
+   "facts_used": "",
+   "reason": "Same name day as Raiens (29 July) and very likely Ryan renderings, but izpetnieks.lv says 'origin not established' for both; not merged without a source.",
+   "next_steps": "Find a Latvian source (Siliņš dictionary, LVA/VVC orthography guidance on English names) that explicitly links Rajens/Raens to Ryan; then add them to the Raiens entry."
+  },
+  {
+   "batch": "modern",
+   "name": "Elisa",
+   "spellings": [
+    "Elisa",
+    "Elise",
+    "Eliza"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/elisa",
+    "https://www.behindthename.com/name/elizabeth",
+    "https://en.wikipedia.org/wiki/F%C3%BCr_Elise"
+   ],
+   "facts_used": "Short forms of Elisabeth (btn elise/eliza pages also checked); Elisheva 'my God is an oath', wife of Aaron, mother of John the Baptist; Für Elise dated 27 April 1810, published 1867 by Ludwig Nohl from lost autograph, Therese Malfatti/Unger misreading theory vs Elisabeth Röckel.",
+   "reason": "",
+   "next_steps": "Elize, Eliss, Elizete (same LV day 2 Sept) not included: no source checked for them."
+  },
+  {
+   "batch": "modern",
+   "name": "Reičela",
+   "spellings": [
+    "Reičela",
+    "Reičele"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/rachel",
+    "https://www.izpetnieks.lv/en/name/rei%C4%8Dela",
+    "https://en.wikipedia.org/wiki/Rachel"
+   ],
+   "facts_used": "Latvianized Rachel (izpetnieks for both spellings); Hebrew Rahel 'ewe'; common Jewish name in Middle Ages, English Christian use after Reformation; Jacob at the well, 7+7 years, Leah substitution, mother of Joseph and Benjamin, died at Benjamin's birth, tomb near Bethlehem.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Noa",
+   "spellings": [
+    "Noa"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/noah-2",
+    "https://www.izpetnieks.lv/en/name/noa",
+    "https://en.wikipedia.org/wiki/Daughters_of_Zelophehad"
+   ],
+   "facts_used": "Feminine Noa from Hebrew No'a 'motion', different spelling from Noah; izpetnieks cannot choose between the two; Israeli popularity (rank only, no figures); daughters of Zelophehad petition (Numbers 27, 36).",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Olivia",
+   "spellings": [
+    "Olivia",
+    "Olīvija",
+    "Olivija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/olivia",
+    "https://en.wikipedia.org/wiki/Twelfth_Night"
+   ],
+   "facts_used": "Shakespeare used the spelling in Twelfth Night, name rare then; may derive from Oliva/Oliver or Latin oliva; English use since 18th c., popular in 2nd half of 20th c.; Olivia the countess, Viola as Cesario, marries Sebastian; first recorded performance 2 Feb 1602 Middle Temple Hall (John Manningham).",
+   "reason": "Olīvija had only a short summary (not a reviewed key); included as same family. Oliva/Olīva kept out (separate Latin name, saint).",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Dilans",
+   "spellings": [
+    "Dilans"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/dylan",
+    "https://www.izpetnieks.lv/en/name/dilans"
+   ],
+   "facts_used": "Welsh dy + llanw; Mabinogi Fourth Branch: son of Arianrhod, twin of Lleu, swam like a fish after baptism, killed by uncle Gofannon; possible sea-god theory with no record; Dylan Thomas; Bob Dylan took stage name from the poet's first name; spread beyond Wales in 2nd half of 20th c.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Eimija",
+   "spellings": [
+    "Eimija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/amy",
+    "https://www.izpetnieks.lv/en/name/eimija",
+    "https://en.wikipedia.org/wiki/Little_Women"
+   ],
+   "facts_used": "Amy from Old French Amee, Latin Amata 'beloved'; medieval, revived 19th c.; Amy March, youngest sister and artist in Little Women (1868, 1869), inspired by May Alcott who illustrated first edition, idealised.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Emija",
+   "spellings": [
+    "Emija"
+   ],
+   "status": "skipped",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/emija"
+   ],
+   "facts_used": "",
+   "reason": "Same day as Eimija, but izpetnieks says origin not established; it could equally be Amy, Emmy or a short form of Emīlija/Emma.",
+   "next_steps": "Check Siliņš dictionary print entry or LV orthography guidance for whether Emija renders Amy or Emmy."
+  },
+  {
+   "batch": "modern",
+   "name": "Eliots",
+   "spellings": [
+    "Eliots"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/eliots",
+    "https://www.behindthename.com/name/elliott",
+    "https://en.wikipedia.org/wiki/George_Eliot"
+   ],
+   "facts_used": "Eliot variant of surname Elliott from medieval diminutive of Elias (Eliyyahu); Mary Ann Evans' pen name George Eliot: reasons, George from G. H. Lewes, Eliot 'mouth-filling, easily pronounced'; Adam Bede 1859, Middlemarch 1871-72.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Vendija",
+   "spellings": [
+    "Vendija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/wendy",
+    "https://en.wikipedia.org/wiki/Wendy_(given_name)",
+    "https://www.izpetnieks.lv/en/name/vendija"
+   ],
+   "facts_used": "Rare before Peter Pan (surname, place name, male name, possibly Gwendolen); Peter Pan 1904, Peter and Wendy 1911; Margaret Henley 'my friendy' -> 'fwendy', died aged five of meningitis; Siliņš records Vendija in Riga 1975.",
+   "reason": "Vendijs (male, same day) and Venda not included.",
+   "next_steps": "Vendijs: check whether Siliņš treats it as a masculine form of Vendija."
+  },
+  {
+   "batch": "modern",
+   "name": "Darens",
+   "spellings": [
+    "Darens"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/darren",
+    "https://www.izpetnieks.lv/en/name/darens"
+   ],
+   "facts_used": "Meaning uncertain, Irish surname or Darrell variant; Zane Grey's 'Daren' in The Day of the Beast (1922); Darren McGavin late 1950s; Darrin Stephens in Bewitched 1960s.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Naomi",
+   "spellings": [
+    "Naomi"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/naomi-1",
+    "https://www.izpetnieks.lv/en/name/naomi",
+    "https://en.wikipedia.org/wiki/Book_of_Ruth"
+   ],
+   "facts_used": "Hebrew Na'omi 'my pleasantness' from na'am; Jewish name, English Christian use after Reformation; Book of Ruth: Elimelech, Moab, Orpah stays, Ruth follows, 'call me Mara', Ruth marries Boaz, great-grandmother of David.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Tailers",
+   "spellings": [
+    "Tailers"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/tyler",
+    "https://www.izpetnieks.lv/en/name/tailers",
+    "https://en.wikipedia.org/wiki/Wat_Tyler"
+   ],
+   "facts_used": "Occupational surname 'tiler', Old English tigele; Wat Tyler 1381 Peasants' Revolt, Kent to London, poll tax, Smithfield 15 June 1381, struck by William Walworth, killed, revolt collapsed; surname may reflect occupation.",
+   "reason": "Did not state when Tyler became a first name (no source).",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Džastins",
+   "spellings": [
+    "Džastins",
+    "Džastina",
+    "Džastīne"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/justin",
+    "https://www.izpetnieks.lv/en/name/d%C5%BEastins",
+    "https://en.wikipedia.org/wiki/Justin_Martyr"
+   ],
+   "facts_used": "Latin Iustinus from Iustus; English occasional since late Middle Ages, common in 2nd half 20th c.; Justin Martyr: Flavia Neapolis, 'true philosophy', school in Rome, Apologies, tried with six companions before Junius Rusticus c. 165, beheaded, feast 1 June.",
+   "reason": "Justins (LV 28 Feb), Justīne/Justina not included (separate older Latvian calendar forms; not checked).",
+   "next_steps": "Džastīne not checked on izpetnieks individually; Džastina confirmed as Justina rendering."
+  },
+  {
+   "batch": "modern",
+   "name": "Kimberlija",
+   "spellings": [
+    "Kimberlija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/kimberly",
+    "https://www.izpetnieks.lv/en/name/kimberlija",
+    "https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape"
+   ],
+   "facts_used": "From Kimberley, South Africa, named after Lord Kimberley; given name since mid-1900s; diamonds on Colesberg Kopje 1871, New Rush renamed Kimberley by proclamation of 5 July 1873 after John Wodehouse, 1st Earl of Kimberley, Secretary of State for the Colonies; Big Hole 1871-1914; siege 14 Oct 1899 - 15 Feb 1900.",
+   "reason": "Dropped 'relief by French' (not in source).",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Džeks",
+   "spellings": [
+    "Džeks"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/jack",
+    "https://www.izpetnieks.lv/en/name/d%C5%BEeks"
+   ],
+   "facts_used": "Jackin/Jankin diminutive of John, possible Jacques influence; slang 'man' (jack-o'-lantern, jack-in-the-box, lumberjack); fairy tales and rhymes; UK: given more often than John since 1990s.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Ronja",
+   "spellings": [
+    "Ronja"
+   ],
+   "status": "written",
+   "sources": [
+    "https://snl.no/Ronja",
+    "https://www.astridlindgren.com/no/karaktarerna/ronja/historien-bakom-ronja",
+    "https://en.wikipedia.org/wiki/Ronja,_the_Robber%27s_Daughter"
+   ],
+   "facts_used": "Lindgren built it from the Sami lake name Juronjaure (Ju-RONJA-ure), -jaure = lake (SNL); also Russian pet form of Veronika; Ronja rövardotter 1981, her last novel; names from her school atlas, Juronjaure-kåtan NW of Arjeplog, robbers from lakes; practically unused before; 1984 Tage Danielsson film; rose in Sweden/Norway.",
+   "reason": "Did not claim Lindgren 'invented' the name outright, since the Russian pet form exists independently.",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Skārleta",
+   "spellings": [
+    "Skārleta"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/scarlett",
+    "https://en.wikipedia.org/wiki/Scarlett_O%27Hara"
+   ],
+   "facts_used": "Surname for seller/maker of scarlet cloth, maybe Persian saqrelat; heroine called Pansy in drafts, Scarlett chosen just before print; Katie Scarlett named after grandmother; GWTW 1936, film 1939 Vivien Leigh; uncommon until 21st c.",
+   "reason": "izpetnieks says origin of Skārleta not established, so text says the route of the Latvian form is unstudied. 'The colour took its name from the cloth' is general etymology implied by btn (scarlet = a cloth); low risk but could be backed by an OED/Etymonline link.",
+   "next_steps": "Add https://www.etymonline.com/word/scarlet as a supporting source if the colour/cloth statement should be explicitly sourced. Skarleta (short a) is a separate izpetnieks entry, not in calendar."
+  },
+  {
+   "batch": "modern",
+   "name": "Brenda",
+   "spellings": [
+    "Brenda"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/brenda",
+    "https://www.izpetnieks.lv/en/name/brenda",
+    "https://en.wikipedia.org/wiki/The_Pirate_(novel)"
+   ],
+   "facts_used": "Feminine of Old Norse Brandr, uncertain etymology, sometimes feminine of Brendan; common from 20th c. Britain then US; Scott's The Pirate (end 1821, dated 1822), Shetland late 17th c., Minna and Brenda Troil, Cleveland the pirate, Brenda marries Mordaunt.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Brendons",
+   "spellings": [
+    "Brendons"
+   ],
+   "status": "skipped",
+   "sources": [
+    "https://www.behindthename.com/name/brandon",
+    "https://www.izpetnieks.lv/en/name/brendons"
+   ],
+   "facts_used": "",
+   "reason": "Etymology verified (Brandon, 'broom hill'), but the only history is TV popularity (Brandon Cruz 1969, Beverly Hills 90210), which would be a celebrity list; no worthwhile second-paragraph story found.",
+   "next_steps": "Look for the English place Brandon (Suffolk/Durham) in Domesday or the surname's earliest bearers (e.g. Charles Brandon, Duke of Suffolk) in a reliable source."
+  },
+  {
+   "batch": "modern",
+   "name": "Ariels",
+   "spellings": [
+    "Ariels",
+    "Ariela"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ariel",
+    "https://www.izpetnieks.lv/en/name/ariels",
+    "https://en.wikipedia.org/wiki/Ariel_(moon)"
+   ],
+   "facts_used": "Hebrew 'lion of God'; poetic name for Jerusalem; feminine use since 1980s, Little Mermaid 1989; Tempest 1611 spirit serving Prospero; Pope's Rape of the Lock 1712 sylph; Uranus moon discovered by Lassell 24 Oct 1851, named 1852 on John Herschel's suggestion after both characters.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Hārvijs",
+   "spellings": [
+    "Hārvijs",
+    "Harvijs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/harvey",
+    "https://www.izpetnieks.lv/en/name/h%C4%81rvijs",
+    "https://en.wikipedia.org/wiki/Herv%C3%A9_(saint)"
+   ],
+   "facts_used": "Breton Haerviu/Hoiarnviu, hoiarn or air + viu; brought to England by Bretons after Norman Conquest, rare later, revived 19th c. partly via surname; St Hervé born blind c. 521, hermit and bard, wolf replaced ox at the plough, buried Lanhouarneau, feast 17 June, patron of the blind.",
+   "reason": "Death date conflicts in Wikipedia (556 vs c. 575), so omitted.",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Ostins",
+   "spellings": [
+    "Ostins"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/austin",
+    "https://www.izpetnieks.lv/en/name/ostins",
+    "https://en.wikipedia.org/wiki/Augustine_of_Canterbury"
+   ],
+   "facts_used": "Austin medieval contraction of Augustine; Augustinus/Augustus 'venerable'; also surname; Augustine of Canterbury chosen 595, landed in Kent 597, Æthelberht, first Archbishop of Canterbury, died probably 604.",
+   "reason": "No source found that Augustine of Canterbury was called 'Austin'; text presents him only as the emblematic bearer of the full form in England.",
+   "next_steps": "A source on medieval English 'Austin' for Augustinian friars (Austin Friars) would strengthen the link."
+  },
+  {
+   "batch": "modern",
+   "name": "Rojs",
+   "spellings": [
+    "Rojs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/roy",
+    "https://www.izpetnieks.lv/en/name/rojs",
+    "https://en.wikipedia.org/wiki/Rob_Roy_MacGregor"
+   ],
+   "facts_used": "Anglicized Gaelic Ruadh 'red'; folk association with French roi; Siliņš: third quarter of 20th c. in Latvia; Rob Roy MacGregor 1671-1734, Raibeart Ruadh for red hair, dispute with Duke of Montrose, outlaw, raids, surrendered 1722, pardoned 1727; Scott's Rob Roy 1817.",
+   "reason": "Removed 'cattle dealer' (not stated in the opened source).",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Kintija",
+   "spellings": [
+    "Kintija"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/cynthia",
+    "https://www.izpetnieks.lv/en/name/kintija",
+    "https://en.wikipedia.org/wiki/Mount_Cynthus"
+   ],
+   "facts_used": "Kynthia/Cynthia 'woman from Cynthus', epithet of Artemis; given name from Renaissance, common in English 19th c.; Siliņš: first record 1969 Dobele district; Mount Cynthus 113 m on Delos; Leto shunned by Hera gave birth to Apollo and Artemis; Cynthius/Cynthia; also applied to Selene and Diana.",
+   "reason": "Cintija (same LV day) excluded: izpetnieks says its origin is not established and does not link it to Kintija.",
+   "next_steps": "Find a source for Cintija (Siliņš p. 292)."
+  },
+  {
+   "batch": "modern",
+   "name": "Mariuss",
+   "spellings": [
+    "Mariuss"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/marius",
+    "https://www.izpetnieks.lv/en/name/mariuss",
+    "https://en.wikipedia.org/wiki/Gaius_Marius"
+   ],
+   "facts_used": "Roman family name, Mars or mas/maris; occasionally masculine of Maria; Siliņš: recorded from 1922; Gaius Marius c.157-86 BC, near Arpinum, novus homo, consul seven times, Jugurthine War, Aquae Sextiae 102 and Vercellae 101 BC, uncle of Julius Caesar by marriage.",
+   "reason": "Marian army reforms omitted (modern historians reject them). LT Marius not included (different calendar, not checked).",
+   "next_steps": "LT 'Marius' (19 Jan) could share this entry if a Lithuanian source (vardai.vlkk.lt) confirms the same origin."
+  },
+  {
+   "batch": "modern",
+   "name": "Ginters",
+   "spellings": [
+    "Ginters"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/gunther",
+    "https://www.izpetnieks.lv/en/name/ginters",
+    "https://en.wikipedia.org/wiki/Gundahar"
+   ],
+   "facts_used": "Gundahar gunda 'war' + heri 'army', cognate Gunnar; Siliņš alternative reading; calendar 1763, written record 1891; first attested Burgundian king, settled on left bank of Rhine after 413, Worms (many scholars), destroyed c. 436 by Aetius with Hunnic mercenaries; Nibelungenlied Gunther dies at Attila's court; Norse Gunnar son of Gjuki.",
+   "reason": "",
+   "next_steps": ""
+  },
+  {
+   "batch": "modern",
+   "name": "Ārons",
+   "spellings": [
+    "Ārons",
+    "Arons"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/aaron",
+    "https://www.izpetnieks.lv/en/name/%C4%81rons"
+   ],
+   "facts_used": "Aharon, most likely unknown Egyptian origin, Hebrew theories 'high mountain'/'exalted'; English use since Reformation; LV calendar 1817, written records first quarter 20th c.; Moses' elder brother, spokesman before Pharaoh, first high priest at Sinai, priesthood promised to descendants.",
+   "reason": "Golden calf story not used (not in opened source).",
+   "next_steps": "Arons (short a) not separately checked on izpetnieks."
+  },
+  {
+   "batch": "modern",
+   "name": "Railija",
+   "spellings": [
+    "Railija",
+    "Railijs"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/riley"
+   ],
+   "facts_used": "Riley: Irish (variant of Reilly) or English place name 'rye clearing'; rose in US 1980s-90s, more common for girls since 2003.",
+   "reason": "Etymology only; no verified historical story; Latvian link not checked on izpetnieks.",
+   "next_steps": "Check izpetnieks.lv/en/name/railija; search for the O'Reilly (Ó Raghallaigh) clan of Breifne history or the origin of the phrase 'the life of Riley' in a reliable source."
+  },
+  {
+   "batch": "modern",
+   "name": "Heilija",
+   "spellings": [
+    "Heilija"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/hayley"
+   ],
+   "facts_used": "Hayley: English surname from a town name 'hay clearing'; popularised by actress Hayley Mills (b. 1946).",
+   "reason": "Only a celebrity-driven history; Latvian link not checked.",
+   "next_steps": "Verify that Hayley Mills's name came from her mother Mary Hayley Bell (Wikipedia: Hayley Mills); check izpetnieks Heilija."
+  },
+  {
+   "batch": "modern",
+   "name": "Meja",
+   "spellings": [
+    "Meja"
+   ],
+   "status": "skipped",
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/meja"
+   ],
+   "facts_used": "",
+   "reason": "izpetnieks: modern Swedish name possibly from Low German diminutive of megin-names, but 'not known whether this origin applies to the Latvian name'; could also be Maja/May.",
+   "next_steps": "Look for Swedish name-day almanac history of Meja (Svenska Akademien / Namnlängdskommittén)."
+  },
+  {
+   "batch": "modern",
+   "name": "Karims",
+   "spellings": [
+    "Karims",
+    "Karima"
+   ],
+   "status": "needs_more",
+   "sources": [
+    "https://www.behindthename.com/name/karim"
+   ],
+   "facts_used": "Arabic 'generous, noble', root karuma; al-Karim one of the 99 names of God; feminine Karima.",
+   "reason": "No concrete historical story verified yet.",
+   "next_steps": "Check izpetnieks Karims; possible story: Karim Khan Zand (18th-c. ruler of Iran) via Britannica/Wikipedia."
+  },
+  {
+   "batch": "modern",
+   "name": "Eliana",
+   "spellings": [
+    "Eliana"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched in this round (time).",
+   "next_steps": "behindthename eliana-1 (Hebrew 'my God has answered') vs eliana-2 (Latin Aeliana); izpetnieks Eliana."
+  },
+  {
+   "batch": "modern",
+   "name": "Maiks",
+   "spellings": [
+    "Maiks",
+    "Maikls"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Michael family belongs to classics-m (Mikus/Miķelis); avoided overlap.",
+   "next_steps": "Coordinate with classics-m batch."
+  },
+  {
+   "batch": "modern",
+   "name": "Karens",
+   "spellings": [
+    "Karens",
+    "Karena"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Karens is masculine in LV (-s) and may be the Armenian male name Karen rather than Danish Karen (Katherine); not researched.",
+   "next_steps": "izpetnieks Karens/Karena; behindthename karen-2 (Armenian)."
+  },
+  {
+   "batch": "modern",
+   "name": "Demija",
+   "spellings": [
+    "Demija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched (likely Demi, short form of Demetria).",
+   "next_steps": "izpetnieks Demija; behindthename demi."
+  },
+  {
+   "batch": "modern",
+   "name": "Aviva",
+   "spellings": [
+    "Aviva"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched.",
+   "next_steps": "behindthename aviva (Hebrew 'spring'); possible link to Tel Aviv name (Sokolow's translation of Herzl's Altneuland) via Wikipedia Tel Aviv."
+  },
+  {
+   "batch": "modern",
+   "name": "Keisija",
+   "spellings": [
+    "Keisija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched.",
+   "next_steps": "behindthename casey; story: Casey Jones (engineer, 1900) via Wikipedia."
+  },
+  {
+   "batch": "modern",
+   "name": "Kortnija",
+   "spellings": [
+    "Kortnija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched.",
+   "next_steps": "behindthename courtney (Norman surname from Courtenay place); Courtenay family (Earls of Devon) on Wikipedia."
+  },
+  {
+   "batch": "modern",
+   "name": "Uma",
+   "spellings": [
+    "Uma"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched.",
+   "next_steps": "behindthename uma (Sanskrit, epithet of Parvati; Kumarasambhava explanation 'u ma' = 'O don't')."
+  },
+  {
+   "batch": "modern",
+   "name": "Rubens",
+   "spellings": [
+    "Rubens"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; could be Reuben (biblical) or derived from the painter's surname.",
+   "next_steps": "izpetnieks Rubens; behindthename reuben."
+  },
+  {
+   "batch": "slavic",
+   "name": "Sergejs",
+   "spellings": [
+    "Sergejs",
+    "Sergijus"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/sergius",
+    "https://www.behindthename.com/name/sergey",
+    "https://en.wikipedia.org/wiki/Sergius_of_Radonezh"
+   ],
+   "facts_used": "Latin Sergius patrician family, possibly Etruscan; 4th-c. martyr Sergius with Bacchus; Sergius of Radonezh born Bartholomew, founded Trinity community on Makovets Hill with brother Stefan, died 25 Sep 1392 (8 Oct NS). Dropped: blessing of Dmitry before Kulikovo (Wikipedia says the meeting almost certainly did not happen).",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Tatjana",
+   "spellings": [
+    "Tatjana"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/tatiana",
+    "https://en.wikipedia.org/wiki/Tatiana_Day"
+   ],
+   "facts_used": "Feminine of Tatianus from Tatius; 3rd-c. martyr under Alexander Severus; Moscow University decree 12 Jan 1755 (Julian) on St Tatiana's day, Shuvalov's mother's name day; Students' Day 25 Jan.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Svetlana",
+   "spellings": [
+    "Svetlana"
+   ],
+   "status": "written",
+   "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D0%BD%D0%B0_(%D0%B8%D0%BC%D1%8F)",
+    "https://www.behindthename.com/name/svetlana"
+   ],
+   "facts_used": "Literary name: Vostokov 1802 'Svetlana and Mstislav'; Zhukovsky ballad 1813 (first considered Olga); Synod refused baptisms, offered Photina; spread after 1918 civil registration; church recognition 1943.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Olga",
+   "spellings": [
+    "Olga"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/olga",
+    "https://en.wikipedia.org/wiki/Olga_of_Kiev"
+   ],
+   "facts_used": "Russian form of Old Norse Helga (Helgi, heilagr 'holy'); Olga of Kiev regent after Igor killed 945, revenge on Drevlians, baptised Helena (957 per Church Slavonic sources), equal-to-apostles, 11 July.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Irina",
+   "spellings": [
+    "Irina"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/irene",
+    "https://www.behindthename.com/name/irina",
+    "https://en.wikipedia.org/wiki/Irina_Godunova"
+   ],
+   "facts_used": "Greek Eirene, goddess of peace; Empress Irene first woman to rule Byzantium alone; Irina Godunova de facto ruler about nine days after Jan 1598, nun Alexandra.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Vladimirs",
+   "spellings": [
+    "Vladimirs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/vladimir",
+    "https://en.wikipedia.org/wiki/Vladimir_the_Great"
+   ],
+   "facts_used": "Voldimeru: rule + great/famous (later peace/world); Vladimir the Great: Novgorod 970, Kyiv 978-1015, baptised at Chersonesos 988 as Basil, married Anna sister of Basil II, feast 15 July.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Igors",
+   "spellings": [
+    "Igors"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/igor",
+    "https://en.wikipedia.org/wiki/The_Tale_of_Igor%27s_Campaign"
+   ],
+   "facts_used": "Old Norse Yngvarr (Yngvi + herr); Varangians 9th c.; Igor son of Rurik; Tale of Igor's Campaign: 1185 raid, MS found 1795, published 1800, lost 1812; Borodin opera 1890.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Dmitrijs",
+   "spellings": [
+    "Dmitrijs",
+    "Dimitrijs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/demetrius",
+    "https://www.behindthename.com/name/demeter-1",
+    "https://en.wikipedia.org/wiki/Dmitry_Donskoy"
+   ],
+   "facts_used": "Demetrios from Demeter ('earth mother' uncertain); Demetrius of Thessalonica; Dmitry Donskoy prince 1359 aged nine, Kremlin rebuilt in stone 1367, Kulikovo 1380 on the Don, canonised 1988.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Ludmila",
+   "spellings": [
+    "Ludmila",
+    "Ludmilla",
+    "Liudmila"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/ludmila",
+    "https://en.wikipedia.org/wiki/Ludmila_of_Bohemia"
+   ],
+   "facts_used": "ludu 'people' + milu 'gracious'; St Ludmila of Bohemia, wife of Borivoj I, raised Wenceslaus, murdered at Tetin 921 on Drahomira's orders, relics moved to St George's Basilica, feast 16 Sep.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Jurijs",
+   "spellings": [
+    "Jurijs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/yuri",
+    "https://www.behindthename.com/name/george",
+    "https://en.wikipedia.org/wiki/Yuri_Dolgorukiy"
+   ],
+   "facts_used": "Russian form of George; Georgios from georgos 'farmer'; St George; Yuri Dolgorukiy met Sviatoslav Olgovich at Moscow 1147, town fortified 1156, often called founder.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Oļegs",
+   "spellings": [
+    "Oļegs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/oleg",
+    "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D0%B5%D0%B3",
+    "https://en.wikipedia.org/wiki/Oleg_of_Novgorod"
+   ],
+   "facts_used": "Old Norse Helgi 'holy'; Old Rus Oligu; Olgovichi branch; Oleg the Wise took Kyiv and made it capital; horse/snake-in-skull legend presented as a storytelling motif. Dropped: 907 Constantinople shield (not in opened source).",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Gaļina",
+   "spellings": [
+    "Gaļina",
+    "Galina"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/galina",
+    "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B8%D0%BD%D0%B0"
+   ],
+   "facts_used": "Feminine of Galenos, Greek galene 'calm sea'; Nereid Galene; martyr Galina of Corinth d. 290 per tradition, 10(23) Mar and 16(29) Apr.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Nadežda",
+   "spellings": [
+    "Nadežda"
+   ],
+   "status": "written",
+   "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0_(%D0%B8%D0%BC%D1%8F)",
+    "https://www.behindthename.com/name/nadezhda"
+   ],
+   "facts_used": "Church Slavonic calque of Greek Elpis; 9th-c. liturgical translations; martyrs Vera, Nadezhda, Lyubov and Sophia c. 120 under Hadrian; fashionable from 18th c. among nobility; Nadya spread to other languages.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Larisa",
+   "spellings": [
+    "Larisa"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/larisa",
+    "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0_(%D0%B8%D0%BC%D1%8F)"
+   ],
+   "facts_used": "City Larisa in Thessaly, probably 'citadel'; 'seagull' kept as one interpretation; nymph Larissa fell into the Peneus while playing ball; Larisa of Gothia 26 Mar (8 Apr).",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Vitālijs",
+   "spellings": [
+    "Vitālijs",
+    "Vitalijs",
+    "Vitalijus",
+    "Vitalis",
+    "Vitālis"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/vitale",
+    "https://www.behindthename.com/name/vitalis",
+    "https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"
+   ],
+   "facts_used": "Latin vitalis 'of life'; several early saints; Basilica of San Vitale, Ravenna: begun 526, consecrated 547, Justinian/Theodora mosaics 547.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Valentina",
+   "spellings": [
+    "Valentina"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/valentina",
+    "https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0"
+   ],
+   "facts_used": "Feminine of Valentinus, valens 'strong, healthy'; Valentina of Caesarea; Alevtina linked to same saint; Tereshkova first woman in space 1963.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Alevtina",
+   "spellings": [
+    "Alevtina",
+    "Alevtīna",
+    "Alevtine",
+    "Alevtīne"
+   ],
+   "status": "written",
+   "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%B2%D1%82%D0%B8%D0%BD%D0%B0",
+    "https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0"
+   ],
+   "facts_used": "Disputed: Greek aleuo vs variant of Valentina; Alevtina (Valentina) of Caesarea 16 (29) July; Nikonov on 1970s-80s revival attempts.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Aleksejs",
+   "spellings": [
+    "Aleksejs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/alexius",
+    "https://www.behindthename.com/name/alexis",
+    "https://en.wikipedia.org/wiki/Alexius_of_Rome"
+   ],
+   "facts_used": "Alexios/Alexis from alexo 'defend, help'; five Byzantine emperors; legend of Alexius 'Man of God': fled marriage, beggar near Edessa, 17 years under his parents' stairs, identified by a note.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Mihails",
+   "spellings": [
+    "Mihails"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/michael",
+    "https://www.behindthename.com/name/mikhail",
+    "https://en.wikipedia.org/wiki/Michael_I_of_Russia"
+   ],
+   "facts_used": "Hebrew Mikha'el 'who is like God?'; archangel in Daniel and Revelation; Michael I Romanov elected 1613 aged 16, ended Time of Troubles, Susanin legend, Glinka opera.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Marina",
+   "spellings": [
+    "Marina"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/marina",
+    "https://www.behindthename.com/name/marinus",
+    "https://en.wikipedia.org/wiki/Margaret_the_Virgin"
+   ],
+   "facts_used": "Feminine of Marinus (Marius or marinus 'of the sea'); Eastern name of Margaret of Antioch; legend c. 304, Olybrius, dragon, beheaded; iconography dragon/hammer.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Maksims",
+   "spellings": [
+    "Maksims",
+    "Maksimas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/maximus",
+    "https://www.behindthename.com/name/maksim",
+    "https://en.wikipedia.org/wiki/Maximus_the_Greek"
+   ],
+   "facts_used": "Maximus 'greatest'; Maximus the Confessor; Maximus the Greek (b. Trivolis c. 1475 Arta, Athos c. 1507, Moscow 1518, condemned 1525/1531, died c. 1556, canonised 1988).",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Vladislavs",
+   "spellings": [
+    "Vladislavs",
+    "Vladislovas"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/vladislav",
+    "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_II_Jagie%C5%82%C5%82o"
+   ],
+   "facts_used": "Voldislavu: voldeti 'rule' + slava 'glory'; dynastic name; Jogaila baptised Wladyslaw in Krakow 1386, married Jadwiga, Grunwald 1410, died 1434, Wawel.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Timurs",
+   "spellings": [
+    "Timurs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/timur",
+    "https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BC%D1%83%D1%80_(%D0%B8%D0%BC%D1%8F)",
+    "https://en.wikipedia.org/wiki/Timur_and_His_Squad"
+   ],
+   "facts_used": "Turkic/Mongol Temur 'iron'; Tamerlane from Timur-e Lang; Gaidar's Timur and His Squad 1940, Timurite movement credited with spreading the name.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Kira",
+   "spellings": [
+    "Kira"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/kira-1",
+    "https://www.behindthename.com/name/cyrus",
+    "https://www.oca.org/saints/lives/1993/02/28/100619-venerable-marina-and-kyra-of-syria"
+   ],
+   "facts_used": "Russian feminine of Kir/Cyrus; Kurus meaning uncertain; kyrios link a later association; St Kyra of Beroea with Marina: enclosure, chains, Theodoret, ~40 years, Jerusalem pilgrimage fasting.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Rimma",
+   "spellings": [
+    "Rimma"
+   ],
+   "status": "written",
+   "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%BC%D0%BC%D0%B0_(%D0%B8%D0%BC%D1%8F)",
+    "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%BD%D0%B0,_%D0%9F%D0%B8%D0%BD%D0%BD%D0%B0_%D0%B8_%D0%A0%D0%B8%D0%BC%D0%BC%D0%B0"
+   ],
+   "facts_used": "Unclear origin (Greek Rhimmas); originally a male saint's name beside Inna and Pinna, taken as female because of -a; martyrs frozen in river ice; historians date mid-4th c.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Faina",
+   "spellings": [
+    "Faina"
+   ],
+   "status": "written",
+   "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B8%D0%BD%D0%B0",
+    "https://en.wikipedia.org/wiki/Theodotus_of_Ancyra_(martyr)"
+   ],
+   "facts_used": "Greek phaeine 'shining'; seven virgins of Ancyra with Theodotus, 303/304; feast 31 May and 11 June (Gregorian); Nilus' account, thrown into water with stones, Theodotus buried them.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Svjatoslavs",
+   "spellings": [
+    "Svjatoslavs"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/svyatoslav",
+    "https://en.wikipedia.org/wiki/Sviatoslav_I"
+   ],
+   "facts_used": "svetu 'holy' + slava 'glory'; Sviatoslav I son of Igor and Olga, first Kievan ruler with Slavic name, pagan, Khazars, 'I want to come at you', killed 972 near Khortytsia, skull cup.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Vsevolods",
+   "spellings": [
+    "Vsevolods"
+   ],
+   "status": "written",
+   "sources": [
+    "https://www.behindthename.com/name/vsevolod",
+    "https://en.wikipedia.org/wiki/Vsevolod_the_Big_Nest"
+   ],
+   "facts_used": "'all' + voldeti 'rule'; Vsevolod the Big Nest, Grand Prince of Vladimir 1176-1212, at least 14 children, praised in the Tale of Igor's Campaign.",
+   "reason": "All claims verified in the opened sources listed.",
+   "next_steps": "Optional: add the izpetnieks.lv (Klāvs Siliņš) entry for the Latvian spelling and its calendar history."
+  },
+  {
+   "batch": "slavic",
+   "name": "Iraida",
+   "spellings": [
+    "Iraida",
+    "Iraidis",
+    "Iraisa"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched this round (time budget). Usually tied to Greek Herais and the martyr Iraida of Alexandria; unverified.",
+   "next_steps": "ru.wikipedia Ираида (имя); azbyka.ru life of Iraida of Alexandria; izpetnieks.lv for Iraida/Iraidis. Check whether Iraisa belongs."
+  },
+  {
+   "batch": "slavic",
+   "name": "Anfisa",
+   "spellings": [
+    "Anfisa",
+    "Anfija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched. Anfija status line says Greek anthos; Anfisa link unverified.",
+   "next_steps": "ru.wikipedia Анфиса; behindthename anfisa / anthousa; saint Anthusa."
+  },
+  {
+   "batch": "slavic",
+   "name": "Savelijs",
+   "spellings": [
+    "Savelijs",
+    "Savēlijs"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; commonly linked to Sabellius or Saul, unverified.",
+   "next_steps": "behindthename saveliy; ru.wikipedia Савелий."
+  },
+  {
+   "batch": "slavic",
+   "name": "Akims",
+   "spellings": [
+    "Akims",
+    "Joakims"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched. Akim is usually described as a Russian form of Joachim; needs a source and a family decision for Joakims/Joakimas/Joakim.",
+   "next_steps": "behindthename akim and joachim."
+  },
+  {
+   "batch": "slavic",
+   "name": "Genrihs",
+   "spellings": [
+    "Genrihs",
+    "Henrihs",
+    "Henriks",
+    "Henrikas",
+    "Henrik"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Russian form of Heinrich/Henry; would need a shared Henry family story and boundaries with Henrijs.",
+   "next_steps": "behindthename henry, heinrich; decide family boundaries."
+  },
+  {
+   "batch": "slavic",
+   "name": "Večeslavs",
+   "spellings": [
+    "Večeslavs"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; Vyacheslav (vete \"more\" + slava). Večella on the same day is probably unrelated.",
+   "next_steps": "behindthename vyacheslav; Wenceslaus (Václav) link needs a source."
+  },
+  {
+   "batch": "slavic",
+   "name": "Radomirs",
+   "spellings": [
+    "Radomirs"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; Slavic rad + mir compound.",
+   "next_steps": "behindthename radomir; Gavril Radomir of Bulgaria on Wikipedia."
+  },
+  {
+   "batch": "slavic",
+   "name": "Rada",
+   "spellings": [
+    "Rada"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; Slavic rad \"glad\" short name.",
+   "next_steps": "behindthename rada."
+  },
+  {
+   "batch": "slavic",
+   "name": "Guļnara",
+   "spellings": [
+    "Guļnara",
+    "Gulnara"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched; Persian gul + nar (\"pomegranate flower\") unverified.",
+   "next_steps": "behindthename gulnara; ru.wikipedia Гульнара."
+  },
+  {
+   "batch": "slavic",
+   "name": "Aksana",
+   "spellings": [
+    "Aksana",
+    "Oksana",
+    "Aksenija"
+   ],
+   "status": "needs_more",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not researched. Oksana is usually the Ukrainian form of Xenia; Aksana and Aksenija need sourced linking.",
+   "next_steps": "behindthename oksana, xenia; St Xenia of Rome."
+  },
+  {
+   "batch": "slavic",
+   "name": "Excluded spellings",
+   "spellings": [
+    "Sveta",
+    "Svetoslavs",
+    "Vladislava",
+    "Vladimira",
+    "Aleksis",
+    "Alekss",
+    "Aleks",
+    "Mihaels",
+    "Sergo",
+    "Valentins",
+    "Marinas",
+    "Liudmina",
+    "Vitalija",
+    "Vitālija"
+   ],
+   "status": "skipped",
+   "sources": [],
+   "facts_used": "",
+   "reason": "Not merged into the written families: gender counterparts, short forms or forms whose link was not verified, so the written texts would not be literally true for them.",
+   "next_steps": "Write separate entries if needed (Sergo as Georgian Sergius, Svetoslavs as Bulgarian Svetoslav, Vladislava as feminine of Vladislav)."
+  }
+ ]
+}

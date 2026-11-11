@@ -11,7 +11,7 @@ const db=database(path.resolve(process.env.DATA_DIR || 'var'));
 initializeHoroscope(db);
 await cp('public',target,{recursive:true});
 // Retired name-day country files must not survive an incremental export.
-for(const name of ['calendar.json','profiles-lt.json','profiles-ee.json'])await unlink(path.join(target,'data','namedays',name)).catch(e=>{if(e.code!=='ENOENT')throw e;});
+for(const name of ['calendar.json'])await unlink(path.join(target,'data','namedays',name)).catch(e=>{if(e.code!=='ENOENT')throw e;});
 await mkdir(path.join(target,'data'),{recursive:true});
 await writeFile(path.join(target,'data','horoscope.json'),JSON.stringify(localized(horoscopeData(db),'lv','horoscope')));
 for(const market of ['LV','LT','EE'])await writeFile(path.join(target,'data',`fuel-${market}.json`),JSON.stringify(widgetData(db,market)));

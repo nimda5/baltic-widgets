@@ -1,15 +1,21 @@
 import {COUNTRIES,validateCalendar} from '../public/namedays-core.js';
 import {LANGUAGES,WRITER_VERSION,describeName,nameIdentity} from '../public/namedays-content.js';
 import {reviewedRoot} from '../public/namedays-roots.js';
+import {reviewedHistory} from '../public/namedays-history.js';
 import {attestationRange} from '../public/namedays-attestation.js';
-import {catalogFacts} from './nameday-reference.mjs';
+import {catalogFacts,calendarEntry} from './nameday-reference.mjs';
+// Reviewed spelling corrections for the supplied calendar. Each misspelling is absent from the official
+// VLKK name registry (data.gov.lt dataset 2664), while the corrected form is registered:
+// Arnasd -> Arnas (stray "d"), Felidta -> Felicita, Binifacas -> Bonifacas (also listed for 14 May by day.lt).
+export const CALENDAR_CORRECTIONS={lt:{Arnasd:'Arnas',Felidta:'Felicita',Binifacas:'Bonifacas'}};
+export function correctCalendarName(country,name){const clean=name.normalize('NFC').replace(/\s+/g,' ').trim();return CALENDAR_CORRECTIONS[country]?.[clean]||clean;}
 export function parseCalendar(input){
  const lines=input.replace(/^\uFEFF/,'').trim().split(/\r?\n/);
  if(lines.shift()!=='domain\td\tm\tv\tid')throw Error('Unexpected name-day columns');
  const calendars=Object.fromEntries(COUNTRIES.map(c=>[c,{}])),counts=Object.fromEntries(COUNTRIES.map(c=>[c,0]));let rowCount=0;
  for(const [index,line] of lines.entries()){
   const fields=line.split('\t');if(fields.length!==5)throw Error('Invalid TSV row '+(index+2));
-  const [country,d,m,rawName,id]=fields,name=rawName.normalize('NFC');const day=Number(d),month=Number(m);
+  const [country,d,m,rawName,id]=fields,name=correctCalendarName(country,rawName);const day=Number(d),month=Number(m);
   if(!COUNTRIES.includes(country)||!name.trim()||name.length>100||/[<>\x00-\x1f]/.test(name)||!/^\d+$/.test(id)||!Number.isInteger(day)||!Number.isInteger(month)||month<1||month>12||day<1||day>new Date(Date.UTC(2000,month,0)).getUTCDate())throw Error('Invalid TSV row '+(index+2));
   const key=String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
   const list=calendars[country][key]||=[];if(!list.some(n=>n.name===name))list.push({key:country+':'+name,name});rowCount++;counts[country]++;
@@ -84,7 +90,8 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(recorded){facts.first_recorded=recorded.facts.first_recorded;facts.first_recorded_form=recorded.facts.first_recorded_form||recorded.name;facts.first_recorded_country=recorded.facts.first_recorded_country||recorded.country;}
  for(const e of evidence)sources.push(...e.provenance);
  facts.source_forms=[...new Map(evidence.flatMap(e=>e.facts.source_forms||[]).map(form=>[form.language+':'+form.form,form])).values()];
- facts.etymons=[...new Map(evidence.flatMap(e=>e.facts.etymons||[]).map(word=>[word.term,word])).values()];
+ // Drop extraction artifacts where a source label (for example “gloss”) was captured as the word itself.
+ facts.etymons=[...new Map(evidence.flatMap(e=>e.facts.etymons||[]).filter(word=>!/^(gloss|lit|literally|meaning|from|pos|t)$/i.test(word.term||'')).map(word=>[word.term,word])).values()];
  facts.possible_related=[...new Set(evidence.flatMap(e=>e.facts.possible_related||[]))].filter(n=>nameIdentity(n)!==nameIdentity(name));
  const archive=evidence.find(e=>e.facts.archival_variants?.length);
  if(archive){facts.archival_variants=archive.facts.archival_variants;facts.archival_form=archive.facts.archival_form;}
@@ -101,15 +108,23 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(previous?.people?.length)chosen=[...new Map([...previous.people,...chosen].map(p=>[p.id,p])).values()];
  for(const person of [...chosen])if(person.id.startsWith('reviewed:')){const original=chosen.findIndex(p=>p.id!==person.id&&p.name===person.name);if(original>=0){chosen[original]=reviewedPerson(chosen[original],person);chosen=chosen.filter(p=>p.id!==person.id);}}
  chosen=[...chosen].sort((a,b)=>Number(b.match==='exact')-Number(a.match==='exact')||Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0)).slice(0,3);
+ const history=reviewedHistory(name);
+ if(history?.related)facts.related=[...new Set([...facts.related,...history.related])];
+ const formation=research.catalog?.[name]?.raw_origin;
+ if(/phonetic formation/i.test(formation||'')||previous?.facts?.formation==='phonetic')facts.formation='phonetic';
+ const entryDate=country==='lv'?(calendarEntry(research.catalog?.[name],name)||previous?.facts?.calendar_entry):(previous?.facts?.calendar_entry?.country===country?previous.facts.calendar_entry:null);
+ if(entryDate){facts.calendar_entry=entryDate;sources.push(entryDate.source);}
+ if(history){sources.push(...history.sources.map(url=>({url,type:'reviewed_name_history'})));chosen=chosen.map(p=>p.id===history.pseudonymPerson?{...p,match:'pseudonym'}:p);}
  const provenance=[...new Map(sources.map(s=>[s.url,s])).values()];
- const profile={key,name,country,writer_version:WRITER_VERSION,family,facts,people:chosen,provenance,research_status:entry?.status||previous?.research_status||'pending',content_type:'historical_facts_and_labeled_original_fiction'};
+ const profile={key,name,country,writer_version:WRITER_VERSION,family,facts,people:chosen,provenance,research_status:entry?.status||previous?.research_status||'pending',content_type:'sourced_history_and_original_greetings'};
  return validateProfile(profile);
 }
 export function validateProfile(profile){
  if(!profile||!COUNTRIES.includes(profile.country)||profile.key!==profile.country+':'+profile.name||profile.writer_version!==WRITER_VERSION||!Array.isArray(profile.provenance)||!Array.isArray(profile.people)||!Array.isArray(profile.facts?.origins))throw Error('Invalid name profile');
- if((profile.family||profile.facts.origins.length||profile.facts.first_recorded||profile.facts.registry_kind||profile.facts.related?.length||profile.facts.possible_related?.length||profile.facts.etymons?.length||profile.facts.archival_variants?.length)&&!profile.provenance.length)throw Error('Historical claims need provenance');
+ if((reviewedHistory(profile.name)||profile.facts.calendar_entry||profile.family||profile.facts.origins.length||profile.facts.first_recorded||profile.facts.registry_kind||profile.facts.related?.length||profile.facts.possible_related?.length||profile.facts.etymons?.length||profile.facts.archival_variants?.length)&&!profile.provenance.length)throw Error('Historical claims need provenance');
+ if(profile.facts.calendar_entry&&(!Number.isInteger(profile.facts.calendar_entry.year)||profile.facts.calendar_entry.year<1500||profile.facts.calendar_entry.year>new Date().getUTCFullYear()||!profile.facts.calendar_entry.source?.url))throw Error('Invalid calendar-entry evidence');
  for(const word of profile.facts.etymons||[])if(!word.term||LANGUAGES.some(lang=>!word.gloss?.[lang])||/[A-Za-z]/.test(word.gloss.ru))throw Error('Incomplete etymological gloss');
- for(const p of profile.people){if(!p.id||!p.name||!p.role||!p.source?.url||!['exact','related_form'].includes(p.match))throw Error('Invalid namesake');}
- for(const lang of LANGUAGES){const copy=describeName(profile,lang);if(copy.story.length<100||/undefined|\{name\}/.test(JSON.stringify(copy))||copy.wishes.serious.length!==3||copy.wishes.humor.length!==3)throw Error('Incomplete name copy');for(const mood of ['serious','humor'])if(new Set(copy.wishes[mood]).size!==3||copy.wishes[mood].some(s=>!s.includes(profile.name)))throw Error('Invalid greetings');}
+ for(const p of profile.people){if(!p.id||!p.name||!p.role||!p.source?.url||!['exact','related_form','pseudonym'].includes(p.match))throw Error('Invalid namesake');}
+ for(const lang of LANGUAGES){const copy=describeName(profile,lang);if(copy.story!==''||(!copy.history.length&&!copy.attestation&&!copy.notice)||/undefined|\{name\}/.test(JSON.stringify(copy))||copy.wishes.serious.length!==3||copy.wishes.humor.length!==3)throw Error('Incomplete name copy');for(const mood of ['serious','humor'])if(new Set(copy.wishes[mood]).size!==3||copy.wishes[mood].some(s=>!s.includes(profile.name)))throw Error('Invalid greetings');}
  return profile;
 }

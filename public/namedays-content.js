@@ -1,13 +1,13 @@
 import {formatAttestation} from './namedays-attestation.js';
-import {nameImpression} from './namedays-imagery.js';
-import {rootHistory} from './namedays-roots.js';
-export const WRITER_VERSION='namedays-1.4.1';
+import {reviewedHistory} from './namedays-history.js';
+import {rootHistory,reviewedRoot} from './namedays-roots.js';
+export const WRITER_VERSION='namedays-1.8.0';
 export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={
  "ru": {
   "recordedLabel": "Имя в старых записях",
-  "recordedNote": "В найденной записи — {form}.",
+  "recordedNote": "В найденной записи — {form}. Это дата записи, а не появления имени.",
   "title": "Именины",
   "yesterday": "Вчера",
   "today": "Сегодня",
@@ -28,7 +28,7 @@ const bundles={
   "lv": "Латвия",
   "lt": "Литва",
   "ee": "Эстония",
-  "author": "Немного фантазии",
+  "author": "Исторический контекст",
   "documented": "История имени",
   "origin": "У имени {name} {origins} корни.",
   "related": "Это имя также связывают с именами {names}.",
@@ -52,7 +52,7 @@ const bundles={
  },
  "en": {
   "recordedLabel": "The name in earlier records",
-  "recordedNote": "In the record, the name is written {form}.",
+  "recordedNote": "In the record, the name is written {form}. This dates the record, not the creation of the name.",
   "title": "Name day",
   "yesterday": "Yesterday",
   "today": "Today",
@@ -73,7 +73,7 @@ const bundles={
   "lv": "Latvia",
   "lt": "Lithuania",
   "ee": "Estonia",
-  "author": "A little imagination",
+  "author": "Historical context",
   "documented": "The name’s history",
   "origin": "{name} has {origins} roots.",
   "related": "The name is also linked with {names}.",
@@ -97,7 +97,7 @@ const bundles={
  },
  "lv": {
   "recordedLabel": "Vārds senākos pierakstos",
-  "recordedNote": "Atrastajā pierakstā vārds rakstīts kā {form}.",
+  "recordedNote": "Atrastajā pierakstā vārds rakstīts kā {form}. Tas ir ieraksta, nevis vārda rašanās datējums.",
   "title": "Vārda diena",
   "yesterday": "Vakar",
   "today": "Šodien",
@@ -118,7 +118,7 @@ const bundles={
   "lv": "Latvija",
   "lt": "Lietuva",
   "ee": "Igaunija",
-  "author": "Mazliet iztēles",
+  "author": "Vēsturiskais konteksts",
   "documented": "Vārda vēsture",
   "origin": "Vārdam {name} ir {origins} saknes.",
   "related": "Šo vārdu saista arī ar vārdiem {names}.",
@@ -142,7 +142,7 @@ const bundles={
  },
  "lt": {
   "recordedLabel": "Vardas senuose užrašuose",
-  "recordedNote": "Rastame užraše vardas parašytas {form}.",
+  "recordedNote": "Rastame užraše vardas parašytas {form}. Tai įrašo, o ne vardo atsiradimo data.",
   "title": "Vardadienis",
   "yesterday": "Vakar",
   "today": "Šiandien",
@@ -163,7 +163,7 @@ const bundles={
   "lv": "Latvija",
   "lt": "Lietuva",
   "ee": "Estija",
-  "author": "Šiek tiek vaizduotės",
+  "author": "Istorinis kontekstas",
   "documented": "Vardo istorija",
   "origin": "Vardas {name} turi {origins} šaknis.",
   "related": "Šis vardas taip pat siejamas su vardais {names}.",
@@ -187,7 +187,7 @@ const bundles={
  },
  "et": {
   "recordedLabel": "Nimi vanades kirjapanekutes",
-  "recordedNote": "Leitud kirjapanekus on nimekujuks {form}.",
+  "recordedNote": "Leitud kirjapanekus on nimekujuks {form}. See on ülestähenduse, mitte nime tekkimise aeg.",
   "title": "Nimepäev",
   "yesterday": "Eile",
   "today": "Täna",
@@ -208,7 +208,7 @@ const bundles={
   "lv": "Läti",
   "lt": "Leedu",
   "ee": "Eesti",
-  "author": "Veidi kujutlusvõimet",
+  "author": "Ajalooline taust",
   "documented": "Nime ajalugu",
   "origin": "Nimel {name} on {origins} juured.",
   "related": "Seda nime seostatakse ka nimedega {names}.",
@@ -644,15 +644,20 @@ const familyHumor={
  charlotte:{ru:'{name}, у твоего имени за плечами дворцы и романы. Сегодня предлагаю королевский указ: торт подать немедленно, тревоги выслать из королевства, а все срочные дела выпустить под псевдонимом «Завтра». С именинами!',en:'{name}, your name has palaces and novels behind it. Today’s royal decree: serve cake immediately, banish worries from the kingdom and publish every urgent task under the pen name Tomorrow. Happy name day!',lv:'{name}, aiz tava vārda stāv pilis un romāni. Šodienas karaļa dekrēts: torti pasniegt nekavējoties, raizes izraidīt no karaļvalsts un visus steidzamos darbus izdot ar pseidonīmu «Rīt». Priecīgu vārda dienu!',lt:'{name}, už tavo vardo stovi rūmai ir romanai. Šiandienos karališkas įsakas: tortą patiekti nedelsiant, rūpesčius ištremti iš karalystės, o visus skubius darbus išleisti slapyvardžiu «Rytoj». Su vardadieniu!',et:'{name}, su nime taga on lossid ja romaanid. Tänane kuninglik määrus: tort kohe lauale, mured kuningriigist välja ja kõik kiired ülesanded ilmugu kirjanikunime «Homme» all. Head nimepäeva!'},
  leonard:{ru:'{name}, твоему имени достался «храбрый лев». Желаю, чтобы львиная доля зарплаты оставалась тебе, а не коммунальным службам, и чтобы слово «прайд» означало круг друзей, а не совещание в понедельник. С именинами!',en:'{name}, your name inherited a brave lion. May the lion’s share of your income stay with you rather than the utility companies, and may your pride mean friends around a table, never a Monday meeting. Happy name day!',lv:'{name}, tavam vārdam ticis «drosmīgs lauva». Lai algas lauvas tiesa paliek tev, nevis komunālajiem pakalpojumiem, un lauvu bars lai nozīmē draugus pie galda, nevis pirmdienas sapulci. Priecīgu vārda dienu!',lt:'{name}, tavo vardui teko «drąsus liūtas». Linkiu, kad liūto dalis atlyginimo liktų tau, o ne komunalinėms įmonėms, ir liūtų būrys reikštų draugus prie stalo, o ne pirmadienio susirinkimą. Su vardadieniu!',et:'{name}, su nimi päris vapra lõvi. Jäägu lõviosa palgast sulle, mitte kommunaalfirmadele, ja tähendagu lõvikari sõpru laua ümber, mitte esmaspäevast koosolekut. Head nimepäeva!'}
 };
-export function describeName(profile,requested='en',variant=0){
+const listFormats=new Map(),dayFormats=new Map();
+const listFormat=lang=>{if(!listFormats.has(lang))listFormats.set(lang,new Intl.ListFormat(lang,{style:"long",type:"conjunction"}));return listFormats.get(lang);};
+const localeForName=lang=>({lv:'lv-LV',ru:'ru-RU',en:'en-GB',lt:'lt-LT',et:'et-EE'}[lang]);
+export function describeName(profile,requested='en',variant=0,profiles=null){
  const lang=LANGUAGES.includes(requested)?requested:'en',i=LANGUAGES.indexOf(lang),seed=hash(nameIdentity(profile.name)),name=profile.name;
  const facts=profile.facts||{},paragraphs=[];
+ const reviewed=reviewedHistory(name);
  const root=rootHistory(facts.root_key,name,lang);
  if(special[profile.family])paragraphs.push(fill(special[profile.family][lang],name));
  else if(root)paragraphs.push(root);
  else{
-  if(facts.origins?.length)paragraphs.push(text(lang,'origin',{name,origins:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.origins.map(o=>traditions[o]?.[i]||o))}));
-  if(facts.etymons?.length){const words=facts.etymons.slice(0,3).map(w=>'«'+w.term+'» («'+w.gloss[lang]+'»)');paragraphs.push(text(lang,'wordRoots',{words:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(words)}));}
+  if(facts.origins?.length)paragraphs.push(text(lang,'origin',{name,origins:listFormat(lang).format(facts.origins.map(o=>traditions[o]?.[i]||o))}));
+  if(facts.etymons?.length){const words=facts.etymons.slice(0,3).map(w=>'«'+w.term+'» («'+w.gloss[lang]+'»)');paragraphs.push(text(lang,'wordRoots',{words:listFormat(lang).format(words)}));}
+  if(facts.formation==='phonetic'){const note={lv:'Vārdnīcā {name} raksturots kā fonētisks darinājums: tā izveidē galvenais ir skanējums, un konkrēts pamatvārds nav norādīts.',ru:'В словаре {name} отмечено как фонетическое образование: имя создано по звучанию, а конкретное слово-основа не указано.',en:'The dictionary classifies {name} as a phonetic formation: it was formed for its sound, without a specified underlying word.',lt:'Žodyne {name} apibūdinamas kaip fonetinis darinys: vardas sudarytas pagal skambesį, nenurodant konkretaus pamatinio žodžio.',et:'Sõnastik liigitab nime {name} häälikulise moodustisena: nimi on loodud kõla järgi, konkreetset alussõna nimetamata.'};paragraphs.push(fill(note[lang],name));}
   if(facts.registry_kind&&registryKinds[facts.registry_kind])paragraphs.push(fill(registryKinds[facts.registry_kind][i],name));
  }
  const person=profile.people?.[0];
@@ -660,14 +665,37 @@ export function describeName(profile,requested='en',variant=0){
  let attestation=null;
  if(facts.first_recorded){const date=formatAttestation(facts.first_recorded,lang);if(date)attestation={date,form:facts.first_recorded_form||name};}
  const related=[...new Set([...(facts.related||[]),...(facts.source_forms||[]).map(f=>f.form)])].filter(n=>nameIdentity(n)!==nameIdentity(name)&&!paragraphs.join(' ').includes(n)).slice(0,3);
- if(related.length)paragraphs.push(text(lang,'related',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(related)}));
- if(facts.possible_related?.length)paragraphs.push(text(lang,'possibleRelated',{names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.possible_related.slice(0,3))}));
- if(facts.archival_variants?.length)paragraphs.push(text(lang,'archivalVariant',{name:facts.archival_form||name,names:new Intl.ListFormat(lang,{style:'long',type:'conjunction'}).format(facts.archival_variants)}));
- const scene=nameImpression(name,lang);
+ if(related.length)paragraphs.push(text(lang,'related',{names:listFormat(lang).format(related)}));
+ if(facts.possible_related?.length)paragraphs.push(text(lang,'possibleRelated',{names:listFormat(lang).format(facts.possible_related.slice(0,3))}));
+ if(facts.archival_variants?.length)paragraphs.push(text(lang,'archivalVariant',{name:facts.archival_form||name,names:listFormat(lang).format(facts.archival_variants)}));
  const wishIndex=(seed+variant)>>>0;
  const greetings=Object.fromEntries(['serious','humor'].map(mood=>[mood,Array.from({length:3},(_,n)=>fill(wishes[lang][mood][(wishIndex+n)%wishes[lang][mood].length],name))]));
  if(familyHumor[profile.family])greetings.humor[0]=fill(familyHumor[profile.family][lang],name);
- return{kind:paragraphs.length||attestation?'documented':'creative',history:paragraphs.length?[paragraphs.join(' ')]:[],attestation,story:scene,wishes:greetings};
+ const history=reviewed?reviewed.text[lang].map(p=>fill(p,name)):paragraphs.length?[paragraphs.join(' ')]:[];
+ if(facts.calendar_entry){
+  const calendarNote={lv:'Personvārdu vārdnīcā norādīts, ka {name} kalendārā iekļauts {year}. gadā.',ru:'В словаре личных имён отмечено, что {name} включено в календарь в {year} году.',en:'The given-name dictionary records {name} as entering the calendar in {year}.',lt:'Asmenvardžių žodyne nurodyta, kad {name} į kalendorių įtrauktas {year} metais.',et:'Isikunimesõnastiku järgi lisati {name} kalendrisse {year}. aastal.'};
+  const entry=facts.calendar_entry;const entryNote={lv:'Saistītajā vārdnīcas šķirklī {name} norādīts kalendāra gads {year}; atsevišķo formu datējums nav precizēts.',ru:'В общей словарной статье {name} указана календарная дата {year}; раздельная датировка написаний не уточнена.',en:'The shared dictionary entry {name} gives the calendar year {year}; it does not date each spelling separately.',lt:'Bendrame žodyno straipsnyje {name} nurodyti kalendoriaus metai {year}; atskirų rašybos formų datos nepatikslintos.',et:'Ühine sõnastikuartikkel {name} annab kalendriaastaks {year}; eri kirjapilte pole eraldi dateeritud.'};history.push((entry.scope==='reference_entry'?entryNote[lang]:calendarNote[lang]).replaceAll('{name}',entry.scope==='reference_entry'?entry.form:name).replaceAll('{year}',String(entry.year)));
+ }
+ const kind=history.length||attestation?'documented':'unresearched',calendar_only=!history.length;
+ if(!history.length&&facts.calendar_dates?.length){if(!dayFormats.has(lang))dayFormats.set(lang,new Intl.DateTimeFormat(localeForName(lang),{month:'long',day:'numeric',timeZone:'UTC'}));const df=dayFormats.get(lang),dates=facts.calendar_dates.map(day=>df.format(new Date('2000-'+day+'T12:00:00Z'))).join(', '),country=text(lang,profile.country);const line={lv:'Vārds {name} šajā {country} vārda dienu kalendārā ierakstīts datumā: {dates}.',ru:'Имя {name} указано в календаре именин страны {country} на даты: {dates}.',en:'The name {name} is listed in the {country} name-day calendar on: {dates}.',lt:'Vardas {name} šalies {country} vardadienių kalendoriuje įrašytas šiomis datomis: {dates}.',et:'Nimi {name} on riigi {country} nimepäevakalendris kuupäevadel: {dates}.'};history.push(line[lang].replaceAll('{name}',name).replaceAll('{country}',country).replaceAll('{dates}',dates));}
+ const notice={lv:'Pārbaudītu vēsturisku ziņu par šo vārdu mums vēl nav.',ru:'Подтверждённой истории этого имени у нас пока нет.',en:'We do not yet have a verified history of this name.',lt:'Patvirtintos šio vardo istorijos kol kas neturime.',et:'Selle nime kohta ei ole meil veel kontrollitud ajaloolisi andmeid.'};
+ const related_context=[];
+ if(profiles){
+  const seen=new Set([profile.key]),candidates=[...(facts.related||[]).map(name=>({name,possible:false})),...(facts.possible_related||[]).map(name=>({name,possible:true}))];
+  const titles={lv:['Par saistīto vārdu {name}','Iespējama saikne: {name}'],ru:['О связанном имени {name}','Возможная связь: {name}'],en:['About the related name {name}','Possible connection: {name}'],lt:['Apie susijusį vardą {name}','Galimas ryšys: {name}'],et:['Seotud nimest {name}','Võimalik seos: {name}']};
+  for(const candidate of candidates){
+   const other=profiles[profile.country+':'+candidate.name.normalize('NFC')];
+   const root=reviewedRoot(candidate.name),review=reviewedHistory(candidate.name);
+   if((reviewed&&review?.text===reviewed.text)||(facts.root_key&&root?.key===facts.root_key))continue;
+   const target=other||(root||review?{key:profile.country+':'+candidate.name,name:candidate.name,country:profile.country,facts:root?{root_key:root.key}:{},people:[]}:null);
+   if(!target||seen.has(target.key))continue;seen.add(target.key);
+   const copy=describeName(target,lang,0,null);
+   if(!copy.history.length||(!review&&!root&&!target.family&&!target.facts?.origins?.length&&!target.facts?.etymons?.length))continue;
+   related_context.push({name:target.name,possible:candidate.possible,title:titles[lang][Number(candidate.possible)].replaceAll('{name}',target.name),history:copy.history});
+   if(related_context.length===2)break;
+  }
+ }
+ return{kind,history,calendar_only,attestation,story:'',notice:kind==='unresearched'?notice[lang]:'',reviewed_narrative:!!reviewed||!!special[profile.family],related_context,wishes:greetings};
 }
 export const ROLE_LABELS={
  writer:['rakstnieks','писатель','writer','rašytojas','kirjanik'],poet:['dzejnieks','поэт','poet','poetas','luuletaja'],actor:['kino un teātra mākslinieks','актёр','actor','aktorius','näitleja'],musician:['mūziķis','музыкант','musician','muzikantas','muusik'],composer:['komponists','композитор','composer','kompozitorius','helilooja'],athlete:['sportists','спортсмен','athlete','sportininkas','sportlane'],scientist:['zinātnieks','учёный','scientist','mokslininkas','teadlane'],artist:['mākslinieks','художник','artist','menininkas','kunstnik'],director:['kinorežisors','кинорежиссёр','film director','kino režisierius','filmirežissöör'],astronaut:['astronauts','астронавт','astronaut','astronautas','astronaut'],public_figure:['sabiedriska personība','общественный деятель','public figure','visuomenės veikėjas','avaliku elu tegelane']

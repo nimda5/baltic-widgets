@@ -1,17 +1,83 @@
 {
-  "writer_version": "namedays-1.4.1",
+  "writer_version": "namedays-1.8.0",
   "enabled_countries": [
-    "lv"
+    "lv",
+    "lt",
+    "ee"
   ],
-  "source_rows": 5559,
+  "source_rows": 9371,
   "countries": {
     "lv": {
       "profiles": 5556,
-      "documented": 4736,
+      "documented": 4737,
       "with_namesakes": 1063,
       "with_attestation": 3243,
-      "with_word_meanings": 656,
-      "research_pending": 0
+      "with_word_meanings": 654,
+      "research_pending": 0,
+      "editorial": {
+        "reviewed_narratives": 274,
+        "factual_summaries": 4128,
+        "attestation_only": 381,
+        "needs_research": 773,
+        "fictional_stories": 0,
+        "translated_languages": [
+          "lv",
+          "ru",
+          "en",
+          "lt",
+          "et"
+        ],
+        "with_related_context": 2293,
+        "with_calendar_entry": 176
+      }
+    },
+    "lt": {
+      "profiles": 1568,
+      "documented": 1316,
+      "with_namesakes": 175,
+      "with_attestation": 198,
+      "with_word_meanings": 54,
+      "research_pending": 8,
+      "editorial": {
+        "reviewed_narratives": 89,
+        "factual_summaries": 1242,
+        "attestation_only": 1,
+        "needs_research": 236,
+        "fictional_stories": 0,
+        "translated_languages": [
+          "lv",
+          "ru",
+          "en",
+          "lt",
+          "et"
+        ],
+        "with_related_context": 71,
+        "with_calendar_entry": 0
+      }
+    },
+    "ee": {
+      "profiles": 1553,
+      "documented": 542,
+      "with_namesakes": 206,
+      "with_attestation": 178,
+      "with_word_meanings": 59,
+      "research_pending": 0,
+      "editorial": {
+        "reviewed_narratives": 130,
+        "factual_summaries": 483,
+        "attestation_only": 13,
+        "needs_research": 927,
+        "fictional_stories": 0,
+        "translated_languages": [
+          "lv",
+          "ru",
+          "en",
+          "lt",
+          "et"
+        ],
+        "with_related_context": 154,
+        "with_calendar_entry": 0
+      }
     }
   }
 }

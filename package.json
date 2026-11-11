@@ -15,6 +15,7 @@
     "generate:namedays": "node scripts/generate-namedays.mjs",
     "update:nameday-statistics": "node scripts/update-nameday-statistics.mjs",
     "test:namedays": "node --test parsers/namedays.test.mjs",
+    "backlog:namedays": "node scripts/nameday-backlog.mjs",
     "update:plan": "node scripts/update-data.mjs --plan",
     "update:prices": "node scripts/update-data.mjs --profile=prices",
     "update:daily": "node scripts/update-data.mjs --profile=daily",

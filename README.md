@@ -2,6 +2,10 @@
 
 A portable portal with widgets for Baltic fuel prices (LV/LT/EE), electricity, natural gas, currencies, gold, Bitcoin, daily horoscopes, and name days. The static site runs on GitHub Pages without Home Assistant or a backend API.
 
+## Code navigation
+
+Start with **[ARCHITECTURE.md](ARCHITECTURE.md)** for the module map, data flow, external resources, CSS ownership, configuration and task-to-file change guide. Use [UPDATES.md](UPDATES.md) for operational commands and [NAMEDAYS.md](NAMEDAYS.md) for name-day research and content contracts.
+
 ## Project layout and storage
 
 | Directory | Contents | Published |
@@ -131,9 +135,9 @@ The top section restores the original Inbox.lv news list and responsive featured
 
 ## Name days
 
-The compact name-day card stays in the desktop sidebar and appears as the first, initially selected tab before the other three widgets in the compact layout. Only the Latvian calendar is currently enabled; changing interface language or the finance market never changes that calendar. Its standalone version is `namedays.html?lang=ru&country=lv`. Yesterday/today/tomorrow, visible name buttons, historical facts, clearly labeled original vignettes, country-specific namesakes, and heartfelt/funny greetings are available in all five supported languages. Source URLs remain in JSON metadata and are not displayed in the dialog.
+The compact name-day card stays in the desktop sidebar and appears as the first, initially selected tab before the other three widgets in the compact layout. Separate Latvian, Lithuanian and Estonian calendars are available through the country selector; changing interface language or the finance market never changes that calendar. Its standalone version is `namedays.html?lang=ru&country=lv`. Yesterday/today/tomorrow, visible name buttons, source-backed historical facts, reviewed cultural narratives, country-specific namesakes, and heartfelt/funny greetings are available in all five supported languages. Source URLs remain in JSON metadata and are not displayed in the dialog.
 
-Run `npm run generate:namedays` to rebuild the calendar and profiles, and `npm run test:namedays` to validate them. Published files are `data/namedays/calendar-lv.json`, `profiles-lv.json`, and `coverage.json`. LT/EE are deferred and must each get a separate country-specific calendar and profile pair. See [NAMEDAYS.md](NAMEDAYS.md) for embedding, editorial rules, provenance, coverage limitations and research commands.
+Run `npm run generate:namedays` to rebuild the calendar and profiles, and `npm run test:namedays` to validate them. Published files are separate `data/namedays/calendar-{lv,lt,ee}.json` and `profiles-{lv,lt,ee}.json` pairs, plus `coverage.json`. Unresearched origins remain explicitly marked; a calendar record is not presented as a complete history. `npm run backlog:namedays` regenerates the prioritized research backlog in [NAMEDAYS_BACKLOG.md](NAMEDAYS_BACKLOG.md). See [NAMEDAYS.md](NAMEDAYS.md) for embedding, editorial rules, provenance, coverage limitations and research commands.
 
 ## Fuel freshness policy
 
@@ -167,7 +171,7 @@ A single compact Compare stations action opens the complete catalogue, including
 
 Dialog shells keep stable viewport-relative dimensions during filtering, loading and tab/period changes. Station results, name-day details and chart overflow scroll inside their respective dialogs; focus restoration avoids scrolling the page. The markets card labels the rate as Euribor with a localized 6 months subtitle, while chart metadata retains the full 6M benchmark identity.
 
-Name-day previews and dialog name lists use the calendar country’s alphabetical collation (Latvian for the enabled calendar), independent of interface language; source arrays and calendar membership are unchanged. Network-only fuel quotes are labeled as prices without a station address, with the published minimum explained per entry rather than implying the same price at every location.
+Name-day previews and dialog name lists use the calendar country’s alphabetical collation (Latvian, Lithuanian or Estonian for the selected calendar), independent of interface language; source arrays and calendar membership are unchanged. Network-only fuel quotes are labeled as prices without a station address, with the published minimum explained per entry rather than implying the same price at every location.
 
 Station search prepares normalized search text once per immutable snapshot, reuses visible row elements and locale formatters, and coalesces typing with a 100 ms delay (including IME composition). Collapsed no-price rows are only built when expanded. The network dropdown uses the selected country’s alphabetical collation independently of the UI language, with All networks first. The redundant current-price count line is omitted.
 
