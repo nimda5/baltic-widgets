@@ -1,0 +1,489 @@
+{
+  "round": 15,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed the research pass over all 17 unfinished 15 November profiles: 10 LV, 4 LT and 3 EE. Added nine reviewed histories (4 LV, 4 LT, 1 EE), two paragraphs in five languages. Eight exact forms remain unverified: LV Leopoldina, Undalgs, Undija, Undina, Undis, Undita and EE Vaigi, Vaiki. They retain explicit translated hypothesis labels and concrete verification steps in the backlog. The previous 24 hypotheses remain open, bringing the total to 32. Productive primary resources and rejected homonym/variant leads are recorded in NAMEDAYS_SOURCES.md. No calendar membership or dates were changed. Source URLs remain research/provenance only; raw downloads and page images remain private. Continue on codex/namedays-round4; next fresh calendar pass is 16 November. This is a completed research pass, not a claim that 15 November is verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "ee",
+      "name": "Vaige",
+      "spellings": [
+        "Vaige"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/valjaanne/eestiparaseid-isikunimesid/",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=22"
+      ],
+      "facts_used": "Vaige is explained in the Estonian name collection through German ruhig and still, calm or quiet. The same entry compares it with Vaike. This directly connects the two spellings in a specific reference without requiring an invented, fixed direction of derivation between them. Julius Mägiste’s Eestipäraseid isikunimesid appeared in Tartu in 1929, with Vaige in its list of feminine names. This printed example establishes the form’s inclusion in a name collection of that period. The year dates the publication, not a proved invention or the naming of the first child.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "Mägiste 1929 PDF p. 22 / printed p. 20 visually checked: feminine Vaige, gloss ruhig/still, explicit comparison with Vaike. Publisher confirms Julius Mägiste, Tartu 1929. Publication is not a coining or first-birth date; no unique direction of derivation is inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "ee",
+      "name": "Vaigi",
+      "spellings": [
+        "Vaigi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY",
+        "EE-ETERA",
+        "EE-DIGAR"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Vaike#Estonian",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=22"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vaigi may be connected with Estonian Vaike and Vaige, but a direct correspondence for this spelling remains unconfirmed. Mägiste’s 1929 book links Vaige with Vaike and an explanation of calm or quiet. That supports a comparison, rather than proving the origin of Vaigi or its presence in a 1929 record.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaigi. A blog citing Seppo and user-submitted lists are leads only.",
+      "next_steps": "Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaigi. A blog citing Seppo and user-submitted lists are leads only."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "ee",
+      "name": "Vaiki",
+      "spellings": [
+        "Vaiki"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY",
+        "EE-ETERA",
+        "EE-DIGAR"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Vaike#Estonian",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=22"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vaiki may be connected with Estonian Vaike and Vaige, but a direct correspondence for this spelling remains unconfirmed. Mägiste’s 1929 book links Vaige with Vaike and an explanation of calm or quiet. That supports a comparison, rather than proving the origin of Vaiki or its presence in a 1929 record.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaiki; the common-word imperative vaiki does not prove personal-name derivation.",
+      "next_steps": "Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaiki; the common-word imperative vaiki does not prove personal-name derivation."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lt",
+      "name": "Albertas",
+      "spellings": [
+        "Albertas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-INSTITUTIONS"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/albertas/",
+        "https://rasytojai.lt/rasytojai/skyrelis-albertas/"
+      ],
+      "facts_used": "Albertas is a Lithuanian name of Germanic origin. The guide gives its elements as adal, noble, and brecht, bright. These parts explain the historical structure of the name; they do not certify noble ancestry or a particular character for every present-day bearer. Lithuanian poet and translator Albertas Skyrelis supplies a concrete literary example of the name. The Writers’ Union bibliography dates his satirical poetry book Velnio tuzinas to 1977 and his lyric collection Pabūk džiaugsmu to 1987, documenting two distinct stages of his published work.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE gives adal/brecht. Directly opened Writers Union biography/bibliography confirms poet and translator Albertas Skyrelis, Velnio tuzinas 1977 and Pabūk džiaugsmu 1987.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lt",
+      "name": "Leopoldas",
+      "spellings": [
+        "Leopoldas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-VLE",
+        "INT-BTN",
+        "LT-LMTA",
+        "LV-LVA-LT"
+      ],
+      "sources": [
+        "https://www.vle.lt/straipsnis/leopoldas-ii/",
+        "https://www.behindthename.com/name/leopold",
+        "https://old.lmta.lt/en/fakultetas/muzikos-fakultetas/vargonu-ir-klavesino-katedra/veikla-ir-istorija/"
+      ],
+      "facts_used": "Leopoldas is the Lithuanian rendering of Leopold, explicitly paired in the encyclopaedia’s entry on Emperor Leopold II. The family derives from Old German liut, people, and bald, bold or brave. A later association with Latin leo, lion, affected the spelling rather than supplying its original first element. In Lithuanian music history the name was borne by organist Leopoldas Digrys. The Academy of Music and Theatre’s departmental history records that his initiative reopened the organ class in 1962 after its closure in 1949, a specific contribution by a bearer to musical education.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "VLE explicitly pairs Leopoldas II with Leopold II, supplying a rendering bridge to the curated liut/bald etymology. Directly opened LMTA history dates Leopoldas Digrys’s initiative to reopen the organ class to 1962, after closure in 1949. The popular guide says meaning still being clarified and its mixed similar-name list was not used. The inspected 1961 Latvian rendering manual p. 47 contains no Leopoldas pair.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lt",
+      "name": "Vaidilas",
+      "spellings": [
+        "Vaidilas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vaidilas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=284"
+      ],
+      "facts_used": "The guide explains Vaidilas as a derivative of Vaidas, a shortening of names beginning Vaid-. This describes a route of personal-name formation. It does not by itself establish a connection with an ancient priestly title or a single literal translation of the whole name. In an essay on Lithuanian names, Antanas Salys contrasted the calendar form Vaidilis with the older Vaidilas, preferring the latter. The essay was reprinted in volume two of his writings in 1983. This documents a linguist’s discussion of the spelling rather than a claim that Vaidilas was created in 1983.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE derives Vaidilas from Vaidas, shortened from Vaid- names. Salys PDF p. 284 / printed p. 269 visually checked: essay prefers older Vaidilas over calendar Vaidilis. Checked publication is the 1983 collected volume, not an inferred original essay date. The p. 317 calendar instead has Vaidila (Vaidys), not this exact form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lt",
+      "name": "Žadvydė",
+      "spellings": [
+        "Žadvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/zadvyde/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=280"
+      ],
+      "facts_used": "Žadvydė is a Lithuanian feminine two-stem name. The guide explains žad- through žadėti, to intend or prepare, and vyd- through vydo, saw. These are explanations of individual elements, not sufficient grounds for one exact poetic translation of the whole name. A historical example of the family is the related masculine form Žadvydas. Volume two of Salys’s writings, published in 1983, includes it in a German–Lithuanian dictionary appendix as both a given name and a surname. This evidence concerns Žadvydas and does not date the first use of feminine Žadvydė.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "LT-GUIDE explicitly gives a two-stem name, žadėti and (iš)vydo, with related Žadvyda/Žadvydas. Salys PDF p. 280 / printed p. 265 visually checked: Žadvydas as masculine given name and surname in a German–Lithuanian dictionary appendix. Narrative explicitly attributes this 1983 publication evidence to the related male form, not a first attestation or creation date of Žadvydė. No poetic whole-name translation, fictional bearer or company-name match was accepted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Leopoldina",
+      "spellings": [
+        "Leopoldina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Leopoldina",
+        "https://www.izpetnieks.lv/en/name/Leopolds"
+      ],
+      "facts_used": "",
+      "hypothesis": "Leopoldina could be compared with Leopolds, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Leopolds cannot automatically be assigned to Leopoldina.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Find an exact Latvian feminine correspondence through LV-LVA or a signed onomastic study; inspect Siliņš originals and LV-PERIODIKA. Behind the Name’s Leopoldina result is user-submitted and Duden’s is an academy, not sufficient proof. Do not transfer Leopolds dates.",
+      "next_steps": "Find an exact Latvian feminine correspondence through LV-LVA or a signed onomastic study; inspect Siliņš originals and LV-PERIODIKA. Behind the Name’s Leopoldina result is user-submitted and Duden’s is an academy, not sufficient proof. Do not transfer Leopolds dates."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Leopolds",
+      "spellings": [
+        "Leopolds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Leopolds",
+        "https://www.behindthename.com/name/leopold"
+      ],
+      "facts_used": "Leopolds combines Old High German liut, people, and bald, bold or brave, belonging to the same historical family as German Leopold. Association with Latin leo, lion, influenced the international spelling, but lion is not the original explanation of its first element. The Siliņš dictionary catalogue places a Leopolds record in Mazsalaca in the last quarter of the nineteenth century. It separately gives 1767 for calendar inclusion. The earlier calendar record and later evidence of personal use concern different kinds of sources, rather than a single date of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 213: liut/bald, Mazsalaca in the last quarter of the nineteenth century, calendar 1767. INT-BTN distinguishes the later leo spelling association from the original first element.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Unda",
+      "spellings": [
+        "Unda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Unda"
+      ],
+      "facts_used": "The dictionary connects Unda with Latin unda, wave. This explanation concerns water imagery rather than personal character. The Latin word and the personal name explained through it belong to different periods: the age of the ancient word does not itself date the Latvian name’s formation. The catalogue records the personal name Unda in Riga in 1969, providing a specific place and time for this short form. Its entry supplies no calendar-inclusion year. The 1908 date in the Undīna/-e entry cannot be transferred to Unda, and the 1969 record does not prove there was no earlier use.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 312: Latin unda, Riga 1969, no calendar-entry year. No 1908 transfer from the separate Undīna/-e entry.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undalgs",
+      "spellings": [
+        "Undalgs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-AUDIT"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Undalgs",
+        "https://www.lrvk.gov.lv/lv/jaunumi/rigas-domes-nekustamo-ipasumu-parvaldiba-ka-ir-bijis-lidz-sim-un-ka-vajadzetu-but-turpmak"
+      ],
+      "facts_used": "The State Audit Office discussion report names participant Undalgs Mētra; this establishes use only.",
+      "hypothesis": "The checked dictionary material does not establish the origin of Undalgs. Comparing it with Unda or other Und- names would remain an unverified proposal. A State Audit Office discussion report independently documents the name in participant Undalgs Mētra, but this usage example does not explain its formation.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Inspect the original dictionary and LV-LAVI/LV-PERIODIKA naming discussions for an exact explanation. The State Audit Office participant paragraph proves use of Undalgs Mētra but no origin; an Unda/Und- comparison remains unverified.",
+      "next_steps": "Inspect the original dictionary and LV-LAVI/LV-PERIODIKA naming discussions for an exact explanation. The State Audit Office participant paragraph proves use of Undalgs Mētra but no origin; an Unda/Und- comparison remains unverified."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undija",
+      "spellings": [
+        "Undija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Undija",
+        "https://www.izpetnieks.lv/en/name/Unda"
+      ],
+      "facts_used": "",
+      "hypothesis": "Undija could be compared with Unda, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Unda cannot automatically be assigned to Undija.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Search LV-LVA, LV-LAVI and LV-PERIODIKA for an exact etymology or explicitly documented variant. The exact catalogue entry lacks an explanation; similarity to Unda does not establish derivation or inherited dates. A publisher sample credit for Undija Ancēna is an uninspected usage lead only.",
+      "next_steps": "Search LV-LVA, LV-LAVI and LV-PERIODIKA for an exact etymology or explicitly documented variant. The exact catalogue entry lacks an explanation; similarity to Unda does not establish derivation or inherited dates. A publisher sample credit for Undija Ancēna is an uninspected usage lead only."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undina",
+      "spellings": [
+        "Undina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Undina",
+        "https://www.izpetnieks.lv/en/name/Und%C4%ABna"
+      ],
+      "facts_used": "",
+      "hypothesis": "Undina could be compared with Undīna, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Undīna cannot automatically be assigned to Undina.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Find an exact short-i rendering or historical original through LV-LVA/LV-PERIODIKA. The normalized lookup inherits Undīna/-e and its 1922 Riga record; keep the attested macron and do not claim that date for Undina.",
+      "next_steps": "Find an exact short-i rendering or historical original through LV-LVA/LV-PERIODIKA. The normalized lookup inherits Undīna/-e and its 1922 Riga record; keep the attested macron and do not claim that date for Undina."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undīna",
+      "spellings": [
+        "Undīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Und%C4%ABna"
+      ],
+      "facts_used": "The dictionary connects Undīna with Latin unda, wave. This explanation concerns water imagery rather than personal character. The Latin word and the personal name explained through it belong to different periods: the age of the ancient word does not itself date the Latvian name’s formation. The Siliņš dictionary catalogue includes Undīna in the combined entry Undīna/-e. It gives a Riga personal-name record in 1922 and, separately, calendar inclusion in 1908. These dates belong to the combined entry; they do not establish independent first registrations of both endings in the same year.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 312 combines Undīna/-e: Latin unda, Riga 1922, calendar 1908. Dates retain combined-entry scope, not independent first attestations of both endings.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undīne",
+      "spellings": [
+        "Undīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Und%C4%ABne"
+      ],
+      "facts_used": "The dictionary connects Undīne with Latin unda, wave. This explanation concerns water imagery rather than personal character. The Latin word and the personal name explained through it belong to different periods: the age of the ancient word does not itself date the Latvian name’s formation. The Siliņš dictionary catalogue includes Undīne in the combined entry Undīna/-e. It gives a Riga personal-name record in 1922 and, separately, calendar inclusion in 1908. These dates belong to the combined entry; they do not establish independent first registrations of both endings in the same year.",
+      "hypothesis": "",
+      "reason": "Exact-form origin or rendering evidence and a concrete historical, dictionary or professional episode support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 312 combines Undīna/-e: Latin unda, Riga 1922, calendar 1908. Dates retain combined-entry scope, not independent first attestations of both endings.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undis",
+      "spellings": [
+        "Undis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Undis",
+        "https://snl.no/Undis_-_kvinnenamn"
+      ],
+      "facts_used": "",
+      "hypothesis": "The origin of Latvian Undis remains unconfirmed. A comparison with Unda would be a working hypothesis. Norwegian also has a feminine Undis, explained through Unn and dis and dated to 1897, but the explanation of a female name in another language does not establish this Latvian masculine name’s origin or date.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Find an exact Latvian masculine entry through LV-LAVI, LV-LVA and historical records. INT-SNL explains Norwegian feminine Undis, coined in 1897 from Unn/dis; it is a homonym and does not establish Latvian origin or date. Unis in the Una entry is a different spelling.",
+      "next_steps": "Find an exact Latvian masculine entry through LV-LAVI, LV-LVA and historical records. INT-SNL explains Norwegian feminine Undis, coined in 1897 from Unn/dis; it is a homonym and does not establish Latvian origin or date. Unis in the Una entry is a different spelling."
+    },
+    {
+      "batch": "calendar-2026-11-15",
+      "date": "2026-11-12",
+      "calendar_date": "11-15",
+      "country": "lv",
+      "name": "Undita",
+      "spellings": [
+        "Undita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Undita",
+        "https://www.izpetnieks.lv/en/name/Unda"
+      ],
+      "facts_used": "",
+      "hypothesis": "Undita could be compared with Unda, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Unda cannot automatically be assigned to Undita.",
+      "reason": "The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage.",
+      "uncertainties": "Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited.",
+      "next_steps": "Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited."
+    }
+  ]
+}

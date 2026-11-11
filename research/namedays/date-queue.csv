@@ -23,23 +23,14 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 2,11-14,lv,Vikars,unresearched,3,unverified,needs_more
 2,11-14,lv,Vincentina,unresearched,7,unverified,needs_more
 2,11-14,ee,Alve,unresearched,< 5,unverified,needs_more
-3,11-15,lv,Leopolds,summary,91,,
-3,11-15,lv,Undīne,summary,589,,
-3,11-15,lv,Unda,summary,113,,
-3,11-15,lv,Leopoldina,summary,1,,
-3,11-15,lv,Undalgs,unresearched,2,,
-3,11-15,lv,Undija,summary,3,,
-3,11-15,lv,Undina,summary,4,,
-3,11-15,lv,Undīna,summary,5,,
-3,11-15,lv,Undis,summary,5,,
-3,11-15,lv,Undita,summary,1,,
-3,11-15,lt,Albertas,summary,,,
-3,11-15,lt,Leopoldas,summary,,,
-3,11-15,lt,Vaidilas,summary,,,
-3,11-15,lt,Žadvydė,summary,,,
-3,11-15,ee,Vaige,unresearched,14,,
-3,11-15,ee,Vaigi,unresearched,< 5,,
-3,11-15,ee,Vaiki,unresearched,46,,
+3,11-15,lv,Leopoldina,unresearched,1,unverified,needs_more
+3,11-15,lv,Undalgs,unresearched,2,unverified,needs_more
+3,11-15,lv,Undija,unresearched,3,unverified,needs_more
+3,11-15,lv,Undina,unresearched,4,unverified,needs_more
+3,11-15,lv,Undis,unresearched,5,unverified,needs_more
+3,11-15,lv,Undita,unresearched,1,unverified,needs_more
+3,11-15,ee,Vaigi,unresearched,< 5,unverified,needs_more
+3,11-15,ee,Vaiki,unresearched,46,unverified,needs_more
 4,11-16,lv,Banga,summary,16,,
 4,11-16,lv,Glorija,summary,216,,
 4,11-16,lv,Ganda,unresearched,,,
@@ -5233,7 +5224,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 233,07-03,lt,Anatolijus,summary,,,
 233,07-03,lt,Leonas,summary,,,
 233,07-03,lt,Liaudmina,unresearched,,,
-233,07-03,lt,Vaidilas,summary,,,
 233,07-03,lt,Rytis,summary,,,
 233,07-03,ee,Arvo,summary,1673,,
 233,07-03,ee,Aulik,unresearched,< 5,,
