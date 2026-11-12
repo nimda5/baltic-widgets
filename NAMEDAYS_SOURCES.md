@@ -2,7 +2,7 @@
 
 This is the shared, growing directory for LV, LT and EE name-history research. Read it before a new round. Use [NAMEDAYS_BACKLOG.md](NAMEDAYS_BACKLOG.md) for the calendar queue, [NAMEDAYS.md](NAMEDAYS.md) for editorial/data rules, and the [round notes](research/namedays/) for individual claims and outcomes. Source URLs belong here and in working files/provenance, never in the widget interface.
 
-Last directory review: **12 November 2026**, including the 12–13 November recheck and the 14–30 November research passes. Resource IDs below are stable references for research notes. A useful catalogue or repository is a place to search, not evidence for every name it contains.
+Last directory review: **12 November 2026**, including the 12–13 November recheck and the 14 November–10 December research passes. Resource IDs below are stable references for research notes. A useful catalogue or repository is a place to search, not evidence for every name it contains.
 
 ## Start here
 
@@ -358,3 +358,64 @@ Reviewed **12 November 2026**. All **96** unfinished profiles received a researc
 **INT-SNL**, Gulbrand Alhaug’s signed [Selma](https://snl.no/Selma_-_kvinnenamn), describes Macpherson’s Ossian castle in 1761–1763 and also a possible Anselma route. Curated **INT-BTN** [Selma](https://www.behindthename.com/name/selma-1) labels the ultimate meaning unknown and both routes possible. Both Selma and Selme remain unverified; the 2005 column’s Gaelic-looking gloss is not adopted as uniquely proved. [Claudius](https://www.behindthename.com/name/claudius) labels derivation from claudus possible: Klaudijs remains open. [Woodrow](https://www.behindthename.com/name/woodrow) gives a row of houses by a wood; the Latvian catalogue retains forest-settlement/clearing alternatives, so Vudro’s full literal interpretation remains unverified. [Sabrina](https://www.behindthename.com/name/sabrina) supports the Severn/Habren family but leaves the river’s further meaning unknown; no princess legend is presented as fact. **EE-EKI** [lein](https://sonaveeb.ee/search/lite/est/lein/1/est) corroborates the common-word mourning gloss, not the personal-name derivation on its own.
 
 No specific supported lexical proposal was found for **Sniga** or **Zanga**. Their next steps remain in the backlog. Exact-form queries with no matches are access/search outcomes, not proof that a name does not exist. The next fresh date pass is **6 December**.
+
+
+## December 6–10: rounds 36–40
+
+Reviewed **12 November 2026**. All **104 previously unfinished profiles** received a research pass: **49 reviewed histories**, **50 unverified hypotheses** and **five profiles without an adopted proposal**. All 257 previously open researched identities remain open. Consult [round 36](research/namedays/round36-notes.json), [round 37](research/namedays/round37-notes.json), [round 38](research/namedays/round38-notes.json), [round 39](research/namedays/round39-notes.json) and [round 40](research/namedays/round40-notes.json). Sources remain in documentation and provenance, with no source links or lists in the widget.
+
+| Date | Profiles examined | Reviewed histories | Unverified hypotheses | No proposal |
+| --- | ---: | ---: | ---: | ---: |
+| 6 December | 26 | 14 | 12 | 0 |
+| 7 December | 22 | 11 | 11 | 0 |
+| 8 December | 26 | 11 | 12 | 3 |
+| 9 December | 17 | 5 | 11 | 1 |
+| 10 December | 13 | 8 | 4 | 1 |
+
+### Newly productive resources
+
+| ID | Resource and checked location | Supported claims and limits |
+| --- | --- | --- |
+| EE-TURK10 | Tiina Türk, **Kiili valla asustusnimed**, University of Tartu master's thesis, **2010**, [PDF p. 80 / printed p. 80](https://dspace.ut.ee/server/api/core/bitstreams/de245993-def6-4644-9877-939eb96079b3/content#page=80), **Niiliski** entry; title PDF p. 1. | Original pages inspected: **Niilas ~ Niilis ~ Niilo ~ Niilu ~ Niilus < Nikolaus**, citing Rajandi 1966 p. 135. The surrounding seventeenth-century and later dates refer to farm/place records. They are not first-use dates for every modern personal-name spelling. The dated scholarly episode used is this 2010 publication. Indexed privately once, 165 pages. |
+| INT-KRAUS13 | Herwig Kraus, **Sowjetrussische Vornamen: Ein Lexikon**, de Gruyter, **2013**, publicly supplied [publisher preview PDF p. 16 / printed p. 8](https://api.pageplace.de/preview/DT0400.9783110314052_A20903989/preview-9783110314052_A20903989.pdf#page=16); copyright PDF p. 4. | Original page explicitly lists **Vladlen, Vladlena, Vladilen, Vladilena** as Lenin-derived neologisms and explains that later naming was not always ideological. Supports the foreign family; exact Latvian spellings still need their separate dictionary/agency bridges. This is a 23-page preview, not the whole lexicon. Indexed once privately. |
+| RU-PETROVSKY66 | N. A. Petrovsky, **Slovar russkikh lichnykh imen** (Dictionary of Russian Personal Names), Moscow: Soviet Encyclopaedia, **1966**, [scan](https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf). Title PDF p. 4; **PDF pp. 79–80 / printed pp. 78–79**, and **PDF p. 166 / printed p. 165**. | Original pages visually checked. Vladilen begins on printed p. 78 and its contraction explanation continues on p. 79; Vladilena is explicitly feminine of Vladilen, Vladlena of Vladlen. Both male forms are contractions of Vladimir Ilyich Lenin. Printed p. 165 gives **Nikandr: nikē + anēr**, distinguishes **Nikiy** and a mythological **Nika**, and lists Nika among other names' nicknames. This confirms why one universal Nika derivation cannot be selected. Does not establish every Latvian spelling or historical first date. Image-only 385-page scan OCR-indexed once in Russian; accents and lookalike letters require original-page inspection. Do not import the old preface's normative or ideological judgments into histories. |
+| LV-ENC-SILVER | Benedikts Kalnačs, National Encyclopaedia, [Sidraba šķidrauts](https://enciklopedija.lv/skirklis/103387), plot, publication and **Iestudējumi** sections. | Exact central character **Guna**, premiere **27 January 1905**, New Latvian Theatre, **Otīlija Muceniece** in the role. A dated fictional-character/use episode, not proof that Aspazija invented the name or that every later bearer was named for the play. |
+| INT-OSCARS | Academy of Motion Picture Arts and Sciences, [72nd Academy Awards, 2000](https://www.oscars.org/oscars/ceremonies/2000), **Actress in a Supporting Role** winner. | Exact **Angelina Jolie**, winner for **Girl, Interrupted**, ceremony **26 March 2000**, honoring 1999 films. Used as a clearly scoped foreign namesake episode for Lithuanian Angelina, whose family link comes from the Lithuanian guide/curated dictionary. It is not a Lithuanian first attestation or a claim about any family's naming motive. |
+
+**Access-limited lead:** Pauls Balodis's 2008 thesis, [legacy University of Latvia PDF URL](https://dspace.lu.lv/dspace/bitstream/handle/7/4776/28936-Pauls_Balodis_2008.pdf?isAllowed=y&sequence=1), has search-indexed Dzirkstīte/Guna passages. Direct retrieval returned HTML rather than PDF and the web reader returned 403. No original-page inspection or reusable PDF cache was claimed. Dzirkstīte's reviewed history instead uses the opened exact catalogue's Siliņš p. 104 record: **Riga 1933, calendar 1925**. Retry the thesis through a working repository record in a later round; do not use the search snippet as independent proof.
+
+### Exact agency evidence
+
+**LV-LVA** exact individual/paired HTML records were opened, with the given-name type checked. These cite manuals; they are not automatically independent inspections of the cited original pages. Precise record URLs are stored in each round's per-name provenance. Productive pairs include:
+
+| Correspondence | Manual citation | Scope |
+| --- | --- | --- |
+| English Nicola → Nikola | Ahero 2006 p. 113 | Feminine row; separate Croatian/Italian masculine rows exist. No universal gender assigned. |
+| Russian Ника́ндр → Nikandrs | Grabis/Porīte 1993 p. 205 | Exact given-name bridge; Greek second stem is anēr/andros, not Nikolaos's laos. |
+| English Nicky → Nikijs | Ahero 2006 p. 80 | Documented English Nicholas/Nicole line, not an assumed rendering of Russian Nikiy. |
+| German Nicklas → Niklass | Ceplītis 1960 p. 63 | Exact double-s form. Own calendar 1817 is kept within the reviewed second paragraph; no transfer to long-ā Niklāss. |
+| Finnish Niko → Niko | Nordic volume 2003 p. 396 | Exact given-name rendering, no invented first Latvian birth date. |
+| English Nicholas → Nikolass | Ahero 2006 p. 80 | Exact double-s spelling; related Nicolas row is separately identified. |
+| Portuguese Nicole → Nikole | Placinska 2015 p. 143 | Exact feminine row; not the differently annotated Norwegian row. |
+| French Antoinette → Antuanete | Ceplītis 1963 p. 75 | Exact final-e, not unverified Antuaneta. |
+| Polish Zbigniew → Zbigņevs | Staltmane 1998 p. 54 | Exact spelling closes the bridge; Slavic stem glosses are kept separate. |
+| Icelandic Gunnar → Gunars | Dimiņš 2022 p. 234 | Exact short-a spelling, distinct from Gunārs/Gunāra. |
+| Norwegian Gunnar → Gunnars | Nordic volume 2003 p. 216 | Exact double-n spelling and gunnr/herr family. |
+| Russian Владиле́н / Владле́н → Vladilens / Vladlens | Grabis/Porīte 1993 p. 195 | Given names, not nearby patronymics. |
+| Russian Владиле́на / Владле́на → Vladilena / Vladlena | Grabis/Porīte 1993 p. 184 | Exact feminine rows; patronymic/genitive distractors rejected. |
+| English Zenobia → Zenobija | Ahero 2006 p. 121 | Pronunciation annotation is not another spelling; Zinobija/Zinovija dates are not transferred. |
+| Swedish Gun → Guna | Nordic volume 2003 p. 327 | A separate documented rendering alongside the Latvian fire-word line. Does not make the two etymologies identical. Chinese Gong surname row rejected. |
+
+**LV-SILINS** exact local records remain form-specific: Niks 1601; Nikoleta 1936; Nikola has masculine/feminine entries; Antonija 1832 at Rūjiena/calendar 1767; feminine Anta 1930 at Lubāna/calendar 1932 is distinct from masculine Anta/Ante 1562 at Mārciena; Tonija 1876/calendar 1889; Tonita and Toņa have third-quarter-twentieth-century Liepāja/Alūksne-area records without invented exact years. Their Antonius family is documented while its ultimate literal meaning remains explicitly unknown. Do not adopt anthos/flower as its proved root. Vladilens 1924 is not transferred to female Vladlēna's own second-quarter-twentieth-century record. Tabita 1923 in Riga/calendar 1934 and Zenons 1877 at Rēzekne/calendar 1864 retain their own dates. Džudīte 1950 in Riga is separate from Judīte 1650 in Jelgava/calendar 1767. Nevils 1936 is supported by the personal-name catalogue; the agency's Nevill(e)→Nevils 2006 p. 150 **surname** row was rejected as given-name proof.
+
+### Reused original PDF pages and unresolved analyses
+
+**EE-MAGISTE29:** PDF p. 43 / printed p. 41 has **Nigol(as)~Nigul(as)** with exact cited **Nigulas** and **=Nikolaus**. PDF p. 36 / printed p. 34 explicitly has **Laas=Klaus**, whereas **Laus** occurs inside the **Laos** entry with a pointer to Klaos; the latter full derivation remains open. PDF p. 17 / printed p. 15 gives **Küli~Külvi**, compared with **külv/külvama**. PDF p. 46 / printed p. 44 gives **Raik/Rait** with questioned comparisons, not one proved modern etymology. PDF p. 6 / printed p. 4 footnote explicitly identifies **Juta** as a **Juudit** variant also occurring in German dialects. No Lithuanian Juta/Utah place-name homonym was substituted.
+
+**EE-LEOLE05-DEC p. 1:** exact **Niilo, Laas, Sabiine, Külli, Küllike, Külliki, Külvi, Raido, Raigo, Raik, Rait, Juudit, Juta** provide dated 2005 use. Külli/Küllike/Külliki have independently checked abundance/sufficiency-family explanations. The column's **Külvi←Kyllikki** differs from Mägiste's sowing comparison; keep Külvi unverified. Raido's woodcutter/giant/Raivo alternatives and dictionary Raimond/Rait explanations remain open. Raigo/Raiko/Raik/Rait do not receive one copied Rai- origin. **Piine** has only an inspected submitted-name Sabiine-shortening proposal; it stays unverified.
+
+**LT-SALYS83**, PDF p. 318 / printed p. 303, December calendar: **Bilmanas** on 6 is not Bilmantas; **Ambraziejus, Daugardas, Tautė** on 7; **Guntilda, Vaidginas** on 8; **Delfina, Leokadija, Gedenė, Vakaris** on 9; **Eularija, Eidimtas, Ilma** on 10. **PDF p. 271 / printed p. 256** marks Tautė as a feminine personal name. **PDF p. 305 / printed p. 290** gives **Zenonas(Zenas), April 5**, unlike the project December 8. **PDF p. 286 / printed p. 271** links Ei-/Eit-/Eid-/Eis- with **eiti**; **PDF p. 289 / printed p. 274** gives **Imt-: imti** and exact **Eidimtas**. The guide's walking-related **eidlus** is retained in that discussion without inventing a complete compound sentence. **PDF p. 248 / printed p. 233** documents Loreta and Lora's relation to it, not a unique ultimate root.
+
+**Open interpretations:** Bilmantas retains mantus/manta alternatives; Norvydė and Gedmintė lack the required exact feminine dated episode. Daugardas retains gard-/gird- disagreement, Vaidginas its first-stem question (LT-PAKERYS09 PDF p. 22 / printed p. 206 explicitly discusses competing lexical/accent analyses), and Guntilda lacks an explicit exact-family bridge despite dated use. [Delfina/Delphina](https://www.behindthename.com/name/delphina) retains dolphin versus Delphi routes; [Leocadia](https://www.behindthename.com/name/leocadia) explicitly offers possible island/bright-word derivations; Ilma retains Finnish air versus Lithuanian lake alternatives; [Loretta](https://www.behindthename.com/name/loretta) retains Lauretta/Loreto/Lor- possibilities rather than forcing the guide's Laura explanation. The exact Eularija guide says its meaning is being clarified: no guessed Eulalia repair was adopted.
+
+No supported specific proposal was adopted for **Gināra, Ginārs, Gunijs, Sārtīte or Eularija**. Failed exact lookups do not prove nonexistence. All open records retain sources, uncertainties and next steps in the backlog. The next fresh date pass is **11 December**.

@@ -1,0 +1,776 @@
+{
+  "round": 36,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 26 unfinished December 6 profiles. Reused PDF indexes and exact agency HTML rows. New Türk2010 original p80 resolves Niilas/Niilo without transferring farm-name dates. Bilmantas is not historical Bilmanas; nine Latvian comparisons, two Lithuanian entries and Laus remain unverified.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Niks",
+      "spellings": [
+        "Niks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Niks",
+        "https://dmnes.org/name/Nicholas"
+      ],
+      "facts_used": "Niks: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. Siliņš’s dictionary dates the use of Niks: 1601. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Siliņš pp250/249 links Niks to Nikolajs and dates own use1601; no first-date transfer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikola",
+      "spellings": [
+        "Nikola"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikola",
+        "https://www.personvarduatveide.lv/words/28770?locale=lv",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/nicholas"
+      ],
+      "facts_used": "Nikola: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Latvian Language Agency gives the exact rendering Nicola → Nikola, citing page 113 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency HTML row opened; manual citation checked, not claimed as independent original-page inspection. Nikola has both male and female branches; same family, no universal gender or borrowing path.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikijs",
+      "spellings": [
+        "Nikijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikijs",
+        "https://www.personvarduatveide.lv/words/29766?locale=lv",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/nicky"
+      ],
+      "facts_used": "Nikijs: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Latvian Language Agency gives the exact rendering Nicky → Nikijs, citing page 80 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency HTML row opened; manual citation checked, not claimed as independent original-page inspection. Nikola has both male and female branches; same family, no universal gender or borrowing path.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Niklass",
+      "spellings": [
+        "Niklass"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Niklass",
+        "https://www.personvarduatveide.lv/words/39427?locale=lv",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/nicholas"
+      ],
+      "facts_used": "Niklass: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Latvian Language Agency gives the exact rendering Nicklas → Niklass, citing page 63 of a 1960 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family. The given-name dictionary records Niklass as entering the calendar in 1817.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency HTML row opened; manual citation checked, not claimed as independent original-page inspection. Nikola has both male and female branches; same family, no universal gender or borrowing path. Own calendar 1817 integrated into second paragraph; exact-form scope retained.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Niko",
+      "spellings": [
+        "Niko"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Niko",
+        "https://www.personvarduatveide.lv/words/35845?locale=lv",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/niko"
+      ],
+      "facts_used": "Niko: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Latvian Language Agency gives the exact rendering Niko → Niko, citing page 396 of a 2003 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency HTML row opened; manual citation checked, not claimed as independent original-page inspection. Nikola has both male and female branches; same family, no universal gender or borrowing path.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikolass",
+      "spellings": [
+        "Nikolass"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikolass",
+        "https://www.personvarduatveide.lv/words/29763?locale=lv",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/nicholas"
+      ],
+      "facts_used": "Nikolass: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Latvian Language Agency gives the exact rendering Nicholas → Nikolass, citing page 80 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency HTML row opened; manual citation checked, not claimed as independent original-page inspection. Nikola has both male and female branches; same family, no universal gender or borrowing path.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikole",
+      "spellings": [
+        "Nikole"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikole",
+        "https://www.personvarduatveide.lv/words/10630?locale=lv",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/nicole"
+      ],
+      "facts_used": "Nikole: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Latvian Language Agency gives the exact rendering Nicole → Nikole, citing page 143 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency HTML row opened; manual citation checked, not claimed as independent original-page inspection. Nikola has both male and female branches; same family, no universal gender or borrowing path.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikoleta",
+      "spellings": [
+        "Nikoleta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikoleta",
+        "https://www.izpetnieks.lv/en/name/Nikolajs",
+        "https://dmnes.org/name/Nicholas"
+      ],
+      "facts_used": "Nikoleta: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. Siliņš’s dictionary dates the use of Nikoleta: 1936. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p249 direct exact-form cross-reference and own1936; do not infer another spelling’s first date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikandrs",
+      "spellings": [
+        "Nikandrs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/24302?locale=lv",
+        "https://www.behindthename.com/name/nicander",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=166"
+      ],
+      "facts_used": "Nikandrs: The exact rendering of Russian Ника́ндр leads to Greek Nikandros. Its elements are nikē, victory, and anēr, genitive andros, man. The second stem differs from laos, people, in Nikolaos; a similar beginning does not make them the same full name. The Latvian Language Agency gives the exact rendering Ника́ндр → Nikandrs, citing page 205 of a 1993 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Russian rendering closes a missing bridge. Curated Nicander/Nikandros links Russian Nikandr and gives nike+aner. Not Nicolas-family second stem. Petrovsky1966 original PDF p. 166/printed p. 165 visually checked: Russian Nika has a mythological entry and occurs among nicknames; Nikandr explicitly nike+aner. This does not establish one Latvian Nika origin.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Niilas",
+      "spellings": [
+        "Niilas"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-TURK10"
+      ],
+      "sources": [
+        "https://dspace.ut.ee/server/api/core/bitstreams/de245993-def6-4644-9877-939eb96079b3/content#page=80"
+      ],
+      "facts_used": "Niilas: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. Page 80 of Tiina Türk’s 2010 study explicitly lists Niilas among personal-name forms from Nikolaus, citing Rajandi’s dictionary. The surrounding lines date place names; those older dates are not first-use years for Niilas.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original thesis PDF p. 80/printed p. 80 exact Niilas~Niilis~Niilo~Niilu~Niilus<Nikolaus, citing Rajandi1966p135. Thesis publication2010 is the episode; farm records not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Niilo",
+      "spellings": [
+        "Niilo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-TURK10",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://dspace.ut.ee/server/api/core/bitstreams/de245993-def6-4644-9877-939eb96079b3/content#page=80",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Niilo: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. Page 80 of Tiina Türk’s 2010 study explicitly lists Niilo among personal-name forms from Nikolaus, citing Rajandi’s dictionary. The surrounding lines date place names; those older dates are not first-use years for Niilo.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original thesis PDF p. 80/printed p. 80 exact Niilas~Niilis~Niilo~Niilu~Niilus<Nikolaus, citing Rajandi1966p135. Thesis publication2010 is the episode; farm records not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Nigulas",
+      "spellings": [
+        "Nigulas"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=43",
+        "https://dmnes.org/name/Nicholas"
+      ],
+      "facts_used": "Nigulas: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. Page 41 of Mägiste’s 1929 name list gives Nigulas in the Nikolaus family. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original PDF p. 43/printed p. 41 has Nigol(as)~Nigul(as), explicit P107 Nigulas and =Nikolaus. Modern surname-only Wiktionary entry not substituted for given-name proof.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Laas",
+      "spellings": [
+        "Laas"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=36",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/nicholas"
+      ],
+      "facts_used": "Laas: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. Page 34 of Mägiste’s 1929 name list gives Laas with a Klaus equation. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original PDF p. 36/printed p. 34 Laas=Klaus; DecemberLeolep1 explicitly lists Laas in Nikolaus family. Wiktionary surname homonym not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Nils",
+      "spellings": [
+        "Nils"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Nils#Estonian",
+        "https://dmnes.org/name/Nicholas",
+        "https://www.behindthename.com/name/nils"
+      ],
+      "facts_used": "Nils: This form belongs to the Nikolaos/Nikolajs family. The Greek compound combines nikē, victory, and laos, people. Short and derived forms in different languages changed the original spelling; a shared family does not itself establish one borrowing route in every household. The Estonian form’s Swedish connection is illustrated by Swedish Nils in a 1543 record in the Dictionary of Medieval Names. This is a dated example of the related Swedish form, not an Estonian first-use date or a claim that all bearers were named after one person.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Wiktionary exact Estonian borrowedSwedishNils; DMNESSwedenEarlyModernSwedish1543Nils nominativeAudén1980p164. Do not substitute genitive1361 or Finland1548.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Meikols",
+      "spellings": [
+        "Meikols"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meikols",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Meikols"
+      ],
+      "facts_used": "Meikols is still being checked against Meikulis / Miķelis / Nikolajs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meikulis / Miķelis / Nikolajs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue Siliņš235 questions which full form;1931 does not choose one.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Meikulis",
+      "spellings": [
+        "Meikulis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meikulis",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Meikulis"
+      ],
+      "facts_used": "Meikulis is still being checked against Meikols / Miķelis / Nikolajs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meikols / Miķelis / Nikolajs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact English catalogue404; Meikols entry refers to Meikulis but full etymology still uncertain.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Meikuls",
+      "spellings": [
+        "Meikuls"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meikuls",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Meikuls"
+      ],
+      "facts_used": "Meikuls is still being checked against Meikulis / Miķelis / Nikolajs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meikulis / Miķelis / Nikolajs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact-form full derivation found; short spelling distinct from related Meikulis.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nika",
+      "spellings": [
+        "Nika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nika",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nika",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=166"
+      ],
+      "facts_used": "Nika is still being checked against Nikola / Nikolajs / Greek Nike. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nikola / Nikolajs / Greek Nike",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue distinguishes masculine/feminine and proposes several links; LVA Croatian Nika2011p156 establishes feminine rendering but not one universal ultimate origin. Petrovsky1966 original PDF p. 166/printed p. 165 visually checked: Russian Nika has a mythological entry and occurs among nicknames; Nikandr explicitly nike+aner. This does not establish one Latvian Nika origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikija",
+      "spellings": [
+        "Nikija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nikija"
+      ],
+      "facts_used": "Nikija is still being checked against Nika / Nikolaos. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nika / Nikolaos",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue explicitly has no direct exact support; no LVA row found.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Niklāss",
+      "spellings": [
+        "Niklāss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikl%C4%81ss",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nikl%C4%81ss"
+      ],
+      "facts_used": "Niklāss is still being checked against Niklass / Niklas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Niklass / Niklas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Longā exact form has no checked rendering bridge; do not transfer Niklass1508/1817.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikolīna",
+      "spellings": [
+        "Nikolīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikol%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nikol%C4%ABna"
+      ],
+      "facts_used": "Nikolīna is still being checked against Nicolina / Nikoleta. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nicolina / Nikoleta",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact longī bridge not established by checked catalogue or agency; no related first date transferred.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikolla",
+      "spellings": [
+        "Nikolla"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikolla",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nikolla"
+      ],
+      "facts_used": "Nikolla is still being checked against Nikola / Nikollë. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nikola / Nikollë",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Doublel exact spelling not established by inspected rendering; Albanian Nikollë is distinct.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Ņika",
+      "spellings": [
+        "Ņika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C5%85ika",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=%C5%85ika"
+      ],
+      "facts_used": "Ņika is still being checked against Russian Ника / Nika. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Russian Ника / Nika",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Palatalized initial exact spelling not found in checked LVA row; no Nika dates transferred.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lt",
+      "name": "Bilmantas",
+      "spellings": [
+        "Bilmantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/bilmantas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Bilmantas is still being checked against bil- + mant- (mantus / manta). This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "bil- + mant- (mantus / manta)",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide retains clever versus possessions second-stem alternatives. SalysDecember6 has Bilmanas, not Bilmantas; do not repair original spelling to match target.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lt",
+      "name": "Norvydė",
+      "spellings": [
+        "Norvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/norvyde/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Norvydė is still being checked against nor- + vyd-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "nor- + vyd-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide proposes desire+see, but exact feminine dated scholarly episode not established. SalysNovember13Norvydas is male and not evidence of exact feminine first use.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Laus",
+      "spellings": [
+        "Laus"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=36",
+        "https://en.wiktionary.org/wiki/Laus#Estonian"
+      ],
+      "facts_used": "Laus is still being checked against Laos / Klaos / Nikolaus. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Laos / Klaos / Nikolaus",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "MägistePDF36printed34 has exact Laus inside Laos entry and points to Klaos; reciprocal pointer does not itself explicitly establish full Nikolaus derivation. Keep proposed chain open.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ],
+  "validation": {
+    "tests": "npm test: 128 passed",
+    "build": "npm run build passed",
+    "profiles": "All 104 target identities checked in all five languages; 49 reviewed histories have exactly two paragraphs and more than 300 characters combined.",
+    "backlog": "50 hypotheses and 5 no-proposal profiles remain unverified; all 257 previously researched open identities retained.",
+    "browser": "100 mobile views: five dates, three calendars, five languages; reviewed, hypothesis and no-history states, no displayed source links, no horizontal overflow or page errors.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged. Generated public/data and data copies match the static build.",
+    "pdf_cache": "23 private source indexes, 2901 pages; 3 new PDFs indexed once, including a 385-page Russian OCR scan; repeated indexing reuses existing extraction."
+  }
+}
