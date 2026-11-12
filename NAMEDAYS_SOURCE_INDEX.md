@@ -17,7 +17,7 @@ Select-String -Path research/namedays/source-index.csv -Pattern "Heinar"
 
 A text hit is a discovery aid. Inspect the rendered original page before using it as evidence.
 
-**131 source IDs**; 31 with a cached PDF. 59 privately cached working PDFs without a directory ID are listed only in the private catalogue.
+**131 source IDs**; 31 with a cached PDF. 62 privately cached working PDFs and web pages without a directory ID (LOCAL-*, WEB-*) are listed only in the private catalogue.
 
 ## Estonia
 

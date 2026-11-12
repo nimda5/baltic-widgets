@@ -17,7 +17,7 @@
     "update:nameday-statistics:ee": "node scripts/update-nameday-statistics-ee.mjs",
     "update:nameday-statistics:lt": "node scripts/update-nameday-statistics-lt.mjs",
     "test:namedays": "node --test parsers/namedays.test.mjs",
-    "backlog:namedays": "node scripts/nameday-backlog.mjs",
+    "backlog:namedays": "node scripts/nameday-backlog.mjs && node scripts/nameday-source-catalog.mjs",
     "sources:namedays": "node scripts/nameday-source-catalog.mjs",
     "update:plan": "node scripts/update-data.mjs --plan",
     "update:prices": "node scripts/update-data.mjs --profile=prices",

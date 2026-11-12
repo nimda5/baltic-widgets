@@ -67,7 +67,7 @@ const manifests=[];
 if(existsSync(cache)){
  for(const e of (await readdir(cache,{withFileTypes:true})).filter(e=>e.isDirectory()&&ID.test(e.name)))
   try{manifests.push(JSON.parse(await readFile(join(cache,e.name,'source.json'),'utf8')));}catch{}
- for(const m of manifests)if(!m.id.startsWith('LOCAL-')){const s=get(m.id);s.cached=m.pdf_pages;if(!s.resource){s.resource=m.title+' (cached PDF; no directory row yet)';s.directoryUrls.add(strip(m.url));}}
+ for(const m of manifests)if(!/^(LOCAL|WEB)-/.test(m.id)){const s=get(m.id);s.cached=m.pdf_pages;if(!s.resource){s.resource=m.title+' (cached PDF; no directory row yet)';s.directoryUrls.add(strip(m.url));}}
 }else{
  try{
   const prior=(await readFile(join(project,'research/namedays/source-index.csv'),'utf8')).split(/\r?\n/).slice(1);
@@ -95,7 +95,7 @@ const md=['# Name-day source index','',
  'Select-String -Path research/namedays/source-index.csv -Pattern "Heinar"',
  '```','',
  'A text hit is a discovery aid. Inspect the rendered original page before using it as evidence.','',
- `**${list.length} source IDs**; ${list.filter(s=>s.cached).length} with a cached PDF. ${manifests.filter(m=>m.id.startsWith('LOCAL-')).length||'Further'} privately cached working PDFs without a directory ID are listed only in the private catalogue.`,''];
+ `**${list.length} source IDs**; ${list.filter(s=>s.cached).length} with a cached PDF. ${manifests.filter(m=>/^(LOCAL|WEB)-/.test(m.id)).length||'Further'} privately cached working PDFs and web pages without a directory ID (LOCAL-*, WEB-*) are listed only in the private catalogue.`,''];
 for(const r of [...new Set(list.map(s=>region(s.id)))]){
  md.push('## '+(REGION[r]||'Other'),'','| ID | Resource | Rounds | Names | Cached PDF |','| --- | --- | --- | ---: | ---: |');
  for(const s of list.filter(s=>region(s.id)===r)){
