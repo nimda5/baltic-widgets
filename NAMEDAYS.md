@@ -34,10 +34,10 @@ Writer version 1.7.0 removed fictional spelling-based histories and retains orig
 
 | Editorial level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed narrative | 529 | 214 | 283 |
-| Short factual summary | 3,845 | 1,128 | 413 |
-| Earlier attestation only | 362 | 1 | 12 |
-| Historical research still needed | 820 | 225 | 845 |
+| Reviewed narrative | 651 | 261 | 325 |
+| Short factual summary | 3,595 | 1,050 | 382 |
+| Earlier attestation only | 347 | 1 | 12 |
+| Historical research still needed | 963 | 256 | 834 |
 | Total profiles | 5,556 | 1,568 | 1,553 |
 | Fictional historical stories displayed | 0 | 0 | 0 |
 
@@ -222,4 +222,7 @@ Rounds 24–30 completed research passes across **24–30 November**, all three 
 
 Rounds **31–35** complete research passes for **1–5 December** in LV, LT and EE, covering **96 previously unfinished profiles**. They add **37 reviewed histories** (LV 26, LT 9, EE 2), each with exactly two paragraphs in all five languages. **57 labelled hypotheses and two profiles without an adopted proposal** remain unverified. The 198 earlier open records remain open: the cumulative researched open set is **237 displayed hypotheses and 20 no-proposal profiles**. No calendar membership, supplied dates or population counts changed. At the end of round 35, the next fresh date pass was **6 December**; completed research passes are not verified-complete dates. See `research/namedays/round31-notes.json` through `round35-notes.json`, the [source directory](NAMEDAYS_SOURCES.md) and [PDF cache guide](NAMEDAYS_PDF_CACHE.md). New reusable PDFs are indexed privately once; no raw books or extracted full text are published.
 
-Rounds **36–40** complete research passes for **6–10 December**, all three calendars, covering **104 previously unfinished profiles**. There are **49 new reviewed histories** (LV 31, LT 7, EE 11), each with two paragraphs in all five languages, **50 labelled unverified hypotheses**, and **five no-proposal profiles**. All 257 earlier researched open identities remain open; the cumulative open set is **287 hypotheses and 25 no-proposal profiles**. Calendar membership, supplied dates and population counts are unchanged. The next fresh date pass is **11 December**. See `research/namedays/round36-notes.json` through `round40-notes.json` and the [source directory](NAMEDAYS_SOURCES.md). New sources include Türk 2010, Kraus 2013's publisher preview, an OCR-indexed Petrovsky 1966 scan, the National Encyclopaedia's Guna episode, and the Academy's Angelina 2000 record. Originals and extracted full text stay outside the public repository.
+Rounds **36–40** complete research passes for **6–10 December**, all three calendars, covering **104 previously unfinished profiles**. There are **49 new reviewed histories** (LV 31, LT 7, EE 11), each with two paragraphs in all five languages, **50 labelled unverified hypotheses**, and **five no-proposal profiles**. All 257 earlier researched open identities remain open; the cumulative open set is **287 hypotheses and 25 no-proposal profiles**. Calendar membership, supplied dates and population counts are unchanged. At the end of round 40, the next fresh date pass was **11 December**. See `research/namedays/round36-notes.json` through `round40-notes.json` and the [source directory](NAMEDAYS_SOURCES.md). New sources include Türk 2010, Kraus 2013's publisher preview, an OCR-indexed Petrovsky 1966 scan, the National Encyclopaedia's Guna episode, and the Academy's Angelina 2000 record. Originals and extracted full text stay outside the public repository.
+
+
+Rounds **41–45** complete research passes for **11–15 December** across LV, LT and EE: **119 previously unfinished profiles**, **43 reviewed histories** (LV 18, LT 15, EE 10), **71 labelled unverified hypotheses**, and **five profiles without an adopted origin proposal**. Each reviewed history has exactly two paragraphs in all five languages. All 312 earlier researched open identities remain open; the cumulative researched open set is **358 displayed hypotheses and 30 no-proposal profiles**. Calendar membership, supplied dates and population snapshots are unchanged. The next fresh date pass is **16 December**; completed passes are not verified-complete dates. See research/namedays/round41-notes.json through round45-notes.json, the [source directory](NAMEDAYS_SOURCES.md) and [PDF cache guide](NAMEDAYS_PDF_CACHE.md). New reusable evidence includes Burba’s literary study, Auseklis’s encyclopaedia biography and the Theatre Agency’s Ere production record. EKI supplies a precise Kelli article lead; its unread contents are not treated as evidence. Writer version: **namedays-1.9.34**. Source links remain in working documentation and provenance metadata, outside the widget interface.

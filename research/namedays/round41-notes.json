@@ -1,0 +1,780 @@
+{
+  "round": 41,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December11: all27 unfinished LV/LT/EE profiles examined. Six histories supported; competing Valdemar routes and unsupported exact bridges retained as unverified. Aistis literary-name episode is explicitly not a birth given-name attestation. Reused Pakerys and Mägiste originals.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdonis",
+      "spellings": [
+        "Valdonis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdonis"
+      ],
+      "facts_used": "Valdonis: Siliņš connects the name with Latvian valdonis, ruler or master. A common noun has become a personal name. This local lexical link is explicit; the origins of similar Vald- names must be checked individually. Siliņš’s dictionary dates the use of Valdonis: 1886, Riga. Its calendar year is 1880. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p315 exact valdonis lexical explanation and own Riga 1886/calendar 1880; no other Vald-form dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lt",
+      "name": "Aistis",
+      "spellings": [
+        "Aistis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-VLE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/aistis/",
+        "https://www.vle.lt/straipsnis/jonas-aistis/"
+      ],
+      "facts_used": "Aistis: The name was formed from the Baltic ethnonym aisčiai. A people’s designation became a personal name; the ethnonym’s further etymology is a separate question. This formation does not yield one secure literal translation of its ancient root. Aistis is known as poet Jonas Aleksandravičius’s chosen literary name. The encyclopaedia dates Be tėvynės brangios to 1942. Here it illustrates a literary name, rather than a given name recorded at birth.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Guide explicit ethnonym formation; VLE exact literary name and 1942collection. Salys surname-only listing is not accepted as a given-name first attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lt",
+      "name": "Dovydas",
+      "spellings": [
+        "Dovydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dovydas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://dmnes.org/name/David"
+      ],
+      "facts_used": "Dovydas: Lithuanian Dovydas is a form of the David family, from a Hebrew name meaning beloved. Its spelling and pronunciation have changed across languages. That connection explains the family without dating the first Lithuanian child bearing it. The 1964 calendar reprinted in Salys’s 1983 volume gives Dovydas (Dovas) on 11 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Visually checked Salys PDF p. 318/printed p. 303 December11 exact Dovydas(Dovas); DMNES confirms Hebrew beloved.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lt",
+      "name": "Tautvaldė",
+      "spellings": [
+        "Tautvaldė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/tautvalde/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=4"
+      ],
+      "facts_used": "Tautvaldė: The Lithuanian compound combines taut-, connected with tauta, people, and vald-, connected with valdyti, to rule. The feminine form corresponds to Tautvaldas. Explaining the stems does not force them into one literal sentence. Page 93 of the 2011 study gives Tautvaldė alongside Tautvaldas. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Pakerys 2011 PDF p. 4/printed p. 93 visually checked feminine Taũtvaldė(plg.Taũtvaldas); masculine Salys calendar record not substituted for exact feminine form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "ee",
+      "name": "Taaniel",
+      "spellings": [
+        "Taaniel"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=49",
+        "https://dmnes.org/name/Daniel"
+      ],
+      "facts_used": "Taaniel: The family continues Hebrew Daniyyel, God is my judge. Taaniel is an Estonian full form, while Tani is documented as a short name in that family. Shortening changes the form while retaining its connection to the historical base. Page 47 of Mägiste’s 1929 name list gives Taaniel as the full form linked to Tanel and Tanil. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Mägiste PDF p. 49/printed p. 47 explicit Tanel=Taaniel and Tanil=Taaniel. Question mark by Tani not erased; no 1929invention claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "ee",
+      "name": "Tani",
+      "spellings": [
+        "Tani"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-DMNES",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://dmnes.org/name/Daniel",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=49"
+      ],
+      "facts_used": "Tani: The family continues Hebrew Daniyyel, God is my judge. Taaniel is an Estonian full form, while Tani is documented as a short name in that family. Shortening changes the form while retaining its connection to the historical base. The first page of Leole’s December 2005 issue uses the exact spelling Tani. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole 2005Decemberp1 explicitly Tani/Tanel shortened Daniel; full Hebrew God-is-my-judge retained instead of popular column bare judge. Mägiste Tani comparison question mark acknowledged, not promoted to independent certainty.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Voldemārs",
+      "spellings": [
+        "Voldemārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voldem%C4%81rs",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voldem%C4%81rs"
+      ],
+      "facts_used": "Voldemārs is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdemārs",
+      "spellings": [
+        "Valdemārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdem%C4%81rs",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdem%C4%81rs"
+      ],
+      "facts_used": "Valdemārs is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdeko",
+      "spellings": [
+        "Valdeko"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdeko",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdeko"
+      ],
+      "facts_used": "Valdeko is still being checked against Estonian Valdeko / Valdemar. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Estonian Valdeko / Valdemar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency exact Estonian Valdeko rendering, Raģe 1960p55, documents the form but not its ultimate etymology; Valdemar routes remain unresolved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdeks",
+      "spellings": [
+        "Valdeks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdeks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdeks"
+      ],
+      "facts_used": "Valdeks is still being checked against Estonian Valdek / Valdemar. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Estonian Valdek / Valdemar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency exact Valdek→Valdeks, Raģe 1960p55. Need complete Estonian family bridge rather than choose Germanic versus Slavic roots from spelling.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdemars",
+      "spellings": [
+        "Valdemars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdemars",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdemars"
+      ],
+      "facts_used": "Valdemars is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdimārts",
+      "spellings": [
+        "Valdimārts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdim%C4%81rts",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdim%C4%81rts"
+      ],
+      "facts_used": "Valdimārts is still being checked against Valdemārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact spelling lacks a checked scholarly full-form bridge; do not silently repair it to Valdemārs.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdimirs",
+      "spellings": [
+        "Valdimirs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdimirs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdimirs"
+      ],
+      "facts_used": "Valdimirs is still being checked against Vladimirs / Valdemārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Vladimirs / Valdemārs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Possible routes remain unresolved; similar spelling alone cannot select one full base.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdmiers",
+      "spellings": [
+        "Valdmiers"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdmiers",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdmiers"
+      ],
+      "facts_used": "Valdmiers is still being checked against Valdemārs / Valdis. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdis",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact formation and stem boundaries not established; do not create a peace/rule translation from surface resemblance.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdona",
+      "spellings": [
+        "Valdona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdona"
+      ],
+      "facts_used": "Valdona is still being checked against Valdonis. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdonis",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p315 compares Valdonis but does not establish an unqualified feminine derivation. Own 1582attestation/calendar 1908 is not proof of formation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdone",
+      "spellings": [
+        "Valdone"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdone",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdone"
+      ],
+      "facts_used": "Valdone is still being checked against Lithuanian Valdonė / valdyti. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lithuanian Valdonė / valdyti",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency exact Valdonė→Valdone[ō],1961p55. Rendering does not by itself establish complete lexical formation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valdons",
+      "spellings": [
+        "Valdons"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valdons",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valdons"
+      ],
+      "facts_used": "Valdons is still being checked against Valdonis. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdonis",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact short-form route not independently established.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Valds",
+      "spellings": [
+        "Valds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Valds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Valds"
+      ],
+      "facts_used": "Valds is still being checked against Lithuanian Valdas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lithuanian Valdas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency exact Valdas→Valds Balode 2009p106; Valdas can shorten different full names. No one universal further root adopted.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Vivaldis",
+      "spellings": [
+        "Vivaldis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vivaldis"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact-form etymology found in opened catalogue, agency and saved sources; surname Vivaldi resemblance is insufficient.",
+      "next_steps": "Find an explicit given-name entry for Vivaldis and distinguish it from the Italian surname before adopting any origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Voldemars",
+      "spellings": [
+        "Voldemars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voldemars",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voldemars"
+      ],
+      "facts_used": "Voldemars is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Voldis",
+      "spellings": [
+        "Voldis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voldis",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voldis"
+      ],
+      "facts_used": "Voldis is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Voldmārs",
+      "spellings": [
+        "Voldmārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voldm%C4%81rs",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voldm%C4%81rs"
+      ],
+      "facts_used": "Voldmārs is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Volmārs",
+      "spellings": [
+        "Volmārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volm%C4%81rs",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Volm%C4%81rs"
+      ],
+      "facts_used": "Volmārs is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "lv",
+      "name": "Vulmārs",
+      "spellings": [
+        "Vulmārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vulm%C4%81rs",
+        "https://snl.no/Valdemar_-_mannsnamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vulm%C4%81rs"
+      ],
+      "facts_used": "Vulmārs is still being checked against Valdemārs / Valdemar / Vladimir. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Valdemārs / Valdemar / Vladimir",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš gives the German waltan/māri explanation for Valdemārs; signed SNL Valdemar describes Danish adaptation of Vladimir and calls the further German connection possible. Exact family/rendering evidence does not settle a universal ultimate root or borrowing route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "ee",
+      "name": "Daaniel",
+      "spellings": [
+        "Daaniel"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Daaniel#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Daaniel is still being checked against Daniel / Taaniel. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Daniel / Taaniel",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact usage exists, but curated exact-form etymology was not found; user-submitted and automated portals are leads, not verification.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "ee",
+      "name": "Taano",
+      "spellings": [
+        "Taano"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Taano#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Taano is still being checked against Taaniel / Tanel. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Taaniel / Tanel",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No original exact Taano full-form bridge found; do not import Taaniel or Tanno dates.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-11",
+      "date": "2026-11-12",
+      "calendar_date": "12-11",
+      "country": "ee",
+      "name": "Tanno",
+      "spellings": [
+        "Tanno"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Tanno#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Tanno is still being checked against Taaniel / Tanel / Tann. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Taaniel / Tanel / Tann",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Tanno not securely equated with a unique full name in inspected original pages.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

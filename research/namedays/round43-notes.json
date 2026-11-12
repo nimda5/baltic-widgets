@@ -1,0 +1,785 @@
+{
+  "round": 43,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December13: all27 unfinished LV/LT/EE profiles examined;12 histories written. New Burba literary research indexed once and used for Kastytis; primary theatre entry supplies Ere2015episode. Exact LVA masculine Luciāns/Lucians and accented Lūsija records avoid transferring female or unaccented dates.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lūcija",
+      "spellings": [
+        "Lūcija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/L%C5%ABcija",
+        "https://www.behindthename.com/name/lucius",
+        "https://www.behindthename.com/name/lucia"
+      ],
+      "facts_used": "Lūcija: The family leads to Roman Lucius, related to Latin lux, light. Lucia is a feminine form, while Lucianus is a derived name in the family. This lexical connection does not establish that a particular child was born in daylight. Siliņš’s dictionary dates the use of Lūcija: 1513. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p220 Lūcija→Lūcijs and Latin lux; own 1513/calendar 1767. Daylight is a traditional gloss, not an asserted birth circumstance.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Veldze",
+      "spellings": [
+        "Veldze"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Veldze"
+      ],
+      "facts_used": "Veldze: The name takes up Latvian veldze, refreshment or relief. Siliņš’s dictionary explicitly supports the common-word connection. This is a personal name formed from Latvian vocabulary rather than merely matched to a similar-sounding foreign name. Siliņš’s dictionary dates the use of Veldze: the first quarter of the twentieth century. Its calendar year is 1925. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p320 exact lexical origin and own firstquarter20c/calendar 1925. Veldza not treated as an automatically proved variant.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Luciāns",
+      "spellings": [
+        "Luciāns"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/17207?locale=lv",
+        "https://www.behindthename.com/name/lucian",
+        "https://www.behindthename.com/name/lucius",
+        "https://www.behindthename.com/name/lucianus"
+      ],
+      "facts_used": "Luciāns: The family leads to Roman Lucius, related to Latin lux, light. Lucia is a feminine form, while Lucianus is a derived name in the family. This lexical connection does not establish that a particular child was born in daylight. The Latvian Language Agency gives the exact rendering Lucián → Luciāns, citing page 55 of a 1998 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family. The dictionary’s 1937 calendar record concerns feminine Luciāna; it is not treated here as a proved date for this masculine name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency rendering inspected; Lucianus derived from Lucius, Lucia feminine Lucius. Male forms do not inherit dates for female Luciāna/Lucijāna; accented Lūsija kept distinct from Lusija. Existing catalogue-derived 1937calendar fact concerns femaleLuciāna; reviewed narrative explicitly rejects its transfer to this masculine spelling and replaces the unqualified automatic footer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lucians",
+      "spellings": [
+        "Lucians"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/29663?locale=lv",
+        "https://www.behindthename.com/name/lucian",
+        "https://www.behindthename.com/name/lucius",
+        "https://www.behindthename.com/name/lucianus"
+      ],
+      "facts_used": "Lucians: The family leads to Roman Lucius, related to Latin lux, light. Lucia is a feminine form, while Lucianus is a derived name in the family. This lexical connection does not establish that a particular child was born in daylight. The Latvian Language Agency gives the exact rendering Lucian → Lucians, citing page 77 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency rendering inspected; Lucianus derived from Lucius, Lucia feminine Lucius. Male forms do not inherit dates for female Luciāna/Lucijāna; accented Lūsija kept distinct from Lusija.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lūsija",
+      "spellings": [
+        "Lūsija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/28648?locale=lv",
+        "https://www.behindthename.com/name/lucia",
+        "https://www.behindthename.com/name/lucius",
+        "https://www.behindthename.com/name/lucianus"
+      ],
+      "facts_used": "Lūsija: The family leads to Roman Lucius, related to Latin lux, light. Lucia is a feminine form, while Lucianus is a derived name in the family. This lexical connection does not establish that a particular child was born in daylight. The Latvian Language Agency gives the exact rendering Lucy → Lūsija, citing page 110 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name agency rendering inspected; Lucianus derived from Lucius, Lucia feminine Lucius. Male forms do not inherit dates for female Luciāna/Lucijāna; accented Lūsija kept distinct from Lusija.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lt",
+      "name": "Liucija",
+      "spellings": [
+        "Liucija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/liucija/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/lucia"
+      ],
+      "facts_used": "Liucija: The family leads to Roman Lucius, related to Latin lux, light. Lucia is a feminine form, while Lucianus is a derived name in the family. This lexical connection does not establish that a particular child was born in daylight. The 1964 calendar reprinted in Salys’s 1983 volume gives Liucija (Liucė) on 13 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys PDF p. 318/printed p. 303 December13 exactLiucija(Liucė); guide LatinLucius/lux. Latvian 1513date not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lt",
+      "name": "Eiviltė",
+      "spellings": [
+        "Eiviltė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eivilte/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=9"
+      ],
+      "facts_used": "Eiviltė: The Lithuanian compound contains ei-, connected with eiti, to go, and vilt-, connected with viltis, hope. Pakerys’s study discusses the exact feminine form. The stem explanations need not be combined into an invented translation of the whole name. Page 98 of the 2011 study gives Eiviltė in comparison with Eivilta. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Pakerys 2011PDF9/printed p. 98 Eiviltė(6)—Eivilta(0) verified visually; historical table counts are not refreshed or copied as current population statistics.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lt",
+      "name": "Kastytis",
+      "spellings": [
+        "Kastytis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-BURBA24"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/kastytis/",
+        "https://e-journals.ku.lt/journal/RH/article/3067/file/pdf#page=3"
+      ],
+      "facts_used": "Kastytis: The guide derives the name from Kastis or Kastas, short forms of Lithuanian names beginning with Kast-. This formation link is documented. It does not by itself identify one full base or a secure translation of a more remote root. Kastytis appears in Maironis’s ballad Jūratė ir Kastytis. A 2024 literary study dates the ballad to 1920. This documents literary use, rather than proving one ancient translation of the name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "New Burba 2024PDF3/printed p. 132 visually checked Maironis ballad 1920; guide exact Kastis/Kastas formation secure while unique remote root left unspecified. Literature is not passed off as ancient oral etymology.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Ere",
+      "spellings": [
+        "Ere"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-THEATRE"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Ere#Estonian",
+        "https://teater.ee/teatriinfo/lavastused/murisev-vaikus/"
+      ],
+      "facts_used": "Ere: The Estonian personal name is connected with the adjective ere, bright or vivid. The dictionary makes this connection specifically for the given name. A common-word occurrence in another text alone would not establish personal-name use there. The Estonian Theatre Agency’s record for mürisev vaikus names producer Ere Naat. The premiere was on 21 February 2015. This is dated professional use of the name, rather than its first registration.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Estonian dictionary personal-name entry plus primary theatre 2015premiere and producer. Leole November generic adjective ere hits explicitly excluded as name attestations.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Loviise",
+      "spellings": [
+        "Loviise"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=18",
+        "https://www.behindthename.com/name/loviise",
+        "https://www.behindthename.com/name/ludwig",
+        "https://en.wiktionary.org/wiki/Loviise#Estonian"
+      ],
+      "facts_used": "Loviise: This form belongs to the Louise/Louis family. Its Germanic base combines hlud or hlut, famous, with wig, battle. Estonian full and short forms also came through German and Swedish, changing their spelling along the way. Page 15 of Mägiste’s 1929 name list gives Loviise as the full form of Lavis; it also recurs under Loovi. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Mägiste PDF p. 17/printed p. 15 Lavis=Loviise andPDF18/printed p. 16 Loovi=Loviise. Exact curated Estonian family and Swedish borrowing dictionary bridge; complete hlud/wig, not only fame.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Luise",
+      "spellings": [
+        "Luise"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Luise#Estonian",
+        "https://www.behindthename.com/name/louise",
+        "https://www.behindthename.com/name/ludwig"
+      ],
+      "facts_used": "Luise: This form belongs to the Louise/Louis family. Its Germanic base combines hlud or hlut, famous, with wig, battle. Estonian full and short forms also came through German and Swedish, changing their spelling along the way. The first page of Leole’s December 2005 issue uses the exact spelling Luise. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Leole 2005p1; Estonian dictionary German Luise bridge. Complete two-stem family retained, popular column bare fame is incomplete.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Viise",
+      "spellings": [
+        "Viise"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=22",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/louise",
+        "https://www.behindthename.com/name/ludwig"
+      ],
+      "facts_used": "Viise: This form belongs to the Louise/Louis family. Its Germanic base combines hlud or hlut, famous, with wig, battle. Estonian full and short forms also came through German and Swedish, changing their spelling along the way. Page 20 of Mägiste’s 1929 name list gives Viise with a link to Loviisa and a dialectal label. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original MägistePDF22/printed p. 20 Viise(murd.,=Loviisa)~Viisi. Printed label not generalized to one national first birth date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lucianna",
+      "spellings": [
+        "Lucianna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lucianna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lucianna"
+      ],
+      "facts_used": "Lucianna is still being checked against Luciana / Luciāna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Luciana / Luciāna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No checked exact double-n bridge; do not repair spelling or import female/male family dates.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lucija",
+      "spellings": [
+        "Lucija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lucija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lucija"
+      ],
+      "facts_used": "Lucija is still being checked against Lūcija / Lucia. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lūcija / Lucia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Short-u exact LV form lacks checked direct historical bridge; diacritics cannot be normalized away for proof.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lucijana",
+      "spellings": [
+        "Lucijana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lucijana",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lucijana"
+      ],
+      "facts_used": "Lucijana is still being checked against Luciana / Lucijāna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Luciana / Lucijāna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact unaccented form not established by the female Lucijāna record alone.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lucijans",
+      "spellings": [
+        "Lucijans"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lucijans",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lucijans"
+      ],
+      "facts_used": "Lucijans is still being checked against Lucianus / Lucijāns. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lucianus / Lucijāns",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact short-a spelling needs direct bridge; female-form attestations not imported.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lucijāns",
+      "spellings": [
+        "Lucijāns"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lucij%C4%81ns",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lucij%C4%81ns"
+      ],
+      "facts_used": "Lucijāns is still being checked against Lucianus / Lucijāna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lucianus / Lucijāna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue material refers to female Lucijāna 1877, not proof of exact male form. Need independent masculine bridge.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lusiāna",
+      "spellings": [
+        "Lusiāna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lusi%C4%81na",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lusi%C4%81na"
+      ],
+      "facts_used": "Lusiāna is still being checked against Luciana / Lūcija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Luciana / Lūcija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No checked exact form/borrowing bridge.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Lusija",
+      "spellings": [
+        "Lusija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lusija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lusija"
+      ],
+      "facts_used": "Lusija is still being checked against Lisija / Lūcija / Portuguese Lúcia. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lisija / Lūcija / Portuguese Lúcia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue retains Lisija versus Lūcija; official Lúcia rendering establishes one route without proving it universal. Own 1922use does not choose root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Ļusja",
+      "spellings": [
+        "Ļusja"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C4%BBusja",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=%C4%BBusja"
+      ],
+      "facts_used": "Ļusja is still being checked against Russian Люся / Lūcija / Ludmila. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Russian Люся / Lūcija / Ludmila",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency 1993p216 has male and female nickname rows. Multiple full-name bases remain possible; not one universal lux root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lv",
+      "name": "Veldza",
+      "spellings": [
+        "Veldza"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Veldza",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Veldza"
+      ],
+      "facts_used": "Veldza is still being checked against Veldze. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Veldze",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact scholarly derivation checked; similar spelling alone cannot transfer Veldze root and dates.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lt",
+      "name": "Kastautas",
+      "spellings": [
+        "Kastautas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/kastautas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Kastautas is still being checked against kas- / taut-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "kas- / taut-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide two-stem proposal lacks adequately corroborated first stem; original SalysDecember13 reads Kastantas, not Kastautas. Calendar near-match rejected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lt",
+      "name": "Odilija",
+      "spellings": [
+        "Odilija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/odilija/",
+        "https://www.behindthename.com/name/odilia",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Odilija is still being checked against Oda / Odilia: uodil / ot. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Oda / Odilia: uodil / ot",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide wealth route versus curated Odilia heritage/uodil or wealth/ot alternatives. Exact family alone does not settle complete stem route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "lt",
+      "name": "Otilija",
+      "spellings": [
+        "Otilija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/otilija/",
+        "https://www.behindthename.com/name/odilia",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Otilija is still being checked against Otilia / Odilia: uodil / ot. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Otilia / Odilia: uodil / ot",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide redirects to Otilija with blank meaning. Salys exactDec13dated use does not resolve heritage versus wealth alternatives.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Lucia",
+      "spellings": [
+        "Lucia"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Lucia#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Lucia is still being checked against Lucia / Lucius. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lucia / Lucius",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "International root known, but no checked Estonian-specific full-form/borrowing bridge and dated local episode. Do not silently promote another language section.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Hele",
+      "spellings": [
+        "Hele"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Hele#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Hele is still being checked against Estonian hele / Helena. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Estonian hele / Helena",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole and Estonian dictionary preserve native bright versus Helena-shortening alternatives. Helena remote root also not securely settled.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-13",
+      "date": "2026-11-12",
+      "calendar_date": "12-13",
+      "country": "ee",
+      "name": "Ele",
+      "spellings": [
+        "Ele"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Ele#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Ele is still being checked against Hele / Helena / Estonian hele. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Hele / Helena / Estonian hele",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Popular column gives word versus Helena-shortening alternatives; exact form requires scholarly resolution of both routes.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}
