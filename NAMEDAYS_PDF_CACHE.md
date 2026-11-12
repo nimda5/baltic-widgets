@@ -27,7 +27,7 @@ The execution-policy flag applies only to this process; it does not change the m
 
 Render only the relevant original pages with `pdftoppm`, inspect the name, columns and heading, and record both printed and PDF pages in the round notes. Do not repair letters by guessing. Preserve uncertain spelling bridges and conflicting root analyses as unverified. A dated dictionary record is not a birth registration or invention date. A source filename is not bibliographic evidence: a candidate labelled `magiste1936` in the private workspace actually contained the **1929** title page.
 
-The private index includes `LT-SALYS83`, `EE-MAGISTE29`, `LT-PAKERYS09`, `LT-PAKERYS11`, `LT-MACIEJAUSKIENE94`, `EE-LEOLE05`, `EE-KALLASMAA17`, `EE-MUST62`, `LV-LVA-EN06`, `LV-LVA-NORDIC03`, `LV-LVA-LT61`, `LV-LVA-RU93`, `LV-ALL93`, `LV-IDENTITY25`, `LV-LILE24`, `INT-MUSE46` and `LT-SINKEVICIUTE06`. The source directory records exact productive locations and limitations. Cache files are optional: an offline public-data rebuild uses the committed narratives and provenance.
+The private index includes `LT-SALYS83`, `EE-MAGISTE29`, `LT-PAKERYS09`, `LT-PAKERYS10`, `LT-PAKERYS11`, `LT-MACIEJAUSKIENE94`, `EE-LEOLE05`, `EE-LEOLE05-DEC`, `EE-EISEN-TOLL`, `EE-KALLASMAA17`, `EE-MUST62`, `LV-LVA-EN06`, `LV-LVA-NORDIC03`, `LV-LVA-LT61`, `LV-LVA-RU93`, `LV-ALL93`, `LV-IDENTITY25`, `LV-LILE24`, `INT-MUSE46` and `LT-SINKEVICIUTE06`. The source directory records exact productive locations and limitations. Cache files are optional: an offline public-data rebuild uses the committed narratives and provenance.
 
 ## Continuing a round
 
@@ -36,3 +36,5 @@ The private index includes `LT-SALYS83`, `EE-MAGISTE29`, `LT-PAKERYS09`, `LT-PAK
 3. Inspect relevant original pages and save private screenshots if needed.
 4. Add precise evidence and access limitations to the source directory and next numeric round notes.
 5. Regenerate the name profiles and backlog. Keep unresolved hypotheses open and source links out of the widget UI.
+
+December research added **Leole, December 2005** (8 pages), **Eisen, Tõll ja ta sugu** (170 pages; edition year not established in this review), and **Pakerys 2010** (15 pages). The 20 registered sources now contain **2,328 indexed PDF pages**. Reuse the existing objects rather than fetching or extracting them again. Pakerys’s extraction loses accents: search `mintas` or the `Ei-` section if exact `Eimintas` yields nothing, then inspect PDF p. 5 / printed p. 92. The asterisk is defined on PDF p. 2 / printed p. 89: it means twentieth-century name formation, not an ancient attestation. Eisen PDF p. 138 / printed p. 132 qualifies the proposed Leiger derivation; a popular column’s stronger wording must not erase that qualification.

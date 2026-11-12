@@ -1,0 +1,299 @@
+{
+  "round": 34,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 10 unfinished December 4 profiles. Reused Salys pages297/318 and DecemberLeolep1. Vainotas and Varje/Varju retain conflicting roots; Liugaila was not substituted for exact Liugailė.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lv",
+      "name": "Varvara",
+      "spellings": [
+        "Varvara"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Varvara",
+        "https://www.behindthename.com/name/varvara",
+        "https://www.behindthename.com/name/barbara"
+      ],
+      "facts_used": "Varvara: The documented comparison leads to the Barbara family. Greek barbaros described a foreigner or speaker of another language; in the feminine name it is commonly rendered foreign woman. This ancient word history does not judge a modern bearer’s identity or character. Siliņš’s dictionary dates the use of Varvara: eighteenth century. Its calendar year is 1937. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš exact Varvara→Barbara via Slavic forms, own eighteenth-century use/calendar1937. No invented exact year.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lt",
+      "name": "Osmundas",
+      "spellings": [
+        "Osmundas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/osmundas/",
+        "https://dmnes.org/name/Osmund"
+      ],
+      "facts_used": "Osmundas: Lithuanian Osmundas belongs to the Osmund family. Old English ōs and Old Norse áss/óss mean god, while mund/mundr denotes a protector. These historical stems can be explained separately; their meanings do not predict a bearer’s abilities. The Dictionary of Medieval Names records Latin Osmundus in England in 1189, citing a documentary edition. This is a concrete example of the family’s written transmission. The date belongs to the related Latin form, not the first registration of Lithuanian Osmundas.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "DMNES Latin1189 nominativeOsmundus GASurvp82, not genitive1183. No date transfer to Lithuanian form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Varve",
+      "spellings": [
+        "Varve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/barbara"
+      ],
+      "facts_used": "Varve: The documented comparison leads to the Barbara family. Greek barbaros described a foreigner or speaker of another language; in the feminine name it is commonly rendered foreign woman. This ancient word history does not judge a modern bearer’s identity or character. The first page of Leole’s December 2005 issue uses the exact spelling Varve. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Varve→Barbara explicit December2005p1; Greek foreigner independently corroborated. Other Barbara-related names not inferred from shared date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lv",
+      "name": "Vudis",
+      "spellings": [
+        "Vudis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vudis",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vudis"
+      ],
+      "facts_used": "Vudis still needs checking against English Woody / Woodrow. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "English Woody / Woodrow",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue possible comparison, no exact LVA rendering row. Woody can have several naming routes; resemblance not proof.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lv",
+      "name": "Vudro",
+      "spellings": [
+        "Vudro"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vudro",
+        "https://www.behindthename.com/name/woodrow"
+      ],
+      "facts_used": "Vudro is connected with English Woodrow, whose history passes through a place name and surname. Sources phrase the full meaning differently: a row of houses by a wood, a forest settlement or a clearing. Selecting one exact translation remains unverified.",
+      "hypothesis": "Woodrow: wudu + rāw",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue connects Woodrow and dates Vudro1932 but explicitly retains alternative forest-settlement/clearing glosses. Curated Woodrow gives row of houses by a wood; preserve competing full interpretations until original Siliņšp333 checked.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lt",
+      "name": "Liugailė",
+      "spellings": [
+        "Liugailė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/liugaile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Liugailė still needs checking against Liugaila / liu- + gail-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Liugaila / liu- + gail-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact guide404. SalysPDF318Dec4 lists masculineLiugaila, not feminineLiugailė; no transfer of male historical date or stem interpretation.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lt",
+      "name": "Vainotas",
+      "spellings": [
+        "Vainotas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vainotas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Vainotas still needs checking against vainà / vainas. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "vainà / vainas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Original SalysPDF297/printed282 gives vainà fault/blame/cause; guide proposes warrior. SalysPDF318Dec4 documents exact name but does not settle conflicting etymologies.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Parba",
+      "spellings": [
+        "Parba"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Parba#Estonian"
+      ],
+      "facts_used": "Parba still needs checking against Barba / Barbara. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Barba / Barbara",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact dictionary bridge found. Shared calendar day with Varve does not prove a Barbara derivation.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Varje",
+      "spellings": [
+        "Varje"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Varje#Estonian"
+      ],
+      "facts_used": "Leole’s column offers two routes: the Barbara family or Estonian vari, shadow. Both explanations remain unverified alternatives; the exact spelling Varje in a dated newspaper does not itself settle the name’s origin.",
+      "hypothesis": "Barbara / vari",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LeoleDecember2005p1 explicitly permits Barbara or Estonianvari/shadow. Dated usage does not select one origin.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Varju",
+      "spellings": [
+        "Varju"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Varju#Estonian"
+      ],
+      "facts_used": "Varju still needs checking against Barbara / vari. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Barbara / vari",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LeoleDecember2005p1 explicitly retains Barbara versus vari/shadow alternatives. Do not claim a single full derivation.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    }
+  ],
+  "validation": {
+    "tests": "128 passed; npm test",
+    "build": "npm run build passed",
+    "content": "All 96 profiles checked in five languages; reviewed histories have exactly two paragraphs exceeding 300 characters combined; no source links in UI.",
+    "backlog": "57 hypotheses and 2 no-proposal records remain unverified; all 198 earlier open identities retained.",
+    "browser": "85 mobile views across five dates, three calendars and five languages; reviewed, hypothesis and missing-history states; no horizontal overflow or visible source links.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged.",
+    "pdf_cache": "20 private indexed sources, 2328 pages; repeat index reused extraction with unchanged index timestamp."
+  }
+}
