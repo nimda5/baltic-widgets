@@ -1,5 +1,5 @@
 {
-  "writer_version": "namedays-1.9.39",
+  "writer_version": "namedays-1.9.44",
   "enabled_countries": [
     "lv",
     "lt",
@@ -15,11 +15,11 @@
       "with_word_meanings": 652,
       "research_pending": 0,
       "editorial": {
-        "reviewed_narratives": 666,
-        "factual_summaries": 3560,
-        "attestation_only": 346,
-        "needs_research": 984,
-        "unverified_hypotheses": 277,
+        "reviewed_narratives": 687,
+        "factual_summaries": 3537,
+        "attestation_only": 345,
+        "needs_research": 987,
+        "unverified_hypotheses": 281,
         "fictional_stories": 0,
         "translated_languages": [
           "lv",
@@ -28,7 +28,7 @@
           "lt",
           "et"
         ],
-        "with_related_context": 2362,
+        "with_related_context": 2364,
         "with_calendar_entry": 176
       }
     },
@@ -40,11 +40,11 @@
       "with_word_meanings": 54,
       "research_pending": 8,
       "editorial": {
-        "reviewed_narratives": 269,
-        "factual_summaries": 1033,
+        "reviewed_narratives": 284,
+        "factual_summaries": 1016,
         "attestation_only": 1,
-        "needs_research": 265,
-        "unverified_hypotheses": 65,
+        "needs_research": 267,
+        "unverified_hypotheses": 70,
         "fictional_stories": 0,
         "translated_languages": [
           "lv",
@@ -65,11 +65,11 @@
       "with_word_meanings": 59,
       "research_pending": 0,
       "editorial": {
-        "reviewed_narratives": 336,
-        "factual_summaries": 374,
+        "reviewed_narratives": 343,
+        "factual_summaries": 371,
         "attestation_only": 12,
-        "needs_research": 831,
-        "unverified_hypotheses": 57,
+        "needs_research": 827,
+        "unverified_hypotheses": 68,
         "fictional_stories": 0,
         "translated_languages": [
           "lv",
@@ -78,7 +78,7 @@
           "lt",
           "et"
         ],
-        "with_related_context": 165,
+        "with_related_context": 168,
         "with_calendar_entry": 0
       }
     }

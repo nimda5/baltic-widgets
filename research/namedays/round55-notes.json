@@ -1,0 +1,354 @@
+{
+  "round": 55,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December25: twelve profiles examined; ten histories and two labelled proposals. NewFolgerliteraryepisode; reusedPakerys/Mägiste originalpages. Genė alternativefullbases and Austė proposedweavingroot remainopen.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lv",
+      "name": "Stella",
+      "spellings": [
+        "Stella"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "INT-FOLGER"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Stella",
+        "https://www.behindthename.com/name/stella-1",
+        "https://test.celm.folger.edu/authors/sidney-philip"
+      ],
+      "facts_used": "Stella: The name belongs to the Stella / Estelle / Estella family. Its linguistic basis is explained through Latin stella, star; Estella is a Latinate form of Estelle. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. Stella is also the literary name in Philip Sidney’s sonnet sequence Astrophil and Stella. Folger’s manuscript catalogue dates the sequence’s first London publication to 1591. This is an English literary example, rather than the first Stella registration in Latvia or every family’s reason for choosing the name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš297Latinstar; CELMAstrophilandStellaheadingfirstpublication1591. Foreignliteraryepisodeonly, do notclaimSidneyinventedallStellausage.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lv",
+      "name": "Estella",
+      "spellings": [
+        "Estella"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/40874?locale=lv",
+        "https://www.behindthename.com/name/estella"
+      ],
+      "facts_used": "Estella: The name belongs to the Stella / Estelle / Estella family. Its linguistic basis is explained through Latin stella, star; Estella is a Latinate form of Estelle. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. The Latvian Language Agency gives the exact rendering Estelle → Estella, citing page 93 of a 2004 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "ExactFrenchEstelle→Estella2004p93; LatinateEstellefamily verified.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lv",
+      "name": "Zvaigznīte",
+      "spellings": [
+        "Zvaigznīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zvaigzn%C4%ABte",
+        "https://www.izpetnieks.lv/en/name/Zvaigzne"
+      ],
+      "facts_used": "Zvaigznīte: The Latvian dictionary explains the name’s formation through Zvaigzne and a diminutive form; Latvian zvaigzne means star. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Zvaigznīte: possibly 1973. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš340 exactlistedformofZvaigzne. Possible1973 remainsqualified, notsecurefirstdate.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lt",
+      "name": "Anastazija",
+      "spellings": [
+        "Anastazija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/anastazija/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=213",
+        "https://dmnes.org/name/Anastasia"
+      ],
+      "facts_used": "Anastazija: The name belongs to the Anastazija / Anastasia family. Its linguistic basis is explained through Greek anastasis, resurrection. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. Page 198 of the 1983 study gives Anastazija as a personal name corresponding to Anastasia. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalSalysPDF213printed198exactPNAnastasia, notadjacentAnastazas.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lt",
+      "name": "Eugenija",
+      "spellings": [
+        "Eugenija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eugenija/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319",
+        "https://dmnes.org/name/Eugenia"
+      ],
+      "facts_used": "Eugenija: The name belongs to the Eugenia / Eugenija / Eugenius family. Its linguistic basis is explained through Greek eugenēs, well born, from eu and genēs. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. The 1964 calendar reprinted in Salys’s 1983 volume gives Eugenija (Genė) on 25 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "ExactEugenijaGreekfamily and historicalDecember25calendar; doesnotchooseonlyEugenijaforallGenė.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lt",
+      "name": "Gražvydas",
+      "spellings": [
+        "Gražvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS10",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/grazvydas/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2010~1367171236926/J.04~2010~1367171236926.pdf#page=7",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=298"
+      ],
+      "facts_used": "Gražvydas: The Lithuanian compound name combines graž- (gražus), beautiful, and vyd- (išvysti), to see. These vocabulary comparisons explain its individual stems. They should not be turned into a single modern sentence or a description of personality: a personal name’s history is distinct from its bearer’s qualities. Page 94 of the 2010 study gives Gražvydas among Graž- names; Pakerys prints the accented form Grãžvydas. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Pakerys2010PDF7printed94Grãžvydas nonasterisked, gražus explicit. Salys1964December25Grožvydas is different, notusedasexactepisode.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lt",
+      "name": "Sanrimė",
+      "spellings": [
+        "Sanrimė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/sanrime/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=3"
+      ],
+      "facts_used": "Sanrimė: The Lithuanian compound name combines san-, together, and rim- (rimti), to become calm. These vocabulary comparisons explain its individual stems. They should not be turned into a single modern sentence or a description of personality: a personal name’s history is distinct from its bearer’s qualities. Page 92 of the 2011 study gives Sanrimė as Sánrimė alongside masculine Sánrimas. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPakerys2011PDF3printed92 -rim- Sánrimė(plgSánrimas). Exactguide suppliesfirststem; nofirstbirthclaim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "ee",
+      "name": "Neida",
+      "spellings": [
+        "Neida"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=6",
+        "https://www.behindthename.com/name/natalie"
+      ],
+      "facts_used": "Neida: The name belongs to the Natalie / Natalia family. Its linguistic basis is explained through Latin natalis, relating to birth, and the Christian Christmas expression dies natalis Domini. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. Leili Kuusk’s name column on page 6 of Leole’s December 2005 issue uses the exact spelling Neida. This is a dated example from local print culture. Publication is not this form’s first birth registration or evidence that every bearer received the name through one route.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "ExactlocalLeoleDecember2005p6 explicitlyNatalieNeidaTaaleTaali anddiesnatalisDomini. Localexplanation scoped, nofirstdates oroneuniversalrouteclaim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "ee",
+      "name": "Taale",
+      "spellings": [
+        "Taale"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=6",
+        "https://www.behindthename.com/name/natalie"
+      ],
+      "facts_used": "Taale: The name belongs to the Natalie / Natalia family. Its linguistic basis is explained through Latin natalis, relating to birth, and the Christian Christmas expression dies natalis Domini. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. Leili Kuusk’s name column on page 6 of Leole’s December 2005 issue uses the exact spelling Taale. This is a dated example from local print culture. Publication is not this form’s first birth registration or evidence that every bearer received the name through one route.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "ExactlocalLeoleDecember2005p6 explicitlyNatalieNeidaTaaleTaali anddiesnatalisDomini. Localexplanation scoped, nofirstdates oroneuniversalrouteclaim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "ee",
+      "name": "Taali",
+      "spellings": [
+        "Taali"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=21",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=6",
+        "https://www.behindthename.com/name/natalie"
+      ],
+      "facts_used": "Taali: The name belongs to the Natalie / Natalia family. Its linguistic basis is explained through Latin natalis, relating to birth, and the Christian Christmas expression dies natalis Domini. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. Page 19 of Mägiste’s 1929 name list gives Taali as a dialect form corresponding to Nataalie. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalMägistePDF21printed19explicitTaali(murd=Nataalie), independentlyLeolep6samefamily.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lt",
+      "name": "Genė",
+      "spellings": [
+        "Genė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gene/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=230",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319"
+      ],
+      "facts_used": "Genė is still being checked against Eugenija / Genovaitė. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Eugenija / Genovaitė",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Salys, PDF p. 230 / printed p. 215, gives both Eugenija and Genovaitė as full forms. December 25 grouping cannot eliminate the second alternative.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-25",
+      "date": "2026-11-12",
+      "calendar_date": "12-25",
+      "country": "lt",
+      "name": "Austė",
+      "spellings": [
+        "Austė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/auste/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Austė is still being checked against Austėja / austi. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Austėja / austi",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "The guide supplies an Austėja short-form bridge, but explicitly marks the austi/weaving root as manoma, a proposal. Mythological discussion does not remove that qualification.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

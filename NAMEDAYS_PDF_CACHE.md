@@ -46,3 +46,10 @@ Rounds 41–45 (11–15 December) add **LT-BURBA24**, the publisher’s 2024 Bur
 
 
 Rounds 46–50 add **LV-SILINA15**, Zane Šiliņa’s 2015 Interlitteraria article, **13 pages**, indexed once by its original PDF hash. The cache now holds **25 sources and 2,937 pages**. Original PDF p. 3 / printed p. 9 supports the Lelde/Tots literary episode; it does not resolve Tots’s proposed lexical origins. Reused Salys pp. 319, 255 and 152–153 distinguish exact spellings, personal names from place names, and modern Urbonas from the cited 1510 Urban spelling. Mägiste pp. 13, 17, 20 and 21 and Pakerys 2011 p. 2 were also checked in the originals. No recurring PDF was downloaded or extracted again.
+
+
+## 21–25 December reuse (rounds 51–55)
+
+No new PDF was needed: the private cache remains **25 source records / 2,937 indexed pages**. Reused original pages from Salys 1983 (PDF 213, 230, 243, 298, 309, 319), Pakerys 2010 (PDF 7), Pakerys 2011 (PDF 3), Mägiste 1929 (PDF 21, 23, 50) and Leole December 2005 (PDF 6). Page images were rendered privately for exact spelling and column checks; existing indexed full text was not extracted again.
+
+Important corrections: Salys PDF 319 prints **Grožvydas**, whereas Pakerys 2010 PDF 7 / printed 94 independently gives **Graž̃vydas**. Salys PDF 233’s Mina-like text hit is not a Mina personal-name entry. Mägiste’s Toom comparison has a question mark; its running-text senni hit is not a personal-name entry. Leole’s Christmas/Natalie group is on **p. 6**, not p. 1. Record both printed and PDF page numbers as in [NAMEDAYS_SOURCES.md](NAMEDAYS_SOURCES.md). New HTML encyclopaedia/catalogue resources belong in that source directory; they do not require a PDF cache record.
