@@ -1,3 +1,17 @@
+import {historiesLatvianR30} from './namedays-history-r30-lv.js';
+import {historiesLithuanianR30,historiesEstonianR30} from './namedays-history-r30-baltic.js';
+import {historiesLatvianR29} from './namedays-history-r29-lv.js';
+import {historiesLithuanianR29,historiesEstonianR29} from './namedays-history-r29-baltic.js';
+import {historiesLatvianR28} from './namedays-history-r28-lv.js';
+import {historiesLithuanianR28,historiesEstonianR28} from './namedays-history-r28-baltic.js';
+import {historiesLatvianR27} from './namedays-history-r27-lv.js';
+import {historiesLithuanianR27,historiesEstonianR27} from './namedays-history-r27-baltic.js';
+import {historiesLatvianR26} from './namedays-history-r26-lv.js';
+import {historiesLithuanianR26,historiesEstonianR26} from './namedays-history-r26-baltic.js';
+import {historiesLatvianR25} from './namedays-history-r25-lv.js';
+import {historiesLithuanianR25,historiesEstonianR25} from './namedays-history-r25-baltic.js';
+import {historiesLatvianR24} from './namedays-history-r24-lv.js';
+import {historiesLithuanianR24,historiesEstonianR24} from './namedays-history-r24-baltic.js';
 import {historiesLatvianR23} from './namedays-history-r23-lv.js';
 import {historiesLithuanianR23,historiesEstonianR23} from './namedays-history-r23-baltic.js';
 import {historiesLatvianR22} from './namedays-history-r22-lv.js';
@@ -126,7 +140,7 @@ const entries={
 };
 // Anton is the Estonian spelling in the Antanas family entry.
 const {Anton,...popularLt}={...historiesLtA,...historiesLtB};
-const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10,...historiesLatvianR11,...historiesLatvianR12,...historiesLatvianR13,...historiesLatvianR14,...historiesLatvianR15,...historiesLatvianR16,...historiesLatvianR17,...historiesLatvianR18,...historiesLatvianR19,...historiesLatvianR20,...historiesLatvianR21,...historiesLatvianR22,...historiesLatvianR23},ee:{...historiesEeA,...historiesEeB,Anton,...historiesEstonianR11,...historiesEstonianR12,...historiesEstonianR14,...historiesEstonianR15,...historiesEstonianR16,...historiesEstonianR17,...historiesEstonianR18,...historiesEstonianR19,...historiesEstonianR20,...historiesEstonianR21,...historiesEstonianR22,...historiesEstonianR23},lt:{...popularLt,...historiesLithuanianR11,...historiesLithuanianR12,...historiesLithuanianR14,...historiesLithuanianR15,...historiesLithuanianR16,...historiesLithuanianR17,...historiesLithuanianR18,...historiesLithuanianR19,...historiesLithuanianR20,...historiesLithuanianR21,...historiesLithuanianR22,...historiesLithuanianR23}};
+const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10,...historiesLatvianR11,...historiesLatvianR12,...historiesLatvianR13,...historiesLatvianR14,...historiesLatvianR15,...historiesLatvianR16,...historiesLatvianR17,...historiesLatvianR18,...historiesLatvianR19,...historiesLatvianR20,...historiesLatvianR21,...historiesLatvianR22,...historiesLatvianR23,...historiesLatvianR24,...historiesLatvianR25,...historiesLatvianR26,...historiesLatvianR27,...historiesLatvianR28,...historiesLatvianR29,...historiesLatvianR30},ee:{...historiesEeA,...historiesEeB,Anton,...historiesEstonianR11,...historiesEstonianR12,...historiesEstonianR14,...historiesEstonianR15,...historiesEstonianR16,...historiesEstonianR17,...historiesEstonianR18,...historiesEstonianR19,...historiesEstonianR20,...historiesEstonianR21,...historiesEstonianR22,...historiesEstonianR23,...historiesEstonianR24,...historiesEstonianR25,...historiesEstonianR26,...historiesEstonianR27,...historiesEstonianR28,...historiesEstonianR29,...historiesEstonianR30},lt:{...popularLt,...historiesLithuanianR11,...historiesLithuanianR12,...historiesLithuanianR14,...historiesLithuanianR15,...historiesLithuanianR16,...historiesLithuanianR17,...historiesLithuanianR18,...historiesLithuanianR19,...historiesLithuanianR20,...historiesLithuanianR21,...historiesLithuanianR22,...historiesLithuanianR23,...historiesLithuanianR24,...historiesLithuanianR25,...historiesLithuanianR26,...historiesLithuanianR27,...historiesLithuanianR28,...historiesLithuanianR29,...historiesLithuanianR30}};
 export function reviewedHistory(name,country){
  const key=name.normalize('NFC').replace(/\.$/,'');
  return countryEntries[country]?.[key]||entries[key]||null;

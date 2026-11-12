@@ -1,0 +1,452 @@
+{
+  "round": 24,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 16 unfinished 24 November profiles: 11 LV, 3 LT and 2 EE. Seven reviewed histories, five hypotheses and four profiles without an origin proposal. Previous open records remain open. Sources distinguish publication and performance dates, exact feminine forms and conflicting calendar placements. Source URLs remain in working files and provenance; calendar membership is unchanged.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velta",
+      "spellings": [
+        "Velta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-ZAUDETAS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velta",
+        "https://www.behindthename.com/name/velta",
+        "https://enciklopedija.lv/skirklis/101962"
+      ],
+      "facts_used": "The dictionary connects Velta with Latvian velte, gift. This links a personal name with Latvian vocabulary rather than an accidental foreign resemblance. The name also occurs in Aspazija’s drama, but its literary use is not its first appearance. The Velta entry records use in the third quarter of the nineteenth century and calendar inclusion in 1882. Aspazija’s Zaudētas tiesības was staged in 1894 and published in 1895. Earlier personal-name evidence thus remains distinct from the play’s production and publication.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p320; encyclopedia distinguishes1894 staging/1895 publication. Calendar1882 and nineteenth-century personal record precede play; no invention claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velards",
+      "spellings": [
+        "Velards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velards"
+      ],
+      "facts_used": "The dictionary explains Velards through Old High German hwelf, young animal, and hart, strong or brave. These are separate element glosses. It supplies no fixed translation of the entire personal name, so the elements need not become a character or destiny description. The catalogue documents Velards in the first quarter of the twentieth century, citing page 319 of Siliņš’s dictionary. The place is abbreviated V and is not expanded by guesswork here. The record establishes use rather than invention during that period.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact p319 record has abbreviated V(Dz.sv.); no guessed place expansion or calendar year.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Veldra",
+      "spellings": [
+        "Veldra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Veldra"
+      ],
+      "facts_used": "Siliņš’s dictionary connects Veldra with Latvian veldre, described here as a swampy depression. It is a landscape word used as a personal-name basis. The source’s particular gloss need not be blended with other meanings of similarly written words. The catalogue places Veldra usage near Dobele in the third quarter of the twentieth century, referring to dictionary page 319. This is an attestation location. It does not mean that the name was created there or that its meaning describes the bearer’s home.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact p319 landscape gloss and near-Dobele usage; attestation place is not origin.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lt",
+      "name": "Gerardas",
+      "spellings": [
+        "Gerardas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gerardas/",
+        "https://www.behindthename.com/name/gerard",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=308"
+      ],
+      "facts_used": "Gerardas belongs to a Germanic family with ger, spear, and hart, hard or strong. The Lithuanian guide gives these two elements, corroborated by the international Gerard entry. They explain the name’s structure without predicting a bearer’s character. The 1964 calendar reprinted in Salys’s 1983 volume gives Gerardas with short form Geras on 24 May. This historical entry differs from the 24 November used here. It documents the pair in print rather than the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Verify calendar month/page against rendered original before finalising; guideSeptember24 differs from projectNovember24.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lt",
+      "name": "Žybartė",
+      "spellings": [
+        "Žybartė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/zybarte/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=2"
+      ],
+      "facts_used": "Žybartė is a Lithuanian two-stem feminine name. The guide connects žy- with žygiuoti and žygis, marching or a journey, and bart- with bartis, to fight. These glosses explain individual elements without requiring an invented whole-name translation. Antanas Pakerys’s 2011 study of Lithuanian feminine-name accentuation explicitly lists Žýbartė alongside Žýbartas. This is a concrete scholarly record comparing the feminine and masculine forms in one group. The article’s year is neither an invention nor a first-registration date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Pakerys2011PDF2/printed91 exact Žýbartė/Žýbartas under-bart-, visually checked in prior round. No masculine historical bearer dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "ee",
+      "name": "Ustav",
+      "spellings": [
+        "Ustav"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://sonaveeb.ee/search/unif/est,other/dsall/ustav/1/est"
+      ],
+      "facts_used": "Leole identifies Ustav as an Estonian name connected with ustav and ustavus, concepts of faithfulness. Estonian ustav describes someone reliable and steadfastly loyal. This is a local-language link rather than an explanation imported from a similarly written foreign word. Exact Ustav appears on page 6 of Suure-Jaani’s municipal newspaper in November 2005, in the column signed by Leili Kuusk. It documents an explanation of the name in a particular place and time, not a first birth registration or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole2005PDF6 exact Ustav/Ustus; EKI ustav common-word gloss only. Wiktionary Ustav unavailable/lowercase page has no Estonian section, rejected as name evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "ee",
+      "name": "Ustus",
+      "spellings": [
+        "Ustus"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://sonaveeb.ee/search/unif/est,other/dsall/ustav/1/est"
+      ],
+      "facts_used": "Leole identifies Ustus as an Estonian name connected with ustav and ustavus, concepts of faithfulness. Estonian ustav describes someone reliable and steadfastly loyal. This is a local-language link rather than an explanation imported from a similarly written foreign word. Exact Ustus appears on page 6 of Suure-Jaani’s municipal newspaper in November 2005, in the column signed by Leili Kuusk. It documents an explanation of the name in a particular place and time, not a first birth registration or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole2005PDF6 exact Ustav/Ustus; EKI ustav common-word gloss only. Wiktionary Ustav unavailable/lowercase page has no Estonian section, rejected as name evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velda",
+      "spellings": [
+        "Velda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velda",
+        "https://www.izpetnieks.lv/en/name/Velta"
+      ],
+      "facts_used": "Velda may be compared with Veleda / Velta / Welda, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Veleda / Velta / Welda",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p319;nearMadona,thirdquarter20thcentury;multipleoriginroutes.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velita",
+      "spellings": [
+        "Velita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velita",
+        "https://www.izpetnieks.lv/en/name/Velta"
+      ],
+      "facts_used": "Velita may be compared with Melita / Velta, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Melita / Velta",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p320;Riga,secondquarter20thcentury;twoambiguousreferences.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velte",
+      "spellings": [
+        "Velte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velte",
+        "https://www.izpetnieks.lv/en/name/Velta"
+      ],
+      "facts_used": "Velte may be compared with Velta, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Velta",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p320 exactpersonalformnotfound;commonwordnotbridge.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Veltija",
+      "spellings": [
+        "Veltija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Veltija",
+        "https://www.izpetnieks.lv/en/name/Velta"
+      ],
+      "facts_used": "Veltija may be compared with Velta / Veltis, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Velta / Veltis",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p320 exactformnotfound;Veltisreferencecannotbetransferred.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lt",
+      "name": "Mantvinas",
+      "spellings": [
+        "Mantvinas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/mantvinas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Mantvinas has proposed elements mantus, clever, or manta, possessions, and vina or vaina, cause. The full stem analysis still needs checking. The 1964 calendar reprinted by Salys in 1983 gives Mantvinas with Mantas on 24 November; usage alone does not choose one derivation.",
+      "hypothesis": "mantus/manta + vina/vaina; full stem analysis unresolved",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exactguidealternatives;SalysPDF317November24Mantvinas(Mantas). Reject contradictory generated-looking pages claiming no calendar membership or changing Mantvinas to Mantvydas.",
+      "next_steps": "Inspect scholarly exact-name mant-/vin- analyses and dictionary references; retain the dated usage separately."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Vīna",
+      "spellings": [
+        "Vīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=V%C4%ABna"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue has no usable origin/citation. LVA substring results are different spellings or surnames; no exact given-name bridge.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Vinārs",
+      "spellings": [
+        "Vinārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vin%C4%81rs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vin%C4%81rs"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue has no usable origin/citation. LVA substring results are different spellings or surnames; no exact given-name bridge.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Viners",
+      "spellings": [
+        "Viners"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Viners",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Viners"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue has no usable origin/citation. LVA substring results are different spellings or surnames; no exact given-name bridge.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Vīne",
+      "spellings": [
+        "Vīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=V%C4%ABne"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue has no usable origin/citation. LVA substring results are different spellings or surnames; no exact given-name bridge.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    }
+  ]
+}

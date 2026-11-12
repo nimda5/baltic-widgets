@@ -1,0 +1,477 @@
+{
+  "round": 27,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 17 unfinished 27 November profiles. Exact manual entries support Norberts; the Laurijs entry has its own 1932 attestation. Virgilijus is separated from speculative virgo/virga glosses and from short form Virgis/Virgys. Vinifreda has competing Germanic/Welsh routes and stays unverified. Vinolds has no adopted proposal.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Norberts",
+      "spellings": [
+        "Norberts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Norberts",
+        "https://www.personvarduatveide.lv/words/39432?locale=lv"
+      ],
+      "facts_used": "Norberts: The name combines Germanic nord, north, and beraht, bright or famous. It preserves an old two-part name structure. The northern element explains a component of the name rather than the birthplace of each bearer. The Latvian Language Agency gives the exact rendering Norbert → Norberts, citing page 63 of a 1960 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p251 plus exact German given-name rendering; no surname date or bearer-count transfer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Laurijs",
+      "spellings": [
+        "Laurijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Laurijs",
+        "https://www.behindthename.com/name/laura"
+      ],
+      "facts_used": "Laurijs: Siliņš’s entry points to Laura. This family is based on Latin laurus, laurel. In ancient Rome laurel leaves were used in victors’ wreaths; the symbolism helps explain how a plant word could become established in personal names. Siliņš’s dictionary dates the use of Laurijs: 1932. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p209 exact Laurijs under Laura. No independent calendar year supplied.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lt",
+      "name": "Virgilijus",
+      "spellings": [
+        "Virgilijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=278",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317",
+        "https://dmnes.org/name/Virgil",
+        "https://www.behindthename.com/name/virgil"
+      ],
+      "facts_used": "Virgilijus: The Lithuanian form belongs to Roman Vergilius/Virgilius; Salys explicitly equates Virgilijus with Vergilijus. The clan name’s original meaning is unknown. It cannot be declared a demonstrated derivative of virgo, maiden, or virga, twig. The 1964 calendar reprinted in Salys’s 1983 volume gives Virgilijus (Virgys) on 27 November. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF278 printed263 exact equivalence; PDF317 printed302 November27 has Virgys, not project profile Virgis. DMNES rejects an asserted literal virgo/virga etymology.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "ee",
+      "name": "Astrid",
+      "spellings": [
+        "Astrid"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-SNL",
+        "EE-LEOLE05"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Astrid#Estonian",
+        "https://snl.no/Astrid_-_kvinnenamn",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6"
+      ],
+      "facts_used": "Astrid: The usual Scandinavian explanation is Old Norse Ástríðr from Ás-fríðr, god and beautiful. Onomastician Alhaug also explains the consonant change: after f was lost, a supporting t became established between s and r. Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6, uses the exact spelling Astrid. This local explanation documents the name in Estonian print culture. It is neither the name’s first registration nor its year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "SNL supplies careful Norse derivation; Leole supplies exact dated Estonian use. No Norwegian census or royal popularity effect transferred to Estonia.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Nords",
+      "spellings": [
+        "Nords"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nords",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nords"
+      ],
+      "facts_used": "Nords still needs checking against nord / north. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "nord / north",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p251 links nord, north, but a separate dated exact-name historical episode is still missing.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Vinifreda",
+      "spellings": [
+        "Vinifreda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinifreda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinifreda"
+      ],
+      "facts_used": "Vinifreda still needs checking against Vinfrīds / Winifred / Gwenfrewi. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Vinfrīds / Winifred / Gwenfrewi",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p329 places Vinifreda under Germanic Vinfrīds and dates it1936. LVA independently renders English Winifred → Vinifreda (Ahero2006p120), whose Welsh route differs. Do not silently select one ultimate derivation.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Vinifreds",
+      "spellings": [
+        "Vinifreds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinifreds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinifreds"
+      ],
+      "facts_used": "Vinifreds still needs checking against Vinfrīds / Vinifreda. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Vinfrīds / Vinifreda",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide and reusable PDF indexes checked. The exact spelling bridge or an independent dated historical episode still needs verification.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Vinija",
+      "spellings": [
+        "Vinija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinija"
+      ],
+      "facts_used": "Vinija still needs checking against Winnie / Vinnija / Alvīna. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Winnie / Vinnija / Alvīna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LVA exact English Winnie → Vinija (Ahero2006p120) establishes rendering, not a unique full expansion. Siliņš p329 gives1935 and calendar1966 but several base names.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Vinnija",
+      "spellings": [
+        "Vinnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinnija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinnija"
+      ],
+      "facts_used": "Vinnija still needs checking against Winnie / Alvīna / Winifred. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Winnie / Alvīna / Winifred",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p329 dates Vinnija1965 and allows English diminutives of several full names; LVA Winnie→Vinija does not prove double-n spelling.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Vinolds",
+      "spellings": [
+        "Vinolds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinolds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinolds"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue has no origin explanation and LVA has no exact usable given-name rendering. No origin proposal adopted.",
+      "next_steps": "Search original given-name dictionaries and dated exact-form local records; do not infer from surname or ending."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lv",
+      "name": "Vinona",
+      "spellings": [
+        "Vinona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vinona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinona"
+      ],
+      "facts_used": "Vinona still needs checking against Winona. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Winona",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Curated Winona explains Dakota firstborn daughter, but no exact Latvian rendering bridge found; LVA search empty.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lt",
+      "name": "Girdvydė",
+      "spellings": [
+        "Girdvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/girdvyde/"
+      ],
+      "facts_used": "Girdvydė still needs checking against gird- + vyd-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "gird- + vyd-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide and reusable PDF indexes checked. The exact spelling bridge or an independent dated historical episode still needs verification.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lt",
+      "name": "Girvydė",
+      "spellings": [
+        "Girvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/girvyde/"
+      ],
+      "facts_used": "Girvydė still needs checking against gir- + vyd-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "gir- + vyd-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide and reusable PDF indexes checked. The exact spelling bridge or an independent dated historical episode still needs verification.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lt",
+      "name": "Skomantas",
+      "spellings": [
+        "Skomantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/skomantas/"
+      ],
+      "facts_used": "Skomantas still needs checking against sko- + mantus / manta. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "sko- + mantus / manta",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact guide gives skototis + alternatives mantus/manta. Salys PDF317 November27 Skomantas(Skomas) confirms usage, not the full disputed analysis.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "lt",
+      "name": "Virgis",
+      "spellings": [
+        "Virgis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/virgis/"
+      ],
+      "facts_used": "Virgis still needs checking against Virginijus / Lithuanian Virg- names. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginijus / Lithuanian Virg- names",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact guide lists Virginijus and Lithuanian Virg- short forms; its virga=maiden gloss is wrong. Salys November27 Virgys has y, not i.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "ee",
+      "name": "Asta",
+      "spellings": [
+        "Asta"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Asta"
+      ],
+      "facts_used": "Asta still needs checking against Anastasia / Astrid. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Anastasia / Astrid",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole2005PDF6 explicitly offers Anastasia or Astrid; retain both routes.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-27",
+      "date": "2026-11-12",
+      "calendar_date": "11-27",
+      "country": "ee",
+      "name": "Astra",
+      "spellings": [
+        "Astra"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Astra"
+      ],
+      "facts_used": "Astra still needs checking against Astraia / astron. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Astraia / astron",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole2005PDF6 offers Astraia or Greek star; no independent exact Estonian derivation selecting a route inspected.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    }
+  ]
+}

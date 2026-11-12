@@ -1,0 +1,1219 @@
+{
+  "round": 25,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 42 unfinished profiles on 25 November, across LV/LT/EE. Catherine-family history preserves the explicitly unknown ultimate Greek etymology; pure is a later association. Exact spelling bridges and dated episodes are distinguished. Open comparisons remain unverified in the backlog. A candidate file named magiste1936 proved to be the 1929 edition on its title page and was not treated as a 1936 source. Skulte old URL returned HTML, not the thesis. Sources remain provenance only. Continue autonomously through 30 November in the same branch. Follow-up: Sinkevičiūtė2006 PDF3/printed275 visually resolves the missing dated exact-form episode for Germilė; its history is now reviewed.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kate",
+      "spellings": [
+        "Kate"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kate",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Kate leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Siliņš’s entry for Kate gives 1915 as its calendar year. This dates the spelling in the calendar material used, rather than the creation of the entire family. Full and shortened forms can therefore share a family while retaining different local histories.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kadrija",
+      "spellings": [
+        "Kadrija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kadrija",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria"
+      ],
+      "facts_used": "The documented family of Kadrija leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Kadrija.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Trīne",
+      "spellings": [
+        "Trīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tr%C4%ABne",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Trīne leads to Katrīne. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Siliņš’s entry for Trīne gives 1817 as its calendar year. This dates the spelling in the calendar material used, rather than the creation of the entire family. Full and shortened forms can therefore share a family while retaining different local histories.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katrīne",
+      "spellings": [
+        "Katrīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katr%C4%ABne",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Katrīne leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Siliņš’s entry for Katrīne gives 1767 as its calendar year. This dates the spelling in the calendar material used, rather than the creation of the entire family. Full and shortened forms can therefore share a family while retaining different local histories.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Jekaterīna",
+      "spellings": [
+        "Jekaterīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jekater%C4%ABna",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Jekaterīna leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Siliņš’s entry for Jekaterīna gives 1899 as its calendar year. This dates the spelling in the calendar material used, rather than the creation of the entire family. Full and shortened forms can therefore share a family while retaining different local histories.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kadija",
+      "spellings": [
+        "Kadija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kadija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kadija"
+      ],
+      "facts_used": "A comparison to investigate for Kadija is Chadia / Khadija, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Chadia / Khadija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LVA has exact Italian Chadia → Kadija, but no inspected source yet establishes Chadia → Khadija. Do not confuse Kadija and Kadrija.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katalīna",
+      "spellings": [
+        "Katalīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katal%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katal%C4%ABna"
+      ],
+      "facts_used": "A comparison to investigate for Katalīna is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katažina",
+      "spellings": [
+        "Katažina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kata%C5%BEina",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria"
+      ],
+      "facts_used": "The documented family of Katažina leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Katažina.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katerina",
+      "spellings": [
+        "Katerina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katerina",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.personvarduatveide.lv/words/40816?locale=lv"
+      ],
+      "facts_used": "The documented family of Katerina leads to Cathérine / Catherine. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The Latvian Language Agency gives the exact rendering Cathérine → Katerina, citing page 93 of a 2004 rendering manual. This dated spelling record illustrates transmission between languages; it is neither a first birth registration nor the only borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katerīna",
+      "spellings": [
+        "Katerīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kater%C4%ABna",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria"
+      ],
+      "facts_used": "The documented family of Katerīna leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Katerīna.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katija",
+      "spellings": [
+        "Katija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katija",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria"
+      ],
+      "facts_used": "The documented family of Katija leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Katija.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katiņa",
+      "spellings": [
+        "Katiņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kati%C5%86a",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kati%C5%86a"
+      ],
+      "facts_used": "A comparison to investigate for Katiņa is Kate / Katja, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Kate / Katja",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katra",
+      "spellings": [
+        "Katra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katra",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Katra leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Siliņš’s entry for Katra gives 1864 as its calendar year. This dates the spelling in the calendar material used, rather than the creation of the entire family. Full and shortened forms can therefore share a family while retaining different local histories.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katre",
+      "spellings": [
+        "Katre"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katre",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katre"
+      ],
+      "facts_used": "A comparison to investigate for Katre is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katri",
+      "spellings": [
+        "Katri"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katri",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katri"
+      ],
+      "facts_used": "A comparison to investigate for Katri is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katrine",
+      "spellings": [
+        "Katrine"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katrine",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katrine"
+      ],
+      "facts_used": "A comparison to investigate for Katrine is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katriona",
+      "spellings": [
+        "Katriona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katriona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katriona"
+      ],
+      "facts_used": "A comparison to investigate for Katriona is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kecija",
+      "spellings": [
+        "Kecija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kecija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kecija"
+      ],
+      "facts_used": "A comparison to investigate for Kecija is Keziah / Ķecija, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Keziah / Ķecija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue cites Skulte 1999 pp39/158 and Keziah/cassia. Old LU PDF URL now returns HTML, not a PDF. Exact Kecija versus Ķecija bridge still requires the original thesis.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Keita",
+      "spellings": [
+        "Keita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Keita",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.personvarduatveide.lv/words/28571?locale=lv"
+      ],
+      "facts_used": "The documented family of Keita leads to Kate / Catherine. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The Latvian Language Agency gives the exact rendering Kate → Keita, citing page 107 of a 2006 rendering manual. This dated spelling record illustrates transmission between languages; it is neither a first birth registration nor the only borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Keitija",
+      "spellings": [
+        "Keitija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Keitija",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria",
+        "https://www.personvarduatveide.lv/words/56003?locale=lv",
+        "https://www.behindthename.com/name/katie"
+      ],
+      "facts_used": "The documented family of Keitija leads to Katie / Catherine. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Keitija.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Keitlina",
+      "spellings": [
+        "Keitlina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Keitlina",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria",
+        "https://www.personvarduatveide.lv/words/61201?locale=lv",
+        "https://www.behindthename.com/name/caitlin"
+      ],
+      "facts_used": "The documented family of Keitlina leads to Caitlin / Catherine. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Keitlina.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Keta",
+      "spellings": [
+        "Keta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Keta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Keta"
+      ],
+      "facts_used": "A comparison to investigate for Keta is Catherine / Ketevan, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Catherine / Ketevan",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kēta",
+      "spellings": [
+        "Kēta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/K%C4%93ta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=K%C4%93ta"
+      ],
+      "facts_used": "A comparison to investigate for Kēta is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kete",
+      "spellings": [
+        "Kete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kete"
+      ],
+      "facts_used": "A comparison to investigate for Kete is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kēte",
+      "spellings": [
+        "Kēte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/K%C4%93te",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Kēte leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Siliņš’s entry for Kēte gives 1915 as its calendar year. This dates the spelling in the calendar material used, rather than the creation of the entire family. Full and shortened forms can therefore share a family while retaining different local histories.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketija",
+      "spellings": [
+        "Ketija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "INT-NG-CATHERINE"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketija",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria"
+      ],
+      "facts_used": "The documented family of Ketija leads to Katarīna. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Raphael’s Saint Catherine of Alexandria, dated about 1507 by London’s National Gallery, illustrates this family’s cultural history. The wheel belongs to the saint’s legendary iconography. This is an episode in the related Catherine tradition, not the first Latvian use of Ketija.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketri",
+      "spellings": [
+        "Ketri"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketri",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ketri"
+      ],
+      "facts_used": "A comparison to investigate for Ketri is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketrija",
+      "spellings": [
+        "Ketrija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketrija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ketrija"
+      ],
+      "facts_used": "A comparison to investigate for Ketrija is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketrina",
+      "spellings": [
+        "Ketrina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-MUSE46",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketrina",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.personvarduatveide.lv/words/28575?locale=lv"
+      ],
+      "facts_used": "The documented family of Ketrina leads to Kathryn / Catherine. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The Latvian Language Agency gives the exact rendering Kathryn → Ketrina, citing page 107 of a 2006 rendering manual. This dated spelling record illustrates transmission between languages; it is neither a first birth registration nor the only borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "The original Greek root remains unknown; do not promote the later pure association to a proved etymology. Exact local dates apply only to their own entry. LVA manual citation is distinguished from independently inspecting its original.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketrīna",
+      "spellings": [
+        "Ketrīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketr%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ketr%C4%ABna"
+      ],
+      "facts_used": "A comparison to investigate for Ketrīna is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Trīna",
+      "spellings": [
+        "Trīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tr%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Tr%C4%ABna"
+      ],
+      "facts_used": "A comparison to investigate for Trīna is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local spelling bridge remains unverified: catalogue does not give a secure exact-form explanation and LVA results are absent or differently accented. Shared day alone is not proof.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lt",
+      "name": "Germilė",
+      "spellings": [
+        "Germilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SINKEVICIUTE06"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/germile/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2006~1367153016332/J.04~2006~1367153016332.pdf#page=3"
+      ],
+      "facts_used": "Germilė: A Lithuanian two-stem name with ger- from geras, good, and mil- from milti, pamilti, to love. This formation continues the Baltic two-part naming model. Its structure should not be confused with the similar-looking foreign name Germanas. Printed page 275 of Daiva Sinkevičiūtė’s 2006 article includes accented Germilė among calendar names that could be recommended for use. This is a particular record of scholarly discussion. The article identifies neither an inventor nor a first birth registration.",
+      "hypothesis": "",
+      "reason": "Exact guide stem explanation and an independently inspected dated scholarly exact-form record.",
+      "uncertainties": "PDF3 printed275 visually checked; accents are stress marks, not alternate vowel letters. Reject unsupported Germanas/germana sister route.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lt",
+      "name": "Santautas",
+      "spellings": [
+        "Santautas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/santautas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Santautas is a Lithuanian two-stem name. The guide explains san- through su, kartu, together, and taut- through tauta, people. This preserves the two-part structure characteristic of Baltic personal names without requiring a single modern sentence as its translation. The 1964 calendar reprinted in Salys’s 1983 collection places Santautas with short form Santas on 25 November. The historical record documents the full and shortened pair in print. The calendar’s date should therefore not be read as the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF317 printed302, November25. Exact stem guide; no bearer-count or invention-year claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Katre",
+      "spellings": [
+        "Katre"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Katre leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The exact spelling Katre appears among Katariina variants in Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6. This local printed example records an explanation of the family in Estonia. It is neither a birth-register entry nor the spelling’s earliest known use.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Katri",
+      "spellings": [
+        "Katri"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Katri leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The exact spelling Katri appears among Katariina variants in Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6. This local printed example records an explanation of the family in Estonia. It is neither a birth-register entry nor the spelling’s earliest known use.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Kadrin",
+      "spellings": [
+        "Kadrin"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=16"
+      ],
+      "facts_used": "The documented family of Kadrin leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Julius Mägiste’s 1929 collection lists Kadrin on printed page 14; Kadrin and Kadi explicitly link to Katariina, while Kati points to Kadi. Leili Kuusk’s November 2005 Leole column later includes this form in the Katariina family. These records document a tradition rather than one year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Kari",
+      "spellings": [
+        "Kari"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Kari",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6"
+      ],
+      "facts_used": "A comparison to investigate for Kari is Katariina / Makarios, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katariina / Makarios",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole lists Karin, not Kari; Wiktionary has no Estonian section. Finnish masculine Makarios and Norwegian feminine Catherine routes cannot be selected for the Estonian form.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Kadi",
+      "spellings": [
+        "Kadi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=16"
+      ],
+      "facts_used": "The documented family of Kadi leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Julius Mägiste’s 1929 collection lists Kadi on printed page 14; Kadrin and Kadi explicitly link to Katariina, while Kati points to Kadi. Leili Kuusk’s November 2005 Leole column later includes this form in the Katariina family. These records document a tradition rather than one year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Kati",
+      "spellings": [
+        "Kati"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=16"
+      ],
+      "facts_used": "The documented family of Kati leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Julius Mägiste’s 1929 collection lists Kati on printed page 14; Kadrin and Kadi explicitly link to Katariina, while Kati points to Kadi. Leili Kuusk’s November 2005 Leole column later includes this form in the Katariina family. These records document a tradition rather than one year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Kaarin",
+      "spellings": [
+        "Kaarin"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=16"
+      ],
+      "facts_used": "The documented family of Kaarin leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. Julius Mägiste’s 1929 collection lists Kaarin on printed page 14; Kadrin and Kadi explicitly link to Katariina, while Kati points to Kadi. Leili Kuusk’s November 2005 Leole column later includes this form in the Katariina family. These records document a tradition rather than one year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Triina",
+      "spellings": [
+        "Triina"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Triina leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The exact spelling Triina appears among Katariina variants in Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6. This local printed example records an explanation of the family in Estonia. It is neither a birth-register entry nor the spelling’s earliest known use.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Triinu",
+      "spellings": [
+        "Triinu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-MUSE46"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://maa.missouri.edu/sites/default/files/file-uploads/2021-11/muse.vol_.46.pdf#page=101"
+      ],
+      "facts_used": "The documented family of Triinu leads to Katariina. Its early Greek form is Aikaterinē, whose ultimate origin is unknown. Association with katharos, pure, is a later interpretation that influenced spelling and Christian tradition; it is not a demonstrated original meaning. The exact spelling Triinu appears among Katariina variants in Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6. This local printed example records an explanation of the family in Estonia. It is neither a birth-register entry nor the spelling’s earliest known use.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole supplies the exact family list, not a secure ultimate Greek etymology. Reject its always-pure gloss. Mägiste is 1929, not 1936; title page checked.",
+      "next_steps": ""
+    }
+  ]
+}
