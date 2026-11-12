@@ -4,9 +4,8 @@ import {seriesForPeriod} from './chart-periods.js';
 import {chartWindow,priceChange,nearestPoint,colorTrend,energyUnit} from './chart-math.js';
 const dialog = document.querySelector('.price-dialog');
 const canvas = document.querySelector('#chart-canvas');
-const cursor = document.querySelector('.chart-cursor');
 const readout = document.querySelector('.chart-readout');
-let active, opener, selectedPoints = [], plot, drag = null, comparison = null;
+let active, opener, selectedPoints = [], selectedIndex = 0, plot, drag = null, comparison = null;
 const numberFormats=new Map();
 const format=(value,digits)=>{if(!numberFormats.has(digits))numberFormats.set(digits,new Intl.NumberFormat(locale,{minimumFractionDigits:digits,maximumFractionDigits:digits}));return numberFormats.get(digits).format(value);};
 const dateFormat = (value, intraday = false) => new Intl.DateTimeFormat(locale, {timeZone:'Europe/Riga',day:'2-digit',month:'2-digit',...(intraday ? {hour:'2-digit',minute:'2-digit'} : {year:'numeric'})}).format(new Date(value));
@@ -79,13 +78,11 @@ function draw(days) {
   active.displayIntraday=active.intraday&&!daily;
   document.querySelector('#chart-current').title=daily?t('daily_weighted','Duration-weighted daily averages (UTC), excluding VAT and supplier fees.'):'';
   selectedPoints = chartWindow(points,days,Date.now(),active.displayIntraday);
-  const stats = document.querySelector('.chart-stats');
   const change = document.querySelector('#chart-change');
   if (selectedPoints.length < 2) {
     canvas.replaceChildren(node('p','chart-empty',t('history_empty','No price history is available for this period.')));
-    cursor.hidden = true; readout.textContent = ''; stats.replaceChildren(); change.textContent = ''; plot = null; return;
+    readout.textContent = ''; change.textContent = ''; plot = null; return;
   }
-  cursor.hidden = false;
   const first = selectedPoints[0], last = selectedPoints.at(-1);
   const {delta,percent:changePercent} = priceChange(first.value,last.value);
   change.className = `trend ${colorTrend(delta,active.lowerIsBetter)}`;
@@ -100,7 +97,7 @@ function draw(days) {
   const y = p=>bottom-(p.value-low)/(high-low)*(bottom-top);
   const periodTitle=days===0?t('all_days','All history'):t('days_count','{count} days',{count:days});
   const svg = svgNode('svg',{viewBox:`0 0 ${svgWidth} 276`,role:'img','aria-label':`${active.label} — ${periodTitle}`,'aria-describedby':'price-chart-description'});
-  svg.append(svgNode('desc',{id:'price-chart-description'},t('chart_description','{from}–{to}. Minimum {min}, maximum {max} {unit}. Use the slider below the chart to explore each price.',{from:dateFormat(first.at),to:dateFormat(last.at),min:format(min,active.digits),max:format(max,active.digits),unit:active.unit})));
+  svg.append(svgNode('desc',{id:'price-chart-description'},t('chart_description','{from}–{to}. Minimum {min}, maximum {max} {unit}. Hover or drag across the chart to explore prices. Use arrow keys when the chart is focused.',{from:dateFormat(first.at),to:dateFormat(last.at),min:format(min,active.digits),max:format(max,active.digits),unit:active.unit})));
 
   for(let i=0;i<5;i++) {
     const value = low+(high-low)*i/4, yy = y({value});
@@ -133,22 +130,19 @@ function draw(days) {
   const tooltip=node('div','chart-hover-price');tooltip.hidden=true;tooltip.setAttribute('aria-hidden','true');
   svg.append(clip,selection,selectedLine,anchorLine,anchorDot,focusLine,dot); canvas.replaceChildren(svg,tooltip);
   plot = {svg,tooltip,x,y,focusLine,dot,selection,selectionClip,selectedLine,anchorLine,anchorDot,left,right,svgWidth};
-  cursor.max = String(selectedPoints.length-1); cursor.value = cursor.max;
-  stats.replaceChildren(node('span','',`${t('chart_min','Min.')} ${format(min,active.digits)} ${active.unit}`),node('span','',`${t('chart_max','Max.')} ${format(max,active.digits)} ${active.unit}`),node('span','',`${dateFormat(first.at)}–${dateFormat(last.at)}`));
-  if(daily)stats.append(node('span','',t('daily_count','Daily average (UTC) · {count} days',{count:new Intl.NumberFormat(locale).format(selectedPoints.length)})));
   const currentTime=Date.now();
   let initial=active.displayIntraday?nearestPoint(selectedPoints,currentTime):selectedPoints.length-1;
   if(active.displayIntraday && initial>0 && selectedPoints[initial].at>currentTime)initial--;
-  cursor.value=String(initial);highlight(initial);
+  highlight(initial);
 }
 
 function highlight(index) {
   if(!plot) return;
+  selectedIndex=index;
   const p=selectedPoints[index];
   plot.focusLine.setAttribute('x1',plot.x(p)); plot.focusLine.setAttribute('x2',plot.x(p));
   plot.dot.setAttribute('cx',plot.x(p)); plot.dot.setAttribute('cy',plot.y(p));
   const pointText=`${dateFormat(p.at,active.displayIntraday)} · ${format(p.value,active.digits)} ${active.unit}`;
-  cursor.setAttribute('aria-valuetext',pointText);
   if(comparison !== null){
     const a=selectedPoints[Math.min(comparison,index)],b=selectedPoints[Math.max(comparison,index)];
     const {delta,percent}=priceChange(a.value,b.value),sign=delta>0?'+':delta<0?'−':'';
@@ -171,7 +165,11 @@ function highlight(index) {
     readout.textContent=pointText;
   }
 }
-cursor.addEventListener('input',()=>{comparison=null;if(plot)plot.tooltip.hidden=true;highlight(Number(cursor.value));});
+canvas.addEventListener('keydown',event=>{
+  if(!plot || !['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
+  event.preventDefault();comparison=null;plot.tooltip.hidden=true;
+  highlight(event.key==='Home'?0:event.key==='End'?selectedPoints.length-1:Math.max(0,Math.min(selectedPoints.length-1,selectedIndex+(event.key==='ArrowRight'?1:-1))));
+});
 function hoverPrice(index,event){
   if(event.pointerType!=='mouse'){plot.tooltip.hidden=true;return;}
   const tooltip=plot.tooltip,rect=canvas.getBoundingClientRect();
@@ -188,21 +186,21 @@ canvas.addEventListener('pointerdown',event=>{
   if(!plot || !event.isPrimary || event.button!==0)return;
   event.preventDefault();
   canvas.setPointerCapture(event.pointerId);drag=event.pointerId;comparison=pointAt(event);
-  cursor.value=String(comparison);highlight(comparison);
+  highlight(comparison);
 });
 canvas.addEventListener('pointermove',event=>{
   if(!plot || (drag!==null && drag!==event.pointerId))return;
   const index=pointAt(event);hoverPrice(index,event);
   if(drag===null && comparison!==null)return;
-  cursor.value=String(index);highlight(index);
+  highlight(index);
 });
 canvas.addEventListener('pointerleave',()=>{if(plot)plot.tooltip.hidden=true;});
 canvas.addEventListener('pointerup',event=>{
   if(drag!==event.pointerId)return;
-  const index=pointAt(event);cursor.value=String(index);highlight(index);drag=null;
+  const index=pointAt(event);highlight(index);drag=null;
   if(canvas.hasPointerCapture(event.pointerId))canvas.releasePointerCapture(event.pointerId);
 });
-function clearComparison(){drag=null;comparison=null;if(plot)highlight(Number(cursor.value));}
+function clearComparison(){drag=null;comparison=null;if(plot)highlight(selectedIndex);}
 canvas.addEventListener('pointercancel',clearComparison);
 canvas.addEventListener('lostpointercapture',()=>{if(drag!==null)clearComparison();});
 dialog.addEventListener('keydown',event=>{

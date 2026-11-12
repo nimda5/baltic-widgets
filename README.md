@@ -84,6 +84,8 @@ Replace `en` with the desired language. GitHub Pages does not process API query 
 
 ## Data sources and history
 
+Price charts show individual prices on hover and compare ranges by dragging across the plot. The focused plot also supports Left/Right arrows and Home/End; Escape clears a selected comparison. The dialog fits its content, with no separate position slider or minimum/maximum footer.
+
 Fuel uses published LV operator prices, LEA in LT, and FuelEst in EE. Widget feeds publish 95-octane petrol and diesel only. The European Commission provides weekly national averages from 2005, kept separate from individual station prices. Electricity uses Elering/Nord Pool history: LT from 2012 and LV/EE from 2013. Natural gas uses regional EEX NGP prices and a separate monthly European benchmark from the World Bank. Long EUR charts use historical ECB exchange rates from 1999; different indices are not merged.
 
 Euribor 6M replaces the inverse USD/EUR row, using official Bank of Finland / EMMI daily act/360 fixings with a 24-hour delay. The initial daily history starts in 2021; rate changes use percentage points. Commercial redistribution is subject to EMMI terms (see THIRD_PARTY.md).

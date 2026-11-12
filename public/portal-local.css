@@ -446,11 +446,11 @@ html{scrollbar-gutter:stable}
 .comparison-results{flex:1;scrollbar-gutter:stable;overflow-anchor:none}
 .comparison-controls{grid-template-columns:minmax(0,2fr) minmax(150px,1fr)}
 .comparison-city{grid-column:auto}
-.price-dialog{height:min(640px,calc(100dvh - 32px));scrollbar-gutter:stable;overflow-anchor:none}
+.price-dialog{height:fit-content;scrollbar-gutter:stable;overflow-anchor:none}
 @media(max-width:480px){
  .station-comparison{height:calc(100dvh - 16px);max-height:calc(100dvh - 16px)}
  .comparison-controls{grid-template-columns:1fr}
- .price-dialog{height:calc(100dvh - 24px);max-height:calc(100dvh - 24px)}
+ .price-dialog{max-height:calc(100dvh - 24px)}
 }
 
 /* Keep comparison in a consistent header position without an extra card row. */
