@@ -112,6 +112,27 @@ export function parseVirsi(html) {
 export function parseViada(html) {
   const $ = load(html), out = [];
   const day = dateLV($.text().match(/Cenas spēkā no[\s\S]{0,65}/)?.[0] || '');
+  const modernRows = $('.fuel-table__row');
+  if (modernRows.length) {
+    const labels = { '95 multi fx': '95', '95 multi fx plus': '95_premium', '95 multi fx +': '95_premium', '98 multi fx': '98', d: 'diesel', 'd multi fx': 'diesel_premium', 'gāze': 'LPG' };
+    modernRows.each((_, row) => {
+      const label = clean($(row).find('.fuel-table__fuel span').text());
+      if (label.toLowerCase() === 'e85') return;
+      const fuel = labels[label.toLowerCase()];
+      if (!fuel) throw new Error(`Viada fuel label changed: ${label}`);
+      const value = price(clean($(row).find('.fuel-table__price').text()));
+      const stations = $(row).find('.fuel-table__stations li');
+      if (!stations.length) throw new Error('Viada station list missing');
+      stations.each((_, station) => {
+        const name = clean($(station).find('.fuel-table__station').text());
+        const address = clean($(station).find('.fuel-table__address').text());
+        if (!name || !address) throw new Error('Viada station identity missing');
+        out.push({ country: 'LV', brand: 'Viada', name, address, fuel, label, value, day });
+      });
+    });
+    if (!out.some(r => r.fuel === '95') || !out.some(r => r.fuel === 'diesel')) throw new Error('Viada table changed');
+    return out;
+  }
   const fuels = { petrol_95ecto_new: '95', petrol_95ectoplus_new: '95_premium', petrol_98_new: '98', petrol_d_new: 'diesel', petrol_d_ecto_new: 'diesel_premium', petrol_gas_new: 'LPG' };
   $('table tr').each((_, row) => {
     const cells = $(row).find('td');
