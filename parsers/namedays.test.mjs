@@ -84,6 +84,8 @@ test('calendar-day research separates 17 verified histories from six open hypoth
  }
 });
 test('unverified comparisons cannot lose their status or become another name’s related history',()=>{
+ const spelling=buildProfile('Aleksandris','lv');assert.equal(spelling.facts.root_key,undefined);assert.equal(spelling.verification_status,'unverified');
+ for(const lang of LANGUAGES){const copy=describeName(spelling,lang);assert.equal(copy.unverified_hypothesis,true);assert.equal(copy.reviewed_narrative,false);}
  const p=buildProfile('Vianda','lv');delete p.verification_status;assert.throws(()=>validateProfile(p),/explicit status/);
  const q=buildProfile('Vianda','lv');q.provenance=q.provenance.filter(s=>s.type!=='unverified_name_hypothesis');assert.throws(()=>validateProfile(q),/provenance/);
  const inherited=buildProfile('Vianda','lv');inherited.family='charlotte';assert.equal(describeName(inherited).reviewed_narrative,false);
@@ -251,6 +253,8 @@ test('source periods keep their actual precision in every language',()=>{
  assert.equal(formatAttestation('in the 1st century','en'),'1st century');
  assert.equal(formatAttestation('1870s','ru'),'1870-е годы');
  assert.equal(formatAttestation('Not specified','ru'),null);
+ assert.deepEqual(attestationPeriod('13th century, Ikšķile / third quarter of the 20th century, Cēsis'),{kind:'century',century:13,era:'ad'});
+ assert.equal(formatAttestation('13th century, Ikšķile / third quarter of the 20th century, Cēsis','en'),'13th century');
  for(const lang of LANGUAGES){assert.ok(formatAttestation('Fourth quarter of the 19th century',lang));assert.ok(!/1876|1900/.test(formatAttestation('Fourth quarter of the 19th century',lang)));}
  assert.equal(attestationPeriod('18. gs.').century,18);
 });

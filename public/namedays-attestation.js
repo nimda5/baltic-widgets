@@ -1,6 +1,7 @@
 // Preserve the precision of a source: a century, quarter or decade is not a year.
 export function attestationPeriod(value){
- const s=String(value||'').replace(/\b(\d{1,2})\.\s*gs\./g,'$1th century').replace(/\b(IV|III|II|I)\s*(?:ceturksnis|c\.)/g,(_,roman)=>({I:1,II:2,III:3,IV:4}[roman])+'th quarter').replace(/\b(\d{1,2})(?:st|nd|rd|th),\s*\d{1,2}(?:st|nd|rd|th) centuries\b/gi,'$1th century').replace(/^R(?=\d{4})/,'');
+ // Separate records must not lend a later quarter or qualifier to the first date.
+ const s=String(value||'').split(/\s+\/\s+/)[0].replace(/\b(\d{1,2})\.\s*gs\./g,'$1th century').replace(/\b(IV|III|II|I)\s*(?:ceturksnis|c\.)/g,(_,roman)=>({I:1,II:2,III:3,IV:4}[roman])+'th quarter').replace(/\b(\d{1,2})(?:st|nd|rd|th),\s*\d{1,2}(?:st|nd|rd|th) centuries\b/gi,'$1th century').replace(/^R(?=\d{4})/,'');
  const bc=/\b(?:BC|BCE)\b/i.test(s),era=bc?'bc':'ad';
  const range=/\b(\d{3,4})\s*[–-]\s*(\d{3,4})\b/.exec(s);if(range)return{kind:'range',from:+range[1],to:+range[2],era};
  const c=/\b(\d{1,2})(?:st|nd|rd|th)[ -]+century\b/i.exec(s);

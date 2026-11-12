@@ -40,26 +40,12 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 5,11-17,lt,Gilvilė,unresearched,,unverified,needs_more
 5,11-17,ee,Heinar,unresearched,270,unverified,needs_more
 5,11-17,ee,Ainari,unresearched,< 5,unverified,needs_more
-6,11-18,lv,Doloresa,summary,46,,
-6,11-18,lv,Brīve,summary,3,,
-6,11-18,lv,Aleksandris,summary,33,,
-6,11-18,lv,Alesandrs,summary,1,,
-6,11-18,lv,Brīva,summary,2,,
-6,11-18,lv,Brīvīte,summary,,,
-6,11-18,lv,Dolita,summary,1,,
-6,11-18,lv,Dollija,summary,1,,
-6,11-18,lv,Laisve,summary,2,,
-6,11-18,lv,Latvis,summary,5,,
-6,11-18,lv,Latvīte,summary,2,,
-6,11-18,lv,Zandars,summary,,,
-6,11-18,lv,Zanders,summary,5,,
-6,11-18,lt,Ginvydas,summary,,,
-6,11-18,lt,Ginvydė,summary,,,
-6,11-18,lt,Otas,summary,,,
-6,11-18,lt,Otonas,summary,,,
-6,11-18,lt,Romanas,summary,,,
-6,11-18,ee,Ilo,summary,38,,
-6,11-18,ee,Ilu,unresearched,< 5,,
+6,11-18,lv,Brīve,unresearched,3,unverified,needs_more
+6,11-18,lv,Aleksandris,unresearched,33,unverified,needs_more
+6,11-18,lv,Alesandrs,unresearched,1,unverified,needs_more
+6,11-18,lv,Brīvīte,unresearched,,unverified,needs_more
+6,11-18,lv,Zandars,unresearched,,unverified,needs_more
+6,11-18,ee,Ilu,unresearched,< 5,unverified,needs_more
 7,11-19,lv,Liza,summary,129,,
 7,11-19,lv,Līze,summary,56,,
 7,11-19,lv,Betija,summary,449,,
@@ -2270,7 +2256,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 108,02-28,lv,Skaidre,summary,2,,
 108,02-28,lv,Skaila,unresearched,8,,
 108,02-28,lt,Osvaldas,summary,,,
-108,02-28,lt,Romanas,summary,,,
 108,02-28,lt,Romas,summary,,,
 108,02-28,lt,Vilgardas,summary,,,
 108,02-28,lt,Žygimantė,summary,,,
@@ -5132,8 +5117,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 230,06-30,lv,Tālvaldis,summary,6,,
 230,06-30,lt,Liucina,summary,,,
 230,06-30,lt,Novilė,summary,,,
-230,06-30,lt,Otas,summary,,,
-230,06-30,lt,Otonas,summary,,,
 230,06-30,lt,Tautginas,summary,,,
 230,06-30,ee,Päivo,unresearched,10,,
 230,06-30,ee,Päivu,unresearched,< 5,,
@@ -6070,7 +6053,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 270,08-09,lv,Sava,summary,68,,
 270,08-09,lt,Mintaras,summary,,,
 270,08-09,lt,Rolandas,summary,,,
-270,08-09,lt,Romanas,summary,,,
 270,08-09,lt,Romas,summary,,,
 270,08-09,lt,Tarvilė,summary,,,
 270,08-09,lt,Jorūnas,summary,,,

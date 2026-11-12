@@ -98,7 +98,10 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(archive){facts.archival_variants=archive.facts.archival_variants;facts.archival_form=archive.facts.archival_form;}
  facts.origin_uncertain=evidence.some(e=>e.facts.origin_uncertain);
  for(const form of facts.source_forms)if(form.source)sources.push(form.source);
- const root=reviewedRoot(name);
+ const history=reviewedHistory(name,country);
+ const hypothesis=history?null:unverifiedHistory(name,country);
+ // A broad alias list cannot promote an explicitly unresolved spelling to a verified root.
+ const root=hypothesis?null:reviewedRoot(name);
  if(root){facts.root_key=root.key;facts.origins=[...new Set([...facts.origins,root.origin])];sources.push(root.source,...(root.sources||[]));}
  if(!chosen.length&&previous?.people?.length)chosen=previous.people;
  if(!chosen.length&&root){const candidates=root.aliases.flatMap(alias=>people.get(alias)||[]);chosen=[...new Map(candidates.map(p=>[p.id,{...p,match:'related_form'}])).values()].slice(0,3);}
@@ -109,14 +112,12 @@ export function buildProfile(name,country,research={},people=new Map(),previous,
  if(previous?.people?.length)chosen=[...new Map([...previous.people,...chosen].map(p=>[p.id,p])).values()];
  for(const person of [...chosen])if(person.id.startsWith('reviewed:')){const original=chosen.findIndex(p=>p.id!==person.id&&p.name===person.name);if(original>=0){chosen[original]=reviewedPerson(chosen[original],person);chosen=chosen.filter(p=>p.id!==person.id);}}
  chosen=[...chosen].sort((a,b)=>Number(b.match==='exact')-Number(a.match==='exact')||Number(b.countries.includes(country))-Number(a.countries.includes(country))||(b.prominence||0)-(a.prominence||0)).slice(0,3);
- const history=reviewedHistory(name,country);
  if(history?.related)facts.related=[...new Set([...facts.related,...history.related])];
  const formation=research.catalog?.[name]?.raw_origin;
  if(/phonetic formation/i.test(formation||'')||previous?.facts?.formation==='phonetic')facts.formation='phonetic';
  const entryDate=country==='lv'?(calendarEntry(research.catalog?.[name],name)||previous?.facts?.calendar_entry):(previous?.facts?.calendar_entry?.country===country?previous.facts.calendar_entry:null);
  if(entryDate){facts.calendar_entry=entryDate;sources.push(entryDate.source);}
  if(history){sources.push(...history.sources.map(url=>({url,type:'reviewed_name_history'})));chosen=chosen.map(p=>p.id===history.pseudonymPerson?{...p,match:'pseudonym'}:p);}
- const hypothesis=history?null:unverifiedHistory(name,country);
  if(hypothesis)sources.push(...hypothesis.sources.map(url=>({url,type:'unverified_name_hypothesis',verification_status:'unverified'})));
  // Resolved histories retain their reviewed evidence; obsolete comparisons stay in round notes.
  const provenance=[...new Map(sources.filter(s=>!history||s.type!=='unverified_name_hypothesis').map(s=>[s.url,s])).values()];

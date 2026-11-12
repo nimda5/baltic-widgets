@@ -1,0 +1,572 @@
+{
+  "round": 18,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed a research pass over all 20 unfinished 18 November profiles: 13 LV, 5 LT and 2 EE. Added fourteen reviewed histories (8 LV, 5 LT, 1 EE), two paragraphs in five languages. Six remain unverified with labelled hypotheses: LV Brīve, Brīvīte, Aleksandris, Alesandrs, Zandars; EE Ilu. The previous 39 displayed hypotheses and two separately pending no-proposal names (Ganda/Ainari) remain open, bringing displayed hypotheses to 45. New directory resources include a dated ELTA calendar dispatch and the academic Epupa lexical resource, with exact scope and limits. Salys’s historical Otonas/Otas date is 2 July, not 18 November; retain project dates and document the discrepancy. Mägiste’s exact feminine Ilo entry and distinct joy gloss are separated from modern ilu/beauty and both-sex official usage. No supplied calendar membership or dates were changed. URLs remain research/provenance only, raw files remain private. Continue on codex/namedays-round4; next fresh calendar pass is 19 November. This pass does not declare 18 November verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "ee",
+      "name": "Ilo",
+      "spellings": [
+        "Ilo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Ilo#Estonian",
+        "https://www.stat.ee/nimed/ILO",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=15"
+      ],
+      "facts_used": "The modern dictionary explanation of Estonian Ilo connects it with ilu, beauty or splendour. An earlier Estonian name collection also gives a joy gloss. These are distinct explanatory records; they should not be merged into one translation or automatically replaced with the history of Finnish ilo. Julius Mägiste’s 1929 Eestipäraseid isikunimesid places Ilo in the women’s list with German Freude, Freudebringerin, joy or bringer of joy. Official Estonian statistics at the start of 2026 record Ilo among both men and women. The historical women’s list therefore does not delimit all later use.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "Exact Estonian Wiktionary section derives Ilo from ilu beauty/splendour. Visually checked Mägiste PDF p. 15 / printed p. 13, feminine list: Ilo (Rnm., = freude, freudebringerin). Preserve the distinct historical joy gloss without inventing one merged meaning or assuming the Finnish route. The next line is Ilts-u, not Ilu. Opened Statistics Estonia exact ILO page confirms 23 men and 15 women on 1 January 2026; narrative only says both sexes. Publication 1929 is not coining. Modern dictionary masculine label does not negate historical and official female use. The inherited same-spelling Latvian record is separate: opened LV-SILINS p. 161 lists thirteenth-century Ikšķile / third-quarter-twentieth-century Cēsis and warns against combining them without a gender distinction. It does not date the Estonian name. Fixed the date formatter so a later slash-separated record cannot lend its quarter to the earlier century; preserved raw text and Latvian scope.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "ee",
+      "name": "Ilu",
+      "spellings": [
+        "Ilu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Ilo#Estonian",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=15"
+      ],
+      "facts_used": "",
+      "hypothesis": "Ilu may be compared with Estonian ilu, beauty, and the personal name Ilo, but the derivation of exact Ilu remains unconfirmed. The checked entry in Mägiste’s 1929 list is Ilo, not Ilu. Neither Ilo’s historical joy gloss nor its documented feminine use can therefore be assigned automatically to Ilu.",
+      "reason": "The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Seek exact Ilu in EE-EKI/EE-ETERA/EE-DIGAR or a signed name study. Mägiste PDF p. 15 has Ilo, then Ilts-u, not Ilu. Common-word ilu beauty and Ilo’s dictionary derivation support a comparison only; they do not prove exact Ilu. Exact Wiktionary Ilu returned 404; EKI direct fetch returned 403. Do not import Finnish joy, Ilo’s feminine-list record, or its population counts.",
+      "next_steps": "Seek exact Ilu in EE-EKI/EE-ETERA/EE-DIGAR or a signed name study. Mägiste PDF p. 15 has Ilo, then Ilts-u, not Ilu. Common-word ilu beauty and Ilo’s dictionary derivation support a comparison only; they do not prove exact Ilu. Exact Wiktionary Ilu returned 404; EKI direct fetch returned 403. Do not import Finnish joy, Ilo’s feminine-list record, or its population counts."
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lt",
+      "name": "Ginvydas",
+      "spellings": [
+        "Ginvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-ELTA-CALENDAR"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ginvydas/",
+        "https://ve.lt/naujienos/lietuva/lietuvos-naujienos/lapkricio-16-oji-vardadieniai-dangaus-kunai-istorija-506612"
+      ],
+      "facts_used": "Ginvydas is a Lithuanian two-stem name. The name guide connects gin- with ginti, to defend, and vyd- with (iš)vydo, saw. These explain separate elements; they need not be turned into an invented literal sentence about the bearer’s character. An ELTA calendar dispatch dated 16 November 2010 lists both Ginvydas and Ginvydė for the day after tomorrow, 18 November. This is a dated press record of both forms in the calendar. Its publication year does not date the names’ creation or first registration.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE gives gin- ginti/gina and vyd- (iš)vydo. ELTA dispatch dated 16 November 2010 explicitly lists Ginvydas and Ginvydė in the poryt (two days later, 18 November) list. This dated press/calendar evidence is not a first registration or coining date. Salys contains related Gin(t)- analyses but no exact Ginvydas entry was found, so no related name’s dates are transferred. Commercial generated-looking bearer biographies were rejected without primary confirmation. Direct ELTA HTML fetch returned 403; the web reader successfully opened the full dated text.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lt",
+      "name": "Ginvydė",
+      "spellings": [
+        "Ginvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-ELTA-CALENDAR"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ginvyde/",
+        "https://ve.lt/naujienos/lietuva/lietuvos-naujienos/lapkricio-16-oji-vardadieniai-dangaus-kunai-istorija-506612"
+      ],
+      "facts_used": "Ginvydė is a Lithuanian two-stem name. The name guide connects gin- with ginti, to defend, and vyd- with (iš)vydo, saw. These explain separate elements; they need not be turned into an invented literal sentence about the bearer’s character. An ELTA calendar dispatch dated 16 November 2010 lists both Ginvydas and Ginvydė for the day after tomorrow, 18 November. This is a dated press record of both forms in the calendar. Its publication year does not date the names’ creation or first registration.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE gives gin- ginti/gina and vyd- (iš)vydo. The opened ELTA dispatch of 16 November 2010 explicitly lists both Ginvydė and Ginvydas for poryt, 18 November. A concrete dated press record, not coining or first registration. No exact Salys entry was found; commercial generated-looking biography claims were rejected. Full web reader text succeeded despite direct-fetch 403.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lt",
+      "name": "Otas",
+      "spellings": [
+        "Otas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/otas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=310",
+        "https://www.behindthename.com/name/otto"
+      ],
+      "facts_used": "Otas belongs to the Germanic Odo, Oto and Otto family. Its basis is associated with Old High German ot, wealth or possessions. The Lithuanian guide explains Otas within this family; resemblance to a word in another language does not itself establish another origin. The 1964 Tikiu Dievą calendar lists Otonas with short form Otas on 2 July. The list was reprinted in volume two of Salys’s writings in 1983. This historical calendar page directly documents their relationship, although its date differs from the calendar used here.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LT-GUIDE and curated Otto establish Germanic Odo/Oto/Otto, Old High German ot wealth. Visually checked Salys PDF p. 310 / printed p. 295: LIEPA heading, day 2, Otonas (Otas). This is 2 JULY in the 1964 calendar reprinted 1983, not 30 June suggested by nearby extracted context and not the project’s 18 November. Preserve supplied calendar dates; this historical page proves the spelling bridge only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lt",
+      "name": "Otonas",
+      "spellings": [
+        "Otonas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-VLE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/otonas/",
+        "https://www.vle.lt/straipsnis/otonas-i/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=310"
+      ],
+      "facts_used": "The Lithuanian guide explains Otonas as related to Otas, or Odas. This is a Germanic name family with a basis meaning wealth or possessions. The explicit pairing Otonas (Otas) in a historical calendar also documents the connection in a concrete name list. Visuotinė lietuvių enciklopedija explicitly pairs Lithuanian Otonas I with Otto I. He was a German ruler and Holy Roman emperor from 962 to 973. This encyclopaedic example shows the Lithuanian name form in European history, rather than a Lithuanian ruler or the first bearer in Lithuania.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LT-GUIDE explicitly relates Otonas to Otas/Odas. Visually checked Salys PDF p. 310 / printed p. 295 directly pairs Otonas (Otas) on 2 July. Opened LT-VLE explicitly pairs Otonas I with Otto I, German ruler and Holy Roman emperor 962–973. It is a foreign historical figure in Lithuanian translation, not a Lithuanian ruler or an attestation of domestic first use. Unsupported popular Greek-ear derivation rejected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lt",
+      "name": "Romanas",
+      "spellings": [
+        "Romanas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/romanas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=263",
+        "https://www.behindthename.com/name/roman"
+      ],
+      "facts_used": "Romanas is connected with Latin Romanus, a Roman, referring to Rome and the Roman world. The Lithuanian guide and international Roman name family support this explanation. The modern common noun romanas, a novel, does not itself explain the personal name’s origin. The dictionary appendix in the 1983 second volume of Salys’s writings explicitly pairs Romanas with Roman(us). It also lists Romas as a short form of both Romanas and Romualdas. This concrete dictionary record shows why a shared short form need not identify one particular full name.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LT-GUIDE and curated Roman give Latin Romanus, a Roman. Visually checked Salys PDF p. 263 / printed p. 248: exact Romanas → Roman(us); Romas short for both Romanas and Romualdas. Publication 1983 is not first use. Common noun romanas and Romas-only biographies do not establish a Romanas bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Aleksandris",
+      "spellings": [
+        "Aleksandris"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aleksandris",
+        "https://www.izpetnieks.lv/en/name/Aleksandrs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Aleksandris can be compared by spelling with Aleksandrs, but the checked catalogue’s explanation belongs to Aleksandrs, not this exact form. An explicit connection between the spellings still needs to be found. The related Greek Alexandros family therefore remains a comparison rather than a verified Aleksandris etymology; its historical dates cannot be transferred either.",
+      "reason": "The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Aleksandris/Aleksandrs correspondence in LV-LVA manuals or a signed LV-LAVI/LV-PERIODIKA discussion. Catalogue page 49 explains Aleksandrs, not Aleksandris. Exact LVA query returned no entries, not proof of nonexistence. Keep Greek-family comparison unverified; do not import Aleksandrs dates.",
+      "next_steps": "Find an explicit exact Aleksandris/Aleksandrs correspondence in LV-LVA manuals or a signed LV-LAVI/LV-PERIODIKA discussion. Catalogue page 49 explains Aleksandrs, not Aleksandris. Exact LVA query returned no entries, not proof of nonexistence. Keep Greek-family comparison unverified; do not import Aleksandrs dates."
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Alesandrs",
+      "spellings": [
+        "Alesandrs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alesandrs",
+        "https://www.izpetnieks.lv/en/name/Aleksandrs"
+      ],
+      "facts_used": "",
+      "hypothesis": "Alesandrs can be compared by spelling with Aleksandrs, but the checked catalogue’s explanation belongs to Aleksandrs, not this exact form. An explicit connection between the spellings still needs to be found. The related Greek Alexandros family therefore remains a comparison rather than a verified Alesandrs etymology; its historical dates cannot be transferred either.",
+      "reason": "The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit Alesandrs/Aleksandrs correspondence in LV-LVA manuals or a signed historical naming study. Catalogue p. 49 gives Aleksandrs rather than exact Alesandrs. Exact LVA query returned no entries. Missing k cannot be silently normalized away; Greek-family comparison remains unverified.",
+      "next_steps": "Find an explicit Alesandrs/Aleksandrs correspondence in LV-LVA manuals or a signed historical naming study. Catalogue p. 49 gives Aleksandrs rather than exact Alesandrs. Exact LVA query returned no entries. Missing k cannot be silently normalized away; Greek-family comparison remains unverified."
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Brīva",
+      "spellings": [
+        "Brīva"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Br%C4%ABva"
+      ],
+      "facts_used": "Brīva is a Latvian name that Siliņš’s dictionary connects with brīvs, free, and brīvība, freedom. Its basis is the Latvian concept of freedom. This explanation applies specifically to Brīva; similar spellings still require their own historical evidence. The dictionary dates Brīva’s calendar entry to 1908 and its personal-name record to 1931. The calendar proposal therefore precedes the cited example of use in this source. That does not mean nobody used the name before 1931.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 87: Latvian brīvs/brīvība, calendar 1908 and personal record 1931. Earlier calendar proposal is not proof of no earlier bearers. Do not transfer dates to Brīve/Brīvīte.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Brīve",
+      "spellings": [
+        "Brīve"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-EPUPA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Br%C4%ABve",
+        "https://www.izpetnieks.lv/en/name/Br%C4%ABva"
+      ],
+      "facts_used": "",
+      "hypothesis": "Brīve may be related to Brīva and the Latvian freedom word family. However, the catalogue leaves this exact form’s origin unresolved; a reference to Brīva does not yet prove derivation. The existence of the common noun brīve does not date the personal name either. Brīva’s 1931 personal record and 1908 calendar entry cannot be transferred to Brīve.",
+      "reason": "The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for an exact personal-name explanation. Catalogue leaves origin unresolved and only refers to Brīva. LV-EPUPA establishes common-word brīve history, not the personal name. Exact LV-LVA query returned no entries; this is not proof of nonexistence. Seek an explicit derivation before promoting the freedom comparison.",
+      "next_steps": "Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for an exact personal-name explanation. Catalogue leaves origin unresolved and only refers to Brīva. LV-EPUPA establishes common-word brīve history, not the personal name. Exact LV-LVA query returned no entries; this is not proof of nonexistence. Seek an explicit derivation before promoting the freedom comparison."
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Brīvīte",
+      "spellings": [
+        "Brīvīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-EPUPA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Br%C4%ABv%C4%ABte",
+        "https://www.izpetnieks.lv/en/name/Br%C4%ABva"
+      ],
+      "facts_used": "",
+      "hypothesis": "Brīvīte may be related to Brīva and the Latvian freedom word family. However, the catalogue leaves this exact form’s origin unresolved; a reference to Brīva does not yet prove derivation. The existence of the common noun brīve does not date the personal name either. Brīva’s 1931 personal record and 1908 calendar entry cannot be transferred to Brīvīte.",
+      "reason": "The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for exact Brīvīte and a documented derivation from Brīva or a lexical base. Catalogue leaves exact origin unresolved. LV-LVA query returned no entries. Do not transfer Brīva dates or treat a plausible diminutive as proved.",
+      "next_steps": "Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for exact Brīvīte and a documented derivation from Brīva or a lexical base. Catalogue leaves exact origin unresolved. LV-LVA query returned no entries. Do not transfer Brīva dates or treat a plausible diminutive as proved."
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Dolita",
+      "spellings": [
+        "Dolita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dolita",
+        "https://www.behindthename.com/name/dolly"
+      ],
+      "facts_used": "Siliņš’s dictionary places Dolita in the English Dolly and Doroteja family. Its basis is Greek dōron, gift, and theos, god. The short form is thus explained through the history of the full name; resemblance to Doloresa alone does not establish another origin. The dictionary places an example of Dolita in Alūksne in the third quarter of the twentieth century. This geographically and chronologically located record shows the form in Latvian use. The source does not give a precise creation year or a separate year of calendar inclusion.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS pp. 100–101 places Dolita under English Dolly/Doroteja, Greek dōron/theos. Exact Dolita record: Alūksne, third quarter of the twentieth century; no calendar-entry year. Curated Dolly corroborates Dorothy short-form tradition, but its additional modern Dolores use does not override the exact catalogue link.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Dollija",
+      "spellings": [
+        "Dollija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dollija",
+        "https://www.behindthename.com/name/dolly"
+      ],
+      "facts_used": "Siliņš’s dictionary places Dollija in the English Dolly and Doroteja family. Its basis is Greek dōron, gift, and theos, god. The short form is thus explained through the history of the full name; resemblance to Doloresa alone does not establish another origin. Siliņš’s dictionary dates a record of the exact form Dollija to 1923. English Dolly supplies the short-form tradition, while the 1923 record belongs to Latvian Dollija. The cited year dates neither the creation of the English form nor entry into a name-day calendar.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS pp. 100–101: English Dolly/Doroteja family, Greek dōron/theos; exact personal record 1923, no calendar-entry year. Do not substitute dates of English Dolly.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Doloresa",
+      "spellings": [
+        "Doloresa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Doloresa",
+        "https://www.behindthename.com/name/dolores"
+      ],
+      "facts_used": "Doloresa is connected with Latin dolor, pain or sorrow. In the international name family, Spanish Dolores is the plural meaning sorrows and belongs to the Marian title Nuestra Señora de los Dolores. This explains the religious naming tradition without establishing a single route into Latvia. Klāvs Siliņš’s dictionary dates a personal-name record of Doloresa to 1930 and calendar inclusion to 1964. These are separate records of use and later calendar membership, rather than a date when the name was invented.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 100: Latin dolor, personal record 1930 and calendar 1964. Curated Dolores documents Spanish plural sorrows and the Marian title Nuestra Señora de los Dolores; this is family context, not a uniquely demonstrated transmission into Latvia.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Laisve",
+      "spellings": [
+        "Laisve"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Laisve"
+      ],
+      "facts_used": "Siliņš’s dictionary connects Laisve with Lithuanian laisvė, freedom. The name thus draws on an abstract concept in a neighbouring language. The Latvian personal-name spelling is Laisve; the Lithuanian word’s final ė should not automatically be substituted into this form. The dictionary places a personal-name record of Laisve in the second quarter of the twentieth century and dates its calendar entry to 1931. The broader period is not an exact birth date for a first bearer. These details distinguish usage history from calendar history.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 206: Lithuanian laisvė freedom; exact Latvian spelling Laisve, personal record second quarter of the twentieth century, calendar 1931. Preserve e rather than silently substituting Lithuanian ė.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Latvis",
+      "spellings": [
+        "Latvis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Latvis"
+      ],
+      "facts_used": "Latvis is a personal name formed from Latvian latvis. Siliņš explains its basis as the nationality word meaning a Latvian. The meaning therefore belongs to the Latvian self-designation rather than to a similar-sounding personal name in another language. The dictionary records Latvis in a calendar as early as 1902, while dating a personal-name record to 1942. In this source the calendar proposal precedes the cited bearer record. The year 1942 does not prove that the name was created only then.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 209: Latvian latvis, a Latvian; calendar 1902, personal record 1942. Calendar proposal and bearer record are separate.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Latvīte",
+      "spellings": [
+        "Latvīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Latv%C4%ABte",
+        "https://www.izpetnieks.lv/en/name/Latvis"
+      ],
+      "facts_used": "Siliņš’s Latvīte entry directly refers to Latvis. The family is based on the Latvian nationality word rather than a borrowed foreign personal name. The feminine form Latvīte retains this basis of Latvian identity while having its own usage history. The dictionary places a record of the exact form Latvīte in the second quarter of the twentieth century. This is a broad period rather than a single known creation year. Latvis’s 1942 personal record and 1902 calendar entry are not automatically dates for Latvīte.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 209 directly refers to Latvis; exact Latvīte record second quarter of the twentieth century, no calendar-entry year. Do not transfer Latvis 1942/1902.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Zandars",
+      "spellings": [
+        "Zandars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zandars",
+        "https://www.izpetnieks.lv/en/name/Zanders"
+      ],
+      "facts_used": "",
+      "hypothesis": "Zandars can be compared by spelling with Zanders, but the checked catalogue’s explanation belongs to Zanders, not this exact form. An explicit connection between the spellings still needs to be found. The related Greek Alexandros family therefore remains a comparison rather than a verified Zandars etymology; its historical dates cannot be transferred either.",
+      "reason": "The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Inspect Siliņš pp. 334/283 and seek an exact Zandars/Zanders correspondence in LV-LVA/LV-LAVI/LV-PERIODIKA. Catalogue establishes Zanders/Sanderss, not exact Zandars. Exact LVA query returned no entries. Do not transfer Zanders’s 1783 calendar date or nineteenth-century personal record.",
+      "next_steps": "Inspect Siliņš pp. 334/283 and seek an exact Zandars/Zanders correspondence in LV-LVA/LV-LAVI/LV-PERIODIKA. Catalogue establishes Zanders/Sanderss, not exact Zandars. Exact LVA query returned no entries. Do not transfer Zanders’s 1783 calendar date or nineteenth-century personal record."
+    },
+    {
+      "batch": "calendar-2026-11-18",
+      "date": "2026-11-12",
+      "calendar_date": "11-18",
+      "country": "lv",
+      "name": "Zanders",
+      "spellings": [
+        "Zanders"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zanders",
+        "https://www.behindthename.com/name/alexander"
+      ],
+      "facts_used": "Siliņš’s dictionary connects Zanders through Sanderss with Aleksandrs. The Greek Alexandros family rests on alexō, to defend or help, and anēr, genitive andros, man. This chain of references establishes Zanders’s place in the family beyond spelling resemblance alone. The dictionary places a Zanders personal-name record in the last quarter of the nineteenth century and dates its calendar entry to 1783. These data belong specifically to Zanders. Similar-looking Zandars is a separate spelling whose origin still needs independent checking.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or explicit family evidence and a concrete dated dictionary, calendar, press or historical record support the five-language narrative.",
+      "uncertainties": "LV-SILINS pp. 334/283 explicitly gives Zanders → Sanderss → Aleksandrs; prose has Sanderss while related list has Sanders, so retain the explicit prose link rather than normalizing it. Exact personal record last quarter of nineteenth century, calendar 1783. Curated Alexander corroborates alexō and anēr/andros. Dates and link do not automatically establish Zandars.",
+      "next_steps": ""
+    }
+  ]
+}
