@@ -11,6 +11,13 @@ param(
 $ErrorActionPreference = 'Stop'
 Push-Location (Split-Path -Parent $PSScriptRoot)
 try {
+    if (-not $Plan -and -not $NoPublish) {
+        $publicationArguments = @('scripts/run-published-update.mjs', "--profile=$($Profile.ToLowerInvariant())")
+        if ($Force) { $publicationArguments += '--force' }
+        & node @publicationArguments
+        if ($LASTEXITCODE -ne 0) { throw 'Update or publication failed; see the preserved publication checkout and artifacts reports.' }
+        return
+    }
     $updateArguments = @('run', 'update', '--', "--profile=$($Profile.ToLowerInvariant())")
     if ($Force) { $updateArguments += '--force' }
     if ($Plan) { $updateArguments += '--plan' }
@@ -27,9 +34,5 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Project checks failed' }
     & npm.cmd run build
     if ($LASTEXITCODE -ne 0) { throw 'Static build failed' }
-    if (-not $NoPublish) {
-        & npm.cmd run publish:data
-        if ($LASTEXITCODE -ne 0) { throw 'Data publication failed' }
-        Write-Host ("Publication verified on the live site. Collection: {0}. Fuel coverage: {1}. Reload an already open browser tab to load the new JSON." -f $report.status, $report.fuel_coverage.status)
-    } else { Write-Host 'Updated and built locally. Publication skipped.' }
+    Write-Host 'Updated and built locally. Publication skipped.'
 } finally { Pop-Location }

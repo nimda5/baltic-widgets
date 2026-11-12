@@ -10,6 +10,16 @@ The command reports collection, fuel coverage, and publication separately. Colle
 
 Only the verified result means the public site has updated. An already open browser tab must still be reloaded to request the new JSON. `-NoPublish` updates and builds locally and does not verify the public site.
 
+### Publishing while developing on another branch
+
+The default `update-widgets.ps1` command and its daily aliases work from any active branch. `scripts/run-published-update.mjs` fetches `origin/main` and creates a unique detached working tree under the original checkout’s ignored `var/publication-worktrees/` directory. Collection, tests, build and data publication all run against main’s code and data. The publishing process pushes `HEAD` to `main` without force; it never merges or publishes the active feature branch. The original checkout’s branch, index, uncommitted files and local generated JSON stay untouched.
+
+The isolated updater shares the original private database through an absolute `DATA_DIR`. A relative override is resolved against the original checkout. Existing collection locks still prevent overlapping collectors. Dependencies are resolved from the original checkout when package locks match and `node_modules` is present; otherwise the isolated checkout runs `npm ci`. The usual update and publication reports are copied back to the original `artifacts/` directory.
+
+Successful verification removes only that run’s managed working tree. A failed collection, test, build, push or verification keeps the working tree and generated data at the printed path and returns a nonzero exit. An unverified report is retained; a failed run never reports publication success. If another process advances remote main before the push, the non-fast-forward rejection is preserved rather than force-pushing over it. After successful isolated publication, a separately checked-out local main may need `git pull --ff-only` before direct manual publication.
+
+`-Plan` and `-NoPublish` continue to run locally against the active checkout. Direct `npm run publish:data` is still intended for a manual main checkout with an empty index. The isolated runner explicitly authorizes only its fresh detached main revision; a regular feature checkout cannot bypass the main check. Merge application changes into main separately before publishing their generated assets.
+
 Missing prices are retained as missing. FuelEst prices are community submissions and may be older than 48 hours, especially for smaller Estonian networks. Neste Latvia's official price page directs customers to station price boards; its connected station directory contains locations, while the separate community fallback is accepted only when its report is current. The connected Rietumu source publishes diesel only, so a missing 95 quote does not mean a collection error or establish whether petrol is sold there.
 
 ## Cadence and sources
