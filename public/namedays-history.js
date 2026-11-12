@@ -1,3 +1,5 @@
+import {historiesLatvianR19} from './namedays-history-r19-lv.js';
+import {historiesLithuanianR19,historiesEstonianR19} from './namedays-history-r19-baltic.js';
 import {historiesLatvianR18} from './namedays-history-r18-lv.js';
 import {historiesLithuanianR18,historiesEstonianR18} from './namedays-history-r18-baltic.js';
 import {historiesLatvianR17} from './namedays-history-r17-lv.js';
@@ -116,7 +118,7 @@ const entries={
 };
 // Anton is the Estonian spelling in the Antanas family entry.
 const {Anton,...popularLt}={...historiesLtA,...historiesLtB};
-const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10,...historiesLatvianR11,...historiesLatvianR12,...historiesLatvianR13,...historiesLatvianR14,...historiesLatvianR15,...historiesLatvianR16,...historiesLatvianR17,...historiesLatvianR18},ee:{...historiesEeA,...historiesEeB,Anton,...historiesEstonianR11,...historiesEstonianR12,...historiesEstonianR14,...historiesEstonianR15,...historiesEstonianR16,...historiesEstonianR17,...historiesEstonianR18},lt:{...popularLt,...historiesLithuanianR11,...historiesLithuanianR12,...historiesLithuanianR14,...historiesLithuanianR15,...historiesLithuanianR16,...historiesLithuanianR17,...historiesLithuanianR18}};
+const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10,...historiesLatvianR11,...historiesLatvianR12,...historiesLatvianR13,...historiesLatvianR14,...historiesLatvianR15,...historiesLatvianR16,...historiesLatvianR17,...historiesLatvianR18,...historiesLatvianR19},ee:{...historiesEeA,...historiesEeB,Anton,...historiesEstonianR11,...historiesEstonianR12,...historiesEstonianR14,...historiesEstonianR15,...historiesEstonianR16,...historiesEstonianR17,...historiesEstonianR18,...historiesEstonianR19},lt:{...popularLt,...historiesLithuanianR11,...historiesLithuanianR12,...historiesLithuanianR14,...historiesLithuanianR15,...historiesLithuanianR16,...historiesLithuanianR17,...historiesLithuanianR18,...historiesLithuanianR19}};
 export function reviewedHistory(name,country){
  const key=name.normalize('NFC').replace(/\.$/,'');
  return countryEntries[country]?.[key]||entries[key]||null;

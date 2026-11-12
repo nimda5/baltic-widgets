@@ -1,5 +1,5 @@
 {
-  "writer_version": "namedays-1.9.7",
+  "writer_version": "namedays-1.9.8",
   "enabled_countries": [
     "lv",
     "lt",
@@ -15,11 +15,11 @@
       "with_word_meanings": 653,
       "research_pending": 0,
       "editorial": {
-        "reviewed_narratives": 501,
-        "factual_summaries": 3918,
+        "reviewed_narratives": 513,
+        "factual_summaries": 3893,
         "attestation_only": 364,
-        "needs_research": 773,
-        "unverified_hypotheses": 37,
+        "needs_research": 786,
+        "unverified_hypotheses": 50,
         "fictional_stories": 0,
         "translated_languages": [
           "lv",
@@ -40,11 +40,11 @@
       "with_word_meanings": 54,
       "research_pending": 8,
       "editorial": {
-        "reviewed_narratives": 193,
-        "factual_summaries": 1151,
+        "reviewed_narratives": 197,
+        "factual_summaries": 1146,
         "attestation_only": 1,
-        "needs_research": 223,
-        "unverified_hypotheses": 3,
+        "needs_research": 224,
+        "unverified_hypotheses": 4,
         "fictional_stories": 0,
         "translated_languages": [
           "lv",
@@ -65,10 +65,10 @@
       "with_word_meanings": 59,
       "research_pending": 0,
       "editorial": {
-        "reviewed_narratives": 264,
-        "factual_summaries": 420,
+        "reviewed_narratives": 271,
+        "factual_summaries": 417,
         "attestation_only": 12,
-        "needs_research": 857,
+        "needs_research": 853,
         "unverified_hypotheses": 5,
         "fictional_stories": 0,
         "translated_languages": [

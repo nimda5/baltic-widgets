@@ -46,43 +46,20 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 6,11-18,lv,Brīvīte,unresearched,,unverified,needs_more
 6,11-18,lv,Zandars,unresearched,,unverified,needs_more
 6,11-18,ee,Ilu,unresearched,< 5,unverified,needs_more
-7,11-19,lv,Liza,summary,129,,
-7,11-19,lv,Līze,summary,56,,
-7,11-19,lv,Betija,summary,449,,
-7,11-19,lv,Alžbeta,summary,1,,
-7,11-19,lv,Beta,summary,44,,
-7,11-19,lv,Betsija,summary,,,
-7,11-19,lv,Eba,summary,7,,
-7,11-19,lv,Elizabeta,summary,203,,
-7,11-19,lv,Elīzabeta,summary,3,,
-7,11-19,lv,Elīzabete,summary,23,,
-7,11-19,lv,Elizavete,summary,5,,
-7,11-19,lv,Elizbete,summary,1,,
-7,11-19,lv,Elzabeta,summary,3,,
-7,11-19,lv,Elžbeta,summary,9,,
-7,11-19,lv,Jelizabeta,summary,3,,
-7,11-19,lv,Jelizaveta,summary,588,,
-7,11-19,lv,Jelizavete,summary,3,,
-7,11-19,lv,Jeļizabeta,summary,,,
-7,11-19,lv,Jeļizaveta,summary,1637,,
-7,11-19,lv,Jeļizavete,summary,,,
-7,11-19,lv,Lisa,summary,81,,
-7,11-19,lv,Lisija,summary,1,,
-7,11-19,lv,Līza,summary,69,,
-7,11-19,lv,Lize,summary,,,
-7,11-19,lv,Līziņa,summary,1,,
-7,11-19,lt,Dainius,summary,,,
-7,11-19,lt,Dainotas,summary,,,
-7,11-19,lt,Matilda,summary,,,
-7,11-19,lt,Rimgaudė,summary,,,
-7,11-19,lt,Audronė,summary,,,
-7,11-19,ee,Eliise,summary,1358,,
-7,11-19,ee,Elis,summary,757,,
-7,11-19,ee,Els,unresearched,41,,
-7,11-19,ee,Elsa,unresearched,382,,
-7,11-19,ee,Else,unresearched,23,,
-7,11-19,ee,Ilse,unresearched,203,,
-7,11-19,ee,Betti,summary,41,,
+7,11-19,lv,Beta,unresearched,44,unverified,needs_more
+7,11-19,lv,Eba,unresearched,7,unverified,needs_more
+7,11-19,lv,Elīzabeta,unresearched,3,unverified,needs_more
+7,11-19,lv,Elīzabete,unresearched,23,unverified,needs_more
+7,11-19,lv,Elizavete,unresearched,5,unverified,needs_more
+7,11-19,lv,Elizbete,unresearched,1,unverified,needs_more
+7,11-19,lv,Elzabeta,unresearched,3,unverified,needs_more
+7,11-19,lv,Jelizabeta,unresearched,3,unverified,needs_more
+7,11-19,lv,Jelizavete,unresearched,3,unverified,needs_more
+7,11-19,lv,Jeļizabeta,unresearched,,unverified,needs_more
+7,11-19,lv,Jeļizavete,unresearched,,unverified,needs_more
+7,11-19,lv,Lize,unresearched,,unverified,needs_more
+7,11-19,lv,Līziņa,unresearched,1,unverified,needs_more
+7,11-19,lt,Rimgaudė,unresearched,,unverified,needs_more
 8,11-20,lv,Anda,summary,2980,,
 8,11-20,lv,Andīna,summary,47,,
 8,11-20,lv,Vigo,summary,161,,
@@ -680,7 +657,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 34,12-16,lt,Albina,summary,,,
 34,12-16,lt,Algina,summary,,,
 34,12-16,lt,Alina,summary,,,
-34,12-16,lt,Audronė,summary,,,
 34,12-16,lt,Vygaudas,summary,,,
 34,12-16,ee,Adelheid,unresearched,8,,
 34,12-16,ee,Adeele,summary,610,,
@@ -2558,7 +2534,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 122,03-14,lv,Ulriks,summary,11,,
 122,03-14,lt,Darmantas,summary,,,
 122,03-14,lt,Karigailė,summary,,,
-122,03-14,lt,Matilda,summary,,,
 122,03-14,ee,Matilde,summary,50,,
 122,03-14,ee,Malde,unresearched,< 5,,
 122,03-14,ee,Maldi,unresearched,< 5,,
@@ -3189,7 +3164,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 149,04-10,lt,Apolonijus,summary,,,
 149,04-10,lt,Mintautas,summary,,,
 149,04-10,lt,Karijotas,summary,,,
-149,04-10,lt,Matilda,summary,,,
 149,04-10,ee,Hindrek,summary,147,,
 149,04-10,ee,Imre,summary,626,,
 150,04-11,lv,Hermanis,summary,224,,
@@ -4742,7 +4716,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 213,06-13,lt,Kunotas,summary,,,
 213,06-13,lt,Skalvė,summary,,,
 213,06-13,lt,Akvilma,unresearched,,,
-213,06-13,lt,Dainius,summary,,,
 213,06-13,ee,Mooni,unresearched,12,,
 213,06-13,ee,Moonika,unresearched,740,,
 213,06-13,ee,Monika,summary,1707,,
@@ -8191,7 +8164,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 363,11-10,lt,Gelvydė,unresearched,,,
 363,11-10,lt,Leonas,summary,,,
 363,11-10,lt,Vaišviltas,summary,,,
-363,11-10,lt,Dainius,summary,,,
 363,11-10,lt,Galvydė,unresearched,,,
 363,11-10,ee,Mardi,unresearched,< 5,,
 363,11-10,ee,Madro,unresearched,< 5,,

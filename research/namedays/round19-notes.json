@@ -1,0 +1,1107 @@
+{
+  "round": 19,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed a research pass over all 37 unfinished 19 November profiles: 25 LV, 5 LT, 7 EE. Added 23 reviewed histories (12 LV, 4 LT, 7 EE), two paragraphs in five languages. Fourteen remain unverified: thirteen LV forms and LT Rimgaudė, all with translated hypothesis labels and next steps. The previous 45 displayed hypotheses plus Ganda/Ainari without proposals remain open; displayed hypotheses now total 59. LVA exact exports resolve Jelizaveta, Elizabeta and Liza without normalizing diacritics or transferring first dates. A new scholarly Estonian-variant resource confirms exact Els/Else/Elsa/Ilse and provides related-family history for Eliise/Elis; the inspected text is a 2016 article based on a cited 1963 study, not the independently inspected original. Exact dictionary, calendar and institutional records keep their own spelling, country and date scope. Rejected metadata and failed or inexact matches are documented. No supplied calendar membership or dates were changed. Source URLs remain working-file/provenance evidence only and raw PDFs/HTML/images remain private. Continue on codex/namedays-round4; next fresh calendar pass is 20 November. This pass does not declare 19 November verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Betti",
+      "spellings": [
+        "Betti"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-EWOD"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://en.wiktionary.org/wiki/Betti#Estonian",
+        "https://ewod.ut.ee/et/a/betti-alver/"
+      ],
+      "facts_used": "The Estonian dictionary explicitly explains Betti as a diminutive of Eliisabet. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. The University of Tartu writers’ dictionary names the poet Betti (Elisabet) Alver. It dates Tuulearmuke to 1927 and her first poetry collection Tolm ja tuli to 1936. A particular author’s biography thus illustrates the connection between short and full forms.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Exact Estonian Wiktionary derives from Eliisabet. Opened Tartu EWOD explicitly names Betti (Elisabet) Alver, dates Tuulearmuke to 1927 and first poetry collection Tolm ja tuli to 1936. It is a documented individual full/short pair, not universal evidence for other countries’ Betti uses.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Eliise",
+      "spellings": [
+        "Eliise"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-POMOZI16",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://en.wiktionary.org/wiki/Eliise#Estonian",
+        "https://real.mtak.hu/46257/7/ne38_15ppfe_doi.pdf#page=10"
+      ],
+      "facts_used": "The Estonian dictionary entry explains Eliise as a short form of Eliisabet. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. Péter Pomozi and Eszter Földesi’s 2016 study illustrates this Estonian family’s formation patterns: its table places short and affectionate forms beneath full Elisabeth, Elisabet and Elizabet. It is a concrete linguistic account of the family rather than the first registration date of each modern spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Exact Estonian Wiktionary entry explicitly shortens Eliisabet. The 2016 EE-POMOZI16 paper, PDF p. 10 / printed p. 202, Table 1, was visually checked. It documents the related family’s full Elisabeth/Elisabet/Elizabet and derivative structures, but its Elise is not silently renamed Eliise. Story is scoped to family history, not an exact Eliise first record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Elis",
+      "spellings": [
+        "Elis"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-POMOZI16",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://en.wiktionary.org/wiki/Elis#Estonian",
+        "https://real.mtak.hu/46257/7/ne38_15ppfe_doi.pdf#page=10"
+      ],
+      "facts_used": "The Estonian dictionary entry explains Elis as a short form of Eliisabet / Elisabeth. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. Péter Pomozi and Eszter Földesi’s 2016 study illustrates this Estonian family’s formation patterns: its table places short and affectionate forms beneath full Elisabeth, Elisabet and Elizabet. It is a concrete linguistic account of the family rather than the first registration date of each modern spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Exact Estonian Wiktionary entry explicitly shortens Eliisabet/Elisabeth; Faroese male Elis and Latin Greek-city Elis are separate language entries, not the Estonian origin. The 2016 EE-POMOZI16 table documents the related family, not an exact Elis first record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Els",
+      "spellings": [
+        "Els"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-POMOZI16",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://real.mtak.hu/46257/7/ne38_15ppfe_doi.pdf#page=10"
+      ],
+      "facts_used": "The scholarly table of Estonian name forms places Els among short forms of Elisabeth. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. The 2016 article’s table places Els and Else in one row alongside Ell and Elts. The authors explain that it is based on Edgar Rajandi’s 1963 study of Elisabet(h) short forms. The published scheme is the checked evidence, rather than one obligatory sequence for every possible derivative.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked EE-POMOZI16 PDF p. 10 / printed p. 202, Table 1: exact Els in the shortened-forms row with Ell, Elts, Else under Elisabeth/Elisabet/Elizabet. Preceding p. 9 says based on Rajandi (1963b); bibliography p. 15 gives Keel ja Kirjandus 11, p. 690. The 1963 original was not inspected; claim is the checked 2016 paper’s published scheme, not original first use or a compulsory unique derivation sequence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Elsa",
+      "spellings": [
+        "Elsa"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-POMOZI16",
+        "INT-BTN",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://real.mtak.hu/46257/7/ne38_15ppfe_doi.pdf#page=10",
+        "https://snl.no/Elsa_-_kvinnenamn",
+        "https://www.behindthename.com/name/elsa"
+      ],
+      "facts_used": "The scholarly Estonian name table places Elsa among affectionate forms of the Elisabeth family. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. In European cultural history, Elsa is the heroine of Richard Wagner’s opera Lohengrin, first staged in 1850. This is a German theatrical example of the same spelling. It does not establish that every Estonian family borrowed the name directly from the opera.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked EE-POMOZI16 Table 1 explicitly includes exact Elsa in the Estonian affectionate-form family. Opened signed SNL Elsa article and curated Elsa document Wagner’s Lohengrin (1850). This is German theatrical history, not a proved direct borrowing into every Estonian family. The Swedish ISOF Elsa page was opened as an additional national-language reference but its national dates were not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Else",
+      "spellings": [
+        "Else"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-POMOZI16",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://real.mtak.hu/46257/7/ne38_15ppfe_doi.pdf#page=10"
+      ],
+      "facts_used": "The scholarly table of Estonian name forms places Else among short forms of Elisabeth. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. The 2016 article’s table places Els and Else in one row alongside Ell and Elts. The authors explain that it is based on Edgar Rajandi’s 1963 study of Elisabet(h) short forms. The published scheme is the checked evidence, rather than one obligatory sequence for every possible derivative.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked EE-POMOZI16 Table 1, PDF p. 10 / printed p. 202: exact Else with Ell/Els/Elts under Elisabeth/Elisabet/Elizabet. Based on Rajandi 1963 as cited by the checked 2016 paper; do not claim independent inspection of the 1963 original. Danish Else and Norwegian statistics are not automatically Estonian history.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "ee",
+      "name": "Ilse",
+      "spellings": [
+        "Ilse"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-POMOZI16",
+        "INT-BTN",
+        "INT-WIKTIONARY",
+        "EE-OSU"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/elizabeth",
+        "https://real.mtak.hu/46257/7/ne38_15ppfe_doi.pdf#page=10",
+        "https://en.wiktionary.org/wiki/Ilse#Estonian",
+        "https://linguistics.osu.edu/2011/ilse-lehiste"
+      ],
+      "facts_used": "The scholarly table includes Ilse in the Estonian Elisabeth affectionate-form family. The base-name family connects with Hebrew ēlīšeba, my God is an oath, and Greek Elisabet. Independent use of a short form preserves this relationship with the full name. Tallinn-born linguist Ilse Lehiste earned doctorates in Hamburg in 1948 and Michigan in 1959, then joined Ohio State University in 1963. The university’s memorial page documents this exact personal name in the history of linguistics.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked EE-POMOZI16 Table 1 explicitly includes Ilse within the Estonian Elisabeth family, resolving the Estonian dictionary entry’s lack of a derivation. Opened primary Ohio State memorial gives Tallinn birth, Hamburg PhD 1948, Michigan PhD 1959 and Ohio State appointment 1963. No current-job claim or first-name invention date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lt",
+      "name": "Audronė",
+      "spellings": [
+        "Audronė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-VLE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/audrone/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=284",
+        "https://www.vle.lt/straipsnis/audrone-vainiunaite/"
+      ],
+      "facts_used": "Audronė is a Lithuanian name that the guide derives from Audra and the common noun audra, storm or strong wind. This natural phenomenon explains the name’s formation. It does not imply that every bearer must have a stormy or restless personality. Salys’s essay on Lithuanian names includes Audronė among examples of new formations; the checked text was reprinted in 1983. A named bearer is violinist Audronė Vainiūnaitė, who played first violin in the Vilnius Quartet from 1965 to 2015. These illustrate different linguistic and cultural parts of the name’s history.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Exact LT-GUIDE gives Audra/audra storm. Visually checked Salys PDF p. 284 / printed p. 269 includes Audronė among creative noun/adjective-based calendar names. Checked publication is the 1983 reprint, not a coining year. Opened VLE Audronė Vainiūnaitė records first violin in Vilnius Quartet 1965–2015.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lt",
+      "name": "Dainius",
+      "spellings": [
+        "Dainius"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-INSTITUTIONS"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dainius/",
+        "https://rasytojai.lt/rasytojai/gintalas-dainius/"
+      ],
+      "facts_used": "Dainius is formed from Lithuanian dainius, singer or bard. The personal name therefore rests on a word associated with song and poetry. This explains its linguistic origin rather than promising that every bearer will become a musician or poet. The Lithuanian Writers’ Union bibliography lists poet and translator Dainius Gintalas’s Angis in 1997 and Boa in 2007. This is a concrete use of the given name in literary history. His profession is a biographical fact rather than a quality inferred from the name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Exact LT-GUIDE derives from Lithuanian dainius singer/bard. Opened Lithuanian Writers’ Union bibliography gives Dainius Gintalas, Angis (1997), Boa (2007). Profession is an individual biographical fact, not personality predicted from the name.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lt",
+      "name": "Dainotas",
+      "spellings": [
+        "Dainotas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dainotas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "The Lithuanian guide explains Dainotas as a derivative of Dainius. The family rests on dainius, singer or bard. The derived form is a personal name in its own right; the shared song-related basis does not imply one first-use year for the entire family. The 1964 Tikiu Dievą name calendar gives Dainotas with short form Dainys on 19 November. This list was reprinted in volume two of Salys’s writings in 1983. It directly documents the full and short forms without dating the name’s creation to the calendar’s publication.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Exact LT-GUIDE explicitly derives from Dainius/dainius. Visually checked Salys PDF p. 317 / printed p. 302: 19 November, Dainotas (Dainys), 1964 calendar reprinted 1983. Preserve explicit short form and publication scope.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lt",
+      "name": "Matilda",
+      "spellings": [
+        "Matilda"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/matilda/",
+        "https://www.behindthename.com/name/matilda",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Matilda belongs to the Germanic Mahthilt family, with maht, strength or might, and hilt, battle. This two-part structure belongs to the earlier form and survives in the explanation of its origin. Spellings in different European languages reflect the family’s subsequent spread. The 1964 name calendar reprinted by Salys lists Matilda with short forms Mata and Tilda on 19 November. This is a concrete record of the full name and two short forms in the 1983 volume. It does not claim that both short forms must arise only from Matilda in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LT-GUIDE’s prose gives Germanic Mathilda, meht/hild, corroborated by curated Matilda maht/hilt; guide’s separate Hebrew-origin metadata contradicts its prose and was rejected. Visually checked Salys PDF p. 317 / printed p. 302 gives Matilda (Mata, Tilda) on 19 November, 1964 calendar reprinted 1983. No creation date inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lt",
+      "name": "Rimgaudė",
+      "spellings": [
+        "Rimgaudė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/rimgaude/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287"
+      ],
+      "facts_used": "",
+      "hypothesis": "The popular guide connects Rimgaudė with rimti, to become calm, and gaudus, resonant or loud. Salys’s historical name-stem list instead explains Gaud- through gauti, to obtain, rather than sound. That list is not an exact Rimgaudė entry, so the difference still needs resolving in an exact-name etymological source. One secure whole-name meaning cannot yet be given.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an exact authoritative etymology in LT-VLKK/LT-LKI or Kuzavinis/Savukynas that resolves gaudus sound versus gauti/gaudyti. LT-GUIDE gives rimti/ramintis + gaudus; visually checked Salys PDF p. 287 / printed p. 272 explains general Gaud- through gauti, compare (su)gaudinti. It lists Ringaudas, not Rimgaudė; do not silently equate Ringaudas/Rimgaudas or transfer the male Rimgaudas dictionary record to this form. Guide date is 28 November, unlike project 19 November; preserve supplied date. No secure whole-name translation yet.",
+      "next_steps": "Find an exact authoritative etymology in LT-VLKK/LT-LKI or Kuzavinis/Savukynas that resolves gaudus sound versus gauti/gaudyti. LT-GUIDE gives rimti/ramintis + gaudus; visually checked Salys PDF p. 287 / printed p. 272 explains general Gaud- through gauti, compare (su)gaudinti. It lists Ringaudas, not Rimgaudė; do not silently equate Ringaudas/Rimgaudas or transfer the male Rimgaudas dictionary record to this form. Guide date is 28 November, unlike project 19 November; preserve supplied date. No secure whole-name translation yet."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Alžbeta",
+      "spellings": [
+        "Alžbeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Al%C5%BEbeta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš lists Alžbeta among the diminutive forms of Elizabete. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The Elizabete entry in Siliņš’s 1990 dictionary cites a 1252 record and an 1892 calendar entry. This supplies a historical reference point for the full base name. Those years are not automatically the earliest dates of all its short forms or spellings in other languages.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS p. 113 lists exact Alžbeta among Elizabete diminutives. Slovak parallel is not used as the sole Latvian bridge. Story’s 1252/1892 dates are explicitly Elizabete, not Alžbeta.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Beta",
+      "spellings": [
+        "Beta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Beta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Beta"
+      ],
+      "facts_used": "",
+      "hypothesis": "The catalogue proposes that Beta may relate either to Beāte or to Bete, which leads to Elizabete. These are different routes: a happiness or blessing explanation and the Hebrew oath-name family. The checked evidence does not select one route for exact Beta, so one secure translation cannot yet be chosen.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Inspect original Siliņš p. 82 and seek an exact LV-LAVI/LV-PERIODIKA explanation choosing between Beāte and Bete/Elizabete. Keep both alternatives; unrelated Greek-letter beta and user-submitted entries do not resolve the personal name.",
+      "next_steps": "Inspect original Siliņš p. 82 and seek an exact LV-LAVI/LV-PERIODIKA explanation choosing between Beāte and Bete/Elizabete. Keep both alternatives; unrelated Greek-letter beta and user-submitted entries do not resolve the personal name."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Betija",
+      "spellings": [
+        "Betija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Betija",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš identifies Betija as a form of Elizabete. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The Elizabete entry in Siliņš’s 1990 dictionary cites a 1252 record and an 1892 calendar entry. This supplies a historical reference point for the full base name. Those years are not automatically the earliest dates of all its short forms or spellings in other languages.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 83/113 directly identifies Betija as a form of Elizabete. The story’s 1252/1892 dates explicitly belong to the related full name Elizabete, not Betija; no undocumented English Betty route is asserted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Betsija",
+      "spellings": [
+        "Betsija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Betsija",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth",
+        "https://www.behindthename.com/name/betsy"
+      ],
+      "facts_used": "Siliņš explains Betsija as a rendering of English Betsy, a short form of Elizabeth. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The Elizabete entry in Siliņš’s 1990 dictionary cites a 1252 record and an 1892 calendar entry. This supplies a historical reference point for the full base name. Those years are not automatically the earliest dates of all its short forms or spellings in other languages.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 83/113 explicitly renders English Betsy and relates it to Elizabete/Betija. Curated Betsy confirms Elizabeth diminutive. Full-base story dates 1252/1892 are not Betsija’s dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Eba",
+      "spellings": [
+        "Eba"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eba",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Eba"
+      ],
+      "facts_used": "",
+      "hypothesis": "The catalogue connects Eba either with Elizabete or with affectionate forms of the Eber- family. These are distinct derivational possibilities. Until direct evidence for Eba’s formation is found, neither the Hebrew oath meaning nor the Germanic family can be selected as the sole verified explanation.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Inspect original Siliņš p. 105 and seek an exact explanation choosing between Elizabete and Eber- affectionate forms in LV-LAVI/LV-PERIODIKA. Scandinavian Ebba is only a comparison and cannot resolve Latvian single-b Eba by resemblance.",
+      "next_steps": "Inspect original Siliņš p. 105 and seek an exact explanation choosing between Elizabete and Eber- affectionate forms in LV-LAVI/LV-PERIODIKA. Scandinavian Ebba is only a comparison and cannot resolve Latvian single-b Eba by resemblance."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elizabeta",
+      "spellings": [
+        "Elizabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-ELIZABETA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elizabeta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth",
+        "https://www.personvarduatveide.lv/words/28268.pdf?locale=lv"
+      ],
+      "facts_used": "The LVA database directly documents Elizabeta as a Latvian rendering of English Elisabeth. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The database export citing page 100 of A. Ahero’s 2006 English-name guide gives separate Elizabete and Elizabeta rows. The -a form therefore has its own documented correspondence. The export does not establish first use or a spelling with long ī.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked LV-LVA-ELIZABETA single-page export: separate English Elisabeth → Elizabete and Elisabeth → Elizabeta rows, both citing Ahero (2006), p. 100. Resolves the exact unaccented -a form. Search Elīzabeta returns the same unaccented rows and does not prove long ī. Guide year is bibliographic evidence, not first birth.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elīzabeta",
+      "spellings": [
+        "Elīzabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/El%C4%ABzabeta",
+        "https://www.izpetnieks.lv/en/name/Elizabeta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=El%C4%ABzabeta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Elīzabeta may be related to Elizabeta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elīzabeta.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabeta. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics.",
+      "next_steps": "Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabeta. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elīzabete",
+      "spellings": [
+        "Elīzabete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/El%C4%ABzabete",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=El%C4%ABzabete"
+      ],
+      "facts_used": "",
+      "hypothesis": "Elīzabete may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elīzabete.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabete. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics.",
+      "next_steps": "Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabete. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elizavete",
+      "spellings": [
+        "Elizavete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elizavete",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Elizavete"
+      ],
+      "facts_used": "",
+      "hypothesis": "Elizavete may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elizavete.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Elizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Elizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elizbete",
+      "spellings": [
+        "Elizbete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elizbete",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Elizbete"
+      ],
+      "facts_used": "",
+      "hypothesis": "Elizbete may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elizbete.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Elizbete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Elizbete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elzabeta",
+      "spellings": [
+        "Elzabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elzabeta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Elzabeta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Elzabeta may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elzabeta.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Elzabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Elzabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elžbeta",
+      "spellings": [
+        "Elžbeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/El%C5%BEbeta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš connects Elžbeta with the Polish branch of the Elizabete family. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The Elizabete entry in Siliņš’s 1990 dictionary cites a 1252 record and an 1892 calendar entry. This supplies a historical reference point for the full base name. Those years are not automatically the earliest dates of all its short forms or spellings in other languages.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 115/113 explicitly identifies the Polish branch of Elizabete. The exact Latvian spelling is not silently changed to Polish Elżbieta. Story’s 1252/1892 dates belong to Elizabete only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jelizabeta",
+      "spellings": [
+        "Jelizabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jelizabeta",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jelizabeta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jelizabeta may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jelizabeta.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Jelizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Jelizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jeļizabeta",
+      "spellings": [
+        "Jeļizabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizabeta",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Je%C4%BCizabeta"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jeļizabeta may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jeļizabeta.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Jeļizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Jeļizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jelizaveta",
+      "spellings": [
+        "Jelizaveta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-JELIZAVETA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jelizaveta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth",
+        "https://www.personvarduatveide.lv/words/71225.pdf?locale=lv",
+        "https://www.behindthename.com/name/yelyzaveta"
+      ],
+      "facts_used": "The LVA rendering database explicitly pairs Jelizaveta with Ukrainian Єлизавета, internationally Yelyzaveta, a form of Elizabeth. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The database cites page 156 of A. Hansons and M. Poļakova’s 2023 Ukrainian-name rendering guide. It documents Jelizaveta specifically. Publication is not a first-bearer date, and Jeļizaveta’s 1877 record is not transferred to this spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked LV-LVA-JELIZAVETA single-page export: Ukrainian Єлизавета → exact Jelizaveta, transliteration Yelyzaveta, citing Hansons/Poļakova (2023), p. 156. Curated Yelyzaveta explicitly links Elizabeth. This resolves the catalogue’s exact-form gap. The other Ukrainian Єлізавета and Russian Елизавета rows give Jeļizaveta, not plain l. No transfer of Jeļizaveta 1877/1899.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jeļizaveta",
+      "spellings": [
+        "Jeļizaveta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš places Jeļizaveta in the Russian and Ukrainian branch of the Elizabete family. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The dictionary records the exact form Jeļizaveta in Rēzekne in 1877 and in a calendar in 1899. Both dates belong to the spelling with ļ. They are not automatically dates for Jelizaveta or other similar forms.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 178/113 explicitly links Russian/Ukrainian form to Elizabete, exact Rēzekne record 1877 and calendar 1899. Keep ļ. The plain-l form has separate authoritative evidence, not this attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jelizavete",
+      "spellings": [
+        "Jelizavete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jelizavete",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jelizavete"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jelizavete may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jelizavete.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Jelizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Jelizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jeļizavete",
+      "spellings": [
+        "Jeļizavete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizavete",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Je%C4%BCizavete"
+      ],
+      "facts_used": "",
+      "hypothesis": "Jeļizavete may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jeļizavete.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find an explicit exact Jeļizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate.",
+      "next_steps": "Find an explicit exact Jeļizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Lisa",
+      "spellings": [
+        "Lisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lisa",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš’s dictionary identifies Lisa as a form of Elizabete. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The dictionary records the exact form Lisa in Viskaļi in 1566. It supplies no separate year of calendar inclusion. This specific place-and-year record belongs to Lisa and should retain its identity alongside the different records for Līza and Elizabete.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 217/113 gives exact Lisa, Viskaļi 1566; no calendar-entry year. Do not replace with Līza 1695.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Lisija",
+      "spellings": [
+        "Lisija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lisija",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš’s dictionary explicitly connects Lisija with Elizabete. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. Page 217 of the dictionary places Lisija in Riga in the first quarter of the twentieth century. This is a concrete record with a place and period. Its broad dating should retain that precision and does not establish that the name was created in Riga.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 217/113 explicitly connects Elizabete; exact Lisija in Riga, first quarter of twentieth century. Preserve period precision and do not invent a calendar-entry year.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Liza",
+      "spellings": [
+        "Liza"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-LIZA",
+        "LT-GUIDE",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Liza",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth",
+        "https://www.personvarduatveide.lv/words/19518.pdf?locale=lv",
+        "https://www.tevu-darzelis.lt/vaiku-vardai/liza/"
+      ],
+      "facts_used": "The LVA database explicitly pairs Latvian Liza with Lithuanian Liza, which the Lithuanian guide explains as a short form of Elizabet. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The rendering record cites page 53 of T. Porīte’s 1961 Lithuanian-name guide and retains Liza in both languages. This is a documented correspondence, not a first birth-register record. English Liza instead becomes Laiza in the database, so the language routes should remain separate.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "Visually checked LV-LVA-LIZA single-page export: Lithuanian Liza → exact Latvian Liza, citing Porīte (1961), p. 53. Opened LT-GUIDE Liza explicitly shortens Elizabet and gives Hebrew/Greek family. English Liza has Latvian Laiza instead, so do not conflate language routes. No long-ī Līza dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Līza",
+      "spellings": [
+        "Līza"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/L%C4%ABza",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth"
+      ],
+      "facts_used": "Siliņš groups Līza with Līze in a shared entry referring to Elizabete. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The Līza catalogue entry cites a 1695 record in Salas Piņķi. The shared dictionary entry establishes the relationship of the two forms but gives no separate Līze date. The 1695 record is therefore kept within the scope supplied by the Līza entry.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 218/113 groups Līza/Līze, directly points to Elizabete, and Līza page cites Salas Piņķi 1695. Narrative retains the shared-entry context and avoids claiming an independently dated exact Līze.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Lize",
+      "spellings": [
+        "Lize"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lize",
+        "https://www.izpetnieks.lv/en/name/L%C4%ABze",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Lize"
+      ],
+      "facts_used": "",
+      "hypothesis": "Lize may be related to Līze and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Lize.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find exact Lize and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved.",
+      "next_steps": "Find exact Lize and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved."
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Līze",
+      "spellings": [
+        "Līze"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/L%C4%ABze",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.behindthename.com/name/elizabeth",
+        "https://www.izpetnieks.lv/en/name/L%C4%ABza"
+      ],
+      "facts_used": "Siliņš’s reference chain takes Līze through Līza to Elizabete. This name family rests on Hebrew ēlīšeba, usually explained as my God is an oath. Greek Elisabet is an important historical form in the family. This describes the name’s origin rather than the character of its bearer. The reference on page 218 of the 1990 dictionary documents this link, but the catalogue supplies no separate year of Līze use. Līza’s 1695 Salas Piņķi record is not automatically a date for exact Līze. It remains evidence from the related form’s history.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete historical, bibliographic, calendar, literary or professional episode support two paragraphs in all five languages.",
+      "uncertainties": "LV-SILINS pp. 218/113 explicitly gives Līze → Līza → Elizabete but no separate date. The 1990 dictionary publication and reference chain are concrete bibliographic evidence; the related Līza 1695 record is identified as comparison only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Līziņa",
+      "spellings": [
+        "Līziņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/L%C4%ABzi%C5%86a",
+        "https://www.izpetnieks.lv/en/name/L%C4%ABza",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=L%C4%ABzi%C5%86a"
+      ],
+      "facts_used": "",
+      "hypothesis": "Līziņa may be related to Līza and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Līziņa.",
+      "reason": "The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog.",
+      "uncertainties": "Find exact Līziņa and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved.",
+      "next_steps": "Find exact Līziņa and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved."
+    }
+  ]
+}
