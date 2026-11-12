@@ -1,0 +1,703 @@
+{
+  "round": 32,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 24 unfinished December 2 profiles. Checked exact Latvian rendering rows and reused Salys historical calendars; bird/snow and multiple full-form proposals remain unverified. Sniga has no adopted proposal.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Sņežana",
+      "spellings": [
+        "Sņežana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/S%C5%86e%C5%BEana",
+        "https://www.personvarduatveide.lv/words/2508?locale=lv",
+        "https://www.behindthename.com/name/snjez18ana"
+      ],
+      "facts_used": "Sņežana: The Latvian Language Agency documents Croatian Snježana rendered as Sņežana. This South Slavic family is based on snežan, snowy, from the word for snow. That explains its language history; it does not literally mean snowflake or describe a person’s appearance. The Latvian Language Agency gives the exact rendering Snježana → Sņežana, citing page 156 of a 2011 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Croatian feminine given-name agency record cites O.Bušs2011p156. No date or bridge transferred to unpalatalized or double-n forms. Exact agency HTML record https://www.personvarduatveide.lv/words/2508?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lt",
+      "name": "Aurelija",
+      "spellings": [
+        "Aurelija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/aurelija/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=315",
+        "https://dmnes.org/name/Aurelia"
+      ],
+      "facts_used": "Aurelija: The Lithuanian feminine form belongs to Latin Aurelius/Aurelia, associated with aureus, golden. The colour and material word belongs to the name’s language history; it makes no claim about a bearer’s wealth or qualities. The 1964 calendar reprinted in Salys’s 1983 volume gives Aurelija (Aura) on 15 October. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys calendar page checked; historical printed dates differ from supplied December2. No calendar date overwritten.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lt",
+      "name": "Liucijus",
+      "spellings": [
+        "Liucijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/liucijus/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=304",
+        "https://dmnes.org/name/Lucius"
+      ],
+      "facts_used": "Liucijus: The name is a Lithuanian form of Latin Lucius. The family’s traditional explanation links it to lux, genitive lucis, light. That word comparison does not itself prove the story that every ancient bearer was named for birth at dawn. The 1964 calendar reprinted in Salys’s 1983 volume gives Liucijus (Liucas) on 4 March. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys calendar page checked; historical printed dates differ from supplied December2. No calendar date overwritten.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lt",
+      "name": "Paulina",
+      "spellings": [
+        "Paulina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/paulina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=308",
+        "https://www.behindthename.com/name/paulina"
+      ],
+      "facts_used": "Paulina: Paulina belongs to the Latin Paulus, Paulinus and Paulina family. The base paulus means small. Forms with -in- reflect derivation within the ancient naming system; that historical meaning does not describe a modern bearer’s stature or worth. The 1964 calendar reprinted in Salys’s 1983 volume gives Paulina (Paulė) on 6 June. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys calendar page checked; historical printed dates differ from supplied December2. No calendar date overwritten.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Meta",
+      "spellings": [
+        "Meta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Meta"
+      ],
+      "facts_used": "Meta still needs checking against Margareta / Matilda. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Margareta / Matilda",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p237 retains both bases. Own1851/calendar1877 does not select a route. Agency foreign Meta/Metta records establish spellings only.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Sniedze",
+      "spellings": [
+        "Sniedze"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sniedze",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sniedze"
+      ],
+      "facts_used": "Sniedze still needs checking against sniedze (bird) / sniegs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "sniedze (bird) / sniegs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue supplies bird and snow interpretations, plus a Brigadere literary reference. A literary appearance does not choose the etymology.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Mēta",
+      "spellings": [
+        "Mēta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/M%C4%93ta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=M%C4%93ta"
+      ],
+      "facts_used": "Mēta still needs checking against Lithuanian Mėta / Estonian Meeta / Meta. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Lithuanian Mėta / Estonian Meeta / Meta",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact LVA LithuanianMėta→Mēta1961p53 and EstonianMeeta→Mēta1960p59 found. Rendering does not select mint versus shortened Margaret-family analysis.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Mets",
+      "spellings": [
+        "Mets"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Mets",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Mets"
+      ],
+      "facts_used": "Mets still needs checking against Mārtiņš / Mateuss. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Mārtiņš / Mateuss",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue has competing full forms and Rūjiena1638. Dated usage does not choose one base.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Snežana",
+      "spellings": [
+        "Snežana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sne%C5%BEana",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sne%C5%BEana"
+      ],
+      "facts_used": "Snežana still needs checking against Snežana / Snježana / Sņežana. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Snežana / Snježana / Sņežana",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Curated SouthSlavicSnežana secure as foreign form, but inspected exact LV query has no bridge for unpalatalizedn.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Snežanna",
+      "spellings": [
+        "Snežanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sne%C5%BEanna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sne%C5%BEanna"
+      ],
+      "facts_used": "Snežanna still needs checking against Snežana / Sņežana. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Snežana / Sņežana",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Double-n exact spelling not in inspected rendering record; preserve hypothesis.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Sniedzīte",
+      "spellings": [
+        "Sniedzīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sniedz%C4%ABte",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sniedz%C4%ABte"
+      ],
+      "facts_used": "Sniedzīte still needs checking against Sniedze / sniedze (bird) / sniegs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sniedze / sniedze (bird) / sniegs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Diminutive relation does not settle disputed full-form bird/snow roots; do not transfer literary creation date.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Sniga",
+      "spellings": [
+        "Sniga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sniga",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sniga"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact dictionary origin prose or LVA link found; resemblance to snow words not adopted as a supported proposal.",
+      "next_steps": "Find an exact-form Latvian personal-name dictionary record or dated authoritative use with an explicit origin link."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Sņežanna",
+      "spellings": [
+        "Sņežanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/S%C5%86e%C5%BEanna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=S%C5%86e%C5%BEanna"
+      ],
+      "facts_used": "Sņežanna still needs checking against Sņežana / Snježana. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sņežana / Snježana",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Double-n exact spelling distinct from LVA single-n Sņežana2011. No date transferred.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Voicehs",
+      "spellings": [
+        "Voicehs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voicehs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voicehs"
+      ],
+      "facts_used": "Voicehs still needs checking against Wojciech / voj- / vojak. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Wojciech / voj- / vojak",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue questions root and records Alūksne1638; this does not choose one root or prove full-name rendering.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Voiceks",
+      "spellings": [
+        "Voiceks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voiceks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voiceks"
+      ],
+      "facts_used": "Voiceks still needs checking against Voicehs / Wojciech / Wójcik. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Voicehs / Wojciech / Wójcik",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact spelling not linked by checked LVA row. Do not substitute a Polish surname for a given name.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Voicihs",
+      "spellings": [
+        "Voicihs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voicihs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voicihs"
+      ],
+      "facts_used": "Voicihs still needs checking against Voicehs / Wojciech. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Voicehs / Wojciech",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact given-name rendering bridge located; related spelling cannot donate its date.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Voiciks",
+      "spellings": [
+        "Voiciks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voiciks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voiciks"
+      ],
+      "facts_used": "Voiciks still needs checking against Voičiks / Voicehs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Voičiks / Voicehs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue gives c/č variants and Alūksne1638 but full root remains questioned.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Voičiks",
+      "spellings": [
+        "Voičiks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voi%C4%8Diks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voi%C4%8Diks"
+      ],
+      "facts_used": "Voičiks still needs checking against Voiciks / Wojciech / Wójcik. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Voiciks / Wojciech / Wójcik",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Preserve c/č distinction; potential surname route does not prove exact given-name origin.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lv",
+      "name": "Voitiks",
+      "spellings": [
+        "Voitiks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Voitiks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voitiks"
+      ],
+      "facts_used": "Voitiks still needs checking against Voicehs / Wojciech. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Voicehs / Wojciech",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact-form borrowing route not established in inspected sources.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lt",
+      "name": "Milmantė",
+      "spellings": [
+        "Milmantė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/milmante/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Milmantė still needs checking against mil- + mant- (mantus / manta). This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "mil- + mant- (mantus / manta)",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives competing clever/possessions interpretations. Exact feminine historical episode and scholarly adjudication still needed.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "lt",
+      "name": "Vėjūnas",
+      "spellings": [
+        "Vėjūnas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vejunas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Vėjūnas still needs checking against vėjas. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "vėjas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact guide links to wind, but no independently dated exact-form scholarly/literary episode established. A supported lexical proposal remains unverified for full two-paragraph review.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "ee",
+      "name": "Aira",
+      "spellings": [
+        "Aira"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+        "https://en.wiktionary.org/wiki/Aira#Estonian"
+      ],
+      "facts_used": "Aira still needs checking against Aina / Aila / Aili / Finnish Airi. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Aina / Aila / Aili / Finnish Airi",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "December2005Leolep1 admits unclear routes for Aira/Airi. Mägiste1929PDF13/printed11 marks Aira/Airi Finnish; exact Aire has other proposed paths. Neither determines a unique full etymology.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "ee",
+      "name": "Aire",
+      "spellings": [
+        "Aire"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+        "https://en.wiktionary.org/wiki/Aire#Estonian"
+      ],
+      "facts_used": "Aire still needs checking against Aina / Aila / Aili / Finnish Airi. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Aina / Aila / Aili / Finnish Airi",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "December2005Leolep1 admits unclear routes for Aira/Airi. Mägiste1929PDF13/printed11 marks Aira/Airi Finnish; exact Aire has other proposed paths. Neither determines a unique full etymology.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-02",
+      "date": "2026-11-12",
+      "calendar_date": "12-02",
+      "country": "ee",
+      "name": "Airi",
+      "spellings": [
+        "Airi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+        "https://en.wiktionary.org/wiki/Airi#Estonian"
+      ],
+      "facts_used": "Airi still needs checking against Aina / Aila / Aili / Finnish Airi. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Aina / Aila / Aili / Finnish Airi",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "December2005Leolep1 admits unclear routes for Aira/Airi. Mägiste1929PDF13/printed11 marks Aira/Airi Finnish; exact Aire has other proposed paths. Neither determines a unique full etymology.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    }
+  ],
+  "validation": {
+    "tests": "128 passed; npm test",
+    "build": "npm run build passed",
+    "content": "All 96 profiles checked in five languages; reviewed histories have exactly two paragraphs exceeding 300 characters combined; no source links in UI.",
+    "backlog": "57 hypotheses and 2 no-proposal records remain unverified; all 198 earlier open identities retained.",
+    "browser": "85 mobile views across five dates, three calendars and five languages; reviewed, hypothesis and missing-history states; no horizontal overflow or visible source links.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged.",
+    "pdf_cache": "20 private indexed sources, 2328 pages; repeat index reused extraction with unchanged index timestamp."
+  }
+}

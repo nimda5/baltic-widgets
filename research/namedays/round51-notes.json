@@ -1,0 +1,376 @@
+{
+  "round": 51,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December21: all13unfinished profiles examined; six histories written. New NationalEncyclopaedia Zeltazirgs episode and exactLVA renderings resolveTomāšs/Tomijs; Toom’s originalquestionmark and surnamehomonymstayunverified.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Saulcerīte",
+      "spellings": [
+        "Saulcerīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-ENC-GOLDEN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulcer%C4%ABte",
+        "https://enciklopedija.lv/skirklis/96269"
+      ],
+      "facts_used": "Saulcerīte: The Latvian dictionary explains the name’s formation through saule, sun, and cerēt, to hope; it is Rainis’s character name in Zelta zirgs. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. The play premiered at the New Riga Theatre on 26 December 1909. Siliņš’s dictionary dates the use of Saulcerīte: 1932. Its calendar year is 1928. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p285 exact saule+cerēt formation and Rainis character; NationalEncyclopaedia exact1909premiere distinct from civil1932/calendar1928.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Saulgaitis",
+      "spellings": [
+        "Saulgaitis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulgaitis"
+      ],
+      "facts_used": "Saulgaitis: The Latvian dictionary explains the name’s formation through saule, sun, and gaita, course or progress. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saulgaitis: 1928. Its calendar year is 1925. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p285 exactnativecompound and own1928/calendar1925. Saulgaida not inferred as an automatic feminine variant.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Tomašs",
+      "spellings": [
+        "Tomašs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Toma%C5%A1s",
+        "https://dmnes.org/name/Thomas"
+      ],
+      "facts_used": "Tomašs: The name belongs to the Tomass/Thomas family from Aramaic tēʾōmā, twin. Originally an apostle’s epithet, it later became a widely used personal name. Forms in different languages retain that connection but have separate local usage records. Siliņš’s dictionary dates the use of Tomašs: 1454, Riga. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact dictionaryTomass bridge; ownlocalattestation, no calendar year or borroweddateinvented. Tomašs p308; Tumašs p310.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Tumašs",
+      "spellings": [
+        "Tumašs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tuma%C5%A1s",
+        "https://dmnes.org/name/Thomas"
+      ],
+      "facts_used": "Tumašs: The name belongs to the Tomass/Thomas family from Aramaic tēʾōmā, twin. Originally an apostle’s epithet, it later became a widely used personal name. Forms in different languages retain that connection but have separate local usage records. Siliņš’s dictionary dates the use of Tumašs: the third quarter of the nineteenth century, Mihalova. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact dictionaryTomass bridge; ownlocalattestation, no calendar year or borroweddateinvented. Tomašs p308; Tumašs p310.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Tomāšs",
+      "spellings": [
+        "Tomāšs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/9834,9835?locale=lv",
+        "https://dmnes.org/name/Thomas",
+        "https://www.behindthename.com/name/toma10s"
+      ],
+      "facts_used": "Tomāšs: The name belongs to the Tomass/Thomas family from Aramaic tēʾōmā, twin. Originally an apostle’s epithet, it later became a widely used personal name. Forms in different languages retain that connection but have separate local usage records. The Latvian Language Agency gives the exact rendering Tomás → Tomāšs, citing page 128 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering inspected. PortugueseTomás→Tomāšs2015p128; EnglishTommy→Tomijs2006p88. No1454date transferred fromTomašs.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Tomijs",
+      "spellings": [
+        "Tomijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/30002?locale=lv",
+        "https://dmnes.org/name/Thomas",
+        "https://www.behindthename.com/name/tommy"
+      ],
+      "facts_used": "Tomijs: The name belongs to the Tomass/Thomas family from Aramaic tēʾōmā, twin. Originally an apostle’s epithet, it later became a widely used personal name. Forms in different languages retain that connection but have separate local usage records. The Latvian Language Agency gives the exact rendering Tommy → Tomijs, citing page 88 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering inspected. PortugueseTomás→Tomāšs2015p128; EnglishTommy→Tomijs2006p88. No1454date transferred fromTomašs.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Saulceris",
+      "spellings": [
+        "Saulceris"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulceris",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Saulceris"
+      ],
+      "facts_used": "Saulceris is still being checked against Saulcerīte / saule + cerēt. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Saulcerīte / saule + cerēt",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact Saulceris entry or direct cross-reference was found on Siliņš p. 285. Rainis’s female character Saulcerīte does not establish the masculine derivation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lv",
+      "name": "Saulgaida",
+      "spellings": [
+        "Saulgaida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulgaida",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Saulgaida"
+      ],
+      "facts_used": "Saulgaida is still being checked against Saulgaitis / saule + gaidīt. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Saulgaitis / saule + gaidīt",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact bridge was found. Do not replace Saulgaitis’s gaita (course or progress) with gaidīt (wait) on the basis of spelling.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lt",
+      "name": "Girenė",
+      "spellings": [
+        "Girenė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/girene/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Girenė is still being checked against giria / Girė. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "giria / Girė",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "The exact guide returned 404. Salys’s December 21 Girenė (Girė) entry establishes calendar use, but not derivation from giria (forest). The earlier proposal remains open.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lt",
+      "name": "Norgaudė",
+      "spellings": [
+        "Norgaudė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/norgaude/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Norgaudė is still being checked against nor- + gaud- / Norgaudas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "nor- + gaud- / Norgaudas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "The exact guide returned 404. An exact feminine bridge and the choice between gaud-/gauti and gaudus are unresolved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "lt",
+      "name": "Norgaudas",
+      "spellings": [
+        "Norgaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/norgaudas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Norgaudas is still being checked against nor- + gaud-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "nor- + gaud-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "The guide still marks the meaning as being clarified. Salys’s Gaud-/gauti examples establish the masculine form but do not settle one complete gloss. The earlier proposal remains open.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "ee",
+      "name": "Toom",
+      "spellings": [
+        "Toom"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=50",
+        "https://en.wiktionary.org/wiki/Toom#Estonian",
+        "https://dmnes.org/name/Thomas"
+      ],
+      "facts_used": "Toom is still being checked against Toomas / Thomas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Toomas / Thomas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Mägiste, PDF p. 50 / printed p. 48, explicitly marks the comparison with Toomas with a question mark. Wiktionary’s Estonian entry concerns a surname. Neither fact proves the given-name derivation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-21",
+      "date": "2026-11-12",
+      "calendar_date": "12-21",
+      "country": "ee",
+      "name": "Tommi",
+      "spellings": [
+        "Tommi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Tommi#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Tommi is still being checked against Tom / Tommy / Toomas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Tom / Tommy / Toomas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Finnish Tommi evidence alone does not establish the Estonian transmission route. An explicit Estonian exact-form family bridge is still needed.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

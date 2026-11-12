@@ -1,0 +1,338 @@
+{
+  "round": 52,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December22: twelve profiles examined; eleven histories and one retained unverified proposal. Corrected stars/ray translation and distinguished historicalcalendar dates from modern schedule.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lv",
+      "name": "Saule",
+      "spellings": [
+        "Saule"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saule"
+      ],
+      "facts_used": "Saule: The Latvian dictionary explains the name’s formation through saule, sun. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saule: 1519. Its calendar year is 1882. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp285–286 exact word formation and own attestation; questioned1506 is not a secure first record. stars translates ray, not English star.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lv",
+      "name": "Saulīte",
+      "spellings": [
+        "Saulīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saul%C4%ABte"
+      ],
+      "facts_used": "Saulīte: The Latvian dictionary explains the name’s formation through Saule and a diminutive form. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saulīte: the third quarter of the twentieth century; the 1506 form is questioned. Its calendar year is 1933. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp285–286 exact word formation and own attestation; questioned1506 is not a secure first record. stars translates ray, not English star.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lv",
+      "name": "Saulvedis",
+      "spellings": [
+        "Saulvedis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulvedis"
+      ],
+      "facts_used": "Saulvedis: The Latvian dictionary explains the name’s formation through saule, sun, and vest, to lead; it is a character epithet in Rainis’s Zelta zirgs. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saulvedis: 1929. Its calendar year is 1928. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp285–286 exact word formation and own attestation; questioned1506 is not a secure first record. stars translates ray, not English star.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lv",
+      "name": "Saulstarīte",
+      "spellings": [
+        "Saulstarīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulstar%C4%ABte"
+      ],
+      "facts_used": "Saulstarīte: The Latvian dictionary explains the name’s formation through Saulstariņa: saule, sun, and stariņš, little ray. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saulstarīte: 1941. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp285–286 exact word formation and own attestation; questioned1506 is not a secure first record. stars translates ray, not English star.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lv",
+      "name": "Saulstars",
+      "spellings": [
+        "Saulstars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulstars"
+      ],
+      "facts_used": "Saulstars: The Latvian dictionary explains the name’s formation through saule, sun, and stars, ray. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saulstars: 1935. Its calendar year is 1910. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp285–286 exact word formation and own attestation; questioned1506 is not a secure first record. stars translates ray, not English star.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lv",
+      "name": "Saulvija",
+      "spellings": [
+        "Saulvija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Saulvija"
+      ],
+      "facts_used": "Saulvija: The Latvian dictionary explains the name’s formation through saule, sun, and vija, braid or garland. This is a specific connection with Latvian vocabulary. The explanation concerns the form discussed in the dictionary; similar spellings require their own origin and attestation checks. Siliņš’s dictionary dates the use of Saulvija: 1931. Its calendar year is 1976. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp285–286 exact word formation and own attestation; questioned1506 is not a secure first record. stars translates ray, not English star.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lt",
+      "name": "Dovilė",
+      "spellings": [
+        "Dovilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dovile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=298"
+      ],
+      "facts_used": "Dovilė: The Lithuanian compound name combines do- (dotas, dovis), given or gift, and vil- (viltis), hope. These vocabulary comparisons explain its individual stems. They should not be turned into a single modern sentence or a description of personality: a personal name’s history is distinct from its bearer’s qualities. The 1964 calendar reprinted in Salys’s 1983 volume gives Dovilė (Dova) on 26 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide and original Salys stems/calendar. Dovilė is December26 in the1964 historicalcalendar, not a change to suppliedDecember22. Pakerys2011p91 also explicitly Dovilas–Dovilė.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lt",
+      "name": "Gedvydas",
+      "spellings": [
+        "Gedvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gedvydas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=298"
+      ],
+      "facts_used": "Gedvydas: The Lithuanian compound name combines ged- (gesti, gedėti), a desiring or longing stem, and vyd- (išvysti), to see. These vocabulary comparisons explain its individual stems. They should not be turned into a single modern sentence or a description of personality: a personal name’s history is distinct from its bearer’s qualities. The 1964 calendar reprinted in Salys’s 1983 volume gives Gedvydas (Gedas) on 22 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide and original Salys stems/calendar. Dovilė is December26 in the1964 historicalcalendar, not a change to suppliedDecember22. Pakerys2011p91 also explicitly Dovilas–Dovilė.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lt",
+      "name": "Dobilė",
+      "spellings": [
+        "Dobilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dobile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319"
+      ],
+      "facts_used": "Dobilė: The name belongs to the Dobilė family. Its linguistic basis is explained through Lithuanian dobilas, clover. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. The 1964 calendar reprinted in Salys’s 1983 volume gives Dobilė (Bilė) on 22 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact common-word derivation; original printed304 December22 Dobilė(Bilė).",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lt",
+      "name": "Ksavera",
+      "spellings": [
+        "Ksavera"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ksavera/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=243",
+        "https://www.behindthename.com/name/xavier"
+      ],
+      "facts_used": "Ksavera: The name belongs to the Ksavera / Xaveria / Xavier family. Its linguistic basis is explained through Basque etxe, house, and berri, new, in the place name Etxeberria. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. Page 228 of the 1983 study gives Ksavera as a personal name corresponding to Xaveria. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPDF243/printed228 PN Xaveria, not surname. Correct Basque lexical elements; no invented firstLithuanianbirth.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "lt",
+      "name": "Rimbertas",
+      "spellings": [
+        "Rimbertas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-VLE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/rimbertas/",
+        "https://www.vle.lt/straipsnis/rimbertas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=309"
+      ],
+      "facts_used": "Rimbertas: The name belongs to the Rimbertas / Rimbertus / Rembert family. Its linguistic basis is explained through Germanic ragin, counsel, and berht, bright or famous. The historical connection survives changes of spelling and endings across languages. The beginning of a particular local form’s use must be distinguished from the earlier history of the whole family. The Lithuanian encyclopaedia calls the chronicler Rimbertus/Rembert Rimbertas. He became archbishop of Hamburg–Bremen in 865 and wrote Vita Anskarii around 865–876. This is a Lithuanian rendering of a foreign historical person’s name, rather than a first registration in Lithuania.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "VLEexactLatin/Germanbridge; datedforeignarchbishop episode. Salys historicalcalendarJune11, not May18.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-22",
+      "date": "2026-11-12",
+      "calendar_date": "12-22",
+      "country": "ee",
+      "name": "Vambo",
+      "spellings": [
+        "Vambo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Vambo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Vambo is still being checked against Vambola / Varbola / vambas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Vambola / Varbola / vambas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole supports the short-form relationship to Vambola. The competing Varbola place-name and vambas war-club explanations for the full name remain unresolved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-12",
+  "writer_version": "namedays-1.9.19",
+  "rounds": [
+    {
+      "round": 24,
+      "calendar_date": "11-24",
+      "examined": 16,
+      "reviewed": 7,
+      "hypotheses": 5,
+      "no_proposal": 4
+    },
+    {
+      "round": 25,
+      "calendar_date": "11-25",
+      "examined": 42,
+      "reviewed": 26,
+      "hypotheses": 16,
+      "no_proposal": 0
+    },
+    {
+      "round": 26,
+      "calendar_date": "11-26",
+      "examined": 18,
+      "reviewed": 10,
+      "hypotheses": 8,
+      "no_proposal": 0
+    },
+    {
+      "round": 27,
+      "calendar_date": "11-27",
+      "examined": 17,
+      "reviewed": 4,
+      "hypotheses": 12,
+      "no_proposal": 1
+    },
+    {
+      "round": 28,
+      "calendar_date": "11-28",
+      "examined": 19,
+      "reviewed": 8,
+      "hypotheses": 8,
+      "no_proposal": 3
+    },
+    {
+      "round": 29,
+      "calendar_date": "11-29",
+      "examined": 25,
+      "reviewed": 13,
+      "hypotheses": 12,
+      "no_proposal": 0
+    },
+    {
+      "round": 30,
+      "calendar_date": "11-30",
+      "examined": 27,
+      "reviewed": 14,
+      "hypotheses": 13,
+      "no_proposal": 0
+    }
+  ],
+  "totals": {
+    "examined": 164,
+    "reviewed": 82,
+    "hypotheses": 74,
+    "no_proposal": 8
+  },
+  "checks": {
+    "unit_tests_passed": 128,
+    "profile_languages_checked": [
+      "lv",
+      "ru",
+      "en",
+      "lt",
+      "et"
+    ],
+    "reviewed_paragraphs_per_language": 2,
+    "minimum_combined_characters_exclusive": 300,
+    "previous_open_profiles_retained": 116,
+    "source_ids_resolve_in_directory": true,
+    "calendar_membership_unchanged": true,
+    "population_snapshots_unchanged": true,
+    "public_data_and_build_copies_match": true,
+    "mobile_browser_views_passed": 110,
+    "browser_console_errors": 0,
+    "browser_source_links": 0,
+    "browser_horizontal_overflow": false
+  },
+  "private_pdf_cache": {
+    "sources": 17,
+    "pdf_pages": 2135,
+    "ocr_scans": 2,
+    "ocr_pages": 247,
+    "repeat_index_reused_extraction": true,
+    "page_index_mtime_unchanged_on_reindex": true,
+    "repeat_ocr_used_cached_pages": true,
+    "word_search_rejects_Kari_as_Karin": true,
+    "raw_files_committed": false
+  },
+  "commands": [
+    "npm run generate:namedays",
+    "npm run backlog:namedays",
+    "npm test",
+    "npm run build"
+  ],
+  "limitations": "A completed research pass is not a declaration that every origin is verified. All unresolved profiles remain in the backlog. OCR and PDF text indexes are discovery aids; exact accepted spellings require original-page or explicit agency-record inspection."
+}

@@ -38,6 +38,30 @@ test('Viada splits listed stations and matches exact locator addresses', () => {
   assert.equal(data[0].coordinates.latitude, 56.9);
   assert.equal(data[1].coordinates, null);
 });
+test('Viada Multi FX layout keeps product and station identity without depending on image names', () => {
+  const row = (label, value, stations) => `<div class="fuel-table__row"><div class="fuel-table__fuel"><img src="/new-logo.webp"><span>${label}</span></div><p class="fuel-table__price">${value} <span>EUR / L</span></p><ul class="fuel-table__stations">${stations.map(([name,address])=>`<li><svg></svg><span><a class="fuel-table__station">${name}</a><span class="fuel-table__address">${address}</span></span></li>`).join('')}</ul></div>`;
+  const a = ['ADUS A', 'A iela 1, Rīga'], b = ['DUS B', 'B iela 2, Rīga'];
+  const html = '<p>Cenas spēkā no 05.11.2026.</p>' + [
+    row('95 Multi FX','1,737',[a,b]), row('95 Multi FX plus','1.762',[a]),
+    row('98 Multi FX','1.842',[a]), row('D','2.054',[b]),
+    row('D Multi FX','1.957',[a]), row('Gāze','1.045',[a]), row('E85','1.995',[b]),
+  ].join('');
+  const rows = parseViada(html), data = normalize('viada',rows,now);
+  assert.equal(rows.length,7);
+  assert.equal(data.length,2);
+  const first = data.find(s=>s.name===a[0]), second = data.find(s=>s.name===b[0]);
+  assert.deepEqual(Object.keys(first.prices).sort(),['95','95_premium','LPG','diesel_premium'].sort());
+  assert.equal(first.prices['95'].value,1.737);
+  assert.equal(first.prices.diesel_premium.source_label,'D Multi FX');
+  assert.equal(second.prices.diesel.value,2.054);
+  assert.equal(first.prices.diesel,undefined);
+  assert.equal(second.prices.diesel_premium,undefined);
+  assert.equal(first.prices['95'].observed_date,'2026-11-05');
+  assert.throws(()=>parseViada(html.replace('fuel-table__address','changed-address')),/identity missing/);
+  assert.throws(()=>parseViada(html.replace('1,737','not a price')),/Invalid fuel price/);
+  assert.throws(()=>parseViada(html.replace('95 Multi FX plus','Unknown blend')),/fuel label changed/);
+  assert.throws(()=>parseViada(html.replaceAll('fuel-table__stations','changed-stations')),/station list missing/);
+});
 test('LEA fuel UUIDs do not create duplicate physical stations or infer 98', () => {
   const common = { company_name: 'Operator', address: 'City, Street 1', latitude: '55.1', longitude: '24.2', submitted_at: '2026-11-04 10:00:00' };
   const records = parseLea({ data: [

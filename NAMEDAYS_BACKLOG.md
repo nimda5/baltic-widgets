@@ -8,13 +8,13 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 513 | 197 | 271 |
-| Short factual summary | 3893 | 1146 | 417 |
-| Early record only | 364 | 1 | 12 |
-| Needs research | 786 | 224 | 853 |
+| Reviewed history | 721 | 302 | 372 |
+| Short factual summary | 3537 | 1016 | 371 |
+| Early record only | 345 | 1 | 12 |
+| Needs research | 953 | 249 | 798 |
 | Total profiles | 5556 | 1568 | 1553 |
 
-Unverified hypotheses remain included in Needs research: LV 50; LT 4; EE 5. Their widget text is explicitly labelled as a hypothesis, and their records stay in the verification queue.
+Unverified hypotheses remain included in Needs research: LV 247; LT 52; EE 39. Their widget text is explicitly labelled as a hypothesis, and their records stay in the verification queue.
 
 ## How to work through the backlog
 
@@ -33,12 +33,12 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Viāna | Unverified hypothesis | 13 | Search LV-PERIODIKA and LV-LU-REPO for exact Viāna as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| LV | Vidards | Unverified hypothesis | 5 | Search LV-PERIODIKA and LV-LU-REPO for exact Vidards as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| LV | Vidarts | Unverified hypothesis | 2 | Search LV-PERIODIKA and LV-LU-REPO for exact Vidarts as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| LV | Vianda | Unverified hypothesis | 1 | Search LV-PERIODIKA and LV-LU-REPO for exact Vianda as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| LV | Vidavs | Unverified hypothesis |  | Search LV-PERIODIKA and LV-LU-REPO for exact Vidavs as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| LT | Juozapotas | Unverified hypothesis |  | Use LT-VLKK and LT-LITUANISTIKA to find an authoritative exact-form etymology or an explicit Juozapotas/Juozapatas paired record. Historical calendar usage and short forms are already established; preserve the 14-versus-12-November discrepancy. |
+| LV | Viāna | Unverified hypothesis | 13 | Search LV-PERIODIKA and the planned new Latvian given-name dictionary (LV-ALL93 project) for exact Viāna; do not use Portuguese Viana → Vjana as a bridge. |
+| LV | Vidards | Unverified hypothesis | 5 | Seek an exact Vidards entry in the new Latvian given-name dictionary project or LV-PERIODIKA; Vīdars (long ī) is not this spelling. |
+| LV | Vidarts | Unverified hypothesis | 2 | Seek an exact Vidarts entry in the new Latvian given-name dictionary project or LV-PERIODIKA; Vīdars (long ī) is not this spelling. |
+| LV | Vianda | Unverified hypothesis | 1 | Search LV-PERIODIKA for exact Vianda as a given name; a dated record would still need an onomastic explanation. |
+| LV | Vidavs | Unverified hypothesis |  | Seek an exact Vidavs given-name record in LV-PERIODIKA; distinguish it from the surname. |
+| LT | Juozapotas | Unverified hypothesis |  | Open vardai.vlkk.lt manually (human browser) or the printed Kuzavinis–Savukynas dictionary for an exact Juozapotas entry deciding Joseph versus Josaphat. |
 
 ### 13 November
 
@@ -65,8 +65,7 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 | LV | Vincentina | Unverified hypothesis | 7 | Find an exact unaccented Vincentina rendering or etymology entry through LV-LVA and the original dictionary. The normalized lookup inherits Vincentīna’s record, so retain that record’s attested macron and do not claim 1877 for Vincentina. |
 | LV | Vikars | Unverified hypothesis | 3 | Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified. |
 | LV | Fridriha | Unverified hypothesis | 1 | Search LV-LVA German/Russian feminine-name tables and LV-PERIODIKA for an exact Fridriha correspondence; do not mistake a masculine genitive Fridriha for an independently recorded feminine name. |
-| LV | Vicenta | Unverified hypothesis |  | Inspect the original Siliņš pp. 323/328 and an authoritative exact Vicenta entry. The catalogue’s tentative Vicents/Vincentīna pointer does not establish a clear exact-form derivation; do not import their dates. |
-| EE | Alve | Unverified hypothesis | < 5 | Find an exact Estonian etymology in EE-EKI, EE-ETERA or a signed name study. Alviine/Alvi entries list Alve among related terms but do not prove its derivation; do not substitute the Scandinavian male name, Finnish surname or a user-submitted guide. |
+| EE | Alve | Unverified hypothesis | < 5 | Check Mägiste 1936 (digar.ee) and the EKI name database for exact Alve; do not use Scandinavian Alve (Alf). |
 
 ### 15 November
 
@@ -78,8 +77,7 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 | LV | Undalgs | Unverified hypothesis | 2 | Inspect the original dictionary and LV-LAVI/LV-PERIODIKA naming discussions for an exact explanation. The State Audit Office participant paragraph proves use of Undalgs Mētra but no origin; an Unda/Und- comparison remains unverified. |
 | LV | Leopoldina | Unverified hypothesis | 1 | Find an exact Latvian feminine correspondence through LV-LVA or a signed onomastic study; inspect Siliņš originals and LV-PERIODIKA. Behind the Name’s Leopoldina result is user-submitted and Duden’s is an academy, not sufficient proof. Do not transfer Leopolds dates. |
 | LV | Undita | Unverified hypothesis | 1 | Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited. |
-| EE | Vaiki | Unverified hypothesis | 46 | Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaiki; the common-word imperative vaiki does not prove personal-name derivation. |
-| EE | Vaigi | Unverified hypothesis | < 5 | Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaigi. A blog citing Seppo and user-submitted lists are leads only. |
+| EE | Vaigi | Unverified hypothesis | < 5 | Check Mägiste 1936 (digar.ee) and Seppo 1994 for exact Vaigi; Rajandi 1966 covers Vaiki but not Vaigi. |
 
 ### 16 November
 
@@ -88,7 +86,7 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 | LV | Landa | Unverified hypothesis | 15 | Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified. |
 | LV | Landijs | Unverified hypothesis | 3 | Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope. |
 | LV | Ganda | Needs research |  | Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one. |
-| LT | Gerdvilė | Unverified hypothesis |  | Find an exact etymological entry in LT-VLKK, LT-LKI or the original Lithuanian name dictionary, resolving gerd- rather than silently changing it to ger-. Salys PDF p. 231 / printed p. 216 visually establishes the exact feminine given name only. Popular geras/viltis explanations remain unverified; do not invent a connecting d, medieval bearer or creation date. |
+| LT | Gerdvilė | Unverified hypothesis |  | Find a scholarly entry naming Gerdvilė itself (VLKK name database, Kuzavinis–Savukynas) that confirms the gerd-/vil- analysis and explains vil-. |
 
 ### 17 November
 
@@ -96,9 +94,8 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 | --- | --- | --- | --- | --- |
 | LV | Igo | Unverified hypothesis | 104 | Inspect original Siliņš pp. 158/156 and seek a signed LV-LAVI or LV-PERIODIKA account resolving Hugo versus the questioned Ignāts route. Preserve the first-quarter-of-twentieth-century record independently. Do not assume the singer’s stage name proves a universal Igor origin or treat uncertain ignis as verified. |
 | LV | Higo | Unverified hypothesis | 1 | Inspect the original Siliņš p. 156 and search LV-LVA/LV-PERIODIKA for an explicit exact Higo/Hugo correspondence. The catalogue only proposes it and has no usable dated Higo record; neither Hugo dates nor a normalized Igo lookup resolve this spelling. |
-| LT | Gilvilė | Unverified hypothesis |  | Inspect an exact etymological entry in LT-VLKK/LT-LKI or Kuzavinis/Savukynas, resolving popular gilus versus Salys’s gilti/gildyti analysis for related Gilvilas. Salys PDF p. 317 / printed p. 302 verifies exact Gilvilė (Gilva) on 17 November in the 1964 calendar only. PDF p. 288 / printed p. 273 supplies the competing Gil- analysis; keep that male-form scope. The 1994 LKI article download 1463/1557 is a further uninspected lead, not proof. |
-| EE | Heinar | Unverified hypothesis | 270 | Find an exact signed EE-EKI/EE-ETERA/EE-DIGAR explanation of Heinar versus Einar. User-submitted variants and shared name-day lists do not prove derivation. The ETERA download 22289 lead returned 404; its snippet was not used. The opened Emajõe Suveteater Heinari tähetund description proves a fictional Heinar usage, not etymology. |
-| EE | Ainari | Needs research | < 5 | Search exact Ainari in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name study. The opened secondary Neanky page supplies calendar membership and a zero-or-under-five count only. Statistics Estonia’s name-day list uses Einari, not Ainari. Preserve the supplied spelling/date and record the discrepancy; do not invent a variant bridge from resemblance or import Einar roots. |
+| LT | Gilvilė | Unverified hypothesis |  | Open vardai.vlkk.lt manually or the printed Kuzavinis–Savukynas dictionary for Gilvilė; resolve gilus versus gilti/gildyti. |
+| EE | Ainari | Needs research | < 5 | Check Mägiste 1936 and the EKI name database for exact Ainari; Rajandi 1966 has Ainar (Latvian loan) only. |
 
 ### 18 November
 
@@ -109,13 +106,12 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 | LV | Alesandrs | Unverified hypothesis | 1 | Find an explicit Alesandrs/Aleksandrs correspondence in LV-LVA manuals or a signed historical naming study. Catalogue p. 49 gives Aleksandrs rather than exact Alesandrs. Exact LVA query returned no entries. Missing k cannot be silently normalized away; Greek-family comparison remains unverified. |
 | LV | Brīvīte | Unverified hypothesis |  | Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for exact Brīvīte and a documented derivation from Brīva or a lexical base. Catalogue leaves exact origin unresolved. LV-LVA query returned no entries. Do not transfer Brīva dates or treat a plausible diminutive as proved. |
 | LV | Zandars | Unverified hypothesis |  | Inspect Siliņš pp. 334/283 and seek an exact Zandars/Zanders correspondence in LV-LVA/LV-LAVI/LV-PERIODIKA. Catalogue establishes Zanders/Sanderss, not exact Zandars. Exact LVA query returned no entries. Do not transfer Zanders’s 1783 calendar date or nineteenth-century personal record. |
-| EE | Ilu | Unverified hypothesis | < 5 | Seek exact Ilu in EE-EKI/EE-ETERA/EE-DIGAR or a signed name study. Mägiste PDF p. 15 has Ilo, then Ilts-u, not Ilu. Common-word ilu beauty and Ilo’s dictionary derivation support a comparison only; they do not prove exact Ilu. Exact Wiktionary Ilu returned 404; EKI direct fetch returned 403. Do not import Finnish joy, Ilo’s feminine-list record, or its population counts. |
 
 ### 19 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Beta | Unverified hypothesis | 44 | Inspect original Siliņš p. 82 and seek an exact LV-LAVI/LV-PERIODIKA explanation choosing between Beāte and Bete/Elizabete. Keep both alternatives; unrelated Greek-letter beta and user-submitted entries do not resolve the personal name. |
+| LV | Beta | Unverified hypothesis | 44 | Find a signed LV-LAVI or LV-PERIODIKA discussion of Latvian Beta (e.g. 1920s Riga bearer records) that states whether it was formed from Beāte or from Bete/Elizabete; Beth → Beta covers only the English rendering. |
 | LV | Elīzabete | Unverified hypothesis | 23 | Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabete. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics. |
 | LV | Eba | Unverified hypothesis | 7 | Inspect original Siliņš p. 105 and seek an exact explanation choosing between Elizabete and Eber- affectionate forms in LV-LAVI/LV-PERIODIKA. Scandinavian Ebba is only a comparison and cannot resolve Latvian single-b Eba by resemblance. |
 | LV | Elizavete | Unverified hypothesis | 5 | Find an explicit exact Elizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
@@ -127,196 +123,112 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 | LV | Līziņa | Unverified hypothesis | 1 | Find exact Līziņa and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved. |
 | LV | Jeļizabeta | Unverified hypothesis |  | Find an explicit exact Jeļizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
 | LV | Jeļizavete | Unverified hypothesis |  | Find an explicit exact Jeļizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| LV | Lize | Unverified hypothesis |  | Find exact Lize and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved. |
+| LV | Lize | Unverified hypothesis |  | Seek an exact short-i Lize in LV-PERIODIKA bearer records or a rendering manual; long-ī Līze/Līse rows (German Lise/Liese) must not be transferred. |
 | LT | Rimgaudė | Unverified hypothesis |  | Find an exact authoritative etymology in LT-VLKK/LT-LKI or Kuzavinis/Savukynas that resolves gaudus sound versus gauti/gaudyti. LT-GUIDE gives rimti/ramintis + gaudus; visually checked Salys PDF p. 287 / printed p. 272 explains general Gaud- through gauti, compare (su)gaudinti. It lists Ringaudas, not Rimgaudė; do not silently equate Ringaudas/Rimgaudas or transfer the male Rimgaudas dictionary record to this form. Guide date is 28 November, unlike project 19 November; preserve supplied date. No secure whole-name translation yet. |
 
 ### 20 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Anda | Short factual summary | 2980 |  |
-| LV | Vigo | Short factual summary | 161 |  |
-| LV | Andīna | Short factual summary | 47 |  |
-| LV | Andija | Short factual summary | 16 |  |
-| LV | Vīgants | Early record only | 12 |  |
-| LV | Vigars | Short factual summary | 7 |  |
-| LV | Vigita | Short factual summary | 7 |  |
-| LV | Nanda | Short factual summary | 6 |  |
-| LV | Andīne | Short factual summary | 4 |  |
-| LV | Vigija | Short factual summary | 4 |  |
-| LV | Vigeta | Short factual summary | 3 |  |
-| LV | Vigilija | Short factual summary | 3 |  |
-| LV | Andina | Short factual summary | 2 |  |
-| LV | Viga | Short factual summary | 2 |  |
-| LV | Vigda | Early record only | 2 |  |
-| LV | Vīgo | Needs research | 2 |  |
-| LV | Vīga | Short factual summary | 1 |  |
-| LV | Vigelijs | Needs research | 1 |  |
-| LV | Viģīlija | Short factual summary | 1 |  |
-| LV | Vigilijs | Short factual summary |  |  |
-| LT | Feliksas | Short factual summary |  |  |
-| LT | Jovydas | Short factual summary |  |  |
-| LT | Laimis | Short factual summary |  |  |
-| LT | Vaidvilė | Short factual summary |  |  |
-| LT | Vaidvitė | Needs research |  |  |
-| EE | Helmut | Needs research | 179 |  |
-| EE | Helmer | Needs research | 19 |  |
-| EE | Helmo | Needs research | 19 |  |
-| EE | Helmu | Needs research | 7 |  |
-| EE | Helmar | Needs research | < 5 |  |
-| EE | Helmur | Needs research | < 5 |  |
+| LV | Anda | Unverified hypothesis | 2980 | Search LV-LAVI (Balode/Siliņa-Piņķe new-dictionary work, LV-ALL93/LV-LILE24) and LV-PERIODIKA for a 1920s explanation of Anda; check whether the 1889 calendar entry itself glosses the name. |
+| LV | Andīna | Unverified hypothesis | 47 | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīna spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| LV | Andija | Unverified hypothesis | 16 | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andija spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| LV | Vīgants | Unverified hypothesis | 12 | Inspect original Siliņš p. 324 and seek an exact scholarly account choosing or delimiting Lithuanian vyti/ginti/ganyti versus Germanic wigand. Preserve Allaži 1638 and calendar 1767 independently. Exact LVA query returned no word entries; curated Wigand/Vygantas alone does not resolve every Latvian Vīgants route. |
+| LV | Vigars | Unverified hypothesis | 7 | Inspect original Siliņš p. 324 and find an exact Vigars/Wighard correspondence in LV-LAVI/LV-LVA. The Wighard question mark is unresolved; keep wīg/hart as comparison only. Preserve the separate Preiļi third-quarter-twentieth-century record. Exact LVA search returned no word entries. |
+| LV | Vigita | Unverified hypothesis | 7 | Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Viga/Ligita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries. |
+| LV | Nanda | Unverified hypothesis | 6 | Seek an explicit Latvian Nanda bridge in LV-LAVI/LV-PERIODIKA or an exact rendering manual. LV-SILINS p. 245 points towards Nana without establishing Nanda. Curated Sanskrit Nanda joy is independently documented internationally, not automatically Latvian. LVA returned Fernanda variants rather than exact Nanda. |
+| LV | Andīne | Unverified hypothesis | 4 | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīne spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| LV | Vigija | Unverified hypothesis | 4 | Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigilija; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries. |
+| LV | Vigeta | Unverified hypothesis | 3 | Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries. |
+| LV | Andina | Unverified hypothesis | 2 | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andina spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| LV | Vigda | Unverified hypothesis | 2 | Inspect original Siliņš p. 324 and verify its questioned Vigdis reference, including the dictionary’s masculine label versus international feminine Vigdis. Do not silently replace the source’s grammatical scope. Preserve Vigda 1936 as usage only; exact LVA returned no word entries. |
+| LV | Vīgo | Unverified hypothesis | 2 | Find an explicit exact Vīgo correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| LV | Vīga | Unverified hypothesis | 1 | Find an explicit exact Vīga correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| LV | Vigelijs | Needs research | 1 | Search exact Vigelijs in LV-LAVI/LV-PERIODIKA and original Siliņš/name-rendering references. Exact catalogue page supplies no origin text or citation and LVA has no word-entry links. A resemblance to Vigilijs/Vigilija is not enough to manufacture a proposal. Keep ordinary missing-history UI and an open unverified record. |
+| LV | Viģīlija | Unverified hypothesis | 1 | Find an explicit exact Viģīlija correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| LV | Vigilijs | Unverified hypothesis |  | Find an explicit exact Vigilijs correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| LT | Vaidvitė | Needs research |  | Search exact Vaidvitė in LT-VLKK/LT-LKI and original Kuzavinis/Savukynas, then check the supplied calendar source. Exact LT-GUIDE returned 404 and general exact search found no usable origin. The Sirena 2015 newspaper says Vaidvilė, not Vaidvitė; neither that date nor the similar spelling proves a variant. Preserve the supplied 20 November membership and ordinary missing-history UI. |
+| EE | Helmu | Unverified hypothesis | 7 | Search EE-RAJANDI66 Lisanimestik and Mägiste 1936 (cited by Rajandi) for exact Helmu; keep Helmut/Helmo comparison open. |
+| EE | Helmur | Unverified hypothesis | < 5 | Find a later signed Estonian source (EE-EKI name bibliography, Mägiste 1936) that chooses between Rajandi's Helmut and Elmar placements for Helmur. |
 
 ### 21 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Zlata | Short factual summary | 542 |  |
-| LV | Zeltīte | Short factual summary | 345 |  |
-| LV | Ando | Short factual summary | 22 |  |
-| LV | Andijs | Short factual summary | 19 |  |
-| LV | Andars | Needs research | 8 |  |
-| LV | Zelta | Short factual summary | 5 |  |
-| LV | Vilfrīds | Short factual summary | 4 |  |
-| LV | Vigors | Needs research | 3 |  |
-| LV | Vigra | Needs research | 2 |  |
-| LV | Vigurds | Short factual summary | 2 |  |
-| LV | Vilibalds | Short factual summary | 2 |  |
-| LV | Andejs | Needs research | 1 |  |
-| LV | Zeltiņa | Short factual summary | 1 |  |
-| LV | Vigorts | Short factual summary |  |  |
-| LV | Vilfrida | Short factual summary |  |  |
-| LV | Viliberts | Short factual summary |  |  |
-| LT | Alberta | Short factual summary |  |  |
-| LT | Eibartė | Short factual summary |  |  |
-| LT | Girenė | Short factual summary |  |  |
-| LT | Gomantas | Short factual summary |  |  |
-| LT | Honoratas | Short factual summary |  |  |
-| LT | Honorijus | Short factual summary |  |  |
-| LT | Norgaudas | Short factual summary |  |  |
-| EE | Pilvi | Short factual summary | 327 |  |
-| EE | Pilve | Short factual summary | 26 |  |
+| LV | Andars | Needs research | 8 | Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling. |
+| LV | Vigors | Unverified hypothesis | 3 | Find an explicit dictionary or historical rendering bridge for exact Vigors. |
+| LV | Vigra | Needs research | 2 | Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling. |
+| LV | Vigurds | Unverified hypothesis | 2 | Inspect original p.325 and historical German forms to resolve the marked question. |
+| LV | Andejs | Needs research | 1 | Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling. |
+| LV | Zeltiņa | Unverified hypothesis | 1 | Find an explicit personal-name entry or rendering for exact Zeltiņa. |
+| LV | Vigorts | Unverified hypothesis |  | Find an explicit exact-form correspondence in original dictionary or dated registration evidence. |
+| LV | Vilfrida | Unverified hypothesis |  | Find an explicit feminine rendering or dictionary entry for unaccented Vilfrida. |
+| LT | Girenė | Unverified hypothesis |  | Find an exact Girenė analysis. |
+| LT | Gomantas | Unverified hypothesis |  | Follow Pakerys’s LVKŽ and Zinkevičius references and inspect competing go-/mant- analyses. |
+| LT | Norgaudas | Unverified hypothesis |  | Find a scholarly element analysis for Norgaudas. |
 
 ### 22 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Alfons | Short factual summary | 179 |  |
-| LV | Alfonss | Short factual summary | 16 |  |
-| LV | Aldris | Needs research | 7 |  |
-| LV | Vilora | Needs research | 5 |  |
-| LV | Aldra | Short factual summary | 3 |  |
-| LV | Vilonija | Short factual summary | 1 |  |
-| LV | Aldijs | Needs research |  |  |
-| LV | Alfins | Short factual summary |  |  |
-| LV | Alfonija | Short factual summary |  |  |
-| LT | Cecilija | Short factual summary |  |  |
-| LT | Cilė | Short factual summary |  |  |
-| LT | Dargintė | Needs research |  |  |
-| LT | Laimutis | Short factual summary |  |  |
-| LT | Steigintas | Needs research |  |  |
-| EE | Silja | Short factual summary | 657 |  |
-| EE | Sille | Needs research | 480 |  |
-| EE | Säsil | Needs research | 47 |  |
-| EE | Silje | Needs research | 47 |  |
-| EE | Cecilia | Needs research | 21 |  |
+| LV | Aldris | Needs research | 7 | Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone. |
+| LV | Aldra | Unverified hypothesis | 3 | Inspect original Aldr/a,-e p48 and historical lexical evidence for alderīgs; resolve the questioned alternatives. |
+| LV | Aldijs | Needs research |  | Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone. |
+| LV | Alfins | Unverified hypothesis |  | Inspect original p50 and find an explicit short-i/long-ī given-name rendering or historical paired record. |
+| LV | Alfonija | Unverified hypothesis |  | Inspect p50 and the underlying Bgr. record; resolve the feminine reference and the competing first-stem explanations. |
+| LT | Dargintė | Unverified hypothesis |  | Follow the exact Dargintė references LVEŽ69/CA102/VKn75/VKat4 and inspect original first-stem analysis. |
+| LT | Steigintas | Unverified hypothesis |  | Inspect exact Steigintas in authoritative dictionary and establish an explicit Steigintas/Steikintas bridge if one exists. |
+| EE | Säsil | Unverified hypothesis | 47 | Find an Estonian name dictionary (Seppo 1994, EE-EKI bibliography) with an exact Säsil entry and its Cécile/Cecilia bridge. |
 
 ### 23 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Zigrīda | Short factual summary | 1119 |  |
-| LV | Zigrida | Short factual summary | 37 |  |
-| LV | Zigfrīda | Short factual summary | 20 |  |
-| LV | Sigrīda | Short factual summary | 13 |  |
-| LV | Zigrīds | Short factual summary | 8 |  |
-| LV | Sigrija | Short factual summary | 7 |  |
-| LV | Sigruna | Short factual summary | 3 |  |
-| LV | Sigrūna | Short factual summary | 3 |  |
-| LV | Ziga | Short factual summary | 3 |  |
-| LV | Zigda | Short factual summary | 3 |  |
-| LV | Zigra | Short factual summary | 3 |  |
-| LV | Zigrita | Short factual summary | 3 |  |
-| LV | Sigurnija | Needs research | 1 |  |
-| LV | Zigfrida | Short factual summary | 1 |  |
-| LV | Zigvija | Needs research | 1 |  |
-| LV | Zigrids | Short factual summary |  |  |
-| LT | Doviltas | Short factual summary |  |  |
-| LT | Felicita | Short factual summary |  |  |
-| LT | Klemensas | Short factual summary |  |  |
-| LT | Kolumbas | Needs research |  |  |
-| LT | Liubartė | Needs research |  |  |
-| LT | Orestas | Short factual summary |  |  |
-| EE | Leemet | Short factual summary | 22 |  |
-| EE | Kleemet | Needs research | < 5 |  |
-| EE | Leemo | Needs research | < 5 |  |
+| LV | Zigrida | Unverified hypothesis | 37 | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| LV | Zigrīds | Unverified hypothesis | 8 | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| LV | Sigrija | Unverified hypothesis | 7 | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| LV | Sigrūna | Unverified hypothesis | 3 | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| LV | Zigda | Unverified hypothesis | 3 | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| LV | Zigra | Unverified hypothesis | 3 | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| LV | Zigrita | Unverified hypothesis | 3 | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| LV | Sigurnija | Unverified hypothesis | 1 | Trace the surname/place etymology through authoritative records and seek an exact Latvian given-name history; keep the confirmed film rendering distinct from any universal naming claim. |
+| LV | Zigfrida | Unverified hypothesis | 1 | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| LV | Zigvija | Needs research | 1 | Inspect original p338 and seek exact given-name records or an explicit onomastic explanation; do not manufacture a Zig- compound from spelling. |
+| LV | Zigrids | Unverified hypothesis |  | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
 
 ### 24 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Velta | Short factual summary | 2790 |  |
-| LV | Velda | Short factual summary | 19 |  |
-| LV | Velita | Short factual summary | 10 |  |
-| LV | Velards | Short factual summary | 6 |  |
-| LV | Veldra | Needs research | 4 |  |
-| LV | Vīne | Needs research | 2 |  |
-| LV | Viners | Needs research | 1 |  |
-| LV | Velte | Short factual summary |  |  |
-| LV | Veltija | Short factual summary |  |  |
-| LV | Vīna | Needs research |  |  |
-| LV | Vinārs | Needs research |  |  |
-| LT | Gerardas | Short factual summary |  |  |
-| LT | Mantvinas | Short factual summary |  |  |
-| LT | Žybartė | Needs research |  |  |
-| EE | Ustav | Needs research | 8 |  |
-| EE | Ustus | Needs research | < 5 |  |
+| LV | Velda | Unverified hypothesis | 19 | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| LV | Velita | Unverified hypothesis | 10 | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| LV | Vīne | Needs research | 2 | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| LV | Viners | Needs research | 1 | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| LV | Velte | Unverified hypothesis |  | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| LV | Veltija | Unverified hypothesis |  | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| LV | Vīna | Needs research |  | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| LV | Vinārs | Needs research |  | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| LT | Mantvinas | Unverified hypothesis |  | Inspect scholarly exact-name mant-/vin- analyses and dictionary references; retain the dated usage separately. |
 
 ### 25 November
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Keita | Short factual summary | 3105 |  |
-| LV | Kate | Short factual summary | 2221 |  |
-| LV | Jekaterīna | Short factual summary | 1066 |  |
-| LV | Ketija | Short factual summary | 727 |  |
-| LV | Katerina | Short factual summary | 515 |  |
-| LV | Keitija | Short factual summary | 512 |  |
-| LV | Katrīne | Short factual summary | 497 |  |
-| LV | Katerīna | Short factual summary | 166 |  |
-| LV | Ketrīna | Short factual summary | 144 |  |
-| LV | Kadrija | Short factual summary | 109 |  |
-| LV | Ketrina | Short factual summary | 65 |  |
-| LV | Keitlina | Short factual summary | 59 |  |
-| LV | Trīne | Short factual summary | 47 |  |
-| LV | Katalīna | Short factual summary | 37 |  |
-| LV | Keta | Short factual summary | 34 |  |
-| LV | Katažina | Short factual summary | 26 |  |
-| LV | Katrine | Short factual summary | 19 |  |
-| LV | Katija | Short factual summary | 16 |  |
-| LV | Kecija | Needs research | 12 |  |
-| LV | Kadija | Needs research | 11 |  |
-| LV | Trīna | Short factual summary | 11 |  |
-| LV | Katri | Short factual summary | 9 |  |
-| LV | Kēta | Short factual summary | 7 |  |
-| LV | Katriona | Short factual summary | 6 |  |
-| LV | Katre | Short factual summary | 5 |  |
-| LV | Kēte | Short factual summary | 5 |  |
-| LV | Ketrija | Short factual summary | 4 |  |
-| LV | Katiņa | Short factual summary | 2 |  |
-| LV | Kete | Short factual summary | 2 |  |
-| LV | Ketri | Needs research | 1 |  |
-| LV | Katra | Short factual summary |  |  |
-| LT | Germilė | Short factual summary |  |  |
-| LT | Santautas | Short factual summary |  |  |
-| EE | Kadi | Needs research | 1678 |  |
-| EE | Triinu | Short factual summary | 1307 |  |
-| EE | Kati | Needs research | 1237 |  |
-| EE | Katre | Short factual summary | 659 |  |
-| EE | Katri | Short factual summary | 508 |  |
-| EE | Kaarin | Short factual summary | 151 |  |
-| EE | Kadrin | Needs research | 43 |  |
-| EE | Kari | Needs research | 42 |  |
-| EE | Triina | Needs research | 27 |  |
+| LV | Ketrīna | Unverified hypothesis | 144 | Find a long-ī Ketrīna in a rendering manual or dated Latvian record; the short-i Ketrina rows (Kathryn/Katrine/Katherine) must not be transferred without an explicit bridge. |
+| LV | Katalīna | Unverified hypothesis | 37 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Katrine | Unverified hypothesis | 19 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Kecija | Unverified hypothesis | 12 | Open the Skulte 1999 dissertation pp. 39 and 158 (LU library) or a dated Latvian Bible edition to confirm the exact unpalatalised Kecija spelling. |
+| LV | Kadija | Unverified hypothesis | 11 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Trīna | Unverified hypothesis | 11 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Katri | Unverified hypothesis | 9 | Find an LVA Finnish/Estonian Katri → Katri row or a dated Latvian bearer explicitly tied to the Finnish/Estonian form. |
+| LV | Kēta | Unverified hypothesis | 7 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Katriona | Unverified hypothesis | 6 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Katre | Unverified hypothesis | 5 | Find a Latvian rendering of Estonian Katre (LVA Estonian-name manual) or a dated Latvian bearer explicitly tied to the Estonian form. |
+| LV | Ketrija | Unverified hypothesis | 4 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Katiņa | Unverified hypothesis | 2 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Kete | Unverified hypothesis | 2 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| LV | Ketri | Unverified hypothesis | 1 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| EE | Kari | Unverified hypothesis | 42 | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
 
 ## Priority 1: started in earlier rounds
 
@@ -326,57 +238,287 @@ These names were examined but not written, usually because only a meaning was fo
 
 | Name | Now shows | Bearers | Why open | Next step |
 | --- | --- | --- | --- | --- |
-| Jevģēnija | Unverified hypothesis | 121 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Igo | Unverified hypothesis | 104 | The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage. | Inspect original Siliņš pp. 158/156 and seek a signed LV-LAVI or LV-PERIODIKA account resolving Hugo versus the questioned Ignāts route. Preserve the first-quarter-of-twentieth-century record independently. Do not assume the singer’s stage name proves a universal Igor origin or treat uncertain ignis as verified. |
-| Jevģenijs | Unverified hypothesis | 86 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Jevgēņija | Unverified hypothesis | 50 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevgēņija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Beta | Unverified hypothesis | 44 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Inspect original Siliņš p. 82 and seek an exact LV-LAVI/LV-PERIODIKA explanation choosing between Beāte and Bete/Elizabete. Keep both alternatives; unrelated Greek-letter beta and user-submitted entries do not resolve the personal name. |
-| Aleksandris | Unverified hypothesis | 33 | The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Aleksandris/Aleksandrs correspondence in LV-LVA manuals or a signed LV-LAVI/LV-PERIODIKA discussion. Catalogue page 49 explains Aleksandrs, not Aleksandris. Exact LVA query returned no entries, not proof of nonexistence. Keep Greek-family comparison unverified; do not import Aleksandrs dates. |
-| Jevģenija | Unverified hypothesis | 30 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Elīzabete | Unverified hypothesis | 23 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabete. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics. |
-| Landa | Unverified hypothesis | 15 | The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step. | Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified. |
-| Viāna | Unverified hypothesis | 13 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Viāna as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| Evgenijs | Unverified hypothesis | 10 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Eugenijs | Unverified hypothesis | 8 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Eugenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. Do not reuse the misleading 1961-manual search snippet: its actual row is Euģenijus, not Eugenijs. |
-| Eba | Unverified hypothesis | 7 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Inspect original Siliņš p. 105 and seek an exact explanation choosing between Elizabete and Eber- affectionate forms in LV-LAVI/LV-PERIODIKA. Scandinavian Ebba is only a comparison and cannot resolve Latvian single-b Eba by resemblance. |
-| Vincentina | Unverified hypothesis | 7 | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Find an exact unaccented Vincentina rendering or etymology entry through LV-LVA and the original dictionary. The normalized lookup inherits Vincentīna’s record, so retain that record’s attested macron and do not claim 1877 for Vincentina. |
-| Elizavete | Unverified hypothesis | 5 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Elizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Undis | Unverified hypothesis | 5 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Find an exact Latvian masculine entry through LV-LAVI, LV-LVA and historical records. INT-SNL explains Norwegian feminine Undis, coined in 1897 from Unn/dis; it is a homonym and does not establish Latvian origin or date. Unis in the Una entry is a different spelling. |
-| Vidards | Unverified hypothesis | 5 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vidards as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| Jevženija | Unverified hypothesis | 4 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevženija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Undina | Unverified hypothesis | 4 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Find an exact short-i rendering or historical original through LV-LVA/LV-PERIODIKA. The normalized lookup inherits Undīna/-e and its 1922 Riga record; keep the attested macron and do not claim that date for Undina. |
-| Brīve | Unverified hypothesis | 3 | The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for an exact personal-name explanation. Catalogue leaves origin unresolved and only refers to Brīva. LV-EPUPA establishes common-word brīve history, not the personal name. Exact LV-LVA query returned no entries; this is not proof of nonexistence. Seek an explicit derivation before promoting the freedom comparison. |
-| Elīzabeta | Unverified hypothesis | 3 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabeta. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics. |
-| Elzabeta | Unverified hypothesis | 3 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Elzabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Jelizabeta | Unverified hypothesis | 3 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Jelizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Jelizavete | Unverified hypothesis | 3 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Jelizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Landijs | Unverified hypothesis | 3 | The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step. | Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope. |
-| Undija | Unverified hypothesis | 3 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Search LV-LVA, LV-LAVI and LV-PERIODIKA for an exact etymology or explicitly documented variant. The exact catalogue entry lacks an explanation; similarity to Unda does not establish derivation or inherited dates. A publisher sample credit for Undija Ancēna is an uninspected usage lead only. |
-| Vikars | Unverified hypothesis | 3 | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified. |
-| Evģenijs | Unverified hypothesis | 2 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Evģēnijs | Unverified hypothesis | 2 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Undalgs | Unverified hypothesis | 2 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Inspect the original dictionary and LV-LAVI/LV-PERIODIKA naming discussions for an exact explanation. The State Audit Office participant paragraph proves use of Undalgs Mētra but no origin; an Unda/Und- comparison remains unverified. |
-| Vidarts | Unverified hypothesis | 2 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vidarts as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| Alesandrs | Unverified hypothesis | 1 | The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit Alesandrs/Aleksandrs correspondence in LV-LVA manuals or a signed historical naming study. Catalogue p. 49 gives Aleksandrs rather than exact Alesandrs. Exact LVA query returned no entries. Missing k cannot be silently normalized away; Greek-family comparison remains unverified. |
-| Elizbete | Unverified hypothesis | 1 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Elizbete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Euģēnijs | Unverified hypothesis | 1 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Evgēnijs | Unverified hypothesis | 1 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Fridriha | Unverified hypothesis | 1 | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Search LV-LVA German/Russian feminine-name tables and LV-PERIODIKA for an exact Fridriha correspondence; do not mistake a masculine genitive Fridriha for an independently recorded feminine name. |
-| Higo | Unverified hypothesis | 1 | The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage. | Inspect the original Siliņš p. 156 and search LV-LVA/LV-PERIODIKA for an explicit exact Higo/Hugo correspondence. The catalogue only proposes it and has no usable dated Higo record; neither Hugo dates nor a normalized Igo lookup resolve this spelling. |
-| Jevžēnija | Unverified hypothesis | 1 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevžēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Leopoldina | Unverified hypothesis | 1 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Find an exact Latvian feminine correspondence through LV-LVA or a signed onomastic study; inspect Siliņš originals and LV-PERIODIKA. Behind the Name’s Leopoldina result is user-submitted and Duden’s is an academy, not sufficient proof. Do not transfer Leopolds dates. |
-| Līziņa | Unverified hypothesis | 1 | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find exact Līziņa and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved. |
-| Undita | Unverified hypothesis | 1 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited. |
-| Vianda | Unverified hypothesis | 1 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vianda as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| Brīvīte | Unverified hypothesis |  | The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for exact Brīvīte and a documented derivation from Brīva or a lexical base. Catalogue leaves exact origin unresolved. LV-LVA query returned no entries. Do not transfer Brīva dates or treat a plausible diminutive as proved. |
-| Euģenijs | Unverified hypothesis |  | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
-| Ganda | Needs research |  | No sufficient origin evidence or defensible hypothesis was found; retain the standard missing-history display and an open research record. | Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one. |
-| Jeļizabeta | Unverified hypothesis |  | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Jeļizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Jeļizavete | Unverified hypothesis |  | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an explicit exact Jeļizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
-| Lize | Unverified hypothesis |  | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find exact Lize and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved. |
-| Vicenta | Unverified hypothesis |  | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Inspect the original Siliņš pp. 323/328 and an authoritative exact Vicenta entry. The catalogue’s tentative Vicents/Vincentīna pointer does not establish a clear exact-form derivation; do not import their dates. |
-| Vidavs | Unverified hypothesis |  | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vidavs as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
-| Zandars | Unverified hypothesis |  | The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Inspect Siliņš pp. 334/283 and seek an exact Zandars/Zanders correspondence in LV-LVA/LV-LAVI/LV-PERIODIKA. Catalogue establishes Zanders/Sanderss, not exact Zandars. Exact LVA query returned no entries. Do not transfer Zanders’s 1783 calendar date or nineteenth-century personal record. |
+| Anda | Unverified hypothesis | 2980 | Research pass completed; labelled hypothesis remains open in the backlog. | Search LV-LAVI (Balode/Siliņa-Piņķe new-dictionary work, LV-ALL93/LV-LILE24) and LV-PERIODIKA for a 1920s explanation of Anda; check whether the 1889 calendar entry itself glosses the name. |
+| Hanna | Unverified hypothesis | 1432 | Research pass completed; unresolved origin remains in backlog. | Decide whether a two-route history (Hannah and Johanna, both Hebrew ‘grace’ roots) is acceptable; if so, write with Siliņš date and agency rows. |
+| Arta | Unverified hypothesis | 1399 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a Latvian source choosing one route for Arta. |
+| Snežana | Unverified hypothesis | 216 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Obtain a dated exact-form Snežana episode (Latvian bearer or clearly labelled foreign institutional biography) and decide the Latvian route. |
+| Sniedze | Unverified hypothesis | 209 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a Latvian source deriving the bird name and adjudicating the personal name. |
+| Alena | Unverified hypothesis | 189 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Open behindthename.com/name/alena-1 and find an LVA Czech/Belarusian row for exact Alena. |
+| Ignats | Unverified hypothesis | 154 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an explicit Latvian source for short-a Ignats (Siliņš p. 158 scan, Latgalian sources) and a dated exact-form bearer. |
+| Nikija | Unverified hypothesis | 147 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Look for Greek/English Nikki/Nikia renderings in LVA; keep Nika comparison labelled. |
+| Ketrīna | Unverified hypothesis | 144 | Research pass completed; labelled hypothesis remains open in the backlog. | Find a long-ī Ketrīna in a rendering manual or dated Latvian record; the short-i Ketrina rows (Kathryn/Katrine/Katherine) must not be transferred without an explicit bridge. |
+| Ieviņa | Unverified hypothesis | 121 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an explicit Latvian statement that Ieviņa is a diminutive of Ieva and which Ieva sense applies. |
+| Jevģēnija | Unverified hypothesis | 121 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Artēmijs | Unverified hypothesis | 108 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an explicit source for the long-ē spelling Artēmijs. |
+| Igo | Unverified hypothesis | 104 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect original Siliņš pp. 158/156 and seek a signed LV-LAVI or LV-PERIODIKA account resolving Hugo versus the questioned Ignāts route. Preserve the first-quarter-of-twentieth-century record independently. Do not assume the singer’s stage name proves a universal Igor origin or treat uncertain ignis as verified. |
+| Meta | Unverified hypothesis | 99 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a Latvian source deciding the base. |
+| Jevģenijs | Unverified hypothesis | 86 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Andrians | Unverified hypothesis | 64 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact short-a Andrians rendering or dictionary record. |
+| Andrējs | Unverified hypothesis | 54 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact long-ē Andrējs record. |
+| Jevgēņija | Unverified hypothesis | 50 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevgēņija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Ļusja | Unverified hypothesis | 48 | Research pass completed; unresolved origin remains in backlog. | Keep as a multi-base hypocoristic unless a source licenses describing it as such. |
+| Manefa | Unverified hypothesis | 48 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an etymological source for Russian Манефа (e.g. Superanskaya or an Orthodox calendar dictionary) and an LVA rendering record. |
+| Andīna | Unverified hypothesis | 47 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīna spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| Beta | Unverified hypothesis | 44 | Research pass completed; labelled hypothesis remains open in the backlog. | Find a signed LV-LAVI or LV-PERIODIKA discussion of Latvian Beta (e.g. 1920s Riga bearer records) that states whether it was formed from Beāte or from Bete/Elizabete; Beth → Beta covers only the English rendering. |
+| Ņika | Unverified hypothesis | 39 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Check Russian Ника rendering rules (Grabis/Porīte 1993) for any Ņika form. |
+| Katalīna | Unverified hypothesis | 37 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Zigrida | Unverified hypothesis | 37 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| Alvina | Unverified hypothesis | 35 | Research pass completed; unresolved origin remains in backlog. | Inspect the Ukrainian manual (Hansons & Poļakova 2023) row Альвіна→*Alvina to see what the asterisk means. |
+| Aleksandris | Unverified hypothesis | 33 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an explicit exact Aleksandris/Aleksandrs correspondence in LV-LVA manuals or a signed LV-LAVI/LV-PERIODIKA discussion. Catalogue page 49 explains Aleksandrs, not Aleksandris. Exact LVA query returned no entries, not proof of nonexistence. Keep Greek-family comparison unverified; do not import Aleksandrs dates. |
+| Vitnija | Unverified hypothesis | 32 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an LVA given-name row for English Whitney or a dated Latvian bearer. |
+| Sniedzīte | Unverified hypothesis | 31 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Resolve Sniedze first. |
+| Jevģenija | Unverified hypothesis | 30 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Jugita | Unverified hypothesis | 30 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Look for Jugita in the planned new Latvian given-name dictionary (Balode/Siliņa-Piņķe) or LVA consultations; keep comparison labelled. |
+| Lelda | Unverified hypothesis | 27 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an explicit Lelda < Lelde statement. |
+| Sņežanna | Unverified hypothesis | 27 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact Sņežanna record. |
+| Antonida | Unverified hypothesis | 24 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find an exact short-i record (Russian Антонида rendering) before writing. |
+| Kristans | Unverified hypothesis | 24 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Kristans attestation or explicit spelling bridge to Kristiāns. |
+| Lusija | Unverified hypothesis | 24 | Research pass completed; unresolved origin remains in backlog. | Decide whether to write the modern Lucia-family rendering while explicitly scoping the 1922 Lisija alternative; otherwise find what Lisija means. |
+| Elīzabete | Unverified hypothesis | 23 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabete. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics. |
+| Andrijans | Unverified hypothesis | 21 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an LVA given-name row Андриян → Andrijans. |
+| Sabine | Unverified hypothesis | 21 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search LVA for a row rendering any source name as short-i Sabine; otherwise keep labelled. |
+| Junna | Unverified hypothesis | 20 | Research pass completed; unresolved origin remains in backlog. | Find exact Junna record. |
+| Katrine | Unverified hypothesis | 19 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Snežanna | Unverified hypothesis | 19 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact Snežanna record. |
+| Velda | Unverified hypothesis | 19 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| Virginijs | Unverified hypothesis | 19 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Virginijs rendering or dictionary entry. |
+| Janika | Unverified hypothesis | 18 | Research pass completed; unresolved origin remains in backlog. | Find an agency or Latvian record of Estonian Janika→Janika. |
+| Emmanuels | Unverified hypothesis | 17 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Emmanuels record. |
+| Alvins | Unverified hypothesis | 16 | Research pass completed; unresolved origin remains in backlog. | Find a scholarly source for Portuguese Alvim or a Germanic Alwin→Alvins rendering row. |
+| Andija | Unverified hypothesis | 16 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andija spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| Imanuels | Unverified hypothesis | 16 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Inspect Siliņš p. 163 original. |
+| Alēna | Unverified hypothesis | 15 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Decide whether a multi-route explanation is acceptable or find which route Latvian bearers followed. |
+| Igita | Early record only | 15 | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Resolve the fnd. abbreviation from Siliņš’s abbreviation list (front matter). |
+| Landa | Unverified hypothesis | 15 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified. |
+| Igeta | Unverified hypothesis | 14 | Research pass completed; unresolved origin remains in backlog. | Find whether Latvian Igeta bearers predate the 1963 rendering (periodika.lv). |
+| Sabrīne | Unverified hypothesis | 14 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Check LVA French/English Sabrine/Sabrina rows; keep labelled. |
+| Gunefa | Unverified hypothesis | 13 | Research pass completed; unresolved origin remains in backlog. | Find a dated non-Siliņš Gunefa record (Latvian periodicals in periodika.lv) and a scholarly statement of the Gunefa←Genovefa sound change. |
+| Ildars | Early record only | 13 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Check a Tatar/Bashkir anthroponymic dictionary for Ildar/Ильдар and a Russian-rendering LVA row for Ильдар. |
+| Kristo | Unverified hypothesis | 13 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a Latvian source for Kristo as a given name (not surname) and its base. |
+| Viāna | Unverified hypothesis | 13 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-PERIODIKA and the planned new Latvian given-name dictionary (LV-ALL93 project) for exact Viāna; do not use Portuguese Viana → Vjana as a bridge. |
+| Vintra | Unverified hypothesis | 13 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Check Lithuanian sources for Vintaras and any Latvian bridge. |
+| Hanija | Unverified hypothesis | 12 | Research pass completed; unresolved origin remains in backlog. | Find a dated Hanija record showing which route a bearer used. |
+| Kecija | Unverified hypothesis | 12 | Research pass completed; labelled hypothesis remains open in the backlog. | Open the Skulte 1999 dissertation pp. 39 and 158 (LU library) or a dated Latvian Bible edition to confirm the exact unpalatalised Kecija spelling. |
+| Nords | Unverified hypothesis | 12 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search Periodika for a dated exact Nords given-name bearer, or the Siliņš scan for an attestation date. |
+| Vīgants | Unverified hypothesis | 12 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 324 and seek an exact scholarly account choosing or delimiting Lithuanian vyti/ginti/ganyti versus Germanic wigand. Preserve Allaži 1638 and calendar 1767 independently. Exact LVA query returned no word entries; curated Wigand/Vygantas alone does not resolve every Latvian Vīgants route. |
+| Kadija | Unverified hypothesis | 11 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Trīna | Unverified hypothesis | 11 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Evgenijs | Unverified hypothesis | 10 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Ilda | Unverified hypothesis | 10 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Check printed Siliņš p. 159 wording or another Latvian source for an explicit Ilda < Hilda statement. |
+| Velita | Unverified hypothesis | 10 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| Virgilijs | Unverified hypothesis | 10 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact masculine rendering such as Latin/Italian Virgilio or Lithuanian Virgilijus → Virgilijs. |
+| Voicehs | Unverified hypothesis | 10 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Voicehs ↔ Wojciech bridge. |
+| Emanuils | Unverified hypothesis | 9 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Emanuils rendering. |
+| Katri | Unverified hypothesis | 9 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an LVA Finnish/Estonian Katri → Katri row or a dated Latvian bearer explicitly tied to the Finnish/Estonian form. |
+| Nikolla | Unverified hypothesis | 9 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a given-name source for Nikolla; keep labelled. |
+| Olija | Unverified hypothesis | 9 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a source deciding the base name. |
+| Tots | Unverified hypothesis | 9 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a scholarly choice between the Timotejs and Thoth comparisons. |
+| Andars | Needs research | 8 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling. |
+| Eugenijs | Unverified hypothesis | 8 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Eugenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. Do not reuse the misleading 1961-manual search snippet: its actual row is Euģenijus, not Eugenijs. |
+| Kristars | Needs research | 8 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Search Latvian registry/press for Kristars and any onomastic note on -ars formations. |
+| Lucijans | Unverified hypothesis | 8 | Research pass completed; unresolved origin remains in backlog. | Search agency for Croatian/Slovene Lucijan→Lucijans. |
+| Meikuls | Unverified hypothesis | 8 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Same as Meikulis; do not transfer Meikols 1931. |
+| Zenona | Unverified hypothesis | 8 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a feminine Zenona rendering (Polish Zenona) in LVA. |
+| Zigrīds | Unverified hypothesis | 8 | Research pass completed; labelled hypothesis remains open in the backlog. | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| Aldris | Needs research | 7 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone. |
+| Eba | Unverified hypothesis | 7 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 105 and seek an exact explanation choosing between Elizabete and Eber- affectionate forms in LV-LAVI/LV-PERIODIKA. Scandinavian Ebba is only a comparison and cannot resolve Latvian single-b Eba by resemblance. |
+| Ēvisa | Unverified hypothesis | 7 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search LVA for an Ēvisa row; if none, keep the Evisa/Eva comparison labelled and do not transfer Evisa’s 1971 Mērsrags record. |
+| Immanuels | Unverified hypothesis | 7 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Immanuels record. |
+| Kēta | Unverified hypothesis | 7 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Nikolīna | Unverified hypothesis | 7 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a long-ī row or dictionary entry; do not transfer the short-i rendering. |
+| Odita | Unverified hypothesis | 7 | Research pass completed; unresolved origin remains in backlog. | Find an explicit statement that Odita is a variant of Odeta; Jelgava 1977 remains usage only. |
+| Sigrija | Unverified hypothesis | 7 | Research pass completed; labelled hypothesis remains open in the backlog. | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| Valdona | Unverified hypothesis | 7 | Research pass completed; unresolved origin remains in backlog. | Find the meaning of Valdonis in a scholarly source and whether Siliņš’s comparison implies derivation. |
+| Vigars | Unverified hypothesis | 7 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 324 and find an exact Vigars/Wighard correspondence in LV-LAVI/LV-LVA. The Wighard question mark is unresolved; keep wīg/hart as comparison only. Preserve the separate Preiļi third-quarter-twentieth-century record. Exact LVA search returned no word entries. |
+| Vigita | Unverified hypothesis | 7 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Viga/Ligita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries. |
+| Vincentina | Unverified hypothesis | 7 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an exact unaccented Vincentina rendering or etymology entry through LV-LVA and the original dictionary. The normalized lookup inherits Vincentīna’s record, so retain that record’s attested macron and do not claim 1877 for Vincentina. |
+| Hannija | Unverified hypothesis | 6 | Research pass completed; unresolved origin remains in backlog. | Resolve Hanna first. |
+| Jonita | Unverified hypothesis | 6 | Research pass completed; unresolved origin remains in backlog. | Find an explanation by the 1973 Preiļi name-givers or later study. |
+| Katriona | Unverified hypothesis | 6 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Nanda | Unverified hypothesis | 6 | Research pass completed; labelled hypothesis remains open in the backlog. | Seek an explicit Latvian Nanda bridge in LV-LAVI/LV-PERIODIKA or an exact rendering manual. LV-SILINS p. 245 points towards Nana without establishing Nanda. Curated Sanskrit Nanda joy is independently documented internationally, not automatically Latvian. LVA returned Fernanda variants rather than exact Nanda. |
+| Sārtīte | Needs research | 6 | No defensible documented comparison found; no hypothesis added. | Search LVA consultations / new dictionary; no hypothesis added. |
+| Valdone | Unverified hypothesis | 6 | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly gloss for Valdonė (Kuzavinis–Savukynas) to complete the bridge. |
+| Valds | Unverified hypothesis | 6 | Research pass completed; unresolved origin remains in backlog. | Decide whether a multi-base short form can be written as such; otherwise find a Valds-specific Latvian record. |
+| Vinija | Unverified hypothesis | 6 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a source fixing the base name for Latvian Vinija. |
+| Elizavete | Unverified hypothesis | 5 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Elizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Gunards | Unverified hypothesis | 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Inspect original p. 143 for the question mark scope; keep labelled. |
+| Hannelore | Unverified hypothesis | 5 | Research pass completed; unresolved origin remains in backlog. | Find an agency or Latvian record explicitly using German Hannelore unchanged. |
+| Iverta | Unverified hypothesis | 5 | Research pass completed; unresolved origin remains in backlog. | Find a dated Iverta record and any explicit variant statement. |
+| Katre | Unverified hypothesis | 5 | Research pass completed; labelled hypothesis remains open in the backlog. | Find a Latvian rendering of Estonian Katre (LVA Estonian-name manual) or a dated Latvian bearer explicitly tied to the Estonian form. |
+| Kristafors | Unverified hypothesis | 5 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Kristafors attestation or a Latvian rendering bridge. |
+| Mets | Unverified hypothesis | 5 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a source deciding the base. |
+| Undis | Unverified hypothesis | 5 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an exact Latvian masculine entry through LV-LAVI, LV-LVA and historical records. INT-SNL explains Norwegian feminine Undis, coined in 1897 from Unn/dis; it is a homonym and does not establish Latvian origin or date. Unis in the Una entry is a different spelling. |
+| Vidards | Unverified hypothesis | 5 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Seek an exact Vidards entry in the new Latvian given-name dictionary project or LV-PERIODIKA; Vīdars (long ī) is not this spelling. |
+| Vinifreda | Unverified hypothesis | 5 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a Latvian onomastic source choosing between the Germanic and Welsh/English routes. |
+| Vinnija | Unverified hypothesis | 5 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact double-n record and a single documented base. |
+| Andīne | Unverified hypothesis | 4 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīne spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| Ignātijs | Unverified hypothesis | 4 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact long-ā Ignātijs record. |
+| Jevženija | Unverified hypothesis | 4 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevženija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Ketrija | Unverified hypothesis | 4 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Niklāss | Unverified hypothesis | 4 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a long-ā rendering (e.g. German Niklas in Ceplītis 1960) before writing. |
+| Sniga | Needs research | 4 | Still open: no adopted origin proposal; no exact-form evidence found. | Search Periodika for Sniga. |
+| Undina | Unverified hypothesis | 4 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an exact short-i rendering or historical original through LV-LVA/LV-PERIODIKA. The normalized lookup inherits Undīna/-e and its 1922 Riga record; keep the attested macron and do not claim that date for Undina. |
+| Vigija | Unverified hypothesis | 4 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigilija; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries. |
+| Zanza | Unverified hypothesis | 4 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a naming account or scholarly comment on Zanza; keep Zanzibar comparison labelled. |
+| Aldra | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Aldr/a,-e p48 and historical lexical evidence for alderīgs; resolve the questioned alternatives. |
+| Alvine | Unverified hypothesis | 3 | Research pass completed; unresolved origin remains in backlog. | Find exact short-i Alvine Latvian rendering or record. |
+| Antuaneta | Unverified hypothesis | 3 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a final-a rendering row (e.g. Bulgarian/Russian Антуанета). |
+| Brīve | Unverified hypothesis | 3 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for an exact personal-name explanation. Catalogue leaves origin unresolved and only refers to Brīva. LV-EPUPA establishes common-word brīve history, not the personal name. Exact LV-LVA query returned no entries; this is not proof of nonexistence. Seek an explicit derivation before promoting the freedom comparison. |
+| Džovita | Unverified hypothesis | 3 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Check the LVA Italian rendering guide for an explicit Giovita → Džovita row, then an Italian name dictionary for Giovita (San Giovita); keep Jovita comparison labelled until then. |
+| Elīzabeta | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabeta. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics. |
+| Elzabeta | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Elzabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Guno | Unverified hypothesis | 3 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a dated Latvian Guno record with an explicit Guna link. |
+| Illuminata | Unverified hypothesis | 3 | Research pass completed; unresolved origin remains in backlog. | Find an exact Illuminata Latvian record or Italian-rendering row. |
+| Janeka | Unverified hypothesis | 3 | Research pass completed; unresolved origin remains in backlog. | Find an explicit feminine-formation statement. |
+| Jelizabeta | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Jelizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Jelizavete | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Jelizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Johana | Unverified hypothesis | 3 | Research pass completed; unresolved origin remains in backlog. | Find an agency Czech or Spanish Johana→Johana row. |
+| Juanna | Unverified hypothesis | 3 | Research pass completed; unresolved origin remains in backlog. | Find exact Juanna Latvian record. |
+| Kondrāts | Unverified hypothesis | 3 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact rendering record Кондрат → Kondrāts or an onomastic study adjudicating Siliņš’s Konrads link; Dikļi late-nineteenth-century use is the existing dated lead. |
+| Landijs | Unverified hypothesis | 3 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope. |
+| Noldis | Unverified hypothesis | 3 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a source confirming Noldis as an Arnolds short form. |
+| Olis | Needs research | 3 | Still open: no adopted origin proposal; no exact-form evidence found. | Search Siliņš scan for Olis. |
+| Sigrūna | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| Undija | Unverified hypothesis | 3 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA, LV-LAVI and LV-PERIODIKA for an exact etymology or explicitly documented variant. The exact catalogue entry lacks an explanation; similarity to Unda does not establish derivation or inherited dates. A publisher sample credit for Undija Ancēna is an uninspected usage lead only. |
+| Vigeta | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries. |
+| Vigors | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit dictionary or historical rendering bridge for exact Vigors. |
+| Vikars | Unverified hypothesis | 3 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified. |
+| Vinolds | Needs research | 3 | Still open: no adopted origin proposal; no exact-form evidence found. | Search original Siliņš scan and Periodika for exact Vinolds. |
+| Vinta | Unverified hypothesis | 3 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact onomastic explanation. |
+| Vints | Unverified hypothesis | 3 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an explicit short-form record. |
+| Virgenija | Unverified hypothesis | 3 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for an exact Virgenija record. |
+| Vitija | Needs research | 3 | Still open: no adopted origin proposal; no exact-form evidence found. | Search Siliņš scan and Periodika for Vitija. |
+| Voiceks | Unverified hypothesis | 3 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact Voiceks record. |
+| Zigda | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| Zigra | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| Zigrita | Unverified hypothesis | 3 | Research pass completed; labelled hypothesis remains open in the backlog. | Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history. |
+| Andina | Unverified hypothesis | 2 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andina spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target. |
+| Andrejans | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact given-name rendering. |
+| Dziesma | Unverified hypothesis | 2 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a Latvian onomastic source treating Dziesma as a given name and a dated bearer record. |
+| Evģenijs | Unverified hypothesis | 2 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Evģēnijs | Unverified hypothesis | 2 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Ginārs | Needs research | 2 | No defensible documented comparison found; no hypothesis added. | Find an exact Ginārs record; no hypothesis added. |
+| Janija | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Search periodika.lv for exact Janija. |
+| Katiņa | Unverified hypothesis | 2 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Kete | Unverified hypothesis | 2 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Kondrats | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search the 1993 manual and Ukrainian/Belarusian rendering lists for a given-name row Кондрат; check Siliņš p. 198 scan for a short-a variant. |
+| Konrāts | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Look for an exact Latvian record explicitly linking Konrāts to Konrāds/Konrads; do not transfer Konrads 1295/1767. |
+| Lusiāna | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Search agency/periodika.lv for exact Lusiāna. |
+| Ollija | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a separate Ollija attestation and base name. |
+| Undalgs | Unverified hypothesis | 2 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect the original dictionary and LV-LAVI/LV-PERIODIKA naming discussions for an exact explanation. The State Audit Office participant paragraph proves use of Undalgs Mētra but no origin; an Unda/Und- comparison remains unverified. |
+| Valdeko | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian onomastic entry (Mägiste 1929 or EKI) explaining Valdeko relative to Valdemar. |
+| Veldza | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Search periodika.lv for exact Veldza. |
+| Vidarts | Unverified hypothesis | 2 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Seek an exact Vidarts entry in the new Latvian given-name dictionary project or LV-PERIODIKA; Vīdars (long ī) is not this spelling. |
+| Vigda | Unverified hypothesis | 2 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original Siliņš p. 324 and verify its questioned Vigdis reference, including the dictionary’s masculine label versus international feminine Vigdis. Do not silently replace the source’s grammatical scope. Preserve Vigda 1936 as usage only; exact LVA returned no word entries. |
+| Vīgo | Unverified hypothesis | 2 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Vīgo correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| Vigra | Needs research | 2 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling. |
+| Vigurds | Unverified hypothesis | 2 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original p.325 and historical German forms to resolve the marked question. |
+| Vīne | Needs research | 2 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| Vinona | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an LVA English rendering row Winona → Vinona. |
+| Vintars | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for exact short-a Vintars. |
+| Vintārs | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact masculine Vintārs record. |
+| Virgīna | Unverified hypothesis | 2 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for exact Virgīna. |
+| Vulmārs | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Find a dated record of exact Vulmārs and any dictionary cross-reference to Volmārs. |
+| Zanga | Needs research | 2 | No defensible documented comparison found; no hypothesis added. | Locate an onomastic discussion of Zanga; no hypothesis until a documented comparison exists. |
+| Zdeneks | Unverified hypothesis | 2 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find an exact Zdeneks rendering; do not transfer the Zdeņeks row. |
+| Zēra | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Look for the 1882 calendar printing (periodika.lv) to see whether Zēra was printed beside Serafima, which would give a contemporary bridge. |
+| Zola | Unverified hypothesis | 2 | Research pass completed; unresolved origin remains in backlog. | Split profile by gender or find dated records showing which route applies. |
+| Alesandrs | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an explicit Alesandrs/Aleksandrs correspondence in LV-LVA manuals or a signed historical naming study. Catalogue p. 49 gives Aleksandrs rather than exact Alesandrs. Exact LVA query returned no entries. Missing k cannot be silently normalized away; Greek-family comparison remains unverified. |
+| Andejs | Needs research | 1 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling. |
+| Antainna | Unverified hypothesis | 1 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Inspect the Latgale data record for date and context. |
+| Antonela | Unverified hypothesis | 1 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Look for an Italian Antonella → Antonela row in the LVA Italian guide. |
+| Arnulfs | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Latvian rendering record. |
+| Borghilde | Unverified hypothesis | 1 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Borghilde attestation (Latvian press/registry) or a Latvian onomastic statement deriving it from Borghild. |
+| Elizbete | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Elizbete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Euģēnijs | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Evgēnijs | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Fridriha | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA German/Russian feminine-name tables and LV-PERIODIKA for an exact Fridriha correspondence; do not mistake a masculine genitive Fridriha for an independently recorded feminine name. |
+| Gunarts | Unverified hypothesis | 1 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Inspect original p. 143; find a dated record. |
+| Hanelita | Needs research | 1 | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Search periodika.lv for exact Hanelita. |
+| Higo | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect the original Siliņš p. 156 and search LV-LVA/LV-PERIODIKA for an explicit exact Higo/Hugo correspondence. The catalogue only proposes it and has no usable dated Higo record; neither Hugo dates nor a normalized Igo lookup resolve this spelling. |
+| Iverts | Needs research | 1 | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Search periodika.lv for exact Iverts as a given name. |
+| Jevžēnija | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevžēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Ketri | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Konrands | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Look for an exact Latvian dictionary or archival record of Konrands with an explicit Konrads link. |
+| Leopoldina | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an exact Latvian feminine correspondence through LV-LVA or a signed onomastic study; inspect Siliņš originals and LV-PERIODIKA. Behind the Name’s Leopoldina result is user-submitted and Duden’s is an academy, not sufficient proof. Do not transfer Leopolds dates. |
+| Līziņa | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Find exact Līziņa and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved. |
+| Lucijāns | Unverified hypothesis | 1 | Research pass completed; unresolved origin remains in backlog. | Find a masculine Lucijāns rendering or dated record. |
+| Mēta | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a source deciding mint versus Margaret-family analysis. |
+| Ritija | Needs research | 1 | Still open: no adopted origin proposal; no exact-form evidence found. | Search Siliņš scan and Periodika for Ritija. |
+| Sarme | Unverified hypothesis | 1 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Look for Sarme in LVA consultations or the new dictionary; do not transfer Sarma 1507. |
+| Saulceris | Unverified hypothesis | 1 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Saulceris attestation. |
+| Sigurnija | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Trace the surname/place etymology through authoritative records and seek an exact Latvian given-name history; keep the confirmed film rendering distinct from any universal naming claim. |
+| Undita | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited. |
+| Valdeks | Unverified hypothesis | 1 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian scholarly entry for Valdek (EKI nimeleksikon / Mägiste) linking it to Valdemar. |
+| Valdimārts | Unverified hypothesis | 1 | Research pass completed; unresolved origin remains in backlog. | Search periodika.lv for exact Valdimārts to see whether it is an established variant or a registry misspelling. |
+| Valdmiers | Unverified hypothesis | 1 | Research pass completed; unresolved origin remains in backlog. | Find a dated periodika.lv record and any onomastic comment on the -miers ending. |
+| Valdons | Unverified hypothesis | 1 | Research pass completed; unresolved origin remains in backlog. | Search the agency and Lithuanian sources for Valdonas/Valdonis as an origin form of Valdons. |
+| Vergenija | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for an exact Vergenija record. |
+| Vianda | Unverified hypothesis | 1 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-PERIODIKA for exact Vianda as a given name; a dated record would still need an onomastic explanation. |
+| Vīga | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Vīga correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| Vigelijs | Needs research | 1 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search exact Vigelijs in LV-LAVI/LV-PERIODIKA and original Siliņš/name-rendering references. Exact catalogue page supplies no origin text or citation and LVA has no word-entry links. A resemblance to Vigilijs/Vigilija is not enough to manufacture a proposal. Keep ordinary missing-history UI and an open unverified record. |
+| Viģīlija | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Viģīlija correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| Viktora | Unverified hypothesis | 1 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Viktora attestation. |
+| Viners | Needs research | 1 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| Virgīne | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for exact Virgīne. |
+| Virģīnija | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for an exact Virģīnija record. |
+| Voicihs | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact Voicihs record. |
+| Voitiks | Unverified hypothesis | 1 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact Voitiks record. |
+| Volfreds | Unverified hypothesis | 1 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search LVA German rows for Wolfried/Walfried/Wilfried to see whether any renders as Volfreds; otherwise keep labelled. |
+| Zeltiņa | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit personal-name entry or rendering for exact Zeltiņa. |
+| Zigfrida | Unverified hypothesis | 1 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| Zigvija | Needs research | 1 | Research pass completed; no defensible comparison yet, profile stays Needs research. | Inspect original p338 and seek exact given-name records or an explicit onomastic explanation; do not manufacture a Zig- compound from spelling. |
+| Zira | Unverified hypothesis | 1 | Research pass completed; unresolved origin remains in backlog. | Find dated records and any explanation. |
+| Zolija | Needs research | 1 | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Search periodika.lv for exact Zolija. |
+| Aldijs | Needs research |  | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone. |
+| Alereins | Needs research |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Search periodika.lv for exact Alereins. |
+| Alfins | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect original p50 and find an explicit short-i/long-ī given-name rendering or historical paired record. |
+| Alfonija | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect p50 and the underlying Bgr. record; resolve the feminine reference and the competing first-stem explanations. |
+| Alvīnija | Needs research |  | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Search periodika.lv for exact Alvīnija. |
+| Alvīns | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Same as Alvins. |
+| Artija | Needs research |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Search Latvian press for Artija. |
+| Atala | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Hungarian onomastic source for Atala and a dated Latvian record. |
+| Atāls | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find an onomastic study of Latvian new names from common words selecting the atāls route. |
+| Borģīne | Needs research |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Search Latvian periodicals (periodika.lv) for exact Borģīne and Siliņš printed pages near Borghilde for a cross-reference. |
+| Brīvīte | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for exact Brīvīte and a documented derivation from Brīva or a lexical base. Catalogue leaves exact origin unresolved. LV-LVA query returned no entries. Do not transfer Brīva dates or treat a plausible diminutive as proved. |
+| Euģenijs | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Gaismons | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Search periodika.lv for exact Gaismons. |
+| Ganda | Needs research |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one. |
+| Gināra | Needs research |  | No defensible documented comparison found; no hypothesis added. | Search the new Latvian given-name dictionary or LVA consultations for Gināra; no hypothesis added. |
+| Gunijs | Needs research |  | No defensible documented comparison found; no hypothesis added. | Find an exact Gunijs record; no hypothesis added. |
+| Hilga | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Locate the printed Siliņš Hilga entry to see whether one route is preferred. |
+| Igila | Needs research |  | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Search periodika.lv for exact Igila. |
+| Jeļizabeta | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Jeļizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Jeļizavete | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Jeļizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate. |
+| Lize | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Seek an exact short-i Lize in LV-PERIODIKA bearer records or a rendering manual; long-ī Līze/Līse rows (German Lise/Liese) must not be transferred. |
+| Lucianna | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find an exact Lucianna rendering or registry note. |
+| Lucijana | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find an exact Lucijana rendering (e.g. Croatian/Slovene Lucijana) in the agency database. |
+| Meikols | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Inspect the original Siliņš p. 235 Meikulis entry for the stated full form. |
+| Meikulis | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Inspect original Siliņš p. 235 scan for Meikulis. |
+| Otālija | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Search periodika.lv for exact Otālija to test whether it is a registry variant of Otīlija. |
+| Saulgaida | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Saulgaida attestation. |
+| Tabite | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find an exact Tabite source; do not transfer Tabita 1923. |
+| Tone | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Check Slovene/German Tone rows or another source for exact Latvian Tone. |
+| Valdimirs | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check whether Valdimirs appears in Russian-rendering manuals as a variant of Vladimir; otherwise keep Vladimirs/Valdemārs open. |
+| Velte | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| Veltija | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate. |
+| Vidavs | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Seek an exact Vidavs given-name record in LV-PERIODIKA; distinguish it from the surname. |
+| Vigilijs | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact Vigilijs correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row. |
+| Vigorts | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit exact-form correspondence in original dictionary or dated registration evidence. |
+| Vilfrida | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an explicit feminine rendering or dictionary entry for unaccented Vilfrida. |
+| Vīna | Needs research |  | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| Vinārs | Needs research |  | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches. |
+| Vinifreds | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search for an exact masculine Vinifreds record. |
+| Vivaldis | Needs research |  | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Search periodika.lv for early Vivaldis records and any explanation by name-givers. |
+| Voiciks | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a source adjudicating the root. |
+| Voičiks | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find exact Voičiks record. |
+| Voldmārs | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find an explicit cross-reference (agency or dictionary) making Voldmārs a variant of Voldemārs. |
+| Volfrids | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Same as Volfreds: check German Wolfried rows and any short-i rendering; do not transfer Volfrīds evidence. |
+| Vudis | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find an LVA English Woody → Vudijs/Vudis row or a Latvian dictionary entry; keep labelled. |
+| Zandars | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Inspect Siliņš pp. 334/283 and seek an exact Zandars/Zanders correspondence in LV-LVA/LV-LAVI/LV-PERIODIKA. Catalogue establishes Zanders/Sanderss, not exact Zandars. Exact LVA query returned no entries. Do not transfer Zanders’s 1783 calendar date or nineteenth-century personal record. |
+| Zezostrs | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a 1930s Latvian source explaining the Liepāja name Zezostrs. |
+| Zigrids | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates. |
+| Žuanete | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Search agency for Portuguese Joaneta or French Jeannette renderings yielding Žuanete. |
 
 ### LT
 
@@ -384,22 +526,107 @@ These names were examined but not written, usually because only a meaning was fo
 | --- | --- | --- | --- | --- |
 | Veronika | Short factual summary | 29983 | Written in parallel by the LV research round (r10); left to that entry to avoid duplicate keys. |  |
 | Arūnas | Short factual summary | 20338 | Origin verified, but no concrete, verifiable historical detail (coiner, first attestation, emblematic pre-modern bearer) found; the LKŽ neologism label for aras could not be opened directly (ekalba.lt returned no entry text). | Open the LKŽ entry for aras (lkz.lt / ekalba.lt) to confirm who introduced aras "eagle" and when; check Lithuanian onomastic literature (e.g. Kuzavinis & Savukynas, Lietuvių vardų kilmės žodynas) for when Arūnas first appeared as a given name. |
-| Gerdvilė | Unverified hypothesis |  | The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step. | Find an exact etymological entry in LT-VLKK, LT-LKI or the original Lithuanian name dictionary, resolving gerd- rather than silently changing it to ger-. Salys PDF p. 231 / printed p. 216 visually establishes the exact feminine given name only. Popular geras/viltis explanations remain unverified; do not invent a connecting d, medieval bearer or creation date. |
-| Gilvilė | Unverified hypothesis |  | The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage. | Inspect an exact etymological entry in LT-VLKK/LT-LKI or Kuzavinis/Savukynas, resolving popular gilus versus Salys’s gilti/gildyti analysis for related Gilvilas. Salys PDF p. 317 / printed p. 302 verifies exact Gilvilė (Gilva) on 17 November in the 1964 calendar only. PDF p. 288 / printed p. 273 supplies the competing Gil- analysis; keep that male-form scope. The 1994 LKI article download 1463/1557 is a further uninspected lead, not proof. |
-| Juozapotas | Unverified hypothesis |  | Exact historical usage is now established, but the proposed Juozapatas etymological bridge remains unverified. The widget adds the verified record separately inside the qualified hypothesis account. | Use LT-VLKK and LT-LITUANISTIKA to find an authoritative exact-form etymology or an explicit Juozapotas/Juozapatas paired record. Historical calendar usage and short forms are already established; preserve the 14-versus-12-November discrepancy. |
-| Rimgaudė | Unverified hypothesis |  | The exact spelling bridge or derivation remains unresolved; retain the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Find an exact authoritative etymology in LT-VLKK/LT-LKI or Kuzavinis/Savukynas that resolves gaudus sound versus gauti/gaudyti. LT-GUIDE gives rimti/ramintis + gaudus; visually checked Salys PDF p. 287 / printed p. 272 explains general Gaud- through gauti, compare (su)gaudinti. It lists Ringaudas, not Rimgaudė; do not silently equate Ringaudas/Rimgaudas or transfer the male Rimgaudas dictionary record to this form. Guide date is 28 November, unlike project 19 November; preserve supplied date. No secure whole-name translation yet. |
+| Adas | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly entry for Adas. |
+| Algina | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas. |
+| Alina | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly entry for Alina. |
+| Audinga | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Open LVKŽ6 or VKn 74 for an exact Audinga element analysis (au- privative vs al-/au(d)- alternatives); then use a dated calendar entry. |
+| Austė | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a scholarly Austė/Austėja analysis. |
+| Bilmantas | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search Pakerys 2009/2010 for exact Bilmantas. |
+| Butvydė | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact feminine Butvydė in Pakerys/LVEŽ or VLKK. |
+| Dagmara | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly entry for Dagmara choosing the route. |
+| Dargintė | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Follow the exact Dargintė references LVEŽ69/CA102/VKn75/VKat4 and inspect original first-stem analysis. |
+| Daugardas | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a scholarly analysis of -gard- in Daugardas. |
+| Dovainė | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a scholarly analysis of Do- and adjudication of vain-. |
+| Eularija | Needs research |  | Research pass completed; no defensible origin proposal found, profile stays Needs research. | Check the Lithuanian VLKK name database or Kuzavinis–Savukynas Lietuvių vardų kilmės žodynas for an exact Eularija entry. |
+| Fortunatas | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find exact short-u Fortunatas in Lithuanian sources. |
+| Gailintas | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find exact Gailintas in Pakerys 2009/2010 or LVKŽ with element analysis; keep lake/gail- comparison labelled. |
+| Gedmintė | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search Pakerys 2011 -mint- list for Gedmintė. |
+| Geisvilė | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search Pakerys 2011 / LVKŽ for exact Geisvilė; keep geis- + vil- labelled. |
+| Geisvinė | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search Pakerys 2011 for -vin- female forms including Geisvinė. |
+| Gerdvilas | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Gerdvilas attestation and a scholarly analysis of gerd-/gird-. |
+| Gerdvilė | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Find a scholarly entry naming Gerdvilė itself (VLKK name database, Kuzavinis–Savukynas) that confirms the gerd-/vil- analysis and explains vil-. |
+| Gilvilė | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Open vardai.vlkk.lt manually or the printed Kuzavinis–Savukynas dictionary for Gilvilė; resolve gilus versus gilti/gildyti. |
+| Girdvydė | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact feminine Girdvydė in a scholarly list. |
+| Girenė | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Girenė analysis. |
+| Girvydė | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact feminine Girvydė. |
+| Gomantas | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Follow Pakerys’s LVKŽ and Zinkevičius references and inspect competing go-/mant- analyses. |
+| Gracijus | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Gracijus entry with its Latin equivalent (Gratius?). |
+| Guntilda | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find an explicit Guntilda ↔ Gunthild/Gunhild bridge (German Gunthild in Salys Lithuanian–German list). |
+| Ilma | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas dictionary and the Lithuanian hydronym database for Ilma lake and an explicit name bridge. |
+| Iminė | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an explicit scholarly analysis of the I- element. |
+| Juozapotas | Unverified hypothesis |  | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Open vardai.vlkk.lt manually (human browser) or the printed Kuzavinis–Savukynas dictionary for an exact Juozapotas entry deciding Joseph versus Josaphat. |
+| Kastautas | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas for Kastautas. |
+| Kintvilė | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas for kint- stem. |
+| Liugailė | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Search Pakerys 2011 / LVKŽ for exact Liugailė; do not transfer Liugaila’s calendar date. |
+| Loreta | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly entry (VLKK/Kuzavinis–Savukynas) choosing Loreto versus Laura; then add a dated VLE bearer. |
+| Mantgailas | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Mantgailas attestation and a scholarly analysis of mant- in this compound. |
+| Mantvinas | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect scholarly exact-name mant-/vin- analyses and dictionary references; retain the dated usage separately. |
+| Mina | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a scholarly Mina entry. |
+| Nina | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly entry selecting between the -nina short-form and Georgian Nino routes. |
+| Norgaudas | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a scholarly element analysis for Norgaudas. |
+| Norgaudė | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Norgaudė attestation. |
+| Norvydė | Unverified hypothesis |  | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find exact feminine Norvydė in Pakerys 2011 with a dated calendar entry. |
+| Odilija | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian bridge (VLE saint article Odilija) to the Odilia family. |
+| Otilija | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Find a Lithuanian scholarly or VLE bridge Otilija = Ottilie/Odilia. |
+| Rimantė | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a scholarly analysis selecting the mant- element meaning; the 1968 exact attestation is now available. |
+| Rimgaudė | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Find an exact authoritative etymology in LT-VLKK/LT-LKI or Kuzavinis/Savukynas that resolves gaudus sound versus gauti/gaudyti. LT-GUIDE gives rimti/ramintis + gaudus; visually checked Salys PDF p. 287 / printed p. 272 explains general Gaud- through gauti, compare (su)gaudinti. It lists Ringaudas, not Rimgaudė; do not silently equate Ringaudas/Rimgaudas or transfer the male Rimgaudas dictionary record to this form. Guide date is 28 November, unlike project 19 November; preserve supplied date. No secure whole-name translation yet. |
+| Saturnas | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a dated Lithuanian given-name record for Saturnas. |
+| Steigintas | Unverified hypothesis |  | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact Steigintas in authoritative dictionary and establish an explicit Steigintas/Steikintas bridge if one exists. |
+| Tarvainas | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas for Tarvainas. |
+| Vaidvitė | Needs research |  | Research pass completed; no defensible comparison yet, profile stays Needs research. | Search exact Vaidvitė in LT-VLKK/LT-LKI and original Kuzavinis/Savukynas, then check the supplied calendar source. Exact LT-GUIDE returned 404 and general exact search found no usable origin. The Sirena 2015 newspaper says Vaidvilė, not Vaidvitė; neither that date nor the similar spelling proves a variant. Preserve the supplied 20 November membership and ordinary missing-history UI. |
+| Vaingedė | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas for the vain- stem meaning in dithematic names. |
+| Vėjūnas | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a dated exact masculine Vėjūnas record. |
+| Veliuona | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find a source treating Veliuona as a given name. |
+| Virgis | Unverified hypothesis |  | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Virgis record. |
+| Vitbutas | Needs research |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Vitbutas entry. |
+| Vygaudas | Unverified hypothesis |  | Research pass completed; unresolved origin remains in backlog. | Check Kuzavinis–Savukynas. |
+| Vykantas | Unverified hypothesis |  | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Vykantas attestation and stem analysis. |
 
 ### EE
 
 | Name | Now shows | Bearers | Why open | Next step |
 | --- | --- | --- | --- | --- |
 | Jana | Short factual summary | 2704 | No verified, name-specific historical detail found; et.wikipedia has only statistics and lv.wikipedia only a disambiguation page. Text must also hold for Latvian bearers (alsoLV). | Look for an EKI or Latvian (LU/LVA) note on when Jana entered Estonian/Latvian use, or a well-documented historical bearer named Jana. |
-| Heinar | Unverified hypothesis | 270 | The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage. | Find an exact signed EE-EKI/EE-ETERA/EE-DIGAR explanation of Heinar versus Einar. User-submitted variants and shared name-day lists do not prove derivation. The ETERA download 22289 lead returned 404; its snippet was not used. The opened Emajõe Suveteater Heinari tähetund description proves a fictional Heinar usage, not etymology. |
-| Vaiki | Unverified hypothesis | 46 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaiki; the common-word imperative vaiki does not prove personal-name derivation. |
-| Ainari | Needs research | < 5 | Calendar and population matches do not supply an origin or a defensible variant hypothesis. Keep the ordinary missing-history display and an open unverified research record. | Search exact Ainari in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name study. The opened secondary Neanky page supplies calendar membership and a zero-or-under-five count only. Statistics Estonia’s name-day list uses Einari, not Ainari. Preserve the supplied spelling/date and record the discrepancy; do not invent a variant bridge from resemblance or import Einar roots. |
-| Alve | Unverified hypothesis | < 5 | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Find an exact Estonian etymology in EE-EKI, EE-ETERA or a signed name study. Alviine/Alvi entries list Alve among related terms but do not prove its derivation; do not substitute the Scandinavian male name, Finnish surname or a user-submitted guide. |
-| Ilu | Unverified hypothesis | < 5 | The exact derivation remains unresolved. Keep the qualified comparison labelled Hypothesis, excluded from reviewed coverage and open in backlog. | Seek exact Ilu in EE-EKI/EE-ETERA/EE-DIGAR or a signed name study. Mägiste PDF p. 15 has Ilo, then Ilts-u, not Ilu. Common-word ilu beauty and Ilo’s dictionary derivation support a comparison only; they do not prove exact Ilu. Exact Wiktionary Ilu returned 404; EKI direct fetch returned 403. Do not import Finnish joy, Ilo’s feminine-list record, or its population counts. |
-| Vaigi | Unverified hypothesis | < 5 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Locate the exact entry in Raivo Seppo, Elavad nimed (1994), through EE-ETERA/EE-DIGAR, or a signed EE-EKI study. The checked Mägiste page covers Vaige/Vaike, not Vaigi. A blog citing Seppo and user-submitted lists are leads only. |
+| Asta | Unverified hypothesis | 863 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an Estonian scholarly source choosing Astrid or Anastasia for Estonian Asta. |
+| Aire | Unverified hypothesis | 708 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an exact Estonian explanation of Aire. |
+| Raiko | Unverified hypothesis | 491 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a dated Raiko bearer in an institutional biography (EWOD, riigikogu.ee) or a calendar listing. |
+| Hele | Unverified hypothesis | 490 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian scholarly source (Mägiste 1929 or EKI) on Hele as a coined Estonian-word name. |
+| Eveli | Unverified hypothesis | 466 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an Estonian source for Eveli. |
+| Kelli | Unverified hypothesis | 450 | Research pass completed; unresolved origin remains in backlog. | Read the EKI-bibliography article by Annika Hussar (Pere ja Kodu 2005 no. 6) on Kelli. |
+| Ele | Unverified hypothesis | 286 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian scholarly entry for Ele. |
+| Andro | Unverified hypothesis | 285 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an Estonian source for Andro. |
+| Varje | Unverified hypothesis | 241 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find Varje in Rajandi 1966 / Seppo 1994 / EKI name resources for a scholarly explanation; then Leole 2005 can supply the dated listing. |
+| Tamur | Unverified hypothesis | 56 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an origin statement for Tamur; the 1963 record is now documented. |
+| Säsil | Unverified hypothesis | 47 | Research pass completed; labelled hypothesis remains open in the backlog. | Find an Estonian name dictionary (Seppo 1994, EE-EKI bibliography) with an exact Säsil entry and its Cécile/Cecilia bridge. |
+| Daaniel | Unverified hypothesis | 45 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian onomastic entry or stat.ee/EKI record giving Daaniel as a Daniel variant. |
+| Kari | Unverified hypothesis | 42 | Research pass completed; labelled hypothesis remains open in the backlog. | Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics. |
+| Maarius | Unverified hypothesis | 35 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Check later Estonian name statistics or dictionaries for Maarius as a double-a spelling of Marius. |
+| Iivika | Unverified hypothesis | 27 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an exact Iivika record. |
+| Tanno | Unverified hypothesis | 24 | Research pass completed; unresolved origin remains in backlog. | Check historical Estonian name dictionaries (EKI) for Tanno as Daniel or Tann derivative. |
+| Varju | Unverified hypothesis | 21 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Same as Varje: locate a dictionary-grade explanation before writing. |
+| Maara | Unverified hypothesis | 19 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an Estonian scholarly source that explicitly assigns Maara to Tamara or Maria. |
+| Pärje | Unverified hypothesis | 16 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an Estonian source explaining Pärja/Pärje; the 1962 record and Pärja = Pärje equivalence are now documented. |
+| Raid | Unverified hypothesis | 14 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find an exact Raid dictionary entry; keep labelled. |
+| Senna | Unverified hypothesis | 13 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an Estonian source for Senna. |
+| Hengo | Unverified hypothesis | 12 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian scholarly source choosing between hing and Henk/Heinrich. |
+| Tammo | Unverified hypothesis | 12 | Recheck pass completed; no exact-form origin plus dated record sufficient for a verified history. | Find an unqualified scholarly statement for Tammo as a given name. |
+| Aiver | Unverified hypothesis | 7 | Research pass completed; unresolved origin remains in backlog. | Find an Estonian entry giving Aiver as an Aivar/Ivar variant. |
+| Helmu | Unverified hypothesis | 7 | Research pass completed; labelled hypothesis remains open in the backlog. | Search EE-RAJANDI66 Lisanimestik and Mägiste 1936 (cited by Rajandi) for exact Helmu; keep Helmut/Helmo comparison open. |
+| Külve | Unverified hypothesis | 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find exact Külve in a dictionary; do not transfer Külvi evidence. |
+| Raidu | Unverified hypothesis | 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find exact Raidu as a given name in a dictionary; keep labelled. |
+| Ainari | Needs research | < 5 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Check Mägiste 1936 and the EKI name database for exact Ainari; Rajandi 1966 has Ainar (Latvian loan) only. |
+| Alve | Unverified hypothesis | < 5 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Check Mägiste 1936 (digar.ee) and the EKI name database for exact Alve; do not use Scandinavian Alve (Alf). |
+| Helmur | Unverified hypothesis | < 5 | Research pass completed; labelled hypothesis remains open in the backlog. | Find a later signed Estonian source (EE-EKI name bibliography, Mägiste 1936) that chooses between Rajandi's Helmut and Elmar placements for Helmur. |
+| Hingo | Unverified hypothesis | < 5 | Research pass completed; unresolved origin remains in backlog. | Same as Hengo. |
+| Laus | Unverified hypothesis | < 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Open Wiedemann’s Estonian–German dictionary entry Laus/Klaos for an explicit Nikolaus link. |
+| Osmar | Unverified hypothesis | < 5 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find an Estonian source for Osmar. |
+| Oss | Unverified hypothesis | < 5 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Find a scholarly Estonian source for Oss. |
+| Parba | Unverified hypothesis | < 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Check Rajandi 1966 or Seppo 1994 for Parba; keep Barba/Barbara comparison labelled. |
+| Piine | Unverified hypothesis | < 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find Piine in Rajandi 1966 / Seppo 1994; keep Sabiine comparison labelled. |
+| Raima | Unverified hypothesis | < 5 | Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved. | Search Mägiste/Leole and stat.ee for Raima. |
+| Selme | Unverified hypothesis | < 5 | Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified. | Find a dictionary entry explicitly linking Selme with Selma (Rajandi 1966 / Seppo 1994); Selma evidence not transferred. |
+| Taano | Unverified hypothesis | < 5 | Research pass completed; unresolved origin remains in backlog. | Check Mägiste 1929 and EKI for Taano. |
+| Vaigi | Unverified hypothesis | < 5 | Round 56 recheck found no exact-form bridge; the item stays open in the backlog. | Check Mägiste 1936 (digar.ee) and Seppo 1994 for exact Vaigi; Rajandi 1966 covers Vaiki but not Vaigi. |
 
 ## Priority 2: most common names without a reviewed history
 
@@ -413,7 +640,6 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | --- | --- | --- |
 | Guntars | Short factual summary | 3597 |
 | Ainārs | Short factual summary | 3574 |
-| Nikola | Short factual summary | 3568 |
 | Ģirts | Short factual summary | 3518 |
 | Lilija | Short factual summary | 3510 |
 | Anete | Short factual summary | 3488 |
@@ -433,14 +659,12 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Valters | Short factual summary | 3231 |
 | Alīna | Short factual summary | 3157 |
 | Valerijs | Short factual summary | 3108 |
-| Keita | Short factual summary | 3105 |
 | Patrīcija | Short factual summary | 3098 |
 | Rūdolfs | Short factual summary | 3091 |
 | Ligita | Short factual summary | 3074 |
 | Skaidrīte | Short factual summary | 3061 |
 | Romāns | Short factual summary | 3036 |
 | Antons | Short factual summary | 3009 |
-| Anda | Short factual summary | 2980 |
 | Ineta | Short factual summary | 2936 |
 | Dāvids | Short factual summary | 2935 |
 | Vilnis | Short factual summary | 2927 |
@@ -452,13 +676,11 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Kristiāna | Short factual summary | 2822 |
 | Romans | Short factual summary | 2820 |
 | Mārcis | Short factual summary | 2790 |
-| Velta | Short factual summary | 2790 |
 | Vineta | Short factual summary | 2783 |
 | Karina | Short factual summary | 2767 |
 | Aļona | Short factual summary | 2745 |
 | Gita | Short factual summary | 2742 |
 | Luīze | Short factual summary | 2732 |
-| Sabīne | Short factual summary | 2727 |
 | Krista | Short factual summary | 2722 |
 | Gabriela | Short factual summary | 2698 |
 | Konstantīns | Short factual summary | 2696 |
@@ -471,6 +693,11 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Daniela | Short factual summary | 2559 |
 | Ina | Short factual summary | 2543 |
 | Indra | Short factual summary | 2520 |
+| Laima | Short factual summary | 2497 |
+| Daniils | Short factual summary | 2494 |
+| Lāsma | Short factual summary | 2467 |
+| Staņislavs | Short factual summary | 2455 |
+| Kirils | Short factual summary | 2451 |
 
 ### LT
 
@@ -510,7 +737,6 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Maris | Short factual summary | 1750 |
 | Monika | Short factual summary | 1707 |
 | Arvo | Short factual summary | 1673 |
-| Evelin | Short factual summary | 1658 |
 | Kairi | Short factual summary | 1650 |
 | Rain | Short factual summary | 1637 |
 | Alar | Short factual summary | 1610 |
@@ -529,18 +755,13 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Ivo | Short factual summary | 1424 |
 | Erki | Short factual summary | 1413 |
 | Ülo | Short factual summary | 1412 |
-| Evi | Short factual summary | 1402 |
 | Ragnar | Short factual summary | 1390 |
 | Joosep | Short factual summary | 1364 |
 | Helgi | Short factual summary | 1359 |
-| Aivo | Short factual summary | 1314 |
-| Triinu | Short factual summary | 1307 |
-| Raido | Short factual summary | 1303 |
 | Liidia | Short factual summary | 1295 |
 | Kertu | Short factual summary | 1294 |
 | Birgit | Short factual summary | 1277 |
 | Hugo | Short factual summary | 1258 |
-| Andre | Short factual summary | 1247 |
 | Emma | Short factual summary | 1224 |
 | Erika | Short factual summary | 1196 |
 | Heino | Short factual summary | 1187 |
@@ -549,9 +770,15 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Johanna | Short factual summary | 1170 |
 | Märt | Short factual summary | 1154 |
 | Maarika | Short factual summary | 1151 |
-| Juta | Short factual summary | 1132 |
 | Kaie | Short factual summary | 1100 |
 | Paul | Short factual summary | 1077 |
+| Helve | Short factual summary | 1064 |
+| Kert | Short factual summary | 1052 |
+| Richard | Short factual summary | 1034 |
+| Liia | Short factual summary | 1026 |
+| Ester | Short factual summary | 1020 |
+| Reelika | Short factual summary | 1020 |
+| Timo | Short factual summary | 1017 |
 
 ## Priority 3: names with only a calendar date or an early record
 
@@ -600,8 +827,6 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Radmila | Early record only | 50 |
 | Ingemārs | Early record only | 49 |
 | Telma | Early record only | 49 |
-| Manefa | Early record only | 48 |
-| Sebastjans | Early record only | 47 |
 | Kestutis | Early record only | 46 |
 | Nameda | Early record only | 46 |
 | Allans | Early record only | 42 |
@@ -620,7 +845,6 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Spartaks | Early record only | 38 |
 | Vaiva | Early record only | 38 |
 | Aļika | Needs research | 37 |
-| Estella | Needs research | 36 |
 | Narine | Needs research | 36 |
 | Steisija | Needs research | 36 |
 | Liepa | Needs research | 35 |
@@ -628,7 +852,6 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Ritums | Early record only | 35 |
 | Skarleta | Early record only | 35 |
 | Ailands | Needs research | 33 |
-| Ako | Early record only | 33 |
 | Maksimiljans | Early record only | 33 |
 | Spulga | Early record only | 33 |
 | Treisija | Needs research | 33 |
@@ -643,6 +866,10 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Fabians | Early record only | 30 |
 | Frīdis | Needs research | 30 |
 | Nadia | Needs research | 30 |
+| Alta | Early record only | 28 |
+| Ismails | Needs research | 28 |
+| Naira | Early record only | 28 |
+| Naidžels | Needs research | 27 |
 
 ### EE
 
@@ -652,10 +879,8 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | --- | --- | --- |
 | Tiia | Needs research | 2086 |
 | Maire | Needs research | 2006 |
-| Külli | Needs research | 1987 |
 | Aare | Needs research | 1925 |
 | Toivo | Early record only | 1680 |
-| Kadi | Needs research | 1678 |
 | Jaak | Needs research | 1605 |
 | Milvi | Needs research | 1588 |
 | Terje | Needs research | 1567 |
@@ -667,7 +892,6 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Argo | Early record only | 1324 |
 | Janno | Needs research | 1280 |
 | Mikk | Needs research | 1264 |
-| Kati | Needs research | 1237 |
 | Kai | Needs research | 1154 |
 | Marje | Needs research | 1135 |
 | Liivi | Needs research | 1115 |
@@ -675,15 +899,12 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Gert | Needs research | 1043 |
 | Jaana | Needs research | 1033 |
 | Kaidi | Needs research | 1033 |
-| Raili | Needs research | 1006 |
 | Ly | Needs research | 974 |
 | Harri | Needs research | 964 |
 | Rando | Needs research | 936 |
 | Jakob | Needs research | 919 |
-| Egert | Needs research | 907 |
 | Mait | Needs research | 872 |
 | Peep | Needs research | 866 |
-| Asta | Needs research | 863 |
 | Taivo | Early record only | 862 |
 | Kaur | Needs research | 845 |
 | Maimu | Needs research | 817 |
@@ -695,7 +916,6 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Moonika | Needs research | 740 |
 | Uno | Early record only | 739 |
 | Kirke | Needs research | 726 |
-| Aire | Needs research | 708 |
 | Sirli | Needs research | 699 |
 | Villu | Needs research | 655 |
 | Leida | Early record only | 649 |
@@ -710,9 +930,7 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Sirle | Needs research | 523 |
 | Ervin | Needs research | 516 |
 | Eneli | Needs research | 502 |
-| Sille | Needs research | 480 |
 | Ardo | Needs research | 471 |
-| Eveli | Needs research | 466 |
 | Ergo | Needs research | 463 |
 | Saima | Needs research | 463 |
 | Karmo | Needs research | 442 |
@@ -725,23 +943,32 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Liilia | Needs research | 401 |
 | Maili | Needs research | 388 |
 | Heldur | Needs research | 387 |
-| Mairo | Needs research | 387 |
 | Herman | Needs research | 381 |
 | Ragne | Needs research | 381 |
 | Age | Needs research | 380 |
 | Merli | Needs research | 380 |
+| Mariann | Needs research | 365 |
+| Tormi | Needs research | 365 |
+| Ardi | Needs research | 355 |
+| Tambet | Needs research | 348 |
+| Agu | Needs research | 343 |
+| Guido | Needs research | 339 |
+| Roosi | Needs research | 337 |
+| Riko | Needs research | 335 |
+| Maiu | Needs research | 324 |
+| Helje | Needs research | 322 |
 
-## Priority 4: other LT names that still need research (220)
+## Priority 4: other LT names that still need research (194)
 
 These names are outside the official TOP 50 lists, so no count is available; the list is alphabetical. Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name’s own stems from a source, and add a historical bearer only when one is documented.
 
-Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bilmantas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvydė, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargintė, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Eularija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Geisvinė, Gelvydė, Gentvainas, Gentvila, Gerdvilas, Gilvainas, Gilvynas, Ginbutas, Girvydė, Gordijonas, Guntilda, Hetga, Iminė, Irenijus, Irvita, Josmilas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Kolumbas, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liubartė, Liudginas, Liudlė, Liugailė, Mandravas, Mandravė, Mangailas, Mangailė, Mantgailas, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Norgaudė, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Saugardas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Steigintas, Svaigaudas, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvainas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaidvitė, Vaigedas, Vaigedė, Vaingedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vėjūnas, Veliuona, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilbutas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Vytartė, Vitbutas, Zygfrydas, Žadvainas, Žadvainis, Žybartė
+Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Gelvydė, Gentvainas, Gentvila, Gilvainas, Gilvynas, Ginbutas, Gordijonas, Hetga, Irenijus, Irvita, Josmilas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liudginas, Liudlė, Mandravas, Mandravė, Mangailas, Mangailė, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaigedas, Vaigedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Zygfrydas, Žadvainas, Žadvainis
 
-## Priority 5: other EE names that still need research (772)
+## Priority 5: other EE names that still need research (683)
 
 Ranked by Statistics Estonia counts, with the bearer count in brackets. Estonian-coined and literary names (Aavik, Saal, Kalevipoeg) usually have the richest histories.
 
-Mariann (365), Tormi (365), Ardi (355), Tambet (348), Agu (343), Guido (339), Roosi (337), Riko (335), Neeme (333), Maiu (324), Helje (322), Ainar (316), Koidu (309), Maido (305), Holger (297), Dagmar (296), Jaagup (295), Virgo (292), Leho (288), Ele (286), Andro (285), Mairi (281), Hiie (278), Elar (276), Märten (276), Jako (275), Helin (274), Vilve (274), Kirsti (269), Marili (265), Karoliine (263), Irja (262), Karli (259), Mailis (253), Evert (251), Leena (251), Iti (250), Rahel (247), Thea (244), Meeri (243), Ronald (242), Varje (241), Illar (240), Laur (239), Asko (235), Viivika (234), Ruudi (232), Kardo (231), Andi (230), Valdek (229), Liivia (228), Vivian (227), Kaimar (224), Taimo (224), Kauri (223), Maive (218), Olav (214), Vaido (214), Erle (211), Aurelia (209), Pärtel (208), Maaja (207), Kuido (206), Randel (206), Heldi (202), Kiira (200), Brigitta (195), Ethel (195), Taaniel (189), Eike (185), Elviira (181), Helbe (181), Helmut (179), Lembi (176), Aldo (175), Valmar (175), Maidu (174), Miko (172), Koidula (170), Ege (168), Innar (167), Rünno (167), Alli (163), Are (163), Raino (159), Laivi (157), Fredi (155), Kenno (155), Noora (155), Elias (154), Naima (153), Ove (152), Iivi (149), Kairo (149), Aiki (148), Reena (148), Klaarika (146), Talvi (146), Ingvar (145), Reeli (143), Ebe (140), Taimar (137), Kalli (136), Svea (135), Silvar (134), Armand (132), Juss (130), Loora (130), Helja (127), Kaari (127), Valdeko (126), Robi (125), Taavo (123), Liili (121), Timmo (121), Enel (120), Marvi (119), Priidu (118), Agur (117), Viljo (115), Vaiko (114), Simmo (113), Maimo (111), Ere (108), Maanus (108), Inger (106), Enna (105), Kusti (105), Eneken (104), Mauri (104), Aasa (103), Lehti (103), Hedvig (101), Meida (98), Taivi (98), Jaano (97), Kajar (97), Lille (96), Mirja (96), Eeri (94), Arto (92), Hardo (92), Mirje (92), Liivika (91), Maile (91), Mariina (91), Piibe (91), Asso (90), Veroonika (90), Volli (90), Aaro (88), Villi (88), Auli (87), Helari (87), Klaara (87), Laili (87), Lemmi (87), Aimur (86), Annes (86), Enda (85), Meinhard (85), Siivi (85), Helar (84), Pärt (82), Eimar (81), Kulla (81), Saamuel (80), Velli (80), Enelin (78), Olaf (78), Ulve (78), Leeni (76), Laidi (75), Viire (75), Gerhard (73), Iko (73), Melanie (73), Ingel (72), Luukas (72), Häli (71), Inno (71), Saale (71), Eno (70), Lemme (69), Iida (68), Vilmar (68), Aldur (67), Lembe (67), Raini (66), Killu (65), Sireli (65), Leevi (64), Mauno (64), Pauliine (64), Kaivo (63), Reesi (63), Heido (62), Sirelin (62), Uko (60), Kulno (59), Alver (58), Aadi (57), Andu (57), Lehar (57), Raine (57), Venno (57), Liivo (56), Tamur (56), Aulis (55), Riine (55), Alvin (54), Timmu (54), Anto (53), Liidi (53), Maivi (53), Pärja (53), Varmo (53), Hilje (52), Juho (52), Kaidu (52), Olli (52), Elvo (50), Jass (49), Lucia (49), Meeme (49), Tommi (49), Arbo (48), Elmet (48), Kimmo (48), Helger (47), Rolf (47), Säsil (47), Silje (47), Aini (46), Elme (46), Sulo (46), Daaniel (45), Eke (45), Liane (45), Liine (45), Maare (45), Olger (45), Siimo (45), Maime (44), Armo (43), Kadrin (43), Külvi (43), Leini (43), Hellen (42), Kari (42), Veli (41), Helda (40), Kustas (40), Tähti (40), Tavo (40), Helli (39), Pärle (39), Reedik (39), Senni (39), Sirja (39), Gisela (38), Almar (37), Leen (37), Raimu (36), Sass (36), Taima (36), Liivar (35), Maarius (35), Sale (35), Eedi (34), Elmi (34), Adolf (33), Ami (33), Hermo (33), Huko (33), Irje (33), Pearu (33), Reeda (33), Armas (32), Elmer (32), Haldi (32), Leia (32), Olvi (32), Reene (32), Teesi (32), Halja (31), Küllo (31), Leidi (31), Solveig (31), Vambo (31), Aap (30), Esti (30), Laas (30), Reeno (30), Teisi (30), Hildegard (29), Jürgo (29), Rosalie (29), Tõnno (29), Valdu (29), Hermann (28), Maari (28), Malve (28), Marjo (28), Silve (28), Velvo (28), Heivo (27), Iivika (27), Siimon (27), Triina (27), Velve (27), Algi (26), Halliki (26), Kanni (26), Riste (26), Urmi (26), Anno (25), Dolores (25), Hasso (25), Hinge (25), Kurmo (25), Lembo (25), Paavel (25), Sanne (25), Tähte (25), Atso (24), Eesi (24), Päivi (24), Tanno (24), Valle (24), Venda (24), Algo (23), Auri (23), Haljand (23), Härmo (23), Leopold (23), Ludvig (23), Lui (23), Tuulike (23), Vilvi (23), Edi (22), Ingeborg (22), Raimund (22), Aadam (21), Cecilia (21), Elfriide (21), Hallar (21), Hela (21), Hellar (21), Paap (21), Raik (21), Reinhold (21), Urvi (21), Valjo (21), Varju (21), Eugenia (20), Loit (20), Maano (20), Manivald (20), Marvo (20), Õrne (20), Valju (20), Helmer (19), Helmo (19), Ingi (19), Leivo (19), Maali (19), Maara (19), Valvi (19), Joosua (18), Jürjo (18), Karro (18), Leiger (18), Pent (18), Saimi (18), Ülve (18), Este (17), Mirle (17), Valvo (17), Arpo (16), Asmo (16), Ergi (16), Haldja (16), Hilli (16), Kerman (16), Kreeta (16), Õili (16), Pärje (16), Peedo (16), Viido (16), Villo (16), Virgi (16), Haldur (15), Harro (15), Heelia (15), Karme (15), Leegi (15), Meili (15), Randolf (15), Taali (15), Valmer (15), Henna (14), Hiljar (14), Kiiri (14), Lemmo (14), Õile (14), Orvi (14), Päärn (14), Raid (14), Tamaara (14), Toom (14), Vendo (14), Aimo (13), Helgo (13), Loone (13), Manni (13), Meelik (13), Ruuta (13), Senna (13), Silvo (13), Ürjo (13), Vilme (13), Asse (12), Hengo (12), Mäido (12), Maur (12), Milde (12), Mooni (12), Tammo (12), Vilje (12), Ailo (11), Arp (11), Arro (11), Elfi (11), Herald (11), Hilju (11), Magdaleena (11), Melli (11), Mesike (11), Neemo (11), Talvo (11), Üllas (11), Valdemar (11), Veevo (11), Auni (10), Illart (10), Ivalo (10), Miku (10), Päivo (10), Tali (10), Valmo (10), Virmo (10), Aimer (9), Aller (9), Aurel (9), Ebba (9), Erland (9), Hurmi (9), Lepo (9), Malvi (9), Malvo (9), Milve (9), Priido (9), Sulvi (9), Tooni (9), Tuudur (9), Vallot (9), Valmi (9), Adelheid (8), Amalie (8), Doora (8), Elev (8), Hell (8), Imant (8), Jaako (8), Malev (8), Meino (8), Neida (8), Saamu (8), Siimu (8), Simmu (8), Ustav (8), Vane (8), Veste (8), Agi (7), Aiver (7), Ervi (7), Haili (7), Helend (7), Helmu (7), Henni (7), Ike (7), Juudit (7), Karlotte (7), Kuulo (7), Mango (7), Meljo (7), Teri (7), Väiko (7), Väinu (7), Veevi (7), Vella (7), Viiva (7), Alvo (6), Annus (6), Eleonoora (6), Erla (6), Ervo (6), Helliki (6), Hirvo (6), Immo (6), Irmgard (6), Kaaro (6), Lemmik (6), Preedik (6), Reinu (6), Saime (6), Taave (6), Tani (6), Vaarika (6), Vaigo (6), Viljer (6), Aase (5), Ainike (5), Aldi (5–8), Armi (5), Külve (5), Laive (5), Meila (5), Raidu (5), Räni (5), Rista (5), Susi (5–8), Teho (5), Truuta (5), Urva (5), Vaho (5), Viivo (5–8), Aabi (< 5), Aabo (< 5), Aalike (< 5), Aht (< 5), Aii (< 5), Albe (< 5), Albi (< 5), Albin (< 5), Albo (< 5), Alf (< 5), Allo (< 5), Alme (< 5), Ambrus (< 5), Antonia Ande (< 5), Antu (< 5), Ardu (< 5), Arm (< 5), Armiida (< 5), Askur (< 5), Asmus (< 5), Augst (< 5), Aulik (< 5), Auvo (< 5), Deboora (< 5), Eede (< 5), Eedit (< 5), Eevald (< 5), Eevo (< 5), Ehala (< 5), Eho (< 5), Enne (< 5), Esmi (< 5), Esmo (< 5), Hädi (< 5), Häidi (< 5), Häili (< 5), Haldo (< 5), Hälli (< 5), Hannus (< 5), Härmel (< 5), Härmi (< 5), Heero (< 5), Helde (< 5), Helmar (< 5), Helmeles (< 5), Helmur (< 5), Hendrika (< 5), Herbi (< 5), Hermi (< 5), Hiljo (< 5), Hillo (< 5), Hingi (< 5), Hingo (< 5), Hrm (< 5), Hurme (< 5), Ihan (< 5), Ihanus (< 5), Imand (< 5), Imma (< 5), Imme (< 5), Irmi (< 5), Jaap (< 5), Joosu (< 5), Jukk (< 5), Jürja (< 5), Jürje (< 5), Jüts (< 5), Kahru (< 5), Kallis (< 5), Kalmo (< 5), Kannike (< 5), Kanut (< 5), Kärdi (< 5), Kaubi (< 5), Keerdo (< 5), Kindel (< 5), Kleemet (< 5), Koido (< 5), Kostel (< 5), Kullar Kullo (< 5), Kulmo (< 5), Külvo (< 5), Kunder (< 5), Kusto (< 5), Laar (< 5), Laide (< 5), Laido (< 5), Lainela (< 5), Laini (< 5), Lauli (< 5), Lauro (< 5), Laus (< 5), Leemo (< 5), Leevo (< 5), Lehe (< 5), Lehto (< 5), Leido (< 5), Leidur (< 5), Leine (< 5), Lemmert (< 5), Leonoora (< 5), Liias (< 5), Loomet (< 5), Luige (< 5), Luuli (< 5), Luulik (< 5), Maasika (< 5), Madi (< 5), Madro (< 5), Mainmi (< 5), Malde (< 5), Maldi (< 5), Mardi (< 5), Marna (< 5), Maurits (< 5), Meeland (< 5), Meelit (< 5), Meelitu (< 5), Meelo (< 5), Meelu (< 5), Meemo (< 5), Meevi (< 5), Mehto (< 5), Mella (< 5), Mello (< 5), Miida (< 5), Miljo (< 5), Nanna (< 5), Niilas (< 5), Nuut (< 5), Olve (< 5), Osmar (< 5), Oss (< 5), Pääro (< 5), Päive (< 5), Päivu (< 5), Parba (< 5), Pärn (< 5), Pärno (< 5), Pearn (< 5), Pendo (< 5), Piine (< 5), Piiu (< 5), Priida (< 5), Priide (< 5), Priidika (< 5), Reimu (< 5), Riku (< 5), Roome (< 5), Roomo (< 5), Saali (< 5), Saamo (< 5), Saare (< 5), Saari (< 5), Salli (< 5), Salmi (< 5), Salmo (< 5), Salve (< 5), Salvi (< 5), Seida (< 5), Selmar (< 5), Selme (< 5), Simun (< 5), Singe (< 5), Snno (< 5), Sõlmi (< 5), Sula (< 5), Sulve (< 5), Suuru (< 5), Sveno (< 5), Taale (< 5), Taalo (< 5), Taano (< 5), Taban (< 5), Tahvo (< 5), Taidi (< 5), Taido (< 5), Taidur (< 5), Talva (< 5), Talve (< 5), Tapper (< 5), Teedo (< 5), Teedu (< 5), Teetlev (< 5), Teeto (< 5), Tehvan (< 5), Tehvo (< 5), Tiino (< 5), Tilde (< 5), Tõivot (< 5), Tõivotu (< 5), Tõivu (< 5), Truude (< 5), Tulev (< 5), Tunne (< 5), Üar (< 5), Uljo (< 5), Üllart (< 5), Ulmi (< 5), Ulrik (< 5), Urban (< 5), Urbe (< 5), Urves (< 5), Ustus (< 5), Vaane (< 5), Vaano (< 5), Vahto (< 5), Valba (< 5), Valbe (< 5), Vallut (< 5), Valme (< 5), Valvik (< 5), Vanevald (< 5), Varve (< 5), Veegi (< 5), Verni (< 5), Viilo (< 5), Viilup (< 5), Viise (< 5), Viit (< 5), Viivia (< 5), Vilbo (< 5), Vilimo (< 5), Vilju (< 5), Vilmer (< 5), Vilmo (< 5), Virma (< 5), Virme (< 5), Virvi (< 5), Virvo (< 5), Võitur (< 5), Volber (< 5), Volmer (< 5), Võso (< 5)
+Ainar (316), Koidu (309), Maido (305), Holger (297), Jaagup (295), Virgo (292), Leho (288), Mairi (281), Hiie (278), Elar (276), Märten (276), Jako (275), Helin (274), Vilve (274), Kirsti (269), Marili (265), Karoliine (263), Irja (262), Karli (259), Mailis (253), Evert (251), Leena (251), Iti (250), Thea (244), Meeri (243), Ronald (242), Illar (240), Laur (239), Asko (235), Viivika (234), Ruudi (232), Kardo (231), Valdek (229), Liivia (228), Vivian (227), Kaimar (224), Taimo (224), Kauri (223), Maive (218), Olav (214), Vaido (214), Erle (211), Aurelia (209), Pärtel (208), Maaja (207), Kuido (206), Randel (206), Heldi (202), Kiira (200), Brigitta (195), Eike (185), Elviira (181), Helbe (181), Lembi (176), Aldo (175), Valmar (175), Maidu (174), Miko (172), Koidula (170), Ege (168), Innar (167), Rünno (167), Alli (163), Are (163), Raino (159), Laivi (157), Fredi (155), Kenno (155), Noora (155), Elias (154), Naima (153), Ove (152), Kairo (149), Aiki (148), Reena (148), Klaarika (146), Talvi (146), Ingvar (145), Reeli (143), Ebe (140), Taimar (137), Svea (135), Silvar (134), Armand (132), Juss (130), Loora (130), Helja (127), Kaari (127), Valdeko (126), Robi (125), Taavo (123), Liili (121), Timmo (121), Enel (120), Marvi (119), Priidu (118), Agur (117), Viljo (115), Vaiko (114), Simmo (113), Maimo (111), Maanus (108), Inger (106), Enna (105), Kusti (105), Eneken (104), Mauri (104), Aasa (103), Lehti (103), Hedvig (101), Meida (98), Taivi (98), Jaano (97), Kajar (97), Lille (96), Mirja (96), Eeri (94), Arto (92), Hardo (92), Mirje (92), Liivika (91), Maile (91), Mariina (91), Piibe (91), Asso (90), Veroonika (90), Volli (90), Aaro (88), Villi (88), Auli (87), Helari (87), Klaara (87), Laili (87), Lemmi (87), Aimur (86), Annes (86), Enda (85), Meinhard (85), Siivi (85), Helar (84), Pärt (82), Eimar (81), Saamuel (80), Velli (80), Enelin (78), Olaf (78), Ulve (78), Leeni (76), Laidi (75), Viire (75), Gerhard (73), Iko (73), Melanie (73), Ingel (72), Luukas (72), Häli (71), Inno (71), Saale (71), Eno (70), Lemme (69), Iida (68), Vilmar (68), Aldur (67), Lembe (67), Raini (66), Sireli (65), Leevi (64), Mauno (64), Pauliine (64), Kaivo (63), Reesi (63), Heido (62), Sirelin (62), Uko (60), Kulno (59), Alver (58), Aadi (57), Lehar (57), Raine (57), Venno (57), Liivo (56), Aulis (55), Riine (55), Alvin (54), Timmu (54), Anto (53), Liidi (53), Maivi (53), Varmo (53), Hilje (52), Juho (52), Kaidu (52), Olli (52), Elvo (50), Jass (49), Meeme (49), Arbo (48), Elmet (48), Kimmo (48), Helger (47), Rolf (47), Aini (46), Elme (46), Sulo (46), Eke (45), Liane (45), Liine (45), Olger (45), Siimo (45), Maime (44), Armo (43), Leini (43), Hellen (42), Veli (41), Helda (40), Kustas (40), Tähti (40), Tavo (40), Helli (39), Pärle (39), Reedik (39), Sirja (39), Gisela (38), Almar (37), Leen (37), Raimu (36), Sass (36), Taima (36), Liivar (35), Sale (35), Eedi (34), Elmi (34), Adolf (33), Ami (33), Hermo (33), Huko (33), Irje (33), Pearu (33), Reeda (33), Armas (32), Elmer (32), Haldi (32), Leia (32), Olvi (32), Reene (32), Teesi (32), Halja (31), Küllo (31), Leidi (31), Solveig (31), Aap (30), Esti (30), Reeno (30), Teisi (30), Hildegard (29), Jürgo (29), Rosalie (29), Tõnno (29), Valdu (29), Hermann (28), Maari (28), Malve (28), Marjo (28), Silve (28), Velvo (28), Heivo (27), Siimon (27), Velve (27), Algi (26), Halliki (26), Kanni (26), Riste (26), Urmi (26), Anno (25), Dolores (25), Hasso (25), Hinge (25), Kurmo (25), Lembo (25), Paavel (25), Sanne (25), Tähte (25), Atso (24), Eesi (24), Päivi (24), Valle (24), Venda (24), Algo (23), Auri (23), Haljand (23), Härmo (23), Leopold (23), Ludvig (23), Lui (23), Tuulike (23), Vilvi (23), Edi (22), Ingeborg (22), Raimund (22), Elfriide (21), Hallar (21), Hela (21), Hellar (21), Paap (21), Reinhold (21), Urvi (21), Valjo (21), Loit (20), Maano (20), Manivald (20), Marvo (20), Õrne (20), Valju (20), Ingi (19), Leivo (19), Maali (19), Valvi (19), Joosua (18), Jürjo (18), Karro (18), Pent (18), Saimi (18), Ülve (18), Este (17), Mirle (17), Valvo (17), Arpo (16), Asmo (16), Ergi (16), Haldja (16), Hilli (16), Kerman (16), Kreeta (16), Õili (16), Peedo (16), Viido (16), Villo (16), Virgi (16), Haldur (15), Harro (15), Heelia (15), Karme (15), Leegi (15), Meili (15), Randolf (15), Valmer (15), Henna (14), Hiljar (14), Kiiri (14), Lemmo (14), Õile (14), Orvi (14), Päärn (14), Vendo (14), Aimo (13), Helgo (13), Loone (13), Manni (13), Meelik (13), Ruuta (13), Silvo (13), Ürjo (13), Vilme (13), Asse (12), Mäido (12), Maur (12), Milde (12), Mooni (12), Vilje (12), Ailo (11), Arp (11), Arro (11), Elfi (11), Herald (11), Hilju (11), Magdaleena (11), Melli (11), Mesike (11), Talvo (11), Üllas (11), Valdemar (11), Veevo (11), Auni (10), Illart (10), Ivalo (10), Miku (10), Päivo (10), Tali (10), Valmo (10), Virmo (10), Aimer (9), Aller (9), Aurel (9), Ebba (9), Erland (9), Hurmi (9), Lepo (9), Malvi (9), Malvo (9), Milve (9), Priido (9), Sulvi (9), Tooni (9), Tuudur (9), Vallot (9), Valmi (9), Amalie (8), Doora (8), Elev (8), Hell (8), Imant (8), Jaako (8), Malev (8), Meino (8), Saamu (8), Siimu (8), Simmu (8), Vane (8), Veste (8), Agi (7), Ervi (7), Haili (7), Helend (7), Henni (7), Ike (7), Karlotte (7), Kuulo (7), Mango (7), Meljo (7), Teri (7), Väiko (7), Väinu (7), Veevi (7), Vella (7), Viiva (7), Alvo (6), Annus (6), Eleonoora (6), Erla (6), Ervo (6), Helliki (6), Hirvo (6), Immo (6), Irmgard (6), Kaaro (6), Lemmik (6), Preedik (6), Reinu (6), Saime (6), Taave (6), Vaarika (6), Vaigo (6), Viljer (6), Aase (5), Ainike (5), Aldi (5–8), Armi (5), Laive (5), Meila (5), Räni (5), Rista (5), Susi (5–8), Teho (5), Truuta (5), Urva (5), Vaho (5), Viivo (5–8), Aabi (< 5), Aabo (< 5), Aalike (< 5), Aht (< 5), Aii (< 5), Albe (< 5), Albi (< 5), Albin (< 5), Albo (< 5), Alf (< 5), Allo (< 5), Alme (< 5), Ambrus (< 5), Antonia Ande (< 5), Antu (< 5), Ardu (< 5), Arm (< 5), Armiida (< 5), Askur (< 5), Asmus (< 5), Augst (< 5), Aulik (< 5), Auvo (< 5), Deboora (< 5), Eede (< 5), Eedit (< 5), Eevald (< 5), Eevo (< 5), Ehala (< 5), Enne (< 5), Esmi (< 5), Esmo (< 5), Hädi (< 5), Häidi (< 5), Häili (< 5), Haldo (< 5), Hälli (< 5), Hannus (< 5), Härmel (< 5), Härmi (< 5), Heero (< 5), Helde (< 5), Helmeles (< 5), Hendrika (< 5), Herbi (< 5), Hermi (< 5), Hiljo (< 5), Hillo (< 5), Hingi (< 5), Hrm (< 5), Hurme (< 5), Ihan (< 5), Ihanus (< 5), Imand (< 5), Imma (< 5), Imme (< 5), Irmi (< 5), Jaap (< 5), Joosu (< 5), Jukk (< 5), Jürja (< 5), Jürje (< 5), Jüts (< 5), Kahru (< 5), Kallis (< 5), Kalmo (< 5), Kannike (< 5), Kanut (< 5), Kärdi (< 5), Kaubi (< 5), Keerdo (< 5), Kindel (< 5), Koido (< 5), Kostel (< 5), Kullar Kullo (< 5), Kulmo (< 5), Külvo (< 5), Kunder (< 5), Kusto (< 5), Laar (< 5), Laide (< 5), Laido (< 5), Lainela (< 5), Laini (< 5), Lauli (< 5), Lauro (< 5), Leevo (< 5), Lehe (< 5), Lehto (< 5), Leido (< 5), Leidur (< 5), Leine (< 5), Lemmert (< 5), Leonoora (< 5), Liias (< 5), Loomet (< 5), Luige (< 5), Luuli (< 5), Luulik (< 5), Maasika (< 5), Madi (< 5), Madro (< 5), Mainmi (< 5), Malde (< 5), Maldi (< 5), Mardi (< 5), Marna (< 5), Maurits (< 5), Meeland (< 5), Meelit (< 5), Meelitu (< 5), Meelo (< 5), Meelu (< 5), Meemo (< 5), Meevi (< 5), Mehto (< 5), Mella (< 5), Mello (< 5), Miida (< 5), Miljo (< 5), Nanna (< 5), Nuut (< 5), Olve (< 5), Pääro (< 5), Päive (< 5), Päivu (< 5), Pärn (< 5), Pärno (< 5), Pearn (< 5), Pendo (< 5), Piiu (< 5), Priida (< 5), Priide (< 5), Priidika (< 5), Reimu (< 5), Riku (< 5), Roome (< 5), Roomo (< 5), Saali (< 5), Saamo (< 5), Saare (< 5), Saari (< 5), Salli (< 5), Salmi (< 5), Salmo (< 5), Salve (< 5), Salvi (< 5), Seida (< 5), Selmar (< 5), Simun (< 5), Singe (< 5), Snno (< 5), Sõlmi (< 5), Sula (< 5), Sulve (< 5), Suuru (< 5), Sveno (< 5), Taalo (< 5), Taban (< 5), Tahvo (< 5), Taidi (< 5), Taido (< 5), Taidur (< 5), Talva (< 5), Talve (< 5), Tapper (< 5), Teedo (< 5), Teedu (< 5), Teetlev (< 5), Teeto (< 5), Tehvan (< 5), Tehvo (< 5), Tiino (< 5), Tilde (< 5), Tõivot (< 5), Tõivotu (< 5), Tõivu (< 5), Truude (< 5), Tulev (< 5), Tunne (< 5), Üar (< 5), Uljo (< 5), Üllart (< 5), Ulmi (< 5), Ulrik (< 5), Urban (< 5), Urbe (< 5), Urves (< 5), Vaane (< 5), Vaano (< 5), Vahto (< 5), Valba (< 5), Valbe (< 5), Vallut (< 5), Valme (< 5), Valvik (< 5), Vanevald (< 5), Veegi (< 5), Verni (< 5), Viilo (< 5), Viilup (< 5), Viit (< 5), Viivia (< 5), Vilbo (< 5), Vilimo (< 5), Vilju (< 5), Vilmer (< 5), Vilmo (< 5), Virma (< 5), Virme (< 5), Virvi (< 5), Virvo (< 5), Võitur (< 5), Volber (< 5), Volmer (< 5), Võso (< 5)
 
 ## Known data issues
 

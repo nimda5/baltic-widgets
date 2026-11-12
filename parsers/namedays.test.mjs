@@ -27,7 +27,9 @@ test('November 14 exact forms, shared records and unresolved origins retain thei
   for(const lang of LANGUAGES){const c=describeName(buildProfile(name,country),lang);assert(c.reviewed_narrative);assert.equal(c.history.length,2);assert(c.history.join(' ').length>300);assert.doesNotMatch(c.history.join(' '),/https?:|\{name\}|undefined/);}
  }
  assert.equal(reviewed,23);
- for(const[country,name]of [['lv','Fridriha'],['lv','Vicenta'],['lv','Vincentina'],['lv','Vikars'],['ee','Alve']]){
+ // Vicenta was resolved in round 56 from an exact-form entry; the other four remain open.
+ assert(reviewedHistory('Vicenta','lv'));
+ for(const[country,name]of [['lv','Fridriha'],['lv','Vincentina'],['lv','Vikars'],['ee','Alve']]){
   const p=buildProfile(name,country);assert.equal(p.verification_status,'unverified');assert.equal(p.facts.root_key,undefined);assert.equal(reviewedHistory(name,country),null);
   for(const lang of LANGUAGES){const c=describeName(p,lang);assert(!c.reviewed_narrative);assert(c.unverified_hypothesis);assert.equal(c.hypothesis_label,HYPOTHESIS_LABELS[lang]);}
  }

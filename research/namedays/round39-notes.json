@@ -1,0 +1,495 @@
+{
+  "round": 39,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 17 unfinished December 9 profiles. Exact EnglishZenobia→Zenobija replaces unsupported spelling association. Greek dolphin versus Delphi and Leocadia’s possible roots remain open. Every Estonian Rai- name was checked; conflicting Raivo/Raimond/lexical paths remain labelled hypotheses rather than a shared asserted origin.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Tabita",
+      "spellings": [
+        "Tabita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tabita",
+        "https://www.behindthename.com/name/tabitha"
+      ],
+      "facts_used": "Tabita: Tabita is linked to Aramaic Ṭabīthā, gazelle. In the New Testament tradition the name also has the Greek equivalent Dorcas. The animal word is its lexical base, rather than a Latvian compound inferred from similar sounds. Siliņš’s dictionary dates the use of Tabita: 1923, Riga. Its calendar year is 1934. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p301 ownRiga1923/calendar 1934. Biblical narrative is identified as textual tradition, not independent proof of a miraculous event.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Zenons",
+      "spellings": [
+        "Zenons"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zenons",
+        "https://www.behindthename.com/name/zenon"
+      ],
+      "facts_used": "Zenons: The family’s Greek base is Zēnōn, connected with Zēnos, a form of the name Zeus. It refers to a Greek deity’s name rather than a separate full sentence. The ancient root does not itself determine a modern bearer’s religion or character. Siliņš’s dictionary dates the use of Zenons: 1877, Rēzekne. Its calendar year is 1864. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p336 exact Zēnon/Zeus connection and own1877/calendar 1864; no full phrase invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Zenobija",
+      "spellings": [
+        "Zenobija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/29036?locale=lv",
+        "https://www.behindthename.com/name/zenobia"
+      ],
+      "facts_used": "Zenobija: The documented Zenobia family combines Greek Zēnos, of Zeus, and bios, life. It is a two-element name referring to Zeus, distinct from a simple Zēnōn derivative. The exact Latvian spelling is established by a rendering record. The Latvian Language Agency gives the exact rendering Zenobia → Zenobija, citing page 121 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact English feminine given-name row2006p121. Pronunciation annotation[-ō-] not another spelling. Zinobija/Zinovija dates not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lt",
+      "name": "Gedenė",
+      "spellings": [
+        "Gedenė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gedene/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Gedenė: The guide links Gedenė with Geda/Gedė and longer Ged- names such as Gedmina and Gedvilė. The common element is compared with Lithuanian gedėti, to mourn. These full forms need not be collapsed into one obligatory base name or an invented full-name translation. The 1964 calendar reprinted in Salys’s 1983 volume gives Gedenė (Geda) on 9 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPDF318printed303 exactGedenėDec9; guideJuly4 differs. Preserve suppliedDecember9.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lt",
+      "name": "Vakaris",
+      "spellings": [
+        "Vakaris"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vakaris/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Vakaris: Lithuanian Vakaris is formed from vakaris, associated with evening and the west; the guide also mentions a west wind. These are nuances within one lexical group. The natural image does not prove that every bearer was born in the evening or named for a particular wind. The 1964 calendar reprinted in Salys’s 1983 volume gives Vakaris on 9 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPDF318printed303 exact nameDec9. Lexical senses kept together, no unique naming motive invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Sārtīte",
+      "spellings": [
+        "Sārtīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/S%C4%81rt%C4%ABte"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact dictionary cross-reference or rendering found; colour-word similarity not adopted as a supported origin.",
+      "next_steps": "Find an exact Sārtīte scholarly entry or documented naming account; preserve ā and ī."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Tabite",
+      "spellings": [
+        "Tabite"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tabite",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Tabite"
+      ],
+      "facts_used": "Tabite is still being checked against Tabita / Tabitha. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Tabita / Tabitha",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact final-e spelling absent from checked catalogue/agency; do not transfer TabitaRiga1923/calendar 1934.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Zenona",
+      "spellings": [
+        "Zenona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zenona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zenona"
+      ],
+      "facts_used": "Zenona is still being checked against Zenons / Zenon. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Zenons / Zenon",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue explicitly lacks exact feminine bridge; no LVA given-name row found. MasculineZenons1877/1864 cannot be transferred.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lt",
+      "name": "Delfina",
+      "spellings": [
+        "Delfina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/delfina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/delphina"
+      ],
+      "facts_used": "Two explanations remain for Delfina: the Lithuanian guide links it to Greek delphis, dolphin, while the Delphina family is traced through Latin Delphinus and the place name Delphi. Selecting the immediate route remains unverified; later use does not decide it.",
+      "hypothesis": "Greek delphis / Latin Delphinus (Delphi)",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide says dolphin; curatedDelphina tracesLatinDelphinus ofDelphi. Both may share deeperGreekassociations but unique immediate origin not selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lt",
+      "name": "Leokadija",
+      "spellings": [
+        "Leokadija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/leocadia"
+      ],
+      "facts_used": "Leokadija is still being checked against Leucadia / Greek leukos. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Leucadia / Greek leukos",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide404. ExactSalysDec9use secure, but curatedLeocadia explicitly saysmightderivefromisland orbright/white word. Do not turn possible ultimate root into fact.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raido",
+      "spellings": [
+        "Raido"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raido#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Sources offer several routes for Raido: Leole mentions puuraidur, woodcutter, rait, giant, or a Raivo variant; another dictionary explanation names Raimond and Rait. These remain unverified alternatives. A dated newspaper occurrence does not itself select one root.",
+      "hypothesis": "puuraidur / rait / Raivo / Raimond",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LeoleDecember2005p1 permitswoodcutter,giant orRaivo; WiktionaryEstonian insteadRaimond/Rait. Multiple routes unresolved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raidu",
+      "spellings": [
+        "Raidu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raidu#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raidu is still being checked against Raido / Rait. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raido / Rait",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact dictionary404; shared calendar group and similar spelling do not establish a full derivation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raigo",
+      "spellings": [
+        "Raigo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raigo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raigo is still being checked against Raivo / Raimond. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raivo / Raimond",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LeoleDecember2005p1 gives Raivo/rage, WiktionaryEstonian possibleRaimond. Preserve both; no sure full meaning.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raiko",
+      "spellings": [
+        "Raiko"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raiko#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raiko is still being checked against Raimond / Raigo / Raivo. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raimond / Raigo / Raivo",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "WiktionaryEstonian explicitlypossiblyRaimond twentieth-century creation. No exact1990sfirstdate or Raigoetymology transferred.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raid",
+      "spellings": [
+        "Raid"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raid#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raid is still being checked against Raido / Rait. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raido / Rait",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact dictionary404 and no exact root proof in saved sources. Calendar grouping is not an etymology.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raik",
+      "spellings": [
+        "Raik"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=46",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raik is still being checked against Raivo / Raigas / reboraik. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raivo / Raigas / reboraik",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "OriginalMägiste1929PDF46printed44 comparesRaigas and possiblyplantname reboraik; Leole2005p1 insteadRaivo/rage. No single route chosen.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Rait",
+      "spellings": [
+        "Rait"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Rait#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=46",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Rait is still being checked against rait / Raimond / Raik. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "rait / Raimond / Raik",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Wiktionary permitscommonwordcolossus orRaimond; originalMägiste1929PDF46printed44Rai|t-du question-markedRaikcomparison. No exclusive full origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ],
+  "validation": {
+    "tests": "npm test: 128 passed",
+    "build": "npm run build passed",
+    "profiles": "All 104 target identities checked in all five languages; 49 reviewed histories have exactly two paragraphs and more than 300 characters combined.",
+    "backlog": "50 hypotheses and 5 no-proposal profiles remain unverified; all 257 previously researched open identities retained.",
+    "browser": "100 mobile views: five dates, three calendars, five languages; reviewed, hypothesis and no-history states, no displayed source links, no horizontal overflow or page errors.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged. Generated public/data and data copies match the static build.",
+    "pdf_cache": "23 private source indexes, 2901 pages; 3 new PDFs indexed once, including a 385-page Russian OCR scan; repeated indexing reuses existing extraction."
+  }
+}

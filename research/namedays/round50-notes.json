@@ -1,0 +1,377 @@
+{
+  "round": 50,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December 20: all 13 unfinished profiles examined; five histories written. Exact Artemida given-namebridge established butultimate Artemis meaningleftunknown; Artemijs competingrootroutesstayunverified. Gražvilė notsilentlynormalizedto Grožvilė and Vitnija surnamerownotusedasgiven-nameproof.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Minjona",
+      "spellings": [
+        "Minjona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Minjona",
+        "https://www.behindthename.com/name/mignon"
+      ],
+      "facts_used": "Minjona: Siliņš connects the name with French mignon, gentle, cute or darling. Internationally Mignon is also known as a literary character’s name. The adjective and the character’s history are connected, but do not determine why every family chose Latvian Minjona. Siliņš’s dictionary dates the use of Minjona: possibly the last quarter of the nineteenth century. Its calendar year is 1915. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p 241 Frenchmignon and ownpossiblelastquarter 19 c/calendar 1915; uncertainty of earliestattestation retained. No claim every Latvianbearer namedafter Goethe.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Artemida",
+      "spellings": [
+        "Artemida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/38369?locale=lv",
+        "https://www.behindthename.com/name/artemis"
+      ],
+      "facts_used": "Artemida: The exact form is connected with Greek Artemis, also known as the hunting goddess’s name. The further meaning of Artemis is not securely established. Popular comparisons with safe or bear are therefore not presented as a proved translation. The Latvian Language Agency gives the exact rendering Άρτεμις → Artemida, citing page 33 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Greekfemalegivenname Artemis→Artemida 2015 p 33; no normalizationto Artemīda. Securefamilywithunknownremote root; unsupportedliteralglosses expresslynotadopted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lt",
+      "name": "Dominykas",
+      "spellings": [
+        "Dominykas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dominykas/",
+        "https://www.behindthename.com/name/dominic",
+        "https://dmnes.org/name/Dominic"
+      ],
+      "facts_used": "Dominykas: Lithuanian Dominykas continues Latin Dominicus, of the Lord, from dominus, lord. The family is also linked to Sunday’s name and a tradition of naming children born that day, without determining every bearer’s day of birth. The medieval name dictionary gives related Latin Dominicus in France in 814. This is earlier evidence for the international family, rather than the first Lithuanian registration of Dominykas or its year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Curatedexact Lithuanian Dominykas and Latinof Lord, not merely Sunday. DMNESFrance 814 Dominicusnom St Vd M-IIA 1 foreignepisodeexplicitlyscoped; no Dionizas Poškabiography confusedwith Dominykas.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lt",
+      "name": "Teofilis",
+      "spellings": [
+        "Teofilis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/teofilis/",
+        "https://dmnes.org/name/Theophilus"
+      ],
+      "facts_used": "Teofilis: The name belongs to the Greek Theophilos family, with theos, god, and philos, beloved or dear. These explain the two ancient name elements. The Lithuanian form retains that connection without determining a modern bearer’s religion. The medieval name dictionary records related Theophilus in England in 1578. This is a dated foreign example of the family. It cannot be turned into a first-use date for the exact Lithuanian spelling Teofilis.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "DMNESEngland Early Modern English 1578 Theophilus Reg Patp 33; exactguide Greekstemroute. Salys July 22 recordnotusedas December 20 membershipauthority.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "ee",
+      "name": "Pärja",
+      "spellings": [
+        "Pärja"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/P%C3%A4rja#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=20",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Pärja: The Estonian given name was formed from pärg, wreath. The dictionary gives this derivation specifically for the personal name, and the local name column repeats it. It is distinct from an explanation based only on an accidentally similar foreign word. Page 18 of Mägiste’s 1929 name list gives Pärja in the female-name list. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Mägiste PDF 20/printed 18 exact Pärja(Rnm.); dictionary/Leolep 1 explicitlypärg/wreath. Pärje related-term mention not promoted to exactderivation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Arta",
+      "spellings": [
+        "Arta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Arta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Arta"
+      ],
+      "facts_used": "Arta is still being checked against Artis / Arturs / Latin ars / Albanian Artë. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Artis / Arturs / Latin ars / Albanian Artë",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p 70 unresolved Artis/Arturs/ars routes. Agency 2025 p 181 exact Albanian Artë→Arta adds a distinct rendering, not a universal root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Artemijs",
+      "spellings": [
+        "Artemijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Artemijs",
+        "https://www.personvarduatveide.lv/words/24010?locale=lv",
+        "https://www.behindthename.com/name/artemios",
+        "https://www.behindthename.com/name/artemis"
+      ],
+      "facts_used": "Artemijs is still being checked against Greek artemēs / Artemis–Artemios. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Greek artemēs / Artemis–Artemios",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 70 safe/unharmed versus curated Artemios derived Artemis with unknownremote root; RussianАрте́мий exactrendering 1993 p 193 does not settleultimate etymology.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Artēmijs",
+      "spellings": [
+        "Artēmijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Art%C4%93mijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Art%C4%93mijs"
+      ],
+      "facts_used": "Artēmijs is still being checked against Artemijs / Artemios. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Artemijs / Artemios",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Longē exact LVbridgeunverified; evenrelated Artemijs ultimateoriginisdisputed. No 1825/cal 1851 datestransferred.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Artija",
+      "spellings": [
+        "Artija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Artija"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact supported origin found in openedcatalogue/agency andsaved PDFs.",
+      "next_steps": "Find explicit Artija entry or documentedbasebeforeassigning Arta/Artis/Arturs family."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lv",
+      "name": "Vitnija",
+      "spellings": [
+        "Vitnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vitnija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vitnija"
+      ],
+      "facts_used": "Vitnija is still being checked against English Whitney. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "English Whitney",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue proposes Whitney. Agency Ahero 2006 p 162 exact Vitnija record is a surname row, not a given-namehistoricalbridge; no automaticgiven-namepromotion.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lt",
+      "name": "Daugardas",
+      "spellings": [
+        "Daugardas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/daugardas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Daugardas is still being checked against dau- + gard-/gird-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "dau- + gard-/gird-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guidegard from Prussiangerdaut/say/proclaim; Salys Gard-see Gird has wider alternatives. Exact Dec 7/20 calendaruse does not settlefullstemroute. Existingearlierhypothesisremainsopen.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "lt",
+      "name": "Gražvilė",
+      "spellings": [
+        "Gražvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/grazvile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Gražvilė is still being checked against gražus + vil-/viltis / Grožvilė. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "gražus + vil-/viltis / Grožvilė",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gražus/beautiful proposal; original Salys December 20 prints Grožvilė, not Gražvilė. Explicitexacthistoricalbridge/stemcorroborationstillneeded.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-20",
+      "date": "2026-11-12",
+      "calendar_date": "12-20",
+      "country": "ee",
+      "name": "Pärje",
+      "spellings": [
+        "Pärje"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/P%C3%A4rje#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Pärje is still being checked against Pärja / pärg. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Pärja / pärg",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Pärja dictionary lists Pärje asrelatedterm; no explicitexact Pärje derivation or datedscholarlyrecordfound. Preserveproposalwithouttransferring 1929 date.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

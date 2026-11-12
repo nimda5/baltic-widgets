@@ -1,0 +1,831 @@
+{
+  "round": 45,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December15: all29 unfinished profiles examined;13 histories written. Secure Hannelora composition and Gaud-family formation do not invent unique remote roots. Johanna/Jāna/Joanna dates remain separate; Honey→Hanija and competing Kelli routes stay unverified. EKI bibliography supplies a precise futureKelliarticle lead.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Johanna",
+      "spellings": [
+        "Johanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Johanna",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Johanna: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. Siliņš’s dictionary dates the use of Johanna: 1690. Its calendar year is 1901. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p181 exact feminineJohannes and own 1690/calendar 1901; neither calendar nor attestation transferred to Joanna.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Janna",
+      "spellings": [
+        "Janna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Janna",
+        "https://www.personvarduatveide.lv/words/58877?locale=lv",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Janna: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. Siliņš’s dictionary dates the use of Janna: the second quarter of the twentieth century. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p175 directJohanna and ownsecondquarter20c; geographic abbreviation Bv. not expanded by guessing. Exact DutchJanna rendering 2022p205 corroborates spelling.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Joana",
+      "spellings": [
+        "Joana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/74123?locale=lv",
+        "https://www.izpetnieks.lv/en/name/Joana",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Joana: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. The Latvian Language Agency gives the exact rendering Ioana → Joana, citing page 221 of a 2025 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering inspected; Joana RomanianIoana 2025p221 separate from LithuanianJoana. Joanna Polish 1998p55; owncalendar 1767 must not inherit Johanna 1901.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Joanna",
+      "spellings": [
+        "Joanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/1150?locale=lv",
+        "https://www.izpetnieks.lv/en/name/Joanna",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Joanna: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. The Latvian Language Agency gives the exact rendering Joanna → Joanna, citing page 55 of a 1998 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering inspected; Joana RomanianIoana 2025p221 separate from LithuanianJoana. Joanna Polish 1998p55; owncalendar 1767 must not inherit Johanna 1901.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Jāna",
+      "spellings": [
+        "Jāna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/J%C4%81na",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Jāna: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. Siliņš includes Jāna in a shared Jana/Jāna entry with an a/ā variant note. It gives Madona in 1925 and calendar year 1882. These are joint-entry dates, rather than independently proved first birth registrations for each spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp173/181 shared Jan/a,-e(-a-:-ā-) directJohanna family; shared dates carefully scoped.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Hannelora",
+      "spellings": [
+        "Hannelora"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hannelora",
+        "https://dmnes.org/name/Joan",
+        "https://www.behindthename.com/name/eleanor"
+      ],
+      "facts_used": "Hannelora: Siliņš explains the name as a combination of Johanna and Eleonora. Johanna belongs to the Hebrew Yohanan family, God has been gracious. Eleonora’s further origin is not securely established, so the combination is not assigned an invented full translation. Siliņš’s dictionary dates the use of Hannelora: 1928, Riga. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp147/181/112 explicit composition and ownRiga 1928; disputed Ellinor/God-is-my-light explanation NOT adopted as fact. Secure formation and unknown remote root distinguished.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lt",
+      "name": "Gaudenė",
+      "spellings": [
+        "Gaudenė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gaudene/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=230"
+      ],
+      "facts_used": "Gaudenė: The guide explains this form as a derivative of a short name in the Gaud- family. A short form can correspond to several full names. The documented formation therefore does not itself select one full base or a literal translation covering the entire family. Page 215 of the 1983 study gives Gaudenė labelled as a personal name. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide formation through Gaudė; original SalysPDF230/printed p. 215 exactPN entry. Do not conflate Gaudentas shortenedGaudencijus, nor assert ancientPrussianGaudenis record as this Lithuanian name’s first use. Unique remote base intentionally unspecified.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lt",
+      "name": "Gaudenis",
+      "spellings": [
+        "Gaudenis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gaudenis/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=230"
+      ],
+      "facts_used": "Gaudenis: The guide explains this form as a derivative of a short name in the Gaud- family. A short form can correspond to several full names. The documented formation therefore does not itself select one full base or a literal translation covering the entire family. Page 215 of the 1983 study gives Gaudenis labelled as a personal name. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide formation through Gaudas; original SalysPDF230/printed p. 215 exactPN entry. Do not conflate Gaudentas shortenedGaudencijus, nor assert ancientPrussianGaudenis record as this Lithuanian name’s first use. Unique remote base intentionally unspecified.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lt",
+      "name": "Kristijona",
+      "spellings": [
+        "Kristijona"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/kristijona/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=243",
+        "https://www.behindthename.com/name/christian"
+      ],
+      "facts_used": "Kristijona: The Lithuanian form belongs to the Christianus family. Latin Christianus means a Christian and derives from Christus; Greek Christos means anointed. The historical basis of the name does not itself determine a modern bearer’s faith. The 1964 calendar reprinted in Salys’s 1983 volume gives Kristijona (Kristė, Jonė) on 15 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original SalysPDF318/printed p. 303 December15femaleKristijona;PDF p. 243/printed p. 228 explicit PNChristiane. Christianus versus Christos stages distinguished.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lt",
+      "name": "Kristijonas",
+      "spellings": [
+        "Kristijonas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/kristijonas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=243",
+        "https://www.behindthename.com/name/christian"
+      ],
+      "facts_used": "Kristijonas: The Lithuanian form belongs to the Christianus family. Latin Christianus means a Christian and derives from Christus; Greek Christos means anointed. The historical basis of the name does not itself determine a modern bearer’s faith. Page 228 of the 1983 study gives Kristijonas as the equivalent of Christian. This is dated evidence for the exact form in scholarly work. Publication does not mark a first birth record or the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalSalysPDF243/printed p. 228 exactmalePNChristian; femaleDecember15calendar not substituted for malecalendar proof.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "ee",
+      "name": "Kalli",
+      "spellings": [
+        "Kalli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Kalli: The local name column connects Kalli with Estonian kallis, dear or beloved. The name takes up an expression of value or affection. This is the particular Estonian route; possible origins of similar-sounding Kelli require separate checking. The first page of Leole’s December 2005 issue uses the exact spelling Kalli. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact DecemberLeolep1 lexical entry; Kulla also originalMägistePDF17/printed p. 15 Kulla(Sõggel,vrd.kuld). Kelli multiple origin routes not flattened into Kalli.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "ee",
+      "name": "Kulla",
+      "spellings": [
+        "Kulla"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://sonaveeb.ee/search/lite/est/kuld/1/est"
+      ],
+      "facts_used": "Kulla: The Estonian name is connected with kuld, gold, and the description golden. Mägiste compares it with kuld, while the later local column explains it as golden. This local lexical connection is documented. Page 15 of Mägiste’s 1929 name list gives Kulla with a comparison to kuld. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact DecemberLeolep1 lexical entry; Kulla also originalMägistePDF17/printed p. 15 Kulla(Sõggel,vrd.kuld). Kelli multiple origin routes not flattened into Kalli.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "ee",
+      "name": "Killu",
+      "spellings": [
+        "Killu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Killu: Leole explains Killu through Estonian kild, shard, splinter or small piece. This is formation from local vocabulary. The common-word meaning need not be embellished with an invented story about an object naming the first bearer. The first page of Leole’s December 2005 issue uses the exact spelling Killu. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact DecemberLeolep1 lexical entry; Kulla also originalMägistePDF17/printed p. 15 Kulla(Sõggel,vrd.kuld). Kelli multiple origin routes not flattened into Kalli.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Hanna",
+      "spellings": [
+        "Hanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hanna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Hanna"
+      ],
+      "facts_used": "Hanna is still being checked against Anna / Johanna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Anna / Johanna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p147 has Hebrewgrace Anna versus JohannaGod-gracious alternatives; agency exactHanna/Hannah cannot choose one root for every bearer.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Hanelita",
+      "spellings": [
+        "Hanelita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hanelita"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact-form origin found in opened catalogue/agency and saved indexes.",
+      "next_steps": "Find exact Hanelita scholarly entry or explicit parent-form derivation before selecting Hanna-family or another origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Hanija",
+      "spellings": [
+        "Hanija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hanija",
+        "https://www.personvarduatveide.lv/words/28463?locale=lv"
+      ],
+      "facts_used": "Hanija is still being checked against Hanna / English Honey. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Hanna / English Honey",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue possibleHanna versus agency exactEnglish Honey→Hanija 2006p104. Separate documented rendering creates another route; no single universal origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Hannelore",
+      "spellings": [
+        "Hannelore"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hannelore",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Hannelore"
+      ],
+      "facts_used": "Hannelore is still being checked against Hannelora / German Hannelore. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Hannelora / German Hannelore",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Hannelora composition is checked, but exact Hannelore LV bridge not found in agency or inspected catalogue; do not transfer 1928date automatically.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Hannija",
+      "spellings": [
+        "Hannija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hannija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Hannija"
+      ],
+      "facts_used": "Hannija is still being checked against Hanna / Anna / Johanna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Hanna / Anna / Johanna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue pp148/147 inherits alternative Hanna full bases; ownsecondquarter19cStende use does not select one.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Janeka",
+      "spellings": [
+        "Janeka"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Janeka",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Janeka"
+      ],
+      "facts_used": "Janeka is still being checked against Janeks / Johannes. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Janeks / Johannes",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p173 lists underJaneks but does not establish unqualified feminine formation; exact root route needs verification.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Janija",
+      "spellings": [
+        "Janija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Janija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Janija"
+      ],
+      "facts_used": "Janija is still being checked against Jana / Johanna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Jana / Johanna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact authoritative parent-form bridge established.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Janika",
+      "spellings": [
+        "Janika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Janika",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Janika"
+      ],
+      "facts_used": "Janika is still being checked against Jana / Janina / Johanna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Jana / Janina / Johanna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Several similar international forms; no checked exact LV borrowing path.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Johana",
+      "spellings": [
+        "Johana"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Johana",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Johana"
+      ],
+      "facts_used": "Johana is still being checked against Johanna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Johanna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Single-n exact spelling lacks direct checked historical/lexical bridge; Johanna dates not imported.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Jonita",
+      "spellings": [
+        "Jonita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jonita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Jonita"
+      ],
+      "facts_used": "Jonita is still being checked against Jons / Jolanta. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Jons / Jolanta",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p182 question-marks both alternatives; ownPreiļi 1973does not prove a unique root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Juanna",
+      "spellings": [
+        "Juanna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Juanna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Juanna"
+      ],
+      "facts_used": "Juanna is still being checked against Juana / Johanna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Juana / Johanna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exactdouble-nLVform not established by internationalJuana resemblance.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Junna",
+      "spellings": [
+        "Junna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Junna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Junna"
+      ],
+      "facts_used": "Junna is still being checked against Juna / Junona. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Juna / Junona",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No checked exact derivation; similarly written Junne or Junona not sufficient proof.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lv",
+      "name": "Žuanete",
+      "spellings": [
+        "Žuanete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C5%BDuanete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=%C5%BDuanete"
+      ],
+      "facts_used": "Žuanete is still being checked against Joana / Juana / Jeanette. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Joana / Juana / Jeanette",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Possible Romance-family comparisons remain research leads; exactLVrendering or derivation needed.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lt",
+      "name": "Justas",
+      "spellings": [
+        "Justas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/justas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Justas is still being checked against Latin iustus / Lithuanian justi. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Latin iustus / Lithuanian justi",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide explicitly Latinjust/moral versus nativejusti/feel alternatives; no one route selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "lt",
+      "name": "Nina",
+      "spellings": [
+        "Nina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/nina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Nina is still being checked against Georgian Nino / names ending -nina. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Georgian Nino / names ending -nina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide labels Georgian ultimateoriginunknown and gives multiple alternative bases; suggestedNinurta/Quechua resemblance not promoted to a universal etymology.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-15",
+      "date": "2026-11-12",
+      "calendar_date": "12-15",
+      "country": "ee",
+      "name": "Kelli",
+      "spellings": [
+        "Kelli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Kelli#Estonian",
+        "https://arhiiv.eki.ee/nimeselts/bib/botm06.htm"
+      ],
+      "facts_used": "Kelli is still being checked against Kalli / Kerli–Gertrud / English Kelly. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Kalli / Kerli–Gertrud / English Kelly",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole treats Kelli asKallivariant; Estonian dictionary givesGertrud/Kerli/EnglishKelly alternatives. EKI bibliography locates AnnikaHussar EdvardjaKelli,PerejaKodu 2005nr6p46, notyetread; keepunverified.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

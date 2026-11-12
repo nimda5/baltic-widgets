@@ -1,0 +1,644 @@
+{
+  "round": 37,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 22 unfinished December 7 profiles. Antonius-family histories explicitly retain unknown ultimate meaning rather than adopting flower etymology. Anta gendered dates are separate; exact Zbigniew→Zbigņevs bridge checked. Salys supports Tautė and Ambraziejus; Piine remains unverified because only submitted-name evidence was found.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonija",
+      "spellings": [
+        "Antonija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antonija",
+        "https://www.behindthename.com/name/antonia",
+        "https://www.behindthename.com/name/anthony"
+      ],
+      "facts_used": "Antonija: The documented family leads to Latin Antonius, an ancient Roman family name. Its further meaning is not securely established. The popular comparison with Greek anthos, flower, is therefore not a proved original translation of this name family. Siliņš’s dictionary dates the use of Antonija: 1832, Rūjiena. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact feminine Antonius family secure; ultimate meaning explicitly unknown. No flower/priceless derivation adopted. Own1832 and calendar 1767 distinguished.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Tonija",
+      "spellings": [
+        "Tonija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tonija",
+        "https://www.izpetnieks.lv/en/name/Antonija",
+        "https://www.behindthename.com/name/anthony"
+      ],
+      "facts_used": "Tonija: The documented family leads to Latin Antonius, an ancient Roman family name. Its further meaning is not securely established. The popular comparison with Greek anthos, flower, is therefore not a proved original translation of this name family. Siliņš’s dictionary dates the use of Tonija: 1876. Its calendar year is 1889. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p308 explicit Antonija association. Toņa described as Russian feminine diminutive; no undocumented derivational mechanism added for Tonita/Tonija. Ultimate Antonius meaning unknown, not guessed.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Tonita",
+      "spellings": [
+        "Tonita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tonita",
+        "https://www.izpetnieks.lv/en/name/Antonija",
+        "https://www.behindthename.com/name/anthony"
+      ],
+      "facts_used": "Tonita: The documented family leads to Latin Antonius, an ancient Roman family name. Its further meaning is not securely established. The popular comparison with Greek anthos, flower, is therefore not a proved original translation of this name family. Siliņš’s dictionary dates the use of Tonita: third quarter of the twentieth century, Liepāja. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p308 explicit Antonija association. Toņa described as Russian feminine diminutive; no undocumented derivational mechanism added for Tonita/Tonija. Ultimate Antonius meaning unknown, not guessed.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Toņa",
+      "spellings": [
+        "Toņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/To%C5%86a",
+        "https://www.izpetnieks.lv/en/name/Antonija",
+        "https://www.behindthename.com/name/anthony"
+      ],
+      "facts_used": "Toņa: The documented family leads to Latin Antonius, an ancient Roman family name. Its further meaning is not securely established. The popular comparison with Greek anthos, flower, is therefore not a proved original translation of this name family. Siliņš’s dictionary dates the use of Toņa: third quarter of the twentieth century, Alūksne area. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p308 explicit Antonija association. Toņa described as Russian feminine diminutive; no undocumented derivational mechanism added for Tonita/Tonija. Ultimate Antonius meaning unknown, not guessed.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Anta",
+      "spellings": [
+        "Anta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anta",
+        "https://www.izpetnieks.lv/en/name/Antonija",
+        "https://www.behindthename.com/name/anthony"
+      ],
+      "facts_used": "Anta: Siliņš distinguishes two Anta entries: masculine Anta/Ante is linked to Antons, feminine Anta to Antonija. Both lead to Latin Antonius, whose further meaning is not securely known. The gendered examples should remain separate rather than making one the origin of every bearer. The dictionary records masculine Anta/Ante at Mārciena in 1562 and feminine Anta at Lubāna in 1930. The feminine entry gives the calendar year 1932. This distinction keeps the earlier masculine date from being transferred to the feminine name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp61/62 two genders explicitly retained;1932 belongs feminine entry. Root unknown explicitly, no speculative literal translation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antuanete",
+      "spellings": [
+        "Antuanete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antuanete",
+        "https://www.personvarduatveide.lv/words/40777?locale=lv",
+        "https://www.behindthename.com/name/antoinette",
+        "https://www.behindthename.com/name/anthony"
+      ],
+      "facts_used": "Antuanete: The documented family leads to Latin Antonius, an ancient Roman family name. Its further meaning is not securely established. The popular comparison with Greek anthos, flower, is therefore not a proved original translation of this name family. The Latvian Language Agency gives the exact rendering Antoinette → Antuanete, citing page 75 of a 1963 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact French feminine given-name rendering1963p75. Full Antonius family documented; ultimate root unknown, not flower.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Dzirkstīte",
+      "spellings": [
+        "Dzirkstīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Dzirkst%C4%ABte"
+      ],
+      "facts_used": "Dzirkstīte: The dictionary links Dzirkstīte to Dzirkste, based on Latvian dzirkste, spark. It belongs to Latvian personal names using natural and fire imagery. The small-fire image explains the word’s history rather than promising a particular bearer’s temperament. Siliņš’s dictionary dates the use of Dzirkstīte: 1933, Riga. Its calendar year is 1925. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Siliņš p104 catalogue own1933Riga/calendar 1925. Balodis2008PDF lead returned HTML challenge and is not treated as independently inspected original evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Zbigņevs",
+      "spellings": [
+        "Zbigņevs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/1081?locale=lv",
+        "https://www.behindthename.com/name/zbigniew"
+      ],
+      "facts_used": "Zbigņevs: The agency documents Polish Zbigniew rendered as Zbigņevs. The Slavic elements are explained as jĭzbyti, to dispel, and gněvŭ, anger. These are separate stem glosses rather than an invented statement about a bearer’s personality. The Latvian Language Agency gives the exact rendering Zbigniew → Zbigņevs, citing page 54 of a 1998 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering resolves missing spelling bridge. Separate stem glosses retained without claiming a uniquely documented full translation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lt",
+      "name": "Ambraziejus",
+      "spellings": [
+        "Ambraziejus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ambraziejus/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/ambrose"
+      ],
+      "facts_used": "Ambraziejus: The Lithuanian form continues Greek Ambrosios, immortal, through the Latin Ambrosius tradition. The family spread in Europe among Christian names. The ancient designation belongs to linguistic and cultural history rather than literally describing a person’s lifespan. The 1964 calendar reprinted in Salys’s 1983 volume gives Ambraziejus (Ambras, Ambrazas, Brazys) on 7 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original SalysPDF318printed303December7; exact form, not every variant’s first attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lt",
+      "name": "Tautė",
+      "spellings": [
+        "Tautė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/taute/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=271"
+      ],
+      "facts_used": "Tautė: The guide explains Tautė as a short form of Taut- names such as Tautrimė and Tautvydė. Their shared Lithuanian element tauta means nation or people. The short name need not have one obligatory full form, since different names can produce the same shortening. The 1964 calendar reprinted in Salys’s 1983 volume gives Tautė on 7 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPDF318printed303 exactTautėDec7;PDF p. 271printed256 labels feminine personal name. GuideSept6 differs, projectDec7 retained.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "ee",
+      "name": "Sabiine",
+      "spellings": [
+        "Sabiine"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Sabiine#Estonian",
+        "https://www.behindthename.com/name/sabina"
+      ],
+      "facts_used": "Sabiine: The family is based on Latin Sabina, the feminine of Sabinus. It referred to the Sabines, a people of ancient Italy. This is an ethnic designation in the name’s history, not a statement about a modern bearer’s nationality or personal qualities. The first page of Leole’s December 2005 issue uses the exact spelling Sabiine. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Estonian dictionary and December 2005p1 both connect Sabiine with LatinSabina. No date transferred from Latvian Sabīne.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antainna",
+      "spellings": [
+        "Antainna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antainna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Antainna"
+      ],
+      "facts_used": "Antainna is still being checked against Anta / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Anta / Antonija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "One Latgale record pairs names of one bearer; does not prove universal formation. No unique ultimate literal root adopted.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antija",
+      "spellings": [
+        "Antija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Antija"
+      ],
+      "facts_used": "Antija is still being checked against Anfija / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Anfija / Antonija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue gives Greekflower versus Antoniusunknown alternatives; retain both.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonela",
+      "spellings": [
+        "Antonela"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antonela",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Antonela"
+      ],
+      "facts_used": "Antonela is still being checked against Antonella / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antonella / Antonija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact singlel bridge not found in agency; catalogue calls possible variant. No automatic feminine-suffix proof.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonida",
+      "spellings": [
+        "Antonida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antonida",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Antonida"
+      ],
+      "facts_used": "Antonida is still being checked against Antonīda / Antoņina. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antonīda / Antoņina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Shorti not established by checked exact source; do not transfer longī interpretation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonīda",
+      "spellings": [
+        "Antonīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anton%C4%ABda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Anton%C4%ABda"
+      ],
+      "facts_used": "Antonīda is still being checked against Antoņina / daughter of Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antoņina / daughter of Antonija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue offers alternative formation mechanisms; exact ultimate route not selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antuaneta",
+      "spellings": [
+        "Antuaneta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antuaneta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Antuaneta"
+      ],
+      "facts_used": "Antuaneta is still being checked against Antuanete / Antoinette. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antuanete / Antoinette",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Finala differs from checked LVA finaleAntuanete; no exact rendering row found.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Tone",
+      "spellings": [
+        "Tone"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tone",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Tone"
+      ],
+      "facts_used": "Tone is still being checked against Toņa / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Toņa / Antonija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact Tone absent from checked dictionary/agency. NorwegianTone/Torhild must not be substituted for Latvian form.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Zdeneks",
+      "spellings": [
+        "Zdeneks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zdeneks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zdeneks"
+      ],
+      "facts_used": "Zdeneks is still being checked against Czech Zdeněk / Zdislav. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Czech Zdeněk / Zdislav",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue proposed Czech comparison; no checked exact Latvian rendering bridge.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lt",
+      "name": "Daugardas",
+      "spellings": [
+        "Daugardas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/daugardas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Daugardas is still being checked against daug- + gard-/gird-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "daug- + gard-/gird-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "SalysPDF287printed272gard- pointsgird-, PDF p. 288printed273girdėti/girdas; guideinsteadPrussiangerdaut say/announce. DatedDecember7name does not choose contested second stem.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lt",
+      "name": "Jekaterina",
+      "spellings": [
+        "Jekaterina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/jekaterina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Jekaterina is still being checked against Aikaterine / Hekaterine / Catherine. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Aikaterine / Hekaterine / Catherine",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide retains GreekHekate/hekateros alternatives and sayspure is secondary. No unique original root selected; do not present katharosasproved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "ee",
+      "name": "Piine",
+      "spellings": [
+        "Piine"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://www.behindthename.com/submit/names/gender/feminine/usage/estonian/2",
+        "https://en.wiktionary.org/wiki/Piine"
+      ],
+      "facts_used": "Piine is still being checked against Sabiine. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Sabiine",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Only submitted-name short-form proposal found; Wiktionary404 and no exact scholarly bridge in saved indexes. Calendar membership does not prove shortening.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ],
+  "validation": {
+    "tests": "npm test: 128 passed",
+    "build": "npm run build passed",
+    "profiles": "All 104 target identities checked in all five languages; 49 reviewed histories have exactly two paragraphs and more than 300 characters combined.",
+    "backlog": "50 hypotheses and 5 no-proposal profiles remain unverified; all 257 previously researched open identities retained.",
+    "browser": "100 mobile views: five dates, three calendars, five languages; reviewed, hypothesis and no-history states, no displayed source links, no horizontal overflow or page errors.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged. Generated public/data and data copies match the static build.",
+    "pdf_cache": "23 private source indexes, 2901 pages; 3 new PDFs indexed once, including a 385-page Russian OCR scan; repeated indexing reuses existing extraction."
+  }
+}

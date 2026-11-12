@@ -1,0 +1,724 @@
+{
+  "round": 29,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 25 unfinished 29 November profiles. Exact LVA entries resolve Aimo and several Virginia-family spellings. Unknown Roman roots remain explicitly unknown; later fire/maiden associations are not proved original meanings. Shared Virgin/a,-e attestation is labelled shared. Saturninas historical calendar is December15. Egert has a separate exact FIBA2011 episode. All unresolved identities remain unverified.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Ignatijs",
+      "spellings": [
+        "Ignatijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ignatijs",
+        "https://www.personvarduatveide.lv/words/29464?locale=lv",
+        "https://www.behindthename.com/name/ignatius"
+      ],
+      "facts_used": "Ignatijs: The family leads to Roman Egnatius and later Ignatius. The older name’s meaning is unknown; the spelling was later brought closer to Latin ignis, fire. Fire is therefore a historical association rather than the demonstrated original meaning. The Latvian Language Agency gives the exact rendering Ignatius → Ignatijs, citing page 73 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact English rendering; Russian Игнатий rendering also exact (1993p199). Unknown Egnatius root retained; reject proven-fire gloss.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Ignāts",
+      "spellings": [
+        "Ignāts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN",
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ign%C4%81ts",
+        "https://www.izpetnieks.lv/en/name/Ignatijs",
+        "https://www.personvarduatveide.lv/words/19272?locale=lv",
+        "https://www.behindthename.com/name/ignatius",
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ignotas/"
+      ],
+      "facts_used": "Ignāts: The family leads to Roman Egnatius and later Ignatius. The older name’s meaning is unknown; the spelling was later brought closer to Latin ignis, fire. Fire is therefore a historical association rather than the demonstrated original meaning. The Latvian Language Agency gives the exact rendering Ignotas → Ignāts, citing page 46 of a 1961 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš puts Ignatijs under Ignāts; LVA exact Lithuanian Ignotas→Ignāts. Do not promote uncertain ignis derivation or transfer dates to Ignats/ Ignātijs.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Aimo",
+      "spellings": [
+        "Aimo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aimo",
+        "https://www.personvarduatveide.lv/words/35713?locale=lv",
+        "https://www.behindthename.com/name/aimo"
+      ],
+      "facts_used": "Aimo: The Finnish personal name remains Aimo in Latvian rendering. Finnish aimo conveys a generous amount or substantial size. This is a name based on Finnish vocabulary, with the exact Latvian correspondence documented rather than guessed from its sound. The Latvian Language Agency gives the exact rendering Aimo → Aimo, citing page 394 of a 2003 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Finnish given-name rendering; no surname/Arabic substring used. No Finnish or Estonian calendar dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgīnija",
+      "spellings": [
+        "Virgīnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virg%C4%ABnija",
+        "https://www.personvarduatveide.lv/words/13151?locale=lv",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virgīnija: The family leads to the Roman clan names Verginius and Virginius. Their original meaning is unknown, although they have long been associated with Latin virgo, maiden. That association is part of the family’s history rather than proof of one literal etymology. The Latvian Language Agency gives the exact rendering Virginia → Virgīnija, citing page 330 of a 2003 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact rendering checked in LVA: Swedish, English and Lithuanian routes respectively. Unknown ultimate Roman meaning retained; no short-i Virginija dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virdžīnija",
+      "spellings": [
+        "Virdžīnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vird%C5%BE%C4%ABnija",
+        "https://www.personvarduatveide.lv/words/29003?locale=lv",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virdžīnija: The family leads to the Roman clan names Verginius and Virginius. Their original meaning is unknown, although they have long been associated with Latin virgo, maiden. That association is part of the family’s history rather than proof of one literal etymology. The Latvian Language Agency gives the exact rendering Virginia → Virdžīnija, citing page 120 of a 2006 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact rendering checked in LVA: Swedish, English and Lithuanian routes respectively. Unknown ultimate Roman meaning retained; no short-i Virginija dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virģinija",
+      "spellings": [
+        "Virģinija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vir%C4%A3inija",
+        "https://www.personvarduatveide.lv/words/19984?locale=lv",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virģinija: The family leads to the Roman clan names Verginius and Virginius. Their original meaning is unknown, although they have long been associated with Latin virgo, maiden. That association is part of the family’s history rather than proof of one literal etymology. The Latvian Language Agency gives the exact rendering Virginija → Virģinija, citing page 105 of a 2009 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact rendering checked in LVA: Swedish, English and Lithuanian routes respectively. Unknown ultimate Roman meaning retained; no short-i Virginija dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virginija",
+      "spellings": [
+        "Virginija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virginija",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virginija: The family leads to the Roman clan names Verginius and Virginius. Their original meaning is unknown, although they have long been associated with Latin virgo, maiden. That association is part of the family’s history rather than proof of one literal etymology. Siliņš’s dictionary dates the use of Virginija: 1877. Its calendar year is 1901. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p330 exact short-i form; distinguish traditional virgo association from proved ultimate etymology.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgina",
+      "spellings": [
+        "Virgina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virgina",
+        "https://www.izpetnieks.lv/en/name/Virginija",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virgina: The family leads to the Roman clan names Verginius and Virginius. Their original meaning is unknown, although they have long been associated with Latin virgo, maiden. That association is part of the family’s history rather than proof of one literal etymology. Siliņš’s dictionary dates the use of Virgina: Rēzekne, 1877, the shared Virgin/a, -e entry. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "1877 Rēzekne is explicitly scoped to the grouped entry, not independently dated individual spellings. No long-ī form or calendar year inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgine",
+      "spellings": [
+        "Virgine"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virgine",
+        "https://www.izpetnieks.lv/en/name/Virginija",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virgine: The family leads to the Roman clan names Verginius and Virginius. Their original meaning is unknown, although they have long been associated with Latin virgo, maiden. That association is part of the family’s history rather than proof of one literal etymology. Siliņš’s dictionary dates the use of Virgine: Rēzekne, 1877, the shared Virgin/a, -e entry. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "1877 Rēzekne is explicitly scoped to the grouped entry, not independently dated individual spellings. No long-ī form or calendar year inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virga",
+      "spellings": [
+        "Virga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virga",
+        "https://www.izpetnieks.lv/en/name/Virginija",
+        "https://www.behindthename.com/name/virginia"
+      ],
+      "facts_used": "Virga: Siliņš lists the name under Virginija as a Lithuanian feminine pet form. The family leads to Roman Virginius/Verginius, of unknown original meaning. Although the separate Latin word virga means twig, matching sounds alone do not make it the basis of this personal name. Siliņš’s dictionary dates the use of Virga: Jūrmala, 1973. Its calendar year is 1934. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp329/330; calendar1934 and one later local1973 attestation are separate facts.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lt",
+      "name": "Daujotas",
+      "spellings": [
+        "Daujotas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/daujotas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Daujotas: The Lithuanian guide identifies dau- from daug, much or many, and jot- from jotis, rider. The name preserves the Baltic two-part model. Explaining its stems does not require turning them into one literally translated modern sentence. The 1964 calendar reprinted in Salys’s 1983 volume gives Daujotas (Daujys) on 29 November. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF318 printed303 November29 visually checked. No first coinage claim.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lt",
+      "name": "Saturninas",
+      "spellings": [
+        "Saturninas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=265",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/saturninus",
+        "https://www.behindthename.com/name/saturn"
+      ],
+      "facts_used": "Saturninas: Lithuanian Saturninas corresponds to Latin Saturninus, recorded by Salys. Saturninus is a Roman cognomen formed from the god’s name Saturnus. The original meaning of Saturnus is unknown; the god’s agricultural role is not the literal translation of the name. The 1964 calendar reprinted in Salys’s 1983 volume gives Saturninas (Satas, Satys) on 15 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF265 printed250 exact Saturninas personal name; PDF318 printed303 December15, not November29. Project calendar unchanged. Guide exact page unavailable, not relied on.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "ee",
+      "name": "Egert",
+      "spellings": [
+        "Egert"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-FIBA"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Egert#Estonian",
+        "https://www.behindthename.com/name/eckhard",
+        "https://www.fiba.basketball/en/history/233-fiba-u16-eurobasket-division-b/6393/players/190484-egert-haller"
+      ],
+      "facts_used": "Egert: The Estonian dictionary links the name to a Middle Low German variant of Ekkehard. In this Germanic family ekke denotes a blade’s edge, while hard expresses hardness or strength. The transmission reflects language contact rather than qualities required of every bearer. FIBA’s archive of the 2011 U16 European Championship, Division B, lists Egert Haller for Estonia. Its game list includes Belgium on 28 July. This is a dated sporting example of the exact spelling, rather than the name’s earliest use.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "FIBA exact 2011 event and28July Belgium game; no birthplace, stats or other athlete inferred. Curated Eckhard supplies elements, not an English-surname etymology.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Ignats",
+      "spellings": [
+        "Ignats"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ignats",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ignats"
+      ],
+      "facts_used": "Ignats still needs checking against Ignāts / Ignatius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Ignāts / Ignatius",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Ignātijs",
+      "spellings": [
+        "Ignātijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ign%C4%81tijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ign%C4%81tijs"
+      ],
+      "facts_used": "Ignātijs still needs checking against Ignatijs / Ignatius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Ignatijs / Ignatius",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Vergenija",
+      "spellings": [
+        "Vergenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vergenija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vergenija"
+      ],
+      "facts_used": "Vergenija still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginija / Virginia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgenija",
+      "spellings": [
+        "Virgenija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virgenija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virgenija"
+      ],
+      "facts_used": "Virgenija still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginija / Virginia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgilijs",
+      "spellings": [
+        "Virgilijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virgilijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virgilijs"
+      ],
+      "facts_used": "Virgilijs still needs checking against Virgilija / Vergilius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virgilija / Vergilius",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue describes the feminine Virgilija entry and its1971/calendar1901 dates; these are not accepted as exact masculine Virgilijs evidence. Ultimate Vergilius meaning unknown.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgīna",
+      "spellings": [
+        "Virgīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virg%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virg%C4%ABna"
+      ],
+      "facts_used": "Virgīna still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginija / Virginia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virgīne",
+      "spellings": [
+        "Virgīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virg%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virg%C4%ABne"
+      ],
+      "facts_used": "Virgīne still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginija / Virginia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virginijs",
+      "spellings": [
+        "Virginijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Virginijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virginijs"
+      ],
+      "facts_used": "Virginijs still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginija / Virginia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lv",
+      "name": "Virģīnija",
+      "spellings": [
+        "Virģīnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vir%C4%A3%C4%ABnija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vir%C4%A3%C4%ABnija"
+      ],
+      "facts_used": "Virģīnija still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Virginija / Virginia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lt",
+      "name": "Butvydė",
+      "spellings": [
+        "Butvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/butvyde/"
+      ],
+      "facts_used": "Butvydė still needs checking against but- + vyd-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "but- + vyd-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lt",
+      "name": "Saturnas",
+      "spellings": [
+        "Saturnas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/saturnas/"
+      ],
+      "facts_used": "Saturnas still needs checking against Saturnus / Saturninas. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Saturnus / Saturninas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide identifies Roman god; Salys Saturnas is a planet-name row, not a given-name row. No independent dated Lithuanian given-name example inspected.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-29",
+      "date": "2026-11-12",
+      "calendar_date": "11-29",
+      "country": "lt",
+      "name": "Iminė",
+      "spellings": [
+        "Iminė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/imine/"
+      ],
+      "facts_used": "Iminė still needs checking against i- + min-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "i- + min-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact local dictionary/guide, LVA results and cached scholarly indexes checked. A precise spelling bridge, full stem analysis or independent dated episode is still missing; no dates transferred from neighbouring forms.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    }
+  ]
+}

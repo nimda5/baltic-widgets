@@ -12,5 +12,5 @@ document.documentElement.lang=lang;
 document.querySelector('.chart-eyebrow').textContent=t('price_history','Price history');
 document.querySelector('.chart-close').setAttribute('aria-label',t('close_chart','Close chart'));
 document.querySelector('.chart-periods').setAttribute('aria-label',t('chart_period','Chart period'));
-document.querySelector('.chart-cursor').setAttribute('aria-label',t('choose_history_point','Choose a historical price'));
+document.querySelector('#chart-canvas').setAttribute('aria-label',t('choose_history_point','Choose a historical price'));
 document.dispatchEvent(new CustomEvent('locale-ready',{detail:labels}));

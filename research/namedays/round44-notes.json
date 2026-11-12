@@ -1,0 +1,394 @@
+{
+  "round": 44,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December14: all14 unfinished profiles examined. Seven histories written, with shared Gaismona/Gaismone dates and Auseklis literary name scoped precisely. Fortunatas is not silently normalized to scholarly Fortūnatas; Hingo’s LowGerman comparison and popular soul interpretation remain open.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Gaisma",
+      "spellings": [
+        "Gaisma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gaisma"
+      ],
+      "facts_used": "Gaisma: The name belongs to the Latvian Gaisma family, based on the common noun gaisma, light. Siliņš’s dictionary states this connection explicitly. The derivatives share a lexical base, while their particular spellings and usage dates remain distinct. Siliņš’s dictionary dates the use of Gaisma: 1925. Its calendar year is 1889. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p132 exact entry underGaisma and own attestation/calendar, not transferred from another derivative.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Gaismīte",
+      "spellings": [
+        "Gaismīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gaism%C4%ABte"
+      ],
+      "facts_used": "Gaismīte: The name belongs to the Latvian Gaisma family, based on the common noun gaisma, light. Siliņš’s dictionary states this connection explicitly. The derivatives share a lexical base, while their particular spellings and usage dates remain distinct. Siliņš’s dictionary dates the use of Gaismīte: the third quarter of the twentieth century, Limbaži district. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p132 exact entry underGaisma and own attestation/calendar, not transferred from another derivative.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Gaismonis",
+      "spellings": [
+        "Gaismonis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gaismonis"
+      ],
+      "facts_used": "Gaismonis: The name belongs to the Latvian Gaisma family, based on the common noun gaisma, light. Siliņš’s dictionary states this connection explicitly. The derivatives share a lexical base, while their particular spellings and usage dates remain distinct. Siliņš’s dictionary dates the use of Gaismonis: the first quarter of the twentieth century. Its calendar year is 1925. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p132 exact entry underGaisma and own attestation/calendar, not transferred from another derivative.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Gaismone",
+      "spellings": [
+        "Gaismone"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gaismone"
+      ],
+      "facts_used": "Gaismone: The name belongs to the Latvian Gaisma family, based on the common noun gaisma, light. Siliņš’s dictionary states this connection explicitly. The derivatives share a lexical base, while their particular spellings and usage dates remain distinct. Siliņš places Gaismona and Gaismone in a shared entry with 1930 and calendar year 1879. These dates belong to the joint record. They cannot be presented as a separately proved first birth registration for Gaismone.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p132 sharedGaismona/Gaismone entry; shared dates explicitly scoped, no invented separate first attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Auseklis",
+      "spellings": [
+        "Auseklis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-ENC-AUSEKLIS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Auseklis",
+        "https://enciklopedija.lv/skirklis/55397-Auseklis"
+      ],
+      "facts_used": "Auseklis: The Latvian personal name is connected with auseklis, the morning star. The word occurs in mythological and poetic language as well as personal names. A reference to the celestial object or figure does not itself date the first child bearing this given name. Poet Miķelis Krogzemis used the literary name Auseklis. The National Encyclopaedia dates the start of his publishing to 1872. This is a dated literary-name example, rather than his birth given name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p75 morning-star formation; PaulsDaija signed encyclopaedia confirms poet real name and 1872start publishing. No decorative-symbol firstdate inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lt",
+      "name": "Alfredas",
+      "spellings": [
+        "Alfredas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/alfredas/",
+        "https://www.behindthename.com/name/alfred"
+      ],
+      "facts_used": "Alfredas: The Lithuanian form continues the Alfred family from Old English Ælfræd. The compound contains ælf, elf, and ræd, counsel. These explain the old formation; the poetic combination does not assert a historical instance of advice from elves. Related Alfred was borne by Swedish inventor Alfred Nobel (1833–1896), associated with the foundation of the Nobel Prizes. This is a dated foreign family example, rather than the first Lithuanian registration of Alfredas.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide and curated Lithuanian variant Alfredas/Ælfræd stems. Dated related foreign namesake Nobel 1833–1896 explicitly scoped.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "ee",
+      "name": "Eho",
+      "spellings": [
+        "Eho"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Eho: Leole’s name column derives Eho from Estonian eha, evening glow or sunset light. This is a local vocabulary route. It should not be replaced with a similar-sounding word from another language without separate evidence. The first page of Leole’s December 2005 issue uses the exact spelling Eho. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original December 2005p1 explicit Eho=eha/õhtutaevalgus; dated local column. Modern EKI lite eha page gives no definition, not falsely claimed as corroboration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Gaismons",
+      "spellings": [
+        "Gaismons"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gaismons",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Gaismons"
+      ],
+      "facts_used": "Gaismons is still being checked against Gaismonis / Gaismone. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gaismonis / Gaismone",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact scholarly derivation for this ending; similar forms cannot automatically supply dates or formation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lv",
+      "name": "Illuminata",
+      "spellings": [
+        "Illuminata"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Illuminata",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Illuminata"
+      ],
+      "facts_used": "Illuminata is still being checked against Ilumināta / Latin illuminata. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Ilumināta / Latin illuminata",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact double-l unaccented LV spelling not established by related Ilumināta catalogue entry. Need explicit borrowing bridge.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lt",
+      "name": "Fortunatas",
+      "spellings": [
+        "Fortunatas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/fortunatas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Fortunatas is still being checked against Fortūnatas / Fortunatus. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Fortūnatas / Fortunatus",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide redirects to long-ū Fortūnatas and SalysPDF229/printed p. 214 also has Fortūnatas. These do not prove the short-u target by silent normalization.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lt",
+      "name": "Kintvilė",
+      "spellings": [
+        "Kintvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/kintvile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Kintvilė is still being checked against kint- / kentėti + vil-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "kint- / kentėti + vil-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide kintėti/kentėti explanation requires scholarly corroboration; exact SalysDecember14dated use is not proof of the full stem analysis.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "lt",
+      "name": "Tarvainas",
+      "spellings": [
+        "Tarvainas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/tarvainas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Tarvainas is still being checked against tar- + vain-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "tar- + vain-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact guide404; saved scholarly stem hits do not establish one full gloss, especially vain- alternatives.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "ee",
+      "name": "Hengo",
+      "spellings": [
+        "Hengo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Hengo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=27"
+      ],
+      "facts_used": "Hengo is still being checked against Estonian hing / historical Henk group. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Estonian hing / historical Henk group",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole 2005 derives Hengo/Hingo from hing(soul), while Mägiste 1929PDF27/printed p. 25 places Hengo with historical Henk/Henki/Hengi/Henko. Historical group alone gives no explicit ultimate root; no unique lexical route asserted.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-14",
+      "date": "2026-11-12",
+      "calendar_date": "12-14",
+      "country": "ee",
+      "name": "Hingo",
+      "spellings": [
+        "Hingo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Hingo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=27"
+      ],
+      "facts_used": "Hingo is still being checked against Estonian hing / Low German Hinke–Heinrich. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Estonian hing / Low German Hinke–Heinrich",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Original Mägiste 1929PDF27/printed p. 25 explicitly compares LowGerman Hinke=Heinrich. Leole 2005 instead gives hing(soul). Both routes retained as unverified rather than selecting the popular gloss.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

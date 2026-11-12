@@ -1,0 +1,698 @@
+{
+  "round": 33,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 24 unfinished December 3 profiles. Exact agency Jovaras→Jovars closes spelling bridge while tree-species ambiguity remains explicit. Ēvija keeps Eva/Evelina alternatives; Leiger’s Swedish proposal remains conditional after checking Eisen original PDF138/printed132. No calendar membership changed.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Evika",
+      "spellings": [
+        "Evika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evika",
+        "https://www.izpetnieks.lv/en/name/Eva",
+        "https://dmnes.org/name/Eve"
+      ],
+      "facts_used": "Evika: Siliņš’s dictionary cross-references connect this form to the Evija/Eva family. Its Hebrew base Ḥawwāh is associated with living and giving life. Local adaptations show how a name family branches; distinct spellings do not automatically share one first-use date. Siliņš’s dictionary dates the use of Evika: 1973, Talsi district. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact direct dictionary cross-reference to Eva; own dated form, not an invented diminutive mechanism.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Evisa",
+      "spellings": [
+        "Evisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evisa",
+        "https://www.izpetnieks.lv/en/name/Eva",
+        "https://dmnes.org/name/Eve"
+      ],
+      "facts_used": "Evisa: Siliņš’s dictionary cross-references connect this form to the Evija/Eva family. Its Hebrew base Ḥawwāh is associated with living and giving life. Local adaptations show how a name family branches; distinct spellings do not automatically share one first-use date. Siliņš’s dictionary dates the use of Evisa: 1971, Mērsrags. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact direct dictionary cross-reference to Eva; own dated form, not an invented diminutive mechanism.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Joahims",
+      "spellings": [
+        "Joahims"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Joahims",
+        "https://www.izpetnieks.lv/en/name/Joahims",
+        "https://dmnes.org/name/Joachim"
+      ],
+      "facts_used": "Joahims: Siliņš places this form in the Joahims family. Its Hebrew background is traditionally explained through God raising or establishing; the Dictionary of Medieval Names glosses Joachim as may God raise up. These translations need not be forced into one mandatory literal meaning. Siliņš’s dictionary dates the use of Joahims: 1599, Koknese. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Siliņš cross-reference to Joahims. Several traditional Hebrew glosses retained; DMNES may God raise is not selected as the only explanation. Dates belong to exact form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Jukums",
+      "spellings": [
+        "Jukums"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jukums",
+        "https://www.izpetnieks.lv/en/name/Joahims",
+        "https://dmnes.org/name/Joachim"
+      ],
+      "facts_used": "Jukums: Siliņš places this form in the Joahims family. Its Hebrew background is traditionally explained through God raising or establishing; the Dictionary of Medieval Names glosses Joachim as may God raise up. These translations need not be forced into one mandatory literal meaning. Siliņš’s dictionary records Jukums in Grobiņa in 1598. The shared Jukums/Joahims entry also gives the calendar year 1767, without dating each spelling separately. These records show the family’s local history rather than the origin date of its Hebrew base.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Siliņš cross-reference to Joahims. Several traditional Hebrew glosses retained; DMNES may God raise is not selected as the only explanation. Dates belong to exact form. Calendar 1767 is scoped to shared Jukums/Joahims entry, not separately established for both spellings.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Jakims",
+      "spellings": [
+        "Jakims"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jakims",
+        "https://www.izpetnieks.lv/en/name/Joahims",
+        "https://dmnes.org/name/Joachim"
+      ],
+      "facts_used": "Jakims: Siliņš places this form in the Joahims family. Its Hebrew background is traditionally explained through God raising or establishing; the Dictionary of Medieval Names glosses Joachim as may God raise up. These translations need not be forced into one mandatory literal meaning. Siliņš’s dictionary dates the use of Jakims: 1636, Viļaka. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Siliņš cross-reference to Joahims. Several traditional Hebrew glosses retained; DMNES may God raise is not selected as the only explanation. Dates belong to exact form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Jovars",
+      "spellings": [
+        "Jovars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LT-GUIDE",
+        "LT-LKZ-MIRROR"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jovars",
+        "https://www.personvarduatveide.lv/words/19282?locale=lv",
+        "https://www.tevu-darzelis.lt/vaiku-vardai/jovaras/",
+        "https://www.lietuviuzodynas.lt/zodynas/Jovaras"
+      ],
+      "facts_used": "Jovars: The agency documents Lithuanian Jovaras rendered as Latvian Jovars. The Lithuanian name is based on the tree word jovaras. That word is applied to several tree species, so poplar alone would be too narrow a translation; the tree-name link is firmer than selecting a single species. The Latvian Language Agency gives the exact rendering Jovaras → Jovars, citing page 47 of a 1961 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact rendering establishes one documented route, not every bearer’s borrowing path. Tree-word polysemy preserved; catalogue contradictory unambiguous-species sentence rejected. Exact agency HTML record https://www.personvarduatveide.lv/words/19282?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted. Opened LKŽ mirror entry confirms several tree-species senses, not one unambiguous species.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Jovita",
+      "spellings": [
+        "Jovita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jovita"
+      ],
+      "facts_used": "Jovita: Siliņš gives the chain Iuppiter, genitive Iovis, with -itus → Iovitus. Jovita is thus treated within the Latin Jupiter name family. This is a historical derivational explanation; similar sound alone supplies no alternative translation through a flower or personality trait. Siliņš’s dictionary dates the use of Jovita: third quarter of the twentieth century, Saldus district. Its calendar year is 1903. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p183 exact formation chain and own calendar1903. Do not treat an old calendar entry as a modern birth registration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfgangs",
+      "spellings": [
+        "Volfgangs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfgangs"
+      ],
+      "facts_used": "Volfgangs: Siliņš identifies Old High German wolf, wolf, and gangan, to go. These are two stems of a compound name whose meanings can be explained separately. Their combination need not become an invented full sentence or a description of a bearer’s character. Siliņš’s dictionary dates the use of Volfgangs: last quarter of the nineteenth century, Ādaži. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p333 exact-form roots and own dated use. Full phrase not invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfrīds",
+      "spellings": [
+        "Volfrīds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfr%C4%ABds"
+      ],
+      "facts_used": "Volfrīds: Siliņš identifies Old High German wolf, wolf, and fridu, peace. These are two stems of a compound name whose meanings can be explained separately. Their combination need not become an invented full sentence or a description of a bearer’s character. Siliņš’s dictionary dates the use of Volfrīds: first quarter of the twentieth century. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p333 exact-form roots and own dated use. Full phrase not invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfs",
+      "spellings": [
+        "Volfs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfs"
+      ],
+      "facts_used": "Volfs: The name is associated with Old High German wolf and longer Volf- names. These paths share one root, but do not justify selecting a particular full name for every bearer. The animal word explains the etymology rather than a person’s behaviour. Siliņš’s dictionary dates the use of Volfs: 1895, Saka parish. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p333 distinguishes given-name1895 from surname evidence. No one full form selected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Ksaveras",
+      "spellings": [
+        "Ksaveras"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ksaveras/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/xavier"
+      ],
+      "facts_used": "Ksaveras: Lithuanian Ksaveras belongs to the Xavier family. Its base is the Basque place name Etxaberri, from etxe, house, and berri, new. The personal name’s history involves a transferred place name rather than translation from a similar-sounding Lithuanian word. The 1964 calendar reprinted in Salys’s 1983 volume gives Pranciškus Ksaveras (Pranas, Pranys) on 3 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original SalysPDF318printed303 gives compound PranciškusKsaveras, not separate first birth for Ksaveras.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "ee",
+      "name": "Leino",
+      "spellings": [
+        "Leino"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://sonaveeb.ee/search/lite/est/lein/1/est"
+      ],
+      "facts_used": "Leino: Leole’s name column links Leino to Estonian lein, mourning. The Estonian language dictionary corroborates that common-word meaning. This is a documented Estonian explanation, not a prediction about a person’s life or a claim about every foreign namesake’s origin. The first page of Leole’s December 2005 issue uses the exact spelling Leino. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "December2005p1 visuallychecked exact Leino. EKI entry supports common word, not personal-name derivation independently.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Ako",
+      "spellings": [
+        "Ako"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ako",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ako"
+      ],
+      "facts_used": "Ako still needs checking against Livonian Ako / Estonian -o names. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Livonian Ako / Estonian -o names",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue cites Balodis on historical Livonian name with unknown root and possible Estonian route. No unique modern Latvian borrowing path established; never substitute GermanAke.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Džovita",
+      "spellings": [
+        "Džovita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/D%C5%BEovita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=D%C5%BEovita"
+      ],
+      "facts_used": "Džovita still needs checking against Jovita / Giovita. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Jovita / Giovita",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact Latvian agency bridge for this affricated spelling located.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Ēvija",
+      "spellings": [
+        "Ēvija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C4%92vija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=%C4%92vija",
+        "https://www.behindthename.com/name/evy"
+      ],
+      "facts_used": "The agency documents Swedish Evy rendered as Ēvija. Evy, however, is explained as a short form of either Eva or Evelina. Selecting one ultimate origin for this exact spelling remains an unverified inference; the dated rendering does not resolve that choice.",
+      "hypothesis": "Swedish Evy: Eva / Evelina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact agency Evy→Ēvija2003p327 establishes spelling. Curated Evy allows both Eva and Evelina; do not force Hebrew life root for all bearers.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Evijs",
+      "spellings": [
+        "Evijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Evijs"
+      ],
+      "facts_used": "Evijs still needs checking against Evija / Eva. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Evija / Eva",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue explicitly labels this possible origin despite Evija cross-reference; retain hypothesis pending original p122/p121 check. Own Riga1971 does not settle derivation.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Ēvisa",
+      "spellings": [
+        "Ēvisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C4%92visa",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=%C4%92visa"
+      ],
+      "facts_used": "Ēvisa still needs checking against Evisa / Eva. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Evisa / Eva",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Longē spelling lacks independently checked exact bridge; do not transfer EvisaMērsrags1971.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Jugita",
+      "spellings": [
+        "Jugita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jugita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Jugita"
+      ],
+      "facts_used": "Jugita still needs checking against Jogita / Jogints. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Jogita / Jogints",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Question-marked catalogue comparisons retained. No supported exact full derivation.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfreds",
+      "spellings": [
+        "Volfreds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfreds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Volfreds"
+      ],
+      "facts_used": "Volfreds still needs checking against Volfrīds / Walfred. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Volfrīds / Walfred",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact spelling not bridged by inspected source. Germanic wolf/fridu cannot simply be inherited.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfrids",
+      "spellings": [
+        "Volfrids"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfrids",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Volfrids"
+      ],
+      "facts_used": "Volfrids still needs checking against Volfrīds. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Volfrīds",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Shorti differs from checked longī form. No exact bridge or own dated story established.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Audinga",
+      "spellings": [
+        "Audinga"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-PAKERYS10"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/audinga/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2010~1367171236926/J.04~2010~1367171236926.pdf#page=3"
+      ],
+      "facts_used": "Audinga still needs checking against au- + ding-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "au- + ding-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Pakerys2011 exact feminine Aũdingà documents form; Pakerys2010PDF3 shows competing au-privative/al- analyses for related male compounds. Guide’s lack/think gloss not promoted to unique origin.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Gailintas",
+      "spellings": [
+        "Gailintas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gailintas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Gailintas still needs checking against gail- / Gailintas (lake). This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "gail- / Gailintas (lake)",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide URL404. SalysPDF525 refers to a lake, not an exact historical personal-name bearer. Possible strong/white/hydronym routes need scholarly adjudication.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Atalija",
+      "spellings": [
+        "Atalija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/atalija/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Atalija still needs checking against Antalya / Attaleia / biblical Athaliah. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Antalya / Attaleia / biblical Athaliah",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide proposes Greek city, while Lithuanian Bible uses exact Atalija for Hebrew Athaliah. SalysPDF318Dec3 proves spelling only; competing naming routes unresolved.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "ee",
+      "name": "Leiger",
+      "spellings": [
+        "Leiger"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-EISEN-TOLL",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.etera.ee/api/oai2/download/9493.pdf#page=138",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=36"
+      ],
+      "facts_used": "Leiger is known as the name of a Hiiumaa giant. Eisen’s folklore study presents the proposed Swedish lekare, player or musician, connection conditionally, although a later newspaper column states it more firmly. It therefore remains an unverified origin proposal, not a proved translation.",
+      "hypothesis": "Swedish lekare / Estonian leiger",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole2005p1 makes an unqualified Swedish derivation, but Eisen Tõll ja ta sugu PDF138/printed132 explicitly says oletatakse and conditional kui. Mägiste1929PDF36/printed34 documents giant/name/commonword, not secure Swedish origin.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    }
+  ],
+  "validation": {
+    "tests": "128 passed; npm test",
+    "build": "npm run build passed",
+    "content": "All 96 profiles checked in five languages; reviewed histories have exactly two paragraphs exceeding 300 characters combined; no source links in UI.",
+    "backlog": "57 hypotheses and 2 no-proposal records remain unverified; all 198 earlier open identities retained.",
+    "browser": "85 mobile views across five dates, three calendars and five languages; reviewed, hypothesis and missing-history states; no horizontal overflow or visible source links.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged.",
+    "pdf_cache": "20 private indexed sources, 2328 pages; repeat index reused extraction with unchanged index timestamp."
+  }
+}

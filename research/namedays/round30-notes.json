@@ -1,0 +1,781 @@
+{
+  "round": 30,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 27 unfinished 30 November profiles. Reused and indexed Must1962 (PDF2–3/printed261–262), Mägiste1929PDF24 and Pakerys2011PDF8. Exact LVA renderings resolve several Latvian forms. Andreas and Antonius alternatives remain explicitly open for Ando/Anti; Georgian/Croatian Andro was not substituted for Estonian evidence. No calendar membership changed.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Anderss",
+      "spellings": [
+        "Anderss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anderss",
+        "https://www.personvarduatveide.lv/words/3?locale=lv",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Anderss: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. The Latvian Language Agency gives the exact rendering Anders → Anderss, citing page 99 of a 2003 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering checked; no universal borrowing route or first birth registration inferred. Hungarian András is distinguished from Faroese Andras; Ukrainian Andrijs from long-ā or missing-j forms.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrāšs",
+      "spellings": [
+        "Andrāšs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andr%C4%81%C5%A1s",
+        "https://www.personvarduatveide.lv/words/17002?locale=lv",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andrāšs: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. The Latvian Language Agency gives the exact rendering András → Andrāšs, citing page 50 of a 1998 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering checked; no universal borrowing route or first birth registration inferred. Hungarian András is distinguished from Faroese Andras; Ukrainian Andrijs from long-ā or missing-j forms.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrijs",
+      "spellings": [
+        "Andrijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andrijs",
+        "https://www.personvarduatveide.lv/words/70480?locale=lv",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andrijs: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. The Latvian Language Agency gives the exact rendering Андрій → Andrijs, citing page 148 of a 2023 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering checked; no universal borrowing route or first birth registration inferred. Hungarian András is distinguished from Faroese Andras; Ukrainian Andrijs from long-ā or missing-j forms.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andruss",
+      "spellings": [
+        "Andruss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN",
+        "EE-MUST62"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andruss",
+        "https://www.personvarduatveide.lv/words/6245?locale=lv",
+        "https://www.behindthename.com/name/andrew",
+        "https://ans-names.pitt.edu/ans/article/download/406/405#page=3"
+      ],
+      "facts_used": "Andruss: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. The Latvian Language Agency gives the exact rendering Andrus → Andruss, citing page 52 of a 1960 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name rendering checked; no universal borrowing route or first birth registration inferred. Hungarian András is distinguished from Faroese Andras; Ukrainian Andrijs from long-ā or missing-j forms.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andreass",
+      "spellings": [
+        "Andreass"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andreass",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andreass: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Siliņš’s dictionary dates the use of Andreass: 1462. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp56/57 own dated form; no date transferred to single-s/double-s neighbours.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andress",
+      "spellings": [
+        "Andress"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andress",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andress: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Siliņš’s dictionary dates the use of Andress: 1464. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp56/57 own dated form; no date transferred to single-s/double-s neighbours.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrs",
+      "spellings": [
+        "Andrs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andrs",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andrs: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Siliņš’s dictionary dates the use of Andrs: third quarter of the twentieth century. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p57 exact Andrs→Andrejs, own dated use; no specific year invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Anders",
+      "spellings": [
+        "Anders"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anders",
+        "https://dmnes.org/name/Andrew",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Anders: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. The Dictionary of Medieval Names gives the related Danish Anders in a 1496 record, citing a documentary edition. This illustrates one stage in Scandinavian spelling history. Siliņš identifies Latvian Anders as Low German and Scandinavian, but 1496 is not its first Latvian-use date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "DMNES Danish1496 KD-1no185, not the Latin1362 genitive row. Siliņš p56 exact local family link.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrievs",
+      "spellings": [
+        "Andrievs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andrievs",
+        "https://dmnes.org/name/Andrew",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andrievs: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Siliņš’s Andrievs entry points to Andrejs. The family’s earlier written transmission is illustrated by Latin Andreas in the Vulgate, dated 405 by the Dictionary of Medieval Names. That example concerns the related Latin form, not the first registration of Latvian Andrievs.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p57 direct Andrievs→Andrejs;405 belongs to related Latin text only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lt",
+      "name": "Andriejus",
+      "spellings": [
+        "Andriejus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/andriejus/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andriejus: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. The 1964 calendar reprinted in Salys’s 1983 volume gives Andriejus apaštalas (Andrius) on 30 November. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF318 printed303 November30, exact Andriejus distinct from Andrėjus/Andrejus.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lt",
+      "name": "Vytartė",
+      "spellings": [
+        "Vytartė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vytarte/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=8"
+      ],
+      "facts_used": "Vytartė: The Lithuanian guide identifies vy-, linked to vytis, rider or warrior, and tart- from tarti, to say. Pakerys’s study explicitly compares the feminine form with Vytartas. This is a documented two-stem family rather than just a matching ending. Printed page 97 of Antanas Pakerys’s 2011 article lists Výtarta and Výtartė beside Výtartas. The accented examples belong to a scholarly discussion of endings and stress variants. The publication documents the form without identifying its inventor or a first birth registration.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF8 printed97 original page checked. Stress marks are scholarly notation; no counts or first date inferred. Guide dateJuly28 differs from project.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "ee",
+      "name": "Andi",
+      "spellings": [
+        "Andi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MUST62",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://ans-names.pitt.edu/ans/article/download/406/405#page=3",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andi: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Printed page 262 of Hildegard Must’s 1962 The Names of the Apostles as Estonian Christian Names places Andi in the Andi, Ando and Andu group under Andreas. She describes pet forms becoming independent names. This documents the movement of shortened forms into the name stock rather than one invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Must1962 PDF2–3 printed261–262 explicitly supplies exact Estonian names; no German feminine Andi interpretation substituted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "ee",
+      "name": "Andu",
+      "spellings": [
+        "Andu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MUST62",
+        "INT-BTN",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://ans-names.pitt.edu/ans/article/download/406/405#page=3",
+        "https://www.behindthename.com/name/andrew",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=24"
+      ],
+      "facts_used": "Andu: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Printed page 262 of Hildegard Must’s 1962 The Names of the Apostles as Estonian Christian Names places Andu in the Andi, Ando and Andu group under Andreas. She describes pet forms becoming independent names. This documents the movement of shortened forms into the name stock rather than one invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Must1962 PDF2–3 printed261–262 explicitly supplies exact Estonian names; no German feminine Andi interpretation substituted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "ee",
+      "name": "Andre",
+      "spellings": [
+        "Andre"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=24",
+        "https://en.wiktionary.org/wiki/Andre#Estonian",
+        "https://www.behindthename.com/name/andrew"
+      ],
+      "facts_used": "Andre: The name belongs to the Andreas/Andrejs family, based on Greek andreios, manly, from anēr, man. The family spread in Europe through Christian tradition. Its forms were shortened and adapted differently across languages, so a shared family does not imply identical spelling histories. Printed page 22 of Mägiste’s 1929 list places Andres and Andre on one line. Andre is marked as a Seto and South Estonian dialect form, citing Hargla material and Andrei. This particular reference documents a local form; the history of French André should not automatically be assigned to it.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF24 printed22 original page checked; exact Estonian branch separated from French and German namesakes.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrejans",
+      "spellings": [
+        "Andrejans"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andrejans",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andrejans"
+      ],
+      "facts_used": "Andrejans still needs checking against Andrejs / Adrianus. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andrejs / Adrianus",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/LVA and reusable source indexes checked. Full exact spelling bridge or competing interpretation still unresolved; do not transfer a neighbour’s root or dates.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrējs",
+      "spellings": [
+        "Andrējs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andr%C4%93js",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andr%C4%93js"
+      ],
+      "facts_used": "Andrējs still needs checking against Andrejs / Anandra. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andrejs / Anandra",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/LVA and reusable source indexes checked. Full exact spelling bridge or competing interpretation still unresolved; do not transfer a neighbour’s root or dates.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrians",
+      "spellings": [
+        "Andrians"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andrians",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andrians"
+      ],
+      "facts_used": "Andrians still needs checking against Andriāns / Adriāns. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andriāns / Adriāns",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/LVA and reusable source indexes checked. Full exact spelling bridge or competing interpretation still unresolved; do not transfer a neighbour’s root or dates.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andriāns",
+      "spellings": [
+        "Andriāns"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andri%C4%81ns",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andri%C4%81ns"
+      ],
+      "facts_used": "Andriāns still needs checking against Russian Андриан / Adriāns / Andrejs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Russian Андриан / Adriāns / Andrejs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/LVA and reusable source indexes checked. Full exact spelling bridge or competing interpretation still unresolved; do not transfer a neighbour’s root or dates.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Andrijans",
+      "spellings": [
+        "Andrijans"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andrijans",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andrijans"
+      ],
+      "facts_used": "Andrijans still needs checking against Andriāns / Adriāns. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andriāns / Adriāns",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/LVA and reusable source indexes checked. Full exact spelling bridge or competing interpretation still unresolved; do not transfer a neighbour’s root or dates.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Androns",
+      "spellings": [
+        "Androns"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Androns",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Androns"
+      ],
+      "facts_used": "Androns still needs checking against Russian Андрон / Андроник. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Russian Андрон / Андроник",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LVA exact Андрон→Androns (1993p192, Ukrainian2023p148) establishes rendering. Petrovsky source URL unavailable in web reader; do not claim independently checked colloquial Andronik bridge.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lv",
+      "name": "Endrijs",
+      "spellings": [
+        "Endrijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Endrijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Endrijs"
+      ],
+      "facts_used": "Endrijs still needs checking against Andrejs / Andrew. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andrejs / Andrew",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/LVA and reusable source indexes checked. Full exact spelling bridge or competing interpretation still unresolved; do not transfer a neighbour’s root or dates.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lt",
+      "name": "Dovainė",
+      "spellings": [
+        "Dovainė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dovaine/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Dovainė still needs checking against do- + vain-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "do- + vain-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Pakerys2011PDF4 lists Dóvainė with Dóvainas, but guide gives competing vaina/cause and warrior analyses; exact feminine form does not settle the second stem.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lt",
+      "name": "Saugardas",
+      "spellings": [
+        "Saugardas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/saugardas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Saugardas still needs checking against sau- + gard-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "sau- + gard-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "SalysPDF318November30Saugardas(Saugas) is secure dated use. Guide proposes savas + Prussian gerdaut, but full gard-/gerd- analysis requires scholarly corroboration.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "lt",
+      "name": "Saugirdas",
+      "spellings": [
+        "Saugirdas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/saugirdas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Saugirdas still needs checking against sau- + gird-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "sau- + gird-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives savas + girdėti/girdas. SalysPDF265printed250 lists exact personal name Saugirdas, but no separate dated historical episode beyond dictionary listing inspected.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "ee",
+      "name": "Andro",
+      "spellings": [
+        "Andro"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Andro",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Andro still needs checking against Andres / Andrei. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andres / Andrei",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Wiktionary has no usable Estonian section and Must1962 does not list this exact form; Georgian/Croatian Andro does not prove an Estonian borrowing.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "ee",
+      "name": "Ando",
+      "spellings": [
+        "Ando"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MUST62",
+        "EE-MAGISTE29",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://ans-names.pitt.edu/ans/article/download/406/405",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf",
+        "https://en.wiktionary.org/wiki/Ando#Estonian"
+      ],
+      "facts_used": "Hildegard Must explicitly places Ando under Andreas in 1962, documenting that line. Other dictionary material also proposes Antonius, so selecting a single origin route remains an unverified inference.",
+      "hypothesis": "Andreas / Antonius",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Must1962 PDF3 explicitly documents Ando under Andreas and Mägiste1929PDF24 pairs Ando/Andu. Wiktionary also proposes Antonius. The documented Andreas line is secure, but a unique full derivation is not selected.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-30",
+      "date": "2026-11-12",
+      "calendar_date": "11-30",
+      "country": "ee",
+      "name": "Anti",
+      "spellings": [
+        "Anti"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://ans-names.pitt.edu/ans/article/download/406/405",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Anti still needs checking against Andreas / Antonius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Andreas / Antonius",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole2005PDF6 lists Andreas-family Anti, but Wiktionary allows Antonius as another route. Preserve the alternative; do not confuse common-word anti or Hungarian Antal.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    }
+  ]
+}

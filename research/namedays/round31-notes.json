@@ -1,0 +1,521 @@
+{
+  "round": 31,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 17 unfinished December 1 profiles across LV/LT/EE. Reused Salys and Pakerys indexes; exact Latvian agency renderings retain vowel length. Conflicting Algmina and Oss analyses stay unverified; no calendar membership altered.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Arnolds",
+      "spellings": [
+        "Arnolds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Arnolds",
+        "https://www.personvarduatveide.lv/words/39305?locale=lv",
+        "https://dmnes.org/name/Arnold"
+      ],
+      "facts_used": "Arnolds: The name belongs to the Arnolds/Arnold family. Its Germanic elements are arn, eagle, and walt, power, associated with ruling. These old components explain the compound’s linguistic history rather than predicting a bearer’s character. The Latvian Language Agency gives the exact rendering Arnold → Arnolds, citing page 59 of a 1960 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact German given-name row, not the English surname row. Catalogue Siliņš p69; no universal borrowing route inferred. Exact agency HTML record https://www.personvarduatveide.lv/words/39305?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Arnotijs",
+      "spellings": [
+        "Arnotijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Arnotijs",
+        "https://www.izpetnieks.lv/en/name/Arnolds",
+        "https://dmnes.org/name/Arnold"
+      ],
+      "facts_used": "Arnotijs: The name belongs to the Arnolds/Arnold family. Its Germanic elements are arn, eagle, and walt, power, associated with ruling. These old components explain the compound’s linguistic history rather than predicting a bearer’s character. Siliņš’s dictionary dates the use of Arnotijs: third quarter of the twentieth century, Daugavpils. Its calendar year is 1937. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p69 direct Arnotijs→Arnolds; own dated catalogue use and calendar1937. Calendar entry predates listed surviving-use example; do not call it a birth first.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Emanuels",
+      "spellings": [
+        "Emanuels"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emanuels",
+        "https://www.personvarduatveide.lv/words/908?locale=lv",
+        "https://dmnes.org/name/Emmanuel",
+        "https://www.behindthename.com/name/emanuela"
+      ],
+      "facts_used": "Emanuels: This form belongs to the Emanuel/Emmanuel family, based on Hebrew ʿImmanuʾel, God is with us. It is a theophoric name, containing a reference to God. Adaptation into different languages changes consonant spellings and endings while preserving the shared family. The Latvian Language Agency gives the exact rendering Emanuel → Emanuels, citing page 50 of a 1998 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Polish Emanuel1998 or Portuguese feminine2015 agency record inspected. Short/long vowels are distinct accepted renderings; no related calendar/first-use date transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/908?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Emanuela",
+      "spellings": [
+        "Emanuela"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emanuela",
+        "https://www.personvarduatveide.lv/words/10237,10236?locale=lv",
+        "https://dmnes.org/name/Emmanuel",
+        "https://www.behindthename.com/name/emanuela"
+      ],
+      "facts_used": "Emanuela: This form belongs to the Emanuel/Emmanuel family, based on Hebrew ʿImmanuʾel, God is with us. It is a theophoric name, containing a reference to God. Adaptation into different languages changes consonant spellings and endings while preserving the shared family. The Latvian Language Agency gives the exact rendering Emanuela → Emanuela, citing page 136 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Polish Emanuel1998 or Portuguese feminine2015 agency record inspected. Short/long vowels are distinct accepted renderings; no related calendar/first-use date transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10237,10236?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Emanuēla",
+      "spellings": [
+        "Emanuēla"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emanu%C4%93la",
+        "https://www.personvarduatveide.lv/words/10237,10236?locale=lv",
+        "https://dmnes.org/name/Emmanuel",
+        "https://www.behindthename.com/name/emanuela"
+      ],
+      "facts_used": "Emanuēla: This form belongs to the Emanuel/Emmanuel family, based on Hebrew ʿImmanuʾel, God is with us. It is a theophoric name, containing a reference to God. Adaptation into different languages changes consonant spellings and endings while preserving the shared family. The Latvian Language Agency gives the exact rendering Emanuela → Emanuēla, citing page 136 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Polish Emanuel1998 or Portuguese feminine2015 agency record inspected. Short/long vowels are distinct accepted renderings; no related calendar/first-use date transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10237,10236?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Manuela",
+      "spellings": [
+        "Manuela"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Manuela",
+        "https://www.personvarduatveide.lv/words/10556,10555?locale=lv",
+        "https://dmnes.org/name/Emmanuel",
+        "https://www.behindthename.com/name/manuela"
+      ],
+      "facts_used": "Manuela: This form belongs to the Emanuel/Emmanuel family, based on Hebrew ʿImmanuʾel, God is with us. It is a theophoric name, containing a reference to God. Adaptation into different languages changes consonant spellings and endings while preserving the shared family. The Latvian Language Agency gives the exact rendering Manuela → Manuela, citing page 142 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Polish Emanuel1998 or Portuguese feminine2015 agency record inspected. Short/long vowels are distinct accepted renderings; no related calendar/first-use date transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10556,10555?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Manuēla",
+      "spellings": [
+        "Manuēla"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-DMNES",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Manu%C4%93la",
+        "https://www.personvarduatveide.lv/words/10556,10555?locale=lv",
+        "https://dmnes.org/name/Emmanuel",
+        "https://www.behindthename.com/name/manuela"
+      ],
+      "facts_used": "Manuēla: This form belongs to the Emanuel/Emmanuel family, based on Hebrew ʿImmanuʾel, God is with us. It is a theophoric name, containing a reference to God. Adaptation into different languages changes consonant spellings and endings while preserving the shared family. The Latvian Language Agency gives the exact rendering Manuela → Manuēla, citing page 142 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Polish Emanuel1998 or Portuguese feminine2015 agency record inspected. Short/long vowels are distinct accepted renderings; no related calendar/first-use date transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10556,10555?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lt",
+      "name": "Eligijus",
+      "spellings": [
+        "Eligijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eligijus/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/eligius"
+      ],
+      "facts_used": "Eligijus: Lithuanian Eligijus continues Latin Eligius. The family is linked to eligere, to choose, and the interpretation chosen. Its Latin history differs from that of similar-sounding native compound names; familiar-looking syllables are not a separate etymology. The 1964 calendar reprinted in Salys’s 1983 volume gives Eligijus (Elys, Ligis) on 1 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys PDF318/printed303 December1. Historical calendar variants are not all modern calendar entries.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Arnulfs",
+      "spellings": [
+        "Arnulfs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Arnulfs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Arnulfs",
+        "https://www.behindthename.com/name/arnulf"
+      ],
+      "facts_used": "Arnulfs still needs checking against Arnulf: arn + wolf. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Arnulf: arn + wolf",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue explicitly calls Latvian rendering unproved. LVA has no exact given-name row; Germanic Arnulf root alone does not establish Latvian form.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Emanuils",
+      "spellings": [
+        "Emanuils"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emanuils",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Emanuils"
+      ],
+      "facts_used": "Emanuils still needs checking against Bulgarian Emanuil / Emmanuel. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Bulgarian Emanuil / Emmanuel",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Curated Bulgarian Emanuil establishes that foreign family, not a Latvian Emanuils bridge. No exact LVA row.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Emmanuels",
+      "spellings": [
+        "Emmanuels"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Emmanuels",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Emmanuels"
+      ],
+      "facts_used": "Emmanuels still needs checking against Emmanuel / Emanuels. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Emmanuel / Emanuels",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Doubled-m exact spelling has no explicit checked rendering row; do not transfer single-m Emanuels1837/1767.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Imanuels",
+      "spellings": [
+        "Imanuels"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Imanuels",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Imanuels"
+      ],
+      "facts_used": "Imanuels still needs checking against Immanuel / Imanuēls. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Immanuel / Imanuēls",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact English catalogue returns200 but only cites Siliņš p163 without origin prose; LV routes404. Indexed English manual renders Immanuel as Imanuēls, not exact short-e Imanuels. Original p163 still needed.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Immanuels",
+      "spellings": [
+        "Immanuels"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Immanuels",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Immanuels"
+      ],
+      "facts_used": "Immanuels still needs checking against Immanuel / Imanuels. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Immanuel / Imanuels",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact double-m short-e spelling not linked by inspected dictionary/manual. Similarity alone cannot inherit Hebrew root or first-use dates.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lv",
+      "name": "Noldis",
+      "spellings": [
+        "Noldis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Noldis",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Noldis"
+      ],
+      "facts_used": "Noldis still needs checking against Arnolds. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Arnolds",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue’s Arnolds comparison remains explicitly questioned. Twentieth-century abbreviated-use note does not prove one full form.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "lt",
+      "name": "Algmina",
+      "spellings": [
+        "Algmina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/algmina/",
+        "https://www.vardai.lt/vardo-reiksme/Algmina",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=7"
+      ],
+      "facts_used": "Algmina still needs checking against alg- / al- + min-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "alg- / al- + min-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives alga/reward; vardai.lt gives al-/aliai vienas. Pakerys2011 PDF7/printed96 exact Algminà/Algminas settles spelling and dated scholarly use, not disputed first stem.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "ee",
+      "name": "Osmar",
+      "spellings": [
+        "Osmar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Osmar#Estonian"
+      ],
+      "facts_used": "Osmar still needs checking against Germanic Os- names / Oskar. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Germanic Os- names / Oskar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact Estonian dictionary bridge found in indexed Mägiste or exact page. A shared date with Oss does not establish origin.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-01",
+      "date": "2026-11-12",
+      "calendar_date": "12-01",
+      "country": "ee",
+      "name": "Oss",
+      "spellings": [
+        "Oss"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/Oss#Estonian"
+      ],
+      "facts_used": "Oss still needs checking against Oskar / Asgar / Ansgar. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Oskar / Asgar / Ansgar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "December2005 Leole p1 gives Oss with Oskar and an Asgar/Ansgar derivation, but Oscar also has a Gaelic history. Exact dated print use does not settle route; no universal Oskar shortening inferred.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    }
+  ],
+  "validation": {
+    "tests": "128 passed; npm test",
+    "build": "npm run build passed",
+    "content": "All 96 profiles checked in five languages; reviewed histories have exactly two paragraphs exceeding 300 characters combined; no source links in UI.",
+    "backlog": "57 hypotheses and 2 no-proposal records remain unverified; all 198 earlier open identities retained.",
+    "browser": "85 mobile views across five dates, three calendars and five languages; reviewed, hypothesis and missing-history states; no horizontal overflow or visible source links.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged.",
+    "pdf_cache": "20 private indexed sources, 2328 pages; repeat index reused extraction with unchanged index timestamp."
+  }
+}

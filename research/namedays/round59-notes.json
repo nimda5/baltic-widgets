@@ -1,0 +1,2208 @@
+{
+  "round": 59,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "3–9 December recheck: 80 profiles examined; 26 histories written, 54 kept open. New Balodis Livonian-names article, LSM 2024 Ako episode, VLE Atalija/Jekaterina II, Salys Lithuanian–German list (Leokadija), Mägiste 1929 Rait/Raik/Leiger/Külvi pages.",
+  "records": [
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Ako",
+      "spellings": [
+        "Ako"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-BALODIS-LIV",
+        "LV-LSM-KURSITE24"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ako",
+        "https://www.diacronia.ro/indexing/details/V193/pdf",
+        "https://www.lsm.lv/raksts/dzive--stils/vesture/11.01.2024-vai-zini-kas-ir-livu-laukuma-riga-izstadita-akmens-galva.a537785/"
+      ],
+      "facts_used": "Ako: Linguist Pauls Balodis lists Ako among the Livonian names known from the Chronicle of Henry of Livonia and, following earlier research, treats it as a possible diminutive formed with -o; the root and meaning remain unknown. He also notes that Estonian Ako appeared in a calendar as early as 1845 and was linked there with Ago, a short form of Agathon or August(us), so a modern route from Estonia is also possible. Modern Latvian bearers therefore need not all follow one route. The chronicle names the Livonian leader Ako, who fell during the Livonian resistance at Salaspils in 1206. In a 2024 article for Latvian Public Broadcasting, scholar Janīna Kursīte quotes the chronicle’s report that his head was sent to the bishop with news of victory. This is a historical bearer, not proof that modern Latvian Ako names continue his name directly.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Balodis, Personal Names of Livonian Origin in Latvia (in Names in Multi-Lingual, -Cultural and -Ethnic Contact), PDF pp. 6 and 8: Ako among possible -o diminutives (after Halling and Joalaid 2007); chronicle X:8 chieftain; Estonian Ako in calendar 1845 linked with Ago (Rajandi 1966); possible Estonian route. Root unknown, kept explicit. LSM 11 January 2024 (Kursīte): chronicle quote on head sent to bishop; 1206 Salaspils resistance. The article treats the stone-head identification as speculative; that identification was not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Džovita",
+      "spellings": [
+        "Džovita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/D%C5%BEovita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=D%C5%BEovita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Giovita"
+      ],
+      "facts_used": "Džovita still needs checking against Jovita / Giovita. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Jovita / Giovita",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue still has no origin prose; LVA search for Džovita and Giovita returned no rows.",
+      "next_steps": "Check the LVA Italian rendering guide for an explicit Giovita → Džovita row, then an Italian name dictionary for Giovita (San Giovita); keep Jovita comparison labelled until then."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Ēvija",
+      "spellings": [
+        "Ēvija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=%C4%92vija",
+        "https://www.behindthename.com/name/evy"
+      ],
+      "facts_used": "Ēvija: The Latvian Language Agency’s rendering database gives Swedish Evy as Ēvija, with a long ē. Behind the Name explains Evy as a diminutive of Eva or Evelina, so the name can go back to either of these names. The same database renders Norwegian Evy as Evija with a short e, so the long vowel belongs specifically to the Swedish rendering. The Swedish Evy → Ēvija correspondence comes from Ingrīda Balode’s chapter in the 2003 Latvian handbook on rendering Danish, Norwegian, Swedish and Finnish proper names (p. 327). This is a dated language-standard record, not the first birth registration of Ēvija in Latvia or proof that every bearer’s name came from Swedish.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "LVA search: Swedish Evy → Ēvija (Balode 2003 p. 327); Norwegian Evy → Evija (2003 p. 223); English Avie → Evija (Ahero 2006 p. 93). BTN Evy: diminutive of Eva or Evelina. Rendering record, not first birth.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Evijs",
+      "spellings": [
+        "Evijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Evijs"
+      ],
+      "facts_used": "Evijs: Klāvs Siliņš’s dictionary of Latvian personal names lists Evijs under Evija, and Evija in turn under Eva. Eva goes back to Hebrew Ḥawwā, explained in the dictionary as ‘life, giver of life’. The dictionary thus places Evijs as a masculine name in the Eva family, but it does not say how the masculine form first arose. The same dictionary records Evijs in Riga in 1971. This is a dated record of use in the dictionary’s material, not necessarily the first Evijs in Latvia.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš catalogue rechecked: Evijs under Evija, Evija under Eva (Ḥawwā); Riga 1971. The dictionary’s own cross-reference is treated as the bridge; no claim about who created the masculine form.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Ēvisa",
+      "spellings": [
+        "Ēvisa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C4%92visa"
+      ],
+      "facts_used": "Ēvisa still needs checking against Evisa / Eva. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Evisa / Eva",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue explicitly says the scan has short-e Evisa (p. 123), not Ēvisa. No new rendering row inspected.",
+      "next_steps": "Search LVA for an Ēvisa row; if none, keep the Evisa/Eva comparison labelled and do not transfer Evisa’s 1971 Mērsrags record."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Jugita",
+      "spellings": [
+        "Jugita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jugita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jugita"
+      ],
+      "facts_used": "Jugita still needs checking against Jogita / Jogints. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Jogita / Jogints",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue still question-marks the Jogita/Jogints link; LVA search returned no rows.",
+      "next_steps": "Look for Jugita in the planned new Latvian given-name dictionary (Balode/Siliņa-Piņķe) or LVA consultations; keep comparison labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfreds",
+      "spellings": [
+        "Volfreds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfreds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Volfreds"
+      ],
+      "facts_used": "Volfreds still needs checking against Volfrīds / Walfred. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Volfrīds / Walfred",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue confirms Volfreds absent from Siliņš p. 333; LVA search returned no rows.",
+      "next_steps": "Search LVA German rows for Wolfried/Walfried/Wilfried to see whether any renders as Volfreds; otherwise keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lv",
+      "name": "Volfrids",
+      "spellings": [
+        "Volfrids"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Volfrids",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Volfrids"
+      ],
+      "facts_used": "Volfrids still needs checking against Volfrīds. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Volfrīds",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue confirms Volfrids absent; only long-ī Volfrīds is in Siliņš p. 333. LVA search returned no rows.",
+      "next_steps": "Same as Volfreds: check German Wolfried rows and any short-i rendering; do not transfer Volfrīds evidence."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Audinga",
+      "spellings": [
+        "Audinga"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-PAKERYS11",
+        "LT-PAKERYS10"
+      ],
+      "sources": [
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=5",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=9"
+      ],
+      "facts_used": "Audinga still needs checking against au- + ding-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "au- + ding-",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Pakerys 2011 PDF p. 5 / printed p. 94 rechecked: Audingà / Aũdinga / Aũdingė, cf. Aũdingas, citing CA 100 and VKn 74; PDF p. 9 notes Audinga (31) vs Audingė (0) in TD data (undated frequency). No exact-form etymology for au-.",
+      "next_steps": "Open LVKŽ6 or VKn 74 for an exact Audinga element analysis (au- privative vs al-/au(d)- alternatives); then use a dated calendar entry."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Gailintas",
+      "spellings": [
+        "Gailintas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=286",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=525"
+      ],
+      "facts_used": "Gailintas still needs checking against gail- / Gailintas (lake). This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "gail- / Gailintas (lake)",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 286 Gail-: gailėti, gailus lists Gailbudis etc., not Gailintas; PDF p. 525 Gailintas is a lake in a place-name index.",
+      "next_steps": "Find exact Gailintas in Pakerys 2009/2010 or LVKŽ with element analysis; keep lake/gail- comparison labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "lt",
+      "name": "Atalija",
+      "spellings": [
+        "Atalija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-VLE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.vle.lt/straipsnis/atalija/",
+        "https://www.behindthename.com/name/athaliah",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Atalija: The Lithuanian Universal Encyclopaedia uses Atalija for the biblical Athaliah (Athalyah), queen of Judah. Behind the Name explains the Hebrew name as possibly meaning ‘Yahweh is exalted’. The biblical identification is documented, while the literal meaning remains only probable. According to the encyclopaedia, Athaliah ruled Judah in about 842/841–834 BC, and her story is told in Jean Racine’s tragedy Athalie (1691). The 1964 Lithuanian church calendar reprinted in Antanas Salys’s collected works (1983) lists Atalija on 3 December. These are a biblical-literary example and a calendar record, not proof of when Lithuanian families first used the name.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "VLE Atalija: Athalyah, queen of Judah 842/841–834 BC, Racine Athalie 1691. BTN Athaliah: possibly ‘Yahweh is exalted’. Salys PDF p. 318 / printed p. 303: 3 December Atalija (Ata). The guide’s Greek-city proposal was not re-verified this round and is not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-03",
+      "date": "2026-11-12",
+      "calendar_date": "12-03",
+      "country": "ee",
+      "name": "Leiger",
+      "spellings": [
+        "Leiger"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29-AES",
+        "EE-EISEN-TOLL",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=36",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=12",
+        "https://www.etera.ee/api/oai2/download/9493.pdf#page=138",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Leiger: Julius Mägiste’s 1929 book Eestipäraseid isikunimesid proposes Leiger as a male given name, comparing Wiedemann’s dictionary word leiger, ‘big strong man, giant’, and the Leiger of Estonian mythology. M. J. Eisen’s Tõll ja ta sugu only conditionally supposes that the giant’s name came from Swedish lekare, ‘player, musician’. The common word and the folklore figure are documented, but the ultimate source of the word is not settled. Mägiste marks Leiger with his abbreviation for his own name proposals, so the 1929 list documents a deliberate proposal rather than an inherited given name. In December 2005 the Suure-Jaani newspaper Leole listed Leiger among December name-day names and called him a hero of the Hiiumaa people. Neither publication proves when a child first received the name.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Mägiste 1929 PDF p. 36 / printed p. 34 visually checked: Leiger (Mg.), cf. Wd. leiger ‘grosser, starker Mann, Riese’, mythology Leiger. PDF p. 12: Mg. = author’s own name proposals. Eisen Tõll ja ta sugu PDF p. 138 conditional Swedish lekare (prior round check reused). Leole Dec 2005 p. 1 rechecked: unqualified lekare claim not adopted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lv",
+      "name": "Vudis",
+      "spellings": [
+        "Vudis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vudis",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vudis"
+      ],
+      "facts_used": "Vudis still needs checking against English Woody / Woodrow. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "English Woody / Woodrow",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue unchanged (Woody comparison via Behind the Name); LVA search returned no rows.",
+      "next_steps": "Find an LVA English Woody → Vudijs/Vudis row or a Latvian dictionary entry; keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lv",
+      "name": "Vudro",
+      "spellings": [
+        "Vudro"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vudro",
+        "https://www.behindthename.com/name/woodrow"
+      ],
+      "facts_used": "Vudro: Siliņš’s dictionary treats Vudro as the Latvian rendering of English Woodrow and cites Old English wudu, forest, and rāw, row, allowing meanings such as a settlement in the forest or a clearing. Behind the Name explains the source surname through a place name meaning a row of houses by a wood. These are alternative readings of the English place-name origin, not one secure literal meaning. The dictionary records Vudro in 1932 and mentions U.S. President Woodrow Wilson in connection with the name. Behind the Name adds that Woodrow became popular in the United States during Wilson’s candidacy and presidency (1912–1921). The 1932 record documents use in Latvia; it does not prove that every family chose the name because of Wilson.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p. 333 via catalogue: Woodrow rendering, wudu/rāw, alternative meanings, 1932, Wilson mentioned. BTN Woodrow: row of houses by a wood; popularity 1912–1921. Alternatives kept.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lt",
+      "name": "Liugailė",
+      "spellings": [
+        "Liugailė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=291"
+      ],
+      "facts_used": "Liugailė still needs checking against Liugaila / liu- + gail-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Liugaila / liu- + gail-",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 291 liu-: paliauti lists masculine Liugaila only; feminine Liugailė not found in Salys or Pakerys 2011 text search.",
+      "next_steps": "Search Pakerys 2011 / LVKŽ for exact Liugailė; do not transfer Liugaila’s calendar date."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "lt",
+      "name": "Vainotas",
+      "spellings": [
+        "Vainotas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Vainotas: Linguist Antanas Salys lists Vainotas among the single-stem derivatives of the name element vain-, which he links with Lithuanian vainà, ‘fault, blame, cause’. The element analysis comes from his scholarly list of Lithuanian and Prussian name elements. It explains the stem; it does not supply a fixed whole-name translation. The 1964 Lithuanian calendar reprinted in Salys’s collected works (1983) lists Vainotas, with the short form Vainas, on 4 December. This is a dated calendar record, not the first use of the name.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF p. 297 / printed p. 282: Vain-: vainà ‘yda, kaltė, priežastis’, single-stem derivatives Vainà, Vainius, Vainotas. PDF p. 318: 4 December Vainotas (Vainas). Popular ‘warrior’ reading not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Parba",
+      "spellings": [
+        "Parba"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Parba still needs checking against Barba / Barbara. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Barba / Barbara",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: text search of Mägiste 1929 found no Parba; Wiktionary API has no Parba page; Leole Dec 2005 p. 1 does not mention Parba.",
+      "next_steps": "Check Rajandi 1966 or Seppo 1994 for Parba; keep Barba/Barbara comparison labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Varje",
+      "spellings": [
+        "Varje"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Leole’s column offers two routes: the Barbara family or Estonian vari, shadow. Both explanations remain unverified alternatives; the exact spelling Varje in a dated newspaper does not itself settle the name’s origin.",
+      "hypothesis": "Barbara / vari",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Leole Dec 2005 p. 1 rechecked: Varje and Varju ‘may be’ from Barbara or vari. Mägiste 1929 has no Varje; Wiktionary API has no Varje page. Only a popular local column supports the alternatives.",
+      "next_steps": "Find Varje in Rajandi 1966 / Seppo 1994 / EKI name resources for a scholarly explanation; then Leole 2005 can supply the dated listing."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-04",
+      "date": "2026-11-12",
+      "calendar_date": "12-04",
+      "country": "ee",
+      "name": "Varju",
+      "spellings": [
+        "Varju"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Varju still needs checking against Barbara / vari. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Barbara / vari",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: same Leole Dec 2005 alternatives; Wiktionary API rate-limited/no page; Mägiste 1929 has Marje ~ Marju (Mg.) but no Varju.",
+      "next_steps": "Same as Varje: locate a dictionary-grade explanation before writing."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Klaudijs",
+      "spellings": [
+        "Klaudijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Klaudijs",
+        "https://www.behindthename.com/name/claudius"
+      ],
+      "facts_used": "Klaudijs: Siliņš’s dictionary links Klaudijs with the Roman family name Claudius and with Latin claudus, lame. Behind the Name lists Klaudijs as the Latvian form of Claudius and presents the derivation from claudus only as possible. The Roman family name is therefore the secure basis, while its ultimate meaning remains uncertain. Siliņš records Klaudijs near Aizpute in the fourth quarter of the nineteenth century and gives 1767 as its first calendar year. The local record shows use in Courland; the calendar year marks inclusion in the calendar, not the first bearer in Latvia.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p. 196: Claudius/claudus, Aizpute fourth quarter 19th c., calendar 1767. BTN Claudius explicitly lists Latvian Klaudijs and labels claudus derivation possible; kept as possible.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabine",
+      "spellings": [
+        "Sabine"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabine",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Sabine"
+      ],
+      "facts_used": "Sabine still needs checking against Sabīne / German Sabine. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sabīne / German Sabine",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA rows: German Sabine → Sabīne and → Zabīne (Ceplītis 1960 p. 64), French Sabine → Sabina. None gives short-i Sabine.",
+      "next_steps": "Search LVA for a row rendering any source name as short-i Sabine; otherwise keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabrīne",
+      "spellings": [
+        "Sabrīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabr%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Sabr%C4%ABne"
+      ],
+      "facts_used": "Sabrīne still needs checking against Sabrina / Sabrīna. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sabrina / Sabrīna",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue has no origin; LVA search returned no rows.",
+      "next_steps": "Check LVA French/English Sabrine/Sabrina rows; keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sarme",
+      "spellings": [
+        "Sarme"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sarme"
+      ],
+      "facts_used": "Sarme still needs checking against Sarma / sarma. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sarma / sarma",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue unchanged: no exact Sarme or cross-reference (p. 285).",
+      "next_steps": "Look for Sarme in LVA consultations or the new dictionary; do not transfer Sarma 1507."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Zanga",
+      "spellings": [
+        "Zanga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zanga"
+      ],
+      "facts_used": "No supported origin proposal; the profile keeps the ordinary missing-history display.",
+      "hypothesis": "",
+      "reason": "No defensible documented comparison found; no hypothesis added.",
+      "uncertainties": "Round 59: catalogue p. 335 question-marked formation only; third-quarter-20th-century record. No comparison adopted.",
+      "next_steps": "Locate an onomastic discussion of Zanga; no hypothesis until a documented comparison exists."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Zanza",
+      "spellings": [
+        "Zanza"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zanza"
+      ],
+      "facts_used": "Zanza still needs checking against Zanzibar. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Zanzibar",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue p. 335 tentative Zanzibar comparison; second quarter 20th c.; calendar 1933.",
+      "next_steps": "Find a naming account or scholarly comment on Zanza; keep Zanzibar comparison labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Geisvilė",
+      "spellings": [
+        "Geisvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288"
+      ],
+      "facts_used": "Geisvilė still needs checking against geis- + vil-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "geis- + vil-",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 288 Gei(d)-, Geis-: geisti (Geidvilas, Geistaras, Geistautas); vil- elsewhere. Exact feminine Geisvilė not found.",
+      "next_steps": "Search Pakerys 2011 / LVKŽ for exact Geisvilė; keep geis- + vil- labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Geisvinė",
+      "spellings": [
+        "Geisvinė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288"
+      ],
+      "facts_used": "Geisvinė still needs checking against geis- + vin- / vaina. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "geis- + vin- / vaina",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 288 confirms geis-: geisti only; no exact Geisvinė.",
+      "next_steps": "Search Pakerys 2011 for -vin- female forms including Geisvinė."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Svaigaudas",
+      "spellings": [
+        "Svaigaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=295",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287"
+      ],
+      "facts_used": "Svaigaudas: Antanas Salys classifies Svaigaudas as an Old Prussian personal name. He links the first element with Old Prussian swais, ‘own’, and the second element gaud- with Lithuanian gauti, ‘to get’, comparing (su)gaudinti. This is an element analysis, not a ready-made translation of the whole name. Salys’s list of name elements, published in his collected works in 1983, gives Svaigaudas among Prussian names under both Svai- and Gaud-. The publication date belongs to the reprinted scholarly list; it does not date the name’s historical use or its adoption in modern Lithuanian calendars.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF p. 295 / printed p. 280: Svai-: Prussian swais ‘savas’, Pr. Svaigaudas; PDF p. 287 / printed p. 272: Gaud-: gauti, cf. (su)gaudinti, Pr. Svaigaudas. Not in the 5 December 1964 calendar list (Gratas, Krispina, Sabas, Alanta, Vintilas); publication 1983 only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "ee",
+      "name": "Selma",
+      "spellings": [
+        "Selma"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-BTN",
+        "INT-SNL",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/selma-1",
+        "https://snl.no/Selma_-_kvinnenamn",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Selma: Behind the Name considers the meaning unknown: Selma may be a short form of Anselma, or it may have been inspired by James Macpherson’s Ossian poems, where Selma is the name of a castle. Gulbrand Alhaug’s signed article in the Great Norwegian Encyclopedia describes the same literary source and also mentions the Anselma route. The two routes can both apply, so the name has no single proven meaning. According to Alhaug, Macpherson’s Ossian poems were published in 1761–1763, and Selma came into use as a given name in Germany from the late eighteenth century. In December 2005 the Suure-Jaani newspaper Leole listed Selma among December name-day names. These records concern the name’s European spread and local calendar use, not the first Estonian bearer.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "BTN Selma: meaning unknown, Anselma or Ossian. SNL Alhaug (fetched): Ossian 1761–1763, German use from late 18th c., Anselma route. Leole Dec 2005 p. 1 lists Selma/Selme with a Gaelic gloss, not adopted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "ee",
+      "name": "Selme",
+      "spellings": [
+        "Selme"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Selme is treated with the Selma family in Leole’s column. Proposed routes include the castle name in Macpherson’s Ossian poems and a short form of Anselma. The literary connection is documented, but selecting one universal origin and a literal Gaelic translation remains unverified.",
+      "hypothesis": "Ossian literary Selma / Anselma",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Leole Dec 2005 p. 1 pairs Selma and Selme; no curated Selme entry; Wiktionary API rate-limited.",
+      "next_steps": "Find a dictionary entry explicitly linking Selme with Selma (Rajandi 1966 / Seppo 1994); Selma evidence not transferred."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Meikols",
+      "spellings": [
+        "Meikols"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meikols"
+      ],
+      "facts_used": "Meikols is still being checked against Meikulis / Miķelis / Nikolajs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meikulis / Miķelis / Nikolajs",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue p. 235: under Meikulis; Miķelis or Nikolajs (?) uncertain; Dignāja 1931.",
+      "next_steps": "Inspect the original Siliņš p. 235 Meikulis entry for the stated full form."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Meikulis",
+      "spellings": [
+        "Meikulis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meikulis"
+      ],
+      "facts_used": "Meikulis is still being checked against Meikols / Miķelis / Nikolajs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meikols / Miķelis / Nikolajs",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue URL still 404.",
+      "next_steps": "Inspect original Siliņš p. 235 scan for Meikulis."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Meikuls",
+      "spellings": [
+        "Meikuls"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Meikuls"
+      ],
+      "facts_used": "Meikuls is still being checked against Meikulis / Miķelis / Nikolajs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meikulis / Miķelis / Nikolajs",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue: no direct basis (p. 235).",
+      "next_steps": "Same as Meikulis; do not transfer Meikols 1931."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nika",
+      "spellings": [
+        "Nika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nika",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Nika"
+      ],
+      "facts_used": "Nika: Siliņš’s dictionary records feminine and masculine Nika separately. The feminine name is listed under Nikolajs and Greek nikē, victory; the masculine name is also listed under Nikolajs. Nika can therefore be a short form within the Nikolajs family, while the link with nikē explains it directly; no single route applies to every bearer. The dictionary records masculine Nika in Irbe in 1857, with 1889 as its calendar year, and feminine use in 1969 and 1973. The Latvian Language Agency also renders Croatian feminine Nika as Nika, citing Ojārs Bušs’s 2011 article on Croatian names. These records show use and rendering, not the first registration of the name.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p. 249: feminine under Nikolajs and nikē; masculine under Nikolajs; masculine Irbe 1857, calendar 1889; feminine 1969/1973. LVA Croatian Nika → Nika (Bušs 2011 p. 156). No single route forced.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikija",
+      "spellings": [
+        "Nikija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Nikija"
+      ],
+      "facts_used": "Nikija is still being checked against Nika / Nikolaos. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nika / Nikolaos",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue: no direct support; LVA search returned no rows.",
+      "next_steps": "Look for Greek/English Nikki/Nikia renderings in LVA; keep Nika comparison labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Niklāss",
+      "spellings": [
+        "Niklāss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikl%C4%81ss",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Nikl%C4%81ss"
+      ],
+      "facts_used": "Niklāss is still being checked against Niklass / Niklas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Niklass / Niklas",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA: Norwegian Nichlas/Nicklas → Niklass (short a, 2003 p. 218) and Swedish Niklasson surnames; no Niklāss row.",
+      "next_steps": "Find a long-ā rendering (e.g. German Niklas in Ceplītis 1960) before writing."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikolīna",
+      "spellings": [
+        "Nikolīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikol%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Nikol%C4%ABna"
+      ],
+      "facts_used": "Nikolīna is still being checked against Nicolina / Nikoleta. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nicolina / Nikoleta",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA only Romanian Nikolina → Nikolina (short i, Dimiņš 2025 p. 222).",
+      "next_steps": "Find a long-ī row or dictionary entry; do not transfer the short-i rendering."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Nikolla",
+      "spellings": [
+        "Nikolla"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nikolla",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Nikolla"
+      ],
+      "facts_used": "Nikolla is still being checked against Nikola / Nikollë. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Nikola / Nikollë",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA Albanian surname Nikolla → Nikola (Dimiņš 2025 p. 185); surname row, not a given-name bridge to double-l Nikolla.",
+      "next_steps": "Find a given-name source for Nikolla; keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lv",
+      "name": "Ņika",
+      "spellings": [
+        "Ņika"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/%C5%85ika",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=%C5%85ika"
+      ],
+      "facts_used": "Ņika is still being checked against Russian Ника / Nika. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Russian Ника / Nika",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA rows Croatian Nika → Nika etc.; no row with palatal Ņ.",
+      "next_steps": "Check Russian Ника rendering rules (Grabis/Porīte 1993) for any Ņika form."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lt",
+      "name": "Bilmantas",
+      "spellings": [
+        "Bilmantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=292"
+      ],
+      "facts_used": "Bilmantas is still being checked against bil- + mant- (mantus / manta). This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "bil- + mant- (mantus / manta)",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 318 6 December entry reconfirmed as Bilmanas/Bilimanas, not Bilmantas; PDF p. 292 lists Bilminas, not Bilmantas.",
+      "next_steps": "Search Pakerys 2009/2010 for exact Bilmantas."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "lt",
+      "name": "Norvydė",
+      "spellings": [
+        "Norvydė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=293"
+      ],
+      "facts_used": "Norvydė is still being checked against nor- + vyd-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "nor- + vyd-",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 293 Nor-: norėti, nóras; Norvydas only masculine (13 November).",
+      "next_steps": "Find exact feminine Norvydė in Pakerys 2011 with a dated calendar entry."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-06",
+      "date": "2026-11-12",
+      "calendar_date": "12-06",
+      "country": "ee",
+      "name": "Laus",
+      "spellings": [
+        "Laus"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29-AES",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=36",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=34",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Laus is still being checked against Laos / Klaos / Nikolaus. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Laos / Klaos / Nikolaus",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Mägiste PDF p. 36: Laos -e (P 107 Laws, Lawes; Srm.; Wd. Laus -e), see Klaos; PDF p. 34: Klaos (Wd.), see Laos. Circular cross-reference; no explicit Nikolaus. Leole 2005 groups Klaus and Laas (not Laus) with Nikolaus.",
+      "next_steps": "Open Wiedemann’s Estonian–German dictionary entry Laus/Klaos for an explicit Nikolaus link."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antainna",
+      "spellings": [
+        "Antainna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antainna"
+      ],
+      "facts_used": "Antainna is still being checked against Anta / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Anta / Antonija",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue: one Latgale record pairs Antainna with Anta; no general derivation.",
+      "next_steps": "Inspect the Latgale data record for date and context."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antija",
+      "spellings": [
+        "Antija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antija"
+      ],
+      "facts_used": "Antija: Siliņš’s dictionary lists Antija under both Anfija and Antonija. The Anfija entry points to Greek anthos, flower, while Antonija belongs to the family of Latin Antonius, whose meaning the source considers unclear. ‘Flower’ is therefore only one of two documented explanations, not a certain translation of Antija. The dictionary records Antija in the Limbaži district in the third quarter of the twentieth century and gives 1937 as its calendar year. These dates show calendar inclusion and local use; neither marks the moment the name was created.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp. 62/58: under Anfija (anthos) and Antonija (Antonius, unclear); Limbaži third quarter 20th c.; calendar 1937. Both documented routes kept.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonela",
+      "spellings": [
+        "Antonela"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antonela",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Antonela"
+      ],
+      "facts_used": "Antonela is still being checked against Antonella / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antonella / Antonija",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue calls it a possible variant of Antonella; LVA search returned no rows.",
+      "next_steps": "Look for an Italian Antonella → Antonela row in the LVA Italian guide."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonida",
+      "spellings": [
+        "Antonida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antonida"
+      ],
+      "facts_used": "Antonida is still being checked against Antonīda / Antoņina. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antonīda / Antoņina",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue says possibly a spelling variant of Antonīda (p. 62); Antonīda itself resolved this round, but its dates are not transferred.",
+      "next_steps": "Find an exact short-i record (Russian Антонида rendering) before writing."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antonīda",
+      "spellings": [
+        "Antonīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anton%C4%ABda"
+      ],
+      "facts_used": "Antonīda: Siliņš’s dictionary explains Antonīda either as a form of Antoņina or as a name meaning ‘daughter of Antonija’. Both explanations lead back to the family of Latin Antonius, whose earlier meaning is uncertain. The dictionary does not choose between the two formation routes. The dictionary gives 1915 as the name’s calendar year and records Antonīda in 1922. The short-i spelling Antonida is a separate profile and does not inherit these dates.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p. 62: form of Antoņina or ‘daughter of Antonija’; 1922; calendar 1915. Dates not transferred to short-i Antonida.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Antuaneta",
+      "spellings": [
+        "Antuaneta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Antuaneta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Antuaneta"
+      ],
+      "facts_used": "Antuaneta is still being checked against Antuanete / Antoinette. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Antuanete / Antoinette",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue: possible variant of Antuanete; LVA search returned no rows.",
+      "next_steps": "Find a final-a rendering row (e.g. Bulgarian/Russian Антуанета)."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Tone",
+      "spellings": [
+        "Tone"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tone",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Tone"
+      ],
+      "facts_used": "Tone is still being checked against Toņa / Antonija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Toņa / Antonija",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA: Norwegian Tone → Tūne (2003 p. 228), so the agency does not render it as Tone; dictionary has no Tone.",
+      "next_steps": "Check Slovene/German Tone rows or another source for exact Latvian Tone."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lv",
+      "name": "Zdeneks",
+      "spellings": [
+        "Zdeneks"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zdeneks",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zdeneks"
+      ],
+      "facts_used": "Zdeneks is still being checked against Czech Zdeněk / Zdislav. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Czech Zdeněk / Zdislav",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA: Czech and Slovak Zdeněk → Zdeņeks (Mackovs 1961 p. 7), with ņ, not the target Zdeneks.",
+      "next_steps": "Find an exact Zdeneks rendering; do not transfer the Zdeņeks row."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lt",
+      "name": "Daugardas",
+      "spellings": [
+        "Daugardas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=286",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Daugardas is still being checked against dau- + gard-/gird-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "dau- + gard-/gird-",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 287: Gard-: see gird-, Daugardas among second-element names; PDF p. 288 Gird-: girdėti, girdas. PDF p. 286 Daug-: daug lists Daudardas (visually checked), not Daugardas, so the first element dau-/daug- is not settled by Salys. Calendar 7 December (PDF p. 318) and 20 November (PDF p. 319).",
+      "next_steps": "Find Daũgardas in Pakerys 2009/2010 accentuation lists or LVKŽ for the first element."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "lt",
+      "name": "Jekaterina",
+      "spellings": [
+        "Jekaterina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-VLE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.vle.lt/straipsnis/jekaterina-ii/",
+        "https://www.behindthename.com/name/yekaterina",
+        "https://www.behindthename.com/name/katherine",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=242"
+      ],
+      "facts_used": "Jekaterina: The Lithuanian Universal Encyclopaedia uses Jekaterina for Russian empresses such as Catherine II, so this Lithuanian spelling follows Russian Екатерина. Behind the Name describes Yekaterina as the Russian form of Katherine, from Greek Aikaterine, whose etymology is debated; the association with katharos, pure, arose later. Salys’s list of proper names gives Kotryna as the usual Lithuanian equivalent of German Katharina. According to the encyclopaedia, Jekaterina II, born Sophie Augusta Friederike of Anhalt-Zerbst, ruled Russia from 1762 to 1796. Behind the Name notes that she adopted the name in 1744, shortly before her marriage. This is a foreign historical bearer, not the first use of Jekaterina in Lithuania.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "VLE Jekaterina II: 1729–1796, empress 1762–96. BTN Yekaterina: adopted 1744; BTN Katherine: debated etymology, later katharos association. Salys PDF p. 242: Kotryna = Katharina. Foreign bearer only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-07",
+      "date": "2026-11-12",
+      "calendar_date": "12-07",
+      "country": "ee",
+      "name": "Piine",
+      "spellings": [
+        "Piine"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Piine is still being checked against Sabiine. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Sabiine",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Mägiste 1929 text search found no Piine; Wiktionary API rate-limited.",
+      "next_steps": "Find Piine in Rajandi 1966 / Seppo 1994; keep Sabiine comparison labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunis",
+      "spellings": [
+        "Gunis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunis",
+        "https://www.izpetnieks.lv/en/name/Gun%C4%81ra"
+      ],
+      "facts_used": "Gunis: Siliņš’s dictionary lists Gunis under both Guna and Gunārs. Guna is associated with Latvian guns / uguns, fire, while for Gunārs the dictionary points to Ginters and Guntrams. The source does not say which of these lines a particular Gunis follows, and it does not call Gunis the masculine form of Guna. The dictionary records Gunis in 1920 and gives 1934 as its calendar year. These are dated records of use and calendar inclusion, not proof of who first bore the name.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp. 144/143: under Guna (guns/uguns) and Gunārs (Ginters/Guntrams); 1920; calendar 1934. Source does not call Gunis the masculine of Guna.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gināra",
+      "spellings": [
+        "Gināra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gin%C4%81ra"
+      ],
+      "facts_used": "No supported origin proposal; the profile keeps the ordinary missing-history display.",
+      "hypothesis": "",
+      "reason": "No defensible documented comparison found; no hypothesis added.",
+      "uncertainties": "Round 59: catalogue still has no origin prose.",
+      "next_steps": "Search the new Latvian given-name dictionary or LVA consultations for Gināra; no hypothesis added."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Ginārs",
+      "spellings": [
+        "Ginārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gin%C4%81rs"
+      ],
+      "facts_used": "No supported origin proposal; the profile keeps the ordinary missing-history display.",
+      "hypothesis": "",
+      "reason": "No defensible documented comparison found; no hypothesis added.",
+      "uncertainties": "Round 59: catalogue still has no origin prose; similarity to Gunārs not used.",
+      "next_steps": "Find an exact Ginārs record; no hypothesis added."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunāra",
+      "spellings": [
+        "Gunāra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gun%C4%81ra",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Gun%C4%81rs"
+      ],
+      "facts_used": "Gunāra: Siliņš’s dictionary lists Gunāra under the masculine name Gunārs, as its feminine counterpart. For Gunārs the dictionary gives connections with Ginters and Guntrams, whose explanations differ, so the deeper origin is not reduced to one line. The Latvian Language Agency also renders Icelandic Gunnar as Gunārs, citing a 2022 guide, which shows one documented Nordic correspondence for the masculine name. The dictionary records Gunāra in the Riga district in the third quarter of the twentieth century. This is a dated usage record for the feminine form, not the date when Gunāra was first created.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p. 143: under Gunārs; Riga district third quarter 20th c. LVA Icelandic Gunnar → Gunārs / Gunars (Dimiņš 2022 p. 234). Gunārs routes kept plural.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunards",
+      "spellings": [
+        "Gunards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunards"
+      ],
+      "facts_used": "Gunards is still being checked against Gunārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunārs",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue p. 143: tentatively under Gunārs (?); 1922.",
+      "next_steps": "Inspect original p. 143 for the question mark scope; keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunarts",
+      "spellings": [
+        "Gunarts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunarts"
+      ],
+      "facts_used": "Gunarts is still being checked against Gunārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunārs",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue p. 143: tentatively under Gunārs (?); undated Saldus record.",
+      "next_steps": "Inspect original p. 143; find a dated record."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunijs",
+      "spellings": [
+        "Gunijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunijs"
+      ],
+      "facts_used": "No supported origin proposal; the profile keeps the ordinary missing-history display.",
+      "hypothesis": "",
+      "reason": "No defensible documented comparison found; no hypothesis added.",
+      "uncertainties": "Round 59: catalogue still has no origin prose.",
+      "next_steps": "Find an exact Gunijs record; no hypothesis added."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Guno",
+      "spellings": [
+        "Guno"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Guno",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Guno"
+      ],
+      "facts_used": "Guno is still being checked against Guna / Gounod. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Guna / Gounod",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue: possibly masculine of Guna; LVA Guno is the French surname Gounod (Bankava 2004 p. 134), rejected as a given-name bridge.",
+      "next_steps": "Find a dated Latvian Guno record with an explicit Guna link."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladis",
+      "spellings": [
+        "Vladis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vladis",
+        "https://www.behindthename.com/name/vladimir",
+        "https://www.behindthename.com/name/vladislav"
+      ],
+      "facts_used": "Vladis: Siliņš’s dictionary lists Vladis under both Vladimirs and Vladislavs. Behind the Name derives Vladimir from Old Slavic elements meaning ‘to rule’ and ‘great, famous’ (the second also associated with ‘peace, world’), and Vladislav from ‘to rule’ and ‘glory’. Vladis is therefore a short form within this family, without one documented full form for all bearers. The dictionary records Vladis in 1973. This dated record documents use in Latvia, not the first bearer or a calendar entry.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p. 332: under Vladimirs and Vladislavs; 1973. BTN Vladimir and Vladislav element explanations. No single full form chosen.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vlads",
+      "spellings": [
+        "Vlads"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vlads",
+        "https://www.behindthename.com/name/vlad",
+        "https://www.behindthename.com/name/vladimir"
+      ],
+      "facts_used": "Vlads: The Latvian Language Agency gives Vlads as the Latvian form of Lithuanian Vladas, Ukrainian Влад and Romanian Vlad. Behind the Name describes Vlad as an old short form of Vladislav and other names beginning with the Slavic element meaning ‘to rule’, and lists Lithuanian Vladas among forms of Vladimir. The full name behind a particular Vlads can therefore differ. The earliest dated rendering in the database is Lithuanian Vladas → Vlads in T. Porīte’s 1961 guide to Lithuanian proper names (p. 50); guides of 2023 and 2025 give Vlads for Ukrainian and Romanian Vlad. These are language-standard records, not the first birth registration of Vlads in Latvia.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "LVA search: Lithuanian Vladas → Vlads (Porīte 1961 p. 50), Ukrainian Влад → Vlads (Hansons/Poļakova 2023), Romanian Vlad → Vlads (Dimiņš 2025 p. 219). BTN Vlad: short form of Vladislav etc.; BTN Vladimir lists Lithuanian Vladas. Full form varies.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Gedmintė",
+      "spellings": [
+        "Gedmintė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=28",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287"
+      ],
+      "facts_used": "Gedmintė is still being checked against ged- + mint-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "ged- + mint-",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 28 lists Gedmintas among old names surviving as surnames; PDF p. 230 Gėdmintas FN; PDF p. 287 Ged-: gesti/gedėti/gedauti. No exact feminine.",
+      "next_steps": "Search Pakerys 2011 -mint- list for Gedmintė."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Guntilda",
+      "spellings": [
+        "Guntilda"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/gunhild"
+      ],
+      "facts_used": "Guntilda is still being checked against Gunhild / Gunnhildr. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunhild / Gunnhildr",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Salys PDF p. 318 8 December Guntilda (Gunta) reconfirmed. BTN Gunhild/Gunnhild give Old Norse gunnr + hildr but no Guntilda form.",
+      "next_steps": "Find an explicit Guntilda ↔ Gunthild/Gunhild bridge (German Gunthild in Salys Lithuanian–German list)."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Vaidginas",
+      "spellings": [
+        "Vaidginas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83",
+        "LT-PAKERYS09"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=289",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2009~1367168885961/J.04~2009~1367168885961.pdf#page=22",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Vaidginas: Antanas Salys lists Vaidginas under the element vaid-, which he refers to vyd- (išvysti, ‘to catch sight of’), and he links the element gin(t)- with ginti, ‘to defend’. In a 2009 Baltistica article, Antanas Pakerys notes that another dictionary instead connects vaid- with váidytis, ‘to appear’, and vaidentis, while some possible base words also mean ‘to quarrel’. The second element is clear, but the first remains debated. Pakerys’s 2009 study of the accentuation of Lithuanian two-stem male names discusses the exact form Váidginas. The 1964 calendar reprinted in Salys’s collected works (1983) lists Vaidginas, with the short form Vaidas, on 8 December. These are scholarly and calendar records, not the name’s first use.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF p. 297: Vaid-: see vyd-, Vaidginas; PDF p. 298: Vyd-: išvysti; PDF p. 289: Gin(t)-: ginti. Pakerys 2009 Baltistica 44(2) PDF p. 22 / printed p. 206: LVKŽ váidytis/vaidentis vs Salys vyd-; quarrel-sense base words noted. PDF p. 318: 8 December Vaidginas (Vaidas). First element left open.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Külve",
+      "spellings": [
+        "Külve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17"
+      ],
+      "facts_used": "Külve is still being checked against Külvi / külv. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Külvi / külv",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Mägiste 1929 PDF p. 17 has Küli ~ Külvi only; Külve absent; Wiktionary API rate-limited.",
+      "next_steps": "Find exact Külve in a dictionary; do not transfer Külvi evidence."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Külvi",
+      "spellings": [
+        "Külvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29-AES",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=11",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Külvi: Julius Mägiste’s 1929 list of Estonian-style names gives Küli ~ Külvi and compares Estonian külv, ‘sowing’, and külvama, ‘to sow’. In December 2005 the Suure-Jaani newspaper Leole instead derived Külvi, together with Külli and Külliki, from Finnish Kyllikki. The two explanations are kept side by side rather than merged. Mägiste cites J. P. Sõggel’s name notes as the source of Küli ~ Külvi; his list of sources describes Sõggel’s material as name notes from Halliste and a list of new names from 1893–1894. The 1929 publication therefore records the form in a dated scholarly list, not the first girl to receive the name.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Mägiste 1929 PDF p. 17 / printed p. 15 visually checked: Küli ~ Külvi (Sõggel; cf. külv, külvama). PDF p. 11 / printed p. 9: Sõggel = name notes from Halliste and new-name list 1893–4. Leole Dec 2005 p. 1: Kyllikki derivation. Both kept.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Sārtīte",
+      "spellings": [
+        "Sārtīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/S%C4%81rt%C4%ABte"
+      ],
+      "facts_used": "No supported origin proposal; the profile keeps the ordinary missing-history display.",
+      "hypothesis": "",
+      "reason": "No defensible documented comparison found; no hypothesis added.",
+      "uncertainties": "Round 59: catalogue: no exact form or cross-reference.",
+      "next_steps": "Search LVA consultations / new dictionary; no hypothesis added."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Tabite",
+      "spellings": [
+        "Tabite"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tabite",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Tabite"
+      ],
+      "facts_used": "Tabite is still being checked against Tabita / Tabitha. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Tabita / Tabitha",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: catalogue: not found; LVA search returned no rows.",
+      "next_steps": "Find an exact Tabite source; do not transfer Tabita 1923."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lv",
+      "name": "Zenona",
+      "spellings": [
+        "Zenona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zenona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zenona"
+      ],
+      "facts_used": "Zenona is still being checked against Zenons / Zenon. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Zenons / Zenon",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: LVA rows: Lithuanian Zenonas → Zenons (1961 p. 50); Russian patronymic Зенонович → Zenona d. (genitive in a patronymic), not a feminine given name.",
+      "next_steps": "Find a feminine Zenona rendering (Polish Zenona) in LVA."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lt",
+      "name": "Delfina",
+      "spellings": [
+        "Delfina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/delphina",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Delfina: Behind the Name lists Delfina as the Italian, Spanish and Portuguese form of Delphina, the feminine of Latin Delphinus, ‘of Delphi’. The name of the Greek city is possibly related to Greek delphys, womb. The Lithuanian spelling matches these forms, but the route by which it entered Lithuanian use is not documented here. The 1964 Lithuanian calendar reprinted in Antanas Salys’s collected works (1983) lists Delfina, with the short form Delfa, on 9 December. Behind the Name also mentions the Blessed Delphina, a fourteenth-century Provençal nun. The calendar entry documents Lithuanian use; it does not prove that every family chose the name after her.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "BTN Delphina: Delfina Italian/Spanish/Portuguese; Delphinus ‘of Delphi’, delphys possible. Salys PDF p. 318: 9 December Delfina (Delfa). Dolphin reading not adopted; entry route into Lithuanian undocumented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "lt",
+      "name": "Leokadija",
+      "spellings": [
+        "Leokadija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=246",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+        "https://www.behindthename.com/name/leocadia"
+      ],
+      "facts_used": "Leokadija: In Antanas Salys’s Lithuanian–German list of proper names, Leokadija is given with the German equivalent Leukadie. Behind the Name explains Late Latin Leocadia as possibly derived from the Greek island name Leucadia or from Greek leukos, ‘bright, clear, white’, which is also the root of the island’s name. Both explanations remain possible, so no single meaning is fixed. The 1964 Lithuanian calendar reprinted in Salys’s collected works (1983) lists Leokadija, with the short forms Leva and Kadė, on 9 December. Behind the Name notes Saint Leocadia, a third-century martyr from Spain. The calendar record documents Lithuanian use, not the first bearer.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF p. 246 / printed p. 231, Lithuanian–German list, visually checked: Leokādija PN = German Leukadie. BTN Leocadia: possibly Leucadia or leukos. PDF p. 318: 9 December Leokadija (Leva, Kadė).",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raido",
+      "spellings": [
+        "Raido"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raido#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raido: Wiktionary’s Estonian entry describes Raido as a twentieth-century variant of Raimond or Rait. In December 2005 the Suure-Jaani newspaper Leole offered other possibilities: the word puuraidur, ‘woodcutter’, rait, ‘giant’, or a variant of Raivo. The name therefore has documented alternative explanations rather than one proven origin. The December 2005 issue of Leole (no. 12) lists Raido among the December name-day names in its column on the meanings of names. This dated local publication shows the name in the name-day calendar of 2005; it is not the first registration of a Raido.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Wiktionary Estonian Raido (API): 20th-century variant of Raimond or Rait. Leole Dec 2005 p. 1 rechecked: puuraidur / rait / Raivo alternatives. Dated detail is the 2005 local column only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raidu",
+      "spellings": [
+        "Raidu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=46"
+      ],
+      "facts_used": "Raidu is still being checked against Raido / Rait. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raido / Rait",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Mägiste 1929 PDF p. 46: Rai|t -du — Raidu is the genitive in Rait’s paradigm; similarly Reit -du / Wd. Reidu. Not evidence of a separate given name.",
+      "next_steps": "Find exact Raidu as a given name in a dictionary; keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raigo",
+      "spellings": [
+        "Raigo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raigo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raigo: Wiktionary’s Estonian entry calls Raigo a twentieth-century creation, possibly a variant of Raimond. In December 2005 the Suure-Jaani newspaper Leole instead presented Raigo as a variant of Raivo, which it connected with raev, ‘rage’. Both proposals remain possible, and neither is proved for every bearer. The December 2005 issue of Leole (no. 12) lists Raigo, together with Raik and Reigo, among the December name-day names in its column on the meanings of names. This dated local publication documents the name in the 2005 name-day calendar, not its first registration.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Wiktionary Estonian Raigo (API): 20th-century creation, possibly Raimond. Leole Dec 2005 p. 1: Raigo, Raik, Reigo as Raivo variants. Both kept.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raiko",
+      "spellings": [
+        "Raiko"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Raiko#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=46"
+      ],
+      "facts_used": "Raiko is still being checked against Raimond / Raigo / Raivo. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raimond / Raigo / Raivo",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Wiktionary: possibly Raimond, 20th-century creation. Mägiste PDF p. 46 cites Rayko Jury (P 197) under Raik, a historical spelling, not exact Raiko. No dated exact-form record found.",
+      "next_steps": "Find a dated Raiko bearer in an institutional biography (EWOD, riigikogu.ee) or a calendar listing."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raid",
+      "spellings": [
+        "Raid"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+      ],
+      "facts_used": "Raid is still being checked against Raido / Rait. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Raido / Rait",
+      "reason": "Exact-form origin bridge or dated exact-form episode still missing; the existing labelled proposal stays unverified.",
+      "uncertainties": "Round 59: Wiktionary API has no Raid page; Mägiste has no Raid.",
+      "next_steps": "Find an exact Raid dictionary entry; keep labelled."
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Raik",
+      "spellings": [
+        "Raik"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29-AES",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=46",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=11",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Raik: Julius Mägiste’s 1929 list includes Raik among Estonian personal names, compares it with Raigas (Finnish Raikas) and, with a question mark, with a plant name. In December 2005 the Suure-Jaani newspaper Leole instead presented Raik, together with Raigo and Reigo, as a variant of Raivo. These explanations remain alternatives. Mägiste cites the forms Raik and Rayk from a sixteenth-century Polish survey of Livonia, and Henne Rayke from published extracts of Tallinn’s earliest records (1365–1458). These records show old use of the same or similar forms; they do not prove an unbroken line to modern bearers.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Mägiste 1929 PDF p. 46 / printed p. 44 visually checked: Raik -gu (P 224 Raik, 175 Rayk, 197 Rayko Jury, TLAV 4 Henne Rayke; cf. plant name reboraik?), cf. Raigas. PDF p. 11: TLAV 4 = extracts from earliest Tallinn records 1365–1458. Leole 2005: Raivo variant.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-12-09",
+      "date": "2026-11-12",
+      "calendar_date": "12-09",
+      "country": "ee",
+      "name": "Rait",
+      "spellings": [
+        "Rait"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29-AES"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Rait#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=46",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=11"
+      ],
+      "facts_used": "Rait: Wiktionary’s Estonian entry derives Rait either from the Estonian word rait, ‘colossus’, or as a variant of Raimond. Julius Mägiste’s 1929 list of Estonian personal names includes Rait and tentatively compares it with Raik. The available sources keep these routes open rather than choosing one. Mägiste cites a historical record of the form Rayth from a sixteenth-century Polish survey of Livonia, published in the series Polska XVI wieku. This is an old personal-name record cited in a 1929 scholarly list, not proof that every modern Rait continues that name directly.",
+      "hypothesis": "",
+      "reason": "Exact-form evidence with explicitly documented alternatives plus one dated record supports two paragraphs in five languages.",
+      "uncertainties": "Wiktionary Estonian Rait (API): rait ‘colossus’ or Raimond variant. Mägiste 1929 PDF p. 46 / printed p. 44 visually checked: Rait -du (P 223 Lubi Rayth); ? cf. Raik. PDF p. 11: P = Polska XVI wieku, Inflanty.",
+      "next_steps": ""
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "round": 38,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 26 unfinished December 8 profiles. Exact IcelandicGunars and NorwegianGunnars renderings distinguish them from disputed Gunāra routes. Kraus2013 publisher preview corroborates Russian abbreviated-name families; patronymics and Gounod surname row rejected. Külvi preserves sowing versus Kyllikki alternatives. Gināra/Ginārs/Gunijs have no supported proposal.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunars",
+      "spellings": [
+        "Gunars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/59549,59550?locale=lv",
+        "https://www.behindthename.com/name/gunnar"
+      ],
+      "facts_used": "Gunars: The documented Gunnar family continues Old Norse Gunnarr. Its elements are gunnr, war, and herr, army or warrior. They explain the old compound’s linguistic history rather than asserting that a modern bearer is warlike. The Latvian Language Agency gives the exact rendering Gunnar → Gunars, citing page 234 of a 2022 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact IcelandicGunars2022 or NorwegianGunnars2003 agency row; do not transfer longāGunārs/Gunāra dictionary alternatives to these independently documented renderings.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunnars",
+      "spellings": [
+        "Gunnars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/2700?locale=lv",
+        "https://www.behindthename.com/name/gunnar"
+      ],
+      "facts_used": "Gunnars: The documented Gunnar family continues Old Norse Gunnarr. Its elements are gunnr, war, and herr, army or warrior. They explain the old compound’s linguistic history rather than asserting that a modern bearer is warlike. The Latvian Language Agency gives the exact rendering Gunnar → Gunnars, citing page 216 of a 2003 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact IcelandicGunars2022 or NorwegianGunnars2003 agency row; do not transfer longāGunārs/Gunāra dictionary alternatives to these independently documented renderings.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladilens",
+      "spellings": [
+        "Vladilens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "INT-KRAUS13",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vladilens",
+        "https://www.behindthename.com/name/vladilen",
+        "https://api.pageplace.de/preview/DT0400.9783110314052_A20903989/preview-9783110314052_A20903989.pdf#page=16",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=80"
+      ],
+      "facts_used": "Vladilens: The name family was formed by contracting parts of Vladimir Ilyich Lenin’s name. It belongs to modern commemorative name formation rather than one ancient Slavic compound. That history makes no claim about every modern bearer’s political views. Siliņš’s dictionary dates the use of Vladilens: 1924. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p332 exact own1924. Kraus2013PDF16printed8 documents related RussianVladilen/Vladilena/Vladlen/Vladlena; no universal personal naming motive inferred. Petrovsky1966 original PDF p. 80/printed p. 79 visually checked: Vladilena feminine of Vladilen, Vladlena feminine of Vladlen; both male contractions explicitly from VladimirIlyichLenin. Exact Latvian bridge remains the separate agency/catalogue evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladlens",
+      "spellings": [
+        "Vladlens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-KRAUS13",
+        "INT-BTN",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/24072,24073?locale=lv",
+        "https://api.pageplace.de/preview/DT0400.9783110314052_A20903989/preview-9783110314052_A20903989.pdf#page=16",
+        "https://www.behindthename.com/name/vladilen",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=80"
+      ],
+      "facts_used": "Vladlens: The name family was formed by contracting parts of Vladimir Ilyich Lenin’s name. It belongs to modern commemorative name formation rather than one ancient Slavic compound. That history makes no claim about every modern bearer’s political views. The Latvian Language Agency gives the exact rendering Владле́н → Vladlens, citing page 195 of a 1993 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name row, not patronymic-genitive distractor. Kraus originalPDF16printed8 explicitly lists corresponding male/female Russian neologisms. No Latvian first birth transferred. Petrovsky1966 original PDF p. 80/printed p. 79 visually checked: Vladilena feminine of Vladilen, Vladlena feminine of Vladlen; both male contractions explicitly from VladimirIlyichLenin. Exact Latvian bridge remains the separate agency/catalogue evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladilena",
+      "spellings": [
+        "Vladilena"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-KRAUS13",
+        "INT-BTN",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/20264,20265?locale=lv",
+        "https://api.pageplace.de/preview/DT0400.9783110314052_A20903989/preview-9783110314052_A20903989.pdf#page=16",
+        "https://www.behindthename.com/name/vladilen",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=80"
+      ],
+      "facts_used": "Vladilena: The name family was formed by contracting parts of Vladimir Ilyich Lenin’s name. It belongs to modern commemorative name formation rather than one ancient Slavic compound. That history makes no claim about every modern bearer’s political views. The Latvian Language Agency gives the exact rendering Владиле́на → Vladilena, citing page 184 of a 1993 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name row, not patronymic-genitive distractor. Kraus originalPDF16printed8 explicitly lists corresponding male/female Russian neologisms. No Latvian first birth transferred. Petrovsky1966 original PDF p. 80/printed p. 79 visually checked: Vladilena feminine of Vladilen, Vladlena feminine of Vladlen; both male contractions explicitly from VladimirIlyichLenin. Exact Latvian bridge remains the separate agency/catalogue evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladlena",
+      "spellings": [
+        "Vladlena"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-KRAUS13",
+        "INT-BTN",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/20267,20268?locale=lv",
+        "https://api.pageplace.de/preview/DT0400.9783110314052_A20903989/preview-9783110314052_A20903989.pdf#page=16",
+        "https://www.behindthename.com/name/vladilen",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=80"
+      ],
+      "facts_used": "Vladlena: The name family was formed by contracting parts of Vladimir Ilyich Lenin’s name. It belongs to modern commemorative name formation rather than one ancient Slavic compound. That history makes no claim about every modern bearer’s political views. The Latvian Language Agency gives the exact rendering Владле́на → Vladlena, citing page 184 of a 1993 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact given-name row, not patronymic-genitive distractor. Kraus originalPDF16printed8 explicitly lists corresponding male/female Russian neologisms. No Latvian first birth transferred. Petrovsky1966 original PDF p. 80/printed p. 79 visually checked: Vladilena feminine of Vladilen, Vladlena feminine of Vladlen; both male contractions explicitly from VladimirIlyichLenin. Exact Latvian bridge remains the separate agency/catalogue evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladlēna",
+      "spellings": [
+        "Vladlēna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-KRAUS13",
+        "INT-BTN",
+        "RU-PETROVSKY66"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vladl%C4%93na",
+        "https://api.pageplace.de/preview/DT0400.9783110314052_A20903989/preview-9783110314052_A20903989.pdf#page=16",
+        "https://www.behindthename.com/name/vladilen",
+        "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=80"
+      ],
+      "facts_used": "Vladlēna: The name family was formed by contracting parts of Vladimir Ilyich Lenin’s name. It belongs to modern commemorative name formation rather than one ancient Slavic compound. That history makes no claim about every modern bearer’s political views. Siliņš’s dictionary dates the use of Vladlēna: second quarter of the twentieth century. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Siliņš p332 longē female form with own twentieth-century record.1924 belongs maleVladilens and is not transferred. Petrovsky1966 original PDF p. 80/printed p. 79 visually checked: Vladilena feminine of Vladilen, Vladlena feminine of Vladlen; both male contractions explicitly from VladimirIlyichLenin. Exact Latvian bridge remains the separate agency/catalogue evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Zenonas",
+      "spellings": [
+        "Zenonas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/zenonas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=305",
+        "https://www.behindthename.com/name/zenon"
+      ],
+      "facts_used": "Zenonas: The family’s Greek base is Zēnōn, connected with Zēnos, a form of the name Zeus. It refers to a Greek deity’s name rather than a separate full sentence. The ancient root does not itself determine a modern bearer’s religion or character. The 1964 calendar reprinted in Salys’s 1983 volume gives Zenonas (Zenas) on 5 April. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPDF305printed290Aprilheading and exactZenonasApril5. Historical date differs from suppliedDec8; no overwrite.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Külli",
+      "spellings": [
+        "Külli"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/K%C3%BClli#Estonian",
+        "https://www.behindthename.com/name/kyllikki"
+      ],
+      "facts_used": "Külli: The name belongs to the Külli/Külliki and Finnish Kyllikki group, associated with abundance and sufficiency words: Estonian küll and Finnish kyllä and kyllin. Sources describe both the local word connection and Finnish-form influence; one identical borrowing route need not be assumed for every family. The first page of Leole’s December 2005 issue uses the exact spelling Külli. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact national-language dictionary sections and curated Kyllikki relatedEstonian forms agree with December 2005p1 group. No first-use year or invented personality trait.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Küllike",
+      "spellings": [
+        "Küllike"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/K%C3%BCllike#Estonian",
+        "https://www.behindthename.com/name/kyllikki"
+      ],
+      "facts_used": "Küllike: The name belongs to the Külli/Külliki and Finnish Kyllikki group, associated with abundance and sufficiency words: Estonian küll and Finnish kyllä and kyllin. Sources describe both the local word connection and Finnish-form influence; one identical borrowing route need not be assumed for every family. The first page of Leole’s December 2005 issue uses the exact spelling Küllike. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact national-language dictionary sections and curated Kyllikki relatedEstonian forms agree with December 2005p1 group. No first-use year or invented personality trait.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Külliki",
+      "spellings": [
+        "Külliki"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-WIKTIONARY",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://en.wiktionary.org/wiki/K%C3%BClliki#Estonian",
+        "https://www.behindthename.com/name/kyllikki"
+      ],
+      "facts_used": "Külliki: The name belongs to the Külli/Külliki and Finnish Kyllikki group, associated with abundance and sufficiency words: Estonian küll and Finnish kyllä and kyllin. Sources describe both the local word connection and Finnish-form influence; one identical borrowing route need not be assumed for every family. The first page of Leole’s December 2005 issue uses the exact spelling Külliki. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact national-language dictionary sections and curated Kyllikki relatedEstonian forms agree with December 2005p1 group. No first-use year or invented personality trait.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunis",
+      "spellings": [
+        "Gunis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunis",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Gunis"
+      ],
+      "facts_used": "Gunis is still being checked against Guna / Gunārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Guna / Gunārs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue lists both bases. Latvianfire versus Germanicbattle lines not collapsed into one root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gināra",
+      "spellings": [
+        "Gināra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gin%C4%81ra"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact English catalogue has no origin prose, no exact agency row or indexed scholarly bridge. No supported specific proposal adopted.",
+      "next_steps": "Locate an exact scholarly entry or rendering bridge for Gināra; preserve longā."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Ginārs",
+      "spellings": [
+        "Ginārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gin%C4%81rs"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact English catalogue provides no origin explanation. Similarity to Gunārs does not establish a bridge.",
+      "next_steps": "Find an exact Ginārs dictionary record and a dated scholarly or professional episode."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunāra",
+      "spellings": [
+        "Gunāra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gun%C4%81ra",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Gun%C4%81ra"
+      ],
+      "facts_used": "Gunāra is still being checked against Gunārs / Ginters / Guntrams. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunārs / Ginters / Guntrams",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p143 points to masculineGunārs whose Ginters/Guntrams routes differ. Third-quarter-twentieth-century Riga-district usage does not adjudicate roots.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunards",
+      "spellings": [
+        "Gunards"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunards",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Gunards"
+      ],
+      "facts_used": "Gunards is still being checked against Gunārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunārs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue explicitly tentative cross-reference. Finald spelling not independently bridged.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunarts",
+      "spellings": [
+        "Gunarts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunarts",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Gunarts"
+      ],
+      "facts_used": "Gunarts is still being checked against Gunārs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunārs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Questioned catalogue comparison; Saldus-district mention lacks date and does not settle full origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Gunijs",
+      "spellings": [
+        "Gunijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunijs"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact English catalogue has no origin explanation and no exact agency row. No specific root adopted.",
+      "next_steps": "Find an exact Gunijs dictionary or archival entry before proposing a full form."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Guno",
+      "spellings": [
+        "Guno"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Guno",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Guno"
+      ],
+      "facts_used": "Guno is still being checked against Guna / Gounod. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Guna / Gounod",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Possible masculineGuna comparison unproved. AgencyGuno is FrenchsurnameGounod, not a given-name bridge; surname row rejected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vladis",
+      "spellings": [
+        "Vladis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vladis",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vladis"
+      ],
+      "facts_used": "Vladis is still being checked against Vladimirs / Vladislavs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Vladimirs / Vladislavs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue gives both full forms; exact sole full-form route not selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lv",
+      "name": "Vlads",
+      "spellings": [
+        "Vlads"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vlads",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vlads"
+      ],
+      "facts_used": "Vlads is still being checked against Vladas / Vlad / Vladimirs / Vladislavs. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Vladas / Vlad / Vladimirs / Vladislavs",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LVA gives LithuanianVladas1961p50 and UkrainianVlad2023p149, RomanianVlad2025p219. Exact spellings secure, but multiple full forms remain unresolved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Gedmintė",
+      "spellings": [
+        "Gedmintė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gedminte/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Gedmintė is still being checked against ged- + mint-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "ged- + mint-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives gedauti/gedėti and minti/mintis. Indexed Pakerys2010 documents masculineGedmintas, not an exact dated feminine episode; no male date transferred.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Guntilda",
+      "spellings": [
+        "Guntilda"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/guntilda/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Guntilda is still being checked against Gunhild / Gunnhildr. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gunhild / Gunnhildr",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "SalysPDF318printed303Dec8 documents exactGuntilda, but guide404 and no explicit exact family bridge to Gunhild established. Similarity alone insufficient.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "lt",
+      "name": "Vaidginas",
+      "spellings": [
+        "Vaidginas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-PAKERYS09"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vaidginas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2009~1367168885961/J.04~2009~1367168885961.pdf#page=22"
+      ],
+      "facts_used": "Vaidginas is still being checked against vaid- + gin-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "vaid- + gin-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Original Pakerys2009 PDF22/printed206 exact Váidginas: discusses vaidytis/vaidentis, Salys’s vyd-/išvysti comparison, and possible quarrel-word alternatives with accent variation. Dated form and ginti second stem secure; unique full first-stem analysis not selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Külve",
+      "spellings": [
+        "Külve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/K%C3%BClve#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Külve is still being checked against Külvi / külv. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Külvi / külv",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact spelling absent in inspected scholarly list and DecemberLeolep1. Do not transfer Külvi sowing versus Kyllikki alternatives.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-08",
+      "date": "2026-11-12",
+      "calendar_date": "12-08",
+      "country": "ee",
+      "name": "Külvi",
+      "spellings": [
+        "Külvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Mägiste’s 1929 list compares Külvi with Estonian külv and külvama, sowing and to sow. Leole’s 2005 column instead groups it with Finnish Kyllikki and abundance words. Selecting one origin remains unverified; both sources are recorded without merging their explanations.",
+      "hypothesis": "külv / külvama / Kyllikki",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "OriginalMägiste1929PDF17printed15 explicitlyKüli~Külvi comparedkülv/külvama(sowing), versus DecemberLeolep1Kyllikki/abundance. Dated exactform does not settle competing analyses.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ],
+  "validation": {
+    "tests": "npm test: 128 passed",
+    "build": "npm run build passed",
+    "profiles": "All 104 target identities checked in all five languages; 49 reviewed histories have exactly two paragraphs and more than 300 characters combined.",
+    "backlog": "50 hypotheses and 5 no-proposal profiles remain unverified; all 257 previously researched open identities retained.",
+    "browser": "100 mobile views: five dates, three calendars, five languages; reviewed, hypothesis and no-history states, no displayed source links, no horizontal overflow or page errors.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged. Generated public/data and data copies match the static build.",
+    "pdf_cache": "23 private source indexes, 2901 pages; 3 new PDFs indexed once, including a 385-page Russian OCR scan; repeated indexing reuses existing extraction."
+  }
+}

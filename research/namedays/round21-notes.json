@@ -1,0 +1,714 @@
+{
+  "round": 21,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 25 unfinished 21 November profiles: 16 LV, 7 LT, 2 EE. Fourteen reviewed histories (8 LV, 4 LT, 2 EE); eight labelled unverified hypotheses (5 LV, 3 LT); no supported proposal for Andars, Andejs or Vigra. All previous 77 hypotheses and four no-proposal records remain open: now 85 displayed hypotheses and seven no-proposal records. Scholarly articles clarify Gomantas disagreement and Girenė suffix classification without proving their full origins. Preserve November/December discrepancies and supplied calendar membership. URLs remain research/provenance only. Continue on codex/namedays-round4; next fresh pass is 22 November. This day is not declared verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Zeltīte",
+      "spellings": [
+        "Zeltīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LNB-ZELTITE",
+        "LV-ENCYCLOPEDIA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zelt%C4%ABte",
+        "https://dom.lndb.lv/data/obj/60960.html",
+        "https://enciklopedija.lv/skirklis/31832-Aspazija"
+      ],
+      "facts_used": "Zeltīte is a Latvian name connected by Siliņš’s dictionary with zelts, gold. It brings together the precious metal’s name and a diminutive formation characteristic of Latvian. The dictionary also mentions a character in an Aspazija play, giving the name a literary as well as linguistic setting. The Latvian National Library holds Zeltīte: a drama in two acts, published by Gulbis in St Petersburg in 1904; its catalogue dates first publication to 1901. Separately, the name dictionary gives calendar inclusion in 1908. The play’s publication and the calendar entry are distinct milestones in the name’s history.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "1904 is the held edition; 1901 is first publication in metadata and the encyclopaedia. Neither is a personal-name invention date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Andars",
+      "spellings": [
+        "Andars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andars"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Exact catalogue page opens without origin/citation. LVA exact search yields no matching given-name row; substring results are not bridges. No defensible origin proposal found.",
+      "next_steps": "Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Andejs",
+      "spellings": [
+        "Andejs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andejs"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Exact catalogue page opens without origin/citation. LVA exact search yields no matching given-name row; substring results are not bridges. No defensible origin proposal found.",
+      "next_steps": "Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Andijs",
+      "spellings": [
+        "Andijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andijs",
+        "https://www.izpetnieks.lv/en/name/Andis",
+        "https://www.izpetnieks.lv/en/name/Andrejs"
+      ],
+      "facts_used": "The dictionary lists Andijs under Andis and connects Andis with Andrejs. This explicit chain leads to Greek andreios, manly or brave. The short form therefore retains a link with a wider name family, even when it is used independently in everyday life. The Andijs entry reports use in Saldus district in 1973, a concrete spelling record alongside the dictionary’s family connection. This place-and-year reference is neither the first use of Andis nor a date when Andijs entered the calendar.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Keep the exact spelling, country, dated record and publication scope distinct from a name-invention date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Ando",
+      "spellings": [
+        "Ando"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ando",
+        "https://www.izpetnieks.lv/en/name/Andrejs"
+      ],
+      "facts_used": "The Latvian personal-name dictionary directly connects Ando with Andrejs. This family rests on Greek andreios, manly or brave. The short form Ando is thus explained through the dictionary’s explicit family link rather than an accidentally similar common word in another language. The catalogue’s Ando entry reports use in Ventspils in 1969 and separately mentions frequency data for 1975. These are historical observations of different kinds. Neither the 1975 count nor the dictionary reference supplies a date when the name was created.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Keep the exact spelling, country, dated record and publication scope distinct from a name-invention date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigors",
+      "spellings": [
+        "Vigors"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigors"
+      ],
+      "facts_used": "Vigors might be compared with Latin vigor or the name Vigords, but this is only a working proposal. The catalogue says this exact spelling was not found in the dictionary. Neither the Latin meaning nor Vigords’s origin is therefore established for Vigors.",
+      "hypothesis": "Latin vigor / Vigords",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Exact spelling absent; LVA exact query returned no row.",
+      "next_steps": "Find an explicit dictionary or historical rendering bridge for exact Vigors."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigorts",
+      "spellings": [
+        "Vigorts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigorts",
+        "https://www.izpetnieks.lv/en/name/Vigurds"
+      ],
+      "facts_used": "Vigorts might be compared with Vigords, Vigurs or Vigurds, but no documented transition has been found. The catalogue does not find exact Vigorts in the dictionary. Neither Vigurds’s 1928 record nor its questioned derivation can automatically be transferred to this form.",
+      "hypothesis": "Vigords / Vigurs / Vigurds",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "No exact record; preserve consonants and do not transfer Vigurds dates.",
+      "next_steps": "Find an explicit exact-form correspondence in original dictionary or dated registration evidence."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigra",
+      "spellings": [
+        "Vigra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigra"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Exact catalogue page opens without origin/citation. LVA exact search yields no matching given-name row; substring results are not bridges. No defensible origin proposal found.",
+      "next_steps": "Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigurds",
+      "spellings": [
+        "Vigurds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigurds"
+      ],
+      "facts_used": "The shared dictionary entry compares Vigurds with Wigwart, but marks the comparison with a question mark. Its proposed Old High German elements are wīgan, to fight, and wart, guard. A Vigurds usage record is dated 1928; that confirms the form without settling the questioned origin.",
+      "hypothesis": "questioned Wigwart; wīgan / wart",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "1928 is usage evidence, not proof of questioned Wigwart derivation.",
+      "next_steps": "Inspect original p.325 and historical German forms to resolve the marked question."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vilfrida",
+      "spellings": [
+        "Vilfrida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vilfrida",
+        "https://www.izpetnieks.lv/en/name/Vilfr%C4%ABds"
+      ],
+      "facts_used": "Vilfrida may be compared with the Vilfrīds family, but a documented bridge to this feminine form with short i has not been found. The catalogue does not find it in the dictionary. Vilfrīds’s Germanic elements and 1966 calendar record remain comparison material only.",
+      "hypothesis": "possible feminine Vilfrīds family comparison",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "No exact feminine spelling bridge; do not inherit masculine dates.",
+      "next_steps": "Find an explicit feminine rendering or dictionary entry for unaccented Vilfrida."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vilfrīds",
+      "spellings": [
+        "Vilfrīds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vilfr%C4%ABds",
+        "https://www.behindthename.com/name/wilfred"
+      ],
+      "facts_used": "The dictionary connects Vilfrīds with Old High German willo, will, and fridu, peace or protection. These are the meanings of two historical name elements. It also notes an ī/ē variant, making the vowel spelling part of this family’s history. The Siliņš catalogue places Vilfrīds usage in the first quarter of the twentieth century and dates its calendar entry to 1966. Personal-name use and inclusion in a printed calendar are different records; 1966 should not be read as the name’s creation date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Catalogue p.326, exact long-ī form. Do not infer unaccented feminine Vilfrida.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vilibalds",
+      "spellings": [
+        "Vilibalds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vilibalds",
+        "https://www.behindthename.com/name/willibald"
+      ],
+      "facts_used": "Vilibalds is a Latvian form in a Germanic name family. The dictionary connects its parts with Old High German willo, will, and bald, brave. These element glosses explain its structure without predicting the bearer’s character. The Vilibalds entry dates a calendar example as early as 1767, while its personal-use reference belongs to the first quarter of the twentieth century. The earlier printed calendar and later usage record are not contradictory: they describe different kinds of evidence.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "1767 is a calendar record, not a bearer attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Viliberts",
+      "spellings": [
+        "Viliberts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Viliberts",
+        "https://www.izpetnieks.lv/en/name/Vilberts",
+        "https://www.behindthename.com/name/wilbert"
+      ],
+      "facts_used": "The dictionary lists Viliberts under Vilberts. That entry explains Old High German willo, will, and beraht, bright or famous. These element meanings preserve the two-part structure of a Germanic naming tradition. The shared Vilberts/Viliberts dictionary material mentions use in 1894 and a calendar entry in 1966. This joint chronology is not independent proof of each spelling’s first occurrence. It shows how the source groups related forms within one historical entry.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Shared-entry dates retain their explicit scope; no independent Viliberts first-bearer date is asserted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Zelta",
+      "spellings": [
+        "Zelta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zelta",
+        "https://www.izpetnieks.lv/en/name/Zelt%C4%ABte"
+      ],
+      "facts_used": "Siliņš’s dictionary places Zelta under Zeltīte, whose basis is Latvian zelts, gold. The dictionary’s own cross-reference thus supports the connection with gold, beyond a resemblance in sound. Zelta nevertheless retains its own spelling and documented usage history. The Zelta entry identifies a concrete use in Blome in 1931, providing a point in the Latvian history of this exact form. Zeltīte’s 1908 calendar date cannot automatically be transferred to Zelta, and the Blome record does not imply that the name was invented then.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Keep the exact spelling, country, dated record and publication scope distinct from a name-invention date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Zeltiņa",
+      "spellings": [
+        "Zeltiņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zelti%C5%86a",
+        "https://www.izpetnieks.lv/en/name/Zelt%C4%ABte"
+      ],
+      "facts_used": "Zeltiņa may be compared in form with Zeltīte, but this relationship remains unverified. The catalogue says exact Zeltiņa was not found on the relevant dictionary page. The gold meaning and Zeltīte’s 1908 calendar record therefore do not automatically apply to Zeltiņa.",
+      "hypothesis": "possible Zeltīte comparison",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Exact given name absent; do not accept a surname/diminutive resemblance as proof.",
+      "next_steps": "Find an explicit personal-name entry or rendering for exact Zeltiņa."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Zlata",
+      "spellings": [
+        "Zlata"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA-ZLATA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zlata",
+        "https://www.personvarduatveide.lv/words/20335.pdf?locale=lv"
+      ],
+      "facts_used": "The dictionary connects Zlata with Bulgarian and Serbo-Croatian zlato, gold. This Slavic name family thus has gold at its linguistic core. Latvian Zeltīte has a similar meaning, but a shared image does not by itself make the two names the same borrowing. The Latvian Language Agency’s rendering record pairs Russian Злата with Zlata, citing page 185 of Grabis and Porīte’s 1993 manual. This is a concrete spelling correspondence rather than a first-registration date or an account of every family’s route to the name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact catalogue additionally reports 1973; no first-registration claim is made. The inspected LVA export cites the 1993 original, which was not independently reopened here.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Alberta",
+      "spellings": [
+        "Alberta"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/alberta/",
+        "https://www.behindthename.com/name/alberta",
+        "https://www.behindthename.com/name/albert",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "Alberta is a feminine form of the Albert name family. Its Germanic elements are adal, noble, and berht, bright or famous. These roots explain the name’s historical structure without claiming noble ancestry for every bearer. The front page of Rokiškio Sirena dated 20 November 2015 lists Alberta among tomorrow’s name days, therefore referring to 21 November. This dated press example documents the exact form in Lithuanian calendar tradition rather than its first registration.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Keep the exact spelling, country, dated record and publication scope distinct from a name-invention date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Eibartė",
+      "spellings": [
+        "Eibartė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eibarte/",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "The Lithuanian guide explains Eibartė as a two-stem name. It connects ei- with eiti, to go, and bart- with bartis, to quarrel or argue. The separate element glosses need not be joined into an invented whole-name translation or a character description. The exact spelling Eibartė appears in Rokiškio Sirena on 20 November 2015 among tomorrow’s names, for 21 November. This is a dated calendar use in print. Similar Eibarė in other lists is not automatically the same record: the letter t must be preserved.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys’s November list has Eibarė, not exact Eibartė; rejected as an exact spelling bridge.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Girenė",
+      "spellings": [
+        "Girenė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-MACIEJAUSKIENE94",
+        "LT-SALYS83",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://journals.lki.lt/actalinguisticalithuanica/article/download/1463/1557/#page=3",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "Girenė is sometimes connected with giria, forest, but that origin is not securely verified. Maciejauskienė’s 1994 article includes Girenė among names that could be interpreted as suffix formations, without establishing that root. Salys’s reprint of the 1964 calendar pairs Girenė/Girė on 21 December, differing from this calendar’s 21 November.",
+      "hypothesis": "possible giria forest derivation; suffix classification only is scholarly",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Scholarly printed74 proposes suffix classification only; it does not prove giria. Popular/user-submitted forest gloss is only a lead. Exact guide page404.",
+      "next_steps": "Find an authoritative exact-form etymology establishing the base and suffix; follow the 1994 article’s dictionary references."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Gomantas",
+      "spellings": [
+        "Gomantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS09",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gomantas/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2009~1367168885961/J.04~2009~1367168885961.pdf#page=8",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "Gomantas has been explained through goti, to go, and a mant- element, but the full derivation remains unverified. Pakerys’s 2009 study explicitly discusses Gómantas: some authors connect go- with goti while others decline to identify its origin. Sirena’s 2015 list records the form for 21 November; usage does not settle its etymology.",
+      "hypothesis": "go- / mant-; first-stem derivation disputed",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Pakerys printed192/PDF8 shows explicit author disagreement. Guide mantus/manta alternatives are not a proven whole-name meaning.",
+      "next_steps": "Follow Pakerys’s LVKŽ and Zinkevičius references and inspect competing go-/mant- analyses."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Honoratas",
+      "spellings": [
+        "Honoratas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/honoratas/",
+        "https://www.behindthename.com/name/honoratus",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319"
+      ],
+      "facts_used": "Honoratas belongs to the Latin Honoratus family. Its Latin basis concerns honour and esteem, with Honoratus explained as honoured. This is the name’s linguistic inheritance rather than a statement about any particular bearer’s social position. The 1964 Tikiu Dievą calendar gives Honoratas with short forms Honas and Noras, reprinted in Salys’s 1983 volume. It places them on 21 December, whereas this calendar uses 21 November. The historical record documents the relationship without changing this calendar’s date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "December/November discrepancy remains explicit; current membership unchanged.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Honorijus",
+      "spellings": [
+        "Honorijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-VLE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/honorijus/",
+        "https://www.behindthename.com/name/honorius",
+        "https://www.vle.lt/straipsnis/honorijus/"
+      ],
+      "facts_used": "Honorijus is the Lithuanian form of Latin Honorius, in a family connected with honor, honour. Its historical meaning belongs to the sphere of honour and esteem. Honorijus and Honoratas share a Latin basis but are distinct full names. The Lithuanian encyclopaedia names the Roman ruler Flavijus Honorijus alongside Latin Flavius Honorius. He received the title Augustus in 393. This historical example demonstrates the Latin/Lithuanian spelling correspondence rather than a first registration of the name in Lithuania.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Use only checked Latin/Lithuanian pair and 393 Augustus title. Do not reuse the article’s problematic Ravenna chronology.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Norgaudas",
+      "spellings": [
+        "Norgaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/norgaudas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "Norgaudas may be compared with Lithuanian nor-/gaud- compound names, but its full explanation remains unverified. The guide leaves the meaning to be clarified, while Salys lists Norgaudas in the Gaud- group under gauti. His calendar pairs Norgaudas/Noras on 21 December; Sirena in 2015 documents 21 November instead.",
+      "hypothesis": "nor- / gaud-; complete analysis unresolved",
+      "reason": "Research pass completed; origin remains unverified and stays in backlog.",
+      "uncertainties": "Salys printed272/PDF287 and printed304/PDF319 support classification and usage, not a unique whole-name translation. Popular gaudus/gaudyti alternatives not promoted.",
+      "next_steps": "Compare authoritative nor-/gaud- stem analyses and resolve gauti versus other popular proposals."
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "ee",
+      "name": "Pilvi",
+      "spellings": [
+        "Pilvi"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Pilvi#Estonian",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=20"
+      ],
+      "facts_used": "The Estonian dictionary entry derives Pilvi from pilv, cloud. It is a feminine personal name based on an image from nature. The same spelling also occurs in Finnish, but each language’s usage history needs to be considered separately. Mägiste’s 1929 collection of Estonian names already prints exact Pilvi in its feminine list. This dated record precedes the mid-twentieth-century description sometimes given for the Finnish name. It establishes the Estonian form’s presence in the 1929 book without dating its very first use.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF20/printed18 exact Pilvi. Do not transfer Finnish mid-century invention claim into Estonian; abbreviation not expanded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "ee",
+      "name": "Pilve",
+      "spellings": [
+        "Pilve"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Pilve#Estonian",
+        "https://en.wiktionary.org/wiki/Pilvi#Estonian",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=20"
+      ],
+      "facts_used": "The Estonian Pilve entry identifies a feminine personal name from pilv, cloud, alongside related Pilvi. The nature-based explanation thus applies to this exact Estonian name. It does not require a similarly written surname or an accidental resemblance in another language. Mägiste’s 1929 collection gives this family a concrete historical reference: its feminine list includes related Pilvi. This is an example of the related form, not a Pilve record verified here. Keeping the spellings distinct preserves the historical evidence’s exact scope.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Pilve dictionary origin; related Pilvi 1929 episode explicitly scoped. No exact Pilve first-use date found.",
+      "next_steps": ""
+    }
+  ]
+}

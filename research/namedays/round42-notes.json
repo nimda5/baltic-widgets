@@ -1,0 +1,624 @@
+{
+  "round": 42,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December12: all22 unfinished LV/LT/EE profiles examined. Five histories added. Kept Otīlija/Otilija root alternatives, Igeta/Huguette rendering versus other routes, Dagmara reinterpretation and Aivo full base open. Exact Igila/Igita/Iverts have no adopted origin proposal.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Ofēlija",
+      "spellings": [
+        "Ofēlija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Of%C4%93lija",
+        "https://www.personvarduatveide.lv/words/28795?locale=lv",
+        "https://www.behindthename.com/name/ophelia"
+      ],
+      "facts_used": "Ofēlija: The Latvian form belongs to the Ofelia/Ophelia family. Greek ōpheleia means help or benefit. The name is also familiar in literature, but explaining its root and documenting the particular Latvian form are distinct kinds of evidence. Siliņš’s dictionary dates the use of Ofēlija: the first quarter of the twentieth century. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p253 exact Greek help/benefit root and own firstquarter20c; agency exact English Ophelia→Ofēlija Ahero 2006p114. No invented exact local first year.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lt",
+      "name": "Gilmintas",
+      "spellings": [
+        "Gilmintas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gilmintas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Gilmintas: The Lithuanian compound is explained through gil-, connected with gilus, deep or strong, and mint-, connected with minti and mintis, thought. These are lexical explanations of separate stems. They need not be turned into one invented sentence as the name’s sole meaning. The 1964 calendar reprinted in Salys’s 1983 volume gives Gilmintas (Gilas) on 12 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Guide explicit two stems; original Salys PDF p. 318/printed p. 303 December12 Gilmintas(Gilas). Calendar reprint is dated use rather than invention.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lt",
+      "name": "Joana",
+      "spellings": [
+        "Joana"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/joana/",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Joana: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. The medieval name dictionary records related Latin Johanna in England in 1246. This is an earlier example of the international family, rather than the first registration of this local spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide bridge: Joana feminine Jonas; Žana French equivalent Jonė; Žaneta derived Žana. DMNES England Latin Johanna 1246(PSS-IIp6) is explicitly a related-form foreign episode, not first Lithuanian registration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lt",
+      "name": "Žana",
+      "spellings": [
+        "Žana"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/zana/",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Žana: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. The medieval name dictionary records related Latin Johanna in England in 1246. This is an earlier example of the international family, rather than the first registration of this local spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide bridge: Joana feminine Jonas; Žana French equivalent Jonė; Žaneta derived Žana. DMNES England Latin Johanna 1246(PSS-IIp6) is explicitly a related-form foreign episode, not first Lithuanian registration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lt",
+      "name": "Žaneta",
+      "spellings": [
+        "Žaneta"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/zaneta/",
+        "https://dmnes.org/name/Joan"
+      ],
+      "facts_used": "Žaneta: The name belongs to the Johannes/Johanna family. Its Hebrew base Yohanan expresses God has been gracious. Feminine forms and renderings in different languages developed at different times; shared ancestry does not give them an identical local history. The medieval name dictionary records related Latin Johanna in England in 1246. This is an earlier example of the international family, rather than the first registration of this local spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide bridge: Joana feminine Jonas; Žana French equivalent Jonė; Žaneta derived Žana. DMNES England Latin Johanna 1246(PSS-IIp6) is explicitly a related-form foreign episode, not first Lithuanian registration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Otīlija",
+      "spellings": [
+        "Otīlija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ot%C4%ABlija",
+        "https://www.personvarduatveide.lv/words/40095?locale=lv",
+        "https://www.behindthename.com/name/odilia"
+      ],
+      "facts_used": "Otīlija is still being checked against Ottilie / Odilia: oth(al), uodil / ot. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Ottilie / Odilia: oth(al), uodil / ot",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p257 homeland/othal versus curated Odilia heritage/uodil or wealth/ot alternatives. Agency exact German Ottilie→Otīlija 1960p63 does not select one ultimate stem.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Atala",
+      "spellings": [
+        "Atala"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Atala",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Atala"
+      ],
+      "facts_used": "Atala is still being checked against Hungarian Atala / literary Atala. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Hungarian Atala / literary Atala",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency Hungarian exact Atala 1998p39 documents rendering; literary similarity alone does not prove the local name’s origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Atāls",
+      "spellings": [
+        "Atāls"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/At%C4%81ls",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=At%C4%81ls"
+      ],
+      "facts_used": "Atāls is still being checked against Latvian atāls / Greek atalos. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Latvian atāls / Greek atalos",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p73 gives aftermath-grass word and question-marked Greek young/tender alternative. Do not silently pick the local word as uniquely proved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Igeta",
+      "spellings": [
+        "Igeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Igeta",
+        "https://www.personvarduatveide.lv/words/40930?locale=lv"
+      ],
+      "facts_used": "Igeta is still being checked against Igita / Iveta / French Huguette. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Igita / Iveta / French Huguette",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p157 allows Igita/Iveta/independent routes. Agency exact French Huguette→Igeta 1963p77 supplies another documented rendering, not one universal root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Igila",
+      "spellings": [
+        "Igila"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Igila"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact-form origin in opened catalogue and agency or saved indexes.",
+      "next_steps": "Find an explicit Igila entry or language bridge before assigning a related full name."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Igita",
+      "spellings": [
+        "Igita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Igita"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p158 uncertain abbreviation fnd.(?) cannot be expanded into an etymology by guessing.",
+      "next_steps": "Inspect a scholarly exact Igita entry and resolve the source abbreviation before adopting any lexical origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Iverta",
+      "spellings": [
+        "Iverta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iverta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Iverta"
+      ],
+      "facts_used": "Iverta is still being checked against Iveta / Ivonna. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Iveta / Ivonna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p171 question-marked Iveta bridge leaves the further route unresolved.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Iverts",
+      "spellings": [
+        "Iverts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Iverts"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact Iverts origin found; spelling resemblance to Ivars/Iver is insufficient.",
+      "next_steps": "Find an exact scholarly entry or rendering; separate surname and given-name records."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Odeta",
+      "spellings": [
+        "Odeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Odeta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Odeta"
+      ],
+      "facts_used": "Odeta is still being checked against Oda / Odette: Greek ōdē / Germanic od. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Oda / Odette: Greek ōdē / Germanic od",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p252 preserves Greek song versus Germanic property interpretations; exact French Odette→Odeta 2004p11 and own 1969use do not settle a universal root.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Odita",
+      "spellings": [
+        "Odita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Odita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Odita"
+      ],
+      "facts_used": "Odita is still being checked against Odeta / Oda. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Odeta / Oda",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue pp253/252 related Odeta but further Greek versus Germanic root remains unresolved; own 1977attestation is not an etymology.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Otālija",
+      "spellings": [
+        "Otālija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ot%C4%81lija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ot%C4%81lija"
+      ],
+      "facts_used": "Otālija is still being checked against Otīlija / Otilija. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Otīlija / Otilija",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No inspected exact historical bridge establishing this accented spelling; competing root routes retained.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Otilija",
+      "spellings": [
+        "Otilija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Otilija",
+        "https://www.behindthename.com/name/odilia",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Otilija"
+      ],
+      "facts_used": "Otilija is still being checked against Otilia / Otília / Odilia. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Otilia / Otília / Odilia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency Romanian Otilia 2025p222 and Portuguese Otília 2015p144 establish exact rendering; curated Odilia offers heritage/uodil versus wealth/ot. Complete root route remains unverified.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lv",
+      "name": "Zezostrs",
+      "spellings": [
+        "Zezostrs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zezostrs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zezostrs"
+      ],
+      "facts_used": "Zezostrs is still being checked against Egyptian Senusret / Sesostris. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Egyptian Senusret / Sesostris",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p336 Egyptian comparison is question-marked; Liepāja 1936use does not prove the adaptation chain.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lt",
+      "name": "Dagmara",
+      "spellings": [
+        "Dagmara"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dagmara/",
+        "https://snl.no/Dagmar_-_kvinnenamn"
+      ],
+      "facts_used": "Dagmara is still being checked against Dagmær / Dagmar / Dragomira. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Dagmær / Dagmar / Dragomira",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide Scandinavian day+maiden differs from signed SNL Dagmar Slavic Dragomira with later Danish reinterpretation. Retain both as unresolved local-route alternatives.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "lt",
+      "name": "Vaingedė",
+      "spellings": [
+        "Vaingedė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vaingede/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Vaingedė is still being checked against vain- (vaina / warrior) + ged-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "vain- (vaina / warrior) + ged-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide explicitly gives cause versus warrior alternatives for vain-; exact form and gedauti/gedėti do not choose one first-stem route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "ee",
+      "name": "Aiver",
+      "spellings": [
+        "Aiver"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Aiver#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Aiver is still being checked against Aivar / Ivar. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Aivar / Ivar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact Aiver full-form bridge found; similar Aivar/Aivo column cannot substitute for this spelling.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-12",
+      "date": "2026-11-12",
+      "calendar_date": "12-12",
+      "country": "ee",
+      "name": "Aivo",
+      "spellings": [
+        "Aivo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Aivo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Aivo is still being checked against Aivar / Ivar / Ingvar. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Aivar / Ivar / Ingvar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Wiktionary gives Aivar shortening; Leole gives Ivar but then a dubious Johannes line. Need original scholarly resolution of the full Scandinavian base; do not adopt the popular John claim.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

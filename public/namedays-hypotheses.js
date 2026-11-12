@@ -1,3 +1,45 @@
+import {hypothesesLatvianR61,hypothesesLithuanianR61,hypothesesEstonianR61} from './namedays-hypotheses-r61.js';
+import {hypothesesLatvianR60,hypothesesLithuanianR60,hypothesesEstonianR60} from './namedays-hypotheses-r60.js';
+import {hypothesesLatvianR59,hypothesesLithuanianR59,hypothesesEstonianR59} from './namedays-hypotheses-r59.js';
+import {hypothesesLatvianR58,hypothesesLithuanianR58,hypothesesEstonianR58} from './namedays-hypotheses-r58.js';
+import {hypothesesLatvianR57,hypothesesLithuanianR57,hypothesesEstonianR57} from './namedays-hypotheses-r57.js';
+import {hypothesesLatvianR56,hypothesesLithuanianR56,hypothesesEstonianR56} from './namedays-hypotheses-r56.js';
+import {hypothesesLatvianR55,hypothesesLithuanianR55,hypothesesEstonianR55} from './namedays-hypotheses-r55.js';
+import {hypothesesLatvianR54,hypothesesLithuanianR54,hypothesesEstonianR54} from './namedays-hypotheses-r54.js';
+import {hypothesesLatvianR53,hypothesesLithuanianR53,hypothesesEstonianR53} from './namedays-hypotheses-r53.js';
+import {hypothesesLatvianR52,hypothesesLithuanianR52,hypothesesEstonianR52} from './namedays-hypotheses-r52.js';
+import {hypothesesLatvianR51,hypothesesLithuanianR51,hypothesesEstonianR51} from './namedays-hypotheses-r51.js';
+import {hypothesesLatvianR50,hypothesesLithuanianR50,hypothesesEstonianR50} from './namedays-hypotheses-r50.js';
+import {hypothesesLatvianR49,hypothesesLithuanianR49,hypothesesEstonianR49} from './namedays-hypotheses-r49.js';
+import {hypothesesLatvianR48,hypothesesLithuanianR48,hypothesesEstonianR48} from './namedays-hypotheses-r48.js';
+import {hypothesesLatvianR47,hypothesesLithuanianR47,hypothesesEstonianR47} from './namedays-hypotheses-r47.js';
+import {hypothesesLatvianR46,hypothesesLithuanianR46,hypothesesEstonianR46} from './namedays-hypotheses-r46.js';
+import {hypothesesLatvianR45,hypothesesLithuanianR45,hypothesesEstonianR45} from './namedays-hypotheses-r45.js';
+import {hypothesesLatvianR44,hypothesesLithuanianR44,hypothesesEstonianR44} from './namedays-hypotheses-r44.js';
+import {hypothesesLatvianR43,hypothesesLithuanianR43,hypothesesEstonianR43} from './namedays-hypotheses-r43.js';
+import {hypothesesLatvianR42,hypothesesLithuanianR42,hypothesesEstonianR42} from './namedays-hypotheses-r42.js';
+import {hypothesesLatvianR41,hypothesesLithuanianR41,hypothesesEstonianR41} from './namedays-hypotheses-r41.js';
+import {hypothesesLatvianR40,hypothesesLithuanianR40,hypothesesEstonianR40} from './namedays-hypotheses-r40.js';
+import {hypothesesLatvianR39,hypothesesLithuanianR39,hypothesesEstonianR39} from './namedays-hypotheses-r39.js';
+import {hypothesesLatvianR38,hypothesesLithuanianR38,hypothesesEstonianR38} from './namedays-hypotheses-r38.js';
+import {hypothesesLatvianR37,hypothesesLithuanianR37,hypothesesEstonianR37} from './namedays-hypotheses-r37.js';
+import {hypothesesLatvianR36,hypothesesLithuanianR36,hypothesesEstonianR36} from './namedays-hypotheses-r36.js';
+import {hypothesesLatvianR35,hypothesesLithuanianR35,hypothesesEstonianR35} from './namedays-hypotheses-r35.js';
+import {hypothesesLatvianR34,hypothesesLithuanianR34,hypothesesEstonianR34} from './namedays-hypotheses-r34.js';
+import {hypothesesLatvianR33,hypothesesLithuanianR33,hypothesesEstonianR33} from './namedays-hypotheses-r33.js';
+import {hypothesesLatvianR32,hypothesesLithuanianR32,hypothesesEstonianR32} from './namedays-hypotheses-r32.js';
+import {hypothesesLatvianR31,hypothesesLithuanianR31,hypothesesEstonianR31} from './namedays-hypotheses-r31.js';
+import {hypothesesLatvianR30,hypothesesLithuanianR30,hypothesesEstonianR30} from './namedays-hypotheses-r30.js';
+import {hypothesesLatvianR29,hypothesesLithuanianR29,hypothesesEstonianR29} from './namedays-hypotheses-r29.js';
+import {hypothesesLatvianR28,hypothesesLithuanianR28,hypothesesEstonianR28} from './namedays-hypotheses-r28.js';
+import {hypothesesLatvianR27,hypothesesLithuanianR27,hypothesesEstonianR27} from './namedays-hypotheses-r27.js';
+import {hypothesesLatvianR26,hypothesesLithuanianR26,hypothesesEstonianR26} from './namedays-hypotheses-r26.js';
+import {hypothesesLatvianR25,hypothesesLithuanianR25,hypothesesEstonianR25} from './namedays-hypotheses-r25.js';
+import {hypothesesLatvianR24,hypothesesLithuanianR24,hypothesesEstonianR24} from './namedays-hypotheses-r24.js';
+import {hypothesesLatvianR23,hypothesesLithuanianR23,hypothesesEstonianR23} from './namedays-hypotheses-r23.js';
+import {hypothesesLatvianR22,hypothesesLithuanianR22,hypothesesEstonianR22} from './namedays-hypotheses-r22.js';
+import {hypothesesLatvianR21,hypothesesLithuanianR21,hypothesesEstonianR21} from './namedays-hypotheses-r21.js';
+import {hypothesesLatvianR20,hypothesesLithuanianR20,hypothesesEstonianR20} from './namedays-hypotheses-r20.js';
 import {hypothesesLatvianR19,hypothesesLithuanianR19,hypothesesEstonianR19} from './namedays-hypotheses-r19.js';
 import {hypothesesLatvianR18,hypothesesLithuanianR18,hypothesesEstonianR18} from './namedays-hypotheses-r18.js';
 import {hypothesesLatvianR17,hypothesesLithuanianR17,hypothesesEstonianR17} from './namedays-hypotheses-r17.js';
@@ -22,7 +64,7 @@ const vidText=[
  '{name} rašyba leidžia svarstyti galimą ryšį su Vidars. Tai tik darbo versija pagal formų panašumą: dokumentuoto perėjimo iš Vidars į {name} nerasta. Todėl Vidars kilmė negali būti laikoma įrodyta ir šiam vardui.',
  'Kirjapilt {name} lubab kaaluda võimalikku võrdlust Vidarsiga. See on üksnes sarnastel vormidel põhinev tööversioon: dokumenteeritud üleminekut Vidarsist nimeks {name} pole leitud. Vidarsi päritolu ei saa seega pidada selle nime puhul tõestatuks.'
 ];
-const entries={lv:{...hypothesesLatvianR12,...hypothesesLatvianR14,...hypothesesLatvianR15,...hypothesesLatvianR16,...hypothesesLatvianR17,...hypothesesLatvianR18,...hypothesesLatvianR19},lt:{...hypothesesLithuanianR16,...hypothesesLithuanianR17,...hypothesesLithuanianR18,...hypothesesLithuanianR19},ee:{...hypothesesEstonianR14,...hypothesesEstonianR15,...hypothesesEstonianR17,...hypothesesEstonianR18,...hypothesesEstonianR19}};
+const entries={lv:{...hypothesesLatvianR12,...hypothesesLatvianR14,...hypothesesLatvianR15,...hypothesesLatvianR16,...hypothesesLatvianR17,...hypothesesLatvianR18,...hypothesesLatvianR19,...hypothesesLatvianR20,...hypothesesLatvianR21,...hypothesesLatvianR22,...hypothesesLatvianR23,...hypothesesLatvianR24,...hypothesesLatvianR25,...hypothesesLatvianR26,...hypothesesLatvianR27,...hypothesesLatvianR28,...hypothesesLatvianR29,...hypothesesLatvianR30,...hypothesesLatvianR31,...hypothesesLatvianR32,...hypothesesLatvianR33,...hypothesesLatvianR34,...hypothesesLatvianR35,...hypothesesLatvianR36,...hypothesesLatvianR37,...hypothesesLatvianR38,...hypothesesLatvianR39,...hypothesesLatvianR40,...hypothesesLatvianR41,...hypothesesLatvianR42,...hypothesesLatvianR43,...hypothesesLatvianR44,...hypothesesLatvianR45,...hypothesesLatvianR46,...hypothesesLatvianR47,...hypothesesLatvianR48,...hypothesesLatvianR49,...hypothesesLatvianR50,...hypothesesLatvianR51,...hypothesesLatvianR52,...hypothesesLatvianR53,...hypothesesLatvianR54,...hypothesesLatvianR55,...hypothesesLatvianR56,...hypothesesLatvianR57,...hypothesesLatvianR58,...hypothesesLatvianR59,...hypothesesLatvianR60,...hypothesesLatvianR61},lt:{...hypothesesLithuanianR16,...hypothesesLithuanianR17,...hypothesesLithuanianR18,...hypothesesLithuanianR19,...hypothesesLithuanianR20,...hypothesesLithuanianR21,...hypothesesLithuanianR22,...hypothesesLithuanianR23,...hypothesesLithuanianR24,...hypothesesLithuanianR25,...hypothesesLithuanianR26,...hypothesesLithuanianR27,...hypothesesLithuanianR28,...hypothesesLithuanianR29,...hypothesesLithuanianR30,...hypothesesLithuanianR31,...hypothesesLithuanianR32,...hypothesesLithuanianR33,...hypothesesLithuanianR34,...hypothesesLithuanianR35,...hypothesesLithuanianR36,...hypothesesLithuanianR37,...hypothesesLithuanianR38,...hypothesesLithuanianR39,...hypothesesLithuanianR40,...hypothesesLithuanianR41,...hypothesesLithuanianR42,...hypothesesLithuanianR43,...hypothesesLithuanianR44,...hypothesesLithuanianR45,...hypothesesLithuanianR46,...hypothesesLithuanianR47,...hypothesesLithuanianR48,...hypothesesLithuanianR49,...hypothesesLithuanianR50,...hypothesesLithuanianR51,...hypothesesLithuanianR52,...hypothesesLithuanianR53,...hypothesesLithuanianR54,...hypothesesLithuanianR55,...hypothesesLithuanianR56,...hypothesesLithuanianR57,...hypothesesLithuanianR58,...hypothesesLithuanianR59,...hypothesesLithuanianR60,...hypothesesLithuanianR61},ee:{...hypothesesEstonianR14,...hypothesesEstonianR15,...hypothesesEstonianR17,...hypothesesEstonianR18,...hypothesesEstonianR19,...hypothesesEstonianR20,...hypothesesEstonianR21,...hypothesesEstonianR22,...hypothesesEstonianR23,...hypothesesEstonianR24,...hypothesesEstonianR25,...hypothesesEstonianR26,...hypothesesEstonianR27,...hypothesesEstonianR28,...hypothesesEstonianR29,...hypothesesEstonianR30,...hypothesesEstonianR31,...hypothesesEstonianR32,...hypothesesEstonianR33,...hypothesesEstonianR34,...hypothesesEstonianR35,...hypothesesEstonianR36,...hypothesesEstonianR37,...hypothesesEstonianR38,...hypothesesEstonianR39,...hypothesesEstonianR40,...hypothesesEstonianR41,...hypothesesEstonianR42,...hypothesesEstonianR43,...hypothesesEstonianR44,...hypothesesEstonianR45,...hypothesesEstonianR46,...hypothesesEstonianR47,...hypothesesEstonianR48,...hypothesesEstonianR49,...hypothesesEstonianR50,...hypothesesEstonianR51,...hypothesesEstonianR52,...hypothesesEstonianR53,...hypothesesEstonianR54,...hypothesesEstonianR55,...hypothesesEstonianR56,...hypothesesEstonianR57,...hypothesesEstonianR58,...hypothesesEstonianR59,...hypothesesEstonianR60,...hypothesesEstonianR61}};
 for(const name of ['Vianda','Viāna'])entries.lv[name]={sources:vianSources,text:Object.fromEntries(langs.map((l,i)=>[l,[vianText[i]]]))};
 for(const name of ['Vidards','Vidarts','Vidavs'])entries.lv[name]={sources:['https://www.izpetnieks.lv/en/name/Vidars'],text:Object.fromEntries(langs.map((l,i)=>[l,[vidText[i]]]))};
 entries.lt.Juozapotas={sources:['https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/'],text:{

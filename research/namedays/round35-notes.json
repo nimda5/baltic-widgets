@@ -1,0 +1,617 @@
+{
+  "round": 35,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 21 unfinished December 5 profiles. New indexed Pakerys2010 resolves exact Eimintas with the asterisk’s modern-formation meaning checked, not an ancient attestation. Selma/Selme, Claudius proposed root and Svaigaudas competing stems stay unverified. Zanga has no supported lexical proposal.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabina",
+      "spellings": [
+        "Sabina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabina",
+        "https://www.personvarduatveide.lv/words/10739,10738?locale=lv",
+        "https://www.behindthename.com/name/sabina"
+      ],
+      "facts_used": "Sabina: The family is based on Latin Sabina, the feminine of Sabinus. It referred to the Sabines, a people of ancient Italy. This is an ethnic designation in the name’s history, not a statement about a modern bearer’s nationality or personal qualities. The Latvian Language Agency gives the exact rendering Sabina → Sabina, citing page 145 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact PortugueseSabina or GermanSabine agency given-name row. Preserve long/short vowels; related1761/1767 dates not transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10739,10738?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Zabīne",
+      "spellings": [
+        "Zabīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zab%C4%ABne",
+        "https://www.personvarduatveide.lv/words/40108?locale=lv",
+        "https://www.behindthename.com/name/sabina"
+      ],
+      "facts_used": "Zabīne: The family is based on Latin Sabina, the feminine of Sabinus. It referred to the Sabines, a people of ancient Italy. This is an ethnic designation in the name’s history, not a statement about a modern bearer’s nationality or personal qualities. The Latvian Language Agency gives the exact rendering Sabine → Zabīne, citing page 64 of a 1960 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact PortugueseSabina or GermanSabine agency given-name row. Preserve long/short vowels; related1761/1767 dates not transferred. Exact agency HTML record https://www.personvarduatveide.lv/words/40108?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabīna",
+      "spellings": [
+        "Sabīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sab%C4%ABna",
+        "https://www.behindthename.com/name/sabina"
+      ],
+      "facts_used": "Sabīna: The family is based on Latin Sabina, the feminine of Sabinus. It referred to the Sabines, a people of ancient Italy. This is an ethnic designation in the name’s history, not a statement about a modern bearer’s nationality or personal qualities. Siliņš treats Sabīna and Sabīne in one entry, giving a Ķirupe record in 1761 and the calendar year 1767. This illustrates the shared dictionary entry’s history. It does not establish that each spelling was separately first registered on the same date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p281 shared Sabīna,-e entry.1761/1767 explicitly shared not separate firsts.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabīne",
+      "spellings": [
+        "Sabīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sab%C4%ABne",
+        "https://www.behindthename.com/name/sabina"
+      ],
+      "facts_used": "Sabīne: The family is based on Latin Sabina, the feminine of Sabinus. It referred to the Sabines, a people of ancient Italy. This is an ethnic designation in the name’s history, not a statement about a modern bearer’s nationality or personal qualities. Siliņš treats Sabīna and Sabīne in one entry, giving a Ķirupe record in 1761 and the calendar year 1767. This illustrates the shared dictionary entry’s history. It does not establish that each spelling was separately first registered on the same date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p281 shared Sabīna,-e entry.1761/1767 explicitly shared not separate firsts.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabrina",
+      "spellings": [
+        "Sabrina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabrina",
+        "https://www.personvarduatveide.lv/words/10741,10740?locale=lv",
+        "https://www.behindthename.com/name/sabrina"
+      ],
+      "facts_used": "Sabrina: Sabrina’s history is linked to the River Severn: Latin Sabrina corresponds to Welsh Habren. The river name’s further meaning is not securely known. Literary stories about Sabrina are legends; they do not make a river princess a verified historical person. The Latvian Language Agency gives the exact rendering Sabrina → Sabrina, citing page 145 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Portuguese agency pair2015p145. River’s ultimate etymology remains unknown; no speculative literal root adopted. No first birth inferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10741,10740?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabrīna",
+      "spellings": [
+        "Sabrīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabr%C4%ABna",
+        "https://www.personvarduatveide.lv/words/10741,10740?locale=lv",
+        "https://www.behindthename.com/name/sabrina"
+      ],
+      "facts_used": "Sabrīna: Sabrina’s history is linked to the River Severn: Latin Sabrina corresponds to Welsh Habren. The river name’s further meaning is not securely known. Literary stories about Sabrina are legends; they do not make a river princess a verified historical person. The Latvian Language Agency gives the exact rendering Sabrina → Sabrīna, citing page 145 of a 2015 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Portuguese agency pair2015p145. River’s ultimate etymology remains unknown; no speculative literal root adopted. No first birth inferred. Exact agency HTML record https://www.personvarduatveide.lv/words/10741,10740?locale=lv was opened; the cited printed manual page was not independently reopened unless separately noted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sarma",
+      "spellings": [
+        "Sarma"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sarma"
+      ],
+      "facts_used": "Sarma: Sarma is a Latvian name from sarma, hoarfrost: white ice crystals on surfaces. Its base belongs to Latvian rather than a similar-sounding foreign name. The natural image does not determine a bearer’s personality or the season of her birth. Siliņš’s dictionary dates the use of Sarma: 1507. Its calendar year is 1908. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Catalogue gives1507record/calendar1908; no inventor or modern naming mechanism inferred from old attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Gratas",
+      "spellings": [
+        "Gratas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gratas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Gratas: Lithuanian Gratas is explained through Latin gratus, pleasing or welcome. The link is to a Latin word rather than an accidentally similar Lithuanian syllable. The historical adjective helps explain the personal name’s formation, without promising a person’s character. The 1964 calendar reprinted in Salys’s 1983 volume gives Gratas on 5 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original SalysPDF318printed303 exactGratasDec5; historical calendar not first birth.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Gracija",
+      "spellings": [
+        "Gracija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gracija/",
+        "https://dmnes.org/name/Grace"
+      ],
+      "facts_used": "Gracija: Gracija belongs to the Gracia/Gratia group. The Lithuanian guide points to Spanish gracia, grace; the family’s earlier lexical base is Latin gratia. Transmission through languages forms part of its history without proving one route in every family. The Dictionary of Medieval Names records related Latin Gracia in France in 1287. This documented example shows the family in use before the modern Lithuanian spelling. It is not the first Lithuanian registration of exact Gracija.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "DMNESGraciaFranceLatin1287GasReg-Ap74. Related form episode explicitly scoped.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Eimintas",
+      "spellings": [
+        "Eimintas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS10"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eimintas/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2010~1367171236926/J.04~2010~1367171236926.pdf#page=5",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2010~1367171236926/J.04~2010~1367171236926.pdf#page=2"
+      ],
+      "facts_used": "Eimintas: The Lithuanian guide identifies ei- from eiti, to go, and mint- from minti, mintis, to think or thought. Pakerys’s study directly links the ei- group to eiti. This is a linguistic analysis of a compound name; the stems need not be turned into an invented full sentence. Printed page 92 of Pakerys’s 2010 article gives exact Eimintas with an asterisk. In the notation he uses, that marks a name recently formed and brought into use in the twentieth century rather than attested in ancient records. It documents modern name formation without identifying an individual inventor.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original PDF5printed92 exact Eĩmintas; PDF2printed89 footnote1 defines asterisk as twentieth-century newlyformed, not unrecorded hypothetical ancient reconstruction. Original spelling was visually checked with accent Eĩmintas; normalized calendar spelling is Eimintas.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Klaudijs",
+      "spellings": [
+        "Klaudijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Klaudijs",
+        "https://www.behindthename.com/name/claudius"
+      ],
+      "facts_used": "Klaudijs still needs checking against Claudius / Latin claudus. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Claudius / Latin claudus",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Latvian Claudius-family bridge established, but curated Claudius labels claudus derivation possible. Keep proposed literal root unverified rather than turning lame into certain meaning.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabine",
+      "spellings": [
+        "Sabine"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabine",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sabine"
+      ],
+      "facts_used": "Sabine still needs checking against Sabīne / German Sabine. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sabīne / German Sabine",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact shorti Latvian spelling not in inspected agency result. Foreign Sabine is not itself proof of exact Latvian form.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sabrīne",
+      "spellings": [
+        "Sabrīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sabr%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sabr%C4%ABne"
+      ],
+      "facts_used": "Sabrīne still needs checking against Sabrina / Sabrīna. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sabrina / Sabrīna",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Finale differs from checked agency finala forms; no exact bridge found.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Sarme",
+      "spellings": [
+        "Sarme"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sarme",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sarme"
+      ],
+      "facts_used": "Sarme still needs checking against Sarma / sarma. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Sarma / sarma",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact final-e origin bridge missing; no transfer of Sarma1507/1908.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Zanga",
+      "spellings": [
+        "Zanga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zanga",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zanga"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue proposes unspecified phonetic creation with a question mark. No particular supported lexical origin found.",
+      "next_steps": "Locate an exact scholarly personal-name entry or a documented account of naming; do not fabricate a root from sound."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lv",
+      "name": "Zanza",
+      "spellings": [
+        "Zanza"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zanza",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zanza"
+      ],
+      "facts_used": "Zanza still needs checking against Zanzibar. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Zanzibar",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue explicitly tentative island-name comparison. Twentieth-century usage/calendar1933 does not prove the naming motive.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Geisvilė",
+      "spellings": [
+        "Geisvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/geisvile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Geisvilė still needs checking against geis- + vil-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "geis- + vil-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide proposes geisti + viltis; no independent dated exact feminine scholarly episode. Do not transfer Geisvilas dates.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Geisvinė",
+      "spellings": [
+        "Geisvinė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/geisvine/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Geisvinė still needs checking against geis- + vin- / vaina. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "geis- + vin- / vaina",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide proposes geisti and vaina/cause; exact spelling and full second-stem history need scholarly evidence.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "lt",
+      "name": "Svaigaudas",
+      "spellings": [
+        "Svaigaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/svaigaudas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=295",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287"
+      ],
+      "facts_used": "Svaigaudas still needs checking against Svai- + gaud- (gauti / gaudus). This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Svai- + gaud- (gauti / gaudus)",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Original SalysPDF295printed280 gives Prussianswais own and exact Svaigaudas; PDF287printed272gaud- linkedgauti/(su)gaudinti. Guide instead gaudus/resonant. Conflict remains.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "ee",
+      "name": "Selma",
+      "spellings": [
+        "Selma"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-SNL",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://snl.no/Selma_-_kvinnenamn",
+        "https://www.behindthename.com/name/selma-1"
+      ],
+      "facts_used": "Selma is treated with the Selma family in Leole’s column. Proposed routes include the castle name in Macpherson’s Ossian poems and a short form of Anselma. The literary connection is documented, but selecting one universal origin and a literal Gaelic translation remains unverified.",
+      "hypothesis": "Ossian literary Selma / Anselma",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LeoleDecember2005p1 pairs exactSelma/Selme with a Gaelic-looking gloss. AlhaugSNL describes Macphersoncastle1761–1763 and also Anselma; curatedBTN labels ultimate meaning unknown and routes possible. No unique Gaelic translation or universal literary naming route selected.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    },
+    {
+      "batch": "calendar-2026-12-05",
+      "date": "2026-11-12",
+      "calendar_date": "12-05",
+      "country": "ee",
+      "name": "Selme",
+      "spellings": [
+        "Selme"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-SNL",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://snl.no/Selma_-_kvinnenamn",
+        "https://www.behindthename.com/name/selma-1"
+      ],
+      "facts_used": "Selme is treated with the Selma family in Leole’s column. Proposed routes include the castle name in Macpherson’s Ossian poems and a short form of Anselma. The literary connection is documented, but selecting one universal origin and a literal Gaelic translation remains unverified.",
+      "hypothesis": "Ossian literary Selma / Anselma",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "LeoleDecember2005p1 pairs exactSelma/Selme with a Gaelic-looking gloss. AlhaugSNL describes Macphersoncastle1761–1763 and also Anselma; curatedBTN labels ultimate meaning unknown and routes possible. No unique Gaelic translation or universal literary naming route selected.",
+      "next_steps": "Verify the exact spelling and competing analyses against an original scholarly dictionary or rendering record; locate an independently dated episode without transferring a related form’s attestations."
+    }
+  ],
+  "validation": {
+    "tests": "128 passed; npm test",
+    "build": "npm run build passed",
+    "content": "All 96 profiles checked in five languages; reviewed histories have exactly two paragraphs exceeding 300 characters combined; no source links in UI.",
+    "backlog": "57 hypotheses and 2 no-proposal records remain unverified; all 198 earlier open identities retained.",
+    "browser": "85 mobile views across five dates, three calendars and five languages; reviewed, hypothesis and missing-history states; no horizontal overflow or visible source links.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged.",
+    "pdf_cache": "20 private indexed sources, 2328 pages; repeat index reused extraction with unchanged index timestamp."
+  }
+}

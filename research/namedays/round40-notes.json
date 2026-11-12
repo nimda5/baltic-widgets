@@ -1,0 +1,393 @@
+{
+  "round": 40,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 13 unfinished December 10 profiles. Added exact literaryGuna1905 and scoped foreignAngelinaAcademy2000 episodes. Salysoriginalstem/calendarpages supportEidimtas; Mägiste1929footnote documentsJuta/Juudit. Eularija has no adopted proposal rather than a guessedEulalia repair; Ilma/Loreta/Gunefa/Zēra remain unverified.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lv",
+      "name": "Judīte",
+      "spellings": [
+        "Judīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jud%C4%ABte",
+        "https://www.izpetnieks.lv/en/name/Jud%C4%ABte",
+        "https://www.behindthename.com/name/judith"
+      ],
+      "facts_used": "Judīte: The name belongs to the Judith/Judīte family from Hebrew Yehudit, Jewish woman or woman from Judea. Historically it is related to Judah. Praise of God occurs in sources as an additional interpretation rather than the name’s sole literal translation. Siliņš’s dictionary dates the use of Judīte: 1650, Jelgava. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p184Judīte andp105Džudīte explicitly linked; own dates distinct. Praise-of-God is retained as an additional interpretation, not silently substituted for the Hebrew feminine ethnonym.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lv",
+      "name": "Džudīte",
+      "spellings": [
+        "Džudīte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/D%C5%BEud%C4%ABte",
+        "https://www.izpetnieks.lv/en/name/Jud%C4%ABte",
+        "https://www.behindthename.com/name/judith"
+      ],
+      "facts_used": "Džudīte: The name belongs to the Judith/Judīte family from Hebrew Yehudit, Jewish woman or woman from Judea. Historically it is related to Judah. Praise of God occurs in sources as an additional interpretation rather than the name’s sole literal translation. Siliņš’s dictionary dates the use of Džudīte: 1950, Riga. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p184Judīte andp105Džudīte explicitly linked; own dates distinct. Praise-of-God is retained as an additional interpretation, not silently substituted for the Hebrew feminine ethnonym.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lv",
+      "name": "Nevils",
+      "spellings": [
+        "Nevils"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nevils",
+        "https://www.behindthename.com/name/neville"
+      ],
+      "facts_used": "Nevils: The dictionary links Nevils to English Nevil/Neville. The personal name comes from a surname based on a Norman French place name meaning new town. Its path through a place name and surname differs from a translation inferred from Latvian sounds. Siliņš’s dictionary dates the use of Nevils: 1936. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p248 exact given-name link and own1936; LVAEnglishNevill(e)→Nevils2006p150 is surname row, not used as a given-name historical bridge.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lv",
+      "name": "Guna",
+      "spellings": [
+        "Guna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-ENC-SILVER",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Guna",
+        "https://enciklopedija.lv/skirklis/103387",
+        "https://www.personvarduatveide.lv/words/12895,12896?locale=lv"
+      ],
+      "facts_used": "Guna: Siliņš links Latvian Guna to guns, uguns, flame or fire. A separate documented rendering also gives Swedish Gun as Guna; it does not prove one borrowing route for every Latvian bearer. The local fire-word line is explicitly supported by the Latvian dictionary. Guna is the central character of Aspazija’s play Sidraba šķidrauts. The National Encyclopaedia dates the premiere at the New Latvian Theatre to 27 January 1905, with Otīlija Muceniece as Guna. This is an exact literary-use example, not proof of every later girl’s naming motive.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Dictionary fire-root line and NationalEncyclopaedia BenediktsKalnačs exact1905premiere. Separate Swedish rendering does not establish identical etymology; ChineseGong surname row rejected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lt",
+      "name": "Eidimtas",
+      "spellings": [
+        "Eidimtas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eidimtas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=286",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=289",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Eidimtas: The Lithuanian compound contains eid- and imt-. Salys links the first stem group to eiti, to go, and imt- to imti, to take; the modern guide explains eid- through the walking-related eidlus. These are lexical stem connections rather than an invented full sentence. The 1964 calendar reprinted in Salys’s 1983 volume gives Eidimtas (Eidas) on 10 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalPDF286printed271Ei/Eit/Eid/Eis:eiti;PDF p. 289printed274Imt:imti exactEidimtas;PDF p. 318printed303Dec10. Relatedeidlus retained rather than a claimed exclusive full translation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lt",
+      "name": "Angelina",
+      "spellings": [
+        "Angelina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "INT-OSCARS"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/angelina/",
+        "https://www.behindthename.com/name/angelina",
+        "https://www.oscars.org/oscars/ceremonies/2000"
+      ],
+      "facts_used": "Angelina: Lithuanian Angelina belongs to the Angela family. Its Greek base angelos means messenger and is also used for an angel in Christian tradition. The derived name retains that connection without asserting a person’s character or supernatural qualities. International use of this spelling is illustrated by Angelina Jolie in the Academy’s 2000 award record for her supporting role in Girl, Interrupted. This is a dated foreign namesake example, not the first Lithuanian registration or an explanation of every family’s choice.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Official Academy2000ActressSupporting winnerAngelinaJolie; ceremony honors1999films but award year2000. Foreign cultural episode explicitly scoped; no Lithuanian first date inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "ee",
+      "name": "Juudit",
+      "spellings": [
+        "Juudit"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/judith"
+      ],
+      "facts_used": "Juudit: The name belongs to the Judith/Judīte family from Hebrew Yehudit, Jewish woman or woman from Judea. Historically it is related to Judah. Praise of God occurs in sources as an additional interpretation rather than the name’s sole literal translation. The first page of Leole’s December 2005 issue uses the exact spelling Juudit. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Leolep1Juudit HebrewJewishwoman; praiseGod treated as additional interpretation, not forced sole literal root.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "ee",
+      "name": "Juta",
+      "spellings": [
+        "Juta"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=6",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/judith"
+      ],
+      "facts_used": "Juta: The name belongs to the Judith/Judīte family from Hebrew Yehudit, Jewish woman or woman from Judea. Historically it is related to Judah. Praise of God occurs in sources as an additional interpretation rather than the name’s sole literal translation. Page 4 of Mägiste’s 1929 name list gives Juta with a note about Juudit and a German dialect form. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "OriginalMägistePDF6printed4footnote explicitlyJutaJuuditGerman-dialectform; Leolep1alsoJuuditshortening. LithuanianJuta=Utah is a place-name homonym and not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lv",
+      "name": "Gunefa",
+      "spellings": [
+        "Gunefa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Gunefa",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Gunefa"
+      ],
+      "facts_used": "Gunefa is still being checked against Genovefa. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Genovefa",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš pp144/135 question-marked relationship; oldgenere+vefa explanation not promoted to proved entire origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lv",
+      "name": "Zēra",
+      "spellings": [
+        "Zēra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Z%C4%93ra",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Z%C4%93ra"
+      ],
+      "facts_used": "Zēra is still being checked against Serafima. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Serafima",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p336 explicitlyquestion-markedSerafima;1925use/calendar 1882 does not prove exact full-form route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lt",
+      "name": "Eularija",
+      "spellings": [
+        "Eularija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eularija/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide explicitly saysmeaningbeingclarified. SalysPDF318Dec10documentsformonly; no origin comparison adopted by guessingEulalia.",
+      "next_steps": "Locate an exact scholarly Eularija entry or explicit rendering before choosing a Greek/Latin family; retain dated calendar use separately."
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lt",
+      "name": "Ilma",
+      "spellings": [
+        "Ilma"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/ilma/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Ilma is still being checked against Finnish ilma / Lithuanian lake name. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Finnish ilma / Lithuanian lake name",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives air versus Švenčionys-district lake alternatives. SalysDec10exactuse does not choose one route.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-10",
+      "date": "2026-11-12",
+      "calendar_date": "12-10",
+      "country": "lt",
+      "name": "Loreta",
+      "spellings": [
+        "Loreta"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/loreta/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf",
+        "https://www.behindthename.com/name/loretta"
+      ],
+      "facts_used": "Loreta is still being checked against Lora / Laura / Loreto. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lora / Laura / Loreto",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide givesLora/Laura/laurus; otherdictionaryroutespointItalianLoretta/Loreto. SalysPDF248printed233onlylabelsnameandLoraasLoretaform, not a unique root. Curated Loretta explicitly labels Lauretta/Loreto/Lor- alternatives as possible; no choice made.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ],
+  "validation": {
+    "tests": "npm test: 128 passed",
+    "build": "npm run build passed",
+    "profiles": "All 104 target identities checked in all five languages; 49 reviewed histories have exactly two paragraphs and more than 300 characters combined.",
+    "backlog": "50 hypotheses and 5 no-proposal profiles remain unverified; all 257 previously researched open identities retained.",
+    "browser": "100 mobile views: five dates, three calendars, five languages; reviewed, hypothesis and no-history states, no displayed source links, no horizontal overflow or page errors.",
+    "invariants": "Calendar membership, supplied dates and population snapshots unchanged. Generated public/data and data copies match the static build.",
+    "pdf_cache": "23 private source indexes, 2901 pages; 3 new PDFs indexed once, including a 385-page Russian OCR scan; repeated indexing reuses existing extraction."
+  }
+}

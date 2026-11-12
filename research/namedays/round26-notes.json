@@ -1,0 +1,507 @@
+{
+  "round": 26,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 18 unfinished 26 November profiles after rounds 24–25. Reused indexed Salys, Mägiste and Leole PDFs; exact LVA correspondences resolve Konrāds and Sebastians. Kept competing derivations and missing spelling bridges unverified. No calendar membership or bearer counts changed.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Konrāds",
+      "spellings": [
+        "Konrāds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/39408?locale=lv",
+        "https://www.behindthename.com/name/conrad"
+      ],
+      "facts_used": "Konrāds: The family combines Old High German kuoni, brave, and rāt, counsel. European languages use Konrad and Conrad; the long ā in Latvian must be documented for each particular spelling. The Latvian Language Agency gives the exact rendering Konrad → Konrāds, citing page 62 of a 1960 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact German given-name rendering, not the Hungarian surname row. No 1295/1767 date transferred from Konrads.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Konrads",
+      "spellings": [
+        "Konrads"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Konrads",
+        "https://www.behindthename.com/name/conrad"
+      ],
+      "facts_used": "Konrads: The family combines Old High German kuoni, brave, and rāt, counsel. European languages use Konrad and Conrad; the long ā in Latvian must be documented for each particular spelling. Siliņš’s dictionary dates the use of Konrads: 1295. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p198; entry dates retained for short-a form only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Sebastians",
+      "spellings": [
+        "Sebastians"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/2919?locale=lv",
+        "https://www.behindthename.com/name/sebastian"
+      ],
+      "facts_used": "Sebastians: The family comes through Latin Sebastianus, from Sebaste, a city name based on Greek sebastos, venerable. This translated the Roman imperial title Augustus. The history thus links a place name with an honorific title. The Latvian Language Agency gives the exact rendering Sebastian → Sebastians, citing page 219 of a 2003 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Norwegian rendering, also Swedish p324. Polish/German rows instead have Sebastiāns. No 1545 date transferred from Sebastjans.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Sebastjans",
+      "spellings": [
+        "Sebastjans"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sebastjans",
+        "https://www.behindthename.com/name/sebastian"
+      ],
+      "facts_used": "Sebastjans: The family comes through Latin Sebastianus, from Sebaste, a city name based on Greek sebastos, venerable. This translated the Roman imperial title Augustus. The history thus links a place name with an honorific title. Siliņš’s dictionary dates the use of Sebastjans: 1545. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p286. Distinguish the ultimate city-name route from a direct personal-character adjective.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Vingra",
+      "spellings": [
+        "Vingra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vingra"
+      ],
+      "facts_used": "Vingra: The Latvian dictionary connects the name with vingrs, supple or brisk. It is a personal name formed around Latvian adjective vocabulary; the word’s gloss does not describe the character of an individual bearer. Siliņš’s dictionary dates the use of Vingra: Liepāja, third quarter of the twentieth century. Its calendar year is 1951. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p329; calendar year may precede the particular later local attestation.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lt",
+      "name": "Dobilas",
+      "spellings": [
+        "Dobilas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dobilas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Dobilas: A Lithuanian nature name from dobilas, clover. The plant word has become a personal name while retaining its Lithuanian lexical base, rather than acquiring a foreign explanation from a similar sound. The 1964 calendar reprinted in Salys’s 1983 volume gives Dobilas on 26 November. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys PDF317 printed302; November26 exact.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lt",
+      "name": "Silva",
+      "spellings": [
+        "Silva"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/silva/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=265"
+      ],
+      "facts_used": "Silva: The Lithuanian guide connects the name with Latin silva, forest. Salys also records feminine use as a short form of Silvija and masculine use as a short form of Silvestras. One spelling thus has two documented grammatical uses. The dictionary section of Salys’s 1983 volume records both Silva uses on printed page 250. This allows the short form to be read in its particular context. The 26 November name day used here does not by itself establish only one of these lines.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF265 printed250 visually checked. Masculine and feminine short forms explicitly separated; guide date December31 differs from project.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "ee",
+      "name": "Dagmar",
+      "spellings": [
+        "Dagmar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-SNL",
+        "EE-LEOLE05"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Dagmar#Estonian",
+        "https://snl.no/Dagmar_-_kvinnenamn",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6"
+      ],
+      "facts_used": "Dagmar: The Estonian dictionary entry identifies a Danish borrowing. Onomastician Gulbrand Alhaug explains Danish Dagmar as a reshaping of Slavic Dragomira, with dear and peace as its elements. In Denmark it was reinterpreted using dag, day, and an old word for maiden. Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6, uses the exact spelling Dagmar. This local explanation documents the name in Estonian print culture. It is neither the name’s first registration nor its year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Danish borrowing is distinguished from later folk segmentation; Leole provides dated local spelling, not a choice among its competing etymologies.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "ee",
+      "name": "Tamaara",
+      "spellings": [
+        "Tamaara"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://www.behindthename.com/name/tamara",
+        "https://www.behindthename.com/name/tamar"
+      ],
+      "facts_used": "Tamaara: Leole connects this Estonian spelling with a Hebrew plant word. The international Tamara family comes from Tamar and Hebrew tamar, date palm. The history therefore concerns a palm; the newspaper’s accompanying reference to a fig tree is not a translation of that Hebrew word. Leili Kuusk’s column in the municipal newspaper Leole, November 2005, page 6, uses the exact spelling Tamaara. This local explanation documents the name in Estonian print culture. It is neither the name’s first registration nor its year of invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Tamaara in Leole; independently corroborate palm and explicitly reject its fig gloss. Do not transfer the conclusion to Maara.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "ee",
+      "name": "Maare",
+      "spellings": [
+        "Maare"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-MAGISTE29",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=18",
+        "https://www.behindthename.com/name/mary"
+      ],
+      "facts_used": "Maare: Mägiste’s Estonian list explicitly equates Maare with Maria. The Maria/Mariam family leads to Hebrew Miryam, whose original meaning is not securely known. The documented forms can be followed without selecting one speculative translation. Printed page 16 of Julius Mägiste’s 1929 Eestipäraseid isikunimesid separately lists Maare = Maria and Maaret = Margareete. Their proximity is useful evidence: similar short names have different connections in the source. Maaret’s explanation should therefore not be transferred to Maare.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF18 printed16 visually checked; Maria family secure, Miryam ultimate meaning unknown.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Kondrats",
+      "spellings": [
+        "Kondrats"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kondrats",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kondrats"
+      ],
+      "facts_used": "Kondrats still needs checking against Kondrāts / Konrads. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Kondrāts / Konrads",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide checked and LVA or private PDF index searched. No secure complete exact-form derivation plus dated episode; alternatives remain open.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Kondrāts",
+      "spellings": [
+        "Kondrāts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kondr%C4%81ts",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kondr%C4%81ts"
+      ],
+      "facts_used": "Kondrāts still needs checking against Kondratijs / Konrads / Kodratos. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Kondratijs / Konrads / Kodratos",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p198/197 gives competing Conrad and Kodratos/quadratus routes; Dikļi last-quarter19th-century use does not choose an origin.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Konrands",
+      "spellings": [
+        "Konrands"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Konrands",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Konrands"
+      ],
+      "facts_used": "Konrands still needs checking against Konrads. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Konrads",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide checked and LVA or private PDF index searched. No secure complete exact-form derivation plus dated episode; alternatives remain open.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Konrāts",
+      "spellings": [
+        "Konrāts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Konr%C4%81ts",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Konr%C4%81ts"
+      ],
+      "facts_used": "Konrāts still needs checking against Konrads. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Konrads",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide checked and LVA or private PDF index searched. No secure complete exact-form derivation plus dated episode; alternatives remain open.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lv",
+      "name": "Manefa",
+      "spellings": [
+        "Manefa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Manefa",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Manefa"
+      ],
+      "facts_used": "Manefa still needs checking against Russian Manefa / Manethōn. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Russian Manefa / Manethōn",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide checked and LVA or private PDF index searched. No secure complete exact-form derivation plus dated episode; alternatives remain open.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lt",
+      "name": "Vygantė",
+      "spellings": [
+        "Vygantė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vygante/"
+      ],
+      "facts_used": "Vygantė still needs checking against vy- + gant-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "vy- + gant-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Pakerys2011 PDF5/9 explicitly records Vygantė, but the full stem analysis and competing vy-/vyd-/gant- glosses need original dictionary review.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "lt",
+      "name": "Vygintė",
+      "spellings": [
+        "Vygintė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vyginte/"
+      ],
+      "facts_used": "Vygintė still needs checking against vy- + gint-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "vy- + gint-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue/guide checked and LVA or private PDF index searched. No secure complete exact-form derivation plus dated episode; alternatives remain open.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    },
+    {
+      "batch": "calendar-2026-11-26",
+      "date": "2026-11-12",
+      "calendar_date": "11-26",
+      "country": "ee",
+      "name": "Maara",
+      "spellings": [
+        "Maara"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Maara"
+      ],
+      "facts_used": "Maara still needs checking against Tamara / Maria. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+      "hypothesis": "Tamara / Maria",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Leole groups Maara with Tamaara but mixes palm and fig glosses; no independent exact-form derivation inspected. Do not apply Maare = Maria or Tamara = palm automatically.",
+      "next_steps": "Find an explicit exact-form dictionary/manual bridge and an independent dated historical episode. Preserve conflicting interpretations; never transfer dates or counts between spellings."
+    }
+  ]
+}
