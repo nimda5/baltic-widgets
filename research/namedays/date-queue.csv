@@ -60,37 +60,26 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 7,11-19,lv,Lize,unresearched,,unverified,needs_more
 7,11-19,lv,Līziņa,unresearched,1,unverified,needs_more
 7,11-19,lt,Rimgaudė,unresearched,,unverified,needs_more
-8,11-20,lv,Anda,summary,2980,,
-8,11-20,lv,Andīna,summary,47,,
-8,11-20,lv,Vigo,summary,161,,
-8,11-20,lv,Andija,summary,16,,
-8,11-20,lv,Andina,summary,2,,
-8,11-20,lv,Andīne,summary,4,,
-8,11-20,lv,Nanda,summary,6,,
-8,11-20,lv,Viga,summary,2,,
-8,11-20,lv,Vīga,summary,1,,
-8,11-20,lv,Vīgants,attestation,12,,
-8,11-20,lv,Vigars,summary,7,,
-8,11-20,lv,Vigda,attestation,2,,
-8,11-20,lv,Vigelijs,unresearched,1,,
-8,11-20,lv,Vigeta,summary,3,,
-8,11-20,lv,Vigija,summary,4,,
-8,11-20,lv,Vigilija,summary,3,,
-8,11-20,lv,Vigilijs,summary,,,
-8,11-20,lv,Vigita,summary,7,,
-8,11-20,lv,Vīgo,unresearched,2,,
-8,11-20,lv,Viģīlija,summary,1,,
-8,11-20,lt,Feliksas,summary,,,
-8,11-20,lt,Jovydas,summary,,,
-8,11-20,lt,Laimis,summary,,,
-8,11-20,lt,Vaidvilė,summary,,,
-8,11-20,lt,Vaidvitė,unresearched,,,
-8,11-20,ee,Helmar,unresearched,< 5,,
-8,11-20,ee,Helmer,unresearched,19,,
-8,11-20,ee,Helmo,unresearched,19,,
-8,11-20,ee,Helmu,unresearched,7,,
-8,11-20,ee,Helmur,unresearched,< 5,,
-8,11-20,ee,Helmut,unresearched,179,,
+8,11-20,lv,Anda,unresearched,2980,unverified,needs_more
+8,11-20,lv,Andīna,unresearched,47,unverified,needs_more
+8,11-20,lv,Andija,unresearched,16,unverified,needs_more
+8,11-20,lv,Andina,unresearched,2,unverified,needs_more
+8,11-20,lv,Andīne,unresearched,4,unverified,needs_more
+8,11-20,lv,Nanda,unresearched,6,unverified,needs_more
+8,11-20,lv,Vīga,unresearched,1,unverified,needs_more
+8,11-20,lv,Vīgants,unresearched,12,unverified,needs_more
+8,11-20,lv,Vigars,unresearched,7,unverified,needs_more
+8,11-20,lv,Vigda,unresearched,2,unverified,needs_more
+8,11-20,lv,Vigelijs,unresearched,1,unverified,needs_more
+8,11-20,lv,Vigeta,unresearched,3,unverified,needs_more
+8,11-20,lv,Vigija,unresearched,4,unverified,needs_more
+8,11-20,lv,Vigilijs,unresearched,,unverified,needs_more
+8,11-20,lv,Vigita,unresearched,7,unverified,needs_more
+8,11-20,lv,Vīgo,unresearched,2,unverified,needs_more
+8,11-20,lv,Viģīlija,unresearched,1,unverified,needs_more
+8,11-20,lt,Vaidvitė,unresearched,,unverified,needs_more
+8,11-20,ee,Helmu,unresearched,7,unverified,needs_more
+8,11-20,ee,Helmur,unresearched,< 5,unverified,needs_more
 9,11-21,lv,Zeltīte,summary,345,,
 9,11-21,lv,Andars,unresearched,8,,
 9,11-21,lv,Andejs,unresearched,1,,
@@ -1211,9 +1200,7 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 63,01-14,lv,Robina,summary,67,,
 63,01-14,lv,Robins,summary,206,,
 63,01-14,lt,Auksė,summary,,,
-63,01-14,lt,Feliksas,summary,,,
 63,01-14,lt,Hilarijus,summary,,,
-63,01-14,lt,Laimis,summary,,,
 63,01-14,lt,Teodozijus,summary,,,
 63,01-14,ee,Feliks,summary,251,,
 64,01-15,lv,Fēlikss,summary,318,,
@@ -2059,7 +2046,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 101,02-21,lv,Illi,summary,,,
 101,02-21,lv,Illo,summary,3,,
 101,02-21,lv,Ilo,summary,16,,
-101,02-21,lt,Feliksas,summary,,,
 101,02-21,lt,Žemyna,summary,,,
 101,02-21,ee,Aavo,summary,601,,
 101,02-21,ee,Auvo,unresearched,< 5,,
@@ -2832,7 +2818,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 133,03-25,lv,Marjeta,summary,3,,
 133,03-25,lt,Normantė,unresearched,,,
 133,03-25,lt,Barmantas,unresearched,,,
-133,03-25,lt,Feliksas,summary,,,
 133,03-25,lt,Kantrimas,summary,,,
 133,03-25,ee,Marie,summary,668,,
 133,03-25,ee,Marje,unresearched,1135,,
@@ -2861,8 +2846,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 134,03-26,lv,Ženijs,summary,,,
 134,03-26,lt,Arbutas,summary,,,
 134,03-26,lt,Emanuelis,summary,,,
-134,03-26,lt,Feliksas,summary,,,
-134,03-26,lt,Laimis,summary,,,
 134,03-26,lt,Liudgaras,summary,,,
 134,03-26,lt,Teklė,summary,,,
 134,03-26,lt,Vydmantė,summary,,,
@@ -5738,8 +5721,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 259,07-29,lv,Vidmunds,unresearched,3,,
 259,07-29,lt,Beatričė,summary,,,
 259,07-29,lt,Faustinas,summary,,,
-259,07-29,lt,Feliksas,summary,,,
-259,07-29,lt,Laimis,summary,,,
 259,07-29,lt,Mantvydas,summary,,,
 259,07-29,lt,Mantvydė,summary,,,
 259,07-29,lt,Simplicijus,unresearched,,,
@@ -6560,11 +6541,9 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 291,08-30,lv,Ruslāns,summary,8,,
 291,08-30,lt,Adauktas,summary,,,
 291,08-30,lt,Augūna,unresearched,,,
-291,08-30,lt,Feliksas,summary,,,
 291,08-30,lt,Gaudencija,summary,,,
 291,08-30,lt,Joris,summary,,,
 291,08-30,lt,Kintenis,summary,,,
-291,08-30,lt,Laimis,summary,,,
 291,08-30,ee,Mello,unresearched,< 5,,
 291,08-30,ee,Meljo,unresearched,7,,
 291,08-30,ee,Miljo,unresearched,< 5,,

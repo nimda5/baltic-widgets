@@ -1,0 +1,890 @@
+{
+  "round": 20,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed a research pass over all 31 unfinished 20 November profiles: 20 LV, 5 LT, 6 EE. Added eleven reviewed histories (3 LV, 4 LT, 4 EE), two paragraphs in five languages. Twenty remain unverified: sixteen LV hypotheses, two EE hypotheses, and no supported proposal for LV Vigelijs or LT Vaidvitė. All previous 59 displayed hypotheses plus Ganda/Ainari without proposals remain open; displayed hypotheses now total 77, with four no-proposal records separately pending. New source records include exact LVA Viggo/Vigo and Undine/Andīna exports, Evar Saar’s 2016 historical-name appendix, a dated Sirena front page, Riigikogu biography and Fram Museum account. Source columns, related-form episodes, joint-entry dates and alternative routes keep their explicit scope. A confirmed historical use does not resolve an uncertain origin. The historical 14 January Feliksas/Laimis records differ from project 20 November; preserve supplied dates. No project calendar membership changed. URLs remain research/provenance only and raw sources remain private. Continue on codex/namedays-round4; next fresh calendar pass is 21 November. This pass does not declare 20 November verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmar",
+      "spellings": [
+        "Helmar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-SNL",
+        "INT-BTN",
+        "INT-FRAM"
+      ],
+      "sources": [
+        "https://snl.no/Helmar_-_mannsnamn",
+        "https://www.behindthename.com/name/helmar",
+        "https://frammuseum.no/polarhistorie/polfarere/helmer-julius-hanssen-1870-1956/"
+      ],
+      "facts_used": "A signed name guide describes Helmar as a German variant of Helmer and Hilmar. Another international account continues Heilmar, with heil, whole or healthy, and mari, famous. These documented family routes remain distinct rather than becoming one compulsory explanation for every bearer. The related form’s history is illustrated by Norwegian explorer Helmer Hanssen: the Fram Museum names him among the five men who reached the South Pole on 14 December 1911. This concerns related Helmer and a Norwegian expedition rather than Helmar’s first use in Estonia.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Signed SNL Helmar article explicitly calls it a German variant of Helmer/Hilmar; curated Helmar continues Heilmar, heil/mari. Preserve the documented family alternatives without choosing one universal route. Opened primary Fram Museum Helmer Julius Hanssen biography gives the five-man South Pole party, 14 December 1911. It is explicitly a related Helmer example from a Norwegian expedition, not a Helmar first record in Estonia. No unverified search-result bearer biography was accepted.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmer",
+      "spellings": [
+        "Helmer"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-SNL",
+        "INT-BTN",
+        "EE-RIIGIKOGU"
+      ],
+      "sources": [
+        "https://snl.no/Helmer_-_mannsnamn",
+        "https://www.behindthename.com/name/helmer",
+        "https://www.riigikogu.ee/riigikogu/riigikogu-liikmed/13d2e87c-6d0f-4f0b-b42c-1434fc2e7895/helmer-jogi/"
+      ],
+      "facts_used": "Helmer has several documented European explanations. German Helm-mar combines helmet and famous, while Helm-her combines helmet and warrior; a connection with Hjalmar is also recorded. A shared spelling therefore does not require one borrowing route for every family. Helmer Jõgi’s parliamentary biography supplies a concrete Estonian example. The official Riigikogu record lists service in its tenth and eleventh compositions from 2003 to 2011. This is a verifiable professional use of the exact given name rather than the date of its first appearance.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Signed SNL Helmer article gives Helm-mar helmet/famous or Helm-her helmet/warrior; curated Helmer additionally refers to Helmar/Hjalmar. These are documented European alternatives, not a unique borrowing route claimed for all Estonian families. Opened primary Riigikogu Helmer Jõgi biography directly gives tenth/eleventh compositions 2003–2011. Direct HTML fetch succeeded despite the web reader’s cache miss. Torvald Helmer in Ibsen is a surname and was not used as a first-name example.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmo",
+      "spellings": [
+        "Helmo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-SAAR16",
+        "INT-SNL",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://wi.ee/wp-content/uploads/2017/06/VItoim16sisu.pdf#page=42",
+        "https://snl.no/Helmut_-_mannsnamn",
+        "https://www.behindthename.com/name/helmut"
+      ],
+      "facts_used": "Helmo has a documented connection with Helmut: a study of historical Estonian names places Helmo among Low German intermediary forms. The Helmut family is usually explained through helm, helmet, and muot, mind, spirit or courage. The study’s column distinctions matter for tracing this route. The table row in Evar Saar’s 2016 article reads Helmok, Helmus — Helmo, Helmke — Helmut. Its historical material comes from South Tartumaa revisions of 1582–1588. It documents a particular related-form route rather than asserting that modern Helmo was already registered there as an exact Estonian spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Visually checked EE-SAAR16 PDF p. 42 / printed p. 43 explicitly places exact Helmo as a Low German intermediary linking recorded Helmok/Helmus to Helmut. It establishes an explicit historical family correspondence, not an exact modern Estonian Helmo registration in 1582–1588. Narratives repeatedly preserve those columns. The connection is not extended to Helmu/Helmur. General user-submitted modern variants are not the evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmu",
+      "spellings": [
+        "Helmu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-SAAR16",
+        "EE-EKI",
+        "EE-DIGAR",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://wi.ee/wp-content/uploads/2017/06/VItoim16sisu.pdf#page=42",
+        "https://stat.ee/nimed/NIMEPAEVAD"
+      ],
+      "facts_used": "",
+      "hypothesis": "Helmu may be compared with the Helmut and Helmo family, but the checked sources do not establish the exact derivation. The historical study’s row Helmok, Helmus — Helmo, Helmke — Helmut does not contain Helmu. A shared name day does not prove origin either, so the helmet-and-spirit explanation remains an unverified comparison.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find exact Helmu in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name dictionary. EE-SAAR16’s checked row gives Helmok/Helmus → Low German Helmo/Helmke → Helmut, not Helmu. Same-day lists and user-submitted variants do not prove derivation. For Helmur, DIGAR renamed-name index 109311 returned 403; Memento alternate-name snippets are discovery leads, not inspected originals or a universal etymology. Keep the comparison unverified.",
+      "next_steps": "Find exact Helmu in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name dictionary. EE-SAAR16’s checked row gives Helmok/Helmus → Low German Helmo/Helmke → Helmut, not Helmu. Same-day lists and user-submitted variants do not prove derivation. For Helmur, DIGAR renamed-name index 109311 returned 403; Memento alternate-name snippets are discovery leads, not inspected originals or a universal etymology. Keep the comparison unverified."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmur",
+      "spellings": [
+        "Helmur"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-SAAR16",
+        "EE-EKI",
+        "EE-DIGAR",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://wi.ee/wp-content/uploads/2017/06/VItoim16sisu.pdf#page=42",
+        "https://stat.ee/nimed/NIMEPAEVAD"
+      ],
+      "facts_used": "",
+      "hypothesis": "Helmur may be compared with the Helmut and Helmo family, but the checked sources do not establish the exact derivation. The historical study’s row Helmok, Helmus — Helmo, Helmke — Helmut does not contain Helmur. A shared name day does not prove origin either, so the helmet-and-spirit explanation remains an unverified comparison.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find exact Helmur in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name dictionary. EE-SAAR16’s checked row gives Helmok/Helmus → Low German Helmo/Helmke → Helmut, not Helmur. Same-day lists and user-submitted variants do not prove derivation. For Helmur, DIGAR renamed-name index 109311 returned 403; Memento alternate-name snippets are discovery leads, not inspected originals or a universal etymology. Keep the comparison unverified.",
+      "next_steps": "Find exact Helmur in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name dictionary. EE-SAAR16’s checked row gives Helmok/Helmus → Low German Helmo/Helmke → Helmut, not Helmur. Same-day lists and user-submitted variants do not prove derivation. For Helmur, DIGAR renamed-name index 109311 returned 403; Memento alternate-name snippets are discovery leads, not inspected originals or a universal etymology. Keep the comparison unverified."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmut",
+      "spellings": [
+        "Helmut"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-SAAR16",
+        "INT-SNL",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://snl.no/Helmut_-_mannsnamn",
+        "https://www.behindthename.com/name/helmut",
+        "https://wi.ee/wp-content/uploads/2017/06/VItoim16sisu.pdf#page=42"
+      ],
+      "facts_used": "Helmut is a German two-part name, usually explained through helm, helmet, and muot, mind, spirit or courage; another account relates the first element to heil, whole or healthy. These nuances concern historical name elements rather than one compulsory sentence about a person. Evar Saar’s 2016 table of South Tartumaa names from 1582–1588 connects Helmok and Helmus with Low German Helmo and Helmke, then Helmut. This is an analysis of historical correspondences. The middle column’s German forms should retain their scope rather than becoming exact Estonian record spellings.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Signed SNL article gives Helm-/mut helmet/courage; curated Helmut gives helm (or possibly heil) + muot mind/spirit. Preserve the documented nuance without forcing one literal sentence. Visually checked EE-SAAR16, Evar Saar (2016), PDF p. 42 / printed p. 43, Appendix 2 continuation: Helmok, Helmus | Helmo, Helmke | Helmut. The preceding appendix heading PDF p. 41 / printed p. 42 dates South Tartumaa material to 1582–1588, collected from Roslavlev’s 1970 Polnische Akten I. The middle column is Low German source forms, not exact Estonian attestation spellings; publication is 2016 despite filename VItoim16sisu.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lt",
+      "name": "Feliksas",
+      "spellings": [
+        "Feliksas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/feliksas/",
+        "https://www.behindthename.com/name/felix",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=301"
+      ],
+      "facts_used": "Feliksas is connected with Latin felix, happy or fortunate. In Roman usage Felix served as a personal cognomen and later became a widespread Christian name. The Lithuanian form preserves this name family’s Latin basis. The 1964 Tikiu Dievą calendar lists Feliksas with short form Felis on 14 January; Salys reprinted the list in 1983. This historical calendar placement differs from the 20 November used here. It documents the pair of forms rather than the name’s creation date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Exact LT-GUIDE gives Latin felix, corroborated by curated Felix and its Roman cognomen context. Visually checked Salys PDF p. 301 / printed p. 286 gives Feliksas (Felis) on 14 JANUARY; the preceding PDF p. 300 has Sausis heading. It is the 1964 Tikiu Dievą calendar reprinted in 1983, not first use. The project’s 20 November stays unchanged; Sirena 2015 front page independently supports that day.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lt",
+      "name": "Jovydas",
+      "spellings": [
+        "Jovydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/jovydas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Jovydas is a Lithuanian two-stem name. The guide connects jo- with joti, to ride, and jotis, rider, and vyd- with (iš)vydo, saw. The elements help explain its formation without requiring one compulsory literal sentence about a rider. The 1964 Tikiu Dievą calendar gives Jovydas with short form Jovas on 20 November. The checked list was reprinted in volume two of Salys’s writings in 1983. It directly records the full/short relationship rather than proving that the name was created when the calendar appeared.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Exact LT-GUIDE gives jo- joti/jotis and vyd- (iš)vydo. Visually checked Salys PDF p. 317 / printed p. 302 gives Jovydas (Jovas) on 20 November, 1964 calendar reprinted 1983. The Baltistica 44(2) 2009 academic search lead redirected to the new journal homepage; its snippet was not used as inspected etymological evidence.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lt",
+      "name": "Laimis",
+      "spellings": [
+        "Laimis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/laimis/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=301"
+      ],
+      "facts_used": "The Lithuanian guide explains Laimis from laimė, happiness or good fortune. A Lithuanian common noun thus supplies the personal name’s basis. Its meaning expresses a linguistic idea rather than determining how fortunate the bearer’s life will be. Salys’s 1983 volume reprints the 1964 calendar, where Laimis appears alongside Auksė on 14 January. This is a concrete printed example of the personal name. Calendar dates can differ, and this entry does not claim that Laimis was invented in 1964.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Exact LT-GUIDE gives laimė happiness/good fortune. Visually checked Salys PDF p. 301 / printed p. 286 has Laimis alongside Auksė on 14 January, 1964 calendar reprinted 1983. Keep this historical placement distinct from project 20 November and guide 12 August; the dated Sirena front page supports 20 November. No coining date or bearer destiny inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lt",
+      "name": "Vaidvilė",
+      "spellings": [
+        "Vaidvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vaidvile/",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "The Lithuanian guide describes Vaidvilė as a two-stem name: vaid- relates to vaidentis, to appear, and vil- to viltis, hope. This explains separate elements. It need not become one invented whole-name translation or a promise about the bearer’s character. The front page of Rokiškio Sirena dated 20 November 2015 lists Vaidvilė among that day’s names alongside Feliksas, Jovydas and Laimis. This dated newspaper page documents the exact spelling in calendar tradition. It does not establish the name’s first registration.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Exact LT-GUIDE gives vaid- vaidentis and vil- viltis; narrative explains separate elements without inventing a whole-name sentence. Visually checked LT-SIRENA15 PDF p. 1: Rokiškio Sirena, 20 November 2015, no. 75 (266), sidebar today list Feliksas, Jovydas, Vaidvilė, Laimis. Exact Vaidvilė, not Vaidvitė. This dated press/calendar record is not a first birth registration. Generic mythological spirit explanations were rejected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lt",
+      "name": "Vaidvitė",
+      "spellings": [
+        "Vaidvitė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-VLKK",
+        "LT-LKI",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vaidvite/"
+      ],
+      "facts_used": "",
+      "hypothesis": "",
+      "reason": "No checked origin or defensible derivational proposal was found. Preserve the ordinary missing-history display and an open unverified research record.",
+      "uncertainties": "Search exact Vaidvitė in LT-VLKK/LT-LKI and original Kuzavinis/Savukynas, then check the supplied calendar source. Exact LT-GUIDE returned 404 and general exact search found no usable origin. The Sirena 2015 newspaper says Vaidvilė, not Vaidvitė; neither that date nor the similar spelling proves a variant. Preserve the supplied 20 November membership and ordinary missing-history UI.",
+      "next_steps": "Search exact Vaidvitė in LT-VLKK/LT-LKI and original Kuzavinis/Savukynas, then check the supplied calendar source. Exact LT-GUIDE returned 404 and general exact search found no usable origin. The Sirena 2015 newspaper says Vaidvilė, not Vaidvitė; neither that date nor the similar spelling proves a variant. Preserve the supplied 20 November membership and ordinary missing-history UI."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Anda",
+      "spellings": [
+        "Anda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.izpetnieks.lv/en/name/Anda"
+      ],
+      "facts_used": "",
+      "hypothesis": "Anda may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Anda spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target.",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Anda spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andija",
+      "spellings": [
+        "Andija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andija",
+        "https://www.izpetnieks.lv/en/name/Anda"
+      ],
+      "facts_used": "",
+      "hypothesis": "Andija may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andija spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target.",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andija spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andina",
+      "spellings": [
+        "Andina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andina",
+        "https://www.izpetnieks.lv/en/name/Anda"
+      ],
+      "facts_used": "",
+      "hypothesis": "Andina may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andina spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target.",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andina spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andīna",
+      "spellings": [
+        "Andīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA-ANDINA",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/And%C4%ABna",
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.personvarduatveide.lv/words/28978.pdf?locale=lv"
+      ],
+      "facts_used": "Shared Andīna/Andīne entry: first quarter of twentieth century and calendar 1971, not independently dated exact forms. Separately, visually checked LVA export explicitly renders English Undine as Andīna, citing Ahero (2006), p. 119.",
+      "hypothesis": "Andīna may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence. Separately, an LVA record citing a 2006 guide explicitly gives English Undine → Andīna. This adds a documented rendering route without settling every Latvian bearer’s origin or the other Anda proposals.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīna spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target.",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīna spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andīne",
+      "spellings": [
+        "Andīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/And%C4%ABne",
+        "https://www.izpetnieks.lv/en/name/Anda"
+      ],
+      "facts_used": "Shared Andīna/Andīne entry: first quarter of twentieth century and calendar 1971; retain joint-entry scope.",
+      "hypothesis": "Andīne may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīne spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target.",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīne spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Nanda",
+      "spellings": [
+        "Nanda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nanda",
+        "https://www.behindthename.com/name/nanda"
+      ],
+      "facts_used": "",
+      "hypothesis": "International Nanda can be a Sanskrit name meaning joy, but this does not establish exact Latvian Nanda’s origin. The Latvian catalogue leaves the form unresolved and points towards a Nana comparison. The Sanskrit explanation therefore remains a possibility rather than a verified correspondence or a shared history for every bearer.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Seek an explicit Latvian Nanda bridge in LV-LAVI/LV-PERIODIKA or an exact rendering manual. LV-SILINS p. 245 points towards Nana without establishing Nanda. Curated Sanskrit Nanda joy is independently documented internationally, not automatically Latvian. LVA returned Fernanda variants rather than exact Nanda.",
+      "next_steps": "Seek an explicit Latvian Nanda bridge in LV-LAVI/LV-PERIODIKA or an exact rendering manual. LV-SILINS p. 245 points towards Nana without establishing Nanda. Curated Sanskrit Nanda joy is independently documented internationally, not automatically Latvian. LVA returned Fernanda variants rather than exact Nanda."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Viga",
+      "spellings": [
+        "Viga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Viga",
+        "https://www.izpetnieks.lv/en/name/Jadviga",
+        "https://www.behindthename.com/name/hedwig"
+      ],
+      "facts_used": "Siliņš lists Viga as an affectionate form of Jadviga. Jadviga in turn belongs to the Hedviga family, whose Germanic elements hadu and wīg both concern battle. The documented short form is explained through that history of the full name. The dictionary dates a record of exact Viga to 1936. It establishes use of the short form itself rather than dating the creation of the whole Jadviga family. Long-ī Vīga is a different spelling, to which the 1936 record is not automatically transferred.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "LV-SILINS p. 324 explicitly lists Viga as a Jadviga diminutive; exact Viga record 1936. Opened Jadviga pp. 172/149 directly refers to Hedviga; curated Hedwig supplies Germanic hadu/wīg. The catalogue’s warning against a standalone whole-name translation is retained through the full-name explanation, not treated as a question-mark variant. No 1936 transfer to Vīga.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vīga",
+      "spellings": [
+        "Vīga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABga",
+        "https://www.izpetnieks.lv/en/name/Viga"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vīga may be compared with Viga, but the connection between the exact spellings remains unconfirmed. Source information about Viga cannot automatically be assigned to Vīga. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an explicit exact Vīga correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row.",
+      "next_steps": "Find an explicit exact Vīga correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vīgants",
+      "spellings": [
+        "Vīgants"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABgants"
+      ],
+      "facts_used": "Exact Vīgants in Allaži 1638; calendar 1767.",
+      "hypothesis": "For Vīgants the source gives Lithuanian vyti, ginti and ganyti alongside Old High German wigand, warrior, without selecting one origin. A full translation remains unverified. Separately documented are exact Vīgants in Allaži in 1638 and a 1767 calendar entry; these establish use rather than select an etymology.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 324 and seek an exact scholarly account choosing or delimiting Lithuanian vyti/ginti/ganyti versus Germanic wigand. Preserve Allaži 1638 and calendar 1767 independently. Exact LVA query returned no word entries; curated Wigand/Vygantas alone does not resolve every Latvian Vīgants route.",
+      "next_steps": "Inspect original Siliņš p. 324 and seek an exact scholarly account choosing or delimiting Lithuanian vyti/ginti/ganyti versus Germanic wigand. Preserve Allaži 1638 and calendar 1767 independently. Exact LVA query returned no word entries; curated Wigand/Vygantas alone does not resolve every Latvian Vīgants route."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigars",
+      "spellings": [
+        "Vigars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigars"
+      ],
+      "facts_used": "Exact Vigars near Preiļi, third quarter of twentieth century.",
+      "hypothesis": "The dictionary cautiously compares Vigars with Wighard, explained through Old High German wīg, battle, and hart, firm. Its question mark matters: this is not yet a proved Vigars derivation. A separate usage record near Preiļi in the third quarter of the twentieth century does not settle the etymology.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 324 and find an exact Vigars/Wighard correspondence in LV-LAVI/LV-LVA. The Wighard question mark is unresolved; keep wīg/hart as comparison only. Preserve the separate Preiļi third-quarter-twentieth-century record. Exact LVA search returned no word entries.",
+      "next_steps": "Inspect original Siliņš p. 324 and find an exact Vigars/Wighard correspondence in LV-LAVI/LV-LVA. The Wighard question mark is unresolved; keep wīg/hart as comparison only. Preserve the separate Preiļi third-quarter-twentieth-century record. Exact LVA search returned no word entries."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigda",
+      "spellings": [
+        "Vigda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigda"
+      ],
+      "facts_used": "Exact Vigda, 1936.",
+      "hypothesis": "The dictionary refers Vigda to Vigdis with a question mark. This is an unresolved comparison rather than a confirmed derivation; gender and meaning from similar international forms cannot be transferred automatically either. A 1936 record establishes exact Vigda in use, not the proposed origin link.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš p. 324 and verify its questioned Vigdis reference, including the dictionary’s masculine label versus international feminine Vigdis. Do not silently replace the source’s grammatical scope. Preserve Vigda 1936 as usage only; exact LVA returned no word entries.",
+      "next_steps": "Inspect original Siliņš p. 324 and verify its questioned Vigdis reference, including the dictionary’s masculine label versus international feminine Vigdis. Do not silently replace the source’s grammatical scope. Preserve Vigda 1936 as usage only; exact LVA returned no word entries."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigelijs",
+      "spellings": [
+        "Vigelijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigelijs"
+      ],
+      "facts_used": "",
+      "hypothesis": "",
+      "reason": "No checked origin or defensible derivational proposal was found. Preserve the ordinary missing-history display and an open unverified research record.",
+      "uncertainties": "Search exact Vigelijs in LV-LAVI/LV-PERIODIKA and original Siliņš/name-rendering references. Exact catalogue page supplies no origin text or citation and LVA has no word-entry links. A resemblance to Vigilijs/Vigilija is not enough to manufacture a proposal. Keep ordinary missing-history UI and an open unverified record.",
+      "next_steps": "Search exact Vigelijs in LV-LAVI/LV-PERIODIKA and original Siliņš/name-rendering references. Exact catalogue page supplies no origin text or citation and LVA has no word-entry links. A resemblance to Vigilijs/Vigilija is not enough to manufacture a proposal. Keep ordinary missing-history UI and an open unverified record."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigeta",
+      "spellings": [
+        "Vigeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigeta"
+      ],
+      "facts_used": "Exact Vigeta in Liepāja, 1976.",
+      "hypothesis": "The dictionary cautiously compares Vigeta with Vigita, but questions the connection. The compared name’s origin is therefore not yet a verified Vigeta etymology. Separately, the source documents use of the exact form in Liepāja in 1976; that date does not settle the origin.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries.",
+      "next_steps": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigija",
+      "spellings": [
+        "Vigija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigija"
+      ],
+      "facts_used": "Exact Vigija in Talsi, 1977.",
+      "hypothesis": "The dictionary cautiously compares Vigija with Vigilija, but questions the connection. The compared name’s origin is therefore not yet a verified Vigija etymology. Separately, the source documents use of the exact form in Talsi in 1977; that date does not settle the origin.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigilija; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries.",
+      "next_steps": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigilija; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigilija",
+      "spellings": [
+        "Vigilija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigilija"
+      ],
+      "facts_used": "Siliņš connects Vigilija with Latin vigilia, wakefulness or watchfulness. This common-noun gloss helps explain the name’s linguistic basis. It need not become a prediction of character or imply that all similar Vigil- names are one identical form. The dictionary places a Vigilija usage record near Balvi in the second quarter of the twentieth century and calendar membership from 1951. These are separate usage and calendar records. They remain attached to exact Vigilija rather than Viģīlija or the still-unverified Vigilijs.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "LV-SILINS p. 324 gives Latin vigilia wakefulness/watchfulness, exact usage near Balvi in the second quarter of twentieth century, calendar 1951. Common-noun gloss is not a mandatory whole-name translation or a personality claim. Do not transfer the origin or dates to Viģīlija/Vigilijs or queried Vigija.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Viģīlija",
+      "spellings": [
+        "Viģīlija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vi%C4%A3%C4%ABlija",
+        "https://www.izpetnieks.lv/en/name/Vigilija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Viģīlija may be compared with Vigilija, but the connection between the exact spellings remains unconfirmed. Source information about Vigilija cannot automatically be assigned to Viģīlija. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an explicit exact Viģīlija correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row.",
+      "next_steps": "Find an explicit exact Viģīlija correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigilijs",
+      "spellings": [
+        "Vigilijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigilijs",
+        "https://www.izpetnieks.lv/en/name/Vigilija"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vigilijs may be compared with Vigilija, but the connection between the exact spellings remains unconfirmed. Source information about Vigilija cannot automatically be assigned to Vigilijs. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an explicit exact Vigilijs correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row.",
+      "next_steps": "Find an explicit exact Vigilijs correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigita",
+      "spellings": [
+        "Vigita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigita"
+      ],
+      "facts_used": "Exact Vigita near Talsi, 1975.",
+      "hypothesis": "The dictionary cautiously compares Vigita with Viga / Ligita, but questions the connection. The compared name’s origin is therefore not yet a verified Vigita etymology. Separately, the source documents use of the exact form near Talsi in 1975; that date does not settle the origin.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Viga/Ligita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries.",
+      "next_steps": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Viga/Ligita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries."
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigo",
+      "spellings": [
+        "Vigo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-VIGO",
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigo",
+        "https://www.personvarduatveide.lv/words/77.pdf?locale=lv",
+        "https://www.behindthename.com/name/viggo"
+      ],
+      "facts_used": "Vigo is a documented Latvian rendering of Danish Viggo. Viggo is connected with Old Norse víg, war or battle, as a short form of names containing that element. The explanation rests on an explicit language correspondence rather than resemblance to other Vig- names alone. The Latvian Language Agency record cites page 102 of I. Mežaraupe’s Danish-name guide in the 2003 volume. Separately, Siliņš’s dictionary places a Vigo record in the first quarter of the twentieth century. The guide’s year documents a rendering rule rather than first use of the name.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicit family evidence and a concrete dated calendar, dictionary, linguistic, press or institutional episode support two paragraphs in five languages.",
+      "uncertainties": "Visually checked LV-LVA-VIGO single-page export: Danish Viggo → exact Latvian Vigo, citing I. Mežaraupe (2003), p. 102. Curated Viggo gives Old Norse víg war/battle. This explicit rendering resolves the catalogue’s tentative root-only explanation. LV-SILINS p. 324 independently dates Vigo to the first quarter of the twentieth century. Neither source proves long-ī Vīgo.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vīgo",
+      "spellings": [
+        "Vīgo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABgo",
+        "https://www.izpetnieks.lv/en/name/Vigo"
+      ],
+      "facts_used": "",
+      "hypothesis": "Vīgo may be compared with Vigo, but the connection between the exact spellings remains unconfirmed. Source information about Vigo cannot automatically be assigned to Vīgo. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "reason": "The proposed origin or exact spelling bridge remains unresolved. Keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an explicit exact Vīgo correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row.",
+      "next_steps": "Find an explicit exact Vīgo correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    }
+  ]
+}
