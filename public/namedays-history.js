@@ -1,3 +1,5 @@
+import {historiesLatvianR17} from './namedays-history-r17-lv.js';
+import {historiesLithuanianR17,historiesEstonianR17} from './namedays-history-r17-baltic.js';
 import {historiesLatvianR16} from './namedays-history-r16-lv.js';
 import {historiesLithuanianR16,historiesEstonianR16} from './namedays-history-r16-baltic.js';
 import {researchedHistories} from './namedays-history-details.js';
@@ -112,7 +114,7 @@ const entries={
 };
 // Anton is the Estonian spelling in the Antanas family entry.
 const {Anton,...popularLt}={...historiesLtA,...historiesLtB};
-const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10,...historiesLatvianR11,...historiesLatvianR12,...historiesLatvianR13,...historiesLatvianR14,...historiesLatvianR15,...historiesLatvianR16},ee:{...historiesEeA,...historiesEeB,Anton,...historiesEstonianR11,...historiesEstonianR12,...historiesEstonianR14,...historiesEstonianR15,...historiesEstonianR16},lt:{...popularLt,...historiesLithuanianR11,...historiesLithuanianR12,...historiesLithuanianR14,...historiesLithuanianR15,...historiesLithuanianR16}};
+const countryEntries={lv:{...historiesLatvianR9,...historiesLatvianR10,...historiesLatvianR11,...historiesLatvianR12,...historiesLatvianR13,...historiesLatvianR14,...historiesLatvianR15,...historiesLatvianR16,...historiesLatvianR17},ee:{...historiesEeA,...historiesEeB,Anton,...historiesEstonianR11,...historiesEstonianR12,...historiesEstonianR14,...historiesEstonianR15,...historiesEstonianR16,...historiesEstonianR17},lt:{...popularLt,...historiesLithuanianR11,...historiesLithuanianR12,...historiesLithuanianR14,...historiesLithuanianR15,...historiesLithuanianR16,...historiesLithuanianR17}};
 export function reviewedHistory(name,country){
  const key=name.normalize('NFC').replace(/\.$/,'');
  return countryEntries[country]?.[key]||entries[key]||null;

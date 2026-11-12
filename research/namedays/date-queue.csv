@@ -35,22 +35,11 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 4,11-16,lv,Landa,unresearched,15,unverified,needs_more
 4,11-16,lv,Landijs,unresearched,3,unverified,needs_more
 4,11-16,lt,Gerdvilė,unresearched,,unverified,needs_more
-5,11-17,lv,Hugo,summary,1350,,
-5,11-17,lv,Uga,summary,24,,
-5,11-17,lv,Uģis,summary,2226,,
-5,11-17,lv,Higo,summary,1,,
-5,11-17,lv,Igo,summary,104,,
-5,11-17,lv,Ugo,summary,16,,
-5,11-17,lt,Dionyzas,summary,,,
-5,11-17,lt,Getautas,summary,,,
-5,11-17,lt,Gilvilė,summary,,,
-5,11-17,lt,Salomėja,summary,,,
-5,11-17,ee,Heinar,unresearched,270,,
-5,11-17,ee,Einar,summary,652,,
-5,11-17,ee,Ainari,unresearched,< 5,,
-5,11-17,ee,Aino,summary,1747,,
-5,11-17,ee,Egon,summary,468,,
-5,11-17,ee,Egil,unresearched,7,,
+5,11-17,lv,Higo,unresearched,1,unverified,needs_more
+5,11-17,lv,Igo,unresearched,104,unverified,needs_more
+5,11-17,lt,Gilvilė,unresearched,,unverified,needs_more
+5,11-17,ee,Heinar,unresearched,270,unverified,needs_more
+5,11-17,ee,Ainari,unresearched,< 5,unverified,needs_more
 6,11-18,lv,Doloresa,summary,46,,
 6,11-18,lv,Brīve,summary,3,,
 6,11-18,lv,Aleksandris,summary,33,,
@@ -69,7 +58,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 6,11-18,lt,Otas,summary,,,
 6,11-18,lt,Otonas,summary,,,
 6,11-18,lt,Romanas,summary,,,
-6,11-18,lt,Salomėja,summary,,,
 6,11-18,ee,Ilo,summary,38,,
 6,11-18,ee,Ilu,unresearched,< 5,,
 7,11-19,lv,Liza,summary,129,,
@@ -3906,7 +3894,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 179,05-10,lt,Bertoldas,summary,,,
 179,05-10,lt,Gordijonas,unresearched,,,
 179,05-10,lt,Ramojus,summary,,,
-179,05-10,ee,Aino,summary,1747,,
 179,05-10,ee,Aina,summary,160,,
 179,05-10,ee,Aini,unresearched,46,,
 179,05-10,ee,Ainu,summary,49,,
@@ -6170,7 +6157,7 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 274,08-13,lv,Rezēda,unresearched,1,,
 274,08-13,lv,Rezenda,attestation,1,,
 274,08-13,lv,Rezija,summary,2,,
-274,08-13,lt,Gilvilė,summary,,,
+274,08-13,lt,Gilvilė,unresearched,,unverified,needs_more
 274,08-13,lt,Ipolitas,summary,,,
 274,08-13,lt,Kasijonas,unresearched,,,
 274,08-13,lt,Naglis,summary,,,
@@ -6859,7 +6846,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 302,09-10,lv,Sigma,attestation,4,,
 302,09-10,lv,Sijanda,summary,13,,
 302,09-10,lv,Zigma,summary,2,,
-302,09-10,lt,Dionyzas,summary,,,
 302,09-10,lt,Girmintė,summary,,,
 302,09-10,lt,Konstancija,summary,,,
 302,09-10,lt,Kostė,summary,,,
@@ -7507,7 +7493,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 331,10-09,lv,Helge,summary,7,,
 331,10-09,lv,Helgi,summary,7,,
 331,10-09,lv,Helgrīda,summary,,,
-331,10-09,lt,Dionyzas,summary,,,
 331,10-09,lt,Gedėtas,unresearched,,,
 331,10-09,lt,Liudas,summary,,,
 331,10-09,lt,Liudvikas,summary,,,

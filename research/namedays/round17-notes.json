@@ -1,0 +1,482 @@
+{
+  "round": 17,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed a research pass over all 16 unfinished 17 November profiles: 6 LV, 4 LT and 6 EE. Added eleven reviewed histories (4 LV, 3 LT, 4 EE), two paragraphs in five languages. Five remain unverified: LV Higo/Igo, LT Gilvilė, EE Heinar/Ainari. Four have explicit translated hypothesis labels; Ainari has no supported etymological proposal and keeps the ordinary missing-history UI. The previous 35 displayed hypotheses remain open, bringing the count to 39, with earlier Ganda and new Ainari separately pending without hypothesis text. Precise source pages and failed leads are recorded in NAMEDAYS_SOURCES.md. The supplied Aino/Ainari calendar spellings differ from the Statistics Estonia list’s Eino/Einari on this day; preserve existing membership/date and document the discrepancy without silently substituting names. No supplied calendar membership or dates were changed. URLs remain research/provenance only and raw source files remain private. Continue on codex/namedays-round4; next fresh calendar pass is 18 November. This completed pass does not declare 17 November verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "ee",
+      "name": "Ainari",
+      "spellings": [
+        "Ainari"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-CALENDAR-CHECK",
+        "POP-EE",
+        "EE-EKI"
+      ],
+      "sources": [
+        "https://nimed.neanky.ee/et/nimi/Ainari",
+        "https://stat.ee/nimed/NIMEPAEVAD"
+      ],
+      "facts_used": "",
+      "hypothesis": "",
+      "reason": "Calendar and population matches do not supply an origin or a defensible variant hypothesis. Keep the ordinary missing-history display and an open unverified research record.",
+      "uncertainties": "Search exact Ainari in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name study. The opened secondary Neanky page supplies calendar membership and a zero-or-under-five count only. Statistics Estonia’s name-day list uses Einari, not Ainari. Preserve the supplied spelling/date and record the discrepancy; do not invent a variant bridge from resemblance or import Einar roots.",
+      "next_steps": "Search exact Ainari in EE-EKI/EE-ETERA/EE-DIGAR or a signed Estonian name study. The opened secondary Neanky page supplies calendar membership and a zero-or-under-five count only. Statistics Estonia’s name-day list uses Einari, not Ainari. Preserve the supplied spelling/date and record the discrepancy; do not invent a variant bridge from resemblance or import Einar roots."
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "ee",
+      "name": "Aino",
+      "spellings": [
+        "Aino"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-MAGISTE29",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Aino#Estonian",
+        "https://www.behindthename.com/name/aino",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=13"
+      ],
+      "facts_used": "Estonian Aino is borrowed from Finnish Aino. Finnish aino is a poetic form of ainoa, only or sole, from which the personal name is explained. It also belongs to the name-world of the Kalevala; similar spelling does not make it the different masculine name Eino. In the feminine-name list of Mägiste’s 1929 Eestipäraseid isikunimesid, Aino appears with related forms and the German gloss die einzige, the only one. This is a specific printed example in an Estonian name collection, not evidence that the name was created in 1929.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact Estonian dictionary entry says borrowed from Finnish Aino; Finnish section and curated guide give aino/ainoa, only/sole, and Kalevala context. Mägiste PDF p. 13 / printed p. 11 visually checked: feminine Aino with related forms and German die einzige. Publication is 1929, not coining. Supplied calendar has Aino on 17 November, while Statistics Estonia’s published list places Aino in the 10 May group and Eino in the 17 November group. Preserve the project date and spelling and record the discrepancy; do not silently replace Aino with Eino.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "ee",
+      "name": "Egil",
+      "spellings": [
+        "Egil"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-BTN",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/egil",
+        "https://snl.no/Egil_-_mannsnamn",
+        "https://snl.no/Egils_saga"
+      ],
+      "facts_used": "Egil is connected with Old Norse Egill. Guides give agi, awe or fear, in its old basis; a Norwegian name scholar also discusses respect and a sword’s edge. These dictionary nuances remain explicit rather than becoming one exact translation imposed on every use of the name. The Icelandic Egils saga tells of the skald Egil Skallagrimsson. The encyclopaedia tentatively dates its composition to before 1240 and its main manuscript Möðruvallabók to the first half of the fourteenth century. These date a literary work and manuscript, not Estonian personal-name records of those years.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Curated entry gives Old Norse Egill, agi awe/fear; signed Gulbrand Alhaug article additionally discusses respect and sword edge. Both nuances are retained, not a forced literal translation. Opened SNL Egils saga dates composition tentatively before 1240 and main manuscript Möðruvallabók to the first half of the fourteenth century. Narrative identifies Icelandic literary/manuscript evidence, not an Estonian first attestation or independently verified saga events.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "ee",
+      "name": "Egon",
+      "spellings": [
+        "Egon"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-EWOD"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Egon#Estonian",
+        "https://www.behindthename.com/name/egon",
+        "https://ewod.ut.ee/et/r/egon-rannet/"
+      ],
+      "facts_used": "The Estonian dictionary entry identifies Egon as borrowed from German Egon. The international guide explains it through old Egino and the element agin, edge or blade. This is a historical name explanation; resemblance to other Eg- names does not establish identical derivations for them all. Estonian dramatist Egon Rannet was known as Eugen or Jevgeni Brücke until 1940. The university’s writers’ dictionary dates his play Kadunud poeg to 1958. An individual change of name is a biographical fact, not proof that Egon is generally a short form of Eugen.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact Estonian dictionary entry says from German Egon. Curated guide gives Egino/agin, edge or blade; the German Wiktionary section additionally discusses a historical awe/edge merger, not an Eugen derivation. Opened Tartu EWOD biography identifies Egon Rannet as Eugen/Jevgeni Brücke until 1940 and dates Kadunud poeg to 1958. Individual renaming does not establish a general Egon/Eugen etymological rule.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "ee",
+      "name": "Einar",
+      "spellings": [
+        "Einar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-EWOD"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Einar#Estonian",
+        "https://www.behindthename.com/name/einar",
+        "https://ewod.ut.ee/m/maasik/"
+      ],
+      "facts_used": "The Estonian dictionary entry derives Einar from Old Norse Einarr. Its historical elements are einn, one or alone, and herr, army or warrior. This explains the structure of a name rather than promise a combative character or solitary life to its bearer. The University of Tartu’s writers’ dictionary dates Einar Maasik’s literary debut in the newspaper Edasi to 1953. His prose collections Koduküla teel (1959) and Teekaaslane (1960) followed. These provide specific examples of the name in Estonian literary history.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact Estonian dictionary entry derives from Old Norse Einarr; curated entry gives einn and herr. Opened University of Tartu EWOD Einar Maasik entry documents Edasi debut 1953, Koduküla teel 1959 and Teekaaslane 1960. An initially guessed Einar Rannut URL returned 404 and was not used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "ee",
+      "name": "Heinar",
+      "spellings": [
+        "Heinar"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-SUVETEATER",
+        "EE-EKI",
+        "EE-ETERA"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Einar#Estonian",
+        "https://suveteater.ee/lavastused/heinari-tahetund"
+      ],
+      "facts_used": "The theatre’s primary production page explicitly uses fictional Heinar and distinguishes its spelling from Einar.",
+      "hypothesis": "Heinar can be compared with Einar, but the checked sources do not establish a direct etymological link. Einar’s Old Norse explanation is therefore not automatically Heinar’s origin. A separate usage example is the production Heinari tähetund, whose description has the character emphasise the exact Heinar spelling; that is literary evidence rather than proof of derivation.",
+      "reason": "The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Find an exact signed EE-EKI/EE-ETERA/EE-DIGAR explanation of Heinar versus Einar. User-submitted variants and shared name-day lists do not prove derivation. The ETERA download 22289 lead returned 404; its snippet was not used. The opened Emajõe Suveteater Heinari tähetund description proves a fictional Heinar usage, not etymology.",
+      "next_steps": "Find an exact signed EE-EKI/EE-ETERA/EE-DIGAR explanation of Heinar versus Einar. User-submitted variants and shared name-day lists do not prove derivation. The ETERA download 22289 lead returned 404; its snippet was not used. The opened Emajõe Suveteater Heinari tähetund description proves a fictional Heinar usage, not etymology."
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lt",
+      "name": "Dionyzas",
+      "spellings": [
+        "Dionyzas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83",
+        "LT-GUIDE",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=224",
+        "https://www.behindthename.com/name/dionysios",
+        "https://www.tevu-darzelis.lt/vaiku-vardai/dionyzas/"
+      ],
+      "facts_used": "Salys’s dictionary appendix lists Dionyzas alongside Dionizas with the equivalent Dionysius. This Greek personal-name family is connected with the god Dionysos. The deity’s name is therefore distinguished from the human naming tradition formed from it. The 1983 second volume of Salys’s writings separates the deity entry Dionisas from the personal names Dionyzas and Dionizas. This is a concrete example of a dictionary distinguishing a mythological figure from human names. The volume’s date records republication rather than their first appearance in Lithuania.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Salys PDF p. 224 / printed p. 209 visually checked: separate deity Dionisas and personal names Dionyzas und Dionizas → Dionys(ius). Curated Dionysios connects the personal-name family to Dionysos. LT-GUIDE’s divine tree explanation is explicitly speculative and is not accepted as a verified whole-name translation. Narrative stops at the documented divine-name family rather than inventing its ultimate etymology. The 1983 volume dates republication, not first use. The guessed VLE Dionyzas Poška URL returned 404 and no biography was accepted from it.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lt",
+      "name": "Getautas",
+      "spellings": [
+        "Getautas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83",
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/getautas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Getautas is a Lithuanian two-stem name. The guide connects ge- with gedauti and gedėti, to long for or mourn, and taut- with tauta, people or nation. These explanations describe separate elements; they need not become one compulsory sentence about someone’s longing or duty towards a nation. The 1964 Tikiu Dievą name calendar places Getautas on 17 November with short form Getas. The list was reprinted in volume two of Salys’s writings in 1983. It documents both the full and proposed short forms, while calendar publication itself does not date the name’s invention.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE gives ge- gedauti/gedėti and taut- tauta. Salys PDF p. 317 / printed p. 302 visually checked: Getautas (Getas), 17 November in the 1964 Tikiu Dievą calendar, reprinted 1983. No creation date or automatic change of Getautas to Gedautas.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lt",
+      "name": "Gilvilė",
+      "spellings": [
+        "Gilvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83",
+        "LT-GUIDE",
+        "LT-LKI"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gilvile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Visually checked Salys PDF p. 317 / printed p. 302: Gilvilė (Gilva), 17 November, in the 1964 calendar reprinted in 1983.",
+      "hypothesis": "The popular guide explains Gilvilė through gilus, deep or strong, and viltis, hope, but Salys places related Gilvilas under gilti and gildyti (širdį), associated with pain in the heart. The exact origin therefore still needs checking. Separately verified is Gilvilė (Gilva) on 17 November in the 1964 calendar reprinted in 1983.",
+      "reason": "The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect an exact etymological entry in LT-VLKK/LT-LKI or Kuzavinis/Savukynas, resolving popular gilus versus Salys’s gilti/gildyti analysis for related Gilvilas. Salys PDF p. 317 / printed p. 302 verifies exact Gilvilė (Gilva) on 17 November in the 1964 calendar only. PDF p. 288 / printed p. 273 supplies the competing Gil- analysis; keep that male-form scope. The 1994 LKI article download 1463/1557 is a further uninspected lead, not proof.",
+      "next_steps": "Inspect an exact etymological entry in LT-VLKK/LT-LKI or Kuzavinis/Savukynas, resolving popular gilus versus Salys’s gilti/gildyti analysis for related Gilvilas. Salys PDF p. 317 / printed p. 302 verifies exact Gilvilė (Gilva) on 17 November in the 1964 calendar only. PDF p. 288 / printed p. 273 supplies the competing Gil- analysis; keep that male-form scope. The 1994 LKI article download 1463/1557 is a further uninspected lead, not proof."
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lt",
+      "name": "Salomėja",
+      "spellings": [
+        "Salomėja"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-VLE"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/salomeja/",
+        "https://www.behindthename.com/name/salome",
+        "https://www.vle.lt/straipsnis/salomeja-neris/"
+      ],
+      "facts_used": "Salomėja belongs to a Semitic name family connected with Hebrew shalom, peace. The Lithuanian guide points to Šlomit, while the international reference describes an Aramaic Salome route. The shared basis is peace; these accounts should not be merged into one supposedly proved chain of borrowing. Lithuanian poet Salomėja Nėris published her first poetry collection Anksti rytą in 1927. The encyclopaedia records her first use of the pen name Neris, later Nėris, for Pajūry in the journal Ateitis in 1923. That pen name concerns the surname component, not a new spelling of Salomėja.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE gives Šlomit/shalom; curated Salome describes an Aramaic name related to Hebrew shalom. Keep the common peace basis without asserting a unique direct transmission chain. Opened VLE biography confirms Salomėja Nėris’s first collection Anksti rytą 1927 and first pen-name use Neris in Pajūry, Ateitis no. 11, 1923; distinguish the surname pen name from the given name.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lv",
+      "name": "Higo",
+      "spellings": [
+        "Higo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Higo",
+        "https://www.izpetnieks.lv/en/name/Hugo"
+      ],
+      "facts_used": "",
+      "hypothesis": "Higo may be connected with Hugo, but the exact spelling transition remains unconfirmed. The catalogue presents the explanation cautiously, so Hugo’s Germanic hugu, mind or spirit, supports a comparison rather than a verified Higo etymology. Hugo’s 1871 personal record and 1767 calendar entry cannot be transferred to Higo.",
+      "reason": "The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect the original Siliņš p. 156 and search LV-LVA/LV-PERIODIKA for an explicit exact Higo/Hugo correspondence. The catalogue only proposes it and has no usable dated Higo record; neither Hugo dates nor a normalized Igo lookup resolve this spelling.",
+      "next_steps": "Inspect the original Siliņš p. 156 and search LV-LVA/LV-PERIODIKA for an explicit exact Higo/Hugo correspondence. The catalogue only proposes it and has no usable dated Higo record; neither Hugo dates nor a normalized Igo lookup resolve this spelling."
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lv",
+      "name": "Hugo",
+      "spellings": [
+        "Hugo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Hugo",
+        "https://www.izpetnieks.lv/en/name/Hugo",
+        "https://www.behindthename.com/name/hugh"
+      ],
+      "facts_used": "Hugo is a Germanic name based on hugu, mind, thought or spirit. The element Hug- appears in old German personal names. These meanings describe the name’s historical structure rather than predict the abilities or character of every person who bears it. The Siliņš dictionary catalogue dates Hugo’s calendar entry to 1767 and a personal-name record to 1871. Calendar publication and a record of personal use are different kinds of historical evidence. The earlier calendar year neither invalidates the later record nor establishes when the name was invented.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS p. 156: hugu family, calendar 1767 and personal record 1871. Curated Hugh/Hugo entries corroborate mind/thought/spirit; Victor Hugo is a surname, so his biography was not substituted for a first-name record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lv",
+      "name": "Igo",
+      "spellings": [
+        "Igo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Igo",
+        "https://www.izpetnieks.lv/en/name/Hugo"
+      ],
+      "facts_used": "Catalogue documents Igo in the first quarter of the twentieth century.",
+      "hypothesis": "The source places Igo under Hugo but marks a possible Ignāts connection with a question mark. These details do not establish one secure derivational route; Ignāts’s own proposed link to Latin ignis, fire, is also questioned. A separate Igo record from the first quarter of the twentieth century establishes use rather than settling the alternatives.",
+      "reason": "The exact origin or proposed variant route remains unresolved; keep the qualified text labelled Hypothesis and excluded from reviewed coverage.",
+      "uncertainties": "Inspect original Siliņš pp. 158/156 and seek a signed LV-LAVI or LV-PERIODIKA account resolving Hugo versus the questioned Ignāts route. Preserve the first-quarter-of-twentieth-century record independently. Do not assume the singer’s stage name proves a universal Igor origin or treat uncertain ignis as verified.",
+      "next_steps": "Inspect original Siliņš pp. 158/156 and seek a signed LV-LAVI or LV-PERIODIKA account resolving Hugo versus the questioned Ignāts route. Preserve the first-quarter-of-twentieth-century record independently. Do not assume the singer’s stage name proves a universal Igor origin or treat uncertain ignis as verified."
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lv",
+      "name": "Uga",
+      "spellings": [
+        "Uga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Uga",
+        "https://www.izpetnieks.lv/en/name/Hugo",
+        "https://www.behindthename.com/name/hugh"
+      ],
+      "facts_used": "The dictionary connects Uga with the Hugo family, based on Germanic hugu, mind, thought or spirit. The element Hug- appears in old German personal names. These elements explain the name’s historical structure rather than assess the abilities or character of every bearer. The catalogue directly refers Uga to Hugo but keeps a personal-name record for Uga itself: Riga, 1895. Calendar inclusion is dated to 1925. This documents the short Latvian form separately, without assigning it the 1871 or 1767 dates from Hugo’s entry.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS p. 311 directly refers to Hugo, with Uga record Riga 1895 and calendar 1925. No Hugo 1871/1767 transfer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lv",
+      "name": "Uģis",
+      "spellings": [
+        "Uģis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/U%C4%A3is",
+        "https://www.izpetnieks.lv/en/name/Hugo",
+        "https://www.behindthename.com/name/hugh"
+      ],
+      "facts_used": "The dictionary connects Uģis with the Hugo family, based on Germanic hugu, mind, thought or spirit. The element Hug- appears in old German personal names. These elements explain the name’s historical structure rather than assess the abilities or character of every bearer. The Siliņš catalogue directly refers Uģis to Hugo, and the international name guide also confirms that Latvian equivalent. A specific Uģis record is placed in Riga in 1937, with calendar inclusion in 1925. Both dates concern this spelling with ģ rather than every form in the family.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS p. 311 directly refers to Hugo, with Uģis record Riga 1937 and calendar 1925. Curated Hugo/Hugh explicitly lists Latvian Uģis. Keep ģ and the exact dated record.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-17",
+      "date": "2026-11-12",
+      "calendar_date": "11-17",
+      "country": "lv",
+      "name": "Ugo",
+      "spellings": [
+        "Ugo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ugo",
+        "https://www.izpetnieks.lv/en/name/Hugo",
+        "https://www.behindthename.com/name/hugh"
+      ],
+      "facts_used": "The dictionary connects Ugo with the Hugo family, based on Germanic hugu, mind, thought or spirit. The element Hug- appears in old German personal names. These elements explain the name’s historical structure rather than assess the abilities or character of every bearer. The catalogue directly refers Ugo to Hugo and records the personal name in Riga in 1940. It gives no separate calendar-inclusion year. Although Ugo also occurs in other languages, this record documents the cited Latvian use rather than proving one particular route of borrowing.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or documented family evidence and a concrete historical, dictionary, bibliographic or literary episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS p. 311 directly refers to Hugo, with Ugo record Riga 1940 and no calendar-entry year. International Italian Ugo does not itself prove the route of this Latvian use.",
+      "next_steps": ""
+    }
+  ]
+}
