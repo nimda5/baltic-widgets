@@ -1,0 +1,728 @@
+{
+  "round": 23,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 25 unfinished 23 November profiles: 16 LV, 6 LT and 3 EE. Eleven reviewed histories (3 LV, 6 LT and 2 EE), thirteen labelled hypotheses (12 LV and 1 EE), and no supported proposal for Zigvija. All previous 93 hypotheses and nine no-proposal records remain open: now 106 displayed hypotheses and ten no-proposal profiles. Exact Sigrun/Sigruna rendering and ACME Sigourney/Sigurnija pairing preserve their distinct scopes; unresolved roots and variant bridges stay unverified. Salys and Pakerys establish exact Lithuanian records, with related Felicitas explicitly separated from Felicita and historical June/December dates preserved. Municipal Leole2005 and scholarly Kallasmaa2017 supply exact Estonian family evidence; Kleemet is not silently changed to Kleement. No project calendar membership or dates changed. Sources remain working-file/provenance only. Continue on codex/namedays-round4; next fresh pass is 24 November. This day is not declared verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrīda",
+      "spellings": [
+        "Zigrīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABda",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Zigrīda with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p337→p290 Sigrīda; last quarter19th-century usage, calendar1901; two roots unresolved. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigfrīda",
+      "spellings": [
+        "Zigfrīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigfr%C4%ABda",
+        "https://www.izpetnieks.lv/en/name/Zigfr%C4%ABds",
+        "https://www.behindthename.com/name/siegfried"
+      ],
+      "facts_used": "The dictionary places Zigfrīda under Zigfrīds, which refers to Sigfrīds. This family’s account gives Old High German sigu, victory, and fridu, protection or peace. The dictionary establishes the connection without describing the precise mechanism that formed the feminine name. The Zigfrīda entry dates usage to 1922 and a calendar record to 1964. These are two different milestones for this spelling. Neither automatically applies to short-i Zigfrida, whose correspondence still needs verification.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp337/289; explicit cross-reference, not a stated derivational mechanism. Sigfrīds catalogue URL404; exact Zigfrīda/Zigfrīds pages retain the chain.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrīds",
+      "spellings": [
+        "Zigrīds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABds",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Zigrīds with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p337→p290 Sigrīda; derivation mechanism not explicit; Durbe last quarter19th century,calendar1915. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigrīda",
+      "spellings": [
+        "Sigrīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Sigrīda with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p290 leaves sigr/rīdan versus Sigridh alternatives; third quarter20th-century usage. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigrija",
+      "spellings": [
+        "Sigrija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigrija",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Sigrija with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p290 refers to Sigrīda; records1969/1975, no independent meaning. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigruna",
+      "spellings": [
+        "Sigruna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA-SIGRUNA",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigruna",
+        "https://www.personvarduatveide.lv/words/3393.pdf?locale=lv",
+        "https://snl.no/Sigrun_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary explains Sigruna through Old High German sigu, victory, and rūna, magic or mystery. Norwegian Sigrun is explained through Old Norse Sig-rún, victory and secret knowledge. These are linguistic accounts of the family rather than promises about a bearer’s powers. The catalogue gives a Sigruna usage record in 1970. The Language Agency also directly renders Norwegian Sigrun as Sigruna, citing page 227 of the 2003 manual. This record preserves short u and does not establish the separate spelling Sigrūna.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact LVA export visually checked;1970 own usage,2003 cited rendering manual. Do not reuse SNL’s1856 Walküre date as a premiere date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigrūna",
+      "spellings": [
+        "Sigrūna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigr%C5%ABna",
+        "https://www.izpetnieks.lv/en/name/Sigruna"
+      ],
+      "facts_used": "Sigrūna might be compared with Sigruna, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Sigruna comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact Sigrūna absent in cited original spelling; preserve Sigruna distinction. LVA yields no exact row; Sigrūna query only gives Norwegian Sigrun→short-u Sigruna.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigurnija",
+      "spellings": [
+        "Sigurnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-ACME-SIGURNIJA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigurnija",
+        "https://www.acmefilm.lv/lv/kino/a-monster-calls",
+        "https://www.behindthename.com/name/sigourney"
+      ],
+      "facts_used": "Sigurnija can render English Sigourney: ACME’s A Monster Calls page names one actress both Sigurnija Vīvere and Sigourney Weaver, with the Latvian premiere dated 21 October 2016. Sigourney continues a surname from French Sigournais, whose further meaning is uncertain. This does not establish every family’s naming route.",
+      "hypothesis": "documented Sigourney rendering; surname/place meaning remains uncertain",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "ACME directHTML200 exact paired actress and21Oct2016 premiere; web reader Unicode error. LVA substring result is masculine Icelandic Sigurnýas→Sīgurnija, wrong sex and longī, rejected. Curated Sigourney says further place meaning unknown.",
+      "next_steps": "Trace the surname/place etymology through authoritative records and seek an exact Latvian given-name history; keep the confirmed film rendering distinct from any universal naming claim."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Ziga",
+      "spellings": [
+        "Ziga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ziga",
+        "https://www.izpetnieks.lv/en/name/Zigfr%C4%ABda"
+      ],
+      "facts_used": "The dictionary lists Ziga as an affectionate form under several names: Zigfrīda, Zigismunds and Zigmārs. Their explanations share Old High German sigu, victory. It thus records several shortening routes rather than one compulsory full name behind every Ziga. For one related full form, Zigfrīda, the dictionary gives usage in 1922 and a calendar record in 1964. This is a concrete episode in the related form’s history. Those years are not Ziga’s first registration and do not determine which base name a particular family chose.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Multiple explicitly documented diminutive bases share sigu; no unique full-name route selected.1922/1964 belong only to related Zigfrīda, not Ziga.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigda",
+      "spellings": [
+        "Zigda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigda",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Zigda with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p337 explicitly marks Zigrīda(?) comparison; third quarter20th-century usage. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigfrida",
+      "spellings": [
+        "Zigfrida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigfrida",
+        "https://www.izpetnieks.lv/en/name/Zigfr%C4%ABda"
+      ],
+      "facts_used": "Zigfrida might be compared with Zigfrīda, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Zigfrīda comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact Zigfrida absent in cited original spelling; preserve Zigfrīda distinction. LVA yields no exact row; Sigrūna query only gives Norwegian Sigrun→short-u Sigruna.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigra",
+      "spellings": [
+        "Zigra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigra",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Zigra with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p337 refers to Zigrīda but does not call it a short form; third quarter20th-century usage. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrida",
+      "spellings": [
+        "Zigrida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigrida",
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABda"
+      ],
+      "facts_used": "Zigrida might be compared with Zigrīda, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Zigrīda comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact Zigrida absent in cited original spelling; preserve Zigrīda distinction. LVA yields no exact row; Sigrūna query only gives Norwegian Sigrun→short-u Sigruna.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrids",
+      "spellings": [
+        "Zigrids"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigrids",
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABds"
+      ],
+      "facts_used": "Zigrids might be compared with Zigrīds, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Zigrīds comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact Zigrids absent in cited original spelling; preserve Zigrīds distinction. LVA yields no exact row; Sigrūna query only gives Norwegian Sigrun→short-u Sigruna.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrita",
+      "spellings": [
+        "Zigrita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigrita",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "The dictionary material connects Zigrita with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "p338→p290; exact1924 usage but unresolved roots. Exact LVA search yielded no matching pair; Sigrīda search gives Sigrida/Sīgrida, not long-ī Sigrīda; Zigra search gives unrelated Žigrai.",
+      "next_steps": "Inspect original entries and historical renderings to establish this exact form’s bridge and resolve the two competing root analyses."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigvija",
+      "spellings": [
+        "Zigvija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigvija"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact catalogue p338 marks a questioned possible formation without a specific root. Exact LVA search has no matching word row. No defensible specific origin proposal found.",
+      "next_steps": "Inspect original p338 and seek exact given-name records or an explicit onomastic explanation; do not manufacture a Zig- compound from spelling."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lt",
+      "name": "Doviltas",
+      "spellings": [
+        "Doviltas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/doviltas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Doviltas is a Lithuanian two-stem name. The guide connects do- with dotas or dovis, in the sphere of gifts and giving, and vilt- with viltis, hope. These element glosses need not be joined into one compulsory literal translation of the entire name. The 1964 Tikiu Dievą calendar gives Doviltas with short form Dovas on 23 November. Salys reprinted the list in 1983. This directly records their relationship rather than dating the name’s invention to the reprint; another part of that calendar also lists the name in June.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF317/printed302 exactNovember23 Doviltas(Dovas);PDF309/printed294 June19 also checked. Do not change supplied project dates.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lt",
+      "name": "Felicita",
+      "spellings": [
+        "Felicita"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/felicita/",
+        "https://www.behindthename.com/name/felicita",
+        "https://www.behindthename.com/name/felicitas",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "The Lithuanian guide connects Felicita with Latin felicitas, happiness or good fortune. It belongs to a wider Latin name family whose forms in different languages retain that favourable meaning. The explanation is not a prediction of any particular woman’s good luck. The related form Felicitas illustrates the family’s calendar history: the 1964 list reprinted by Salys in 1983 places it on 23 November, with Felis in parentheses. The source specifically has Felicitas. This does not establish the first use of Felicita without final s.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Lithuanian guide origin; related Felicitas calendar episode explicitly scoped, no sex or exact-form date transferred. GuideNovember20 and curatedMarch7 differ from projectNovember23.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lt",
+      "name": "Klemensas",
+      "spellings": [
+        "Klemensas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/klemensas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=109",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=110"
+      ],
+      "facts_used": "Klemensas rests on Latin clemens, merciful or gentle. Salys connects the Lithuanian church form with Polish Klemens and distinguishes earlier Klementas, Klimentas and Klimantas. Alongside the Latin basis, different intermediary languages therefore matter in this family’s history. Salys’s article, reprinted in volume two in 1983, gives Pope Klemensas XIV as a historical example, with his pontificate in 1769–1774. This is the Lithuanian naming of a specific historical person. The pope’s biography is not the name’s first registration in Lithuania.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF109/printed94 visually checked;PDF110/printed95 text distinguishes routes/forms. Avoid presenting legendary martyr details as independently established biography.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lt",
+      "name": "Kolumbas",
+      "spellings": [
+        "Kolumbas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/kolumbas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=309"
+      ],
+      "facts_used": "The guide derives Kolumbas from Latin columbus, dove, a common noun used as a personal-name basis. This concerns a given name, so the explorer Christopher Columbus’s surname cannot establish its first use as a given name. The 1964 calendar in Salys’s 1983 volume gives Kolumbas with short form Kolys on 9 June. This printed given-name record differs from the 23 November used here. The historical date remains source evidence rather than a reason to change this calendar’s day.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF308 Juneheading andPDF309/printed294 exactJune9 Kolumbas(Kolys) visually checked. GuideJanuary10 also differs. Christopher Columbus is a surname example and was rejected.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lt",
+      "name": "Liubartė",
+      "spellings": [
+        "Liubartė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/liubarte/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=2",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Liubartė is a Lithuanian two-stem feminine name. The guide connects liu- with liautis, to cease, and bart- with bartis, to fight or quarrel. Pakerys explicitly lists Liubartė alongside Liubartas among -bart- names. The elements do not need an invented life-mission translation. Salys’s reprint of the 1964 calendar places Liubartė on 23 November with short form Barta. Pakerys also examines the exact feminine form in his 2011 accentuation study. These are two concrete examples of written tradition rather than dates when the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Pakerys2011 PDF2/printed91 exact Liùbartė(plg.Liùbartas); SalysPDF317/printed302 Liubartė(Barta),November23. GuideOctober18 differs; no masculine bearer dates transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lt",
+      "name": "Orestas",
+      "spellings": [
+        "Orestas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/orestas/",
+        "https://www.behindthename.com/name/orestes",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318"
+      ],
+      "facts_used": "The Lithuanian guide connects Orestas with Greek oros, mountain, explaining it as a mountain-dweller. The family also occurs in Greek mythology. A mythological figure supplies cultural context, but his adventures are not a real bearer’s biography. The 1964 Tikiu Dievą calendar gives Orestas with Orys in parentheses on 13 December; the list was reprinted in 1983. This documents the exact full/short pair. The historical day differs from our 23 November without changing the documented relationship between the names.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF318/printed303 Decemberheading and13 Orestas(Orys) visually checked; do not alter projectNovember23.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "ee",
+      "name": "Kleemet",
+      "spellings": [
+        "Kleemet"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05",
+        "EE-MAGISTE29",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=36",
+        "https://www.stat.ee/nimed/NIMEPAEVAD"
+      ],
+      "facts_used": "Kleemet might be compared with Kleement and Leemet, but the form without n remains unverified. Mägiste’s 1929 list and Leole’s 2005 account have Kleement, not exact Kleemet. Sharing a calendar day does not establish the correspondence between these spellings.",
+      "hypothesis": "possible Kleement/Leemet comparison; missing-n bridge unverified",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "MägistePDF36 andLeolePDF6 explicitly have Kleement. Official Statistics Estonia November23 also has Kleement/Leemet/Leemo, project has Kleemet. Preserve supplied spelling/date and record discrepancy.",
+      "next_steps": "Find an authoritative exact Kleemet entry or a documented Kleemet/Kleement paired form; do not silently insert n."
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "ee",
+      "name": "Leemet",
+      "spellings": [
+        "Leemet"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-KALLASMAA17",
+        "EE-LEOLE05",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Leemet#Estonian",
+        "https://www.justdigi.ee/media/210/download#page=3",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=36"
+      ],
+      "facts_used": "Leemet is an Estonian adaptation of Latin Clemens, explicitly identified in both the Estonian dictionary entry and Marja Kallasmaa’s study. Latin clemens means gentle or merciful. Resemblance to local Lemb- names therefore does not itself establish a different root. Mägiste’s 1929 masculine list directly compares Leemet with Clemet, Clement and Kleement. The municipal newspaper Leole also connects Leemet and Leemo with Clemens in November 2005. These printed examples document the name family rather than any child’s first registration.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "MägistePDF36/printed34 exact Leemet, not OCR Leenat. Kallasmaa2017 adaptation explicit; old Lemb-name replacement theory remains qualified and is not asserted here.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "ee",
+      "name": "Leemo",
+      "spellings": [
+        "Leemo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://www.behindthename.com/name/clement"
+      ],
+      "facts_used": "Leole’s name column explicitly connects Leemo with Latin Clemens alongside Leemet and Kleement, glossing clemens as gentle or merciful. This is a specific source account of origin rather than an inference based only on a shared name day. The account appeared on page 6 of Suure-Jaani’s municipal newspaper in November 2005, signed by Leili Kuusk. Exact Leemo already appears there in its own right in a list of names. The issue date establishes printed use without dating the name’s invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Leole11(68),November2005,titlepage andPDF6 exact Leemo/Clemens visually checked. User-submitted BTN Leemo not used as the proof.",
+      "next_steps": ""
+    }
+  ]
+}

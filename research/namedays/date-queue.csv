@@ -101,31 +101,20 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 10,11-22,lt,Dargintė,unresearched,,unverified,needs_more
 10,11-22,lt,Steigintas,unresearched,,unverified,needs_more
 10,11-22,ee,Säsil,unresearched,47,unverified,needs_more
-11,11-23,lv,Zigrīda,summary,1119,,
-11,11-23,lv,Zigfrīda,summary,20,,
-11,11-23,lv,Zigrīds,summary,8,,
-11,11-23,lv,Sigrīda,summary,13,,
-11,11-23,lv,Sigrija,summary,7,,
-11,11-23,lv,Sigruna,summary,3,,
-11,11-23,lv,Sigrūna,summary,3,,
-11,11-23,lv,Sigurnija,unresearched,1,,
-11,11-23,lv,Ziga,summary,3,,
-11,11-23,lv,Zigda,summary,3,,
-11,11-23,lv,Zigfrida,summary,1,,
-11,11-23,lv,Zigra,summary,3,,
-11,11-23,lv,Zigrida,summary,37,,
-11,11-23,lv,Zigrids,summary,,,
-11,11-23,lv,Zigrita,summary,3,,
-11,11-23,lv,Zigvija,unresearched,1,,
-11,11-23,lt,Doviltas,summary,,,
-11,11-23,lt,Felicita,summary,,,
-11,11-23,lt,Klemensas,summary,,,
-11,11-23,lt,Kolumbas,unresearched,,,
-11,11-23,lt,Liubartė,unresearched,,,
-11,11-23,lt,Orestas,summary,,,
-11,11-23,ee,Kleemet,unresearched,< 5,,
-11,11-23,ee,Leemet,summary,22,,
-11,11-23,ee,Leemo,unresearched,< 5,,
+11,11-23,lv,Zigrīda,unresearched,1119,unverified,needs_more
+11,11-23,lv,Zigrīds,unresearched,8,unverified,needs_more
+11,11-23,lv,Sigrīda,unresearched,13,unverified,needs_more
+11,11-23,lv,Sigrija,unresearched,7,unverified,needs_more
+11,11-23,lv,Sigrūna,unresearched,3,unverified,needs_more
+11,11-23,lv,Sigurnija,unresearched,1,unverified,needs_more
+11,11-23,lv,Zigda,unresearched,3,unverified,needs_more
+11,11-23,lv,Zigfrida,unresearched,1,unverified,needs_more
+11,11-23,lv,Zigra,unresearched,3,unverified,needs_more
+11,11-23,lv,Zigrida,unresearched,37,unverified,needs_more
+11,11-23,lv,Zigrids,unresearched,,unverified,needs_more
+11,11-23,lv,Zigrita,unresearched,3,unverified,needs_more
+11,11-23,lv,Zigvija,unresearched,1,unverified,needs_more
+11,11-23,ee,Kleemet,unresearched,< 5,unverified,needs_more
 12,11-24,lv,Velta,summary,2790,,
 12,11-24,lv,Velda,summary,19,,
 12,11-24,lv,Velards,summary,6,,
@@ -2309,7 +2298,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 113,03-05,lt,Aurora,summary,,,
 113,03-05,lt,Austra,summary,,,
 113,03-05,lt,Giedrė,summary,,,
-113,03-05,lt,Klemensas,summary,,,
 113,03-05,lt,Liucijus,summary,,,
 113,03-05,lt,Virgilijus,summary,,,
 113,03-05,lt,Vydotas,unresearched,,,
@@ -2333,7 +2321,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 114,03-06,lt,Norvilas,summary,,,
 114,03-06,lt,Raminta,summary,,,
 114,03-06,lt,Rožė,summary,,,
-114,03-06,lt,Felicita,summary,,,
 114,03-06,lt,Novilas,summary,,,
 115,03-07,lv,Ella,summary,928,,
 115,03-07,lv,Elmīra,summary,61,,
@@ -2350,7 +2337,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 115,03-07,lv,Erīna,summary,44,,
 115,03-07,lv,Erita,summary,65,,
 115,03-07,lv,Helmīra,unresearched,,,
-115,03-07,lt,Felicita,summary,,,
 115,03-07,lt,Galmantė,unresearched,,,
 115,03-07,lt,Laima,summary,,,
 115,03-07,lt,Rimtautas,summary,,,
@@ -2513,7 +2499,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 123,03-15,lv,Imelda,summary,16,,
 123,03-15,lv,Imula,unresearched,1,,
 123,03-15,lv,Inelda,unresearched,1,,
-123,03-15,lt,Klemensas,summary,,,
 123,03-15,lt,Lionginas,summary,,,
 123,03-15,lt,Lukrecija,summary,,,
 123,03-15,lt,Raigardas,summary,,,
