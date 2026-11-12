@@ -1,0 +1,553 @@
+{
+  "round": 22,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Research pass over all 19 unfinished 22 November profiles: 9 LV, 5 LT and 5 EE. Nine reviewed histories (2 LV, 3 LT and 4 EE), eight labelled hypotheses (5 LV, 2 LT and 1 EE), and no supported proposal for Aldris or Aldijs. All previous 85 hypotheses and seven no-proposal records remain open: now 93 displayed hypotheses and nine no-proposal profiles. Exact LVA pairs establish Alfonss and Vilora renderings; shared-entry dates and questioned roots stay qualified. Pavan confirms Cilė/Cecilija; Pakerys documents Dargintė accent variants without settling its first-stem analysis. Steikintas is not silently substituted for Steigintas. Foreign literary and professional episodes remain explicitly scoped. No calendar membership or dates changed. URLs remain working-file/provenance only. Continue on codex/namedays-round4; next fresh pass is 23 November. This day is not declared verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfons",
+      "spellings": [
+        "Alfons"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA-ALFONSS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfons",
+        "https://www.behindthename.com/name/alfonso",
+        "https://www.personvarduatveide.lv/words/39294.pdf?locale=lv"
+      ],
+      "facts_used": "The shared Alfon/s, -ss entry connects Alfons with adal, noble, or al, all or whole, plus funs, ready for battle. The first element remains uncertain. The joint entry reports Bikava in 1877 and a calendar record in 1817; those dated records do not themselves settle the origin.",
+      "hypothesis": "adal or al + funs; first element unresolved",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Siliņš p50 explicitly leaves adal/al choice open. LVA exact German Alfons→Latvian Alfonss is confirmed, not a bridge establishing single-s Latvian Alfons dates independently. Modern curated Alfonso favours Gothic aþals/funs but does not adjudicate the older Latvian alternative.",
+      "next_steps": "Inspect original p50 and historical Germanic scholarship to resolve adal/al while retaining joint-entry date scope."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Aldris",
+      "spellings": [
+        "Aldris"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aldris"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Exact catalogue page has no usable origin/citation. LVA finds no exact word row; Aldijs search matches Garibaldijs only. No supported origin proposal.",
+      "next_steps": "Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Aldijs",
+      "spellings": [
+        "Aldijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aldijs"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Exact catalogue page has no usable origin/citation. LVA finds no exact word row; Aldijs search matches Garibaldijs only. No supported origin proposal.",
+      "next_steps": "Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Aldra",
+      "spellings": [
+        "Aldra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aldra"
+      ],
+      "facts_used": "The shared Aldr/a, -e entry tentatively connects Aldra with Latvian alderīgs, a weaned child, or with a sound-based formation. The source itself questions these proposals. Its Kurzeme 1943 record supplies usage evidence rather than a secure derivation of the name.",
+      "hypothesis": "alderīgs or questioned phonetic formation",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Exact shared entry p48 retains question marks; Kurzeme1943 usage does not prove roots.",
+      "next_steps": "Inspect original Aldr/a,-e p48 and historical lexical evidence for alderīgs; resolve the questioned alternatives."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfins",
+      "spellings": [
+        "Alfins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfins",
+        "https://www.izpetnieks.lv/en/name/Alfons"
+      ],
+      "facts_used": "Alfins might be compared with Alfīns or the Alfons family, but short i is not a verified correspondence to long ī. The catalogue explicitly notes the difference and the Language Agency search yielded no exact pair. The family’s origin and dates therefore remain unproven for this form.",
+      "hypothesis": "possible comparison with long-ī Alfīns / Alfons",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Exact catalogue says original has Alfīns not Alfins; long-ī catalogue URL404. LVA no word rows.",
+      "next_steps": "Inspect original p50 and find an explicit short-i/long-ī given-name rendering or historical paired record."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfonija",
+      "spellings": [
+        "Alfonija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfonija",
+        "https://www.izpetnieks.lv/en/name/Alfons"
+      ],
+      "facts_used": "The source lists Alfonija under Alfons, but the precise derivation still needs checking: Alfons’s first element also has competing explanations. Possible Alfonija use in Skaņkalne is placed in the last quarter of the nineteenth century. This qualified record does not transfer the masculine form’s calendar dates.",
+      "hypothesis": "Alfons reference; root and historical record remain qualified",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Catalogue p50 labels possible origin and possible Skaņkalne record (Bgr.); preserve precision and uncertainty.",
+      "next_steps": "Inspect p50 and the underlying Bgr. record; resolve the feminine reference and the competing first-stem explanations."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfonss",
+      "spellings": [
+        "Alfonss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA-ALFONSS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfonss",
+        "https://www.behindthename.com/name/alfonso",
+        "https://www.personvarduatveide.lv/words/39294.pdf?locale=lv"
+      ],
+      "facts_used": "The shared Alfon/s, -ss entry connects Alfonss with adal, noble, or al, all or whole, plus funs, ready for battle. The first element remains uncertain. The joint entry reports Bikava in 1877 and a calendar record in 1817; those dated records do not themselves settle the origin.",
+      "hypothesis": "adal or al + funs; first element unresolved",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Siliņš p50 explicitly leaves adal/al choice open. LVA exact German Alfons→Latvian Alfonss is confirmed, not a bridge establishing single-s Latvian Alfons dates independently. Modern curated Alfonso favours Gothic aþals/funs but does not adjudicate the older Latvian alternative.",
+      "next_steps": "Inspect original p50 and historical Germanic scholarship to resolve adal/al while retaining joint-entry date scope."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Vilonija",
+      "spellings": [
+        "Vilonija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vilonija"
+      ],
+      "facts_used": "For Vilonija, Siliņš’s dictionary points to Greek philon, a dear one or object of love. This is a gloss of the separate Greek word within the name’s origin account. It does not require inventing a new literal translation of the entire personal name. The catalogue documents Vilonija in Jasmuiža in 1925, referring to page 328 of the dictionary. This supplies a concrete place and year in Latvian personal-name history. It does not mean that the name was invented in Jasmuiža or establish a separate year of calendar inclusion.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact p.328 Greek-word gloss and Jasmuiža1925 record; do not confuse with a place-origin or manufacture a whole-name meaning.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Vilora",
+      "spellings": [
+        "Vilora"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-VILORA",
+        "RU-MELNIKOV",
+        "RU-VRUBLEVSKAYA17"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/20254.pdf?locale=lv",
+        "https://azbyka.ru/deti/slovar-spravochnik-russkikh-lichnykh-imen-ilya-melnikov",
+        "https://vspu.ru/sites/default/files/disfiles/dissertations/dissertaciya_vrubleskoy_o.v..pdf#page=126"
+      ],
+      "facts_used": "Vilora is a documented Latvian rendering of Russian Вилора. Melnikov’s Russian-name dictionary explains Вилора through the initials of a phrase naming V. I. Lenin as organiser of the revolution. This describes a political naming mechanism rather than the beliefs of every Latvian bearer’s family. Vrublevskaya’s 2017 study places Вилора among formations of the 1920s–1930s, citing Suprun. The Latvian Language Agency separately supports Vilora with page 184 of the 1993 rendering manual. These establish the Russian name’s historical context and a Latvian spelling correspondence, not its first registration in Latvia.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Inspected exact LVA pair and dissertation PDF126/printed126. Melnikov’s expansion is attributed rather than universal. Do not infer a Latvian family’s ideology, a first Latvian attestation or an original Veliev claim: old.vspu.ru DNS fails, modern replacement404.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Cecilija",
+      "spellings": [
+        "Cecilija"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/cecilija/",
+        "https://www.behindthename.com/name/cecilia",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Cecilija is connected with the Roman family name Caecilius, based on Latin caecus, blind. The feminine form belongs to an old Latin family continued in Christian naming. The historical root meaning does not describe any particular bearer’s eyesight or character. The 1964 Tikiu Dievą calendar, reprinted by Salys in 1983, gives Cecilija with short form Cilė on 22 November. This directly records the full and short names together in print. The calendar’s publication year is neither the name’s creation date nor the date of its first Lithuanian bearer.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "PDF317/printed302 exact Cecilija (Cilė),22November.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Cilė",
+      "spellings": [
+        "Cilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-PAVAN14",
+        "LT-SALYS83",
+        "LT-GUIDE"
+      ],
+      "sources": [
+        "https://www.zurnalai.vu.lt/verbum/en/article/download/5012/3280/3723#page=6",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317",
+        "https://www.tevu-darzelis.lt/vaiku-vardai/cecilija/"
+      ],
+      "facts_used": "Cilė is a Lithuanian short form of Cecilė or Cecilija, explicitly identified by Luca Pavan in his study of Lithuanian/Italian name resemblances. Through the full name it belongs to Latin Caecilius and caecus, blind. Resemblance to the Italian name of Chile does not explain its origin. The 1964 Tikiu Dievą calendar, reprinted in 1983, already places Cilė in parentheses beside Cecilija on 22 November. Pavan’s 2014 article discusses this shortening in a different context, language learning. Both sources show concrete use of the form rather than its invention.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Pavan Verbum5(2014),pp238–246,PDF6/printed243 exact Cilė→Cecilė/Cecilija; PDF5/printed242 table visually inspected. Exact guide Cilė404.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Dargintė",
+      "spellings": [
+        "Dargintė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11",
+        "LT-PAKERYS09"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/darginte/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=6",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2009~1367168885961/J.04~2009~1367168885961.pdf#page=5"
+      ],
+      "facts_used": "The guide explains Dargintė through dar-/daryti, to do, and gint-/ginti, to defend. The full account remains provisional. Pakerys documents exact Dargintė accent variants in 2011, but elsewhere notes that some related dar- names may continue darg-. The first stem of this exact form still needs checking.",
+      "hypothesis": "proposed dar-/daryti + gint-/ginti; first stem unresolved",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "2011 PDF6/printed95 exact Dárgintė and Dargiñtė.2009 PDF5/printed189 discusses related Dárginas, not exact Dargintė; do not transfer that alternative as an established derivation. GuideNovember9 differs from projectNovember22.",
+      "next_steps": "Follow the exact Dargintė references LVEŽ69/CA102/VKn75/VKat4 and inspect original first-stem analysis."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Steigintas",
+      "spellings": [
+        "Steigintas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/steigintas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=295",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "The guide proposes stei-/steigus, careful or zealous, plus gint-/ginti, to defend, for Steigintas. The exact-form explanation still needs dictionary verification. Salys’s historical list and 22 November calendar instead have Steikintas with k, not Steigintas with g; they cannot be treated as one record without a documented bridge.",
+      "hypothesis": "stei-/steigus + gint-/ginti; historical exact-form bridge missing",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "Salys PDF295/printed280 lists Stei(g)-:steigti, stengtis, with Steikintas. Calendar PDF317/printed302 also has Steikintas/Steikys, not Steigintas. Guide August28 differs from project November22. Neither related spelling is an exact-form bridge.",
+      "next_steps": "Inspect exact Steigintas in authoritative dictionary and establish an explicit Steigintas/Steikintas bridge if one exists."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Laimutis",
+      "spellings": [
+        "Laimutis"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/laimutis/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=284"
+      ],
+      "facts_used": "The Lithuanian guide derives Laimutis from Laimas or Laimis, based on laimė, happiness or good fortune. It belongs to a family built from Lithuanian vocabulary. This favourable meaning is a linguistic image rather than a promise about the bearer’s destiny. Salys’s 1983 collected writings reprint Our Lithuanian Names, which explicitly lists Laimutis, -ė among creative calendar names formed from ordinary words. This printed example documents the form and its discussion rather than dating the first child to receive it.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Salys printed269/PDF284 visually checked exact Laimutis,-ė;1983 is reprint, not invention. Guide August12 differs from projectNovember22; preserve membership.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "ee",
+      "name": "Cecilia",
+      "spellings": [
+        "Cecilia"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-BTN",
+        "INT-BURNEY1782"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/cecilia",
+        "https://www.gutenberg.org/cache/epub/6346/pg6346-images.html",
+        "https://old-digitalcollections.nypl.org/items/b26cada0-5f86-0131-ba4d-58d385a7b928"
+      ],
+      "facts_used": "Cecilia is connected with the Roman family name Caecilius, based on Latin caecus, blind. The feminine form belongs to an old Latin family continued in Christian naming. The historical root meaning does not describe any particular bearer’s eyesight or character. Frances Burney’s 1782 novel Cecilia, or Memoirs of an Heiress centres on fictional heiress Cecilia Beverley. Its first chapter already connects her inheritance with keeping her surname on marriage. This is an English literary example of the exact name, not the first Cecilia in Estonia.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Primary text opening chapter checked.1782 original publication is explicit in reprint front matter and NYPL1782 manuscript record;2004 Gutenberg release is not publication. Fictional English character, not an Estonian bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "ee",
+      "name": "Säsil",
+      "spellings": [
+        "Säsil"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-BTN",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/sa12sil/submitted",
+        "https://www.stat.ee/nimed/NIMEPAEVAD"
+      ],
+      "facts_used": "Säsil might be compared with Cécile or Cecilia, but the origin explanation found is user-submitted rather than a verified dictionary entry. Estonia’s official name-day list confirms Säsil on 22 November alongside Cecilia and other forms. Sharing a day does not itself establish their relationship.",
+      "hypothesis": "possible Cécile/Cecilia comparison; user submission only",
+      "reason": "Research pass completed; origin remains unverified in backlog.",
+      "uncertainties": "User-submitted BTN explanation is a lead, not curated evidence. Wiktionary exact page could not be opened. Official list establishes membership only.",
+      "next_steps": "Inspect Rajandi/Seppo or a scholarly exact Säsil entry establishing the Cécile/Cecilia bridge."
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "ee",
+      "name": "Silja",
+      "spellings": [
+        "Silja"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-BTN",
+        "INT-SNL",
+        "INT-BURNEY1782"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/silja",
+        "https://www.behindthename.com/name/cecilia",
+        "https://snl.no/Silja_-_kvinnenamn",
+        "https://www.gutenberg.org/cache/epub/6346/pg6346-images.html"
+      ],
+      "facts_used": "Silja is a short form of Cecilia explicitly identified for both Finnish and Estonian by the international name guide. The family’s Latin basis leads through Caecilius to caecus, blind. Used independently, the short name retains its connection with a much longer historical form. A literary episode for the related full form is Burney’s 1782 novel Cecilia, whose heroine is Cecilia Beverley. This concerns Cecilia in English literature. The novel’s date is not Silja’s first Estonian use and does not prove that every family chose the short name because of the book.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact curated Estonian-family bridge; English full-form literary episode explicitly scoped. Saarelma-Paukkala/Hussar2020 printed107 concerns medieval Finnish adaptation, not proof of an Estonian borrowing date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "ee",
+      "name": "Silje",
+      "spellings": [
+        "Silje"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-SNL",
+        "INT-BTN",
+        "INT-NERGAARD"
+      ],
+      "sources": [
+        "https://snl.no/Silje_-_kvinnenamn",
+        "https://www.behindthename.com/name/silje",
+        "https://www.behindthename.com/name/cecilia",
+        "https://www.siljenergaard.com/bio"
+      ],
+      "facts_used": "Nordic name guides explain Silje as a short form of Cecilie or Cecilia, continuing the Latin Caecilius family and caecus, blind. The Norwegian and Danish accounts establish an international family connection rather than one compulsory borrowing route for every Estonian family. Norwegian singer Silje Nergaard’s official biography dates her debut single Tell Me Where You’re Going to 1990 and records Pat Metheny’s participation. This gives the exact name a concrete Norwegian cultural episode. It is not Silje’s first recorded use in Estonia.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Nordic exact-form origin, explicitly Norwegian dated bearer example; no claim of first Estonian use or shared counts.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "ee",
+      "name": "Sille",
+      "spellings": [
+        "Sille"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-SNL",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://snl.no/Sille_-_kvinnenamn",
+        "https://www.behindthename.com/name/sille",
+        "https://www.behindthename.com/name/cecilia"
+      ],
+      "facts_used": "Norwegian name scholar Gulbrand Alhaug identifies Sille as an affectionate form of Cecilie; the international guide also calls it a Danish diminutive of Cecilia. The family connects with Latin Caecilius and caecus, blind. These accounts concern documented name relationships rather than every family’s personal choice. Alhaug’s historical account places nineteenth-century use of Sille chiefly in Vest-Agder, Norway, while warning that the underlying data also include spelling variants such as Cille. This regional history provides Nordic context rather than an exact Sille-only count or a first Estonian record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped international family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Signed SNL nineteenth-century distribution explicitly aggregates variants including Cille. Keep Norwegian context and do not copy counts or infer a universal Estonian borrowing.",
+      "next_steps": ""
+    }
+  ]
+}

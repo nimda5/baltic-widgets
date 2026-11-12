@@ -1,3 +1,4 @@
+import {hypothesesLatvianR22,hypothesesLithuanianR22,hypothesesEstonianR22} from './namedays-hypotheses-r22.js';
 import {hypothesesLatvianR21,hypothesesLithuanianR21,hypothesesEstonianR21} from './namedays-hypotheses-r21.js';
 import {hypothesesLatvianR20,hypothesesLithuanianR20,hypothesesEstonianR20} from './namedays-hypotheses-r20.js';
 import {hypothesesLatvianR19,hypothesesLithuanianR19,hypothesesEstonianR19} from './namedays-hypotheses-r19.js';
@@ -24,7 +25,7 @@ const vidText=[
  '{name} rašyba leidžia svarstyti galimą ryšį su Vidars. Tai tik darbo versija pagal formų panašumą: dokumentuoto perėjimo iš Vidars į {name} nerasta. Todėl Vidars kilmė negali būti laikoma įrodyta ir šiam vardui.',
  'Kirjapilt {name} lubab kaaluda võimalikku võrdlust Vidarsiga. See on üksnes sarnastel vormidel põhinev tööversioon: dokumenteeritud üleminekut Vidarsist nimeks {name} pole leitud. Vidarsi päritolu ei saa seega pidada selle nime puhul tõestatuks.'
 ];
-const entries={lv:{...hypothesesLatvianR12,...hypothesesLatvianR14,...hypothesesLatvianR15,...hypothesesLatvianR16,...hypothesesLatvianR17,...hypothesesLatvianR18,...hypothesesLatvianR19,...hypothesesLatvianR20,...hypothesesLatvianR21},lt:{...hypothesesLithuanianR16,...hypothesesLithuanianR17,...hypothesesLithuanianR18,...hypothesesLithuanianR19,...hypothesesLithuanianR20,...hypothesesLithuanianR21},ee:{...hypothesesEstonianR14,...hypothesesEstonianR15,...hypothesesEstonianR17,...hypothesesEstonianR18,...hypothesesEstonianR19,...hypothesesEstonianR20,...hypothesesEstonianR21}};
+const entries={lv:{...hypothesesLatvianR12,...hypothesesLatvianR14,...hypothesesLatvianR15,...hypothesesLatvianR16,...hypothesesLatvianR17,...hypothesesLatvianR18,...hypothesesLatvianR19,...hypothesesLatvianR20,...hypothesesLatvianR21,...hypothesesLatvianR22},lt:{...hypothesesLithuanianR16,...hypothesesLithuanianR17,...hypothesesLithuanianR18,...hypothesesLithuanianR19,...hypothesesLithuanianR20,...hypothesesLithuanianR21,...hypothesesLithuanianR22},ee:{...hypothesesEstonianR14,...hypothesesEstonianR15,...hypothesesEstonianR17,...hypothesesEstonianR18,...hypothesesEstonianR19,...hypothesesEstonianR20,...hypothesesEstonianR21,...hypothesesEstonianR22}};
 for(const name of ['Vianda','Viāna'])entries.lv[name]={sources:vianSources,text:Object.fromEntries(langs.map((l,i)=>[l,[vianText[i]]]))};
 for(const name of ['Vidards','Vidarts','Vidavs'])entries.lv[name]={sources:['https://www.izpetnieks.lv/en/name/Vidars'],text:Object.fromEntries(langs.map((l,i)=>[l,[vidText[i]]]))};
 entries.lt.Juozapotas={sources:['https://www.vle.lt/Straipsnis/juozapatas-kuncevicius/'],text:{
