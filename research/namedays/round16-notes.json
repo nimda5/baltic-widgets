@@ -1,0 +1,443 @@
+{
+  "round": 16,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "Completed a research pass over all 15 unfinished 16 November profiles: 8 LV, 3 LT and 4 EE. Added eleven reviewed histories (5 LV, 2 LT, 4 EE), two paragraphs in five languages. Four remain unverified in the backlog: LV Ganda, Landa and Landijs, and LT Gerdvilė. Three have explicitly labelled hypotheses; Ganda has no defensible origin proposal and keeps the normal missing-history display. The previous 32 hypotheses remain open, bringing displayed open hypotheses to 35, with Ganda separately pending. New productive source entries include exact Language Agency Gloria and Ukrainian Єфимія exports, the academic Ukrainian dictionary transcription, Salys’s exact stem/name lists, the presidential office, Art Museum catalogue and primary literary text. Rejected AI definitions, homonyms, variant transfers and conflicting degree details are documented. No calendar membership or dates were changed. URLs remain working-file/provenance evidence only and raw source files remain private. Continue on codex/namedays-round4; next fresh calendar pass is 17 November. Completion of a pass does not declare the day verified-complete.",
+  "records": [
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "ee",
+      "name": "Aarne",
+      "spellings": [
+        "Aarne"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Aarne#Estonian",
+        "https://www.behindthename.com/name/aarne",
+        "https://www.behindthename.com/name/arne-1",
+        "https://www.etera.ee/api/oai2/download/10343.pdf#page=23"
+      ],
+      "facts_used": "The Estonian dictionary entry identifies Aarne as borrowed from Finnish Aarne. The international guide links it to Scandinavian Arne, based on Old Norse ǫrn, eagle. Finnish tradition also uses Aarne as a vernacular form of Arnold; that does not make all Arn- names one interchangeable spelling. Mägiste’s 1929 collection Eestipäraseid isikunimesid compares Finnish Aarno with Aarne from Häädemeeste. This is a specific printed example of a local form. The book’s year dates publication of that evidence, not the name’s invention or the naming of its first child.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact Estonian dictionary entry says borrowed from Finnish Aarne; curated Aarne links Scandinavian Arne 1 and Old Norse ǫrn. Finnish dictionary section separately allows a vernacular Arnold route. Mägiste 1929 PDF p. 23 / printed p. 21 visually checked: Aarno (Finnish), compared with Häädemeeste Aarne. This is local-form evidence in a 1929 publication, not a date of invention.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "ee",
+      "name": "Arne",
+      "spellings": [
+        "Arne"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-BTN",
+        "EE-EKM"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/arne-1",
+        "https://www.behindthename.com/name/arne-2",
+        "https://digikogu.ekm.ee/authors/author_id-17"
+      ],
+      "facts_used": "Arne has two documented explanations. In Scandinavian tradition it shortens names beginning with Old Norse ǫrn, eagle; in German tradition it is a short form of Arnold. These routes should not be collapsed into one compulsory derivation for every Estonian bearer. The Art Museum of Estonia’s catalogue records Arne Maasik’s architecture bachelor’s degree in 1995 and master’s studies in 1997. It also lists his 1995 solo exhibition Korpus at the House of the Blackheads gallery in Tallinn, a concrete example of the name in architecture and photographic art.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Both curated entries read: Scandinavian Arne 1 shortens Old Norse ǫrn names; German Arne 2 shortens Arnold. Both routes stay explicit without assigning one to every Estonian family. Opened Art Museum of Estonia author record 17 lists architecture bachelor 1995, master’s studies 1997 and solo exhibition Korpus at the House of the Blackheads gallery in 1995. A separate Artists Union page calls 1995 a master’s degree; that conflicting degree claim was rejected in favour of the museum’s more detailed record. EMIC Arne Oit pages returned 403, so no work-year was accepted from their search snippets.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "ee",
+      "name": "Arno",
+      "spellings": [
+        "Arno"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-KEVADE"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Arno#Estonian",
+        "https://www.behindthename.com/name/arnold",
+        "https://et.wikisource.org/wiki/Kevade_I/XVII"
+      ],
+      "facts_used": "The Estonian dictionary entry explicitly explains Arno as a clipping of Arnold. It belongs to the family with Germanic arn, eagle, and walt, power. This explains the personal name; the name of Italy’s River Arno does not itself establish the Estonian name’s origin. In literature, Arno is borne by Arno Tali in Oskar Luts’s Kevade. In chapter XVII of part one he returns to school after illness and faces questions of guilt and truth with Tõnisson. This is a specific fictional episode showing the name’s place in Estonian literature, rather than a real person’s biography.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact Estonian dictionary entry clips Arnold. Primary literary text, Oskar Luts, Kevade I chapter XVII, explicitly names Arno Tali returning to school after illness and discussing guilt/truth with Tõnisson. Narrative identifies fiction and claims no real-person biography, first attestation or naming-popularity effect. No publication year is inferred from a scan filename.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "ee",
+      "name": "Arnold",
+      "spellings": [
+        "Arnold"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-PRESIDENCY"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Arnold#Estonian",
+        "https://www.behindthename.com/name/arnold",
+        "https://president.ee/arnold-ruutel"
+      ],
+      "facts_used": "Estonian Arnold belongs to the international Arnold family, built from Germanic arn, eagle, and walt, power or authority. The Estonian dictionary entry explicitly identifies the international equivalent. These historical elements explain the name rather than predict its bearer’s character. The Estonian presidential office’s biography records Arnold Rüütel’s election on 21 September 2001 and inauguration on 8 October. He held the presidency until October 2006. This provides a specific example of the name in Estonia’s political history.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact Estonian dictionary entry explicitly identifies the international Arnold name, whose curated etymology gives arn/walt. Opened presidential office biography records Arnold Rüütel’s election 21 September 2001, inauguration 8 October 2001 and presidency until October 2006.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lt",
+      "name": "Edmundas",
+      "spellings": [
+        "Edmundas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "INT-BTN",
+        "LT-HISTORY"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/edmundas/",
+        "https://www.behindthename.com/name/edmund",
+        "https://www.istorija.lt/mokslo-skyriai/xx-amziaus-istorijos/edmundas-gimzauskas/126"
+      ],
+      "facts_used": "Edmundas belongs to the Old English Edmund family, whose historical elements are ead, wealth or fortune, and mund, protection. The Lithuanian guide paraphrases these as a defender of wealth. This etymology is not a promise of prosperity or social position for its bearer. Historian Edmundas Gimžauskas supplies a specific Lithuanian example. The Lithuanian Institute of History’s bibliography dates his monograph Baltarusių veiksnys formuojantis Lietuvos valstybei 1915–1923 m. to 2003. It examines the Belarusian factor in the formation of the Lithuanian state.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact LT-GUIDE and curated Edmund family support Old English ead/mund; the guide prints mud, so narrative uses the curated mund spelling. Opened Institute of History bibliography confirms Edmundas Gimžauskas’s 2003 monograph on the Belarusian factor in the formation of Lithuania in 1915–1923. No bearer’s personality or wealth is inferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lt",
+      "name": "Gerdvilė",
+      "spellings": [
+        "Gerdvilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-SALYS83",
+        "LT-LRYTAS-LEAD",
+        "LT-VLKK"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=231",
+        "https://www.lrytas.lt/gyvenimo-budas/seima/2021/11/14/news/vardu-reiksmes-lapkricio-15-21-d-varduvininkai-21214441"
+      ],
+      "facts_used": "Salys 1983 collection, PDF p. 231 / printed p. 216, explicitly lists Gerdvilė as a feminine given name.",
+      "hypothesis": "Popular guides compare Gerdvilė with geras, good, and viltis, hope, but the exact gerd- element still needs verification in a scholarly reference. Volume two of Salys’s writings, published in 1983, explicitly lists Gerdvilė as a feminine given name. That establishes the spelling, not the proposed etymology or the name’s year of creation.",
+      "reason": "The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step.",
+      "uncertainties": "Find an exact etymological entry in LT-VLKK, LT-LKI or the original Lithuanian name dictionary, resolving gerd- rather than silently changing it to ger-. Salys PDF p. 231 / printed p. 216 visually establishes the exact feminine given name only. Popular geras/viltis explanations remain unverified; do not invent a connecting d, medieval bearer or creation date.",
+      "next_steps": "Find an exact etymological entry in LT-VLKK, LT-LKI or the original Lithuanian name dictionary, resolving gerd- rather than silently changing it to ger-. Salys PDF p. 231 / printed p. 216 visually establishes the exact feminine given name only. Popular geras/viltis explanations remain unverified; do not invent a connecting d, medieval bearer or creation date."
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lt",
+      "name": "Vaišvydas",
+      "spellings": [
+        "Vaišvydas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=298",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=274"
+      ],
+      "facts_used": "Vaišvydas is a Lithuanian two-stem name. Antanas Salys lists it under both Vaiš-, compared with vaišės and viešėti, and Vyd-, explained through išvysti, to see. These are linguistic connections of historical name elements rather than a literal phrase about someone seeing a feast. Volume two of Salys’s writings, published in 1983, also includes Vaišvydas in a German–Lithuanian dictionary appendix as a masculine given name. Feminine Vaišvydė has its own entry nearby. This is concrete printed evidence for both forms, not proof of their creation in the volume’s publication year.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Salys PDF pp. 297–298 / printed pp. 282–283 visually checked: exact Vaišvydas in both Vaiš- and Vyd- lists, vaišės/viešėti and išvysti connections. PDF p. 274 / printed p. 259 visually checked: masculine Vaišvydas and separate feminine Vaišvydė in the German–Lithuanian dictionary appendix. Checked publication is the 1983 volume; no coining date, medieval bearer, Vaišvilkas biography or forced poetic whole-name translation is claimed. The exact popular guide URL returns a non-entry page, so it was not treated as an origin source.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Banga",
+      "spellings": [
+        "Banga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-LAVI"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Banga"
+      ],
+      "facts_used": "Banga is a Latvian personal name formed from banga, wave. Its basis is an ordinary word for a natural phenomenon, evoking a wave on the sea or another body of water. The explanation comes directly from Latvian vocabulary rather than an invented foreign-name abbreviation. The Siliņš dictionary catalogue dates Banga’s calendar entry to 1925 and a personal-name record to 1927. Their order distinguishes publication in a calendar from a catalogued example of personal use. Neither date by itself establishes when the name was invented.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS p. 77 derives the name from Latvian banga, wave. Calendar 1925 and personal-name record 1927 remain separate evidence types, not a creation date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Ganda",
+      "spellings": [
+        "Ganda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-LAVI"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ganda"
+      ],
+      "facts_used": "",
+      "hypothesis": "",
+      "reason": "No sufficient origin evidence or defensible hypothesis was found; retain the standard missing-history display and an open research record.",
+      "uncertainties": "Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one.",
+      "next_steps": "Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one."
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Glorija",
+      "spellings": [
+        "Glorija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA-GLORIA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Glorija",
+        "https://www.personvarduatveide.lv/words/28404.pdf?locale=lv",
+        "https://www.behindthename.com/name/gloria"
+      ],
+      "facts_used": "Glorija corresponds to international Gloria, based on Latin gloria, glory. The Language Agency explicitly pairs Gloria with Glorija. The international name’s history also includes Portuguese and Spanish Marian devotional titles using Glória and Gloria. The Latvian dictionary catalogue gives calendar inclusion in 1915 and a personal-name record in 1925. These are separate historical records. The agency’s modern rendering entry separately cites page 103 of A. Ahero’s 2006 manual on rendering English proper names.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "LV-SILINS p. 139 gives personal record 1925 and calendar 1915, but its English origin field is blank. Visually inspected Language Agency export 28404 explicitly gives Gloria → Glorija, citing Ahero 2006 p. 103. Curated Gloria entry explicitly includes Latvian Glorija, Latin gloria and Portuguese/Spanish Marian titles. The export is evidence of the cited rendering entry, not an independently inspected 2006 original or a claim of the sole transmission route into Latvia.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Jefimija",
+      "spellings": [
+        "Jefimija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-JEFIMIJA",
+        "UA-GOROH"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jefimija",
+        "https://www.personvarduatveide.lv/words/71238.pdf?locale=lv",
+        "https://goroh.pp.ua/Тлумачення/Єфимія",
+        "https://goroh.pp.ua/Етимологія/Юхимія"
+      ],
+      "facts_used": "The Language Agency directly pairs Jefimija with Ukrainian Єфимія. Skrypnyk and Dziatkivska’s personal-name dictionary refers that Ukrainian form to Юхимія, while the academic etymological entry includes it in a Greek-derived name family. This is a documented chain rather than a guess from resemblance to Jefīmija. The agency entry cites page 156 of A. Hansons and M. Poļakova’s 2023 manual Ukraiņu īpašvārdu atveide latviešu valodā. The short-i spelling is therefore explicitly documented in a rendering reference. The manual’s publication year does not establish the name’s first use in Latvia.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Visually inspected Language Agency export 71238 explicitly pairs Ukrainian Єфимія with exact short-i Jefimija, citing Hansons/Poļakova 2023 p. 156. Goroh reproduces Skrypnyk/Dziatkivska’s exact Єфимія → Юхимія reference; its separate academic Etymological Dictionary entry lists Єфимія and the Greek-derived family. The general Юхимія definition page is labelled Large Language Model and was rejected. No 1627 date from a differently stressed masculine variant or older Latvian Jefīmija dates were imported. The inspected export is not an independently inspected original 2023 manual.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Jefims",
+      "spellings": [
+        "Jefims"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-LAVI"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jefims"
+      ],
+      "facts_used": "The Siliņš dictionary catalogue places Jefims in the Eifēmija family. That entry gives Greek euphēmos, of good repute, and euphēmia, good words or praise. This is the dictionary’s stated connection; the similar spellings Jefimija and Jefīmija require separate consideration. The catalogue places a Jefims personal-name record in eighteenth-century Latgale and separately gives calendar inclusion in 1899. Retaining the century preserves the source’s precision: it supplies no exact first-record year and cannot automatically date a similarly beginning feminine name.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS pp. 177/109 explicitly places Jefims with Jefīmija under Eifēmija and gives euphēmos/euphēmia. The narrative attributes that family analysis to the dictionary rather than silently replacing it with a different Greek name. Personal record retains eighteenth-century Latgale precision; calendar 1899 is separate. No date transfer to feminine Jefimija.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Landa",
+      "spellings": [
+        "Landa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-LAVI"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Landa"
+      ],
+      "facts_used": "Catalogue records use in Madona district in 1973.",
+      "hypothesis": "The dictionary tentatively compares Landa with Jolanda and also mentions a sound-based formation. Its question mark prevents treating the link as verified or automatically importing Jolanda’s Greek explanation. A separate Landa record in Madona district in 1973 establishes use of the name, rather than the proposed derivation.",
+      "reason": "The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step.",
+      "uncertainties": "Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified.",
+      "next_steps": "Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified."
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Landijs",
+      "spellings": [
+        "Landijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-LAVI"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Landijs"
+      ],
+      "facts_used": "Combined Landis, -ijs entry records use in the first quarter of the twentieth century.",
+      "hypothesis": "The combined dictionary entry Landis, -ijs offers several unverified possibilities for Landijs: German Land, land, a connection with Rolands, or a sound-based formation. Each has a question mark. Its first-quarter-of-the-twentieth-century record establishes use, not a resolved origin or independent first dates for each ending.",
+      "reason": "The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step.",
+      "uncertainties": "Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope.",
+      "next_steps": "Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope."
+    },
+    {
+      "batch": "calendar-2026-11-16",
+      "date": "2026-11-12",
+      "calendar_date": "11-16",
+      "country": "lv",
+      "name": "Vētra",
+      "spellings": [
+        "Vētra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "LV-LAVI"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%93tra"
+      ],
+      "facts_used": "The dictionary compares Vētra with Latvian vētra, storm, a word for powerful wind and a natural force. It supplies that lexical comparison rather than a separate personal-name translation. A nature word can serve as a name without determining the character of its bearer. The catalogue distinguishes a feminine record near Talsi in the second quarter of the twentieth century from a masculine record in 1936. Vētra is thus documented in both uses. The approximate period of the feminine record and the masculine record’s year do not become a shared invention date.",
+      "hypothesis": "",
+      "reason": "Opened exact-form or rendering evidence and a concrete dictionary, bibliographic, literary or professional episode support the five-language narrative.",
+      "uncertainties": "Exact LV-SILINS p. 323 compares Latvian vētra without a separate name translation. Feminine Talsi-area use in the second quarter of the twentieth century and masculine 1936 remain distinct records; no calendar-entry year supplied.",
+      "next_steps": ""
+    }
+  ]
+}

@@ -8,13 +8,13 @@ The complete list of names that still lack a reviewed history, one row per name,
 
 | Level | LV | LT | EE |
 | --- | ---: | ---: | ---: |
-| Reviewed history | 484 | 183 | 255 |
-| Short factual summary | 3942 | 1162 | 428 |
-| Early record only | 366 | 1 | 12 |
-| Needs research | 764 | 222 | 858 |
+| Reviewed history | 489 | 185 | 259 |
+| Short factual summary | 3937 | 1160 | 424 |
+| Early record only | 364 | 1 | 12 |
+| Needs research | 766 | 222 | 858 |
 | Total profiles | 5556 | 1568 | 1553 |
 
-Unverified hypotheses remain included in Needs research: LV 28; LT 1; EE 3. Their widget text is explicitly labelled as a hypothesis, and their records stay in the verification queue.
+Unverified hypotheses remain included in Needs research: LV 30; LT 2; EE 3. Their widget text is explicitly labelled as a hypothesis, and their records stay in the verification queue.
 
 ## How to work through the backlog
 
@@ -85,21 +85,10 @@ Research follows the calendar: the widget shows yesterday, today and tomorrow, s
 
 | Country | Name | Now shows | Bearers | Open note |
 | --- | --- | --- | --- | --- |
-| LV | Glorija | Short factual summary | 216 |  |
-| LV | Jefims | Early record only | 89 |  |
-| LV | Jefimija | Short factual summary | 37 |  |
-| LV | Banga | Short factual summary | 16 |  |
-| LV | Landa | Short factual summary | 15 |  |
-| LV | Vētra | Early record only | 7 |  |
-| LV | Landijs | Short factual summary | 3 |  |
-| LV | Ganda | Needs research |  |  |
-| LT | Edmundas | Short factual summary |  |  |
-| LT | Gerdvilė | Needs research |  |  |
-| LT | Vaišvydas | Short factual summary |  |  |
-| EE | Arne | Short factual summary | 703 |  |
-| EE | Aarne | Short factual summary | 659 |  |
-| EE | Arno | Short factual summary | 653 |  |
-| EE | Arnold | Short factual summary | 408 |  |
+| LV | Landa | Unverified hypothesis | 15 | Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified. |
+| LV | Landijs | Unverified hypothesis | 3 | Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope. |
+| LV | Ganda | Needs research |  | Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one. |
+| LT | Gerdvilė | Unverified hypothesis |  | Find an exact etymological entry in LT-VLKK, LT-LKI or the original Lithuanian name dictionary, resolving gerd- rather than silently changing it to ger-. Salys PDF p. 231 / printed p. 216 visually establishes the exact feminine given name only. Popular geras/viltis explanations remain unverified; do not invent a connecting d, medieval bearer or creation date. |
 
 ### 17 November
 
@@ -390,6 +379,7 @@ These names were examined but not written, usually because only a meaning was fo
 | Jevģenijs | Unverified hypothesis | 86 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
 | Jevgēņija | Unverified hypothesis | 50 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevgēņija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
 | Jevģenija | Unverified hypothesis | 30 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Landa | Unverified hypothesis | 15 | The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step. | Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified. |
 | Viāna | Unverified hypothesis | 13 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Viāna as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
 | Evgenijs | Unverified hypothesis | 10 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
 | Eugenijs | Unverified hypothesis | 8 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Eugenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. Do not reuse the misleading 1961-manual search snippet: its actual row is Euģenijus, not Eugenijs. |
@@ -398,6 +388,7 @@ These names were examined but not written, usually because only a meaning was fo
 | Vidards | Unverified hypothesis | 5 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vidards as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
 | Jevženija | Unverified hypothesis | 4 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevženija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
 | Undina | Unverified hypothesis | 4 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Find an exact short-i rendering or historical original through LV-LVA/LV-PERIODIKA. The normalized lookup inherits Undīna/-e and its 1922 Riga record; keep the attested macron and do not claim that date for Undina. |
+| Landijs | Unverified hypothesis | 3 | The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step. | Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope. |
 | Undija | Unverified hypothesis | 3 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Search LV-LVA, LV-LAVI and LV-PERIODIKA for an exact etymology or explicitly documented variant. The exact catalogue entry lacks an explanation; similarity to Unda does not establish derivation or inherited dates. A publisher sample credit for Undija Ancēna is an uninspected usage lead only. |
 | Vikars | Unverified hypothesis | 3 | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified. |
 | Evģenijs | Unverified hypothesis | 2 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
@@ -412,6 +403,7 @@ These names were examined but not written, usually because only a meaning was fo
 | Undita | Unverified hypothesis | 1 | The exact derivation or spelling bridge is not established; keep the text explicitly labelled as a hypothesis, excluded from reviewed coverage. | Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited. |
 | Vianda | Unverified hypothesis | 1 | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vianda as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
 | Euģenijs | Unverified hypothesis |  | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. |
+| Ganda | Needs research |  | No sufficient origin evidence or defensible hypothesis was found; retain the standard missing-history display and an open research record. | Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one. |
 | Vicenta | Unverified hypothesis |  | The proposed derivation or spelling bridge is not established. Display only as an explicitly labelled hypothesis, excluded from reviewed coverage. | Inspect the original Siliņš pp. 323/328 and an authoritative exact Vicenta entry. The catalogue’s tentative Vicents/Vincentīna pointer does not establish a clear exact-form derivation; do not import their dates. |
 | Vidavs | Unverified hypothesis |  | Additional searches and opened academic/official sources did not establish the exact proposed spelling relationship. Keep the comparison explicitly unverified; official calendar membership is not etymology. | Search LV-PERIODIKA and LV-LU-REPO for exact Vidavs as a given name, inspect the original record, then locate an onomastic explanation or explicit paired form. LV-VVC already establishes calendar membership only. |
 
@@ -421,6 +413,7 @@ These names were examined but not written, usually because only a meaning was fo
 | --- | --- | --- | --- | --- |
 | Veronika | Short factual summary | 29983 | Written in parallel by the LV research round (r10); left to that entry to avoid duplicate keys. |  |
 | Arūnas | Short factual summary | 20338 | Origin verified, but no concrete, verifiable historical detail (coiner, first attestation, emblematic pre-modern bearer) found; the LKŽ neologism label for aras could not be opened directly (ekalba.lt returned no entry text). | Open the LKŽ entry for aras (lkz.lt / ekalba.lt) to confirm who introduced aras "eagle" and when; check Lithuanian onomastic literature (e.g. Kuzavinis & Savukynas, Lietuvių vardų kilmės žodynas) for when Arūnas first appeared as a given name. |
+| Gerdvilė | Unverified hypothesis |  | The proposed origin remains unresolved; display only with an explicit Hypothesis label and retain the verification step. | Find an exact etymological entry in LT-VLKK, LT-LKI or the original Lithuanian name dictionary, resolving gerd- rather than silently changing it to ger-. Salys PDF p. 231 / printed p. 216 visually establishes the exact feminine given name only. Popular geras/viltis explanations remain unverified; do not invent a connecting d, medieval bearer or creation date. |
 | Juozapotas | Unverified hypothesis |  | Exact historical usage is now established, but the proposed Juozapatas etymological bridge remains unverified. The widget adds the verified record separately inside the qualified hypothesis account. | Use LT-VLKK and LT-LITUANISTIKA to find an authoritative exact-form etymology or an explicit Juozapotas/Juozapatas paired record. Historical calendar usage and short forms are already established; preserve the 14-versus-12-November discrepancy. |
 
 ### EE
@@ -605,7 +598,6 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Iraīda | Early record only | 101 |
 | Praskovja | Early record only | 98 |
 | Nensija | Early record only | 96 |
-| Jefims | Early record only | 89 |
 | Erlands | Early record only | 83 |
 | Ingvars | Early record only | 79 |
 | Sana | Early record only | 75 |
@@ -674,6 +666,7 @@ LV: registered bearers (PMLP, name anywhere among given names).
 | Severīns | Early record only | 31 |
 | Fabians | Early record only | 30 |
 | Frīdis | Needs research | 30 |
+| Nadia | Needs research | 30 |
 
 ### EE
 
@@ -762,11 +755,11 @@ EE: exact first names (Statistics Estonia); “< 5” and “5–8” are the so
 | Ragne | Needs research | 381 |
 | Age | Needs research | 380 |
 
-## Priority 4: other LT names that still need research (221)
+## Priority 4: other LT names that still need research (220)
 
 These names are outside the official TOP 50 lists, so no count is available; the list is alphabetical. Most are Lithuanian two-stem names (for example Gin-vilas, Daug-gaudas). Explain each name’s own stems from a source, and add a historical bearer only when one is documented.
 
-Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bilmantas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvydė, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargintė, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Eularija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Geisvinė, Gelvydė, Gentvainas, Gentvila, Gerdvilas, Gerdvilė, Gilvainas, Gilvynas, Ginbutas, Girvydė, Gordijonas, Guntilda, Hetga, Iminė, Irenijus, Irvita, Josmilas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Kolumbas, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liubartė, Liudginas, Liudlė, Liugailė, Mandravas, Mandravė, Mangailas, Mangailė, Mantgailas, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Norgaudė, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Saugardas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Steigintas, Svaigaudas, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvainas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaidvitė, Vaigedas, Vaigedė, Vaingedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vėjūnas, Veliuona, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilbutas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Vytartė, Vitbutas, Zygfrydas, Žadvainas, Žadvainis, Žybartė
+Agrikola, Aiškutė, Akvilma, Aldevinas, Algedė, Alkmenas, Alvila, Amoldas, Anakletas, Andhus, Anielius, Anys, Antoninas, Arenas, Arene, Arimantas, Atgaudė, Augerijus, Augūna, Aurymė, Baniutė, Barmantas, Barvydė, Bedas, Bilmantas, Bylotas, Burvilė, Butautė, Butenis, Butginas, Butrimas, Butvydė, Butvilė, Cezarė, Dagailė, Dargailas, Dargintas, Dargintė, Dargvitė, Daugailas, Daugandas, Dautara, Demetras, Deziderijus, Domicijonas, Dravenis, Edilija, Eidmanas, Eivilitas, Eivilitė, Elvydė, Ermelinda, Eufrozija, Eularija, Evodijus, Fabijolė, Fajina, Felicisimas, Filomenas, Gaydvilė, Gailenis, Gailigedas, Gaitė, Galė, Galgintas, Galigantas, Galiginas, Galimantas, Galimintas, Galindas, Galindė, Galinta, Galintas, Galintė, Galmantė, Galvydė, Ganvilė, Gatigintas, Gedardas, Gedėtas, Gedgailė, Gedgantas, Gedgaudė, Gedimtas, Geditas, Geisvyda, Geisvilas, Geisvinė, Gelvydė, Gentvainas, Gentvila, Gerdvilas, Gilvainas, Gilvynas, Ginbutas, Girvydė, Gordijonas, Guntilda, Hetga, Iminė, Irenijus, Irvita, Josmilas, Kandidas, Kantrimė, Kantvydė, Kargaudas, Kasijonas, Kentautė, Klodas, Klodoaldas, Kolumba, Kolumbas, Krizas, Labvardas, Laimona, Lengvenis, Lengvinė, Lenora, Liaudmina, Ligidija, Limantė, Liubartė, Liudginas, Liudlė, Liugailė, Mandravas, Mandravė, Mangailas, Mangailė, Mantgailas, Mantminas, Martė, Martinijonas, Martys, Mąstvilas, Milgedė, Mingedė, Nautas, Nerėjas, Nerilis, Nerys, Nervilas, Nonita, Norgailis, Norgaudė, Normantė, Norvaidė, Norvainė, Norvaldė, Oktavijonas, Panteleonas, Pijonijus, Poncijonas, Protenis, Prudencijus, Radė, Raudvilė, Romula, Roželė, Salemonas, Salvinas, Saugardas, Seragina, Severijonas, Sigisbertas, Sigutis, Simplicijus, Sitvija, Skirtautė, Skirvydė, Steigintas, Svaigaudas, Svalia, Svirbutas, Tanvilas, Tanvilė, Tarmantas, Tarvainas, Tarvildas, Tautenė, Tautgirdė, Teobaldas, Teofanas, Tormantas, Tulgedas, Tulgirdas, Vaidmantė, Vaidvitė, Vaigedas, Vaigedė, Vaingedė, Vaištautas, Vaišvydė, Varūna, Varūnė, Vėjūnas, Veliuona, Vydgailė, Vydotas, Vientautė, Viešvilas, Vilbutas, Vilda, Vilgirdė, Vyliaudė, Vilintas, Vilys, Vilūnė, Vinfridas, Visgailas, Visgintas, Visvilas, Vytardas, Vytartė, Vitbutas, Zygfrydas, Žadvainas, Žadvainis, Žybartė
 
 ## Priority 5: other EE names that still need research (780)
 

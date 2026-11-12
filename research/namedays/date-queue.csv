@@ -31,21 +31,10 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 3,11-15,lv,Undita,unresearched,1,unverified,needs_more
 3,11-15,ee,Vaigi,unresearched,< 5,unverified,needs_more
 3,11-15,ee,Vaiki,unresearched,46,unverified,needs_more
-4,11-16,lv,Banga,summary,16,,
-4,11-16,lv,Glorija,summary,216,,
-4,11-16,lv,Ganda,unresearched,,,
-4,11-16,lv,Jefimija,summary,37,,
-4,11-16,lv,Jefims,attestation,89,,
-4,11-16,lv,Landa,summary,15,,
-4,11-16,lv,Landijs,summary,3,,
-4,11-16,lv,Vētra,attestation,7,,
-4,11-16,lt,Edmundas,summary,,,
-4,11-16,lt,Gerdvilė,unresearched,,,
-4,11-16,lt,Vaišvydas,summary,,,
-4,11-16,ee,Arnold,summary,408,,
-4,11-16,ee,Arno,summary,653,,
-4,11-16,ee,Arne,summary,703,,
-4,11-16,ee,Aarne,summary,659,,
+4,11-16,lv,Ganda,unresearched,,unverified,needs_more
+4,11-16,lv,Landa,unresearched,15,unverified,needs_more
+4,11-16,lv,Landijs,unresearched,3,unverified,needs_more
+4,11-16,lt,Gerdvilė,unresearched,,unverified,needs_more
 5,11-17,lv,Hugo,summary,1350,,
 5,11-17,lv,Uga,summary,24,,
 5,11-17,lv,Uģis,summary,2226,,
@@ -7996,7 +7985,6 @@ order,date,country,name,category,registered_bearers,verification_status,note_sta
 352,10-30,lv,Uļjana,summary,454,,
 352,10-30,lv,Uļjans,summary,3,,
 352,10-30,lt,Darata,summary,,,
-352,10-30,lt,Edmundas,summary,,,
 352,10-30,lt,Liucilė,summary,,,
 352,10-30,lt,Skirgaila,summary,,,
 352,10-30,lt,Skirvydė,unresearched,,,

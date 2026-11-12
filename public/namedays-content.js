@@ -2,7 +2,7 @@ import {formatAttestation} from './namedays-attestation.js';
 import {reviewedHistory} from './namedays-history.js';
 import {unverifiedHistory,HYPOTHESIS_LABELS} from './namedays-hypotheses.js';
 import {rootHistory,reviewedRoot} from './namedays-roots.js';
-export const WRITER_VERSION='namedays-1.9.4';
+export const WRITER_VERSION='namedays-1.9.5';
 export function nameIdentity(name){return name.normalize('NFD').replace(/(\p{Script=Latin})\p{M}+/gu,'$1').normalize('NFC').replace(/\.$/,'').toLowerCase();}
 export const LANGUAGES=['lv','ru','en','lt','et'];
 const bundles={

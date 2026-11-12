@@ -43,7 +43,9 @@ for(const country of ['lv','lt','ee']){
  }
 }
 const csvCell=v=>{const s=String(v??'');return /[",\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;};
-const csv=['country,name,category,registered_bearers,bearer_basis,calendar_dates,verification_status,note_status,next_steps',...rows.filter(r=>r.category!=='reviewed').sort((a,b)=>a.country.localeCompare(b.country)||byBearers(a,b)).map(r=>[r.country,r.name,r.category,r.bearers.label,r.bearers.label?BASIS[r.country]:'',r.dates,r.unverified?'unverified':'',r.note?.status||'',r.note?.next_steps||''].map(csvCell).join(','))].join('\n')+'\n';
+// An open research note can remain unverified without a hypothesis to display in the widget.
+const verification=r=>r.unverified||r.note?.verification_status==='unverified'?'unverified':'';
+const csv=['country,name,category,registered_bearers,bearer_basis,calendar_dates,verification_status,note_status,next_steps',...rows.filter(r=>r.category!=='reviewed').sort((a,b)=>a.country.localeCompare(b.country)||byBearers(a,b)).map(r=>[r.country,r.name,r.category,r.bearers.label,r.bearers.label?BASIS[r.country]:'',r.dates,verification(r),r.note?.status||'',r.note?.next_steps||''].map(csvCell).join(','))].join('\n')+'\n';
 await writeFile(new URL('research/namedays/backlog.csv',project),csv);
 
 const md=[];
@@ -77,7 +79,7 @@ for(let i=0;i<366;i++){
  }
 }
 const dayLabel=key=>new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',timeZone:'UTC'}).format(new Date('2000-'+key+'T12:00:00Z'));
-await writeFile(new URL('research/namedays/date-queue.csv',project),['order,date,country,name,category,registered_bearers,verification_status,note_status',...queue.map(r=>[r.order,r.day,r.country,r.name,r.category,r.bearers.label,r.unverified?'unverified':'',r.note?.status||''].map(csvCell).join(','))].join('\n')+'\n');
+await writeFile(new URL('research/namedays/date-queue.csv',project),['order,date,country,name,category,registered_bearers,verification_status,note_status',...queue.map(r=>[r.order,r.day,r.country,r.name,r.category,r.bearers.label,verification(r),r.note?.status||''].map(csvCell).join(','))].join('\n')+'\n');
 md.push('## Priority 0: upcoming name days','',
  'Research follows the calendar: the widget shows yesterday, today and tomorrow, so the nearest days come first. Generated for '+dayLabel(today.slice(5))+' (Europe/Riga); regenerate before each round. Each day lists every name in the LV, LT and EE calendars that still lacks a reviewed history, most common first. Complete a research pass over all three countries before advancing; explicitly unverified hypotheses remain listed for later verification and do not make a day verified-complete. The full year-long queue is in [`research/namedays/date-queue.csv`](research/namedays/date-queue.csv).','');
 for(let i=0;i<UPCOMING_DAYS;i++){
