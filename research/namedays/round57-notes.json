@@ -1,0 +1,2784 @@
+{
+  "round": 57,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "19–25 November recheck: 94 open profiles examined; 6 histories written (LV Keta, Alfons, Alfonss, Zigrīda, Sigrīda; EE Kleemet), 2 hypothesis comparisons improved (LV Beta, EE Helmur), 88 remain open. New: Rajandi 1966 name book (EE), LVA Cat→Keta and German Alfons→Alfonss rows, Sinijärv 2014 Säsil usage.",
+  "records": [
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Beta",
+      "spellings": [
+        "Beta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA",
+        "LV-LVA-BETH"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Beta",
+        "https://www.personvarduatveide.lv/words/28076?locale=lv",
+        "https://www.behindthename.com/name/beth",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Beta"
+      ],
+      "facts_used": "Beta is still being checked between two routes named in Siliņš's dictionary: Beāte, or Bete as a short form of Elizabete. A 2006 manual of English names in Latvian renders English Beth, a short form of Elizabeth, as Beta; this supports the Elizabete route for that rendering but does not exclude Beāte for other bearers. This remains an unverified proposal.",
+      "hypothesis": "Beāte / Bete–Elizabete; English Beth → Beta rendering",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "New: LVA exact row English Beth → Beta (Ahero 2006 p. 95; /words/28076) supports the Elizabete route for that rendering only. LV-SILINS p. 82 via catalogue still offers Beāte or Bete (→ Elizabete); exact Beta attested Riga 1923, calendar 1889. Precedent (Andīna/Undine, round 20) keeps a single foreign-rendering route from resolving a dictionary's competing routes; comparison text improved, not promoted.",
+      "next_steps": "Find a signed LV-LAVI or LV-PERIODIKA discussion of Latvian Beta (e.g. 1920s Riga bearer records) that states whether it was formed from Beāte or from Bete/Elizabete; Beth → Beta covers only the English rendering."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Eba",
+      "spellings": [
+        "Eba"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Eba",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Eba"
+      ],
+      "facts_used": "The catalogue connects Eba either with Elizabete or with affectionate forms of the Eber- family. These are distinct derivational possibilities. Until direct evidence for Eba’s formation is found, neither the Hebrew oath meaning nor the Germanic family can be selected as the sole verified explanation.",
+      "hypothesis": "Elizabete",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: Elizabete or Eber- pet-form alternatives (p. 105; 113), attested 4th quarter 19th c., calendar 1817. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row (6 rows: Ebba/Ebbe-type and surnames).",
+      "next_steps": "Inspect original Siliņš p. 105 and seek an exact explanation choosing between Elizabete and Eber- affectionate forms in LV-LAVI/LV-PERIODIKA. Scandinavian Ebba is only a comparison and cannot resolve Latvian single-b Eba by resemblance."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elīzabeta",
+      "spellings": [
+        "Elīzabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/El%C4%ABzabeta",
+        "https://www.izpetnieks.lv/en/name/Elizabeta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=El%C4%ABzabeta"
+      ],
+      "facts_used": "Elīzabeta may be related to Elizabeta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elīzabeta.",
+      "hypothesis": "Elizabeta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: exact long-ī form not found (p. 113). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; Elisabeth rows give Elizabete/Elizabeta/Elisabete only (Danish Elisabeth → Elisabete, Elizabete).",
+      "next_steps": "Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabeta. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elīzabete",
+      "spellings": [
+        "Elīzabete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/El%C4%ABzabete",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=El%C4%ABzabete"
+      ],
+      "facts_used": "Elīzabete may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elīzabete.",
+      "hypothesis": "Elizabete",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: exact long-ī form not found (p. 113). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; Elisabeth rows give Elizabete/Elizabeta/Elisabete only (Danish Elisabeth → Elisabete, Elizabete).",
+      "next_steps": "Find an exact long-ī rendering in LV-LVA original manuals or signed LV-LAVI onomastics. Search returned unaccented Elizabeta/Elizabete or different Elizabēte; those rows do not prove Elīzabete. Inspect Siliņš p. 113 and historical LV-PERIODIKA records without dropping diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elizavete",
+      "spellings": [
+        "Elizavete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elizavete",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Elizavete"
+      ],
+      "facts_used": "Elizavete may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elizavete.",
+      "hypothesis": "Elizabete",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows at all. Catalogue gives no exact-form explanation.",
+      "next_steps": "Find an explicit exact Elizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elizbete",
+      "spellings": [
+        "Elizbete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elizbete",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Elizbete"
+      ],
+      "facts_used": "Elizbete may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elizbete.",
+      "hypothesis": "Elizabete",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows at all. Catalogue gives no exact-form explanation.",
+      "next_steps": "Find an explicit exact Elizbete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Elzabeta",
+      "spellings": [
+        "Elzabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Elzabeta",
+        "https://www.izpetnieks.lv/en/name/Elizabete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Elzabeta"
+      ],
+      "facts_used": "Elzabeta may be related to Elizabete and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Elzabeta.",
+      "hypothesis": "Elizabete",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows at all. Catalogue gives no exact-form explanation.",
+      "next_steps": "Find an explicit exact Elzabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jelizabeta",
+      "spellings": [
+        "Jelizabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jelizabeta",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jelizabeta"
+      ],
+      "facts_used": "Jelizabeta may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jelizabeta.",
+      "hypothesis": "Jeļizaveta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows at all. Catalogue gives no exact-form explanation.",
+      "next_steps": "Find an explicit exact Jelizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jelizavete",
+      "spellings": [
+        "Jelizavete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Jelizavete",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jelizavete"
+      ],
+      "facts_used": "Jelizavete may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jelizavete.",
+      "hypothesis": "Jeļizaveta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows at all. Catalogue gives no exact-form explanation.",
+      "next_steps": "Find an explicit exact Jelizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jeļizabeta",
+      "spellings": [
+        "Jeļizabeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizabeta",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Je%C4%BCizabeta"
+      ],
+      "facts_used": "Jeļizabeta may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jeļizabeta.",
+      "hypothesis": "Jeļizaveta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row. Separate Ukrainian/Russian Єлізавета/Елизавета → Jeļizaveta (-a, with v) rows are not transferred to the -b- or -e forms.",
+      "next_steps": "Find an explicit exact Jeļizabeta correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Jeļizavete",
+      "spellings": [
+        "Jeļizavete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizavete",
+        "https://www.izpetnieks.lv/en/name/Je%C4%BCizaveta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Je%C4%BCizavete"
+      ],
+      "facts_used": "Jeļizavete may be related to Jeļizaveta and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Jeļizavete.",
+      "hypothesis": "Jeļizaveta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row. Separate Ukrainian/Russian Єлізавета/Елизавета → Jeļizaveta (-a, with v) rows are not transferred to the -b- or -e forms.",
+      "next_steps": "Find an explicit exact Jeļizavete correspondence in LV-LVA original manuals, LV-LAVI or historical LV-PERIODIKA. Exact query returned no word-entry links; absence is not proof of nonexistence. Catalogue points to a different spelling. Do not substitute b/v, a/e, insert letters or remove ļ to manufacture a bridge; keep related-form dates separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Lize",
+      "spellings": [
+        "Lize"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lize",
+        "https://www.izpetnieks.lv/en/name/L%C4%ABze",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Lize"
+      ],
+      "facts_used": "Lize may be related to Līze and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Lize.",
+      "hypothesis": "Līze",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: exact Lize not found (pp. 218; 113). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row: German Lise / Liese → Līze and Danish/Norwegian Lise → Līse are long-ī forms, not short-i Lize.",
+      "next_steps": "Seek an exact short-i Lize in LV-PERIODIKA bearer records or a rendering manual; long-ī Līze/Līse rows (German Lise/Liese) must not be transferred."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lv",
+      "name": "Līziņa",
+      "spellings": [
+        "Līziņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/L%C4%ABzi%C5%86a",
+        "https://www.izpetnieks.lv/en/name/L%C4%ABza",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=L%C4%ABzi%C5%86a"
+      ],
+      "facts_used": "Līziņa may be related to Līza and the Elizabete family, but a direct correspondence for this exact spelling remains unverified. A catalogue cross-reference and similar search results do not establish the transition. The Hebrew-family explanation therefore remains a comparison, and the historical dates of related forms are not transferred to Līziņa.",
+      "hypothesis": "Līza",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 218). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row. Diminutive -iņa formation from Līza is plausible but not documented for the exact form.",
+      "next_steps": "Find exact Līziņa and an explicit derivation in LV-LVA/LV-LAVI/LV-PERIODIKA. Search returned unrelated surname/longer-name or differently accented records, not the exact given-name bridge. Inspect Siliņš pp. 218/113; do not transfer Līza/Līze dates or assume a plausible diminutive is proved."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-19",
+      "date": "2026-11-12",
+      "calendar_date": "11-19",
+      "country": "lt",
+      "name": "Rimgaudė",
+      "spellings": [
+        "Rimgaudė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-PAKERYS09",
+        "LT-PAKERYS10",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/rimgaude/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287"
+      ],
+      "facts_used": "The popular guide connects Rimgaudė with rimti, to become calm, and gaudus, resonant or loud. Salys’s historical name-stem list instead explains Gaud- through gauti, to obtain, rather than sound. That list is not an exact Rimgaudė entry, so the difference still needs resolving in an exact-name etymological source. One secure whole-name meaning cannot yet be given.",
+      "hypothesis": "rimti; gaudus / gauti",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LT-PAKERYS09/10/11 PDFs downloaded and text-searched: no Rimgaudė/Rimgaud- hit. LT-SALYS83 p. 287 element note and LT-GUIDE remain the only checked bases.",
+      "next_steps": "Find an exact authoritative etymology in LT-VLKK/LT-LKI or Kuzavinis/Savukynas that resolves gaudus sound versus gauti/gaudyti. LT-GUIDE gives rimti/ramintis + gaudus; visually checked Salys PDF p. 287 / printed p. 272 explains general Gaud- through gauti, compare (su)gaudinti. It lists Ringaudas, not Rimgaudė; do not silently equate Ringaudas/Rimgaudas or transfer the male Rimgaudas dictionary record to this form. Guide date is 28 November, unlike project 19 November; preserve supplied date. No secure whole-name translation yet."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Anda",
+      "spellings": [
+        "Anda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Anda"
+      ],
+      "facts_used": "Anda may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "hypothesis": "Anda / Amanda / Andra",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: Anda associated with Amanda or Andra, no single origin (p. 56); attested 1927, calendar 1889. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row (6 rows: surnames / longer names). Highest-bearer open profile on 20 November.",
+      "next_steps": "Search LV-LAVI (Balode/Siliņa-Piņķe new-dictionary work, LV-ALL93/LV-LILE24) and LV-PERIODIKA for a 1920s explanation of Anda; check whether the 1889 calendar entry itself glosses the name."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andīna",
+      "spellings": [
+        "Andīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA-ANDINA",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/And%C4%ABna",
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.personvarduatveide.lv/words/28978.pdf?locale=lv",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=And%C4%ABna"
+      ],
+      "facts_used": "Andīna may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence. Separately, an LVA record citing a 2006 guide explicitly gives English Undine → Andīna. This adds a documented rendering route without settling every Latvian bearer’s origin or the other Anda proposals.",
+      "hypothesis": "Anda / Amanda / Andra",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 56): Anda family with Amanda/Andra alternatives. LVA English Undine → Andīna (Ahero 2006 p. 119) re-confirmed; still a single extra route. No other exact row.",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīna spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andija",
+      "spellings": [
+        "Andija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andija",
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Andija"
+      ],
+      "facts_used": "Andija may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "hypothesis": "Anda / Amanda / Andra",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 56): Anda family with Amanda/Andra alternatives. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andija spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andina",
+      "spellings": [
+        "Andina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andina",
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Andina"
+      ],
+      "facts_used": "Andina may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "hypothesis": "Andīna",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 56): Anda family with Amanda/Andra alternatives. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andina spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Andīne",
+      "spellings": [
+        "Andīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/And%C4%ABne",
+        "https://www.izpetnieks.lv/en/name/Anda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=And%C4%ABne"
+      ],
+      "facts_used": "Andīne may belong to the Anda family, whose explanation still leaves Amanda and Andra possibilities. These do not establish one verified whole-name meaning. Dictionary forms with long ī and short i are not automatically interchangeable; each spelling needs its own direct evidence.",
+      "hypothesis": "Anda / Amanda / Andra",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 56): Anda family with Amanda/Andra alternatives. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row",
+      "next_steps": "Inspect original Siliņš p. 56 and seek a signed LV-LAVI explanation resolving Amanda/Andra routes. Exact Andīne spelling must remain distinct. LVA has a checked additional English Undine → Andīna route (Ahero 2006, p. 119), not an answer for every Anda-family bearer; neither the long-ī pair’s joint twentieth-century/1971 record nor that rendering is transferred to plain Andina. Other LVA search rows were longer names/surnames or Amandīne, not the exact target."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Nanda",
+      "spellings": [
+        "Nanda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Nanda",
+        "https://www.behindthename.com/name/nanda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Nanda"
+      ],
+      "facts_used": "International Nanda can be a Sanskrit name meaning joy, but this does not establish exact Latvian Nanda’s origin. The Latvian catalogue leaves the form unresolved and points towards a Nana comparison. The Sanskrit explanation therefore remains a possibility rather than a verified correspondence or a shared history for every bearer.",
+      "hypothesis": "Nana / international Nanda",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: no direct support (p. 245, see Nana). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row (6 non-matching rows).",
+      "next_steps": "Seek an explicit Latvian Nanda bridge in LV-LAVI/LV-PERIODIKA or an exact rendering manual. LV-SILINS p. 245 points towards Nana without establishing Nanda. Curated Sanskrit Nanda joy is independently documented internationally, not automatically Latvian. LVA returned Fernanda variants rather than exact Nanda."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vīga",
+      "spellings": [
+        "Vīga"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABga",
+        "https://www.izpetnieks.lv/en/name/Viga",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=V%C4%ABga"
+      ],
+      "facts_used": "Vīga may be compared with Viga, but the connection between the exact spellings remains unconfirmed. Source information about Viga cannot automatically be assigned to Vīga. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "hypothesis": "Viga",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: exact long-ī form not found (p. 324). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Find an explicit exact Vīga correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vīgants",
+      "spellings": [
+        "Vīgants"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABgants",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=V%C4%ABgants"
+      ],
+      "facts_used": "For Vīgants the source gives Lithuanian vyti, ginti and ganyti alongside Old High German wigand, warrior, without selecting one origin. A full translation remains unverified. Separately documented are exact Vīgants in Allaži in 1638 and a 1767 calendar entry; these establish use rather than select an etymology.",
+      "hypothesis": "vyti / ginti / wigand",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Inspect original Siliņš p. 324 and seek an exact scholarly account choosing or delimiting Lithuanian vyti/ginti/ganyti versus Germanic wigand. Preserve Allaži 1638 and calendar 1767 independently. Exact LVA query returned no word entries; curated Wigand/Vygantas alone does not resolve every Latvian Vīgants route."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigars",
+      "spellings": [
+        "Vigars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigars",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigars"
+      ],
+      "facts_used": "The dictionary cautiously compares Vigars with Wighard, explained through Old High German wīg, battle, and hart, firm. Its question mark matters: this is not yet a proved Vigars derivation. A separate usage record near Preiļi in the third quarter of the twentieth century does not settle the etymology.",
+      "hypothesis": "Wighard",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Inspect original Siliņš p. 324 and find an exact Vigars/Wighard correspondence in LV-LAVI/LV-LVA. The Wighard question mark is unresolved; keep wīg/hart as comparison only. Preserve the separate Preiļi third-quarter-twentieth-century record. Exact LVA search returned no word entries."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigda",
+      "spellings": [
+        "Vigda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigda"
+      ],
+      "facts_used": "The dictionary refers Vigda to Vigdis with a question mark. This is an unresolved comparison rather than a confirmed derivation; gender and meaning from similar international forms cannot be transferred automatically either. A 1936 record establishes exact Vigda in use, not the proposed origin link.",
+      "hypothesis": "Vigdis",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Inspect original Siliņš p. 324 and verify its questioned Vigdis reference, including the dictionary’s masculine label versus international feminine Vigdis. Do not silently replace the source’s grammatical scope. Preserve Vigda 1936 as usage only; exact LVA returned no word entries."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigelijs",
+      "spellings": [
+        "Vigelijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigelijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigelijs"
+      ],
+      "facts_used": "Vigelijs needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Search exact Vigelijs in LV-LAVI/LV-PERIODIKA and original Siliņš/name-rendering references. Exact catalogue page supplies no origin text or citation and LVA has no word-entry links. A resemblance to Vigilijs/Vigilija is not enough to manufacture a proposal. Keep ordinary missing-history UI and an open unverified record."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigeta",
+      "spellings": [
+        "Vigeta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigeta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigeta"
+      ],
+      "facts_used": "The dictionary cautiously compares Vigeta with Vigita, but questions the connection. The compared name’s origin is therefore not yet a verified Vigeta etymology. Separately, the source documents use of the exact form in Liepāja in 1976; that date does not settle the origin.",
+      "hypothesis": "Vigita",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigija",
+      "spellings": [
+        "Vigija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigija"
+      ],
+      "facts_used": "The dictionary cautiously compares Vigija with Vigilija, but questions the connection. The compared name’s origin is therefore not yet a verified Vigija etymology. Separately, the source documents use of the exact form in Talsi in 1977; that date does not settle the origin.",
+      "hypothesis": "Vigilija",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Vigilija; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigilijs",
+      "spellings": [
+        "Vigilijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigilijs",
+        "https://www.izpetnieks.lv/en/name/Vigilija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigilijs"
+      ],
+      "facts_used": "Vigilijs may be compared with Vigilija, but the connection between the exact spellings remains unconfirmed. Source information about Vigilija cannot automatically be assigned to Vigilijs. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "hypothesis": "Vigilija",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Find an explicit exact Vigilijs correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vigita",
+      "spellings": [
+        "Vigita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigita",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigita"
+      ],
+      "facts_used": "The dictionary cautiously compares Vigita with Viga / Ligita, but questions the connection. The compared name’s origin is therefore not yet a verified Vigita etymology. Separately, the source documents use of the exact form near Talsi in 1975; that date does not settle the origin.",
+      "hypothesis": "Viga / Ligita",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Find an exact signed derivation in LV-LAVI or original Siliņš p. 324. The catalogue explicitly questions Viga/Ligita; matching dates or related-name list placement do not resolve it. Preserve the exact 1970s usage record separately. LVA query returned no word entries."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Vīgo",
+      "spellings": [
+        "Vīgo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABgo",
+        "https://www.izpetnieks.lv/en/name/Vigo",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=V%C4%ABgo"
+      ],
+      "facts_used": "Vīgo may be compared with Vigo, but the connection between the exact spellings remains unconfirmed. Source information about Vigo cannot automatically be assigned to Vīgo. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "hypothesis": "Vigo",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: Vīgo not found, Vigo not transferred (p. 324). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; Danish Viggo → Vigo (short i) is the only related row.",
+      "next_steps": "Find an explicit exact Vīgo correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lv",
+      "name": "Viģīlija",
+      "spellings": [
+        "Viģīlija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vi%C4%A3%C4%ABlija",
+        "https://www.izpetnieks.lv/en/name/Vigilija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vi%C4%A3%C4%ABlija"
+      ],
+      "facts_used": "Viģīlija may be compared with Vigilija, but the connection between the exact spellings remains unconfirmed. Source information about Vigilija cannot automatically be assigned to Viģīlija. The similar form’s origin remains a working proposal, and its historical records and calendar years are not transferred.",
+      "hypothesis": "Vigilija",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (p. 324 where cited). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; the search returned no rows.",
+      "next_steps": "Find an explicit exact Viģīlija correspondence in original LV-LVA manuals or signed LV-LAVI/LV-PERIODIKA research. Similar rows/spellings do not prove the target: Vigo has short i, Viga lacks a macron, Vigilija lacks ģ/ī and differs from Vigilijs. Preserve exact letters/endings and do not transfer related-form dates. LVA gave no exact target row."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "lt",
+      "name": "Vaidvitė",
+      "spellings": [
+        "Vaidvitė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-VLKK",
+        "LT-LKI",
+        "LT-SIRENA15",
+        "LT-PAKERYS09",
+        "LT-PAKERYS10",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vaidvite/"
+      ],
+      "facts_used": "Vaidvitė needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "LT-PAKERYS09/10/11 PDFs text-searched: no Vaidvit- hit. No proposal added.",
+      "next_steps": "Search exact Vaidvitė in LT-VLKK/LT-LKI and original Kuzavinis/Savukynas, then check the supplied calendar source. Exact LT-GUIDE returned 404 and general exact search found no usable origin. The Sirena 2015 newspaper says Vaidvilė, not Vaidvitė; neither that date nor the similar spelling proves a variant. Preserve the supplied 20 November membership and ordinary missing-history UI."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmu",
+      "spellings": [
+        "Helmu"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-SAAR16",
+        "EE-EKI",
+        "EE-DIGAR",
+        "POP-EE",
+        "EE-RAJANDI66"
+      ],
+      "sources": [
+        "https://wi.ee/wp-content/uploads/2017/06/VItoim16sisu.pdf#page=42",
+        "https://stat.ee/nimed/NIMEPAEVAD",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+      ],
+      "facts_used": "Helmu may be compared with the Helmut and Helmo family, but the checked sources do not establish the exact derivation. The historical study’s row Helmok, Helmus — Helmo, Helmke — Helmut does not contain Helmu. A shared name day does not prove origin either, so the helmet-and-spirit explanation remains an unverified comparison.",
+      "hypothesis": "Helmut / Helmo",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "EE-RAJANDI66 (Raamat nimedest, Tallinn 1966) PDF text-searched and p. 75 / printed p. 77 viewed: Helmut entry gives Elmu(t) and Helmur, not exact Helmu; p. 50 / printed p. 52 Elmar entry lists Elmu among forms treated as Estonian (citing Mägiste 1936). Neither line is an exact Helmu bridge.",
+      "next_steps": "Search EE-RAJANDI66 Lisanimestik and Mägiste 1936 (cited by Rajandi) for exact Helmu; keep Helmut/Helmo comparison open."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-20",
+      "date": "2026-11-12",
+      "calendar_date": "11-20",
+      "country": "ee",
+      "name": "Helmur",
+      "spellings": [
+        "Helmur"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-SAAR16",
+        "EE-EKI",
+        "EE-DIGAR",
+        "POP-EE"
+      ],
+      "sources": [
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=75",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=50",
+        "https://wi.ee/wp-content/uploads/2017/06/VItoim16sisu.pdf#page=42"
+      ],
+      "facts_used": "Helmur is still being checked between two placements in Edgar Rajandi's 1966 name book: as a further development of Helmut, and as a variant listed beside Elmur under Elmar. The book records the exact form, but these competing placements mean that no single origin can yet be chosen. This remains an unverified proposal.",
+      "hypothesis": "Helmut / Elmar (Rajandi 1966)",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "EE-RAJANDI66 visually checked: PDF p. 75 / printed p. 77, Helmut(h) 'kiivris julge' or 'südi sangar', 'meil ka Elmu(t) ja edasiarendus Helmur'; PDF p. 50 / printed p. 52, Elmar entry 'meil lisaks Elmur (~ Helmur) jt. variandid'. Exact form documented, but two competing family placements (Helmut vs Elmar). Hypothesis comparison improved accordingly.",
+      "next_steps": "Find a later signed Estonian source (EE-EKI name bibliography, Mägiste 1936) that chooses between Rajandi's Helmut and Elmar placements for Helmur."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Andars",
+      "spellings": [
+        "Andars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andars",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Andars"
+      ],
+      "facts_used": "Andars needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Andejs",
+      "spellings": [
+        "Andejs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Andejs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Andejs"
+      ],
+      "facts_used": "Andejs needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigors",
+      "spellings": [
+        "Vigors"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigors",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigors"
+      ],
+      "facts_used": "Vigors might be compared with Latin vigor or the name Vigords, but this is only a working proposal. The catalogue says this exact spelling was not found in the dictionary. Neither the Latin meaning nor Vigords’s origin is therefore established for Vigors.",
+      "hypothesis": "Latin vigor / Vigords",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Find an explicit dictionary or historical rendering bridge for exact Vigors."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigorts",
+      "spellings": [
+        "Vigorts"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigorts",
+        "https://www.izpetnieks.lv/en/name/Vigurds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigorts"
+      ],
+      "facts_used": "Vigorts might be compared with Vigords, Vigurs or Vigurds, but no documented transition has been found. The catalogue does not find exact Vigorts in the dictionary. Neither Vigurds’s 1928 record nor its questioned derivation can automatically be transferred to this form.",
+      "hypothesis": "Vigords / Vigurs / Vigurds",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Find an explicit exact-form correspondence in original dictionary or dated registration evidence."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigra",
+      "spellings": [
+        "Vigra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigra",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigra"
+      ],
+      "facts_used": "Vigra needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Search original Latvian name dictionaries and dated civil, church or press records for this exact given-name spelling."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vigurds",
+      "spellings": [
+        "Vigurds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vigurds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vigurds"
+      ],
+      "facts_used": "The shared dictionary entry compares Vigurds with Wigwart, but marks the comparison with a question mark. Its proposed Old High German elements are wīgan, to fight, and wart, guard. A Vigurds usage record is dated 1928; that confirms the form without settling the questioned origin.",
+      "hypothesis": "questioned Wigwart; wīgan / wart",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Inspect original p.325 and historical German forms to resolve the marked question."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Vilfrida",
+      "spellings": [
+        "Vilfrida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vilfrida",
+        "https://www.izpetnieks.lv/en/name/Vilfr%C4%ABds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vilfrida"
+      ],
+      "facts_used": "Vilfrida may be compared with the Vilfrīds family, but a documented bridge to this feminine form with short i has not been found. The catalogue does not find it in the dictionary. Vilfrīds’s Germanic elements and 1966 calendar record remain comparison material only.",
+      "hypothesis": "possible feminine Vilfrīds family comparison",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Find an explicit feminine rendering or dictionary entry for unaccented Vilfrida."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lv",
+      "name": "Zeltiņa",
+      "spellings": [
+        "Zeltiņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zelti%C5%86a",
+        "https://www.izpetnieks.lv/en/name/Zelt%C4%ABte",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zelti%C5%86a"
+      ],
+      "facts_used": "Zeltiņa may be compared in form with Zeltīte, but this relationship remains unverified. The catalogue says exact Zeltiņa was not found on the relevant dictionary page. The gold meaning and Zeltīte’s 1908 calendar record therefore do not automatically apply to Zeltiņa.",
+      "hypothesis": "possible Zeltīte comparison",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; no foreign-name row (e.g. Wilfrida for Vilfrida) exists.",
+      "next_steps": "Find an explicit personal-name entry or rendering for exact Zeltiņa."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Girenė",
+      "spellings": [
+        "Girenė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-PAKERYS09",
+        "LT-PAKERYS10",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/girene/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Girenė is still being checked against giria / Girė. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "giria / Girė",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LT-PAKERYS09/10/11 PDFs text-searched: no Girenė hit; LT-GUIDE/Salys basis unchanged.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Gomantas",
+      "spellings": [
+        "Gomantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS09",
+        "LT-SIRENA15"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gomantas/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2009~1367168885961/J.04~2009~1367168885961.pdf#page=8",
+        "https://rokiskiosirena.lt/laikrastis/2015-11-20.pdf#page=1"
+      ],
+      "facts_used": "Gomantas has been explained through goti, to go, and a mant- element, but the full derivation remains unverified. Pakerys’s 2009 study explicitly discusses Gómantas: some authors connect go- with goti while others decline to identify its origin. Sirena’s 2015 list records the form for 21 November; usage does not settle its etymology.",
+      "hypothesis": "go- / mant-; first-stem derivation disputed",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LT-PAKERYS09 PDF p. 8 re-read: go- linked with goti 'eiti' (LVKŽ6 157; Zinkevičius 2008 95) while other authors decline to explain go-; first stem still disputed in the source itself.",
+      "next_steps": "Follow Pakerys’s LVKŽ and Zinkevičius references and inspect competing go-/mant- analyses."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-21",
+      "date": "2026-11-12",
+      "calendar_date": "11-21",
+      "country": "lt",
+      "name": "Norgaudas",
+      "spellings": [
+        "Norgaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-SINKEVICIUTE06"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/norgaudas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2006~1367153016332/J.04~2006~1367153016332.pdf#page=3"
+      ],
+      "facts_used": "Norgaudas is still being checked against nor- + gaud-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "nor- + gaud-",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "New lead: Daiva Sinkevičiūtė, 'Dėl vardyno plėtimo dvikamieniais vardais ir jų variantais' (Lituanistika J.04 2006 PDF p. 3) cites Norgaudas among calendar compound names that could be recommended for use. Usage/normative status only; no stem analysis.",
+      "next_steps": "Inspect Sinkevičiūtė 2006 footnotes and the cited calendars for an exact Norgaudas stem analysis; keep nor- + gaud- open."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfons",
+      "spellings": [
+        "Alfons"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LITERATURE",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfons",
+        "https://www.literatura.lv/en/persons/alfons-sukovskis",
+        "https://www.literatura.lv/en/works/1396932",
+        "https://www.behindthename.com/name/alfonso"
+      ],
+      "facts_used": "Alfons: Siliņš's dictionary explains Alfons in the combined entry Alfons/Alfonss as a Germanic compound. The second element is funs, ready (for battle); for the first, the dictionary allows either adal, noble, or al, all or whole, and does not choose between them. The name family is therefore clear, while the meaning of the first element remains openly unresolved. Alfons Sukovskis (1910–1998), born in Riga, translated Lithuanian literature into Latvian. The Latvian literature database names Petras Cvirka's novel Zeme barotāja, 1949, as his first book translation and records about fifty translated books by 1998. He is one documented bearer of the exact spelling, not the earliest record of the name in Latvia.",
+      "hypothesis": "",
+      "reason": "Exact-form entry or explicit authoritative spelling bridge plus a dated exact-form record support two paragraphs in five languages; remaining etymological alternatives are stated explicitly.",
+      "uncertainties": "LV-SILINS p. 50 via catalogue: combined Alfon/s, -ss entry; adal or al + funs, first element uncertain; 1877 Bikava and calendar 1817 belong to the combined entry and are not used as exact-form dates. Resolution keeps the first-element choice explicitly open: the family is not in doubt. LV-LITERATURE person page Alfons Sukovskis (born Riga 22 Dec 1910, died 22 Nov 1998; obituary record gives 23 Nov), translator from Lithuanian; first translation 1949 Cvirka, Zeme barotāja; about 50 books 1949–1998. Biography supports one bearer only.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Aldris",
+      "spellings": [
+        "Aldris"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aldris",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Aldris"
+      ],
+      "facts_used": "Aldris needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Aldijs",
+      "spellings": [
+        "Aldijs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aldijs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Aldijs"
+      ],
+      "facts_used": "Aldijs needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Search original Latvian dictionaries and dated given-name records for the exact spelling; do not infer an Aldis/Aldra bridge from letters alone."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Aldra",
+      "spellings": [
+        "Aldra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Aldra",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Aldra"
+      ],
+      "facts_used": "The shared Aldr/a, -e entry tentatively connects Aldra with Latvian alderīgs, a weaned child, or with a sound-based formation. The source itself questions these proposals. Its Kurzeme 1943 record supplies usage evidence rather than a secure derivation of the name.",
+      "hypothesis": "alderīgs or questioned phonetic formation",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Inspect original Aldr/a,-e p48 and historical lexical evidence for alderīgs; resolve the questioned alternatives."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfins",
+      "spellings": [
+        "Alfins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfins",
+        "https://www.izpetnieks.lv/en/name/Alfons",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Alfins"
+      ],
+      "facts_used": "Alfins might be compared with Alfīns or the Alfons family, but short i is not a verified correspondence to long ī. The catalogue explicitly notes the difference and the Language Agency search yielded no exact pair. The family’s origin and dates therefore remain unproven for this form.",
+      "hypothesis": "possible comparison with long-ī Alfīns / Alfons",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: compare Alfīns/Alfons (p. 50). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row. Alfons/Alfonss resolved this round do not transfer to Alfins.",
+      "next_steps": "Inspect original p50 and find an explicit short-i/long-ī given-name rendering or historical paired record."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfonija",
+      "spellings": [
+        "Alfonija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alfonija",
+        "https://www.izpetnieks.lv/en/name/Alfons",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Alfonija"
+      ],
+      "facts_used": "The source lists Alfonija under Alfons, but the precise derivation still needs checking: Alfons’s first element also has competing explanations. Possible Alfonija use in Skaņkalne is placed in the last quarter of the nineteenth century. This qualified record does not transfer the masculine form’s calendar dates.",
+      "hypothesis": "Alfons reference; root and historical record remain qualified",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: Alfons reference (p. 50). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row. Alfons/Alfonss evidence not transferred to the feminine form.",
+      "next_steps": "Inspect p50 and the underlying Bgr. record; resolve the feminine reference and the competing first-stem explanations."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lv",
+      "name": "Alfonss",
+      "spellings": [
+        "Alfonss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-ALFONS",
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/39294?locale=lv",
+        "https://www.personvarduatveide.lv/words/39294.pdf?locale=lv",
+        "https://www.personvarduatveide.lv/words/41119?locale=lv",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Alfonss",
+        "https://www.izpetnieks.lv/en/name/Alfonss"
+      ],
+      "facts_used": "Alfonss: Siliņš's dictionary includes Alfonss in the combined entry Alfons/Alfonss and explains it as a Germanic compound whose second element is funs, ready (for battle). The first element is given either as adal, noble, or as al, all or whole, and the choice remains uncertain. The Latvian Language Agency's database confirms Alfonss as the Latvian rendering of German, Polish and Swedish Alfons and of French Alphonse. The German row cites L. Ceplītis's guide to German proper names in Latvian, published by the Latvian SSR Academy of Sciences in 1960; page 58 gives Alfons → Alfonss. This dates a normative record of the exact spelling. The dictionary's 1877 Bikava attestation belongs to the combined entry and is not assigned to this spelling alone.",
+      "hypothesis": "",
+      "reason": "Exact-form entry or explicit authoritative spelling bridge plus a dated exact-form record support two paragraphs in five languages; remaining etymological alternatives are stated explicitly.",
+      "uncertainties": "LVA exact rows → Alfonss: German Alfons (Ceplītis 1960 p. 58, word page and PDF export read), Polish Alfons (Staltmane 1998 p. 49), Swedish Alfons (Balode 2003 p. 319), French Alphonse (Bankava 2004 p. 96). LV-SILINS p. 50 combined entry; adal/al choice kept explicit; 1877 Bikava / calendar 1817 not transferred as exact-form dates. Manual year is not a first registration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Dargintė",
+      "spellings": [
+        "Dargintė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-PAKERYS11",
+        "LT-PAKERYS09"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/darginte/",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=6",
+        "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2009~1367168885961/J.04~2009~1367168885961.pdf#page=5"
+      ],
+      "facts_used": "The guide explains Dargintė through dar-/daryti, to do, and gint-/ginti, to defend. The full account remains provisional. Pakerys documents exact Dargintė accent variants in 2011, but elsewhere notes that some related dar- names may continue darg-. The first stem of this exact form still needs checking.",
+      "hypothesis": "proposed dar-/daryti + gint-/ginti; first stem unresolved",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LT-PAKERYS11 PDF p. 6 re-read: Darginta/Dargintė (plg. Dargintas) with references LVEŽ 69, CA 102, VKn 75, VKat 4; LT-PAKERYS09 p. 4 lists Dar-: Dargintas. Accentuation study only; first stem still unanalysed.",
+      "next_steps": "Follow the exact Dargintė references LVEŽ69/CA102/VKn75/VKat4 and inspect original first-stem analysis."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "lt",
+      "name": "Steigintas",
+      "spellings": [
+        "Steigintas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/steigintas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=295",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "The guide proposes stei-/steigus, careful or zealous, plus gint-/ginti, to defend, for Steigintas. The exact-form explanation still needs dictionary verification. Salys’s historical list and 22 November calendar instead have Steikintas with k, not Steigintas with g; they cannot be treated as one record without a documented bridge.",
+      "hypothesis": "stei-/steigus + gint-/ginti; historical exact-form bridge missing",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LT-PAKERYS10 PDF p. 11 re-read: 'Stei-: Steigintas', with Salys's Steikintas alongside; no explicit bridge or stem gloss beyond the guide.",
+      "next_steps": "Inspect exact Steigintas in authoritative dictionary and establish an explicit Steigintas/Steikintas bridge if one exists."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-22",
+      "date": "2026-11-12",
+      "calendar_date": "11-22",
+      "country": "ee",
+      "name": "Säsil",
+      "spellings": [
+        "Säsil"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-BTN",
+        "POP-EE",
+        "EE-RAJANDI66",
+        "EE-SINIJARV14"
+      ],
+      "sources": [
+        "https://www.behindthename.com/name/sa12sil/submitted",
+        "https://www.stat.ee/nimed/NIMEPAEVAD",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download",
+        "https://www.folklore.ee/kp/lp/2014/siirisinijarveesnimed.pdf#page=10"
+      ],
+      "facts_used": "Säsil might be compared with Cécile or Cecilia, but the origin explanation found is user-submitted rather than a verified dictionary entry. Estonia’s official name-day list confirms Säsil on 22 November alongside Cecilia and other forms. Sharing a day does not itself establish their relationship.",
+      "hypothesis": "possible Cécile/Cecilia comparison; user submission only",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "EE-RAJANDI66 Cecilia entry PDF p. 38 / printed p. 40 lists Tsetsiilia, Silje, Sille, Tsilla etc. but no Säsil; Lisanimestik has Sesilia 1772 only. en.wiktionary raw page: Estonian female given name, no etymology. New usage episode: EE-SINIJARV14 (Siiri Sinijärv, Tartu county registration office, 2014 slides) PDF p. 10 lists a parent choosing Säsil 'from a name book'; p. 7 lists Säsili among rare 2013 girls' names. Usage only, not origin.",
+      "next_steps": "Find an Estonian name dictionary (Seppo 1994, EE-EKI bibliography) with an exact Säsil entry and its Cécile/Cecilia bridge."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrīda",
+      "spellings": [
+        "Zigrīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABda",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn"
+      ],
+      "facts_used": "Zigrīda: Siliņš's dictionary refers Zigrīda to Sigrīda, the Latvian form of the Scandinavian name Sigrid. In a signed Norwegian encyclopaedia article, the name researcher Gulbrand Alhaug derives Sigrid from Old Norse Sigríðr, with sigr, victory, and fríðr, beautiful. Siliņš also mentions another analysis in which the second element means to ride, so that element remains disputed even though the name family is clear. Siliņš records the exact spelling Zigrīda in use in the last quarter of the nineteenth century and in Latvian calendars from 1901. These dates concern the Z-spelling itself. The calendar year marks inclusion in calendars, not the creation of the name or its first bearer.",
+      "hypothesis": "",
+      "reason": "Exact-form entry or explicit authoritative spelling bridge plus a dated exact-form record support two paragraphs in five languages; remaining etymological alternatives are stated explicitly.",
+      "uncertainties": "LV-SILINS pp. 337 → 290 via catalogue: Zigrīda listed under Sigrīda; attested last quarter of the 19th century; calendar 1901. Sigrīda entry: sigr + rīdan or Sigridh 'victorious beauty'. INT-SNL Sigrid (signed Gulbrand Alhaug, updated 28 May 2024): Old Norse Sigríðr < Sig-fríðr, victory + beautiful. Resolution keeps the second-element dispute explicit; family is not in doubt. LVA: Norwegian/Finnish Sigrid → Sigrida, Swedish → Sīgrida, Norwegian Sigrid → Sigri; no exact Zigrīda row, so no rendering date used.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrīds",
+      "spellings": [
+        "Zigrīds"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABds",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigr%C4%ABds"
+      ],
+      "facts_used": "The dictionary material connects Zigrīds with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: form listed under Zigrīda/Sigrīda (cross-reference, not an explicit derivation). Zigrīda/Sigrīda resolved this round with the Sigrid family; their dates are not transferred. LVA exact-row search found no exact row.",
+      "next_steps": "Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigrīda",
+      "spellings": [
+        "Sigrīda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Sigrid"
+      ],
+      "facts_used": "Sigrīda: Siliņš's dictionary has an exact Sigrīda entry linking the name with Old Norse. In a signed Norwegian encyclopaedia article, Gulbrand Alhaug derives the corresponding Scandinavian name Sigrid from Old Norse Sigríðr, with sigr, victory, and fríðr, beautiful. Siliņš also mentions an analysis in which the second element means to ride, so that part of the meaning remains disputed. Siliņš dates the use of the exact spelling Sigrīda in Latvia to the third quarter of the twentieth century. The more frequent Zigrīda spelling is attested much earlier, but its dates are not transferred to Sigrīda. Alhaug notes that Sigrid was widely used in Norway in the early nineteenth century; that is Scandinavian, not Latvian, history.",
+      "hypothesis": "",
+      "reason": "Exact-form entry or explicit authoritative spelling bridge plus a dated exact-form record support two paragraphs in five languages; remaining etymological alternatives are stated explicitly.",
+      "uncertainties": "LV-SILINS p. 290 via catalogue: exact Sigrīda entry, Old Norse sigr + rīdan or Sigridh comparison; third-quarter 20th-century attestation. INT-SNL Alhaug Sigrid: Sigríðr < Sig-fríðr; widely used early 1800s in Norway (Norwegian scope only). LVA Sigrid rows give Sigrida / Sīgrida / Sigri, not long-ī Sigrīda; no rendering date used. Zigrīda dates not transferred.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigrija",
+      "spellings": [
+        "Sigrija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigrija",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Sigrija"
+      ],
+      "facts_used": "The dictionary material connects Sigrija with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: form listed under Zigrīda/Sigrīda (cross-reference, not an explicit derivation). Zigrīda/Sigrīda resolved this round with the Sigrid family; their dates are not transferred. LVA exact-row search found no exact row.",
+      "next_steps": "Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigrūna",
+      "spellings": [
+        "Sigrūna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigr%C5%ABna",
+        "https://www.izpetnieks.lv/en/name/Sigruna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Sigr%C5%ABna"
+      ],
+      "facts_used": "Sigrūna might be compared with Sigruna, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Sigruna comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA: Norwegian Sigrun → Sigruna (short u) only; catalogue has Sigruna, not Sigrūna. No long-ū row.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Sigurnija",
+      "spellings": [
+        "Sigurnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-ACME-SIGURNIJA",
+        "INT-BTN",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sigurnija",
+        "https://www.acmefilm.lv/lv/kino/a-monster-calls",
+        "https://www.behindthename.com/name/sigourney",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Sigurnija"
+      ],
+      "facts_used": "Sigurnija can render English Sigourney: ACME’s A Monster Calls page names one actress both Sigurnija Vīvere and Sigourney Weaver, with the Latvian premiere dated 21 October 2016. Sigourney continues a surname from French Sigournais, whose further meaning is uncertain. This does not establish every family’s naming route.",
+      "hypothesis": "documented Sigourney rendering; surname/place meaning remains uncertain",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue/ACME film rendering re-read; LVA has no Sigourney row. Surname/place etymology still uncertain.",
+      "next_steps": "Trace the surname/place etymology through authoritative records and seek an exact Latvian given-name history; keep the confirmed film rendering distinct from any universal naming claim."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigda",
+      "spellings": [
+        "Zigda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigda",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigda"
+      ],
+      "facts_used": "The dictionary material connects Zigda with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: form listed under Zigrīda/Sigrīda (cross-reference, not an explicit derivation). Zigrīda/Sigrīda resolved this round with the Sigrid family; their dates are not transferred. LVA exact-row search found no exact row.",
+      "next_steps": "Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigfrida",
+      "spellings": [
+        "Zigfrida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigfrida",
+        "https://www.izpetnieks.lv/en/name/Zigfr%C4%ABda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigfrida"
+      ],
+      "facts_used": "Zigfrida might be compared with Zigfrīda, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Zigfrīda comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: Zigfrīda only (p. 337). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigra",
+      "spellings": [
+        "Zigra"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigra",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigra"
+      ],
+      "facts_used": "The dictionary material connects Zigra with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: form listed under Zigrīda/Sigrīda (cross-reference, not an explicit derivation). Zigrīda/Sigrīda resolved this round with the Sigrid family; their dates are not transferred. LVA exact-row search found no exact row.",
+      "next_steps": "Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrida",
+      "spellings": [
+        "Zigrida"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigrida",
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigrida"
+      ],
+      "facts_used": "Zigrida might be compared with Zigrīda, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Zigrīda comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: macron-less form not on p. 337. LVA Sigrid → Sigrida (S-, short i) does not give Z-spelling Zigrida.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrids",
+      "spellings": [
+        "Zigrids"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigrids",
+        "https://www.izpetnieks.lv/en/name/Zigr%C4%ABds",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigrids"
+      ],
+      "facts_used": "Zigrids might be compared with Zigrīds, but the different vowel length is not yet a documented correspondence. The catalogue explicitly distinguishes this spelling from the source’s form. The related name’s origin, first use and calendar years therefore cannot automatically be transferred.",
+      "hypothesis": "possible Zigrīds comparison; diacritic correspondence unverified",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Find an authoritative exact-form entry or explicit paired record preserving all diacritics; do not inherit the related form’s dates."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigrita",
+      "spellings": [
+        "Zigrita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-SNL",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigrita",
+        "https://www.izpetnieks.lv/en/name/Sigr%C4%ABda",
+        "https://snl.no/Sigrid_-_kvinnenamn",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigrita"
+      ],
+      "facts_used": "The dictionary material connects Zigrita with the Sigrīda family, but its derivation remains unverified. It offers Old Norse sigr, victory, with rīdan, to ride, or a comparison with Sigridh and beauty. The Norwegian Sigrid explanation alone does not settle the history of this exact Latvian form.",
+      "hypothesis": "Sigrīda family; competing root analyses",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read: form listed under Zigrīda/Sigrīda (cross-reference, not an explicit derivation). Zigrīda/Sigrīda resolved this round with the Sigrid family; their dates are not transferred. LVA exact-row search found no exact row.",
+      "next_steps": "Find explicit derivational wording (masculine/short form) in original Siliņš pp. 290/337–338 or LV-LAVI for this exact form before inheriting the Sigrid family history."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "lv",
+      "name": "Zigvija",
+      "spellings": [
+        "Zigvija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zigvija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zigvija"
+      ],
+      "facts_used": "Zigvija needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue: questioned formation (p. 338). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Inspect original p338 and seek exact given-name records or an explicit onomastic explanation; do not manufacture a Zig- compound from spelling."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-23",
+      "date": "2026-11-12",
+      "calendar_date": "11-23",
+      "country": "ee",
+      "name": "Kleemet",
+      "spellings": [
+        "Kleemet"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-RAJANDI66"
+      ],
+      "sources": [
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=39",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=40",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=95",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=3"
+      ],
+      "facts_used": "Kleemet: Edgar Rajandi's name book lists Kle(e)met, that is Klemet or Kleemet, among the Estonian forms of Clemens, alongside Kleement, Leement and Leemet. Latin Clemens means gentle or merciful. The book's index again assigns Kle(e)me(n)t and Klemens to Clemens. Raamat nimedest was published in Tallinn in 1966. In the same entry Rajandi writes that a Clemens esto in the Danish Census Book appears to be one of the first Estonians known to bear the name, and that place names and surnames such as Klement and Leemeti preserve traces of the family. The 1966 book records the form; it does not date the first bearer of Kleemet.",
+      "hypothesis": "",
+      "reason": "Exact-form entry or explicit authoritative spelling bridge plus a dated exact-form record support two paragraphs in five languages; remaining etymological alternatives are stated explicitly.",
+      "uncertainties": "EE-RAJANDI66 visually checked: title page PDF p. 3 (Tallinn, Eesti Raamat, 1966); Clemens entry PDF p. 39 / printed p. 41 (Latin 'leebe, armulik'; meil Kl(e)ement, Kle(e)met, Leement, Leemet; Clemens esto in Taani Hindamise Raamat 'näikse olevat esimesi eestlasi'), continued PDF p. 40 / printed p. 42 (place and surnames Klement(i), Klemet, Le(e)meti); index PDF p. 95 / printed p. 97 Kle(e)me(n)t ~ Klemens → Clemens. Parenthesised (e) is read as the book's notation for both Klemet and Kleemet. No date for the Danish Census Book is added from outside the checked page. EE-ETERA Mägiste 1929 p. 40 has Leemet with Wiedemann Kleement, not exact Kleemet.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velda",
+      "spellings": [
+        "Velda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velda",
+        "https://www.izpetnieks.lv/en/name/Velta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Velda"
+      ],
+      "facts_used": "Velda may be compared with Veleda / Velta / Welda, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Veleda / Velta / Welda",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (pp. 319–320). LVA exact-row search found no exact row; Velda search returned only Icelandic Ingveldur → Ingvelda.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velita",
+      "spellings": [
+        "Velita"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velita",
+        "https://www.izpetnieks.lv/en/name/Velta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Velita"
+      ],
+      "facts_used": "Velita may be compared with Melita / Velta, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Melita / Velta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (pp. 319–320). LVA exact-row search found no exact row; Velda search returned only Icelandic Ingveldur → Ingvelda.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Velte",
+      "spellings": [
+        "Velte"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Velte",
+        "https://www.izpetnieks.lv/en/name/Velta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Velte"
+      ],
+      "facts_used": "Velte may be compared with Velta, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Velta",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (pp. 319–320). LVA exact-row search found no exact row; Velda search returned only Icelandic Ingveldur → Ingvelda.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Veltija",
+      "spellings": [
+        "Veltija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Veltija",
+        "https://www.izpetnieks.lv/en/name/Velta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Veltija"
+      ],
+      "facts_used": "Veltija may be compared with Velta / Veltis, but the precise origin link remains unverified. The dictionary material gives no single secure explanation for this form. Similar sound or a shared calendar day does not transfer another name’s meaning or historical dates.",
+      "hypothesis": "Velta / Veltis",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue re-read (pp. 319–320). LVA exact-row search found no exact row; Velda search returned only Icelandic Ingveldur → Ingvelda.",
+      "next_steps": "Inspect the original entry and seek an explicit exact-form explanation or historical rendering; keep the competing references and date scopes separate."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Vīna",
+      "spellings": [
+        "Vīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=V%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=V%C4%ABna"
+      ],
+      "facts_used": "Vīna needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue: origin not available. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Vinārs",
+      "spellings": [
+        "Vinārs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Vin%C4%81rs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vin%C4%81rs",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vin%C4%81rs"
+      ],
+      "facts_used": "Vinārs needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue: origin not available. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Viners",
+      "spellings": [
+        "Viners"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Viners",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Viners",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Viners"
+      ],
+      "facts_used": "Viners needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue: origin not available. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lv",
+      "name": "Vīne",
+      "spellings": [
+        "Vīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/V%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=V%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=V%C4%ABne"
+      ],
+      "facts_used": "Vīne needs research: no documented origin or comparison has been established for this exact spelling.",
+      "hypothesis": "",
+      "reason": "Research pass completed; no defensible comparison yet, profile stays Needs research.",
+      "uncertainties": "Catalogue: origin not available. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Search exact given-name dictionary and historical records; do not infer an origin from common words, place names or surname matches."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-24",
+      "date": "2026-11-12",
+      "calendar_date": "11-24",
+      "country": "lt",
+      "name": "Mantvinas",
+      "spellings": [
+        "Mantvinas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "LT-PAKERYS09",
+        "LT-PAKERYS10",
+        "LT-PAKERYS11"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/mantvinas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317"
+      ],
+      "facts_used": "Mantvinas has proposed elements mantus, clever, or manta, possessions, and vina or vaina, cause. The full stem analysis still needs checking. The 1964 calendar reprinted by Salys in 1983 gives Mantvinas with Mantas on 24 November; usage alone does not choose one derivation.",
+      "hypothesis": "mantus/manta + vina/vaina; full stem analysis unresolved",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LT-PAKERYS09/10/11 PDFs text-searched: no Mantvin- hit.",
+      "next_steps": "Inspect scholarly exact-name mant-/vin- analyses and dictionary references; retain the dated usage separately."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kadija",
+      "spellings": [
+        "Kadija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kadija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kadija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Kadija"
+      ],
+      "facts_used": "A comparison to investigate for Kadija is Chadia / Khadija, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Chadia / Khadija",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA row Italian Chadia → Kadija (/words/58454) has no literature citation or date, so it supplies no dated record. Catalogue: Khadija comparison only (p. 188).",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katalīna",
+      "spellings": [
+        "Katalīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katal%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katal%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Katal%C4%ABna"
+      ],
+      "facts_used": "A comparison to investigate for Katalīna is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "LVA: Spanish Catalina → Katalina (short i, Ceplītis 1961); no long-ī Katalīna row. Rajandi 1966 Katharina entry cites Spanish Catalina for Estonian context only.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katiņa",
+      "spellings": [
+        "Katiņa"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kati%C5%86a",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kati%C5%86a",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Kati%C5%86a"
+      ],
+      "facts_used": "A comparison to investigate for Katiņa is Kate / Katja, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Kate / Katja",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 192). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katre",
+      "spellings": [
+        "Katre"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "EE-RAJANDI66"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katre",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katre",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Katre",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+      ],
+      "facts_used": "A comparison to investigate for Katre is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 192). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row. EE-RAJANDI66 PDF p. 94 / printed p. 96 lists Estonian Katre among Katharina forms; this is Estonian evidence and is not transferred to the Latvian profile.",
+      "next_steps": "Find a Latvian rendering of Estonian Katre (LVA Estonian-name manual) or a dated Latvian bearer explicitly tied to the Estonian form."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katri",
+      "spellings": [
+        "Katri"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "EE-RAJANDI66"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katri",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katri",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Katri",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+      ],
+      "facts_used": "A comparison to investigate for Katri is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 192). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; Finnish Katrina → Katrina is a different form. EE-RAJANDI66 lists Estonian Katri among Katharina forms (Estonian scope, not transferred).",
+      "next_steps": "Find an LVA Finnish/Estonian Katri → Katri row or a dated Latvian bearer explicitly tied to the Finnish/Estonian form."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katrine",
+      "spellings": [
+        "Katrine"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katrine",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katrine",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Katrine"
+      ],
+      "facts_used": "A comparison to investigate for Katrine is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 193). LVA: English Katrine → Katrīna / Ketrina; Norwegian/Danish Katrine, Kathrine → Katrīne; none gives exact short-i Katrine.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Katriona",
+      "spellings": [
+        "Katriona"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Katriona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Katriona",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Katriona"
+      ],
+      "facts_used": "A comparison to investigate for Katriona is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found. LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row (Catriona also absent).",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kecija",
+      "spellings": [
+        "Kecija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kecija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kecija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Kecija"
+      ],
+      "facts_used": "A comparison to investigate for Kecija is Keziah / Ķecija, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Keziah / Ķecija",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue cites Skulte 1999 dissertation (Ķecija in Latvian Bible translations); the dissertation could not be located on dspace.lu.lv. Biblehub multilingual Job 42:14 shows exact Kecija only in the Lithuanian translation (foreign). LVA: no Kezia/Keziah row.",
+      "next_steps": "Open the Skulte 1999 dissertation pp. 39 and 158 (LU library) or a dated Latvian Bible edition to confirm the exact unpalatalised Kecija spelling."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Keta",
+      "spellings": [
+        "Keta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA-CAT",
+        "INT-BTN",
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/28107?locale=lv",
+        "https://www.personvarduatveide.lv/words/28107.pdf?locale=lv",
+        "https://www.behindthename.com/name/cat",
+        "https://www.behindthename.com/name/katherine",
+        "https://www.izpetnieks.lv/en/name/Keta"
+      ],
+      "facts_used": "Keta: The Latvian Language Agency's name-rendering database gives Latvian Keta for the English given name Cat. Behind the Name describes Cat as a diminutive of Catherine, which goes back to Greek Aikaterine; the original meaning of that name is uncertain, and its later link with Greek katharos, pure, is a reinterpretation. Siliņš's dictionary does not explain Keta itself, so other routes for individual bearers are not excluded. The rendering entry cites A. Ahero's manual of English proper names in Latvian, published in Riga in 2006, page 96. It is a dated professional record of the exact Cat → Keta correspondence. It records a spelling norm, not the first Latvian bearer of Keta or every family's reason for the choice.",
+      "hypothesis": "",
+      "reason": "Exact-form entry or explicit authoritative spelling bridge plus a dated exact-form record support two paragraphs in five languages; remaining etymological alternatives are stated explicitly.",
+      "uncertainties": "LVA exact row Cat (English) → Keta, Ahero 2006 p. 96, read on the word page and in the single-page PDF export (earlier rounds recorded LVA results as absent; corrected). INT-BTN curated Cat: diminutive of Catherine (also a nickname from the animal word); Katherine: Greek Aikaterine, uncertain etymology, later association with katharos. LV-SILINS via catalogue: origin not established for exact Keta (pp. 193; 192). Ketevan/Ketevana (Armenian/Georgian LVA rows) not used. Rendering-manual year is not a first registration.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kēta",
+      "spellings": [
+        "Kēta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/K%C4%93ta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=K%C4%93ta",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=K%C4%93ta"
+      ],
+      "facts_used": "A comparison to investigate for Kēta is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 193). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row; Cat → Keta (short e) and German Käte → Kēte are different spellings and not transferred.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Kete",
+      "spellings": [
+        "Kete"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kete",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Kete"
+      ],
+      "facts_used": "A comparison to investigate for Kete is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found. LVA: German Käte → Kēte (long ē) and Italian Cate → Kate; no exact short-e Kete row.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketri",
+      "spellings": [
+        "Ketri"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketri",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ketri",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Ketri"
+      ],
+      "facts_used": "A comparison to investigate for Ketri is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 192). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketrija",
+      "spellings": [
+        "Ketrija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketrija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ketrija",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Ketrija"
+      ],
+      "facts_used": "A comparison to investigate for Ketrija is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 192). LVA exact-row search (parsed all result rows for an identical Latvian output) found no exact row.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Ketrīna",
+      "spellings": [
+        "Ketrīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Ketr%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ketr%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Ketr%C4%ABna"
+      ],
+      "facts_used": "A comparison to investigate for Ketrīna is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 192). LVA: English Kathryn → Ketrina (Ahero 2006 p. 107), Katrine → Ketrina (p. 108), Katherine → Ket(e)rina; all short i, none long-ī Ketrīna.",
+      "next_steps": "Find a long-ī Ketrīna in a rendering manual or dated Latvian record; the short-i Ketrina rows (Kathryn/Katrine/Katherine) must not be transferred without an explicit bridge."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "lv",
+      "name": "Trīna",
+      "spellings": [
+        "Trīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "EE-RAJANDI66"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tr%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Tr%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Tr%C4%ABna",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+      ],
+      "facts_used": "A comparison to investigate for Trīna is Katarīna / Katariina, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katarīna / Katariina",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "Catalogue: not found (p. 309, see Trīne). LVA: Danish/Norwegian Trine → Trīne (-e); no exact Trīna row. EE-RAJANDI66 notes German Trina/Trine as Katharina short forms (German forms; not transferred).",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    },
+    {
+      "batch": "calendar-recheck-2026-11-25",
+      "date": "2026-11-12",
+      "calendar_date": "11-25",
+      "country": "ee",
+      "name": "Kari",
+      "spellings": [
+        "Kari"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "EE-LEOLE05",
+        "EE-RAJANDI66"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Kari",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+        "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+      ],
+      "facts_used": "A comparison to investigate for Kari is Katariina / Makarios, but the full connection remains unverified. An explicit reference to this exact spelling and a dated usage example are still needed. A shared name day or similar sound alone does not establish the origin.",
+      "hypothesis": "Katariina / Makarios",
+      "reason": "Research pass completed; labelled hypothesis remains open in the backlog.",
+      "uncertainties": "EE-RAJANDI66 and EE-ETERA Mägiste 1929 text-searched: no exact Kari. Norwegian Kari (Katarina form) remains foreign comparison only.",
+      "next_steps": "Inspect exact dictionary/manual correspondence and a dated local record. Reuse the private PDF page index; inspect original pages for diacritics."
+    }
+  ]
+}

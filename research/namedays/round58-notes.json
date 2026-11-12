@@ -1,0 +1,2487 @@
+{
+ "round": 58,
+ "date": "2026-11-12",
+ "source_directory": "NAMEDAYS_SOURCES.md",
+ "note": "26 November–2 December recheck: 86 profiles examined; 15 reviewed histories (Vygantė, Vygintė, Skomantas, Astra, Andriāns, Androns, Endrijs, Saugardas, Saugirdas, Ando, Anti, Algmina, Milmantė, Aira, Airi); remaining 71 kept open; two LV hypothesis comparisons improved (Andrijans, Andrians). New evidence: Petrovsky 1966 original pages, LVA Андриан/Андрон rows, VLE Skomantas, BTN Anti/Astra/Airi, Salys 1983 element lists and Pakerys 2011 pp. 94/96.",
+ "records": [
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lv",
+   "name": "Kondrats",
+   "spellings": [
+    "Kondrats"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "RU-PETROVSKY66"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/24216?locale=lv",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=135",
+    "https://www.izpetnieks.lv/en/name/Kondrats",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kondrats"
+   ],
+   "facts_used": "Kondrats still needs checking against Kondrāts / Konrads. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Kondrāts / Konrads",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Petrovsky 1966 PDF 135 / printed 134 visually checked: Кондрат (stressed а) is colloquial for Кондратий, Greek Kodratos from Latin quadratus. LVA has Кондратий → Kondratijs (1993 p. 201) but no given-name row for Кондрат; the stressed vowel would normally favour long-ā Kondrāts, so short-a Kondrats is not bridged.",
+   "next_steps": "Search the 1993 manual and Ukrainian/Belarusian rendering lists for a given-name row Кондрат; check Siliņš p. 198 scan for a short-a variant."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lv",
+   "name": "Kondrāts",
+   "spellings": [
+    "Kondrāts"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "RU-PETROVSKY66"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Kondr%C4%81ts",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=135",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kondr%C4%81ts"
+   ],
+   "facts_used": "Kondrāts still needs checking against Kondratijs / Konrads / Kodratos. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Kondratijs / Konrads / Kodratos",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Petrovsky 1966 printed p. 134 (PDF 135) visually checked: Кондрат colloquial for Кондратий; Kodratos from Latin quadratus. This supports the Russian/Greek route but Siliņš p. 198 also links Kondrāts with Konrads; the conflict remains. No LVA given-name row Кондрат → Kondrāts found.",
+   "next_steps": "Find an exact rendering record Кондрат → Kondrāts or an onomastic study adjudicating Siliņš’s Konrads link; Dikļi late-nineteenth-century use is the existing dated lead."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lv",
+   "name": "Konrands",
+   "spellings": [
+    "Konrands"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Konrands",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Konrands"
+   ],
+   "facts_used": "Konrands still needs checking against Konrads. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Konrads",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA search Konrad returned German/other rows (Konrāds) but no Konrands; izpetnieks gives no exact-form origin.",
+   "next_steps": "Look for an exact Latvian dictionary or archival record of Konrands with an explicit Konrads link."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lv",
+   "name": "Konrāts",
+   "spellings": [
+    "Konrāts"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Konr%C4%81ts",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Konr%C4%81ts"
+   ],
+   "facts_used": "Konrāts still needs checking against Konrads. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Konrads",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA and izpetnieks rechecked; no exact Konrāts given-name row or explicit bridge.",
+   "next_steps": "Look for an exact Latvian record explicitly linking Konrāts to Konrāds/Konrads; do not transfer Konrads 1295/1767."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lv",
+   "name": "Manefa",
+   "spellings": [
+    "Manefa"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "RU-PETROVSKY66"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Manefa",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=150",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Manefa"
+   ],
+   "facts_used": "Manefa still needs checking against Russian Manefa / Manethōn. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Russian Manefa / Manethōn",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Petrovsky 1966 PDF 150 / printed 149 visually checked: МАНЕФА listed as a Russian female name (colloquial Манефия) with derivatives but no etymology bracket. Confirms Russian name status, not origin. LVA has no Манефа row.",
+   "next_steps": "Find an etymological source for Russian Манефа (e.g. Superanskaya or an Orthodox calendar dictionary) and an LVA rendering record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lt",
+   "name": "Vygantė",
+   "spellings": [
+    "Vygantė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-SALYS83",
+    "LT-PAKERYS11"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=289",
+    "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=5"
+   ],
+   "facts_used": "Vygantė: The Lithuanian two-stem name is the feminine counterpart of Vygantas. In Antanas Salys’s list of name elements, Vy- is connected with vyti and vyčioti, to chase, while Gant- is referred to Gin(t)-, from ginti, to defend; Vygantas is listed with this second element. These comparisons explain the stems; they are not a single translation of the whole name. Antanas Pakerys’s 2011 study of the accentuation of Lithuanian compound female names, page 94, lists Vygantà, Výganta and Výgantė beside masculine Výgantas. This is dated scholarly evidence for the exact form and its accent. It is not a first registration or the date the name was created.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Salys 1983 visually checked: PDF 297 / printed 282 Vy-: vyti, vyčioti; PDF 287 / printed 272 Gant-: see gin-, with Vygantas; PDF 289 / printed 274 Gin(t)-: ginti. Pakerys 2011 PDF 5 / printed 94 visually checked: -gant- Vygantà (3a), Výganta (1), Výgantė (1) (plg. Výgantas). Pakerys cites Salys R II 262 for Výgantė, but Salys printed p. 262 (PDF 277) shows Vygandė and Vygintė, not Vygantė; that citation was not used.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "lt",
+   "name": "Vygintė",
+   "spellings": [
+    "Vygintė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=277",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=289"
+   ],
+   "facts_used": "Vygintė: The Lithuanian two-stem name is the feminine counterpart of Vygintas. In Antanas Salys’s list of name elements, Vy- is connected with vyti and vyčioti, to chase, and Gin(t)- with ginti, to defend; Vygintas appears under both elements. These comparisons explain the stems; they are not a single translation of the whole name. Page 262 of Salys’s collected writings, published in 1983, lists Vygintė as a feminine personal name next to masculine Vygintas. This is dated scholarly evidence for the exact form. The publication year is not a first birth record or the date the name was created.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Salys 1983 visually checked: PDF 277 / printed 262 exact Vygintė, -ės s. f. /1/ PN, beside Vygintas; PDF 297 / printed 282 Vy-: vyti, vyčioti with Vygintas; PDF 289 / printed 274 Gin(t)-: ginti with Vygintas. The guide’s element glosses agree with this analysis; no first-birth date claimed.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-26",
+   "date": "2026-11-12",
+   "calendar_date": "11-26",
+   "country": "ee",
+   "name": "Maara",
+   "spellings": [
+    "Maara"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29"
+   ],
+   "sources": [
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+    "https://en.wiktionary.org/wiki/Maara"
+   ],
+   "facts_used": "Maara still needs checking against Tamara / Maria. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Tamara / Maria",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Leole November 2005 p. 6 visually checked: Tamaara and Maara grouped and derived from a Hebrew word glossed palm/fig tree; Mägiste Maare = Maria is a different spelling. Route still undecided.",
+   "next_steps": "Find an Estonian scholarly source that explicitly assigns Maara to Tamara or Maria."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Nords",
+   "spellings": [
+    "Nords"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Nords",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Nords"
+   ],
+   "facts_used": "Nords still needs checking against nord / north. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "nord / north",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš p. 251 (nord, north) rechecked; still no dated exact-form episode.",
+   "next_steps": "Search Periodika for a dated exact Nords given-name bearer, or the Siliņš scan for an attestation date."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Vinifreda",
+   "spellings": [
+    "Vinifreda"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinifreda",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinifreda"
+   ],
+   "facts_used": "Vinifreda still needs checking against Vinfrīds / Winifred / Gwenfrewi. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Vinfrīds / Winifred / Gwenfrewi",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Winifred rechecked (Latin Winifreda, possibly Welsh Gwenfrewi, influenced by Old English Winfred) alongside Siliņš’s Vinfrīds; competing routes remain.",
+   "next_steps": "Find a Latvian onomastic source choosing between the Germanic and Welsh/English routes."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Vinifreds",
+   "spellings": [
+    "Vinifreds"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinifreds",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinifreds"
+   ],
+   "facts_used": "Vinifreds still needs checking against Vinfrīds / Vinifreda. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Vinfrīds / Vinifreda",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact-form dictionary or LVA row; LVA Winifred rows give feminine forms only.",
+   "next_steps": "Search for an exact masculine Vinifreds record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Vinija",
+   "spellings": [
+    "Vinija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinija"
+   ],
+   "facts_used": "Vinija still needs checking against Winnie / Vinnija / Alvīna. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Winnie / Vinnija / Alvīna",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA Winnie → Vinija (Ahero 2006 p. 120) rechecked; Siliņš allows several base names.",
+   "next_steps": "Find a source fixing the base name for Latvian Vinija."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Vinnija",
+   "spellings": [
+    "Vinnija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinnija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinnija"
+   ],
+   "facts_used": "Vinnija still needs checking against Winnie / Alvīna / Winifred. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Winnie / Alvīna / Winifred",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Winnie rechecked (diminutive of Winifred); Siliņš allows several bases; no double-n rendering row.",
+   "next_steps": "Find an exact double-n record and a single documented base."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Vinolds",
+   "spellings": [
+    "Vinolds"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinolds",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinolds"
+   ],
+   "facts_used": "Calendar membership only; no supported origin proposal.",
+   "hypothesis": "",
+   "reason": "Still open: no adopted origin proposal; no exact-form evidence found.",
+   "uncertainties": "izpetnieks has no origin text; LVA search empty.",
+   "next_steps": "Search original Siliņš scan and Periodika for exact Vinolds."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lv",
+   "name": "Vinona",
+   "spellings": [
+    "Vinona"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinona",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinona"
+   ],
+   "facts_used": "Vinona still needs checking against Winona. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Winona",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Winona rechecked (Dakota/Lakota firstborn daughter); LVA search Winona/Vinona empty.",
+   "next_steps": "Find an LVA English rendering row Winona → Vinona."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lt",
+   "name": "Girdvydė",
+   "spellings": [
+    "Girdvydė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83",
+    "LT-PAKERYS11"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288",
+    "https://www.tevu-darzelis.lt/vaiku-vardai/girdvyde/"
+   ],
+   "facts_used": "Girdvydė still needs checking against gird- + vyd-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "gird- + vyd-",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Salys 1983 PDF 288 / printed 273 visually checked: Gird-: girdėti, girdas with masculine Girdvydas; no exact feminine Girdvydė found in Salys or Pakerys 2011.",
+   "next_steps": "Find an exact feminine Girdvydė in a scholarly list."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lt",
+   "name": "Girvydė",
+   "spellings": [
+    "Girvydė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://www.tevu-darzelis.lt/vaiku-vardai/girvyde/"
+   ],
+   "facts_used": "Girvydė still needs checking against gir- + vyd-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "gir- + vyd-",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Salys PDF 288 Gir(t)-: girti, cf. gird-; masculine Girvydas PN p. 216 (PDF 231) and a calendar entry (PDF 302); no exact feminine Girvydė.",
+   "next_steps": "Find an exact feminine Girvydė."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lt",
+   "name": "Skomantas",
+   "spellings": [
+    "Skomantas"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83",
+    "LT-VLE-SKOMANTAS"
+   ],
+   "sources": [
+    "https://www.tevu-darzelis.lt/vaiku-vardai/skomantas/",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=266",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=317",
+    "https://www.vle.lt/straipsnis/skomantas/"
+   ],
+   "facts_used": "Skomantas: The Lithuanian name guide explains the two-stem name through sko-, linked with skototis, to care or strive, and mant-, linked with mantus, clever, or manta, property. The explanations of the second element remain alternatives rather than one exact translation of the whole name. Salys’s 1983 volume lists Skomantas as both a personal name and a surname. According to the Universal Lithuanian Encyclopaedia, Skomantas, called Skomond in Old Russian, was a Lithuanian or Yotvingian leader who raided the Pinsk area with Barutis around 1244–1245 and was killed after an ambush. The Galician–Volhynian Chronicle described him as a notable priest and soothsayer. This is a medieval bearer, not proof of the name’s literal meaning or of every modern bearer’s inspiration.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Exact guide: sko- = skototis (rūpintis, stengtis), mant- = mantus or manta (alternatives kept). Salys PDF 266 / printed 251 Skomantas PN and FN; PDF 317 calendar 27 November Skomantas (Skomas), both from earlier rounds. New: VLE Skomantas article, Old Russian Skomond, c. 1244–1245 raid with Barutis to the Pinsk area, killed; Galician–Volhynian Chronicle calls him a notable priest and soothsayer; Lithuanian/Yotvingian identity disputed. The article gives no etymology; sko- has no Salys element entry, so it stays a guide explanation.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "lt",
+   "name": "Virgis",
+   "spellings": [
+    "Virgis"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://www.tevu-darzelis.lt/vaiku-vardai/virgis/"
+   ],
+   "facts_used": "Virgis still needs checking against Virginijus / Lithuanian Virg- names. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginijus / Lithuanian Virg- names",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Salys has Virgys, not Virgis; LVA Virginijus row is Lithuanian → Latvian only.",
+   "next_steps": "Find an exact Virgis record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "ee",
+   "name": "Asta",
+   "spellings": [
+    "Asta"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.behindthename.com/name/asta",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+    "https://en.wiktionary.org/wiki/Asta"
+   ],
+   "facts_used": "Asta still needs checking against Anastasia / Astrid. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Anastasia / Astrid",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Leole November 2005 p. 6 visually checked: Asta either short for Anastasia or from Astrid. Curated BTN Asta says short form of Astrid but lists no Estonian usage. Two full-name routes remain.",
+   "next_steps": "Find an Estonian scholarly source choosing Astrid or Anastasia for Estonian Asta."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-27",
+   "date": "2026-11-12",
+   "calendar_date": "11-27",
+   "country": "ee",
+   "name": "Astra",
+   "spellings": [
+    "Astra"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "INT-BTN",
+    "EE-LEOLE05"
+   ],
+   "sources": [
+    "https://www.behindthename.com/name/astra",
+    "https://www.behindthename.com/name/astraea",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6"
+   ],
+   "facts_used": "Astra: Behind the Name explains Astra as meaning star, ultimately from Greek astēr, and notes that it has been used only rarely, since the twentieth century. Leili Kuusk’s Estonian name column derives it either from the name of the Greek justice goddess Astraia or directly from aster, star; Astraia itself comes from the same Greek word. The two routes therefore share the star root and differ only on whether the mythological name intervened. The November 2005 issue of Leole, the Suure-Jaani municipal newspaper, uses the exact form Astra in that name column on page 6. This is a dated example from Estonian local print. It is not the first Estonian bearer or proof that every family chose the name for the same reason.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "New: INT-BTN Astra (star, ultimately Greek astēr; rarely used, only since the twentieth century) and Astraea (Latinized Astraia, from astēr). EE-LEOLE05 PDF 6 visually checked: Astra from the name of the Greek justice goddess Astraia or from Greek aster, star. Both routes share the astēr root; the text keeps the mythological intermediary as an open question.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Olija",
+   "spellings": [
+    "Olija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Olija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Olija"
+   ],
+   "facts_used": "Olija still needs checking against Olga / Olīvija. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Olga / Olīvija",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "izpetnieks shared Ol(l)ija entry rechecked (Olga ?, Olīvija).",
+   "next_steps": "Find a source deciding the base name."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Olis",
+   "spellings": [
+    "Olis"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Olis",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Olis"
+   ],
+   "facts_used": "Calendar membership only; no supported origin proposal.",
+   "hypothesis": "",
+   "reason": "Still open: no adopted origin proposal; no exact-form evidence found.",
+   "uncertainties": "izpetnieks has no origin text; LVA Olli/Ollie rows are foreign forms without an Olis bridge.",
+   "next_steps": "Search Siliņš scan for Olis."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Ollija",
+   "spellings": [
+    "Ollija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Ollija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ollija"
+   ],
+   "facts_used": "Ollija still needs checking against Olga / Olīvija. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Olga / Olīvija",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Shared Ol(l)ija entry rechecked; no separate double-l record.",
+   "next_steps": "Find a separate Ollija attestation and base name."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Ritija",
+   "spellings": [
+    "Ritija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Ritija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ritija"
+   ],
+   "facts_used": "Calendar membership only; no supported origin proposal.",
+   "hypothesis": "",
+   "reason": "Still open: no adopted origin proposal; no exact-form evidence found.",
+   "uncertainties": "izpetnieks has no origin text; LVA search returned only English Charity → Čeritija, not a bridge.",
+   "next_steps": "Search Siliņš scan and Periodika for Ritija."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Vinta",
+   "spellings": [
+    "Vinta"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vinta",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vinta"
+   ],
+   "facts_used": "Vinta still needs checking against Venta / Vineta. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Venta / Vineta",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš Venta/Vineta(?) comparison rechecked.",
+   "next_steps": "Find an exact onomastic explanation."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Vintars",
+   "spellings": [
+    "Vintars"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vintars",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vintars"
+   ],
+   "facts_used": "Vintars still needs checking against Vintārs / Vinters. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Vintārs / Vinters",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact Vintars entry; Vintārs/Vinters comparisons not transferred.",
+   "next_steps": "Search for exact short-a Vintars."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Vintārs",
+   "spellings": [
+    "Vintārs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vint%C4%81rs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vint%C4%81rs"
+   ],
+   "facts_used": "Vintārs still needs checking against Vintāra / Vinters. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Vintāra / Vinters",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš text concerns feminine Vintāra; masculine still unverified.",
+   "next_steps": "Find exact masculine Vintārs record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Vintra",
+   "spellings": [
+    "Vintra"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vintra",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vintra"
+   ],
+   "facts_used": "Vintra still needs checking against Dzintra / Lithuanian Vintaras. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Dzintra / Lithuanian Vintaras",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš Dzintra(??)/Lithuanian Vintaras alternatives rechecked.",
+   "next_steps": "Check Lithuanian sources for Vintaras and any Latvian bridge."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Vints",
+   "spellings": [
+    "Vints"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vints",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vints"
+   ],
+   "facts_used": "Vints still needs checking against Vincents. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Vincents",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš tentative Vincents listing rechecked.",
+   "next_steps": "Find an explicit short-form record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "lv",
+   "name": "Vitija",
+   "spellings": [
+    "Vitija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vitija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vitija"
+   ],
+   "facts_used": "Calendar membership only; no supported origin proposal.",
+   "hypothesis": "",
+   "reason": "Still open: no adopted origin proposal; no exact-form evidence found.",
+   "uncertainties": "izpetnieks has no origin text; LVA search empty.",
+   "next_steps": "Search Siliņš scan and Periodika for Vitija."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-28",
+   "date": "2026-11-12",
+   "calendar_date": "11-28",
+   "country": "ee",
+   "name": "Raima",
+   "spellings": [
+    "Raima"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29"
+   ],
+   "sources": [
+    "https://en.wiktionary.org/wiki/Raima"
+   ],
+   "facts_used": "Raima still needs checking against Raimonda / Raimo. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Raimonda / Raimo",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No Estonian source checked this round explains Raima; Salys Lithuanian Raima not transferred.",
+   "next_steps": "Search Mägiste/Leole and stat.ee for Raima."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Ignats",
+   "spellings": [
+    "Ignats"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "RU-PETROVSKY66",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Ignats",
+    "https://www.personvarduatveide.lv/words/19272?locale=lv",
+    "https://www.personvarduatveide.lv/words/60585%2C60702?locale=lv",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=119",
+    "https://www.behindthename.com/name/ignatius",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ignats"
+   ],
+   "facts_used": "Ignats still needs checking against Ignāts / Ignatius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Ignāts / Ignatius",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Petrovsky 1966 PDF 119 / printed 118 visually checked: Игнат colloquial for Игнатий. LVA returns only Hungarian Ignát and Lithuanian Ignotas → Ignāts (long ā), Russian Игнатий → Ignatijs, Belarusian Ігнат → Ihnats; no short-a Ignats row. BTN Ignatius lists no Latvian form.",
+   "next_steps": "Find an explicit Latvian source for short-a Ignats (Siliņš p. 158 scan, Latgalian sources) and a dated exact-form bearer."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Ignātijs",
+   "spellings": [
+    "Ignātijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/24174?locale=lv",
+    "https://www.personvarduatveide.lv/words/29464?locale=lv",
+    "https://www.izpetnieks.lv/en/name/Ign%C4%81tijs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Ign%C4%81tijs"
+   ],
+   "facts_used": "Ignātijs still needs checking against Ignatijs / Ignatius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Ignatijs / Ignatius",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA gives Russian Игнатий → Ignatijs (1993 p. 199) and English Ignatius → Ignatijs (2006 p. 73), both with short a; no long-ā Ignātijs row.",
+   "next_steps": "Find an exact long-ā Ignātijs record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Vergenija",
+   "spellings": [
+    "Vergenija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vergenija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vergenija"
+   ],
+   "facts_used": "Vergenija still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginija / Virginia",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact entry; LVA Virginia rows rechecked.",
+   "next_steps": "Search for an exact Vergenija record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Virgenija",
+   "spellings": [
+    "Virgenija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Virgenija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virgenija"
+   ],
+   "facts_used": "Virgenija still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginija / Virginia",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact entry; LVA Virginia rows rechecked.",
+   "next_steps": "Search for an exact Virgenija record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Virgilijs",
+   "spellings": [
+    "Virgilijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Virgilijs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virgilijs"
+   ],
+   "facts_used": "Virgilijs still needs checking against Virgilija / Vergilius. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virgilija / Vergilius",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA search found no Virgilijs given-name row; Siliņš text concerns feminine Virgilija.",
+   "next_steps": "Find an exact masculine rendering such as Latin/Italian Virgilio or Lithuanian Virgilijus → Virgilijs."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Virgīna",
+   "spellings": [
+    "Virgīna"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Virg%C4%ABna",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virg%C4%ABna"
+   ],
+   "facts_used": "Virgīna still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginija / Virginia",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact entry; long ī not bridged.",
+   "next_steps": "Search for exact Virgīna."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Virgīne",
+   "spellings": [
+    "Virgīne"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Virg%C4%ABne",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virg%C4%ABne"
+   ],
+   "facts_used": "Virgīne still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginija / Virginia",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact entry; long ī not bridged.",
+   "next_steps": "Search for exact Virgīne."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Virginijs",
+   "spellings": [
+    "Virginijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Virginijs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Virginijs"
+   ],
+   "facts_used": "Virginijs still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginija / Virginia",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA Lithuanian Virginijus → Virģinijs (Bērtulis 1973 p. 135) gives ģ, not g; no exact Virginijs row.",
+   "next_steps": "Find an exact Virginijs rendering or dictionary entry."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lv",
+   "name": "Virģīnija",
+   "spellings": [
+    "Virģīnija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Vir%C4%A3%C4%ABnija",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Vir%C4%A3%C4%ABnija"
+   ],
+   "facts_used": "Virģīnija still needs checking against Virginija / Virginia. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Virginija / Virginia",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Agency rows give Virģinija (short i) and Virgīnija, not Virģīnija.",
+   "next_steps": "Search for an exact Virģīnija record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lt",
+   "name": "Butvydė",
+   "spellings": [
+    "Butvydė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83",
+    "LT-PAKERYS11"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=286",
+    "https://www.tevu-darzelis.lt/vaiku-vardai/butvyde/"
+   ],
+   "facts_used": "Butvydė still needs checking against but- + vyd-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "but- + vyd-",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Salys 1983 PDF 286 / printed 271 visually indexed: But-: butas, būti with Butvydas; PDF 312 calendar Butvydas (Butvys). No exact feminine Butvydė found in Salys or Pakerys 2011.",
+   "next_steps": "Find an exact feminine Butvydė in Pakerys/LVEŽ or VLKK."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lt",
+   "name": "Saturnas",
+   "spellings": [
+    "Saturnas"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://www.tevu-darzelis.lt/vaiku-vardai/saturnas/"
+   ],
+   "facts_used": "Saturnas still needs checking against Saturnus / Saturninas. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Saturnus / Saturninas",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Salys PDF 265 Saturnas is a planet-name row; Saturninas is the personal name. No given-name Saturnas found.",
+   "next_steps": "Find a dated Lithuanian given-name record for Saturnas."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-29",
+   "date": "2026-11-12",
+   "calendar_date": "11-29",
+   "country": "lt",
+   "name": "Iminė",
+   "spellings": [
+    "Iminė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83",
+    "LT-PAKERYS11",
+    "LT-SINKEVICIUTE06"
+   ],
+   "sources": [
+    "https://www.tevu-darzelis.lt/vaiku-vardai/imine/"
+   ],
+   "facts_used": "Iminė still needs checking against i- + min-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "i- + min-",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Pakerys 2011 PDF 4–5 and Sinkevičiūtė 2006 PDF 3 indexed; Salys element list has no I- entry explaining the first stem.",
+   "next_steps": "Find an explicit scholarly analysis of the I- element."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Andrejans",
+   "spellings": [
+    "Andrejans"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Andrejans",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andrejans"
+   ],
+   "facts_used": "Andrejans still needs checking against Andrejs / Adrianus. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Andrejs / Adrianus",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact record; LVA Андреянов → Andrejanovs surname only.",
+   "next_steps": "Find an exact given-name rendering."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Andrējs",
+   "spellings": [
+    "Andrējs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Andr%C4%93js",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andr%C4%93js"
+   ],
+   "facts_used": "Andrējs still needs checking against Andrejs / Anandra. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Andrejs / Anandra",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš Anandra (??) comparison rechecked; LVA rows all give Andrejs.",
+   "next_steps": "Find exact long-ē Andrējs record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Andrians",
+   "spellings": [
+    "Andrians"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "RU-PETROVSKY66"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/23990?locale=lv",
+    "https://www.izpetnieks.lv/en/name/Andrians",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andrians"
+   ],
+   "facts_used": "Andrians is still being checked against Russian Андриан and Andriāns. The checked Latvian rendering of Андриан is Andriāns with a long ā, so the short-a spelling is not yet documented by a rendering record or dictionary entry. This remains an unverified proposal, and no dates are transferred from related forms.",
+   "hypothesis": "Russian Андриан / Andriāns",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA Андриан → Andriāns (long ā, 1993 p. 192) and Petrovsky Андриан folk form of Адриан found; short-a Andrians not bridged. Hypothesis comparison improved.",
+   "next_steps": "Find an exact short-a Andrians rendering or dictionary record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Andriāns",
+   "spellings": [
+    "Andriāns"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LV-LVA-ANDRIAN",
+    "RU-PETROVSKY66",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/23990?locale=lv",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=43",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=51",
+    "https://www.izpetnieks.lv/en/name/Andri%C4%81ns"
+   ],
+   "facts_used": "Andriāns: The Latvian Language Agency renders Russian Андриан as Andriāns, citing page 192 of the 1993 Russian rendering manual. Petrovsky’s 1966 Russian name dictionary describes Андриан as a folk form of Адриан, which it derives from Latin Adrianus, a man from the town of Adria. Siliņš’s Latvian dictionary also calls Andriāns a Russian form of Adriāns, while mentioning a less certain blend of Andrejs and Adriāns. Siliņš records Latvian use of Andriāns in the third quarter of the twentieth century, and the Agency’s manual record is dated 1993. These records document use and standard rendering in Latvia. They do not identify the first bearer or prove that every family received the name through Russian.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "LVA word 23990: Russian Андриан → Andriāns, Grabis/Porīte 1993 p. 192 (exact long ā). Petrovsky 1966 PDF 43 / printed 42 (Адриан; folk Андриан, Андриян; Latin Adrianus, from the town of Adria) and PDF 51 / printed 50 (Андриян, folk form of Адриан) visually checked. Siliņš p. 57 calls Andriāns a Russian form of Adriāns and mentions an uncertain Andrejs+Adriāns blend, kept explicit in the text.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Andrijans",
+   "spellings": [
+    "Andrijans"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "RU-PETROVSKY66"
+   ],
+   "sources": [
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=43",
+    "https://www.personvarduatveide.lv/words/24652?locale=lv",
+    "https://www.izpetnieks.lv/en/name/Andrijans",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Andrijans"
+   ],
+   "facts_used": "Andrijans is still being checked against Russian Андриян and Adriāns. Petrovsky’s 1966 Russian dictionary records Андриян as a folk form of Адриан, but no checked Latvian rendering record or dictionary entry gives Andrijans as a given name. This remains an unverified proposal, and no dates are transferred from related forms.",
+   "hypothesis": "Russian Андриян / Adriāns",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Petrovsky 1966 PDF 43/51 visually checked: Андриян folk form of Адриан. LVA has only surname Андриянов → Andrijanovs (1993 p. 221), no given-name row. Hypothesis comparison improved.",
+   "next_steps": "Find an LVA given-name row Андриян → Andrijans."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Androns",
+   "spellings": [
+    "Androns"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LV-LVA-ANDRON",
+    "RU-PETROVSKY66"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/23991?locale=lv",
+    "https://www.personvarduatveide.lv/words/70483?locale=lv",
+    "https://pomnirod.ru/assets/files/knigi/slovar-russ_imen_petrovski_1966.pdf#page=51"
+   ],
+   "facts_used": "Androns: The Latvian Language Agency renders Russian Андрон as Androns, citing page 192 of the 1993 Russian manual, and gives the same form for Ukrainian Андрон in a 2023 manual. Petrovsky’s 1966 Russian name dictionary describes Андрон as a colloquial form of Андроник. It derives Андроник from Greek anēr, genitive andros, man, and nikē, victory. The 1993 manual entry is a dated record of the standard Latvian spelling of this Russian name. It shows how the name is rendered, not when the first Latvian bearer appeared. Whether individual bearers received the name directly from Russian or Ukrainian use is not established.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "LVA words 23991 (Russian Андрон → Androns, 1993 p. 192) and 70483 (Ukrainian Андрон → Androns, Hansons/Poļakova 2023 p. 148). Petrovsky 1966 PDF 51 / printed 50 visually checked: Андрон, colloquial to Андроник; Андроник from Greek anēr (gen. andros) man + nikē victory. Earlier web-reader access failure is now replaced by the privately cached original page.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lv",
+   "name": "Endrijs",
+   "spellings": [
+    "Endrijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LV-SILINS",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Endrijs",
+    "https://www.behindthename.com/name/andrew"
+   ],
+   "facts_used": "Endrijs: Siliņš’s Latvian personal-name dictionary links Endrijs with Andrejs as an English form. English Andrew, like Latvian Andrejs, goes back to Greek Andreas, from andreios, manly, which is derived from anēr, man. The dictionary records the connection but not a detailed borrowing route, so it should be read as the dictionary’s association rather than a documented direct loan. The dictionary dates Latvian use of Endrijs to the third quarter of the twentieth century. This is a dated record of this particular spelling in Latvia. It is not a first-birth record, and the far older history of Andrejs is not transferred to the form.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Siliņš pp. 117/56 (via izpetnieks): exact Endrijs, associated with Andrejs as an English form, attested in the third quarter of the twentieth century. INT-BTN Andrew: English form of Greek Andreas, from andreios, manly, from anēr, man. No direct English borrowing record or Agency rendering row for Endrijs exists; text keeps the link as the dictionary’s association.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lt",
+   "name": "Dovainė",
+   "spellings": [
+    "Dovainė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=297",
+    "https://www.tevu-darzelis.lt/vaiku-vardai/dovaine/",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+   ],
+   "facts_used": "Dovainė still needs checking against do- + vain-. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "do- + vain-",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Salys PDF 297 / printed 282 Vain-: vainà ‘yda, kaltė, priežastis’ conflicts with the guide’s warrior gloss; no Salys Do- element found.",
+   "next_steps": "Find a scholarly analysis of Do- and adjudication of vain-."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lt",
+   "name": "Saugardas",
+   "spellings": [
+    "Saugardas"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-SALYS83",
+    "LT-GUIDE"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=294",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=287",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=318",
+    "https://www.tevu-darzelis.lt/vaiku-vardai/saugardas/"
+   ],
+   "facts_used": "Saugardas: Antanas Salys links the name element Sau- with savas, own, and refers Gard- to the Gird- group, explained through girdėti, to hear. The name guide instead compares the second element with Prussian gerdaut, to say. Both analyses are reported as proposals, and the whole name is not given one exact translation. The 1964 name calendar reprinted in Salys’s 1983 volume gives Saugardas, with the short form Saugas, on 30 November. This is a concrete printed example of the form’s use. It is not the name’s invention date or proof that every bearer took it from that calendar.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Salys 1983 visually checked: PDF 294 / printed 279 Sau-: sāvas; PDF 287 / printed 272 Gard-: žiūr. gird- (Saugardas not in its example list); PDF 288 / printed 273 Gird-: girdėti, girdas. Earlier-round PDF 318 / printed 303: 30 November Saugardas (Saugas). Guide’s Prussian gerdaut comparison (round 30 note) kept as an explicit alternative rather than merged.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "lt",
+   "name": "Saugirdas",
+   "spellings": [
+    "Saugirdas"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=294",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=288",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=265"
+   ],
+   "facts_used": "Saugirdas: In Antanas Salys’s list of Lithuanian name elements, Sau- is linked with savas, own, and Gird- with girdėti, to hear, and the related noun girdas. The name guide gives the same two comparisons. They explain the individual stems; they are not a single literal translation of the whole name. Page 250 of Salys’s collected writings, published in 1983, lists Saugirdas as a personal name. This is dated scholarly evidence for the exact form. The 1983 publication is not a first birth record or the time the name was created.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Salys 1983 visually checked: PDF 294 / printed 279 Sau-: sāvas; PDF 288 / printed 273 Gird-: girdėti, girdas (Saugirdas not in that example list); PDF 265 / printed 250 exact Saugirdas PN (earlier round). The guide’s savas + girdėti/girdas analysis agrees. Dictionary listing is the dated detail; no first-birth date.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "ee",
+   "name": "Andro",
+   "spellings": [
+    "Andro"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://en.wiktionary.org/wiki/Andro",
+    "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf"
+   ],
+   "facts_used": "Andro still needs checking against Andres / Andrei. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Andres / Andrei",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Andro is Croatian/Georgian; no Estonian exact-form source.",
+   "next_steps": "Find an Estonian source for Andro."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "ee",
+   "name": "Ando",
+   "spellings": [
+    "Ando"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "EE-MUST62",
+    "EE-MAGISTE29",
+    "EE-LEOLE05",
+    "INT-WIKTIONARY"
+   ],
+   "sources": [
+    "https://ans-names.pitt.edu/ans/article/download/406/405#page=3",
+    "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=24",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6",
+    "https://en.wiktionary.org/wiki/Ando#Estonian"
+   ],
+   "facts_used": "Ando: Hildegard Must’s article on the apostles’ names as Estonian Christian names lists Andi, Ando and Andu among pet forms of Andreas that became independent names. Mägiste’s 1929 list pairs Ando with Andu, and a 2005 Estonian name column groups Ando with Andreas, Andres and Andrus. Wiktionary adds that Antonius may also have contributed, so that secondary possibility remains open. Must’s article was published in the journal Names in 1962, pages 260–264, and documents Ando as an established Estonian form. This dates a scholarly description of the name. It is not its first use or first bearer.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Reused EE-MUST62 PDF 3 (Andi, Ando, Andu as Andreas pet forms that became independent names) and EE-MAGISTE29 PDF 24 / printed 22 (Ando/Andu). New this round: EE-LEOLE05 PDF 6 visually checked, grouping Ando with Andreas/Andres/Andrus. Wiktionary Estonian: variant of Andres, possibly also Antonius; the text keeps this secondary possibility explicit rather than claiming a unique route.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-11-30",
+   "date": "2026-11-12",
+   "calendar_date": "11-30",
+   "country": "ee",
+   "name": "Anti",
+   "spellings": [
+    "Anti"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "INT-BTN",
+    "INT-WIKTIONARY",
+    "EE-LEOLE05"
+   ],
+   "sources": [
+    "https://www.behindthename.com/name/anti",
+    "https://www.behindthename.com/name/andrew",
+    "https://en.wiktionary.org/wiki/Anti#Estonian",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_11_november.pdf#page=6"
+   ],
+   "facts_used": "Anti: Behind the Name describes Anti as an Estonian form of Andrew, and Wiktionary’s Estonian entry calls it a variant of Andres, adding that Antonius may also have contributed. Leili Kuusk’s 2005 name column groups Andreas, Andres, Andrus, Ando and Anti and derives them from a Greek word meaning manly or brave. The Andreas line is therefore documented, while the secondary Antonius possibility is not excluded. That column appears on page 6 of the November 2005 issue of Leole, the Suure-Jaani municipal newspaper, and uses the exact spelling Anti. It is a dated example from Estonian local print. It is not the first record of the name or proof that every bearer’s name came through Andreas.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "New: curated INT-BTN Anti = Estonian form of Andrew; BTN Andrew lists Estonian Andres, Andrus, Anti. Wiktionary Estonian: variant of Andres, possibly also from Antonius (kept explicit). EE-LEOLE05 PDF 6 visually checked: Andreas, Andres, Andrus, Ando, Anti from a Greek word ‘mehine, vapper’. Common word anti and Hungarian Antal not confused.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lv",
+   "name": "Arnulfs",
+   "spellings": [
+    "Arnulfs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Arnulfs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Arnulfs",
+    "https://www.behindthename.com/name/arnulf"
+   ],
+   "facts_used": "Arnulfs still needs checking against Arnulf: arn + wolf. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Arnulf: arn + wolf",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Arnulf rechecked; LVA has no Arnulf row.",
+   "next_steps": "Find an exact Latvian rendering record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lv",
+   "name": "Emanuils",
+   "spellings": [
+    "Emanuils"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Emanuils",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Emanuils"
+   ],
+   "facts_used": "Emanuils still needs checking against Bulgarian Emanuil / Emmanuel. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Bulgarian Emanuil / Emmanuel",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Emanuil (Bulgarian) rechecked; LVA Greek Εμμανουήλ → Emmanuils (double m) and Emanuels, not Emanuils.",
+   "next_steps": "Find an exact Emanuils rendering."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lv",
+   "name": "Emmanuels",
+   "spellings": [
+    "Emmanuels"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/29312%2C29311?locale=lv",
+    "https://www.personvarduatveide.lv/words/39235%2C39236?locale=lv",
+    "https://www.izpetnieks.lv/en/name/Emmanuels",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Emmanuels"
+   ],
+   "facts_used": "Emmanuels still needs checking against Emmanuel / Emanuels. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Emmanuel / Emanuels",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA rows: English Emmanuel → Emanuēls/Emenjuels, French → Emanuels, Greek → Emmanuils/Emanuels, Italian Emmanuele → Emmanuēle; none gives Emmanuels.",
+   "next_steps": "Find an exact Emmanuels record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lv",
+   "name": "Imanuels",
+   "spellings": [
+    "Imanuels"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Imanuels",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Imanuels"
+   ],
+   "facts_used": "Imanuels still needs checking against Immanuel / Imanuēls. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Immanuel / Imanuēls",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA English Immanuel → Imanuēls/Imenjuels only; izpetnieks gives no origin prose.",
+   "next_steps": "Inspect Siliņš p. 163 original."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lv",
+   "name": "Immanuels",
+   "spellings": [
+    "Immanuels"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Immanuels",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Immanuels"
+   ],
+   "facts_used": "Immanuels still needs checking against Immanuel / Imanuels. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Immanuel / Imanuels",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact double-m short-e row in LVA.",
+   "next_steps": "Find an exact Immanuels record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lv",
+   "name": "Noldis",
+   "spellings": [
+    "Noldis"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Noldis",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Noldis"
+   ],
+   "facts_used": "Noldis still needs checking against Arnolds. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Arnolds",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš Arnolds comparison rechecked; LVA Noldi row not a bridge.",
+   "next_steps": "Find a source confirming Noldis as an Arnolds short form."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "lt",
+   "name": "Algmina",
+   "spellings": [
+    "Algmina"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-SALYS83",
+    "LT-PAKERYS11",
+    "LT-GUIDE"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=285",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=292",
+    "https://etalpykla.lituanistika.lt/object/LT-LDB-0001%3AJ.04~2011~1367179641935/J.04~2011~1367179641935.pdf#page=7",
+    "https://www.tevu-darzelis.lt/vaiku-vardai/algmina/"
+   ],
+   "facts_used": "Algmina: In Antanas Salys’s list of Lithuanian name elements, Alg- is linked with alga, reward or wage, and the verb elgtis, while Min- is linked with minti and minėti, the latter meaning to mention. The name guide likewise connects the first element with alga. Another popular name site divides the name differently, and that alternative remains unconfirmed. Antanas Pakerys’s 2011 study of the accentuation of Lithuanian compound female names, page 96, lists Algminà, Algmina and Algminė beside masculine Algminas. This is dated scholarly evidence for the exact form and its accent. It is not a first birth record or the date the name was created.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Salys 1983 visually checked: PDF 285 / printed 270 Alg-: alga, elgtis (Algimantas, Algiminas), distinct from Al-: Gothic alls with a question mark; PDF 292 / printed 277 Min-: minti, minėti. Pakerys 2011 PDF 7 / printed 96 visually checked: -min- Algminà (3b), Algmina (1), Algminė (1) (plg. Algminas). Guide (alga) agrees; vardai.lt al-/aliai vienas segmentation kept as an unconfirmed popular alternative.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "ee",
+   "name": "Osmar",
+   "spellings": [
+    "Osmar"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.behindthename.com/name/osmar",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+    "https://en.wiktionary.org/wiki/Osmar#Estonian"
+   ],
+   "facts_used": "Osmar still needs checking against Germanic Os- names / Oskar. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Germanic Os- names / Oskar",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Osmar rechecked: probably a blend of Óscar, Osvaldo, Omar and Ademar, or Old English Osmær; no Estonian source.",
+   "next_steps": "Find an Estonian source for Osmar."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-01",
+   "date": "2026-11-12",
+   "calendar_date": "12-01",
+   "country": "ee",
+   "name": "Oss",
+   "spellings": [
+    "Oss"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29"
+   ],
+   "sources": [
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+    "https://en.wiktionary.org/wiki/Oss#Estonian"
+   ],
+   "facts_used": "Oss still needs checking against Oskar / Asgar / Ansgar. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Oskar / Asgar / Ansgar",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Leole December 2005 p. 1 Oskar/Asgar/Ansgar rechecked.",
+   "next_steps": "Find a scholarly Estonian source for Oss."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Meta",
+   "spellings": [
+    "Meta"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Meta",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Meta"
+   ],
+   "facts_used": "Meta still needs checking against Margareta / Matilda. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Margareta / Matilda",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Meta rechecked (German/Scandinavian/Slovene short form of Margaret); Siliņš keeps Margareta and Matilda.",
+   "next_steps": "Find a Latvian source deciding the base."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Sniedze",
+   "spellings": [
+    "Sniedze"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "LV-TEZAURS"
+   ],
+   "sources": [
+    "https://tezaurs.lv/sniedze",
+    "https://www.izpetnieks.lv/en/name/Sniedze",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sniedze"
+   ],
+   "facts_used": "Sniedze still needs checking against sniedze (bird) / sniegs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "sniedze (bird) / sniegs",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Tezaurs.lv sniedze: snow bunting and lake smelt senses, no etymology; Siliņš bird/snow alternatives remain.",
+   "next_steps": "Find a Latvian source deriving the bird name and adjudicating the personal name."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Mēta",
+   "spellings": [
+    "Mēta"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/M%C4%93ta",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=M%C4%93ta"
+   ],
+   "facts_used": "Mēta still needs checking against Lithuanian Mėta / Estonian Meeta / Meta. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Lithuanian Mėta / Estonian Meeta / Meta",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA Lithuanian Mėta and Estonian Meeta rows rechecked.",
+   "next_steps": "Find a source deciding mint versus Margaret-family analysis."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Mets",
+   "spellings": [
+    "Mets"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Mets",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Mets"
+   ],
+   "facts_used": "Mets still needs checking against Mārtiņš / Mateuss. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Mārtiņš / Mateuss",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš Mārtiņš/Mateuss alternatives rechecked.",
+   "next_steps": "Find a source deciding the base."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Snežana",
+   "spellings": [
+    "Snežana"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://www.behindthename.com/name/snez18ana",
+    "https://www.personvarduatveide.lv/words/55970?locale=lv",
+    "https://www.personvarduatveide.lv/words/2508?locale=lv",
+    "https://www.izpetnieks.lv/en/name/Sne%C5%BEana",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sne%C5%BEana"
+   ],
+   "facts_used": "Snežana still needs checking against Snežana / Snježana / Sņežana. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Snežana / Snježana / Sņežana",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "BTN Snežana (Serbian, Macedonian, Slovene form of Snježana; Slavic sněgŭ, snow) opened; LVA Snježana and Снежана both → Sņežana. Exact spelling matches the South Slavic Latin form, but no dated Latvian exact-form episode was obtained (Council of Europe biography pages blocked by Cloudflare).",
+   "next_steps": "Obtain a dated exact-form Snežana episode (Latvian bearer or clearly labelled foreign institutional biography) and decide the Latvian route."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Snežanna",
+   "spellings": [
+    "Snežanna"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Sne%C5%BEanna",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sne%C5%BEanna"
+   ],
+   "facts_used": "Snežanna still needs checking against Snežana / Sņežana. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Snežana / Sņežana",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No double-n record.",
+   "next_steps": "Find exact Snežanna record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Sniedzīte",
+   "spellings": [
+    "Sniedzīte"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Sniedz%C4%ABte",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sniedz%C4%ABte"
+   ],
+   "facts_used": "Sniedzīte still needs checking against Sniedze / sniedze (bird) / sniegs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Sniedze / sniedze (bird) / sniegs",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Depends on unresolved Sniedze.",
+   "next_steps": "Resolve Sniedze first."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Sniga",
+   "spellings": [
+    "Sniga"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Sniga",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Sniga"
+   ],
+   "facts_used": "Calendar membership only; no supported origin proposal.",
+   "hypothesis": "",
+   "reason": "Still open: no adopted origin proposal; no exact-form evidence found.",
+   "uncertainties": "No dictionary or LVA record.",
+   "next_steps": "Search Periodika for Sniga."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Sņežanna",
+   "spellings": [
+    "Sņežanna"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/S%C5%86e%C5%BEanna",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=S%C5%86e%C5%BEanna"
+   ],
+   "facts_used": "Sņežanna still needs checking against Sņežana / Snježana. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Sņežana / Snježana",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA gives single-n Sņežana only.",
+   "next_steps": "Find exact Sņežanna record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Voicehs",
+   "spellings": [
+    "Voicehs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/words/1078?locale=lv",
+    "https://www.izpetnieks.lv/en/name/Voicehs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voicehs"
+   ],
+   "facts_used": "Voicehs still needs checking against Wojciech / voj- / vojak. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Wojciech / voj- / vojak",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "LVA Polish Wojciech → Vojcehs (Staltmane 1998 p. 54), not Voicehs; Siliņš root analysis questioned.",
+   "next_steps": "Find an exact Voicehs ↔ Wojciech bridge."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Voiceks",
+   "spellings": [
+    "Voiceks"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Voiceks",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voiceks"
+   ],
+   "facts_used": "Voiceks still needs checking against Voicehs / Wojciech / Wójcik. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Voicehs / Wojciech / Wójcik",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact record.",
+   "next_steps": "Find exact Voiceks record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Voicihs",
+   "spellings": [
+    "Voicihs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Voicihs",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voicihs"
+   ],
+   "facts_used": "Voicihs still needs checking against Voicehs / Wojciech. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Voicehs / Wojciech",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact record.",
+   "next_steps": "Find exact Voicihs record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Voiciks",
+   "spellings": [
+    "Voiciks"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Voiciks",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voiciks"
+   ],
+   "facts_used": "Voiciks still needs checking against Voičiks / Voicehs. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Voičiks / Voicehs",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Siliņš Alūksne 1638 rechecked; root still questioned.",
+   "next_steps": "Find a source adjudicating the root."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Voičiks",
+   "spellings": [
+    "Voičiks"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Voi%C4%8Diks",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voi%C4%8Diks"
+   ],
+   "facts_used": "Voičiks still needs checking against Voiciks / Wojciech / Wójcik. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Voiciks / Wojciech / Wójcik",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact record.",
+   "next_steps": "Find exact Voičiks record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lv",
+   "name": "Voitiks",
+   "spellings": [
+    "Voitiks"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-SILINS",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.izpetnieks.lv/en/name/Voitiks",
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Voitiks"
+   ],
+   "facts_used": "Voitiks still needs checking against Voicehs / Wojciech. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Voicehs / Wojciech",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "No exact record.",
+   "next_steps": "Find exact Voitiks record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lt",
+   "name": "Milmantė",
+   "spellings": [
+    "Milmantė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "LT-SALYS83",
+    "LT-GUIDE"
+   ],
+   "sources": [
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=292",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=252",
+    "https://www.tevu-darzelis.lt/vaiku-vardai/milmante/"
+   ],
+   "facts_used": "Milmantė: Antanas Salys links the name element Mil- with (pa)milti, to come to love, and Mant- with mantus, understanding or capable, and manta, property; he lists masculine Milmantas among Prussian names. The Lithuanian name guide gives the same element comparisons. They explain the stems, not one exact translation of the whole name. Page 237 of Salys’s collected writings, published in 1983, lists Milmantė as a feminine personal name. This is dated scholarly evidence for the exact form. The publication year is not a first birth record or the date the name was created.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "Salys 1983 visually checked: PDF 292 / printed 277 Mant-: mantus ‘supratingas, išmanus, tinkąs’, mantà, and Mil-: (pa)milti, both listing Prussian Milmantas; PDF 252 / printed 237 exact Milmantė, -ės s. f. /1/ PN. Exact guide gives the same mil-/mant- comparisons with mantus/manta as alternatives.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "lt",
+   "name": "Vėjūnas",
+   "spellings": [
+    "Vėjūnas"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-GUIDE",
+    "LT-SALYS83"
+   ],
+   "sources": [
+    "https://www.tevu-darzelis.lt/vaiku-vardai/vejunas/",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+   ],
+   "facts_used": "Vėjūnas still needs checking against vėjas. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "vėjas",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Guide: derived from Vėjas, Lithuanian vėjas; Salys calendar (PDF 302) has feminine Vėjūna (Veja), not Vėjūnas.",
+   "next_steps": "Find a dated exact masculine Vėjūnas record."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "ee",
+   "name": "Aira",
+   "spellings": [
+    "Aira"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "EE-MAGISTE29",
+    "INT-BTN",
+    "EE-LEOLE05-DEC"
+   ],
+   "sources": [
+    "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+    "https://www.behindthename.com/name/aira",
+    "https://www.behindthename.com/name/airi-2",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+   ],
+   "facts_used": "Aira: Julius Mägiste’s 1929 list of Estonian-suited personal names marks Aira as a Finnish name. Behind the Name treats Aira as a variant of Finnish Airi, which it explains through airut, messenger or herald, possibly with influence from place names. A 2005 Estonian local name column considered the route unclear, so the Finnish link is the documented explanation rather than a certainty for every bearer. Mägiste’s list, published in Tartu in 1929, gives Aira among women’s names on printed page 11. This is a dated record of the form in Estonian name literature. It is not the first Estonian bearer or the date the name entered use.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "EE-MAGISTE29 PDF 13 / printed 11 visually checked: ‘Aira (sm., Alm.)’ marked Finnish. New: curated INT-BTN Aira = variant of Airi 2; Airi 2 Finnish from airut, possibly influenced by place names. Leole December 2005 p. 1 route uncertainty reflected. Abbreviation ‘Alm.’ not expanded.",
+   "next_steps": ""
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "ee",
+   "name": "Aire",
+   "spellings": [
+    "Aire"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-LEOLE05",
+    "EE-MAGISTE29"
+   ],
+   "sources": [
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+    "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+    "https://en.wiktionary.org/wiki/Aire#Estonian"
+   ],
+   "facts_used": "Aire still needs checking against Aina / Aila / Aili / Finnish Airi. This is an origin hypothesis rather than a verified full explanation. An exact-form link and a separate historical record are needed; similar sound alone cannot transfer another name’s meaning or first-attestation date.",
+   "hypothesis": "Aina / Aila / Aili / Finnish Airi",
+   "reason": "Still open: no exact-form origin bridge plus independent dated detail, or competing analyses unresolved.",
+   "uncertainties": "Not in Mägiste’s Finnish-marked list beside Aira/Airi; Leole routes unclear.",
+   "next_steps": "Find an exact Estonian explanation of Aire."
+  },
+  {
+   "batch": "calendar-recheck-2026-12-02",
+   "date": "2026-11-12",
+   "calendar_date": "12-02",
+   "country": "ee",
+   "name": "Airi",
+   "spellings": [
+    "Airi"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "EE-MAGISTE29",
+    "INT-BTN",
+    "EE-LEOLE05-DEC"
+   ],
+   "sources": [
+    "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+    "https://www.behindthename.com/name/airi-2",
+    "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+   ],
+   "facts_used": "Airi: Julius Mägiste’s 1929 list of Estonian-suited personal names marks Airi as a Finnish name. Behind the Name explains Finnish Airi through airut, messenger or herald, and notes that place names beginning with the same sounds may also have influenced it. A 2005 Estonian local name column considered the route unclear, so the Finnish link is the documented explanation rather than a certainty for every bearer. Mägiste’s list, published in Tartu in 1929, gives Airi among women’s names on printed page 11. This is a dated record of the form in Estonian name literature. It is not the first Estonian bearer or the date the name entered use.",
+   "hypothesis": "",
+   "reason": "Exact-form or explicitly scoped evidence opened this round supports two paragraphs in five languages; uncertainty kept explicit.",
+   "uncertainties": "EE-MAGISTE29 PDF 13 / printed 11 visually checked: ‘Airi (sm. Alm., PN 142)’ and ‘Aira (sm., Alm.)’, i.e. marked Finnish. New: curated INT-BTN Airi 2, Finnish, from airut ‘messenger, herald’, possibly influenced by place names; Aira listed as its variant. Leole December 2005 p. 1 considered the route unclear and mentions Aina/Aila/Aili; that uncertainty is reflected in the qualified wording. Abbreviation ‘Alm.’ not expanded.",
+   "next_steps": ""
+  }
+ ]
+}

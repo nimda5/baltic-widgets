@@ -1,0 +1,1319 @@
+{
+ "round": 56,
+ "date": "2026-11-12",
+ "source_directory": "NAMEDAYS_SOURCES.md",
+ "note": "12–18 November recheck: 47 profiles examined; Heinar, Vaiki and Ilu resolved from Rajandi 1966, Vicenta from Behind the Name plus a dated Vatican record; Gerdvilė hypothesis sharpened with Sinkevičiūtė 2017; 42 remain open.",
+ "records": [
+  {
+   "batch": "calendar-recheck-2026-11-12",
+   "date": "2026-11-12",
+   "calendar_date": "11-12",
+   "country": "lv",
+   "name": "Vianda",
+   "spellings": [
+    "Vianda"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vianda",
+    "https://www.izpetnieks.lv/en/name/Vianda"
+   ],
+   "facts_used": "Vianda might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for Vianda. This is a working hypothesis, not an established relationship between the names.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Vianda returned no entries. LV-SILINS exact page re-opened: origin not established. INT-BTN and INT-WIKTIONARY have no exact entry. Calendar membership (LV-VVC) remains the only established fact.",
+   "next_steps": "Search LV-PERIODIKA for exact Vianda as a given name; a dated record would still need an onomastic explanation."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-12",
+   "date": "2026-11-12",
+   "calendar_date": "11-12",
+   "country": "lv",
+   "name": "Viāna",
+   "spellings": [
+    "Viāna"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Viāna",
+    "https://www.izpetnieks.lv/en/name/Viāna"
+   ],
+   "facts_used": "Viāna might be an independent sound-based formation, like Vianita and Vianta. The dictionary calls those two forms phonetic formations, but does not document that origin for Viāna. This is a working hypothesis, not an established relationship between the names.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Viāna returned only Portuguese Viana (Vianna) → Vjana and Vivian/Viviana rows; none reads Viāna. LV-SILINS exact page: origin not established. Do not treat the Portuguese place/surname rendering as a bridge.",
+   "next_steps": "Search LV-PERIODIKA and the planned new Latvian given-name dictionary (LV-ALL93 project) for exact Viāna; do not use Portuguese Viana → Vjana as a bridge."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-12",
+   "date": "2026-11-12",
+   "calendar_date": "11-12",
+   "country": "lv",
+   "name": "Vidards",
+   "spellings": [
+    "Vidards"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vidards",
+    "https://www.izpetnieks.lv/en/name/Vidards"
+   ],
+   "facts_used": "The spelling Vidards suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidards has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. A Vidar query returns Swedish/Norwegian Vidar → Vīdars (long ī), which does not document this spelling. LV-SILINS exact page: origin not established.",
+   "next_steps": "Seek an exact Vidards entry in the new Latvian given-name dictionary project or LV-PERIODIKA; Vīdars (long ī) is not this spelling."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-12",
+   "date": "2026-11-12",
+   "calendar_date": "11-12",
+   "country": "lv",
+   "name": "Vidarts",
+   "spellings": [
+    "Vidarts"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vidarts",
+    "https://www.izpetnieks.lv/en/name/Vidarts"
+   ],
+   "facts_used": "The spelling Vidarts suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidarts has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. A Vidar query returns Swedish/Norwegian Vidar → Vīdars (long ī), which does not document this spelling. LV-SILINS exact page: origin not established.",
+   "next_steps": "Seek an exact Vidarts entry in the new Latvian given-name dictionary project or LV-PERIODIKA; Vīdars (long ī) is not this spelling."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-12",
+   "date": "2026-11-12",
+   "calendar_date": "11-12",
+   "country": "lv",
+   "name": "Vidavs",
+   "spellings": [
+    "Vidavs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vidavs",
+    "https://www.izpetnieks.lv/en/name/Vidavs"
+   ],
+   "facts_used": "The spelling Vidavs suggests a possible comparison with Vidars. This is only a working proposal based on similar forms: no documented transition from Vidars to Vidavs has been found. The origin of Vidars therefore cannot be treated as established for this name.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. A Vidar query returns Swedish/Norwegian Vidar → Vīdars (long ī), which does not document this spelling. LV-SILINS exact page: origin not established.",
+   "next_steps": "Seek an exact Vidavs given-name record in LV-PERIODIKA; distinguish it from the surname."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-12",
+   "date": "2026-11-12",
+   "calendar_date": "11-12",
+   "country": "lt",
+   "name": "Juozapotas",
+   "spellings": [
+    "Juozapotas"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-VLKK"
+   ],
+   "sources": [
+    "https://vardai.vlkk.lt/vardas/juozapotas/"
+   ],
+   "facts_used": "Exact Juozapotas with short forms Juozas and Potas appears on 14 November in the 1964 Tikiu Dievą calendar, reprinted in Salys 1983. The project calendar still uses 12 November.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LT-VLKK vardai.vlkk.lt returned a bot-verification page (HTTP 403) in both direct fetch and browser; it was not bypassed. LV-LVA has no Juozapotas row. Web search found only a popular tv3.lt page deriving it from Joseph, which conflicts with the Josaphat comparison and was not used. LT-SALYS83 1964-calendar record (14 November) still stands.",
+   "next_steps": "Open vardai.vlkk.lt manually (human browser) or the printed Kuzavinis–Savukynas dictionary for an exact Juozapotas entry deciding Joseph versus Josaphat."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Eugenijs",
+   "spellings": [
+    "Eugenijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Eugenijs",
+    "https://www.izpetnieks.lv/en/name/Eugenijs"
+   ],
+   "facts_used": "Eugenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Eugenijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Eugenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence. Do not reuse the misleading 1961-manual search snippet: its actual row is Euģenijus, not Eugenijs."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Euģenijs",
+   "spellings": [
+    "Euģenijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Euģenijs",
+    "https://www.izpetnieks.lv/en/name/Euģenijs"
+   ],
+   "facts_used": "Euģenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Euģenijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Euģēnijs",
+   "spellings": [
+    "Euģēnijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Euģēnijs",
+    "https://www.izpetnieks.lv/en/name/Euģēnijs"
+   ],
+   "facts_used": "Euģēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Euģēnijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Euģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Evgenijs",
+   "spellings": [
+    "Evgenijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Evgenijs",
+    "https://www.izpetnieks.lv/en/name/Evgenijs"
+   ],
+   "facts_used": "Evgenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evgenijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Evgēnijs",
+   "spellings": [
+    "Evgēnijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Evgēnijs",
+    "https://www.izpetnieks.lv/en/name/Evgēnijs"
+   ],
+   "facts_used": "Evgēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evgēnijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evgēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Evģenijs",
+   "spellings": [
+    "Evģenijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Evģenijs",
+    "https://www.izpetnieks.lv/en/name/Evģenijs"
+   ],
+   "facts_used": "Evģenijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evģenijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Evģēnijs",
+   "spellings": [
+    "Evģēnijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Evģēnijs",
+    "https://www.izpetnieks.lv/en/name/Evģēnijs"
+   ],
+   "facts_used": "Evģēnijs could be compared with the documented dictionary form Eugēnijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Eugēnijs therefore cannot safely be assigned to Evģēnijs.",
+   "hypothesis": "Eugēnijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only fuzzy matches: Lithuanian Euģeņijs (Balode 2009, p. 105), Lithuanian Eugenijus → Eiženijs / Euģenijus (Porīte 1961), Russian Евгений → Jevgēnijs / Jevgeņijs (Grabis and Porīte 1993, p. 198). No row has this exact spelling. LV-SILINS exact page: form not found; Eugēnijs (Vidzeme 1965) is a different spelling. LV-ALL93 and LV-IDENTITY25 text layers re-checked: only Jevgenija, Jevgenijs, Jevgeņija, Jevgeņijs and Jevgēnijs occur.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Evģēnijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Jevgēņija",
+   "spellings": [
+    "Jevgēņija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jevgēņija",
+    "https://www.izpetnieks.lv/en/name/Jevgēņija"
+   ],
+   "facts_used": "Jevgēņija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevgēņija.",
+   "hypothesis": "Jevgeņija",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Russian Евгения → Jevgeņija and Jevgēnija (Grabis and Porīte 1993, p. 185) only; no row with this exact spelling. INT-WIKTIONARY Latvian Jevgeņija lists alternative forms Jevgenija and Jevgēnija only. LV-ALL93 / LV-IDENTITY25 re-checked: exact form absent. LV-SILINS Jevgeņija (Rēzekne 1877, calendar 1899) must not be transferred.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevgēņija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Jevģenija",
+   "spellings": [
+    "Jevģenija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jevģenija",
+    "https://www.izpetnieks.lv/en/name/Jevģenija"
+   ],
+   "facts_used": "Jevģenija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevģenija.",
+   "hypothesis": "Jevgeņija",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Russian Евгения → Jevgeņija and Jevgēnija (Grabis and Porīte 1993, p. 185) only; no row with this exact spelling. INT-WIKTIONARY Latvian Jevgeņija lists alternative forms Jevgenija and Jevgēnija only. LV-ALL93 / LV-IDENTITY25 re-checked: exact form absent. LV-SILINS Jevgeņija (Rēzekne 1877, calendar 1899) must not be transferred.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Jevģēnija",
+   "spellings": [
+    "Jevģēnija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jevģēnija",
+    "https://www.izpetnieks.lv/en/name/Jevģēnija"
+   ],
+   "facts_used": "Jevģēnija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevģēnija.",
+   "hypothesis": "Jevgeņija",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Russian Евгения → Jevgeņija and Jevgēnija (Grabis and Porīte 1993, p. 185) only; no row with this exact spelling. INT-WIKTIONARY Latvian Jevgeņija lists alternative forms Jevgenija and Jevgēnija only. LV-ALL93 / LV-IDENTITY25 re-checked: exact form absent. LV-SILINS Jevgeņija (Rēzekne 1877, calendar 1899) must not be transferred.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Jevģenijs",
+   "spellings": [
+    "Jevģenijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jevģenijs",
+    "https://www.izpetnieks.lv/en/name/Jevģenijs"
+   ],
+   "facts_used": "Jevģenijs could be compared with the documented dictionary form Jevgeņijs. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņijs therefore cannot safely be assigned to Jevģenijs.",
+   "hypothesis": "Jevgeņijs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Russian Евгений → Jevgēnijs and Jevgeņijs (Grabis and Porīte 1993, p. 198) only; no Jevģenijs row. LV-ALL93 / LV-IDENTITY25 re-checked: exact form absent. LV-SILINS Jevgeņijs (Rēzekne 1876, calendar 1864) must not be transferred.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevģenijs correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Jevženija",
+   "spellings": [
+    "Jevženija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jevženija",
+    "https://www.izpetnieks.lv/en/name/Jevženija"
+   ],
+   "facts_used": "Jevženija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevženija.",
+   "hypothesis": "Jevgeņija",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): no entries at all for the exact form. LV-SILINS points to Jevgeņija only. LV-ALL93 / LV-IDENTITY25 re-checked: exact form absent.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevženija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-13",
+   "date": "2026-11-12",
+   "calendar_date": "11-13",
+   "country": "lv",
+   "name": "Jevžēnija",
+   "spellings": [
+    "Jevžēnija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Jevžēnija",
+    "https://www.izpetnieks.lv/en/name/Jevžēnija"
+   ],
+   "facts_used": "Jevžēnija could be compared with the documented dictionary form Jevgeņija. This is an unverified working proposal based on spelling resemblance: the cited entry does not establish a relationship between these exact forms. The origin, early attestations and calendar years of Jevgeņija therefore cannot safely be assigned to Jevžēnija.",
+   "hypothesis": "Jevgeņija",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): no entries at all for the exact form. LV-SILINS points to Jevgeņija only. LV-ALL93 / LV-IDENTITY25 re-checked: exact form absent.",
+   "next_steps": "Search LV-LVA language manuals and LV-PERIODIKA for an exact Jevžēnija correspondence, then inspect the scan. Compare LV-ALL93 and LV-IDENTITY25, but do not extend their named variants to this spelling without direct evidence."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-14",
+   "date": "2026-11-12",
+   "calendar_date": "11-14",
+   "country": "lv",
+   "name": "Fridriha",
+   "spellings": [
+    "Fridriha"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Fridriha",
+    "https://www.izpetnieks.lv/en/name/Fridriha"
+   ],
+   "facts_used": "Fridriha could be compared with the documented form Friderika. This remains an unverified working proposal: the reference does not provide an unambiguous correspondence for this exact spelling. The origin, early records and calendar years of Friderika therefore cannot automatically be assigned to Fridriha.",
+   "hypothesis": "Friderika",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Fridriha and German Friedrike returned no entries. LV-SILINS exact page re-opened: Friderika and Fridrihs only; the masculine genitive homograph risk remains.",
+   "next_steps": "Search LV-LVA German/Russian feminine-name tables and LV-PERIODIKA for an exact Fridriha correspondence; do not mistake a masculine genitive Fridriha for an independently recorded feminine name."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-14",
+   "date": "2026-11-12",
+   "calendar_date": "11-14",
+   "country": "lv",
+   "name": "Vicenta",
+   "spellings": [
+    "Vicenta"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "INT-BTN",
+    "LV-SILINS",
+    "INT-VATICAN75"
+   ],
+   "sources": [
+    "https://www.behindthename.com/name/vicenta",
+    "https://www.behindthename.com/name/vincent",
+    "https://www.izpetnieks.lv/en/name/Vicenta",
+    "https://www.vatican.va/content/paul-vi/es/homilies/1975/documents/hf_p-vi_hom_19750525.html"
+   ],
+   "facts_used": "Vicenta: Behind the Name explains Vicenta as the Spanish feminine form of Vincent, which goes back to the Roman name Vincentius and Latin vinco, to conquer. In Klāvs Siliņš’s Latvian dictionary the related form Vicents is placed in the Vincentīna family, but the route by which Vicenta itself reached Latvian use is not described. The name therefore belongs to a well-documented Latin-Christian family, while its local adoption remains less clear. A well-known Spanish bearer is Vicenta María López y Vicuña, born in Navarre in 1847, who in 1876 took the religious habit with two companions, beginning the Religious of Mary Immaculate. Pope Paul VI canonised her on 25 May 1975. This is a Spanish example, not the first use of Vicenta in Latvia.",
+   "hypothesis": "",
+   "reason": "Exact-form bridge and a dated, scoped detail opened in round 56 support two paragraphs in five languages.",
+   "next_steps": "",
+   "uncertainties": "INT-BTN curated Vicenta: Spanish feminine of Vincent; Vincent: Vincentius < Latin vinco. LV-SILINS (izpetnieks) Vicenta page: Vicents listed under Vincentīna, no further etymology; its attestation and calendar years are not used because their scope is unclear. INT-VATICAN75 Paul VI homily of 25 May 1975 (canonisation; birth in Navarre 1847, habit 1876, Religiosas de María Inmaculada). Foreign example only; Latvian adoption route unresolved."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-14",
+   "date": "2026-11-12",
+   "calendar_date": "11-14",
+   "country": "lv",
+   "name": "Vikars",
+   "spellings": [
+    "Vikars"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vikars",
+    "https://www.izpetnieks.lv/en/name/Vikars"
+   ],
+   "facts_used": "The dictionary tentatively compares Vikars with Latin vicarius, deputy or helper. The source itself questions this origin, so it remains an unverified proposal. A separate personal-name record of Vikars near Bauska in 1975 establishes use, rather than the suggested Latin etymology.",
+   "hypothesis": "Latin vicarius",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only a Hungarian surname row Vikár → Vikārs (Sakse 1998, p. 102), a different spelling and name type. LV-SILINS exact page unchanged: vicarius explanation questioned; Bauska-area 1975 record establishes use only.",
+   "next_steps": "Inspect the original Siliņš p. 325 and search LV-PERIODIKA for naming context. The Bauska-area 1975 record establishes use; the dictionary itself questions vicarius, so retain that etymology as unverified."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-14",
+   "date": "2026-11-12",
+   "calendar_date": "11-14",
+   "country": "lv",
+   "name": "Vincentina",
+   "spellings": [
+    "Vincentina"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Vincentina",
+    "https://www.izpetnieks.lv/en/name/Vincentina"
+   ],
+   "facts_used": "Vincentina could be compared with the documented form Vincentīna. This remains an unverified working proposal: the reference does not provide an unambiguous correspondence for this exact spelling. The origin, early records and calendar years of Vincentīna therefore cannot automatically be assigned to Vincentina.",
+   "hypothesis": "Vincentīna",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Vincentina and Polish-style Vincentyna returned no entries. LV-SILINS exact page: short-i form not found; Vincentīna data not transferred.",
+   "next_steps": "Find an exact unaccented Vincentina rendering or etymology entry through LV-LVA and the original dictionary. The normalized lookup inherits Vincentīna’s record, so retain that record’s attested macron and do not claim 1877 for Vincentina."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-14",
+   "date": "2026-11-12",
+   "calendar_date": "11-14",
+   "country": "ee",
+   "name": "Alve",
+   "spellings": [
+    "Alve"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-RAJANDI66"
+   ],
+   "sources": [
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+   ],
+   "facts_used": "Alve may be connected with Alviine and Alvi: the Estonian dictionary entries list it among related names. They do not supply a separate Alve etymology, so its derivational route remains unverified. A similar Scandinavian name or Finnish surname does not itself establish the Estonian name’s origin.",
+   "hypothesis": "Alviine / Alvi",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "EE-RAJANDI66 checked: Alvar and Alvi(i)ne articles (printed p. 23) and the supplementary list contain no Alve. LV-LVA Alve query returns only surnames (Alvestad, Alves, Alver). INT-BTN Alve is a Scandinavian variant of Alf and was not used for the Estonian name.",
+   "next_steps": "Check Mägiste 1936 (digar.ee) and the EKI name database for exact Alve; do not use Scandinavian Alve (Alf)."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "lv",
+   "name": "Leopoldina",
+   "spellings": [
+    "Leopoldina"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Leopoldina",
+    "https://www.izpetnieks.lv/en/name/Leopoldina"
+   ],
+   "facts_used": "Leopoldina could be compared with Leopolds, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Leopolds cannot automatically be assigned to Leopoldina.",
+   "hypothesis": "Leopolds",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Leopoldina and Leopoldyna returned no entries; German Leopoldine → Leopoldīne (Ceplītis 1960, p. 63) has a macron and -e ending, so it is not this spelling. INT-WIKTIONARY Portuguese and Slovene sections mark Leopoldina as a female given name without etymology; Fran.si (Slovenski pravopis) lists Leopoldína as a female personal name only.",
+   "next_steps": "Find an exact Latvian feminine correspondence through LV-LVA or a signed onomastic study; inspect Siliņš originals and LV-PERIODIKA. Behind the Name’s Leopoldina result is user-submitted and Duden’s is an academy, not sufficient proof. Do not transfer Leopolds dates."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "lv",
+   "name": "Undalgs",
+   "spellings": [
+    "Undalgs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Undalgs",
+    "https://www.izpetnieks.lv/en/name/Undalgs"
+   ],
+   "facts_used": "The checked dictionary material does not establish the origin of Undalgs. Comparing it with Unda or other Und- names would remain an unverified proposal. A State Audit Office discussion report independently documents the name in participant Undalgs Mētra, but this usage example does not explain its formation.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Undalgs returned no entries. LV-SILINS exact page: origin not established. LV-AUDIT usage example still stands.",
+   "next_steps": "Inspect the original dictionary and LV-LAVI/LV-PERIODIKA naming discussions for an exact explanation. The State Audit Office participant paragraph proves use of Undalgs Mētra but no origin; an Unda/Und- comparison remains unverified."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "lv",
+   "name": "Undija",
+   "spellings": [
+    "Undija"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Undija",
+    "https://www.izpetnieks.lv/en/name/Undija"
+   ],
+   "facts_used": "Undija could be compared with Unda, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Unda cannot automatically be assigned to Undija.",
+   "hypothesis": "Unda",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. LV-SILINS exact page: not found; Unda/Undīna data not transferred.",
+   "next_steps": "Search LV-LVA, LV-LAVI and LV-PERIODIKA for an exact etymology or explicitly documented variant. The exact catalogue entry lacks an explanation; similarity to Unda does not establish derivation or inherited dates. A publisher sample credit for Undija Ancēna is an uninspected usage lead only."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "lv",
+   "name": "Undina",
+   "spellings": [
+    "Undina"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Undina",
+    "https://www.izpetnieks.lv/en/name/Undina"
+   ],
+   "facts_used": "Undina could be compared with Undīna, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Undīna cannot automatically be assigned to Undina.",
+   "hypothesis": "Undīna",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): English Undine → Undīna and Andīna (Ahero 2006, p. 119) only; no short-i row. INT-WIKTIONARY English Undina is only the asteroid 92 Undina named after Fouqué’s heroine Undine, not a personal-name bridge.",
+   "next_steps": "Find an exact short-i rendering or historical original through LV-LVA/LV-PERIODIKA. The normalized lookup inherits Undīna/-e and its 1922 Riga record; keep the attested macron and do not claim that date for Undina."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "lv",
+   "name": "Undis",
+   "spellings": [
+    "Undis"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Undis",
+    "https://www.izpetnieks.lv/en/name/Undis"
+   ],
+   "facts_used": "The origin of Latvian Undis remains unconfirmed. A comparison with Unda would be a working hypothesis. Norwegian also has a feminine Undis, explained through Unn and dis and dated to 1897, but the explanation of a female name in another language does not establish this Latvian masculine name’s origin or date.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Icelandic Unndís → Undīsa (feminine, long ī) and unrelated Fagundes/Húndís rows; nothing for masculine Undis. INT-SNL Norwegian feminine Undis remains a homonym only.",
+   "next_steps": "Find an exact Latvian masculine entry through LV-LAVI, LV-LVA and historical records. INT-SNL explains Norwegian feminine Undis, coined in 1897 from Unn/dis; it is a homonym and does not establish Latvian origin or date. Unis in the Una entry is a different spelling."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "lv",
+   "name": "Undita",
+   "spellings": [
+    "Undita"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Undita",
+    "https://www.izpetnieks.lv/en/name/Undita"
+   ],
+   "facts_used": "Undita could be compared with Unda, but the checked references do not confirm a direct derivational link for this exact spelling. This remains an unverified proposal. Similar sound or an ending is insufficient evidence: the origin and historical dates of Unda cannot automatically be assigned to Undita.",
+   "hypothesis": "Unda",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. LV-SILINS exact page: not found; Unda/Undīna data not transferred.",
+   "next_steps": "Search exact Latvian records in LV-LVA, LV-LAVI and LV-PERIODIKA. No direct etymological correspondence was found; an Unda comparison remains a proposal and its dates cannot be inherited."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "ee",
+   "name": "Vaigi",
+   "spellings": [
+    "Vaigi"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-RAJANDI66"
+   ],
+   "sources": [
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+   ],
+   "facts_used": "Vaigi may be connected with Estonian Vaike and Vaige, but a direct correspondence for this spelling remains unconfirmed. Mägiste’s 1929 book links Vaige with Vaike and an explanation of calm or quiet. That supports a comparison, rather than proving the origin of Vaigi or its presence in a 1929 record.",
+   "hypothesis": "Vaike / Vaige",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "EE-RAJANDI66 checked: the Vaike article (PDF p. 171 / printed p. 173) names variants Vaiga, Vaige and Vaiki, and the supplementary list (PDF p. 220 / printed p. 222) has Vagi and Vaiki but no Vaigi. Vaigi therefore still lacks an exact bridge, unlike Vaiki.",
+   "next_steps": "Check Mägiste 1936 (digar.ee) and Seppo 1994 for exact Vaigi; Rajandi 1966 covers Vaiki but not Vaigi."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-15",
+   "date": "2026-11-12",
+   "calendar_date": "11-15",
+   "country": "ee",
+   "name": "Vaiki",
+   "spellings": [
+    "Vaiki"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "EE-RAJANDI66",
+    "INT-BTN"
+   ],
+   "sources": [
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=171",
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=220",
+    "https://www.behindthename.com/name/vaike"
+   ],
+   "facts_used": "Vaiki: Edgar Rajandi’s 1966 name book lists Vaiki as a form referring to Vaike. Vaike is explained from Estonian vaikus, silence or calm, and Rajandi credits Andres Saal with introducing it as a woman’s name for a character in his 1889 story Vambola. Vaiki therefore belongs to this modern Estonian-style name group, rather than to an old baptismal-name tradition. In the book’s supplementary list, where each form is followed by its oldest known source, Rajandi cites Julius Mägiste’s 1936 collection of Estonian-style first names for Vaiki. In the main Vaike article he adds that the variants Vaiga, Vaige and Vaiki were absent from actual name-giving. This dates a proposed written form, not the first child named Vaiki.",
+   "hypothesis": "",
+   "reason": "Exact-form bridge and a dated, scoped detail opened in round 56 support two paragraphs in five languages.",
+   "next_steps": "",
+   "uncertainties": "EE-RAJANDI66 PDF p. 220 / printed p. 222 visually checked: *Vaiki Mg 36 → Vaike in the supplementary list, whose legend says each form is followed by its oldest known source (Mg 36 = Mägiste, Eestipäraseid eesnimesid, Tartu 1936). PDF p. 171 / printed p. 173: Vaike credited to Andres Saal, Vambola (1889); variants Vaiga, Vaige, Vaiki absent from use. INT-BTN Vaike: vaikus, silence, calm. Mägiste 1936 original not opened this round; the 1936 date is Rajandi’s citation."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-16",
+   "date": "2026-11-12",
+   "calendar_date": "11-16",
+   "country": "lv",
+   "name": "Ganda",
+   "spellings": [
+    "Ganda"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Ganda",
+    "https://www.izpetnieks.lv/en/name/Ganda"
+   ],
+   "facts_used": "No history or hypothesis is published for this name; the profile keeps the ordinary missing-history state.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Ganda returned no entries; INT-BTN /name/ganda returned 404; INT-WIKTIONARY has only an English section. LV-SILINS: origin not established.",
+   "next_steps": "Find an exact given-name origin or explicit variant in LV-LAVI, LV-LVA and LV-PERIODIKA; inspect the original Siliņš dictionary if available. The exact catalogue page reports origin not established and supplies no usable derivation or historical record. Calendar membership alone does not justify a sound-based hypothesis; retain the ordinary missing-history UI instead of inventing one."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-16",
+   "date": "2026-11-12",
+   "calendar_date": "11-16",
+   "country": "lv",
+   "name": "Landa",
+   "spellings": [
+    "Landa"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Landa",
+    "https://www.izpetnieks.lv/en/name/Landa"
+   ],
+   "facts_used": "The dictionary tentatively compares Landa with Jolanda and also mentions a sound-based formation. Its question mark prevents treating the link as verified or automatically importing Jolanda’s Greek explanation. A separate Landa record in Madona district in 1973 establishes use of the name, rather than the proposed derivation.",
+   "hypothesis": "Jolanda / phonetic formation",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only unrelated rows (Italian Bellanda, Portuguese Holanda → Olānda). INT-BTN has only a user-submitted Medieval Italian Landa; INT-WIKTIONARY Landa covers surnames and places only. LV-SILINS question-marked Jolanda bridge unchanged.",
+   "next_steps": "Inspect Siliņš p. 207 and seek a signed LV-LAVI naming study or LV-PERIODIKA naming context distinguishing a Jolanda shortening from independent phonetic formation. The source marks the bridge with a question mark. Madona district 1973 establishes use only; do not import Jolanda/Jolanta Greek roots as verified."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-16",
+   "date": "2026-11-12",
+   "calendar_date": "11-16",
+   "country": "lv",
+   "name": "Landijs",
+   "spellings": [
+    "Landijs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Landijs",
+    "https://www.izpetnieks.lv/en/name/Landijs"
+   ],
+   "facts_used": "The combined dictionary entry Landis, -ijs offers several unverified possibilities for Landijs: German Land, land, a connection with Rolands, or a sound-based formation. Each has a question mark. Its first-quarter-of-the-twentieth-century record establishes use, not a resolved origin or independent first dates for each ending.",
+   "hypothesis": "German Land / Rolands / phonetic formation",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Landijs returned no entries and Landis only surname rows (Balandis, Ipsilandis). LV-SILINS combined Landis, -ijs entry unchanged, every proposal question-marked.",
+   "next_steps": "Inspect the combined Landis, -ijs entry in Siliņš p. 207 and historical LV-PERIODIKA naming context to distinguish German Land, Rolands and independent phonetic formation. Each proposal is questioned by the source; the first-quarter-of-twentieth-century record retains combined-entry scope."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-16",
+   "date": "2026-11-12",
+   "calendar_date": "11-16",
+   "country": "lt",
+   "name": "Gerdvilė",
+   "spellings": [
+    "Gerdvilė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-SINKEVICIUTE17",
+    "LT-SALYS83",
+    "LV-LVA"
+   ],
+   "sources": [
+    "https://www.zurnalai.vu.lt/baltistica/article/view/39155",
+    "https://www.zurnalai.vu.lt/baltistica/article/download/39155/36714",
+    "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=231"
+   ],
+   "facts_used": "Gerdvilė is a two-stem Lithuanian name with the stems gerd- and vil-, but no scholarly explanation of this exact feminine name has been found yet. Sinkevičiūtė’s 2017 study of the stem gerd- argues that it is a secondary spelling variant of gird-, which arose when Lithuanian names were written down in Ruthenian and Polish documents; it discusses the surnames Gerdvila and Gerdvilas, not Gerdvilė itself. The popular reading through geras, good, therefore remains doubtful, and no meaning for the whole name is claimed here.",
+   "hypothesis": "gird- / gerd- + vil-",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "New: LT-SINKEVICIUTE17 (Baltistica 52/1, 2017, pp. 137–147) argues that the compound-name stem gerd- is a secondary written variant of gird- (Ruthenian/Polish recording), discussing surnames Gerdvila, Gerdvilas and Gerdvilis; Zinkevičius 2008 had alternatively linked gerd- with gedas. The article does not name Gerdvilė, so the hypothesis comparison was sharpened but not promoted. LV-LVA has Lithuanian Gerdvilė → Ģerdvile (Porīte 1961), a rendering only. LT-VLKK name database blocked by bot verification.",
+   "next_steps": "Find a scholarly entry naming Gerdvilė itself (VLKK name database, Kuzavinis–Savukynas) that confirms the gerd-/vil- analysis and explains vil-."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-17",
+   "date": "2026-11-12",
+   "calendar_date": "11-17",
+   "country": "lv",
+   "name": "Higo",
+   "spellings": [
+    "Higo"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Higo",
+    "https://www.izpetnieks.lv/en/name/Higo"
+   ],
+   "facts_used": "Higo may be connected with Hugo, but the exact spelling transition remains unconfirmed. The catalogue presents the explanation cautiously, so Hugo’s Germanic hugu, mind or spirit, supports a comparison rather than a verified Higo etymology. Hugo’s 1871 personal record and 1767 calendar entry cannot be transferred to Higo.",
+   "hypothesis": "Hugo",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only French surname Chigot → Šigo. LV-SILINS exact page still says Higo may be a form of Hugo, without a dated Higo record.",
+   "next_steps": "Inspect the original Siliņš p. 156 and search LV-LVA/LV-PERIODIKA for an explicit exact Higo/Hugo correspondence. The catalogue only proposes it and has no usable dated Higo record; neither Hugo dates nor a normalized Igo lookup resolve this spelling."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-17",
+   "date": "2026-11-12",
+   "calendar_date": "11-17",
+   "country": "lv",
+   "name": "Igo",
+   "spellings": [
+    "Igo"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Igo",
+    "https://www.izpetnieks.lv/en/name/Igo"
+   ],
+   "facts_used": "The source places Igo under Hugo but marks a possible Ignāts connection with a question mark. These details do not establish one secure derivational route; Ignāts’s own proposed link to Latin ignis, fire, is also questioned. A separate Igo record from the first quarter of the twentieth century establishes use rather than settling the alternatives.",
+   "hypothesis": "Hugo / Ignāts",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): only Igor → Igors rows (Croatian, French etc.); no Igo row. INT-BTN Igo has only user-submitted West Frisian/Portuguese entries. LV-SILINS exact page re-opened: Igo listed under Hugo, Ignāts link questioned, first-quarter-of-twentieth-century record; still two competing routes.",
+   "next_steps": "Inspect original Siliņš pp. 158/156 and seek a signed LV-LAVI or LV-PERIODIKA account resolving Hugo versus the questioned Ignāts route. Preserve the first-quarter-of-twentieth-century record independently. Do not assume the singer’s stage name proves a universal Igor origin or treat uncertain ignis as verified."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-17",
+   "date": "2026-11-12",
+   "calendar_date": "11-17",
+   "country": "lt",
+   "name": "Gilvilė",
+   "spellings": [
+    "Gilvilė"
+   ],
+   "countries": [
+    "lt"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LT-VLKK"
+   ],
+   "sources": [
+    "https://vardai.vlkk.lt/vardas/gilvile/"
+   ],
+   "facts_used": "The popular guide explains Gilvilė through gilus, deep or strong, and viltis, hope, but Salys places related Gilvilas under gilti and gildyti (širdį), associated with pain in the heart. The exact origin therefore still needs checking. Separately verified is Gilvilė (Gilva) on 17 November in the 1964 calendar reprinted in 1983.",
+   "hypothesis": "gilus / gilti, gildyti; viltis",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LT-VLKK name database blocked by bot verification (not bypassed). A search for scholarly gil- stem studies found only general two-stem-name articles without Gilvil-; LT-SALYS83 gilti/gildyti analysis versus popular gilus remains unresolved.",
+   "next_steps": "Open vardai.vlkk.lt manually or the printed Kuzavinis–Savukynas dictionary for Gilvilė; resolve gilus versus gilti/gildyti."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-17",
+   "date": "2026-11-12",
+   "calendar_date": "11-17",
+   "country": "ee",
+   "name": "Heinar",
+   "spellings": [
+    "Heinar"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "EE-RAJANDI66",
+    "INT-SNL"
+   ],
+   "sources": [
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=46",
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=71",
+    "https://snl.no/Einar"
+   ],
+   "facts_used": "Heinar: Edgar Rajandi’s 1966 name book equates Heinar with Einar and places both in the Eginhard / Ein(h)ar(d) group. He describes it as an old Germanic name that had entered Estonian use only about forty years earlier, and offers alternative glosses such as strong swordsman or simple heart, or, through Old Norse words, a warrior in a troop. A modern Norwegian reference work explains Einar from Old Norse Ein-arr, alone or unique plus warrior, so the exact meaning depends on which source is followed. Rajandi records that Einar and Heinar were both rare in Estonia around the 1920s, but during the name-change period of 1935–1940 Heinar was preferred over Einar by about twelve to one. In the 1962 lists of fathers’ names from Tallinn and Tartu birth records he counted seven Heinars and two Heinarts. These figures describe mid-twentieth-century use, not the first registration of the name.",
+   "hypothesis": "",
+   "reason": "Exact-form bridge and a dated, scoped detail opened in round 56 support two paragraphs in five languages.",
+   "next_steps": "",
+   "uncertainties": "EE-RAJANDI66 PDF p. 71 / printed p. 73 visually checked: Heinar = Einar → Eginhard. PDF p. 46 / printed p. 48: Eginhard ~ Ein(h)ar(d) glosses, Heinar preferred 12 : 1 during the 1935–40 name changes, 1962 patronymic lists Heinar 7, Heinart 2. Rajandi’s Eginhard grouping is his 1966 view; INT-SNL (Alhaug) gives Old Norse Ein-arr for Einar, so the text keeps both and claims no single meaning."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-17",
+   "date": "2026-11-12",
+   "calendar_date": "11-17",
+   "country": "ee",
+   "name": "Ainari",
+   "spellings": [
+    "Ainari"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "EE-RAJANDI66"
+   ],
+   "sources": [
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download"
+   ],
+   "facts_used": "No history or hypothesis is published for this name; the profile keeps the ordinary missing-history state.",
+   "hypothesis": "",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "EE-RAJANDI66 checked: Ainar is described as a Latvian loan (Ainars), not a male counterpart of Aina, and Eino is noted as treated also as an Einari variant; Ainari itself is absent. LV-LVA Ainari query returns only Finnish Hainari → Hainari. No bridge found.",
+   "next_steps": "Check Mägiste 1936 and the EKI name database for exact Ainari; Rajandi 1966 has Ainar (Latvian loan) only."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-18",
+   "date": "2026-11-12",
+   "calendar_date": "11-18",
+   "country": "lv",
+   "name": "Brīve",
+   "spellings": [
+    "Brīve"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Brīve",
+    "https://www.izpetnieks.lv/en/name/Brīve"
+   ],
+   "facts_used": "Brīve may be related to Brīva and the Latvian freedom word family. However, the catalogue leaves this exact form’s origin unresolved; a reference to Brīva does not yet prove derivation. The existence of the common noun brīve does not date the personal name either. Brīva’s 1931 personal record and 1908 calendar entry cannot be transferred to Brīve.",
+   "hypothesis": "Brīva",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. LV-SILINS exact page: origin not established; Brīva dates not transferred.",
+   "next_steps": "Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for an exact personal-name explanation. Catalogue leaves origin unresolved and only refers to Brīva. LV-EPUPA establishes common-word brīve history, not the personal name. Exact LV-LVA query returned no entries; this is not proof of nonexistence. Seek an explicit derivation before promoting the freedom comparison."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-18",
+   "date": "2026-11-12",
+   "calendar_date": "11-18",
+   "country": "lv",
+   "name": "Aleksandris",
+   "spellings": [
+    "Aleksandris"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Aleksandris",
+    "https://www.izpetnieks.lv/en/name/Aleksandris"
+   ],
+   "facts_used": "Aleksandris can be compared by spelling with Aleksandrs, but the checked catalogue’s explanation belongs to Aleksandrs, not this exact form. An explicit connection between the spellings still needs to be found. The related Greek Alexandros family therefore remains a comparison rather than a verified Aleksandris etymology; its historical dates cannot be transferred either.",
+   "hypothesis": "Aleksandrs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. LV-SILINS exact page: only Aleksandrs explained. INT-BTN /name/aleksandris returned 404.",
+   "next_steps": "Find an explicit exact Aleksandris/Aleksandrs correspondence in LV-LVA manuals or a signed LV-LAVI/LV-PERIODIKA discussion. Catalogue page 49 explains Aleksandrs, not Aleksandris. Exact LVA query returned no entries, not proof of nonexistence. Keep Greek-family comparison unverified; do not import Aleksandrs dates."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-18",
+   "date": "2026-11-12",
+   "calendar_date": "11-18",
+   "country": "lv",
+   "name": "Alesandrs",
+   "spellings": [
+    "Alesandrs"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Alesandrs",
+    "https://www.izpetnieks.lv/en/name/Alesandrs"
+   ],
+   "facts_used": "Alesandrs can be compared by spelling with Aleksandrs, but the checked catalogue’s explanation belongs to Aleksandrs, not this exact form. An explicit connection between the spellings still needs to be found. The related Greek Alexandros family therefore remains a comparison rather than a verified Alesandrs etymology; its historical dates cannot be transferred either.",
+   "hypothesis": "Aleksandrs",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. LV-SILINS exact page: only Aleksandrs explained. INT-BTN /name/aleksandris returned 404.",
+   "next_steps": "Find an explicit Alesandrs/Aleksandrs correspondence in LV-LVA manuals or a signed historical naming study. Catalogue p. 49 gives Aleksandrs rather than exact Alesandrs. Exact LVA query returned no entries. Missing k cannot be silently normalized away; Greek-family comparison remains unverified."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-18",
+   "date": "2026-11-12",
+   "calendar_date": "11-18",
+   "country": "lv",
+   "name": "Brīvīte",
+   "spellings": [
+    "Brīvīte"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Brīvīte",
+    "https://www.izpetnieks.lv/en/name/Brīvīte"
+   ],
+   "facts_used": "Brīvīte may be related to Brīva and the Latvian freedom word family. However, the catalogue leaves this exact form’s origin unresolved; a reference to Brīva does not yet prove derivation. The existence of the common noun brīve does not date the personal name either. Brīva’s 1931 personal record and 1908 calendar entry cannot be transferred to Brīvīte.",
+   "hypothesis": "Brīva",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): the exact form returned no entries. LV-SILINS exact page: origin not established; Brīva dates not transferred.",
+   "next_steps": "Inspect original Siliņš p. 87 and search LV-LAVI/LV-PERIODIKA for exact Brīvīte and a documented derivation from Brīva or a lexical base. Catalogue leaves exact origin unresolved. LV-LVA query returned no entries. Do not transfer Brīva dates or treat a plausible diminutive as proved."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-18",
+   "date": "2026-11-12",
+   "calendar_date": "11-18",
+   "country": "lv",
+   "name": "Zandars",
+   "spellings": [
+    "Zandars"
+   ],
+   "countries": [
+    "lv"
+   ],
+   "status": "needs_more",
+   "verification_status": "unverified",
+   "source_ids": [
+    "LV-LVA",
+    "LV-SILINS"
+   ],
+   "sources": [
+    "https://www.personvarduatveide.lv/search?locale=lv&words=on&sources=on&q=Zandars",
+    "https://www.izpetnieks.lv/en/name/Zandars"
+   ],
+   "facts_used": "Zandars can be compared by spelling with Zanders, but the checked catalogue’s explanation belongs to Zanders, not this exact form. An explicit connection between the spellings still needs to be found. The related Greek Alexandros family therefore remains a comparison rather than a verified Zandars etymology; its historical dates cannot be transferred either.",
+   "hypothesis": "Zanders",
+   "reason": "Round 56 recheck found no exact-form bridge; the item stays open in the backlog.",
+   "uncertainties": "LV-LVA exact search (personvarduatveide.lv, 12 Nov 2026): Zandars returned no entries. LV-SILINS exact page: Zanders/Sanders not transferred.",
+   "next_steps": "Inspect Siliņš pp. 334/283 and seek an exact Zandars/Zanders correspondence in LV-LVA/LV-LAVI/LV-PERIODIKA. Catalogue establishes Zanders/Sanderss, not exact Zandars. Exact LVA query returned no entries. Do not transfer Zanders’s 1783 calendar date or nineteenth-century personal record."
+  },
+  {
+   "batch": "calendar-recheck-2026-11-18",
+   "date": "2026-11-12",
+   "calendar_date": "11-18",
+   "country": "ee",
+   "name": "Ilu",
+   "spellings": [
+    "Ilu"
+   ],
+   "countries": [
+    "ee"
+   ],
+   "status": "written",
+   "verification_status": "verified_history",
+   "source_ids": [
+    "EE-RAJANDI66"
+   ],
+   "sources": [
+    "https://dspace.ut.ee/bitstreams/87883b84-6f77-4dfe-b2ac-95447f6f436a/download#page=80"
+   ],
+   "facts_used": "Ilu: Edgar Rajandi’s 1966 name book refers Ilu to Ilo. He explains Ilo from folklore as a personification of beauty and joy, a name that had been given, and even recommended, to both men and women, citing Saareste and Mägiste. The form Ilu coincides with Estonian ilu, beauty, but the documented route for the given name runs through Ilo. In the Ilo article Rajandi notes that the name was not frequent and that in isolated cases it had been modernised as Ilu; he also mentions a further development, Ilula, given once in 1963. This shows that Ilu was in use by the mid-1960s, rather than when it was first registered.",
+   "hypothesis": "",
+   "reason": "Exact-form bridge and a dated, scoped detail opened in round 56 support two paragraphs in five languages.",
+   "next_steps": "",
+   "uncertainties": "EE-RAJANDI66 PDF p. 80 / printed p. 82 visually checked: **Ilu → Ilo and, in the Ilo article, folklore personification of beauty and joy (Saareste, Mägiste), modernised in isolated cases as Ilu, further development Ilula once in 1963. The text-layer reading Hula is an OCR error. No first-registration date is claimed."
+  }
+ ]
+}
