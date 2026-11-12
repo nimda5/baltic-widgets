@@ -6,6 +6,7 @@ Last directory review: **12 November 2026**, including the 12–13 November rech
 
 ## Start here
 
+0. Check the consolidated [source index](NAMEDAYS_SOURCE_INDEX.md) first: one row per source ID with the rounds and names that cite it, and its full URL/name list in `research/namedays/source-index.csv`. Search every cached PDF at once with `node scripts/nameday-source-cache.mjs search --query NAME --word true`. Regenerate the index with `npm run sources:namedays` after adding sources or round notes.
 1. Search the exact NFC spelling, keeping diacritics. Try a second query without them only to discover candidates. Search the source language too: `personvārds`, `vārda izcelsme`, `vardas`, `kilmė`, `eesnimi`, `päritolu`.
 2. Look for an exact dictionary entry or an explicit spelling correspondence. Read academic onomastics when the older dictionary lacks a form. Its absence does not prove that the name was unused.
 3. Find a separate dated historical, archival, literary or professional episode. Identify whether it concerns this spelling, a documented related form, or a fictional character.

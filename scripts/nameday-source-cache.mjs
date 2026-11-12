@@ -1,5 +1,5 @@
 // Private, content-addressed PDF text cache. Originals and extracted text never enter the repository.
-import {readFile,writeFile,mkdir,copyFile,access} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,copyFile,access,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {spawnSync} from 'node:child_process';
 import {resolve,dirname,join} from 'node:path';
@@ -10,8 +10,10 @@ const cache=resolve(project,'../var/namedays-sources');
 const args=process.argv.slice(2),command=args.shift(),options={};
 for(let i=0;i<args.length;i+=2){if(!args[i].startsWith('--')||args[i+1]===undefined)throw Error('Expected --key value');options[args[i].slice(2)]=args[i+1];}
 const id=options.id;
-if(!id||!/^[-A-Z0-9]+$/.test(id))throw Error('Supply a stable --id containing uppercase letters, digits or hyphens');
-const manifest=join(cache,id,'source.json'),parserVersion=1;
+// `search` and `list` accept --id all (or no --id) to cover every registered source in one pass.
+const everySource=(command==='search'||command==='list')&&(!id||id==='all');
+if(!everySource&&(!id||!/^[-A-Z0-9]+$/.test(id)))throw Error('Supply a stable --id containing uppercase letters, digits or hyphens');
+const manifest=everySource?null:join(cache,id,'source.json'),parserVersion=1;
 if(command==='index'){
  if(!options.file||!options.url||!options.title)throw Error('index requires --file, --url and --title');
  const file=resolve(options.file),bytes=await readFile(file);
@@ -41,10 +43,26 @@ if(command==='index'){
  const info={id,title:options.title,url:options.url,sha256,parserVersion,extraction:parsed.extraction||'pdftotext -layout UTF-8',pdf_pages:parsed.pages.length,object:sha256,limitations:'Text search is a discovery aid. Visually inspect original pages for spelling, diacritics, columns and dates. Extraction does not grant republication rights.'};
  await mkdir(dirname(manifest),{recursive:true});await writeFile(manifest,JSON.stringify(info,null,2)+'\n');
  console.log(JSON.stringify({id,reused,pdf_pages:info.pdf_pages,sha256}));
+}else if(command==='list'){
+ const rows=[];
+ for(const entry of (await readdir(cache,{withFileTypes:true})).filter(e=>e.isDirectory()&&/^[-A-Z0-9]+$/.test(e.name)).sort((a,b)=>a.name.localeCompare(b.name))){
+  try{const info=JSON.parse(await readFile(join(cache,entry.name,'source.json'),'utf8'));rows.push({id:info.id,pdf_pages:info.pdf_pages,title:info.title,url:info.url});}catch{}
+ }
+ console.log(JSON.stringify(rows,null,2));
+}else if(command==='search'&&everySource){
+ if(!options.query)throw Error('search requires --query');
+ const query=options.query.normalize('NFC').toLocaleLowerCase(),limit=Number(options.limit||5),results=[];
+ for(const entry of (await readdir(cache,{withFileTypes:true})).filter(e=>e.isDirectory()&&/^[-A-Z0-9]+$/.test(e.name)).sort((a,b)=>a.name.localeCompare(b.name))){
+  let info;try{info=JSON.parse(await readFile(join(cache,entry.name,'source.json'),'utf8'));}catch{continue;}
+  const parsed=JSON.parse(await readFile(join(cache,'objects',info.object,'pages-v'+info.parserVersion+'.json'),'utf8')),hits=[];
+  for(const page of parsed.pages){const lower=page.text.toLocaleLowerCase();let offset=0,index;while((index=lower.indexOf(query,offset))!==-1){const end=index+query.length;offset=end;if(options.word==='true'&&(/[\p{L}\p{M}]/u.test(lower[index-1]||'')||/[\p{L}\p{M}]/u.test(lower[end]||'')))continue;hits.push({pdf_page:page.pdf_page,context:page.text.slice(Math.max(0,index-120),end+160).replace(/\s+/g,' ')});}}
+  if(hits.length)results.push({id:info.id,title:info.title,url:info.url,total_hits:hits.length,hits:hits.slice(0,limit)});
+ }
+ console.log(JSON.stringify({query:options.query,sources_with_hits:results.length,results},null,2));
 }else if(command==='search'){
  if(!options.query)throw Error('search requires --query');
  const info=JSON.parse(await readFile(manifest,'utf8')),parsed=JSON.parse(await readFile(join(cache,'objects',info.object,'pages-v'+info.parserVersion+'.json'),'utf8'));
  const query=options.query.normalize('NFC').toLocaleLowerCase(),hits=[];
  for(const page of parsed.pages){const lower=page.text.toLocaleLowerCase();let offset=0,index;while((index=lower.indexOf(query,offset))!==-1){const end=index+query.length;offset=end;if(options.word==='true'&&(/[\p{L}\p{M}]/u.test(lower[index-1]||'')||/[\p{L}\p{M}]/u.test(lower[end]||'')))continue;hits.push({pdf_page:page.pdf_page,context:page.text.slice(Math.max(0,index-180),end+240)});}}
  console.log(JSON.stringify({id,title:info.title,url:info.url,sha256:info.sha256,hits},null,2));
-}else throw Error('Use index or search');
+}else throw Error('Use index, search or list');
