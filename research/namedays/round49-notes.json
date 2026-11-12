@@ -1,0 +1,378 @@
+{
+  "round": 49,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December 19: all 13 unfinished profiles examined; three histories written. NewŠiliņa 2015 PDF indexed once for Lelde/Tots literary use; uncertain Totsroot remainsopen. Urbonas original Metrica Urban 1510 spelling preserved, not relabelledasfirstmodernregistration.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Lelde",
+      "spellings": [
+        "Lelde"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-SILINA15",
+        "LV-ENC-PLAY"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lelde",
+        "https://ojs.utlib.ee/index.php/IL/article/download/IL.2015.20.2.2/7600/9685#page=3",
+        "https://enciklopedija.lv/skirklis/65754"
+      ],
+      "facts_used": "Lelde: The name has a documented literary connection: Lelde is a character in Rainis’s Spēlēju, dancoju. A study dates its composition to January–February 1915. This does not establish a remote lexical root or every family’s naming motive. Siliņš’s dictionary dates the use of Lelde: 1929. Its calendar year is 1933. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p 211 exact character association and own 1929/calendar 1933. Original ZaneŠiliņa 2015 PDF 3/printed 9 exact Lelde/Tots and Jan 4–Feb 27,1915 composition; no folk-etymological gloss invented.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Sarmis",
+      "spellings": [
+        "Sarmis"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Sarmis",
+        "https://www.izpetnieks.lv/en/name/Sarma"
+      ],
+      "facts_used": "Sarmis: Siliņš lists Sarmis under Sarma. The family’s local base is Latvian sarma, hoarfrost, a white coating of ice crystals. The family link is explicit, but the Sarmis entry gives no separate additional meaning. Siliņš’s dictionary dates the use of Sarmis: the third quarter of the twentieth century. Its calendar year is 1927. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p 285 exact Sarmis under Sarma; Sarma commonwordfrost. Sarmis ownthirdquarter 20 c/calendar 1927, not Sarma 1507/calendar 1908.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lt",
+      "name": "Urbonas",
+      "spellings": [
+        "Urbonas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/urbonas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=152",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=153",
+        "https://dmnes.org/name/Urban"
+      ],
+      "facts_used": "Urbonas: Lithuanian Urbonas continues Roman Urbanus. Latin urbanus means of the city or urban and derives from urbs, city. The name later also became a surname, but given-name and surname evidence must remain distinct. Salys describes this baptismal name as fairly common in sixteenth-century Lithuania. He cites Urban in the Lithuanian Metrica in 1510. The document’s spelling is retained: this is not a first registration of the exact modern form Urbonas.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys PDF 152–153/printed 137–138 exact Urbonas chapter andoriginal 1510 Urban spelling verified visually. No surname date imported as given-name first use.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Alena",
+      "spellings": [
+        "Alena"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alena",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alena"
+      ],
+      "facts_used": "Alena is still being checked against Alēna / Helena / Magdalena. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alēna / Helena / Magdalena",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p 49 chain comparison does not settle exactshort-eform; no transfer of other spelling dates.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Alēna",
+      "spellings": [
+        "Alēna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Al%C4%93na",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Al%C4%93na"
+      ],
+      "facts_used": "Alēna is still being checked against Helēna / Magdalena / Alens / Aline. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Helēna / Magdalena / Alens / Aline",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue multiple routes; agency Hungarian Aléna 1998 p 38 and French Aline 2004 pp 16/92 add documented renderings but not one universal origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Alereins",
+      "spellings": [
+        "Alereins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alereins"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact origin found in opened sources and cached PDFs.",
+      "next_steps": "Locate an exact scholarly Alereins entry; do not guess an Alaric or Alain route from similar sound."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Lelda",
+      "spellings": [
+        "Lelda"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Lelda",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Lelda"
+      ],
+      "facts_used": "Lelda is still being checked against Lelde. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Lelde",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue explicitly withholds exact-form etymology. Literary Lelde evidence does not automatically prove Lelda derivation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lv",
+      "name": "Tots",
+      "spellings": [
+        "Tots"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-SILINA15",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Tots",
+        "https://ojs.utlib.ee/index.php/IL/article/download/IL.2015.20.2.2/7600/9685#page=3",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Tots"
+      ],
+      "facts_used": "Tots is still being checked against Timotejs / Thoth. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Timotejs / Thoth",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue p 309 question-marks both routes; own Turaida 1727 and Rainis 1915 literarycharacter demonstrateusage without resolvingroot. Agency Tóth→Tots 1998 p 100 is surname row, rejected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lt",
+      "name": "Gerdvilas",
+      "spellings": [
+        "Gerdvilas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gerdvilas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Gerdvilas is still being checked against geras + viltis / gird-/gerd-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "geras + viltis / gird-/gerd-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide good+hope versus historicalgird/gerd-group routes require exact scholarly resolution. Girdvilas is a separate name, not a spelling substitute.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "lt",
+      "name": "Rimantė",
+      "spellings": [
+        "Rimantė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/rimante/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Rimantė is still being checked against rim- + mant-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "rim- + mant-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide mantus/clever versus manta/property alternatives remain unresolved despite exact Salys December 19 calendar use.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "ee",
+      "name": "Maarius",
+      "spellings": [
+        "Maarius"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Maarius#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Maarius is still being checked against Marius / Mario. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Marius / Mario",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exactdouble-a spelling lacks checked scholarly family bridge; no automatic transfer of Mario/Marius dates.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "ee",
+      "name": "Mario",
+      "spellings": [
+        "Mario"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "INT-BTN",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Mario#Estonian",
+        "https://www.behindthename.com/name/marius",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Mario is still being checked against Latin Marius / Maria. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Latin Marius / Maria",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Estoniandictionary Italian/Spanish Mario→Marius; Leole insteadpopular Maria-brothername explanation. Mägiste PDF 19 has possiblefemale Mario near Maria and cannot establish modernmaleorigin. Curated Marius offers Mars versus Latin mas/maris alternatives and notes occasional masculine-Maria use. No one universal route or sea-root translation selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-19",
+      "date": "2026-11-12",
+      "calendar_date": "12-19",
+      "country": "ee",
+      "name": "Mairo",
+      "spellings": [
+        "Mairo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Mairo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Mairo is still being checked against Maire / anagram of Mario. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Maire / anagram of Mario",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Estoniandictionary offers feminine Mairecounterpart versus Marioanagram alternatives; no one route selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "round": 48,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December 18: all 18 unfinished profiles examined; nine histories written. Local dictionary Christianus and cliff routes documented without universalizing separate foreign renderings. Surname Cristo row rejected for Kristo; Salys Gacijonas not silently repaired to Gracijonas.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Krists",
+      "spellings": [
+        "Krists"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Krists",
+        "https://www.behindthename.com/name/christian"
+      ],
+      "facts_used": "Krists: Siliņš’s dictionary lists this form under Kristiāns. The Latvian form belongs to the Christianus family. Latin Christianus means a Christian and derives from Christus; Greek Christos means anointed. The historical basis of the name does not itself determine a modern bearer’s faith. Siliņš’s dictionary dates the use of Krists: 1638, Allaži. Its calendar year is 1851. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp 201/202 exact Kristiāns route and own attestation. Agency Greek Χρήστος→Krists is a separate rendering, not a reason to replace this documented local Christianus route; Chris can also shorten other names, not a universal full base for every bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kriss",
+      "spellings": [
+        "Kriss"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kriss",
+        "https://www.behindthename.com/name/christian"
+      ],
+      "facts_used": "Kriss: Siliņš’s dictionary lists this form under Kristiāns. The Latvian form belongs to the Christianus family. Latin Christianus means a Christian and derives from Christus; Greek Christos means anointed. The historical basis of the name does not itself determine a modern bearer’s faith. Siliņš’s dictionary dates the use of Kriss: 1743, Rūjiena. Its calendar year is 1783. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp 201/202 exact Kristiāns route and own attestation. Agency Greek Χρήστος→Krists is a separate rendering, not a reason to replace this documented local Christianus route; Chris can also shorten other names, not a universal full base for every bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kristens",
+      "spellings": [
+        "Kristens"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristens",
+        "https://www.behindthename.com/name/christian"
+      ],
+      "facts_used": "Kristens: Siliņš’s dictionary lists this form under Kristiāns. The Latvian form belongs to the Christianus family. Latin Christianus means a Christian and derives from Christus; Greek Christos means anointed. The historical basis of the name does not itself determine a modern bearer’s faith. Siliņš’s dictionary dates the use of Kristens: 1741, Apriķi. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš pp 201/202 exact Kristiāns route and own attestation. Agency Greek Χρήστος→Krists is a separate rendering, not a reason to replace this documented local Christianus route; Chris can also shorten other names, not a universal full base for every bearer.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Klinta",
+      "spellings": [
+        "Klinta"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Klinta",
+        "https://www.personvarduatveide.lv/words/29199?locale=lv"
+      ],
+      "facts_used": "Klinta: Siliņš connects this Latvian name with klints, cliff or rock. This local lexical route is explicitly documented. A separate rendering of English Clint as Klints does not itself turn every Latvian name in the family into an English borrowing. Siliņš’s dictionary dates the use of Klinta: the third quarter of the twentieth century. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p 197 exact lexical link and ownthirdquarter 20 c. Mention of Indrāne fictional Klinta is not used as an unverified novel-publication date. English Clint rendering separately scoped.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Klints",
+      "spellings": [
+        "Klints"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Klints",
+        "https://www.personvarduatveide.lv/words/29199?locale=lv"
+      ],
+      "facts_used": "Klints: Siliņš connects this Latvian name with klints, cliff or rock. This local lexical route is explicitly documented. A separate rendering of English Clint as Klints does not itself turn every Latvian name in the family into an English borrowing. Siliņš’s dictionary dates the use of Klints: 1586, Mežmuiža. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p 197 exactwordlink and own 1586 Mežmuiža; not presented as masculine derivation of Klinta. Separate Clint rendering 2006 p 65 not universalized.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kristofs",
+      "spellings": [
+        "Kristofs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristofs",
+        "https://www.personvarduatveide.lv/words/39321?locale=lv",
+        "https://www.behindthename.com/name/christopher"
+      ],
+      "facts_used": "Kristofs: The family continues Greek Christophoros, combining Christos, Christ, with a stem meaning to carry. The traditional interpretation is Christ-bearer. This family remains distinct from Christianus and its short forms despite their similar beginnings. Siliņš’s dictionary dates the use of Kristofs: 1646, Ludza. Its calendar year is 1767. This records use of the particular name in Latvia. The entry cannot automatically be transferred to similar spellings or treated as the moment the entire name family originated.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Siliņš p 201 explicit Kristofors group and own 1646/calendar 1767.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kšištofs",
+      "spellings": [
+        "Kšištofs"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LV-LVA",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://www.personvarduatveide.lv/words/985?locale=lv",
+        "https://www.behindthename.com/name/christopher",
+        "https://www.behindthename.com/name/krzysztof"
+      ],
+      "facts_used": "Kšištofs: The family continues Greek Christophoros, combining Christos, Christ, with a stem meaning to carry. The traditional interpretation is Christ-bearer. This family remains distinct from Christianus and its short forms despite their similar beginnings. The Latvian Language Agency gives the exact rendering Krzysztof → Kšištofs, citing page 52 of a 1998 manual. This dated record illustrates transmission between languages; it is not a first birth registration or proof of one borrowing route in every family.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Polish given-name row Krzysztof→Kšištofs 1998 p 52; no imported Kristofs 1646 date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lt",
+      "name": "Eivilė",
+      "spellings": [
+        "Eivilė"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/eivile/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319"
+      ],
+      "facts_used": "Eivilė: The Lithuanian compound contains ei- / eiti, to go and vil- / viltis, hope. These are lexical explanations of the stems. Historical compound names need not be interpreted as one modern sentence or a description of the bearer’s character. The 1964 calendar reprinted in Salys’s 1983 volume gives Eivilė (Eiva) on 18 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide two-stem entry and original Salys PDF 319/printed 304 December 18. Eivilė not normalized to Eiviltė; Girdvilas not confused with Gerdvilas.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lt",
+      "name": "Girdvilas",
+      "spellings": [
+        "Girdvilas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/girdvilas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319"
+      ],
+      "facts_used": "Girdvilas: The Lithuanian compound contains gird- / girdėti, girdas, hearing and news and vil- / viltis, hope. These are lexical explanations of the stems. Historical compound names need not be interpreted as one modern sentence or a description of the bearer’s character. The 1964 calendar reprinted in Salys’s 1983 volume gives Girdvilas (Girdas) on 18 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact guide two-stem entry and original Salys PDF 319/printed 304 December 18. Eivilė not normalized to Eiviltė; Girdvilas not confused with Gerdvilas.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kristafors",
+      "spellings": [
+        "Kristafors"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristafors",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kristafors"
+      ],
+      "facts_used": "Kristafors is still being checked against Kristofors / Christophoros. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Kristofors / Christophoros",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Exact first-a form lacks checked given-name bridge; neighbouring Kristofors entries cannot prove it.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kristans",
+      "spellings": [
+        "Kristans"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristans",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kristans"
+      ],
+      "facts_used": "Kristans is still being checked against Kristiāns / Christianus. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Kristiāns / Christianus",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact unaccented Kristans derivation checked; retain as proposal.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kristars",
+      "spellings": [
+        "Kristars"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristars"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact origin proposal found; resemblance to Krist- names does not select a full base.",
+      "next_steps": "Find a scholarly exact Kristars entry or explicit derivation before assigning Christianus/Christophoros."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lv",
+      "name": "Kristo",
+      "spellings": [
+        "Kristo"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Kristo",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Kristo"
+      ],
+      "facts_used": "Kristo is still being checked against Kristofors / Christos / Christianus. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Kristofors / Christos / Christianus",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Agency Cristo→Kristo result is a surname, not a given-name bridge. Estonian Kristo evidence cannot automatically settle Latvianprofile.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lt",
+      "name": "Gracijonas",
+      "spellings": [
+        "Gracijonas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gracijonas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Gracijonas is still being checked against Gratianus / Gracijus / gracia. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Gratianus / Gracijus / gracia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide claims Spanishgracia; Salys Dec 18 prints Gacijonas, not Gracijonas. Exact borrowing and Latin/Spanishroute remain unverified.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lt",
+      "name": "Gracijus",
+      "spellings": [
+        "Gracijus"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/gracijus/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Gracijus is still being checked against Latin Gratius / Spanish gracia. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Latin Gratius / Spanish gracia",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide Spanishgracia explanation needs scholarly exact-form corroboration; similar Latinforms do not establish full chain.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "lt",
+      "name": "Vykantas",
+      "spellings": [
+        "Vykantas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vykantas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Vykantas is still being checked against vy- + kant-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "vy- + kant-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide vytis/warrior stem versus otherhistorical Vy-/Vyk- segmentation needs resolution; no single exact full-root analysis asserted.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "ee",
+      "name": "Neeme",
+      "spellings": [
+        "Neeme"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Neeme#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Neeme is still being checked against Meeme / Estonian neem. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Meeme / Estonian neem",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Estonian dictionary and Leole explicitly sayprobably Meeme. Do not promote a qualified connection or cape-word resemblance to proved origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-18",
+      "date": "2026-11-12",
+      "calendar_date": "12-18",
+      "country": "ee",
+      "name": "Neemo",
+      "spellings": [
+        "Neemo"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Neemo#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Neemo is still being checked against Neeme / Meeme. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Neeme / Meeme",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No exact full-form bridge found; even Neeme→Meeme remains qualified.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}

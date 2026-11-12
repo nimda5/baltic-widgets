@@ -1,0 +1,696 @@
+{
+  "round": 46,
+  "date": "2026-11-12",
+  "source_directory": "NAMEDAYS_SOURCES.md",
+  "note": "December 16: all 24 unfinished profiles examined. Nine histories written; exact Estonian forms reuse Leole and Mägiste originals. Alvins-family competing roots, Adas multiple full bases and Algina/Vygaudas stem analyses remain unverified.",
+  "records": [
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lt",
+      "name": "Albina",
+      "spellings": [
+        "Albina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83",
+        "INT-DMNES"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/albina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf#page=319",
+        "https://dmnes.org/name/Albin"
+      ],
+      "facts_used": "Albina: Lithuanian Albina continues the feminine form of Roman Albinus. Albinus is connected with Latin albus, white. The family’s lexical origin does not describe every bearer’s appearance; it explains the historical name formation. The 1964 calendar reprinted in Salys’s 1983 volume gives Albina (Albė) on 16 December. This is a concrete printed example of the form’s use. Its position in the historical calendar need not match every modern calendar and is not the name’s invention date.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Salys PDF 319/printed 304 December 16 Albina(Albė); DMNES corroborates albus. Masculine 763 Albinus is not a first Lithuanian female date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Adelheid",
+      "spellings": [
+        "Adelheid"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/adelaide",
+        "https://en.wiktionary.org/wiki/Adelheid#Estonian"
+      ],
+      "facts_used": "Adelheid: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. The first page of Leole’s December 2005 issue uses the exact spelling Adelheid. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact local Leole 2005 p 1 forms; noble adal plus full Adelheid heit explained without treating every short form as a two-stem compound. German Adelheid and French Adèle are cognate routes, not a false claim that German Adelheid derives from French Adèle.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Adeele",
+      "spellings": [
+        "Adeele"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/adelaide",
+        "https://en.wiktionary.org/wiki/Adeele#Estonian"
+      ],
+      "facts_used": "Adeele: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. The first page of Leole’s December 2005 issue uses the exact spelling Adeele. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact local Leole 2005 p 1 forms; noble adal plus full Adelheid heit explained without treating every short form as a two-stem compound. German Adelheid and French Adèle are cognate routes, not a false claim that German Adelheid derives from French Adèle.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Aade",
+      "spellings": [
+        "Aade"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/adelaide",
+        "https://en.wiktionary.org/wiki/Aade#Estonian"
+      ],
+      "facts_used": "Aade: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. The first page of Leole’s December 2005 issue uses the exact spelling Aade. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact local Leole 2005 p 1 forms; noble adal plus full Adelheid heit explained without treating every short form as a two-stem compound. German Adelheid and French Adèle are cognate routes, not a false claim that German Adelheid derives from French Adèle.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Teele",
+      "spellings": [
+        "Teele"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN",
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/adelaide",
+        "https://en.wiktionary.org/wiki/Teele#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=21"
+      ],
+      "facts_used": "Teele: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. Page 19 of Mägiste’s 1929 name list gives Teele as a dialectal form of Adeele. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact local Leole 2005 p 1 forms; noble adal plus full Adelheid heit explained without treating every short form as a two-stem compound. German Adelheid and French Adèle are cognate routes, not a false claim that German Adelheid derives from French Adèle.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Liide",
+      "spellings": [
+        "Liide"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "EE-LEOLE05-DEC",
+        "INT-BTN",
+        "INT-WIKTIONARY"
+      ],
+      "sources": [
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/adelaide",
+        "https://en.wiktionary.org/wiki/Liide#Estonian"
+      ],
+      "facts_used": "Liide: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. The first page of Leole’s December 2005 issue uses the exact spelling Liide. The local name column shows that this form was discussed in Estonian print. This dated evidence is neither a first birth record nor the year the name was invented.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact local Leole 2005 p 1 forms; noble adal plus full Adelheid heit explained without treating every short form as a two-stem compound. German Adelheid and French Adèle are cognate routes, not a false claim that German Adelheid derives from French Adèle.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Aale",
+      "spellings": [
+        "Aale"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Aale#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=13",
+        "https://www.behindthename.com/name/adelaide"
+      ],
+      "facts_used": "Aale: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. Page 11 of Mägiste’s 1929 name list gives Aale in the female-name section. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Original Mägiste PDF 13/printed 11 exact Aale; Estonian dictionary explicitly German Adelheid. German plural Aale/eels excluded.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Aliide",
+      "spellings": [
+        "Aliide"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-MAGISTE29",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Aliide#Estonian",
+        "https://www.emakeeleselts.ee/wp-content/uploads/2020/07/17-AEStoimetised-XVIII.pdf#page=17",
+        "https://www.behindthename.com/name/adelaide"
+      ],
+      "facts_used": "Aliide: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. Page 15 of Mägiste’s 1929 name list gives Aliide in the reference under dialectal Liide. This is specific dated evidence for the local form. The dictionary’s publication year is not the name’s invention date or a first birth record.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Mägiste PDF 17/printed 15 explicitly Liide(murd.=Aliide); reference, not a separate birth record. Estonian dictionary exact German Adelheid bridge.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Haide",
+      "spellings": [
+        "Haide"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "written",
+      "verification_status": "verified_history",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC",
+        "INT-BTN"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Haide#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1",
+        "https://www.behindthename.com/name/adelaide"
+      ],
+      "facts_used": "Haide: The Estonian name is linked to the Adelheid family and its short forms. The Germanic full name combines adal, noble, and heit, kind or nature. Short forms need not retain both elements; French Adèle is a related name in the adal family. Related Adelheid is discussed on page 1 of Leole’s December 2005 issue. This is dated evidence for the family in Estonian print, rather than the first birth registration of this spelling.",
+      "hypothesis": "",
+      "reason": "Exact-form or explicitly scoped family evidence supports two paragraphs in five languages.",
+      "uncertainties": "Exact Estonian dictionary gives German Adelheid. Dated 2005 episode explicitly concerns related Adelheid, not an exact Haide first date.",
+      "next_steps": ""
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvīne",
+      "spellings": [
+        "Alvīne"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alv%C4%ABne",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alv%C4%ABne"
+      ],
+      "facts_used": "Alvīne is still being checked against Alvins / Alwin / Alvin. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alvins / Alwin / Alvin",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 53 offers noble/adal versus elf/alb+friend/wini and question-marked Alwin interpretations. Exact renderings (Alwin→Alvīne 1960 p 58, Alvina→Alvīna 2006 p 92, Alvim→Alvins/Alvīns 2015 p 149) document routes but do not settle one universal root; short/long-i forms are not silently equated.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvina",
+      "spellings": [
+        "Alvina"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alvina",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alvina"
+      ],
+      "facts_used": "Alvina is still being checked against Alvins / Alwin / Alvin. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alvins / Alwin / Alvin",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 53 offers noble/adal versus elf/alb+friend/wini and question-marked Alwin interpretations. Exact renderings (Alwin→Alvīne 1960 p 58, Alvina→Alvīna 2006 p 92, Alvim→Alvins/Alvīns 2015 p 149) document routes but do not settle one universal root; short/long-i forms are not silently equated.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvīna",
+      "spellings": [
+        "Alvīna"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alv%C4%ABna",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alv%C4%ABna"
+      ],
+      "facts_used": "Alvīna is still being checked against Alvins / Alwin / Alvin. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alvins / Alwin / Alvin",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 53 offers noble/adal versus elf/alb+friend/wini and question-marked Alwin interpretations. Exact renderings (Alwin→Alvīne 1960 p 58, Alvina→Alvīna 2006 p 92, Alvim→Alvins/Alvīns 2015 p 149) document routes but do not settle one universal root; short/long-i forms are not silently equated.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvine",
+      "spellings": [
+        "Alvine"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alvine",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alvine"
+      ],
+      "facts_used": "Alvine is still being checked against Alvins / Alwin / Alvin. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alvins / Alwin / Alvin",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 53 offers noble/adal versus elf/alb+friend/wini and question-marked Alwin interpretations. Exact renderings (Alwin→Alvīne 1960 p 58, Alvina→Alvīna 2006 p 92, Alvim→Alvins/Alvīns 2015 p 149) document routes but do not settle one universal root; short/long-i forms are not silently equated.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvīnija",
+      "spellings": [
+        "Alvīnija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alv%C4%ABnija"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact origin in opened catalogue, agency or saved PDFs.",
+      "next_steps": "Find an explicit Alvīnija scholarly entry or documented derivation before selecting an Alvins-family origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvins",
+      "spellings": [
+        "Alvins"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alvins",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alvins"
+      ],
+      "facts_used": "Alvins is still being checked against Alvins / Alwin / Alvin. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alvins / Alwin / Alvin",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 53 offers noble/adal versus elf/alb+friend/wini and question-marked Alwin interpretations. Exact renderings (Alwin→Alvīne 1960 p 58, Alvina→Alvīna 2006 p 92, Alvim→Alvins/Alvīns 2015 p 149) document routes but do not settle one universal root; short/long-i forms are not silently equated.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Alvīns",
+      "spellings": [
+        "Alvīns"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Alv%C4%ABns",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Alv%C4%ABns"
+      ],
+      "facts_used": "Alvīns is still being checked against Alvins / Alwin / Alvin. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Alvins / Alwin / Alvin",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš p 53 offers noble/adal versus elf/alb+friend/wini and question-marked Alwin interpretations. Exact renderings (Alwin→Alvīne 1960 p 58, Alvina→Alvīna 2006 p 92, Alvim→Alvins/Alvīns 2015 p 149) document routes but do not settle one universal root; short/long-i forms are not silently equated.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Zira",
+      "spellings": [
+        "Zira"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zira",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zira"
+      ],
+      "facts_used": "Zira is still being checked against Sīra / Greek Syra. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Sīra / Greek Syra",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Siliņš pp 339/292 question-marked Sīra comparison. Thirdquarter 20 cuse does not prove woman-from-Syria origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Zola",
+      "spellings": [
+        "Zola"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS",
+        "LV-LVA"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zola",
+        "https://www.personvarduatveide.lv/search?locale=lv&words=on&q=Zola"
+      ],
+      "facts_used": "Zola is still being checked against Izolde / Latin sol. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Izolde / Latin sol",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Catalogue distinguishes female Izolde route from question-marked male Sun/sol route; current combined profile cannot choose one gender/origin.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lv",
+      "name": "Zolija",
+      "spellings": [
+        "Zolija"
+      ],
+      "countries": [
+        "lv"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LV-SILINS"
+      ],
+      "sources": [
+        "https://www.izpetnieks.lv/en/name/Zolija"
+      ],
+      "facts_used": "Calendar membership only; no supported origin proposal.",
+      "hypothesis": "",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "No supported exact-form origin found; do not turn Zola resemblance into proof.",
+      "next_steps": "Find a direct lexical or parent-form bridge for Zolija and a separately dated historical episode."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lt",
+      "name": "Adas",
+      "spellings": [
+        "Adas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/adas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Adas is still being checked against Ad- Germanic names / Adomas. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Ad- Germanic names / Adomas",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives Germanicadal/Ad- shortening; Salys also explicitly Adomas(Adas) on December 24 alongside other full-name bases. No unique ultimate origin selected.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lt",
+      "name": "Algina",
+      "spellings": [
+        "Algina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/algina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Algina is still being checked against al-/alg- + gin-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "al-/alg- + gin-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide aliai-vienas versus alg- segmentation requires original scholarly corroboration. Pakerys PDF 6 confirms form/accents, not full stem meaning.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lt",
+      "name": "Alina",
+      "spellings": [
+        "Alina"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/alina/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Alina is still being checked against Adelina / Adelė / Arabic proposal. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "Adelina / Adelė / Arabic proposal",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gives Arabicnoble and Germanic Adelina-shortening alternatives. No independently established exact Arabic origin accepted.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "lt",
+      "name": "Vygaudas",
+      "spellings": [
+        "Vygaudas"
+      ],
+      "countries": [
+        "lt"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "LT-GUIDE",
+        "LT-SALYS83"
+      ],
+      "sources": [
+        "https://www.tevu-darzelis.lt/vaiku-vardai/vygaudas/",
+        "https://tautosmenta.lt/wp-content/uploads/lituanistika/Salys_1983_LT.pdf"
+      ],
+      "facts_used": "Vygaudas is still being checked against vy- + gaud-. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "vy- + gaud-",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "Guide gaudus/resounding versus Salys Gaud-/gauti stem analysis; exact December 16 calendar use does not settle full lexical interpretation.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    },
+    {
+      "batch": "calendar-2026-12-16",
+      "date": "2026-11-12",
+      "calendar_date": "12-16",
+      "country": "ee",
+      "name": "Ethel",
+      "spellings": [
+        "Ethel"
+      ],
+      "countries": [
+        "ee"
+      ],
+      "status": "needs_more",
+      "verification_status": "unverified",
+      "source_ids": [
+        "INT-WIKTIONARY",
+        "EE-LEOLE05-DEC"
+      ],
+      "sources": [
+        "https://en.wiktionary.org/wiki/Ethel#Estonian",
+        "https://suure-jaani.ee/userfiles/leole/LEOLE_2005_12_detsember.pdf#page=1"
+      ],
+      "facts_used": "Ethel is still being checked against English Ethel / Old English æthel. This is an unverified proposal: the available evidence does not yet settle the full origin route. Similar spellings can guide research, but their meanings and first-use dates cannot be transferred automatically.",
+      "hypothesis": "English Ethel / Old English æthel",
+      "reason": "Research pass completed; unresolved origin remains in backlog.",
+      "uncertainties": "English noble-root family is a research lead, but no checked Estonian-specific full-form route and dated scholarly episode established. Same calendar day does not make Ethel a proved Adelheid shortening.",
+      "next_steps": "Check the exact-form bridge and unresolved stem or alternative in an original scholarly source; distinguish dated use from proof of origin."
+    }
+  ]
+}
