@@ -129,6 +129,24 @@ test('Circle K all-stations prices require directory fuel availability and retai
   assert.throws(()=>parseCircle(uniformCircle.replaceAll('Degvielas cena visos DUS ir vienāda','New unknown statement')),/address list changed.*95miles/);
 });
 
+test('Circle K uniform autogas keeps station addresses and only prices LPG locations', () => {
+  const html=uniformCircle.replace('Kārļa Ulmaņa gatve 117','Autogāzes cena visos DUS ir vienāda');
+  const records=parseCircle(html);
+  const directory=[
+    {country:'LV',brand:'Circle K',address:'A iela 1, Rīga',directory_id:'a',lat:56.95,lon:24.1,available_fuels:['95','diesel','diesel_premium','LPG']},
+    {country:'LV',brand:'Circle K',address:'B iela 2, Liepāja',directory_id:'b',available_fuels:['95','diesel']},
+    {country:'LV',brand:'Circle K',address:'C iela 3, Rīga',directory_id:'c',available_fuels:[]},
+  ];
+  const rows=normalize('circle',expandCirclePrices(records,directory),'2026-11-23T12:00:00Z');
+  assert.deepEqual(rows.map(s=>s.address),directory.map(s=>s.address));
+  assert.deepEqual(rows[0].coordinates,{latitude:56.95,longitude:24.1});
+  assert.equal(rows[0].prices.LPG.value,1.118);
+  assert.equal(rows[1].prices.LPG,undefined);
+  assert.deepEqual(rows[2].prices,{});
+  assert.throws(()=>parseCircle(html.replace('Autogāzes cena visos DUS ir vienāda','Unknown LPG statement')),/address list changed.*Autogāze/);
+  assert.throws(()=>parseCircle(html.replace('Degvielas cena visos DUS ir vienāda','Autogāzes cena visos DUS ir vienāda')),/address list changed.*95miles/);
+});
+
 test('Circle K uniform collection loads a directory once, reuses cache, and preserves identities and history', async () => {
   const folder=await mkdtemp(path.join(os.tmpdir(),'circle-uniform-'));
   const originalFetch=globalThis.fetch;let directoryRequests=0;

@@ -84,7 +84,8 @@ export function parseCircle(html) {
     if (!fuels[label]) return;
     const address = clean(load((cells.eq(2).html() || '').replace(/<br\s*\/?\s*>/gi, ', ')).text());
     // A network-wide statement is evidence, not a station address.
-    if (/^Degvielas cena visos DUS ir vienāda[.!]?$/iu.test(address)) {
+    if (/^Degvielas cena visos DUS ir vienāda[.!]?$/iu.test(address) ||
+        (fuels[label] === 'LPG' && /^Autogāzes cena visos DUS ir vienāda[.!]?$/iu.test(address))) {
       out.push({country:'LV',brand:'Circle K',fuel:fuels[label],label,value:cells.eq(1).text(),day,scope:'all_stations'});
       return;
     }

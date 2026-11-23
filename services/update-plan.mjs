@@ -23,6 +23,7 @@ export function planUpdates(state={}, {profile='auto',force=false,now=new Date()
   let due=force||profile==='full'||!at;
   if(!due){due=task.interval?+new Date(now)-Date.parse(at)>=task.interval:rigaDay(now).slice(0,task.period==='month'?7:10)!==rigaDay(at).slice(0,task.period==='month'?7:10);}
   if(task.notBeforeHour&&at&&!force&&profile!=='full')due=rigaHour(now)>=task.notBeforeHour&&(rigaDay(now)!==rigaDay(at)||rigaHour(at)<task.notBeforeHour);
+  if(task.id==='electricity'&&saved.current_coverage_available===false)due=true;
   // A failed request has a cooldown too. Repeated launches must not hammer a 403.
   const retry=task.retryInterval||task.interval||24*hour;
   const coolingDown=!force&&profile!=='full'&&attempt&&(!at||attempt>at)&&+new Date(now)-Date.parse(attempt)<retry;

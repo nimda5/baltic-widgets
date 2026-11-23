@@ -27,7 +27,7 @@ Missing prices are retained as missing. FuelEst prices are community submissions
 | Task | Normal cadence | Data fetched | What is deliberately excluded |
 | --- | --- | --- | --- |
 | `fuel` | Every 6 hours | Operator price pages, LEA latest prices, FuelEst prices, eligible community fallback | Separate station lists/maps; Neste has no price collector |
-| `electricity` | Once daily after 15:00 Europe/Riga | Elering LV/LT/EE day-ahead schedule | Repeated downloads of the same published delivery slots; historical backfill |
+| `electricity` | Once daily after 15:00 Europe/Riga; recover missing current intervals at any hour, with hourly failure retries | Elering LV/LT/EE day-ahead schedule | Repeated downloads of the same published delivery slots; historical backfill |
 | `gas` | Once per Riga calendar day | EEX recent gas files | World Bank monthly history |
 | `markets` | Once per Riga calendar day | Recent ECB USD, SEK, NOK, PLN, DKK, GBP and CHF rates, NBP gold, Coin Metrics Bitcoin | Full historical downloads |
 | `euribor` | Once daily after 16:00 Europe/Riga; failed requests retry after one hour when invoked again | Bank of Finland daily Euribor 6M act/360 XML, delayed 24 hours | Other maturities, act/365 rates, monthly averages |
@@ -142,3 +142,5 @@ Rates are percent per annum, including zero and negative values. Changes are per
 ## Viada price layout (12 November 2026)
 
 The official [minimum-price page](https://www.viada.lv/zemakas-degvielas-cenas/) now uses fuel-table blocks and linked station/address lists instead of the old image-keyed HTML table. The collector supports both layouts. The new parser reads exact product labels, prices and each row’s listed station identity; it does not depend on logo filenames or spread a published minimum across the whole network. It retains 95 Multi FX, 95 Multi FX plus, D, D Multi FX and gas separately, with the original product label in provenance. D Multi FX uses the existing enhanced-diesel slot; it is not combined with the ordinary D quote. E85 remains outside the supported product set and 98 remains excluded from normalized public station quotes. Missing identities, invalid prices, unknown labels or missing required rows fail collection instead of guessing. A live isolated Viada collection returned nine priced stations with source status ok. This verifies the source parser; complete fuel coverage and public deployment still have their separate report statuses. Changes must reach main before the isolated default updater uses them.
+
+Circle K station addresses and coordinates remain separate directory records even when an operator price is identical across the network. Explicit network-wide fuel and autogas statements apply only to directory locations listing that fuel. Locations without confirmed fuel availability remain in the directory without inferred prices. See [the 23 November directory audit](research/fuel/circle-k-directory-2026-11-23.md) for the station-count check.

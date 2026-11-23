@@ -23,6 +23,18 @@ test('electricity fetch waits for afternoon publication and does not repeat afte
  assert.equal(task('2026-11-09T13:30:00Z').reason,'retry_cooldown');
  assert.equal(task('2026-11-09T14:01:00Z').due,true);
 });
+test('missing current electricity bypasses publication hour while retaining failure cooldown',()=>{
+ const state={electricity:{last_success:'2026-11-21T21:18:58Z',current_coverage_available:false}};
+ const task=now=>planUpdates(state,{profile:'prices',now:new Date(now)}).find(t=>t.id==='electricity');
+ assert.equal(task('2026-11-23T11:36:00Z').due,true);
+ state.electricity.current_coverage_available=true;
+ assert.equal(task('2026-11-23T11:36:00Z').due,false);
+ state.electricity.current_coverage_available=false;
+ state.electricity.last_attempt='2026-11-23T11:00:00Z';
+ assert.equal(task('2026-11-23T11:36:00Z').reason,'retry_cooldown');
+ assert.equal(task('2026-11-23T12:01:00Z').due,true);
+});
+
 test('daily and monthly boundaries use Riga time and weekly jobs use elapsed days',()=>{
  const state=Object.fromEntries(updateTasks.map(t=>[t.id,{last_success:'2026-11-30T20:00:00Z'}]));
  const plan=planUpdates(state,{now:new Date('2026-11-30T22:05:00Z')});

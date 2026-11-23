@@ -14,7 +14,7 @@ import {refreshNamedayStatistics} from '../scripts/update-nameday-statistics.mjs
 import {refreshEstonianNameStatistics} from '../scripts/update-nameday-statistics-ee.mjs';
 import {refreshLithuanianNameStatistics} from '../scripts/update-nameday-statistics-lt.mjs';
 const meta=(db,key)=>JSON.parse(db.prepare('SELECT value FROM metadata WHERE key=?').get(key)?.value||'null');
-export async function scheduleState(db,dir){
+export async function scheduleState(db,dir,now=new Date()){
  const state=meta(db,'update_schedule_v1')||{};
  const seed=(id,at)=>{if(!state[id]&&at&&Number.isFinite(Date.parse(at)))state[id]={last_success:at};};
  // Adopt successful work already done before this scheduler was introduced.
@@ -23,6 +23,13 @@ export async function scheduleState(db,dir){
  seed('fuel',latest((collector?.sources||[]).filter(s=>s.id!=='neste').map(s=>s.last_success_at)));
  seed('directories',latest((collector?.data||[]).map(s=>s.directory_updated_at)));
  seed('electricity',meta(db,'electricity_backfill')?.updated_at);
+ // Publication time only gates tomorrow's download, never recovery of missing
+ // current prices after a missed run or a gap in one market's schedule.
+ if(db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='electricity_prices'").get()){
+  const at=new Date(now).toISOString();
+  const coverage=db.prepare("SELECT count(DISTINCT market) AS n FROM electricity_prices WHERE source='elering' AND market IN ('LV','LT','EE') AND at<=? AND valid_to>?").get(at,at);
+  state.electricity={...state.electricity,current_coverage_available:coverage.n===3};
+ }
  seed('gas',meta(db,'gas')?.updated_at);seed('markets',meta(db,'markets_last_run')?.updated_at);
  seed('euribor',meta(db,'euribor_last_run')?.updated_at);
  seed('fuel_archive',meta(db,'archive')?.imported_at);seed('commodity_archive',meta(db,'worldbank_archive')?.checked_at);
@@ -30,7 +37,7 @@ export async function scheduleState(db,dir){
  return state;
 }
 export async function runPlannedUpdates(db,dir,{profile='auto',force=false,now=new Date(),dryRun=false,fuelIntervalHours=6,executors={}}={}){
- const state=await scheduleState(db,dir),plan=planUpdates(state,{profile,force,now});
+ const state=await scheduleState(db,dir,now),plan=planUpdates(state,{profile,force,now});
  // The server may opt for a slower fuel cadence, never faster than six hours.
  for(const task of plan)if(task.id==='fuel'&&!force&&profile!=='full'&&task.last_success&&+now-Date.parse(task.last_success)<fuelIntervalHours*3600000){task.due=false;task.reason='not_due';}
  const report={started_at:now.toISOString(),profile,force,tasks:[],errors:[]};
