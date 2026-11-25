@@ -259,6 +259,7 @@ async function collectDirectory(source){
  }
  if(source==='viada'){
   const rows=parseViadaDirectory(html);
+  if(rows.some(row=>Number.isFinite(row.lat)&&Number.isFinite(row.lon)))return rows;
   try{return addViadaCoordinates(rows,await request('https://www.viada.lv/degvielasuzpildesstacijas/degvielas-uzpildes-staciju-karte/'));}catch{return rows;}
  }
  return parseStraujupiteDirectory(html);
@@ -284,6 +285,7 @@ async function collect(source) {
   }
   if (source === 'fuelest') {
     const home = await request(urls.fuelest), $ = load(home);
+    if (/\bWEB_SESSION_TOKEN\s*=/.test(home)) throw new Error('FuelEst now requires a web session for live prices');
     const script = $('script[src]').map((_, s) => $(s).attr('src')).get().find(s => s.startsWith('/js/app.min.js'));
     if (!script) throw new Error('FuelEst script changed');
     const bundle = await request(new URL(script, urls.fuelest));

@@ -20,6 +20,20 @@ test('Viada Latvia list strips telephone numbers and retains a station without i
   assert.throws(()=>parseViadaDirectory(html.replace('LV1021','LT1021')),/country/);
 });
 
+test('Viada cards use the official Latvian map while preserving the address-based identity',()=>{
+  const address='Testa iela 1, Rīga, LV-1021';
+  const legacy=parseViadaDirectory('<table class="dus-list"><tr><td><span class="dus-name">DUS Test</span>: Adrese: '+address+'</td></tr></table>')[0];
+  const stations=[
+    {id:9173,c:'lt',lat:54.9,lng:23},
+    {id:10363,c:'lv',lat:56.95,lng:24.1,p:'private-field'}
+  ];
+  const page='<script id="viada-dus-map-js-before">window.viadaDusMap='+JSON.stringify({stations})+';</script>'+
+    '<div class="dus-item type-dus post-10363"><div class="dus-item__main"><a>DUS Test</a>'+
+    '<p class="dus-item__adress">'+address+'</p></div></div>';
+  assert.deepEqual(parseViadaDirectory(page),[{...legacy,lat:56.95,lon:24.1}]);
+  assert.throws(()=>parseViadaDirectory(page.replace('post-10363','post-9173')),/missing from map/);
+});
+
 test('Straujupīte pairs each tab title with its address; Google viewport centres are not station coordinates',()=>{
   const panel=(id,name,src)=>`<div id="title-${id}">${name}</div><div class="elementor-tab-content" aria-labelledby="title-${id}"><div class="elementor-widget-text-editor">Testa ${id}, Rīga</div><iframe src="${src}"></iframe></div>`;
   const result=parseStraujupiteDirectory(panel(1,'Test','https://embed.waze.com/iframe?lat=56.95&lon=24.1')+panel(2,'Other*','https://www.google.com/maps/embed?pb=!2d24!3d57'));

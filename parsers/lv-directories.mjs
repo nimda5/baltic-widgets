@@ -33,6 +33,25 @@ export function parseVirsiDirectory(data){
 // is used only to enrich exact matching addresses with coordinates.
 export function parseViadaDirectory(html){
   const $=load(html),rows=[];
+  const cards=$('.dus-item.type-dus');
+  if(cards.length){
+    const json=$('#viada-dus-map-js-before').text()
+      .match(/^\s*window\.viadaDusMap\s*=\s*(\{[^\r\n]*\});/m)?.[1];
+    const stations=json?JSON.parse(json).stations:null;
+    if(!Array.isArray(stations))throw Error('Viada station map missing');
+    const points=new Map(stations.filter(s=>s.c==='lv').map(s=>[String(s.id),s]));
+    cards.each((_,card)=>{
+      const item=$(card),name=clean(item.find('.dus-item__main a').first().text()).replace(/\*$/,'');
+      const address=clean(item.find('.dus-item__adress').text());
+      if(!name || !/\bLV\s*-?\s*\d{4}\b/i.test(address))throw Error('Viada Latvia station identity missing');
+      const post=item.attr('class')?.match(/\bpost-(\d+)\b/)?.[1];
+      const point=points.get(post);
+      if(!point)throw Error('Viada Latvia station missing from map');
+      rows.push({country:'LV',brand:'Viada',name,address,directory_id:identity(address),
+        lat:point.lat,lon:point.lng,directory_url:directoryURLs.viada});
+    });
+    return validate(rows,'Viada');
+  }
   $('.dus-list tr').each((_,tr)=>{
     const cell=$(tr).find('td').first(),name=clean(cell.find('.dus-name').text()).replace(/\*$/,'');
     if(!name)return;
