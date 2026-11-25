@@ -3,7 +3,8 @@ param(
     [string]$Profile = 'Auto',
     [switch]$Force,
     [switch]$Plan,
-    [switch]$NoPublish
+    [switch]$NoPublish,
+    [switch]$VirsiBrowser
 )
 
 # Auto runs only tasks whose cadence has elapsed. Full is the explicit backfill.
@@ -16,6 +17,7 @@ try {
     if (-not $Plan -and -not $NoPublish) {
         $publicationArguments = @('scripts/run-published-update.mjs', "--profile=$($Profile.ToLowerInvariant())")
         if ($Force) { $publicationArguments += '--force' }
+        if ($VirsiBrowser) { $publicationArguments += '--virsi-browser' }
         & node @publicationArguments
         if ($LASTEXITCODE -ne 0) { throw 'Update or publication failed; see the preserved publication checkout and artifacts reports.' }
         return
@@ -23,6 +25,7 @@ try {
     $updateArguments = @('run', 'update', '--', "--profile=$($Profile.ToLowerInvariant())")
     if ($Force) { $updateArguments += '--force' }
     if ($Plan) { $updateArguments += '--plan' }
+    if ($VirsiBrowser) { $updateArguments += '--virsi-browser' }
     Write-Host "Update profile: $Profile"
     & npm.cmd @updateArguments
     if ($LASTEXITCODE -ne 0) { throw 'Update failed' }

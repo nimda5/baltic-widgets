@@ -8,6 +8,7 @@ import {initializeGas} from '../parsers/gas.mjs';
 import {initializeMarkets} from '../parsers/markets.mjs';
 import {initializeHoroscope,horoscopeData} from '../parsers/horoscope.mjs';
 import {runPlannedUpdates} from '../services/update-runner.mjs';
+import {readVirsiPricesInBrowser} from '../parsers/virsi-browser.mjs';
 import {rigaDay} from '../services/update-plan.mjs';
 const profile=process.argv.find(a=>a.startsWith('--profile='))?.slice(10)||'auto';
 const force=process.argv.includes('--force'),dryRun=process.argv.includes('--plan'),offline=process.argv.includes('--offline');
@@ -18,7 +19,9 @@ await lock.writeFile(JSON.stringify({pid:process.pid,started_at:new Date().toISO
 let db;
 try{
  db=database(dir);initializeElectricity(db);initializeGas(db);initializeMarkets(db);initializeHoroscope(db);
- const report=offline?{profile,offline:true,tasks:[],errors:[],status:'ok'}:await runPlannedUpdates(db,dir,{profile,force,dryRun});
+ const readVirsiPrices = process.argv.includes('--virsi-browser') ? readVirsiPricesInBrowser : undefined;
+ const report = offline ? {profile,offline:true,tasks:[],errors:[],status:'ok'}
+   : await runPlannedUpdates(db,dir,{profile,force,dryRun,readVirsiPrices});
  if(dryRun){
   if(process.argv.includes('--json'))console.log(JSON.stringify(report,null,2));
   else{

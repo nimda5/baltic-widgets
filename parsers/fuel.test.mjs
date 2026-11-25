@@ -1,9 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { normalize, parseCircle, expandCirclePrices, parseStraujupite, parseVirsi, parseViada, parseLea, parseFuelest, geojson, run, addViadaCoordinates } from './fuel.mjs';
+import { directoryURLs } from './lv-directories.mjs';
 
 const now = '2026-11-05T07:00:00Z';
 const circle = `<p>Cenas spēkā no 04.11.2026.</p><table>
@@ -99,6 +100,35 @@ test('failed refresh keeps last good prices, history and marks source failure', 
     assert.equal(second.data.find(s => s.prices['95']).prices['95'].history.length, 1);
   } finally {
     globalThis.fetch = originalFetch; process.exitCode = originalExitCode;
+    await rm(folder, { recursive: true, force: true });
+  }
+});
+
+test('interactive Virši collection preserves station IDs and rejects prices without a publication date', async () => {
+  const folder = await mkdtemp(path.join(os.tmpdir(), 'fuel-virsi-browser-'));
+  const address = 'Brīvības gatve 297, Rīga, LV-1006';
+  const day = new Date().toISOString().slice(0, 10);
+  const cards = ['95e', '98e', 'dd'].map(type =>
+    `<div class="price-card" data-type="${type}"><div class="address">${address}</div><div class="price"><span>${type}</span><span>1.699</span></div></div>`
+  ).join('');
+  const priceHTML = `<div class="fuel-block">${cards}</div>`;
+  const locations = normalize('virsi', [{
+    directory_id: '7', directory_url: directoryURLs.virsi,
+    country: 'LV', brand: 'Virši', address, lat: 56.98, lon: 24.17
+  }], now);
+  const readVirsiPrices = async () =>
+    priceHTML + `<p>Cenas mājaslapā ir atjaunotas ${day.split('-').reverse().join('.')}.</p>`;
+  try {
+    await writeFile(path.join(folder, 'fuel-stations.json'), JSON.stringify({ data: locations, sources: [] }));
+    const prices = await run(folder, ['virsi'], { readVirsiPrices, setExitCode: false });
+    assert.equal(prices.data[0].id, locations[0].id);
+    assert.equal(prices.data[0].prices['95'].value, 1.699);
+    assert.equal(prices.data[0].prices['95'].observed_date, day);
+
+    const failed = await run(folder, ['virsi'], { readVirsiPrices: async () => priceHTML, setExitCode: false });
+    assert.deepEqual(failed.data, prices.data);
+    assert.match(failed.errors[0], /Source date missing/);
+  } finally {
     await rm(folder, { recursive: true, force: true });
   }
 });

@@ -33,6 +33,7 @@
   "dependencies": {
     "astronomy-engine": "^2.1.19",
     "cheerio": "^1.2.0",
+    "playwright-core": "1.65.1",
     "read-excel-file": "^9.3.14"
   }
 }

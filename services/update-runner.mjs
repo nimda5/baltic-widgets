@@ -36,13 +36,13 @@ export async function scheduleState(db,dir,now=new Date()){
  try{const names=JSON.parse(await readFile(new URL('../public/data/namedays/population-lv.json',import.meta.url),'utf8'));seed('nameday_statistics',names.checked_at);}catch(e){if(e.code!=='ENOENT')throw e;}
  return state;
 }
-export async function runPlannedUpdates(db,dir,{profile='auto',force=false,now=new Date(),dryRun=false,fuelIntervalHours=6,executors={}}={}){
+export async function runPlannedUpdates(db,dir,{profile='auto',force=false,now=new Date(),dryRun=false,fuelIntervalHours=6,executors={},readVirsiPrices}={}){
  const state=await scheduleState(db,dir,now),plan=planUpdates(state,{profile,force,now});
  // The server may opt for a slower fuel cadence, never faster than six hours.
  for(const task of plan)if(task.id==='fuel'&&!force&&profile!=='full'&&task.last_success&&+now-Date.parse(task.last_success)<fuelIntervalHours*3600000){task.due=false;task.reason='not_due';}
  const report={started_at:now.toISOString(),profile,force,tasks:[],errors:[]};
  if(dryRun)return{...report,tasks:plan.map(t=>({...t,status:t.due?'due':'skipped'}))};
- const fuel=async mode=>{await ensureCollectorState(db,path.join(dir,'collector'));const doc=await collectFuel(path.join(dir,'collector'),undefined,{mode,setExitCode:false});saveStations(db,doc);return{stations:doc.data.length,errors:doc.errors||[]};};
+ const fuel=async mode=>{await ensureCollectorState(db,path.join(dir,'collector'));const doc=await collectFuel(path.join(dir,'collector'),undefined,{mode,setExitCode:false,readVirsiPrices});saveStations(db,doc);return{stations:doc.data.length,errors:doc.errors||[]};};
  const electricity=async()=>{
   const result=await refreshElectricity(db,Date.now(),{backfill:profile==='full'});
   if(rigaHour(new Date())>=15){

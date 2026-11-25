@@ -335,7 +335,9 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
           statuses.set(source,{...statuses.get(source),id:source,directory_status:'ok',directory_last_success_at:now,directory_error:null,directory_http_error:null,directory_location_count:directory.length});
           continue;
         }
-        const collected=await collect(source);
+        const collected = source === 'virsi' && options.readVirsiPrices
+          ? parseVirsi(await options.readVirsiPrices(urls.virsi))
+          : await collect(source);
         let records=Array.isArray(collected)?collected:collected.records;
         const previous = new Map(stations.filter(s => s.source === source).map(s => [s.id, s]));
         const hasDirectory=source==='circle'||!!directoryURLs[source]||!!extraURLs[source];
@@ -347,7 +349,7 @@ export async function run(output = 'artifacts/fuel-live', sourceList = Object.ke
           directoryLive=!cached.size;
           records=expandCirclePrices(records,directory);
         }else if(hasDirectory&&!directoryLive&&cached.size){
-          const directory=[...cached.values()].map(s=>({id:s.id,country:s.country,brand:s.brand,name:s.name,address:s.address,
+          const directory=[...cached.values()].map(s=>({id:s.id.replace(`${source}:`, ''),country:s.country,brand:s.brand,name:s.name,address:s.address,
             lat:s.coordinates?.latitude,lon:s.coordinates?.longitude,directory_id:s.directory_id,directory_url:s.directory_url,available_fuels:s.available_fuels||[]}));
           records=mergeDirectory(records,directory);
         }

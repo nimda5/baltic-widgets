@@ -73,6 +73,16 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "FULL_PATH\scripts\updat
 
 `-Force` overrides the selected tasks' cadence and failed-request cooldown. It should be used intentionally, not in a recurring task. `-Profile Full` is the explicit initialization/recovery operation: it runs all tasks and permits electricity/market historical backfill when the database lacks it. Routine profiles never start a historical backfill implicitly. Full history initialization can take much longer.
 
+### Interactive Virši price update
+
+Pass `-VirsiBrowser` when running the updater from an interactive Windows desktop with Microsoft Edge installed. When the fuel price task runs, the updater opens a separate Edge window and waits up to three minutes for the Virši prices. Complete any verification shown in the window. Closing the window or reaching the timeout preserves the previous Virši prices.
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "FULL_PATH\scripts\update-widgets.ps1" -Profile Prices -Force -VirsiBrowser -NoPublish
+```
+
+`-Profile Prices` refreshes fuel prices and electricity. `-Force` runs the group immediately. The station catalogue follows its normal weekly schedule. Scheduled updates can keep using the default command.
+
 ## Equivalent npm commands
 
 Run these from the repository root. They collect/export only; they do not commit, build or deploy by themselves.
